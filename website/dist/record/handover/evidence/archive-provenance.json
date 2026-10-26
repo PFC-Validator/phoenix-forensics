@@ -1,0 +1,16 @@
+{
+  "sha": "7cebbd26048f0e1568a2aed55177090b90788d8b",
+  "html_url": "https://github.com/phoenix-directive/docs/commit/7cebbd26048f0e1568a2aed55177090b90788d8b",
+  "github_author_login": "0xphilipp",
+  "github_committer_login": "0xphilipp",
+  "commit_author_date": "2026-10-16T01:29:15Z",
+  "commit_committer_date": "2026-10-16T01:29:15Z",
+  "message": "add common backup",
+  "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2024-12-27T15:41:30Z",
+    "hash": "54724BA583C5A44585325FC47E5930DC2F5D02918AD50D97A7778C7440DC8E50",
+    "msg_index": 0,
+    "kind": "migration",
+    "contract": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+    "label": "Voting gauge",
+    "sender": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+    "code_id": "3436",
+    "msg": {},
+    "success": true,
+    "old_code_id": 3224,
+    "new_code_id": 3436,
+    "power": "Wasm migration administrator"
+  }
+]

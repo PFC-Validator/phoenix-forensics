@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2026-09-22T09:55:22Z",
+    "hash": "D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+    "msg_index": 0,
+    "kind": "registry_change",
+    "contract": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+    "label": "TLA permissions registry",
+    "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "msg": {
+      "set_addresses": {
+        "addresses": [
+          [
+            "BURN_RECIPIENT",
+            "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9"
+          ]
+        ],
+        "lists": []
+      }
+    },
+    "success": true,
+    "power": "TLA registry owner"
+  }
+]

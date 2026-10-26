@@ -1,0 +1,290 @@
+{
+  "prepared_utc": "2026-10-18T23:03:44.147189+00:00",
+  "subject": "Public evidence that 0xPhilipp promised administrator and owner handover of TLA contracts to PD Stewardship",
+  "strongest_supported_statement": "The public launch proposal attributed to 0xPhilipp expressly promised transfer of contract administration after one month and ownership after three months. His contemporaneous public chat linked that exact proposal, native proposal 4817 linked it for full details, and his GitHub account later published the backup preserving the wording.",
+  "statements": [
+    {
+      "id": "ST01",
+      "date_utc": "2024-08-01",
+      "type": "auditor_record_of_team_statement",
+      "author": "SCV-Security reporting ERIS team response",
+      "title": "Auditor records intended multisig control of voting escrow",
+      "exact_short_quote": "the contract will be controlled by a multi-sig",
+      "context": "Finding 7, page 16. The team said an upgrade could support iterative blacklisting if a user created too many locks. This is the auditor reporting a team representation; it does not identify the individual speaker or certify deployed administrator custody.",
+      "direct_url": "https://github.com/SCV-Security/PublicReports/blob/main/Eris%20Protocol/ERIS%20-%20Contracts%20ve3%20-%20Audit%20Report%20v1.0.pdf#page=16",
+      "publishable_public_source": true,
+      "is_direct_philipp_statement": false
+    },
+    {
+      "id": "ST02",
+      "date_utc": "2024-08-12",
+      "created_utc": "2024-08-12T08:46:56.607Z",
+      "last_edited_utc": "2024-08-12T18:52:56.915Z",
+      "date_basis": "Dates reported by the preserved Common post metadata; no independent 2024 revision snapshot recovered in this review. Both creation and last edit fall on 12 August.",
+      "type": "direct_launch_proposal_promises",
+      "author": "0xPhilipp",
+      "author_address": "cosmos142v8lp8m8fgj3zegg9mzsq9k5n2z2r06cn04h5",
+      "title": "Launching Terra Liquidity Alliance",
+      "administrator_promise": "Contract Admin will be transferred to PD Stewardship after 1 month.",
+      "owner_promise": "Ownership transferred to PD Stewardship after 3 months.",
+      "administrator_address": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "owner_address": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "promised_recipient_address": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "role_definitions_paraphrase": {
+        "administrator": "Can migrate the contracts.",
+        "owner": "Can change technical contract configuration."
+      },
+      "direct_url": "https://common.xyz/terra/discussion/24385-launching-terra-liquidity-alliance",
+      "archived_source_url": "https://github.com/phoenix-directive/docs/blob/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md",
+      "quote_lines_url": "https://github.com/phoenix-directive/docs/blob/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md#L168-L169",
+      "author_lines_url": "https://github.com/phoenix-directive/docs/blob/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md#L4-L6",
+      "publishable_public_source": true,
+      "is_direct_philipp_statement": true,
+      "limitations": [
+        "Original Common page and documented public API returned HTTP 403 in this retrieval.",
+        "The backup was published in 2026 by the GitHub account 0xphilipp. No independent 2024 capture was recovered.",
+        "These are separate one-month and three-month promises. The text does not state an explicit calendar deadline or unambiguously define the starting event."
+      ]
+    },
+    {
+      "id": "ST03",
+      "date_utc": "2024-08-12T08:48:54+00:00",
+      "edited_utc_from_native_export": "2024-08-12T09:36:26+00:00",
+      "type": "public_telegram_statement",
+      "author": "0xPhilipp | PF, ERIS",
+      "author_stable_telegram_id": "user1571816874",
+      "title": "Philipp shares the exact launch proposal in public ERIS chat",
+      "exact_message_text": "https://commonwealth.im/terra/discussion/24385-launching-terra-liquidity-alliance",
+      "message_id": 17502,
+      "chat_id": 1410061465,
+      "chat": "Eris Protocol Chat",
+      "direct_url": "https://t.me/eris_protocol/17502",
+      "verified_public_embed_url": "https://t.me/eris_protocol/17502?embed=1",
+      "public_embed_live_retrieved": true,
+      "local_public_embed": {
+        "sha256": "3e1983bc2fa5cf96ba357c72c1cf487ba65c0bb2c04abff755fe7688a7b3c86c"
+      },
+      "context": "Contemporaneous promotion of the same Common discussion about two minutes after its recorded creation. The link message does not reproduce the promise text.",
+      "publishable_public_source": true,
+      "is_direct_philipp_statement": true
+    },
+    {
+      "id": "ST04",
+      "date_utc": "2024-08-20T06:02:52.053534550Z",
+      "type": "native_governance_proposal",
+      "title": "Launching Terra Liquidity Alliance",
+      "proposal_id": 4817,
+      "proposer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "exact_short_quote": "For full details on this proposal, including helpful links, please see our post on Agora:",
+      "incorporated_by_link_url": "https://commonwealth.im/terra/discussion/24385-launching-terra-liquidity-alliance",
+      "direct_url": "https://chainsco.pe/terra2/governance/proposal/4817",
+      "machine_readable_urls": [
+        "https://terra-lcd.publicnode.com/cosmos/gov/v1/proposals/4817",
+        "https://lcd.phoenix-foundation.dev/cosmos/gov/v1/proposals/4817"
+      ],
+      "two_independent_lcd_responses_equal_after_json_parsing": true,
+      "local_sources": [
+        {
+          "sha256": "1a29c1316a46ce10d8b1fa50992286ec1899a1d59c7aa72667812e770431e01a",
+          "json_pointer": "/proposal"
+        },
+        {
+          "sha256": "3789ecf6557ee5f9fd6d6301f33cc237ab4acd251cd3ea04d3eb4990a5636336",
+          "json_pointer": "/proposal"
+        }
+      ],
+      "context": "The native proposal expressly points to discussion 24385 for full details. Its three executable messages create Alliance assets. They neither transfer the administrator/owner nor automatically schedule the promised handover. “Incorporation” here means documentary reference; no legal conclusion is implied.",
+      "publishable_public_source": true
+    },
+    {
+      "id": "ST05",
+      "date_utc": "2024-08-20T06:11:20+00:00",
+      "edited_utc_from_native_export": "2024-08-20T06:12:32+00:00",
+      "type": "public_telegram_statement",
+      "author": "0xPhilipp | PF, ERIS",
+      "author_stable_telegram_id": "user1571816874",
+      "title": "Philipp announces proposal 4817 has been posted on-chain",
+      "exact_message_text": "Launching Alliance Liquidity Proposal been posted on-chain now 🫡\n\nhttps://dashboard.station.money/proposal/phoenix-1/4817\n\nDashboard and Station only shows the first message of the proposal. All proposed Alliances can be seen here: https://lcd-terra.tfl.foundation/cosmos/gov/v1/proposals/4817",
+      "message_id": 17612,
+      "chat_id": 1410061465,
+      "chat": "Eris Protocol Chat",
+      "direct_url": "https://t.me/eris_protocol/17612",
+      "verified_public_embed_url": "https://t.me/eris_protocol/17612?embed=1",
+      "public_embed_live_retrieved": true,
+      "local_public_embed": {
+        "sha256": "10e7ace2c7d29923f0fc33ff446aea2b96b30b758bf1feb2f2c58a17f12396ba"
+      },
+      "context": "Replies to a request to put the launch proposal to a vote. Links Station and the native proposal JSON. Confirms the transition from forum proposal to native governance.",
+      "publishable_public_source": true,
+      "is_direct_philipp_statement": true
+    },
+    {
+      "id": "ST06",
+      "date_utc": "2024-08-27T06:02:52.053534550Z",
+      "type": "native_governance_outcome",
+      "title": "Proposal 4817 passes",
+      "status": "PROPOSAL_STATUS_PASSED",
+      "direct_url": "https://chainsco.pe/terra2/governance/proposal/4817",
+      "context": "This date can anchor a clearly labeled analytical deadline calculation. It is not a separate promise statement.",
+      "publishable_public_source": true
+    },
+    {
+      "id": "ST07",
+      "date_utc": "2024-12-02T22:53:29+00:00",
+      "edited_utc_from_native_export": "2024-12-02T22:54:42+00:00",
+      "type": "public_telegram_statement",
+      "author": "0xPhilipp | PF, ERIS",
+      "author_stable_telegram_id": "user1571816874",
+      "title": "Philipp points readers back to the original launch details",
+      "exact_message_text": "Initial description:\nhttps://commonwealth.im/terra/discussion/20123-terra-liquidity-alliance\n\nLaunch details:\nhttps://commonwealth.im/terra/discussion/24385-launching-terra-liquidity-alliance",
+      "message_id": 22767,
+      "chat_id": 1410061465,
+      "chat": "Eris Protocol Chat",
+      "direct_url": "https://t.me/eris_protocol/22767",
+      "verified_public_embed_url": "https://t.me/eris_protocol/22767?embed=1",
+      "public_embed_live_retrieved": true,
+      "local_public_embed": {
+        "sha256": "69fc017dee96a6ec0f8460eabaa6b40c9dcb84d3a30fa6b4d8657e0fe09dd8d4"
+      },
+      "context": "Later public endorsement/reference to the original launch discussion. Not a new promise, amendment, or statement that handover had been completed.",
+      "publishable_public_source": true,
+      "is_direct_philipp_statement": true
+    },
+    {
+      "id": "ST08",
+      "date_utc": "2024-12-02T22:54:08+00:00",
+      "edited_utc_from_native_export": null,
+      "type": "public_telegram_statement",
+      "author": "0xPhilipp | PF, ERIS",
+      "author_stable_telegram_id": "user1571816874",
+      "title": "Philipp says the take rate goes to a PD-managed multisig",
+      "exact_message_text": "take rate currently going into a Phoenix Directive managed multi-sig to create chain owned liquidity.",
+      "message_id": 22768,
+      "chat_id": 1410061465,
+      "chat": "Eris Protocol Chat",
+      "direct_url": "https://t.me/eris_protocol/22768",
+      "verified_public_embed_url": "https://t.me/eris_protocol/22768?embed=1",
+      "public_embed_live_retrieved": true,
+      "local_public_embed": {
+        "sha256": "7eb93e7cba2d85a70a998a73db62ba1bd59a09bcb5449145e82dcd496d585dc9"
+      },
+      "context": "This describes the take-rate recipient, not the migration administrator or registry owner. It cannot be treated as proof those two promised handovers happened.",
+      "publishable_public_source": true,
+      "is_direct_philipp_statement": true
+    },
+    {
+      "id": "ST09",
+      "date_utc": "2026-10-16T01:29:15Z",
+      "type": "archive_publication_provenance",
+      "title": "Philipp account publishes the Common backup",
+      "author_github_login": "0xphilipp",
+      "commit_author_name": "Philipp",
+      "commit_message": "add common backup",
+      "commit_sha": "7cebbd26048f0e1568a2aed55177090b90788d8b",
+      "file_added": "2024-08-12_24385_launching-terra-liquidity-alliance.md",
+      "file_blob_sha": "c97550356d3524b7304c477609f7b96beeaa8779",
+      "direct_url": "https://github.com/phoenix-directive/docs/commit/7cebbd26048f0e1568a2aed55177090b90788d8b",
+      "file_history_returned_commits": [
+        "7cebbd26048f0e1568a2aed55177090b90788d8b"
+      ],
+      "commit_signature_verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      },
+      "file_first_commit_and_latest_pinned_archive_sha256": "b4023cebacad7d606be70c6637ce7a23a087983b2e6f32d66374ca48e63f5c92",
+      "local_sources": [
+        {
+          "sha256": "c2afd65a31eac162a66e0a565928fd28f3f4681e44533dce1b2983f07411b2d7"
+        },
+        {
+          "sha256": "0a32c39d72f8fda6bd53570ded5839ab777dc120abc31e66132525f835dcc017"
+        },
+        {
+          "sha256": "b4023cebacad7d606be70c6637ce7a23a087983b2e6f32d66374ca48e63f5c92"
+        }
+      ],
+      "context": "GitHub identifies 0xphilipp as the account associated with the commit adding this exact file. It preserves the author attribution and promises. The commit is unsigned; repository metadata is not a 2024 timestamp certificate or proof of civil identity by itself.",
+      "publishable_public_source": true
+    }
+  ],
+  "authorship_chain": [
+    "Common archive metadata names 0xPhilipp and a Cosmos author address.",
+    "Live public Telegram embed independently shows Philipp sharing the exact proposal on 12 August 2024.",
+    "Native proposal 4817, submitted by the named ERIS owner wallet, points to that exact discussion for full details.",
+    "The 0xphilipp GitHub account added the archive on 16 October 2026."
+  ],
+  "deadline_calculation": {
+    "textual_promises": {
+      "administrator": "after 1 month",
+      "owner": "after 3 months"
+    },
+    "explicit_calendar_deadline_in_original": null,
+    "analytical_anchor": "2024-08-27 governance passage",
+    "calculated_administrator_date": "2024-09-27",
+    "calculated_owner_date": "2024-11-27",
+    "instruction": "Label these as calculations from proposal passage, not dates quoted from Philipp. Original text does not unambiguously specify the start event.",
+    "scope": "Original TLA contracts named by the launch proposal; the later Phoenix Treasury does not automatically acquire the same deadline merely by using the registry."
+  },
+  "later_amendments_found": [],
+  "amendment_search_conclusion": "No later public statement extending or rescinding the two handover promises was found in the bounded retained corpus. Absence from these sources is not proof no other approval exists.",
+  "search_coverage": {
+    "fresh_public_chats": [
+      {
+        "name": "ERIS native public supergroup",
+        "message_elements": 26149,
+        "latest": "2026-10-16"
+      }
+    ],
+    "fresh_common_archive": {
+      "posts": 126,
+      "export_date": "2026-10-16"
+    },
+    "previous_governance_search": "Previous disclosure pass searched 281 board proposals, 124 native proposals and the 17 October recent-proposal snapshot, without a qualifying extension. Those source bounds are in authority_complete_map_20261018/disclosure/disclosure_review.txt."
+  },
+  "not_to_conflate": [
+    {
+      "reason": "A claim that ERIS Amplifier and ICS20 administrators moved to a builders multisig concerns different contracts before TLA existed."
+    },
+    {
+      "reason": "Discussion of TFL asset/code handover, not the TLA admin/owner promise."
+    },
+    {
+      "reason": "“ERIS keeps LA” was immediately qualified as ampLUNA rebase. It is not an amendment to the administrative handover."
+    },
+    {
+      "reason": "A multisig receiving the take rate is not proof that it controls upgrades or registry ownership."
+    }
+  ],
+  "live_retrieval_limits": {
+    "original_common_page": "HTTP 403",
+    "original_common_documented_api": "HTTP 403",
+    "github_pinned_source": "HTTP 200",
+    "github_commit_api": "HTTP 200",
+    "public_telegram_embeds": "All four returned HTTP 200, with matching message text, author label and timestamp. Web search tool could not open them; direct public HTTP retrieval succeeded.",
+    "native_proposal": "Two HTTPS LCD responses returned HTTP 200 and matched as JSON."
+  },
+  "external_preservation": {
+    "verified_new_captures": [
+      {
+        "target": "https://github.com/phoenix-directive/docs/blob/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md",
+        "archive": "https://web.archive.org/web/20261018230521/https://github.com/phoenix-directive/docs/blob/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md",
+        "content_verified": true
+      },
+      {
+        "target": "https://raw.githubusercontent.com/phoenix-directive/docs/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md",
+        "archive": "https://web.archive.org/web/20261018230454/https://raw.githubusercontent.com/phoenix-directive/docs/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md",
+        "content_verified": true
+      },
+      {
+        "target": "https://github.com/phoenix-directive/docs/commit/7cebbd26048f0e1568a2aed55177090b90788d8b",
+        "archive": "https://web.archive.org/web/20261018230505/https://github.com/phoenix-directive/docs/commit/7cebbd26048f0e1568a2aed55177090b90788d8b",
+        "content_verified": true
+      }
+    ],
+    "original_common_new_capture": "unconfirmed after timeout and one CDX follow-up",
+    "older_captures": "August/September 2024 and January 2025 retrieved, but app shells only; no independent historical text authentication."
+  }
+}

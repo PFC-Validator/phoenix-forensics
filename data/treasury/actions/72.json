@@ -1,0 +1,64 @@
+{
+  "data": {
+    "id": 72,
+    "name": "Creda Grant",
+    "reserved": [],
+    "cancelled": false,
+    "done": true,
+    "setup": {
+      "milestone": {
+        "recipient": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+        "asset_info": {
+          "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+        },
+        "milestones": [
+          {
+            "text": "Kickoff",
+            "amount": "40000000000"
+          },
+          {
+            "text": "Mainnet launch",
+            "amount": "100000000000"
+          },
+          {
+            "text": "eMode + Isolation",
+            "amount": "60000000000"
+          },
+          {
+            "text": "Analytics",
+            "amount": "10000000000"
+          }
+        ]
+      }
+    },
+    "active_from": 1760594959,
+    "total_usd": "210000",
+    "total_usd_30d": "382140",
+    "runtime": {
+      "milestone": {
+        "milestones": [
+          {
+            "amount": "40000000000",
+            "enabled": true,
+            "claimed": true
+          },
+          {
+            "amount": "100000000000",
+            "enabled": true,
+            "claimed": true
+          },
+          {
+            "amount": "60000000000",
+            "enabled": true,
+            "claimed": true
+          },
+          {
+            "amount": "10000000000",
+            "enabled": true,
+            "claimed": true
+          }
+        ]
+      }
+    }
+  }
+}

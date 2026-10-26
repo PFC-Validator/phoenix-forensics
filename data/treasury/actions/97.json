@@ -1,0 +1,63 @@
+{
+  "data": {
+    "id": 97,
+    "name": "infra payments (2026-06-15 - 2026-10-15)",
+    "reserved": [],
+    "cancelled": false,
+    "done": true,
+    "setup": {
+      "payment": {
+        "payments": [
+          {
+            "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+            "asset": {
+              "info": {
+                "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+              },
+              "amount": "485000000"
+            },
+            "claimable_after_s": 1782893258
+          },
+          {
+            "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+            "asset": {
+              "info": {
+                "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+              },
+              "amount": "485000000"
+            },
+            "claimable_after_s": 1785571658
+          },
+          {
+            "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+            "asset": {
+              "info": {
+                "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+              },
+              "amount": "485000000"
+            },
+            "claimable_after_s": 1788250058
+          },
+          {
+            "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+            "asset": {
+              "info": {
+                "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+              },
+              "amount": "485000000"
+            },
+            "claimable_after_s": 1790842058
+          }
+        ]
+      }
+    },
+    "active_from": 1781356530,
+    "total_usd": "1940",
+    "total_usd_30d": "1940",
+    "runtime": {
+      "payment": {
+        "open": []
+      }
+    }
+  }
+}

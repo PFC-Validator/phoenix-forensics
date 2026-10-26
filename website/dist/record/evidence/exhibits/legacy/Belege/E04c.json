@@ -1,0 +1,34 @@
+{
+  "block_id": {
+    "hash": "QEBJn253q5WydtUhEm+oBLMBA+lVrDmTw1LGzUBoFKw=",
+    "part_set_header": {
+      "total": 1,
+      "hash": "XG/PaZUmVtSymq53wDeu4hX5rm6eNP0pWGjg1hOyG/I="
+    }
+  },
+  "header": {
+    "version": {
+      "block": "11",
+      "app": "0"
+    },
+    "chain_id": "phoenix-1",
+    "height": "10666963",
+    "time": "2024-06-07T16:21:38.612714551Z",
+    "last_block_id": {
+      "hash": "Pas9YRvS8vCfmEJz0f3no9QQoAP5cPRJVO2X3ihSrl8=",
+      "part_set_header": {
+        "total": 1,
+        "hash": "eGn47PWLNVPo5zRlUmQsa5jVOZcNXiffPvfAkwd3uTU="
+      }
+    },
+    "last_commit_hash": "naVFViOW4SSM8WPJPWew4qoaoA0uE+hSkI1jQh1SiVM=",
+    "data_hash": "dH9JIjUz2L8M3Mjp4UzC/qrEP3NdCCs2KJ2aVWFsT2Y=",
+    "validators_hash": "xZViN9ZcYQmSqq4Fi9I33WixbwCNuz/5YFYPu1S7SdM=",
+    "next_validators_hash": "xZViN9ZcYQmSqq4Fi9I33WixbwCNuz/5YFYPu1S7SdM=",
+    "consensus_hash": "5mDvFKlRQ9sPPq8vMfF33jNN5atlBXn9CToQy66G1aY=",
+    "app_hash": "D6nAOpHFEejHp75/9LpBi+kcP9dbAtGUQ6XmFhHx464=",
+    "last_results_hash": "l9noDIy0xgQAeW+5E1/8JdWT6uwvdhC/DFJIQGeqf1w=",
+    "evidence_hash": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "proposer_address": "QuFG5xA8NVnGDj2OlO8yNy0ne3E="
+  }
+}

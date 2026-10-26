@@ -1,0 +1,512 @@
+{
+  "data": {
+    "proposals": [
+      {
+        "id": 2,
+        "proposal": {
+          "title": "Rebel Defi invoice: 0001",
+          "description": "Marketing services provided by Rebel Defi for the Superbolt project.",
+          "proposer": "neutron1yvm0jdvzm5l3e4yecfrh7raz8n9pvm8slvgmrf",
+          "start_height": 13718785,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1724470832517038484"
+          },
+          "threshold": {
+            "threshold_quorum": {
+              "threshold": {
+                "majority": {}
+              },
+              "quorum": {
+                "percent": "0.2"
+              }
+            }
+          },
+          "total_power": "4",
+          "msgs": [
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1yvm0jdvzm5l3e4yecfrh7raz8n9pvm8slvgmrf",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "7500000000"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "3",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 3,
+        "proposal": {
+          "title": "0xPhilipp Invoice 2024-002",
+          "description": "Payment",
+          "proposer": "neutron1gjvzkm5hnygc7fzwm53qav9n3ahncl0pkt5epv",
+          "start_height": 13725407,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1724487280949194608"
+          },
+          "threshold": {
+            "threshold_quorum": {
+              "threshold": {
+                "majority": {}
+              },
+              "quorum": {
+                "percent": "0.2"
+              }
+            }
+          },
+          "total_power": "4",
+          "msgs": [
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1nhnenkl8rcqfng0qee9dkgykg7q6k52sj03760",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "7500000000"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "3",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 4,
+        "proposal": {
+          "title": "Making the Multi-Sig a 3/4 multi-sig",
+          "description": "Changing the Multi-Sig to a 3/4 multi-sig, removing quorum, setting passing threshold to 75%.\n\n\"If your DAO has *no quorum*, passing threshold is the percentage of the DAO's voting power that must vote 'yes' for a proposal to pass.\"",
+          "proposer": "neutron1gjvzkm5hnygc7fzwm53qav9n3ahncl0pkt5epv",
+          "start_height": 13725507,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1724487515522360652"
+          },
+          "threshold": {
+            "threshold_quorum": {
+              "threshold": {
+                "majority": {}
+              },
+              "quorum": {
+                "percent": "0.2"
+              }
+            }
+          },
+          "total_power": "4",
+          "msgs": [
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "neutron19v3vnv8u67ynumwpltwnhd6umatjys9atmctwh288ummmlds5gms9efm6h",
+                  "msg": "eyJ1cGRhdGVfY29uZmlnIjp7InRocmVzaG9sZCI6eyJhYnNvbHV0ZV9wZXJjZW50YWdlIjp7InBlcmNlbnRhZ2UiOnsicGVyY2VudCI6IjAuNzUifX19LCJtYXhfdm90aW5nX3BlcmlvZCI6eyJ0aW1lIjoxNzI4MDB9LCJvbmx5X21lbWJlcnNfZXhlY3V0ZSI6dHJ1ZSwiYWxsb3dfcmV2b3RpbmciOmZhbHNlLCJ2ZXRvIjpudWxsLCJkYW8iOiJuZXV0cm9uMTg3dGM1amx0d3dnbjI1Z3V1d3VlaHEwNGE0d3ByZzA1Mm42cWZoODV3bDZxbTd2bWtwOHFtMjZyZGQiLCJjbG9zZV9wcm9wb3NhbF9vbl9leGVjdXRpb25fZmFpbHVyZSI6dHJ1ZSwibWluX3ZvdGluZ19wZXJpb2QiOm51bGx9fQ==",
+                  "funds": []
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "3",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 7,
+        "proposal": {
+          "title": "Replace old MB aejir wallet",
+          "description": "Replace old MB aejir wallet with the new one.",
+          "proposer": "neutron1gjvzkm5hnygc7fzwm53qav9n3ahncl0pkt5epv",
+          "start_height": 13744595,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1724532662240175333"
+          },
+          "threshold": {
+            "threshold_quorum": {
+              "threshold": {
+                "majority": {}
+              },
+              "quorum": {
+                "percent": "0.2"
+              }
+            }
+          },
+          "total_power": "4",
+          "msgs": [
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "neutron1j3aykws49geqg27j09p3uz4nhvdkkjcg0h80e0efuxv6nmg9e29qh3nhqx",
+                  "msg": "eyJ1cGRhdGVfbWVtYmVycyI6eyJhZGQiOlt7IndlaWdodCI6MSwiYWRkciI6Im5ldXRyb24xaG1qbjl4ajA2a3d1NmdjN2tzazRla3Ezc3Z6c2FyZnJxZXdqNGgifV0sInJlbW92ZSI6WyJuZXV0cm9uMTRlcTRzMGNmeXUzempyY3JwdzZ0enE4YzZ6ZHQ0NGpucWxkd3U3Il19fQ==",
+                  "funds": []
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "3",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 8,
+        "proposal": {
+          "title": "MB aejir Invoice: #10001",
+          "description": "Dragon Cat needs 🫴\n\n7,500 $USDC --> neutron1hmjn9xj06kwu6gc7ksk4ekq3svzsarfrqewj4h",
+          "proposer": "neutron1hmjn9xj06kwu6gc7ksk4ekq3svzsarfrqewj4h",
+          "start_height": 13750001,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1724545438517189931"
+          },
+          "threshold": {
+            "threshold_quorum": {
+              "threshold": {
+                "majority": {}
+              },
+              "quorum": {
+                "percent": "0.2"
+              }
+            }
+          },
+          "total_power": "4",
+          "msgs": [],
+          "status": "executed",
+          "votes": {
+            "yes": "4",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 9,
+        "proposal": {
+          "title": "MB aejir Invoice: #10001 [re-submit]",
+          "description": "This proposal replaces Proposal A8 which did not execute. \n\nDragon Cat needs 🫴",
+          "proposer": "neutron1hmjn9xj06kwu6gc7ksk4ekq3svzsarfrqewj4h",
+          "start_height": 13766908,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1724585454079391526"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.75"
+              }
+            }
+          },
+          "total_power": "4",
+          "msgs": [
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1hmjn9xj06kwu6gc7ksk4ekq3svzsarfrqewj4h",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "7500000000"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "3",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 35,
+        "proposal": {
+          "title": "Distribute Treasury",
+          "description": "Paying open invoices",
+          "proposer": "neutron1gjvzkm5hnygc7fzwm53qav9n3ahncl0pkt5epv",
+          "start_height": 31559398,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1754515707839887635"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.75"
+              }
+            }
+          },
+          "total_power": "4",
+          "msgs": [
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1rzna4qxaqs708hf2txvl4ss4ltmjqgd2xah7f0",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "15000000000"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1hmjn9xj06kwu6gc7ksk4ekq3svzsarfrqewj4h",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "15000000000"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1yvm0jdvzm5l3e4yecfrh7raz8n9pvm8slvgmrf",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "15000000000"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1gjvzkm5hnygc7fzwm53qav9n3ahncl0pkt5epv",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "45000000000"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "3",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 41,
+        "proposal": {
+          "title": "Distribute Treasury",
+          "description": "Paying open invoices",
+          "proposer": "neutron1yvm0jdvzm5l3e4yecfrh7raz8n9pvm8slvgmrf",
+          "start_height": 43749387,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1766705611472045741"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.75"
+              }
+            }
+          },
+          "total_power": "4",
+          "msgs": [
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1rzna4qxaqs708hf2txvl4ss4ltmjqgd2xah7f0",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "10000000000"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1hmjn9xj06kwu6gc7ksk4ekq3svzsarfrqewj4h",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "10000000000"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1yvm0jdvzm5l3e4yecfrh7raz8n9pvm8slvgmrf",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "10000000000"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1gjvzkm5hnygc7fzwm53qav9n3ahncl0pkt5epv",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "10000000000"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "3",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 43,
+        "proposal": {
+          "title": "Distribute Treasury",
+          "description": "Paying open invoices",
+          "proposer": "neutron1gjvzkm5hnygc7fzwm53qav9n3ahncl0pkt5epv",
+          "start_height": 51071264,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1773878036406762708"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.75"
+              }
+            }
+          },
+          "total_power": "4",
+          "msgs": [
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1rzna4qxaqs708hf2txvl4ss4ltmjqgd2xah7f0",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "975500000"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1hmjn9xj06kwu6gc7ksk4ekq3svzsarfrqewj4h",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "975500000"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1yvm0jdvzm5l3e4yecfrh7raz8n9pvm8slvgmrf",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "975500000"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "bank": {
+                "send": {
+                  "to_address": "neutron1gjvzkm5hnygc7fzwm53qav9n3ahncl0pkt5epv",
+                  "amount": [
+                    {
+                      "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+                      "amount": "975500000"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "4",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      }
+    ]
+  }
+}

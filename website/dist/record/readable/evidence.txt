@@ -1,0 +1,185 @@
+Skip to content [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/#main]LUNA holder briefing0xphilipp · public records [https://phoenix-foundation-irregularities.pfc.zone/]Briefing [https://phoenix-foundation-irregularities.pfc.zone/]Funding [https://phoenix-foundation-irregularities.pfc.zone/funding/]Governance [https://phoenix-foundation-irregularities.pfc.zone/governance/]Timeline [https://phoenix-foundation-irregularities.pfc.zone/timeline/]Sources [https://phoenix-foundation-irregularities.pfc.zone/sources/]
+
+Holder briefing [https://phoenix-foundation-irregularities.pfc.zone/]
+
+Supporting evidence
+
+A curated guide to the underlying funding and governance records.
+
+This briefing examines funding decisions and governance procedures, not personal character. It does not allege dishonesty or infer intent from a payment, vote or sequence of events. Discussion and corrections should address specific records; personal attacks, unwanted contact and harassment have no place here.
+
+The original site’s commentary is not reproduced here. These guides retain relevant source downloads; the shorter briefing explains their scope, caveats and alternative explanations.
+
+Funding and accounting method [https://phoenix-foundation-irregularities.pfc.zone/funding/] · Approvals, delivery and technical control [https://phoenix-foundation-irregularities.pfc.zone/governance/] · Dated chronology [https://phoenix-foundation-irregularities.pfc.zone/timeline/]
+
+Read the records in context
+
+Project receipts are not a measure of personal profit. A beneficiary’s participation does not alone establish wrongdoing. Timing and voting agreement do not establish motive. Dated captures do not describe every later development.
+
+Available source downloads (81)
+
+packaged_ledger.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/packaged_ledger.json]
+
+E06b.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E06b.json]
+
+E06g.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E06g.json]
+
+TLA_Gebuehren_228.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/TLA_Gebuehren_228.json]
+
+Summen_und_Abgrenzung.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Summen_und_Abgrenzung.json]
+
+E12c.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E12c.json]
+
+treasury_info.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/treasury_info.json]
+
+registry_info.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/registry_info.json]
+
+registry_owner.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/registry_owner.json]
+
+registry_addresses.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/registry_addresses.json]
+
+proposal9.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/proposal9.json]
+
+proposal9_votes.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/proposal9_votes.json]
+
+hub_info.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/hub_info.json]
+
+ics20_info.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/ics20_info.json]
+
+E10a.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E10a.json]
+
+E10b.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E10b.json]
+
+E10c.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E10c.json]
+
+E10f.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E10f.json]
+
+E10g.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E10g.json]
+
+E10h.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E10h.json]
+
+E11a.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E11a.json]
+
+Zahlungen_105.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Zahlungen_105.json]
+
+E04a.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E04a.json]
+
+E04b.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E04b.json]
+
+E05b.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E05b.json]
+
+E05c.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E05c.json]
+
+E05e.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E05e.json]
+
+E05f.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E05f.json]
+
+E05g.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E05g.json]
+
+E07a.txt [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E07a.txt]
+
+E07c.txt [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E07c.txt]
+
+E07e.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E07e.json]
+
+E09a.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E09a.json]
+
+E09b.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E09b.json]
+
+E09c.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E09c.json]
+
+board_config.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/board_config.json]
+
+board_members.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/board_members.json]
+
+mb_voting_record.csv [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/voting_record/mb_voting_record.csv]
+
+mb_voting_record.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/voting_record/mb_voting_record.json]
+
+findings.txt [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/voting_record/findings.txt]
+
+transaction_chronology.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/transaction_chronology.json]
+
+SHA256SUMS.txt [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/SHA256SUMS.txt]
+
+source_index.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/source_index.json]
+
+E04c.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E04c.json]
+
+E04d.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E04d.json]
+
+E04e.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E04e.json]
+
+E05d.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E05d.json]
+
+E05h.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E05h.json]
+
+E10e.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E10e.json]
+
+E12d.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/legacy/Belege/E12d.json]
+
+AUTH-S01_targeted_results.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S01_targeted_results.json]
+
+AUTH-S02_ve_execute_update_config_p1.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S02_ve_execute_update_config_p1.json]
+
+AUTH-S03_authority_event_ledger.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S03_authority_event_ledger.json]
+
+AUTH-S04_terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj_migration_transactions.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S04_terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj_migration_transactions.json]
+
+AUTH-S05_terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh_migration_transactions.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S05_terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh_migration_transactions.json]
+
+AUTH-S06_terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq_migration_transactions.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S06_terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq_migration_transactions.json]
+
+AUTH-S07_terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa_migration_transactions.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S07_terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa_migration_transactions.json]
+
+AUTH-S08_terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv_migration_transactions.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S08_terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv_migration_transactions.json]
+
+AUTH-S09_registry_executions_now.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S09_registry_executions_now.json]
+
+AUTH-S10_terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg_migration_transactions.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S10_terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg_migration_transactions.json]
+
+AUTH-S11_incentive_blacklist_query.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S11_incentive_blacklist_query.json]
+
+AUTH-S12_incentive_blacklist_archive_001.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S12_incentive_blacklist_archive_001.json]
+
+AUTH-S13_terra1qdjsxsv96aagrdxz83gwtjk8qvf2mrg4y8y3dqjxg556lm79pg5qdgmaxl_migration_transactions.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S13_terra1qdjsxsv96aagrdxz83gwtjk8qvf2mrg4y8y3dqjxg556lm79pg5qdgmaxl_migration_transactions.json]
+
+AUTH-S14_terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k_migration_transactions.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S14_terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k_migration_transactions.json]
+
+AUTH-S15_terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx_migration_transactions.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S15_terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx_migration_transactions.json]
+
+AUTH-S16_upgrade_wallet_admin_acquisitions_archive_001.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/sources/AUTH-S16_upgrade_wallet_admin_acquisitions_archive_001.json]
+
+permissions_review.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/tests/permissions_review.json]
+
+local_freeze_toggle.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/tests/local_freeze_toggle.json]
+
+local_permission_probe2.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/tests/local_permission_probe2.json]
+
+local_burn_routing.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/tests/local_burn_routing.json]
+
+registry_role_changes.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/tests/registry_role_changes.json]
+
+code_4033.source.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/binaries/code_4033.source.json]
+
+code_4037.source.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/binaries/code_4037.source.json]
+
+code_4038.source.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/authority/binaries/code_4038.source.json]
+
+asset_staking__bluechip.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/asset_staking__bluechip.json]
+
+asset_staking__project.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/asset_staking__project.json]
+
+asset_staking__single.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/asset_staking__single.json]
+
+asset_staking__stable.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/asset_staking__stable.json]
+
+bylaws_current.pdf [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/bylaws_current.pdf]
+
+hub_config.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/hub_config.json]
+
+treasury_config.json [https://phoenix-foundation-irregularities.pfc.zone/record/evidence/exhibits/current/treasury_config.json]
+
+Prepared for LUNA holders. Built from the public record.
+
+Source material updated 25 October 2026. This is a dated snapshot, not a live feed.Sources & method [https://phoenix-foundation-irregularities.pfc.zone/sources/]Source record [https://phoenix-foundation-irregularities.pfc.zone/record/]Privacy [https://phoenix-foundation-irregularities.pfc.zone/privacy/]

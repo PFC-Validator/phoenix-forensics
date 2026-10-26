@@ -1,0 +1,33 @@
+{
+  "data": {
+    "id": 118,
+    "name": "stewardship payments (2026-10-01 - 2026-11-01) - wy0a",
+    "reserved": [],
+    "cancelled": false,
+    "done": true,
+    "setup": {
+      "payment": {
+        "payments": [
+          {
+            "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+            "asset": {
+              "info": {
+                "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+              },
+              "amount": "8640000000"
+            },
+            "claimable_after_s": 1792032270
+          }
+        ]
+      }
+    },
+    "active_from": 1791470796,
+    "total_usd": "8640",
+    "total_usd_30d": "30140",
+    "runtime": {
+      "payment": {
+        "open": []
+      }
+    }
+  }
+}

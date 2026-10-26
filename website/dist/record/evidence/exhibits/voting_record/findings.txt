@@ -1,0 +1,80 @@
+MB VOTING RECORD — MAIN PHOENIX BOARD A1–A289
+Checked 23 October 2026. Fresh retrieval window: 2026-10-23T08:26:18.978118+00:00 to 2026-10-23T08:27:55.147098+00:00.
+
+Yes. The earlier MB-associated wallet recorded one NO vote: A28, “[pdt] Transfer 40k LUNA for Long Term Alignment Program”, on 24 October 2024 at 01:50:21 UTC. The current MB wallet has no recorded NO votes in this record. Philipp had already proposed A29 to correct the wrong target contract in A28 and explicitly asked that A28 be vetoed. MB voted YES on corrected A29 five minutes and ten seconds after his NO. The single NO therefore has a documented technical-correction context; it is not strong evidence of substantive policy disagreement.
+
+Observed wallet periods (defined by proposal IDs, not a claim about exact membership-execution time):
+Period / wallet                 YES    NO    ABSTAIN    No recorded ballot    Total proposals
+A1–A125 / earlier associated    117     1       0                7                 125
+A126–A289 / current             135     0       0               29                 164
+Combined                       252     1       0               36                 289
+
+There are 253 recorded MB ballots across both wallets. No recorded ballot is not a NO, abstention, consent, or a proved recusal. A285 remains open in this snapshot and could receive later votes.
+
+THE ONE NO VOTE
+A28 was proposed by Philipp and is now closed. Corrected A29 was created on 23 October 2024 at 20:53:15.141205018 UTC, before MB's NO. Its description expressly states that A28 used the wrong contract and requests a veto. MB then voted YES on A29 at 01:55:31 UTC on 24 October. A29 is executed. No individual rationale is stored on MB's ballots; the documented correction and sequence should accompany the literal NO count.
+Corrected A29: https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A29
+MB A29 YES: https://chainsco.pe/terra2/tx/1AD6A450B4B810BF245B3A8BBF0449E82F9A7D8D67B7BE81293A63CD7BCAD816
+Proposal: https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A28
+MB NO transaction: https://chainsco.pe/terra2/tx/338EEF5869DF3B356439C7E6FF6DFFC1417ED91F309E54B863B95D66FFBD1B07
+Block: 12,637,738. Successful transaction code: 0.
+Earlier wallet: terra15vwmgac9tlcgkrkjn4rq3r0md003ufsqp64vaw
+Current wallet: terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73
+The archived Phoenix Directive Terra Recovery Proposal expressly names MB aejir (OC/PD) with the earlier address at line 83: https://github.com/phoenix-directive/docs/blob/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-20_24504_phoenix-directive-terra-recovery-proposal.md#L83
+A125 removes that address and adds the current address at weight 25. Actual successful execution was 27 March 2025 at 23:41:42 UTC, block 14905231, distinct from proposal creation: https://chainsco.pe/terra2/tx/413DD948C1C36AAB870FC22BEBF44C2CAE18E17AAFC2A64E58A2431C0A6DE7F2
+The named public earlier-account source and executed substitution support the working MB attribution of the successor. They do not establish exclusive physical key custody.
+
+DID HE ALWAYS VOTE THE SAME WAY AS PHILIPP?
+No. Across both wallets, they both cast a recorded ballot on 240 proposals: 235 matched and five differed. The current MB wallet shared 123 recorded ballots with Philipp: 122 matched and one differed.
+
+Proposal    MB vote    Philipp vote    Title
+A28         NO         YES             Transfer 40k LUNA for Long Term Alignment Program
+A57         YES        NO              Axelar-recovery OTC setup
+A58         YES        NO              PDT OTC setup
+A85         YES        ABSTAIN         Boost DAO Project Grant
+A284        YES        ABSTAIN         [asset-staking] Whitelist 0, Remove 1
+
+A284 is the new exception beyond the earlier A283 cutoff. Philipp abstained on 19 October 2026 at 00:20:13 UTC; MB voted YES at 00:39:40 UTC. Therefore, the old 119-of-119 shared-YES statistic remains correct only for its older A283 cutoff. It is not the current complete alignment result. The current wallet's 135 own recorded ballots are still all YES.
+
+PROPOSERS
+All 289 current proposal records were checked. Philipp's wallet is the on-chain proposer for 288; Vini's wallet is the proposer for A249, the security audit proposal. Neither MB wallet is the proposer of a proposal in this main-board A-module inventory. This confirms the on-chain submission pattern; it does not identify who originated every idea or drafted every underlying document.
+On Philipp-proposed proposals, MB recorded 251 YES votes and one NO, with no ballot on 36. MB voted YES on Vini's A249.
+
+COVERAGE AND VERIFICATION
+The board's freshly retrieved proposal-module inventory lists a single module, A; its current proposal count is 289. The dataset includes every ID A1 through A289, including rejected, closed and open proposals, not just successful ones. It excludes other Phoenix bodies, native Terra governance, separate-company votes and private/off-chain decisions.
+We reopened and checked hashes for all 283 prior primary ballot files, fetched the six additional ballot files and all 289 current proposal records, and reconciled every named ballot sum to the refreshed proposal tallies. Every proposal disallows revoting. We matched each of the 253 recorded MB ballots to one successful vote transaction. No discrepancies were found. The older and new counts were also checked independently.
+Vote timestamps are block timestamps, not signing or submission timestamps. Identical votes do not by themselves establish coordination, instructions, or absence of scrutiny. Disagreement is likewise just the recorded ballot fact.
+
+FILES
+mb_voting_record.csv — sortable 289-row table with separate wallet columns, proposer, title, state, comparison, vote dates and public source links.
+mb_voting_record.json — complete factual dataset, precise source pointers/hashes, summary and verification.
+mb_vote_transactions.json — exact extracted transaction and response for all 253 recorded MB votes, with original capture references.
+verification.json and independent_check.txt — reconciliation and independent-check results.
+raw/ — primary response bodies and current capture metadata.
+
+FIVE DISAGREEMENTS: TRANSACTION LINKS
+
+A28: [pdt] Transfer 40k LUNA for Long Term Alignment Program
+MB NO at 2024-10-24T01:50:21Z: https://chainsco.pe/terra2/tx/338EEF5869DF3B356439C7E6FF6DFFC1417ED91F309E54B863B95D66FFBD1B07
+Philipp YES at 2024-10-23T20:49:30Z: https://chainsco.pe/terra2/tx/758153F7E3F8AF8B12EB32B669BECD3C5672566424677DEFD377A985C64014A9
+Proposal: https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A28
+
+A57: [axelar-recovery] Setup OTC (CoinGecko: 0.40399, 91413.00000)
+MB YES at 2024-11-16T12:11:05Z: https://chainsco.pe/terra2/tx/A7804F6B23BD4A02EA235A655211F6AF3D012CBF1F750EBC2DCBDBA81A5039F3
+Philipp NO at 2024-11-16T14:31:51Z: https://chainsco.pe/terra2/tx/1666AF55A839F3B6B6A60C5339BBE2C63EA5C52CAE32998D9BF37AC381AEB572
+Proposal: https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A57
+
+A58: [pdt] Setup OTC (CoinGecko: 0.40399, 91413.00000)
+MB YES at 2024-11-16T12:11:35Z: https://chainsco.pe/terra2/tx/C580D5CFE502707F5B59BB5B1A552FE7EB3A63FF7442BFACC32194876E920DE4
+Philipp NO at 2024-11-16T14:32:27Z: https://chainsco.pe/terra2/tx/CD69996F896808FE8334E4A96F89BCEDCD98CBF78C86034761A007F6C9D368E6
+Proposal: https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A58
+
+A85: [pdt] Setup Boost DAO Project Grant
+MB YES at 2024-12-31T14:23:48Z: https://chainsco.pe/terra2/tx/6D54BC0A71348EE1D5D3B3E333F97F90D372CB5C421AC5CD3505C6DFB2276FA3
+Philipp ABSTAIN at 2024-12-31T14:23:29Z: https://chainsco.pe/terra2/tx/B2ECA396902F79BB2206E56D8AC1997DFBD147CD1FD019864154BCF78785E5EC
+Proposal: https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A85
+
+A284: [asset-staking] Whitelist 0, Remove 1
+MB YES at 2026-10-19T00:39:40Z: https://chainsco.pe/terra2/tx/BD6C31514064318137C7F495C148F3D7F9BADB5C9ED46C64B9E63367BF03017E
+Philipp ABSTAIN at 2026-10-19T00:20:13Z: https://chainsco.pe/terra2/tx/D52AF2CC66C40BE997981DFD1988E18DF012ED8A8F0CB356D12A2C23679A2964
+Proposal: https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A284

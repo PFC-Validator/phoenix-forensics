@@ -1,0 +1,33 @@
+{
+  "data": {
+    "id": 119,
+    "name": "stewardship payments (2026-10-01 - 2026-11-01) - zzw3",
+    "reserved": [],
+    "cancelled": false,
+    "done": true,
+    "setup": {
+      "payment": {
+        "payments": [
+          {
+            "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+            "asset": {
+              "info": {
+                "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+              },
+              "amount": "4800000000"
+            },
+            "claimable_after_s": 1792032270
+          }
+        ]
+      }
+    },
+    "active_from": 1791470848,
+    "total_usd": "4800",
+    "total_usd_30d": "34940",
+    "runtime": {
+      "payment": {
+        "open": []
+      }
+    }
+  }
+}

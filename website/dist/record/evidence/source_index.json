@@ -1,0 +1,829 @@
+{
+  "prepared_utc": "2026-10-24T17:30:54.709192+00:00",
+  "edition": "Public evidence",
+  "sources": [
+    {
+      "id": "E04a",
+      "title": "Terra-Governance-Vorschlag 4813: TLA-Förderung",
+      "file": "exhibits/legacy/Belege/E04a.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4813",
+      "sha256": "b40e6bc004c6ae03b2c7a648f0927f3944e3b92d215837a3e0e5865b1f2e86c9",
+      "source_sha256": "b40e6bc004c6ae03b2c7a648f0927f3944e3b92d215837a3e0e5865b1f2e86c9",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/proposal |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E04b",
+      "title": "Block 10.666.963: tatsächliche Auszahlung 384.615 LUNA",
+      "file": "exhibits/legacy/Belege/E04b.json",
+      "url": "http://15.204.43.42:26657/block_results?height=10666963",
+      "sha256": "ce967cd8a4e9975052459d1f7ee0bf27833fe78699b1380e26807317194f17ea",
+      "source_sha256": "ce967cd8a4e9975052459d1f7ee0bf27833fe78699b1380e26807317194f17ea",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/result/finalize_block_events/275–279 | Auszahlung in EndBlock, nicht durch eine gewöhnliche Transaktion. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E04c",
+      "title": "Blockzeit 10.666.963",
+      "file": "exhibits/legacy/Belege/E04c.json",
+      "url": "http://15.204.43.42:1317/cosmos/base/tendermint/v1beta1/blocks/10666963",
+      "sha256": "0d110ea0c88a1c3f82ac63a848fbf4e82b3b6c6c5bf6ec2278cb0d1ca94161a4",
+      "source_sha256": "0d110ea0c88a1c3f82ac63a848fbf4e82b3b6c6c5bf6ec2278cb0d1ca94161a4",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/block/header |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E04d",
+      "title": "Vorherige abgeschlossene Stunde: LUNA/USDT",
+      "file": "exhibits/legacy/Belege/E04d.json",
+      "url": "https://data-api.binance.vision/api/v3/klines?symbol=LUNAUSDT&interval=1h&startTime=1717772400000&endTime=1717775999999&limit=1",
+      "sha256": "1fb1b9f21fd503ced37d6d9075883511f8d6b8c2793ee486b7bed747e25ac364",
+      "source_sha256": "1fb1b9f21fd503ced37d6d9075883511f8d6b8c2793ee486b7bed747e25ac364",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E04e",
+      "title": "Gleiche Stunde: USDT/USD",
+      "file": "exhibits/legacy/Belege/E04e.json",
+      "url": "https://api.exchange.coinbase.com/products/USDT-USD/candles?granularity=3600&start=2024-06-07T15%3A00%3A00Z&end=2024-06-07T16%3A00%3A00Z",
+      "sha256": "54643aeed97c5413579c92806c60d3df50067bf56d1f2193bde96ee2df689d37",
+      "source_sha256": "54643aeed97c5413579c92806c60d3df50067bf56d1f2193bde96ee2df689d37",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E05b",
+      "title": "Creda: Freigabe Analytics A215",
+      "file": "exhibits/legacy/Belege/E05b.json",
+      "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A215",
+      "sha256": "5afd1c403eee6ccce6f273cdca508e1fe6c43d5e7d3498d617aa0c851c9a64ee",
+      "source_sha256": "5afd1c403eee6ccce6f273cdca508e1fe6c43d5e7d3498d617aa0c851c9a64ee",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E05c",
+      "title": "A263, A266, A271 und A272: gespeicherte Beschlussdaten",
+      "file": "exhibits/legacy/Belege/E05c.json",
+      "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "sha256": "75b8e322d7d4a1224f373dd7c37e30c1df362043075d1c0d0d80f2b3346042df",
+      "source_sha256": "75b8e322d7d4a1224f373dd7c37e30c1df362043075d1c0d0d80f2b3346042df",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/data/proposals; Auswahl nach id |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E05d",
+      "title": "Migration: Auszahlung 5.000 USDC",
+      "file": "exhibits/legacy/Belege/E05d.json",
+      "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/DE263C81499583B22805A5B8577D2818B41A22826D56A03AA8F987EC020D9B9D",
+      "sha256": "d4b42b04a9c7c937a44aa315d337435923d13da763e3dc376e754659ec2c6a23",
+      "source_sha256": "d4b42b04a9c7c937a44aa315d337435923d13da763e3dc376e754659ec2c6a23",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/tx_response/events/12 |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E05e",
+      "title": "Estima: Auszahlung 45.000 USDC",
+      "file": "exhibits/legacy/Belege/E05e.json",
+      "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D",
+      "sha256": "5b1c50cd816ca9eee7e62ea550c2e63d0eb804dc55286795b358a73a341ba5a1",
+      "source_sha256": "5b1c50cd816ca9eee7e62ea550c2e63d0eb804dc55286795b358a73a341ba5a1",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/tx_response/events/12 |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E05f",
+      "title": "Creda Analytics: Auszahlung 10.000 USDC",
+      "file": "exhibits/legacy/Belege/E05f.json",
+      "url": "https://chainsco.pe/terra2/tx/1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A",
+      "sha256": "08ab3aefc524fdbfcba0801143491f1abb5ded2d38ba4899dc5e0d242f3dd240",
+      "source_sha256": "08ab3aefc524fdbfcba0801143491f1abb5ded2d38ba4899dc5e0d242f3dd240",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/tx_response/events |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E05g",
+      "title": "A271: vollständige gespeicherte Abstimmungstransaktionen",
+      "file": "exhibits/legacy/Belege/E05g.json",
+      "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A271",
+      "sha256": "20a7ca13770d43fea7ca8acea5c9aa355c99a6edaf265eaa4c1c50d0cd22d29b",
+      "source_sha256": "20a7ca13770d43fea7ca8acea5c9aa355c99a6edaf265eaa4c1c50d0cd22d29b",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/tx_responses/0–2 |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E05h",
+      "title": "A263: vollständige gespeicherte Abstimmungstransaktionen",
+      "file": "exhibits/legacy/Belege/E05h.json",
+      "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A263",
+      "sha256": "f3bd127e0770b43ddf7345d916add05461fb988a2a743137680958b9bba6eb7d",
+      "source_sha256": "f3bd127e0770b43ddf7345d916add05461fb988a2a743137680958b9bba6eb7d",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/tx_responses/0–2 |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E06b",
+      "title": "TLA-Konfiguration: Rollenwechsel 2024/2025",
+      "file": "exhibits/legacy/Belege/E06b.json",
+      "url": null,
+      "sha256": "84e036cc8fb88fc82c6e869059ccc04bffcb51ec7f3cdaa271148e2219347457",
+      "source_sha256": "84e036cc8fb88fc82c6e869059ccc04bffcb51ec7f3cdaa271148e2219347457",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/tx_responses/1,3,7 and corresponding tx bodies |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E06g",
+      "title": "95 Transaktionen mit 228 genau zugeordneten 10-LUNA-Gebühren",
+      "file": "exhibits/legacy/Belege/E06g.json",
+      "url": null,
+      "sha256": "35623cb15a418a0b2cca6702ca33075608e3c538cc688b60ca1af569ce8ee509",
+      "source_sha256": "35623cb15a418a0b2cca6702ca33075608e3c538cc688b60ca1af569ce8ee509",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/tx_responses; transfer-Events nach exaktem Sender/Empfänger |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E07a",
+      "title": "Creda /analytics: gesicherter sichtbarer Text vom 18.10.2026",
+      "file": "exhibits/legacy/Belege/E07a.txt",
+      "url": "https://creda.finance/analytics",
+      "sha256": "7893e5e0a9374abcc0312539862ed53b759f9a196cf6b62d3f74d4f21d0fb895",
+      "source_sha256": "7893e5e0a9374abcc0312539862ed53b759f9a196cf6b62d3f74d4f21d0fb895",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " | Aktueller Zustand; beweist nicht allein den Zustand am 27.01.2026 oder den vereinbarten Gesamtumfang. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E09a",
+      "title": "A272: eingereichte Entfernung und Schwellenabsenkung",
+      "file": "exhibits/legacy/Belege/E09a.json",
+      "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/9CC281DD7E5A27C8D332B45AE842A20AAB6F952994958774C58E97D90E86DFE0",
+      "sha256": "62941814d1d2cd3101bc71c87ed8a58f4249d35b6437ee7f348e15f643979615",
+      "source_sha256": "62941814d1d2cd3101bc71c87ed8a58f4249d35b6437ee7f348e15f643979615",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/tx/body/messages/0/msg/propose/msg/propose; /tx_response/timestamp |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E09b",
+      "title": "A272: gespeicherte Abstimmungstransaktionen",
+      "file": "exhibits/legacy/Belege/E09b.json",
+      "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272",
+      "sha256": "caa5bed908ba58f3d312bd6f5af363c483fa9222fc00de0eccc330920e4d3f70",
+      "source_sha256": "caa5bed908ba58f3d312bd6f5af363c483fa9222fc00de0eccc330920e4d3f70",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/tx_responses/0–2 |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E09c",
+      "title": "A272: abgelehnter Endstatus",
+      "file": "exhibits/legacy/Belege/E09c.json",
+      "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272",
+      "sha256": "5072e10a5e68e99c640ab8e9af2e05c930bd9f5e0da73ea9e6fd4a7d35cc8ada",
+      "source_sha256": "5072e10a5e68e99c640ab8e9af2e05c930bd9f5e0da73ea9e6fd4a7d35cc8ada",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/data/proposal |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E10a",
+      "title": "Superbolt: eigene Rechnungen und Auszahlungsbeschlüsse",
+      "file": "exhibits/legacy/Belege/E10a.json",
+      "url": "https://rest-archive.neutron.solva.solutions/cosmwasm/wasm/v1/contract/neutron19v3vnv8u67ynumwpltwnhd6umatjys9atmctwh288ummmlds5gms9efm6h/smart/eyJsaXN0X3Byb3Bvc2FscyI6eyJsaW1pdCI6MTAwfX0%3D",
+      "sha256": "9ae99d5fa27b450d9e3ba00ff0e6cdf77dd802345cb7415db4fe5e7860ecd79c",
+      "source_sha256": "9ae99d5fa27b450d9e3ba00ff0e6cdf77dd802345cb7415db4fe5e7860ecd79c",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/data/proposals nach id |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E10b",
+      "title": "Rebel: unterzeichnete Superbolt-Handlungen",
+      "file": "exhibits/legacy/Belege/E10b.json",
+      "url": null,
+      "sha256": "c7aa660b1516acab23e7710f4371cc8da68656f8a6b5fb566d5e725604e68970",
+      "source_sha256": "c7aa660b1516acab23e7710f4371cc8da68656f8a6b5fb566d5e725604e68970",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " | Öffentliche Chain-Daten; berufliche Kontozuordnung ist von ausschließlicher Schlüsselinhaberschaft zu unterscheiden. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E10c",
+      "title": "Philipp: unterzeichnete Superbolt-Handlungen",
+      "file": "exhibits/legacy/Belege/E10c.json",
+      "url": null,
+      "sha256": "34f02398acfbfe7f6c9a63d1b1f56cc258989edaf242606b8fe5e492e695b6df",
+      "source_sha256": "34f02398acfbfe7f6c9a63d1b1f56cc258989edaf242606b8fe5e492e695b6df",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " | Öffentliche Chain-Daten; berufliche Kontozuordnung ist von ausschließlicher Schlüsselinhaberschaft zu unterscheiden. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E10e",
+      "title": "MB: eingegrenzte P41-Abstimmung",
+      "file": "exhibits/legacy/Belege/E10e.json",
+      "url": "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs?query=message.sender%3D%27neutron1hmjn9xj06kwu6gc7ksk4ekq3svzsarfrqewj4h%27+AND+tx.height%3E%3D43749387+AND+tx.height%3C%3D43758857&order_by=ORDER_BY_ASC&limit=30&page=1",
+      "sha256": "5f008095a99467e4ee5baf53c68bb511696971bbafcf3dbb877a0518a534c40e",
+      "source_sha256": "5f008095a99467e4ee5baf53c68bb511696971bbafcf3dbb877a0518a534c40e",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " | Öffentliche Chain-Daten; berufliche Kontozuordnung ist von ausschließlicher Schlüsselinhaberschaft zu unterscheiden. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E10f",
+      "title": "Superbolt P9: MB-Abstimmung",
+      "file": "exhibits/legacy/Belege/E10f.json",
+      "url": "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/8072FD54EDC02928768101D050F9F0B7221E19DB643621C06C39B807A80C7AFD",
+      "sha256": "33a6c9d98f8801a1adf386e76e4f99396c85e16b60cd6e3930feeea568c72c61",
+      "source_sha256": "33a6c9d98f8801a1adf386e76e4f99396c85e16b60cd6e3930feeea568c72c61",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/body/tx_responses/5 |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E10g",
+      "title": "Superbolt P9: Ausführung und Zahlung",
+      "file": "exhibits/legacy/Belege/E10g.json",
+      "url": "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/E0C2BC823E2969B1CE3E818EFFD383A2B8175ED2F2491BBEBFEF0B297EB5E14E",
+      "sha256": "719075f7d513ad734672bf8ad5185fa426d844b3acde740b6327c8996fdfe5ea",
+      "source_sha256": "719075f7d513ad734672bf8ad5185fa426d844b3acde740b6327c8996fdfe5ea",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "/body/result |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E10h",
+      "title": "NGP: dokumentierte Anerkennung von Superbolt-Meilensteinen",
+      "file": "exhibits/legacy/Belege/E10h.json",
+      "url": "https://rest-archive.neutron.solva.solutions/cosmwasm/wasm/v1/contract/neutron14n7jt2qkngxtgr7dgdt50g4xn2a29llz79h9y25lrsqyxrwmngmsmt9kta/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6MTA2fX0%3D",
+      "sha256": "87be97e78ed55bb101c9abfb9d9553a849457d5958a061b1de988bd2d63b9708",
+      "source_sha256": "87be97e78ed55bb101c9abfb9d9553a849457d5958a061b1de988bd2d63b9708",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Neutron NGP committee, proposal106; /data/proposal; captured 2026-10-11T11:38:03.142118+00:00 | Sachlich relevante Gegenevidenz gegen die Behauptung vollständiger Nichtleistung. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E11a",
+      "title": "Eris an Rebel: 7.500-USDC-Zahlung mit Memo invoice",
+      "file": "exhibits/legacy/Belege/E11a.json",
+      "url": "http://15.204.43.42:1317/cosmos/tx/v1beta1/txs/02B838A200BCF19F693FC461F3DF09ADD1A3D81AB789A0B260034DF8A6C3AC80",
+      "sha256": "1c62d9e0f1320f0058783eec3bb759a1f0317b01053e4d6cce8ede5356a30555",
+      "source_sha256": "1c62d9e0f1320f0058783eec3bb759a1f0317b01053e4d6cce8ede5356a30555",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "F01",
+      "title": "105 geprüfte Zahlungsvorgänge mit Original-JSON-Auszügen und Kurskerzen",
+      "file": "exhibits/legacy/Zahlungen_105.json",
+      "url": null,
+      "sha256": "55b845c64a8bd903e7484860cb3f6a6879a98f0812d1603b457f166f527e4a10",
+      "source_sha256": "55b845c64a8bd903e7484860cb3f6a6879a98f0812d1603b457f166f527e4a10",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Siehe Zeilen- und Quellenschlüssel | Keine unabhängige Beglaubigung der Datenanbieter oder amtliche Feststellung von Identität/Vorsatz. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "F02",
+      "title": "228 einzeln geprüfte TLA-Gebührenereignisse mit Kursbelegen",
+      "file": "exhibits/legacy/TLA_Gebuehren_228.json",
+      "url": null,
+      "sha256": "81389fb68a7c44eaf9c122c26a5f2ef8b52a3fa17b8641c255577777362328f8",
+      "source_sha256": "81389fb68a7c44eaf9c122c26a5f2ef8b52a3fa17b8641c255577777362328f8",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Siehe Zeilen- und Quellenschlüssel | Keine unabhängige Beglaubigung der Datenanbieter oder amtliche Feststellung von Identität/Vorsatz. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "F03",
+      "title": "Berechnungsgrenzen und Doppelzählungsausschlüsse",
+      "file": "exhibits/legacy/Summen_und_Abgrenzung.json",
+      "url": null,
+      "sha256": "e3fd3e133dba4e0a48f3b85a3ecafaccf67c54dac4c44cb0ab7e55d5db205849",
+      "source_sha256": "e3fd3e133dba4e0a48f3b85a3ecafaccf67c54dac4c44cb0ab7e55d5db205849",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Siehe Zeilen- und Quellenschlüssel | Keine unabhängige Beglaubigung der Datenanbieter oder amtliche Feststellung von Identität/Vorsatz. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E07c",
+      "title": "Creda-LUNA-Markt: Kennzahlen und Diagrammbereiche am 11.10.2026",
+      "file": "exhibits/legacy/Belege/E07c.txt",
+      "url": "https://creda.finance/markets/uluna",
+      "sha256": "1f97b6012114378d56bb4da425480d1505225f3bf44bbec9f73d9e3ac60ef9ba",
+      "source_sha256": "1f97b6012114378d56bb4da425480d1505225f3bf44bbec9f73d9e3ac60ef9ba",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " |  | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E07e",
+      "title": "Creda-API: gesicherte Antwort /health vom 11.10.2026",
+      "file": "exhibits/legacy/Belege/E07e.json",
+      "url": "https://api.creda.finance/health",
+      "sha256": "5841cda711ca029e03f2d097a8006330bf124fb382ca7ef491caf334e1f9a509",
+      "source_sha256": "5841cda711ca029e03f2d097a8006330bf124fb382ca7ef491caf334e1f9a509",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " | API-Antwort und Marktbeobachtung ergänzen einander; keine vollständige Abnahmeprüfung. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E12c",
+      "title": "Öffentlicher Treasury-Starttext: berufliche Wallet-Zuordnung Philipp und Rebel",
+      "file": "exhibits/legacy/Belege/E12c.json",
+      "url": "https://common.xyz/terra/discussion/25020-phoenix-directive-launching-treasury",
+      "sha256": "7280f019dc1b008216efa91313f7ffa34ae2382019441603a9377e42a305c0e6",
+      "source_sha256": "7280f019dc1b008216efa91313f7ffa34ae2382019441603a9377e42a305c0e6",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": " | Zwei ausgewählte Zeilen der Veto-Liste; keine Aussage über ausschließliche Schlüsselhoheit oder juristisches Eigentum. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "E12d",
+      "title": "Archivierter TLA-Starttext von 0xPhilipp: ERIS-Adminadresse q0v",
+      "file": "exhibits/legacy/Belege/E12d.json",
+      "url": "https://common.xyz/terra/discussion/24385-launching-terra-liquidity-alliance",
+      "sha256": "432179f5fae64c3149da73dd7c07b1b901d65ec29ba6d8ebcc5a1153dd6de140",
+      "source_sha256": "432179f5fae64c3149da73dd7c07b1b901d65ec29ba6d8ebcc5a1153dd6de140",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Archivzeile169; Thread24385 | Öffentliche Projektzuordnung zu ERIS; keine alleinige persönliche Schlüsselverwahrung oder Herausgeberauthentifizierung bewiesen. | Historical packet captured by 18 October 2026."
+    },
+    {
+      "id": "VOTE",
+      "title": "Complete main-board A1–A289 voting comparison",
+      "file": "exhibits/voting_record/findings.txt",
+      "url": null,
+      "sha256": "dd018429c44f19293dc40697f5973e257510b22d7bbaad5410bcddb9a80bf9e8",
+      "source_sha256": "dd018429c44f19293dc40697f5973e257510b22d7bbaad5410bcddb9a80bf9e8",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "23 October snapshot; 235/240 identical shared ballots. All 597 raw response bodies and prior verification files included."
+    },
+    {
+      "id": "AUTH-S01",
+      "title": "Authority-ledger supporting record: targeted_results.json",
+      "file": "exhibits/authority/sources/AUTH-S01_targeted_results.json",
+      "url": null,
+      "sha256": "6e40a35f2a3fba0382ef46fcc73b05c54a857a70501dc35ed554d62f08b7b61f",
+      "source_sha256": "d65719a9b3c46fe713f27121840043b4033693a769bcce8a653790cfeebc1b51",
+      "handling": "Analytical summary of public contract code and transactions.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S02",
+      "title": "Authority-ledger supporting record: ve_execute_update_config_p1.json",
+      "file": "exhibits/authority/sources/AUTH-S02_ve_execute_update_config_p1.json",
+      "url": null,
+      "sha256": "b8d9924cb59448d57e9d25b22a6349149aa378eaf30faef0a27912c871544dbe",
+      "source_sha256": "b8d9924cb59448d57e9d25b22a6349149aa378eaf30faef0a27912c871544dbe",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S03",
+      "title": "Authority-ledger supporting record: authority_event_ledger.json",
+      "file": "exhibits/authority/sources/AUTH-S03_authority_event_ledger.json",
+      "url": null,
+      "sha256": "1ef61f4143b60088b8e5a315ea8c2d66d76337e35d0f78ba4b0979a858a757e1",
+      "source_sha256": "1ef61f4143b60088b8e5a315ea8c2d66d76337e35d0f78ba4b0979a858a757e1",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S04",
+      "title": "Authority-ledger supporting record: terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj_migration_transactions.json",
+      "file": "exhibits/authority/sources/AUTH-S04_terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj_migration_transactions.json",
+      "url": null,
+      "sha256": "5ad8338997a00ce8394ce74ac14a943ee8c2b3fd7166dbd098aa921b1b00ed95",
+      "source_sha256": "5ad8338997a00ce8394ce74ac14a943ee8c2b3fd7166dbd098aa921b1b00ed95",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S05",
+      "title": "Authority-ledger supporting record: terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh_migration_transactions.json",
+      "file": "exhibits/authority/sources/AUTH-S05_terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh_migration_transactions.json",
+      "url": null,
+      "sha256": "1fc0eb1f0eb4bb8b01d264422d144b00421cf2bba6d383338a74088ff9975c35",
+      "source_sha256": "1fc0eb1f0eb4bb8b01d264422d144b00421cf2bba6d383338a74088ff9975c35",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S06",
+      "title": "Authority-ledger supporting record: terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq_migration_transactions.json",
+      "file": "exhibits/authority/sources/AUTH-S06_terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq_migration_transactions.json",
+      "url": null,
+      "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+      "source_sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S07",
+      "title": "Authority-ledger supporting record: terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa_migration_transactions.json",
+      "file": "exhibits/authority/sources/AUTH-S07_terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa_migration_transactions.json",
+      "url": null,
+      "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+      "source_sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S08",
+      "title": "Authority-ledger supporting record: terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv_migration_transactions.json",
+      "file": "exhibits/authority/sources/AUTH-S08_terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv_migration_transactions.json",
+      "url": null,
+      "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+      "source_sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S09",
+      "title": "Authority-ledger supporting record: registry_executions_now.json",
+      "file": "exhibits/authority/sources/AUTH-S09_registry_executions_now.json",
+      "url": null,
+      "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df",
+      "source_sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S10",
+      "title": "Authority-ledger supporting record: terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg_migration_transactions.json",
+      "file": "exhibits/authority/sources/AUTH-S10_terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg_migration_transactions.json",
+      "url": null,
+      "sha256": "c52076e3d80ed81acc40d5cc7b263b706cd8f5db7804fefa8f5e755824a5777c",
+      "source_sha256": "c52076e3d80ed81acc40d5cc7b263b706cd8f5db7804fefa8f5e755824a5777c",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S11",
+      "title": "Authority-ledger supporting record: incentive_blacklist_query.json",
+      "file": "exhibits/authority/sources/AUTH-S11_incentive_blacklist_query.json",
+      "url": null,
+      "sha256": "ee95f771ebfe1a4a05a0257590d4d98f388d70f4a395c93ee59273d0e812aa5a",
+      "source_sha256": "ee95f771ebfe1a4a05a0257590d4d98f388d70f4a395c93ee59273d0e812aa5a",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S12",
+      "title": "Authority-ledger supporting record: incentive_blacklist_archive_001.json",
+      "file": "exhibits/authority/sources/AUTH-S12_incentive_blacklist_archive_001.json",
+      "url": null,
+      "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534",
+      "source_sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S13",
+      "title": "Authority-ledger supporting record: terra1qdjsxsv96aagrdxz83gwtjk8qvf2mrg4y8y3dqjxg556lm79pg5qdgmaxl_migration_transactions.json",
+      "file": "exhibits/authority/sources/AUTH-S13_terra1qdjsxsv96aagrdxz83gwtjk8qvf2mrg4y8y3dqjxg556lm79pg5qdgmaxl_migration_transactions.json",
+      "url": null,
+      "sha256": "4444ec38bdd77d1e729c57d76946be5850351864fda2ed2f5d875b0c1eb74a39",
+      "source_sha256": "4444ec38bdd77d1e729c57d76946be5850351864fda2ed2f5d875b0c1eb74a39",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S14",
+      "title": "Authority-ledger supporting record: terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k_migration_transactions.json",
+      "file": "exhibits/authority/sources/AUTH-S14_terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k_migration_transactions.json",
+      "url": null,
+      "sha256": "7b7e5390806bd208d5ff82df06ae36e89f1bee99cd4dec37bebe6e68c7f7a084",
+      "source_sha256": "7b7e5390806bd208d5ff82df06ae36e89f1bee99cd4dec37bebe6e68c7f7a084",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S15",
+      "title": "Authority-ledger supporting record: terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx_migration_transactions.json",
+      "file": "exhibits/authority/sources/AUTH-S15_terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx_migration_transactions.json",
+      "url": null,
+      "sha256": "e191d80b09344ede79320d1b1cc35e82a9cea46298a688b7d19726d2d92c1d9b",
+      "source_sha256": "e191d80b09344ede79320d1b1cc35e82a9cea46298a688b7d19726d2d92c1d9b",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH-S16",
+      "title": "Authority-ledger supporting record: upgrade_wallet_admin_acquisitions_archive_001.json",
+      "file": "exhibits/authority/sources/AUTH-S16_upgrade_wallet_admin_acquisitions_archive_001.json",
+      "url": null,
+      "sha256": "1bcca8cfd40a890cb29d069002ac658a7f15ef1b2640fafcb134413ffa348e0a",
+      "source_sha256": "1bcca8cfd40a890cb29d069002ac658a7f15ef1b2640fafcb134413ffa348e0a",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Retained historical analysis or query response; consult the associated operation and fresh transaction response for exact transaction identity."
+    },
+    {
+      "id": "AUTH",
+      "title": "Packaged authority-use ledger with local supporting links",
+      "file": "exhibits/authority/packaged_ledger.json",
+      "sha256": "9d84682576a5793460d007bc30cd736a80f3b274f393ec2aa64145a9aaf91d66",
+      "handling": "Paths rewritten for this package; operation contents unchanged.",
+      "note": "31 strict-scope operations / 19 transactions; separate related operations must not inflate this count."
+    },
+    {
+      "id": "TEST-permissions_review",
+      "title": "Prior local technical review: permissions_review.json",
+      "file": "exhibits/authority/tests/permissions_review.json",
+      "url": null,
+      "sha256": "1a4f073ce01def8c8a73ac3bc6b354566f3bd60cdfaac740e938afc55227f913",
+      "handling": "Analytical summary of public contract code and transactions.",
+      "note": "Historical offline test/analysis, not a live hostile action, not an independent expert certification."
+    },
+    {
+      "id": "TEST-local_freeze_toggle",
+      "title": "Prior local technical review: local_freeze_toggle.json",
+      "file": "exhibits/authority/tests/local_freeze_toggle.json",
+      "url": null,
+      "sha256": "0d6ad29e8f056e3e16f8750ae94bf76376c3d026cfe3db78255361f0c084786b",
+      "source_sha256": "0d6ad29e8f056e3e16f8750ae94bf76376c3d026cfe3db78255361f0c084786b",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Historical offline test/analysis, not a live hostile action, not an independent expert certification."
+    },
+    {
+      "id": "TEST-local_permission_probe2",
+      "title": "Prior local technical review: local_permission_probe2.json",
+      "file": "exhibits/authority/tests/local_permission_probe2.json",
+      "url": null,
+      "sha256": "9ca2a196bed102fa010a3e5000ec3b26962c514a037e6c6b91d01bbc9d634249",
+      "source_sha256": "9ca2a196bed102fa010a3e5000ec3b26962c514a037e6c6b91d01bbc9d634249",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Historical offline test/analysis, not a live hostile action, not an independent expert certification."
+    },
+    {
+      "id": "TEST-local_burn_routing",
+      "title": "Prior local technical review: local_burn_routing.json",
+      "file": "exhibits/authority/tests/local_burn_routing.json",
+      "url": null,
+      "sha256": "9431b7f15339bcb5a81f281dc619b513ad609adb595cf1405a691f2c6455188f",
+      "source_sha256": "9431b7f15339bcb5a81f281dc619b513ad609adb595cf1405a691f2c6455188f",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Historical offline test/analysis, not a live hostile action, not an independent expert certification."
+    },
+    {
+      "id": "TEST-registry_role_changes",
+      "title": "Prior local technical review: registry_role_changes.json",
+      "file": "exhibits/authority/tests/registry_role_changes.json",
+      "url": null,
+      "sha256": "59102f1f54525c5261bbfc523607010662e959cf1144cec7509d78e260663ff8",
+      "source_sha256": "59102f1f54525c5261bbfc523607010662e959cf1144cec7509d78e260663ff8",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Historical offline test/analysis, not a live hostile action, not an independent expert certification."
+    },
+    {
+      "id": "BIN-code_4033.wasm",
+      "title": "Preserved deployed-code evidence: code_4033.wasm",
+      "file": "exhibits/authority/binaries/code_4033.wasm",
+      "url": null,
+      "sha256": "c31d867650725fda718f5b0821dea2238005885bdd774c7cd290fee8e804ece6",
+      "source_sha256": "c31d867650725fda718f5b0821dea2238005885bdd774c7cd290fee8e804ece6",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Byte-preserved code or capture metadata used in the historical local review."
+    },
+    {
+      "id": "BIN-code_4037.wasm",
+      "title": "Preserved deployed-code evidence: code_4037.wasm",
+      "file": "exhibits/authority/binaries/code_4037.wasm",
+      "url": null,
+      "sha256": "976b88dbc811edf7697de39f9ac700e2a10f8ca4ddb50b6f28b5640c6d41db62",
+      "source_sha256": "976b88dbc811edf7697de39f9ac700e2a10f8ca4ddb50b6f28b5640c6d41db62",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Byte-preserved code or capture metadata used in the historical local review."
+    },
+    {
+      "id": "BIN-code_4038.wasm",
+      "title": "Preserved deployed-code evidence: code_4038.wasm",
+      "file": "exhibits/authority/binaries/code_4038.wasm",
+      "url": null,
+      "sha256": "814ad478aa883d23ba5effc9591ad683d31db329a645972001c0d426eeb31ee2",
+      "source_sha256": "814ad478aa883d23ba5effc9591ad683d31db329a645972001c0d426eeb31ee2",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Byte-preserved code or capture metadata used in the historical local review."
+    },
+    {
+      "id": "BIN-code_4033.source.json",
+      "title": "Preserved deployed-code evidence: code_4033.source.json",
+      "file": "exhibits/authority/binaries/code_4033.source.json",
+      "url": null,
+      "sha256": "3d92f09d519c184d159ac67b8ade74bd83f427a795b336ae7be6f0f766185e79",
+      "source_sha256": "3d92f09d519c184d159ac67b8ade74bd83f427a795b336ae7be6f0f766185e79",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Byte-preserved code or capture metadata used in the historical local review."
+    },
+    {
+      "id": "BIN-code_4037.source.json",
+      "title": "Preserved deployed-code evidence: code_4037.source.json",
+      "file": "exhibits/authority/binaries/code_4037.source.json",
+      "url": null,
+      "sha256": "499889b1f1a9a71041646a7c333df28733c9719b5c306c0b56c5fa00fb9233f2",
+      "source_sha256": "499889b1f1a9a71041646a7c333df28733c9719b5c306c0b56c5fa00fb9233f2",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Byte-preserved code or capture metadata used in the historical local review."
+    },
+    {
+      "id": "BIN-code_4038.source.json",
+      "title": "Preserved deployed-code evidence: code_4038.source.json",
+      "file": "exhibits/authority/binaries/code_4038.source.json",
+      "url": null,
+      "sha256": "d79223d5077e8fbf1e41cb786ad272fd3bb741c1d0a36b630891aa0626009ce8",
+      "source_sha256": "d79223d5077e8fbf1e41cb786ad272fd3bb741c1d0a36b630891aa0626009ce8",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Byte-preserved code or capture metadata used in the historical local review."
+    },
+    {
+      "id": "CT-asset_staking__bluechip",
+      "title": "asset staking  bluechip",
+      "file": "exhibits/current/asset_staking__bluechip.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "sha256": "afb47bb238269a4747fc8f2930aae59b739efe2caf120d7f7817af4802370be1",
+      "source_sha256": "afb47bb238269a4747fc8f2930aae59b739efe2caf120d7f7817af4802370be1",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:42:12.004456+00:00; block 23434950. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-asset_staking__project",
+      "title": "asset staking  project",
+      "file": "exhibits/current/asset_staking__project.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "sha256": "45d369539deec8ab159ed977c8010151fed84979e48194f6e0513d8ef3c400a1",
+      "source_sha256": "45d369539deec8ab159ed977c8010151fed84979e48194f6e0513d8ef3c400a1",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:42:09.155996+00:00; block 23434950. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-asset_staking__single",
+      "title": "asset staking  single",
+      "file": "exhibits/current/asset_staking__single.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+      "sha256": "9597c9230f13121b26edd6478c090c2d65314673551a476b5034e28f61f9c4f1",
+      "source_sha256": "9597c9230f13121b26edd6478c090c2d65314673551a476b5034e28f61f9c4f1",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:42:11.960542+00:00; block 23434950. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-asset_staking__stable",
+      "title": "asset staking  stable",
+      "file": "exhibits/current/asset_staking__stable.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "sha256": "26d354a036a0d8f9dab13e09c5cf51e56d199d1023dd88b165e6a343f51d4941",
+      "source_sha256": "26d354a036a0d8f9dab13e09c5cf51e56d199d1023dd88b165e6a343f51d4941",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:42:09.040520+00:00; block 23434950. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-board_config",
+      "title": "board config",
+      "file": "exhibits/current/board_config.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJjb25maWciOnt9fQ==",
+      "sha256": "6b8bf277ff33eebf576a8e3d588fb72caf57f3bcdf82c454502f1ff5cb9c975b",
+      "source_sha256": "6b8bf277ff33eebf576a8e3d588fb72caf57f3bcdf82c454502f1ff5cb9c975b",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:41:58.060404+00:00; block 23434948. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-board_members",
+      "title": "board members",
+      "file": "exhibits/current/board_members.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1pq9f4a8cn4cdvvm9j7v0mu8n5elf44tgtre8mzrfz3j4x6yyl2yq4hnkuk/smart/eyJsaXN0X21lbWJlcnMiOnsibGltaXQiOjEwMH19",
+      "sha256": "2ee0bf44262655157448ae9974c048e1f61befb0df2f5e1e8392072f0e481e52",
+      "source_sha256": "2ee0bf44262655157448ae9974c048e1f61befb0df2f5e1e8392072f0e481e52",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:42:00.805495+00:00; block 23434948. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "DOC3",
+      "title": "bylaws current",
+      "file": "exhibits/current/bylaws_current.pdf",
+      "url": "https://raw.githubusercontent.com/phoenix-directive/docs/main/Phoenix%20Foundation%20-%20Bylaws.pdf",
+      "sha256": "ab4bb6a54c369c5a8d7140e08eba4e103279c8068a2113d8b1aedc915e6a1b8e",
+      "source_sha256": "ab4bb6a54c369c5a8d7140e08eba4e103279c8068a2113d8b1aedc915e6a1b8e",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:39:57.668817+00:00; block not supplied. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "FR1",
+      "title": "Public forum post 1; version 5",
+      "url": "https://forum.phoenix.money/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/1",
+      "note": "Created 2026-10-16T01:55:56.411Z; updated 2026-10-23T02:20:07.308Z."
+    },
+    {
+      "id": "FR55",
+      "title": "Public forum post 55; version 2",
+      "url": "https://forum.phoenix.money/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/55",
+      "note": "Created 2026-10-19T20:54:48.315Z; updated 2026-10-19T21:17:51.092Z."
+    },
+    {
+      "id": "FR57",
+      "title": "Public forum post 57; version 2",
+      "url": "https://forum.phoenix.money/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/57",
+      "note": "Created 2026-10-19T22:09:32.905Z; updated 2026-10-19T22:16:30.345Z."
+    },
+    {
+      "id": "FR91",
+      "title": "Public forum post 91; version 1",
+      "url": "https://forum.phoenix.money/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/91",
+      "note": "Created 2026-10-23T01:55:24.166Z; updated 2026-10-23T01:56:05.399Z."
+    },
+    {
+      "id": "FR92",
+      "title": "Public forum post 92; version 1",
+      "url": "https://forum.phoenix.money/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/92",
+      "note": "Created 2026-10-23T02:05:14.196Z; updated 2026-10-23T02:05:14.196Z."
+    },
+    {
+      "id": "CT-hub_config",
+      "title": "hub config",
+      "file": "exhibits/current/hub_config.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJjb25maWciOnt9fQ==",
+      "sha256": "befa7e50218747a217616dd178bd06807c0d3cf83b31be7839f4b7cd71801519",
+      "source_sha256": "befa7e50218747a217616dd178bd06807c0d3cf83b31be7839f4b7cd71801519",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:42:06.487944+00:00; block 23434949. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-hub_info",
+      "title": "hub info",
+      "file": "exhibits/current/hub_info.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "sha256": "f7cae66c8bf4b567df905936269bd18847dbfef61c9abb9cacc850e6ed2e7a4a",
+      "source_sha256": "f7cae66c8bf4b567df905936269bd18847dbfef61c9abb9cacc850e6ed2e7a4a",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:42:03.443687+00:00; block 23434949. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-ics20_info",
+      "title": "ics20 info",
+      "file": "exhibits/current/ics20_info.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+      "sha256": "8a95343af5787e43ba70e8775ed15c5182a81c6d8c041d8b8f07f80af4cc75d5",
+      "source_sha256": "8a95343af5787e43ba70e8775ed15c5182a81c6d8c041d8b8f07f80af4cc75d5",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:42:06.454217+00:00; block 23434949. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-proposal9",
+      "title": "proposal9",
+      "file": "exhibits/current/proposal9.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1e9zwkd9epy8863d3ezmp5m4fsf95ceknhtmadwjt9rukvf8wtflstlecx8/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6OX19",
+      "sha256": "f8bf14be00a169caf277aa7fffe61b0c4f8d474f25f391ab33abf60f4e9add9d",
+      "source_sha256": "f8bf14be00a169caf277aa7fffe61b0c4f8d474f25f391ab33abf60f4e9add9d",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:42:00.856924+00:00; block 23434948. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-proposal9_votes",
+      "title": "proposal9 votes",
+      "file": "exhibits/current/proposal9_votes.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1e9zwkd9epy8863d3ezmp5m4fsf95ceknhtmadwjt9rukvf8wtflstlecx8/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjo5LCJsaW1pdCI6NTB9fQ==",
+      "sha256": "50bda90727e1e11c417d4096b38a0e64be13681a5ac7db6cf3a98f7afae4e7dd",
+      "source_sha256": "50bda90727e1e11c417d4096b38a0e64be13681a5ac7db6cf3a98f7afae4e7dd",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:42:03.478409+00:00; block 23434949. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-registry_addresses",
+      "title": "registry addresses",
+      "file": "exhibits/current/registry_addresses.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+      "sha256": "2981e3605f6e7ea2da9eb18c27382d0075ad42798eb58478a71e93aba09fce89",
+      "source_sha256": "2981e3605f6e7ea2da9eb18c27382d0075ad42798eb58478a71e93aba09fce89",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:41:58.177016+00:00; block 23434948. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-registry_info",
+      "title": "registry info",
+      "file": "exhibits/current/registry_info.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+      "sha256": "6b0dd067a093578ece089d15289867372003bff440ec1de49c217baf4db44274",
+      "source_sha256": "6b0dd067a093578ece089d15289867372003bff440ec1de49c217baf4db44274",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:41:55.328304+00:00; block 23434947. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-registry_owner",
+      "title": "registry owner",
+      "file": "exhibits/current/registry_owner.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+      "sha256": "0d1b84b2615d4c2d3658d672bf1d40aadf4483e9b7d0531390577064cee9ecd9",
+      "source_sha256": "0d1b84b2615d4c2d3658d672bf1d40aadf4483e9b7d0531390577064cee9ecd9",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:41:55.328016+00:00; block 23434947. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "TLA",
+      "title": "tla original",
+      "url": "https://github.com/phoenix-directive/docs/blob/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md",
+      "note": "Original public repository record."
+    },
+    {
+      "id": "CT-treasury_config",
+      "title": "treasury config",
+      "file": "exhibits/current/treasury_config.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJjb25maWciOnt9fQ==",
+      "sha256": "926ce4eb26c19600916e205ab07287331b2c6003e76bbb83cc44e28d4591192d",
+      "source_sha256": "926ce4eb26c19600916e205ab07287331b2c6003e76bbb83cc44e28d4591192d",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:41:50.994862+00:00; block 23434946. HTTPS certificate verification enabled."
+    },
+    {
+      "id": "CT-treasury_info",
+      "title": "treasury info",
+      "file": "exhibits/current/treasury_info.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+      "sha256": "31a9709ccfc4c370038fe3f81ad809c11122705f8f8a77222a38ddab5b8be0c8",
+      "source_sha256": "31a9709ccfc4c370038fe3f81ad809c11122705f8f8a77222a38ddab5b8be0c8",
+      "handling": "Byte-identical copy of retained source file.",
+      "note": "Fresh response 2026-10-24T16:41:50.873023+00:00; block 23434946. HTTPS certificate verification enabled."
+    }
+  ]
+}

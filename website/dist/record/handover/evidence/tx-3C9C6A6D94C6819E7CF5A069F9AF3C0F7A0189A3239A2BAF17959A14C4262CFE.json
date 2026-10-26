@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2024-12-18T09:23:25Z",
+    "hash": "3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+    "msg_index": 0,
+    "kind": "voting_escrow_config",
+    "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+    "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "msg": {
+      "update_config": {
+        "append_deposit_assets": [
+          {
+            "config": {
+              "exchange_rate": {
+                "contract": "terra1r9gls56glvuc4jedsvc3uwh6vj95mqm9efc7hnweqxa2nlme5cyqxygy5m"
+              }
+            },
+            "info": {
+              "cw20": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490"
+            }
+          }
+        ]
+      }
+    },
+    "success": true,
+    "label": "Voting escrow",
+    "power": "TLA registry owner"
+  }
+]

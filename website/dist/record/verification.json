@@ -1,0 +1,118 @@
+{
+  "title": "Philipp public record — verification index",
+  "generated_utc": "2026-10-26T09:01:35.885162+00:00",
+  "site": "https://philipp-payments.pages.dev",
+  "access": {
+    "authentication": "none",
+    "javascript_required": false,
+    "robots_crawling": "allowed",
+    "search_indexing": "noindex retained; direct retrieval is allowed"
+  },
+  "pages": [
+    {
+      "title": "Overview",
+      "page": "https://philipp-payments.pages.dev/",
+      "text": "https://philipp-payments.pages.dev/readable/overview.txt",
+      "text_sha256": "64edba728517234743ca9d522b1857c832cfd52509bfaa9fd1da6db2a1a487bb"
+    },
+    {
+      "title": "Payments",
+      "page": "https://philipp-payments.pages.dev/payments/",
+      "text": "https://philipp-payments.pages.dev/readable/payments.txt",
+      "text_sha256": "bd62d2b4b234bf5e9572d5f58a416bb66deb9a500cfc80a186b8db1322606df4"
+    },
+    {
+      "title": "Power consolidation",
+      "page": "https://philipp-payments.pages.dev/history/",
+      "text": "https://philipp-payments.pages.dev/readable/history.txt",
+      "text_sha256": "0c2a64bd5525136d4bfd09bd931b27132d2cb8c742c2cdef65ee6352cafd15ee"
+    },
+    {
+      "title": "Accountability",
+      "page": "https://philipp-payments.pages.dev/handover/",
+      "text": "https://philipp-payments.pages.dev/readable/handover.txt",
+      "text_sha256": "f519d0ce600c750fcfbdc9205d0829f011684ddac114daf4e3e87e2742a0cfad"
+    },
+    {
+      "title": "Supporting records",
+      "page": "https://philipp-payments.pages.dev/evidence/",
+      "text": "https://philipp-payments.pages.dev/readable/evidence.txt",
+      "text_sha256": "234c97d9992f6af5269223e1a775795ae4b36a685fdfdd97bac9b8b38874f946"
+    },
+    {
+      "title": "Sources",
+      "page": "https://philipp-payments.pages.dev/sources/",
+      "text": "https://philipp-payments.pages.dev/readable/sources.txt",
+      "text_sha256": "46a0b2761c4f1c07f02d4a4326ca6965d7c7c0c133d686dab21e20579542b12c"
+    }
+  ],
+  "datasets": [
+    {
+      "title": "Source index and acquisition details",
+      "url": "https://philipp-payments.pages.dev/history/sources/source-index.json",
+      "bytes": 189873,
+      "sha256": "959883b0105b78c4615a98c1c8ef461ddfb6696f6c55580622074c735f0d6214",
+      "original_source_sha256": "facb12f813bcced913339032d0c3a4152ffdeffcf2eeba95636cd20a913721e0",
+      "handling": "Published copy with privacy edits."
+    },
+    {
+      "title": "Historical price evidence",
+      "url": "https://philipp-payments.pages.dev/history/sources/historical-prices.json",
+      "bytes": 325182,
+      "sha256": "57c6f3243c65d7d24a01f3f7faba92c4f45031143b4b8d2dae330e402d295feb"
+    },
+    {
+      "title": "Payment schedule and transaction records",
+      "url": "https://philipp-payments.pages.dev/data/payment-schedule.json",
+      "bytes": 18463,
+      "sha256": "2ad50e70563f779413cb8d9932120dda90de7221dfee222c2122da8a89a69b16"
+    },
+    {
+      "title": "Fee reconciliation",
+      "url": "https://philipp-payments.pages.dev/data/fee-reconciliation.json",
+      "bytes": 6189,
+      "sha256": "1875583d4b8d21018a5f7a08082d8ef4239b387f1fd761231893f9662388e9de"
+    },
+    {
+      "title": "Validator stake dependence",
+      "url": "https://philipp-payments.pages.dev/history/sources/stake-dependence.json",
+      "bytes": 10417,
+      "sha256": "804ff418e0f33d8cf61aa2aca5aad758339a708744b69b0789f541ea1f280e74"
+    },
+    {
+      "title": "Native hub vote evidence",
+      "url": "https://philipp-payments.pages.dev/history/sources/hub-native-vote-use.json",
+      "bytes": 115548,
+      "sha256": "275575f46a319b63aa430ff92ca0fcfca3416a1c2ec2eecacd0c1c6c2b3f0279"
+    },
+    {
+      "title": "Forum author statements",
+      "url": "https://philipp-payments.pages.dev/history/sources/forum-statements.json",
+      "bytes": 36662,
+      "sha256": "7ae5e6cdd141af59ba519d50c6c44516ebe8fa344e9e8d999ccffc9ba156016e"
+    },
+    {
+      "title": "Historical USD table",
+      "url": "https://philipp-payments.pages.dev/history/historical-usd.csv",
+      "bytes": 311337,
+      "sha256": "beac2e7d71ddc735e2216b46a7e00f4fcf17a278868dee3390a8452f422ee787"
+    }
+  ],
+  "verification_notes": [
+    "Follow original transaction, proposal and source links in each record.",
+    "Distinguish retained public source bytes, redacted derivatives, analytical summaries and validator reports.",
+    "Validators report pressure; their accounts are labelled as reports and published without source identities or correspondence.",
+    "Forum usernames identify participants in the public discussion.",
+    "Native LUNA, synthetic staking weight, locked positions, receipts and proposed budgets are different measures; do not sum them as personal receipts.",
+    "Hashes verify matching bytes, not independent authorship or publication time.",
+    "Historical snapshots are not claims about current balances or office holders."
+  ],
+  "preservation": {
+    "original_repository": "https://github.com/phoenix-directive/docs",
+    "mirror": "https://github.com/terra2backup/Terra_Backup",
+    "history_manifest": "https://philipp-payments.pages.dev/history/manifest.json",
+    "history_checksums": "https://philipp-payments.pages.dev/history/SHA256SUMS.txt",
+    "forum_archives": "https://philipp-payments.pages.dev/evidence/#forum-records"
+  },
+  "publication_note": "This publication omits personal-identification material and personal-allegation galleries. Curated source guides replace the original commentary; the older editorial chronology is omitted. Amounts and transaction references in retained financial datasets are unchanged."
+}

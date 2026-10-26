@@ -1,0 +1,602 @@
+{
+  "validator_to_multisig_native_matches": [],
+  "validator_to_multisig_wasm_matches": [],
+  "monthly_validator_to_eris": [
+    {
+      "txhash": "4BAA58BB5F32BDF0A6DF96CBDBF9A835B47A7F0ACBC49FF66B95267043A70851",
+      "time": "2026-02-05T09:32:15Z",
+      "height": "19535573",
+      "sender": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "amount": 9559000000,
+      "denom": "uluna",
+      "validator": "Galactic Punks",
+      "luna": 9559.0,
+      "explorer": "https://chainsco.pe/terra2/tx/4BAA58BB5F32BDF0A6DF96CBDBF9A835B47A7F0ACBC49FF66B95267043A70851"
+    },
+    {
+      "txhash": "C13FC82C3E57FA01DA98E0C8BB3C78F8F4433649538CC8D02A0A49A91BCD4F44",
+      "time": "2026-02-05T09:35:51Z",
+      "height": "19535610",
+      "sender": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "amount": 8859000000,
+      "denom": "uluna",
+      "validator": "Lion DAO",
+      "luna": 8859.0,
+      "explorer": "https://chainsco.pe/terra2/tx/C13FC82C3E57FA01DA98E0C8BB3C78F8F4433649538CC8D02A0A49A91BCD4F44"
+    },
+    {
+      "txhash": "C056284E0CA32BA5A7833E1BE266EF5DD621DB2B727AD3107DE3E685AF87550C",
+      "time": "2026-02-20T16:58:54Z",
+      "height": "19763101",
+      "sender": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "amount": 9523000000,
+      "denom": "uluna",
+      "validator": "Lion DAO",
+      "luna": 9523.0,
+      "explorer": "https://chainsco.pe/terra2/tx/C056284E0CA32BA5A7833E1BE266EF5DD621DB2B727AD3107DE3E685AF87550C"
+    },
+    {
+      "txhash": "59D56C13BB9251E3E42E48903B4B6586639B1DF44D0C4BAD07E40044812C66D8",
+      "time": "2026-02-20T17:00:28Z",
+      "height": "19763117",
+      "sender": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "amount": 10338000000,
+      "denom": "uluna",
+      "validator": "Galactic Punks",
+      "luna": 10338.0,
+      "explorer": "https://chainsco.pe/terra2/tx/59D56C13BB9251E3E42E48903B4B6586639B1DF44D0C4BAD07E40044812C66D8"
+    },
+    {
+      "txhash": "CDD304F215808F3746F609642A39F7350269AFF9C16E5A0558759F4BB8FF79E8",
+      "time": "2026-03-10T10:00:16Z",
+      "height": "20026470",
+      "sender": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "amount": 8608000000,
+      "denom": "uluna",
+      "validator": "Galactic Punks",
+      "luna": 8608.0,
+      "explorer": "https://chainsco.pe/terra2/tx/CDD304F215808F3746F609642A39F7350269AFF9C16E5A0558759F4BB8FF79E8"
+    },
+    {
+      "txhash": "59829352DFA1E7D084DA5E64C284D40A60D2DABBC269992F5D800324FD1E040B",
+      "time": "2026-03-10T10:01:32Z",
+      "height": "20026483",
+      "sender": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "amount": 8126000000,
+      "denom": "uluna",
+      "validator": "Lion DAO",
+      "luna": 8126.0,
+      "explorer": "https://chainsco.pe/terra2/tx/59829352DFA1E7D084DA5E64C284D40A60D2DABBC269992F5D800324FD1E040B"
+    },
+    {
+      "txhash": "953F30F2B206C731CE8C082523E97232844B5A10E52D4E0EC44D4629FB0A0F26",
+      "time": "2026-04-13T08:33:45Z",
+      "height": "20532568",
+      "sender": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "amount": 11339000000,
+      "denom": "uluna",
+      "validator": "Galactic Punks",
+      "luna": 11339.0,
+      "explorer": "https://chainsco.pe/terra2/tx/953F30F2B206C731CE8C082523E97232844B5A10E52D4E0EC44D4629FB0A0F26"
+    },
+    {
+      "txhash": "CC856F170BEC2BF78AE32591BBBAC1DDF77D4509263ADD1F567EB6B9B019B7EC",
+      "time": "2026-04-13T08:35:13Z",
+      "height": "20532584",
+      "sender": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "amount": 10359000000,
+      "denom": "uluna",
+      "validator": "Lion DAO",
+      "luna": 10359.0,
+      "explorer": "https://chainsco.pe/terra2/tx/CC856F170BEC2BF78AE32591BBBAC1DDF77D4509263ADD1F567EB6B9B019B7EC"
+    },
+    {
+      "txhash": "F59143F1EE77BA1814E4461BD7A8E12CCF915D7B8A756032C2F919D7547F1EE1",
+      "time": "2026-05-14T23:53:16Z",
+      "height": "21004884",
+      "sender": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "amount": 9454000000,
+      "denom": "uluna",
+      "validator": "Galactic Punks",
+      "luna": 9454.0,
+      "explorer": "https://chainsco.pe/terra2/tx/F59143F1EE77BA1814E4461BD7A8E12CCF915D7B8A756032C2F919D7547F1EE1"
+    },
+    {
+      "txhash": "22160ACD93A568D601B1E6E0701B35918719EF3694960DBD25990B88CA112CEF",
+      "time": "2026-05-14T23:54:44Z",
+      "height": "21004899",
+      "sender": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "amount": 8537000000,
+      "denom": "uluna",
+      "validator": "Lion DAO",
+      "luna": 8537.0,
+      "explorer": "https://chainsco.pe/terra2/tx/22160ACD93A568D601B1E6E0701B35918719EF3694960DBD25990B88CA112CEF"
+    },
+    {
+      "txhash": "C38430934A68E3190834217E44BD282C3E3368ACA4E5BA802C8723EEB9519DEF",
+      "time": "2026-06-17T15:38:40Z",
+      "height": "21506638",
+      "sender": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "amount": 10448000000,
+      "denom": "uluna",
+      "validator": "Lion DAO",
+      "luna": 10448.0,
+      "explorer": "https://chainsco.pe/terra2/tx/C38430934A68E3190834217E44BD282C3E3368ACA4E5BA802C8723EEB9519DEF"
+    },
+    {
+      "txhash": "B0110C4EAF591D149ADF791EC26BDDEDF38DF780C52E292CF2671915A0DD3D54",
+      "time": "2026-06-17T15:39:56Z",
+      "height": "21506651",
+      "sender": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "amount": 11442000000,
+      "denom": "uluna",
+      "validator": "Galactic Punks",
+      "luna": 11442.0,
+      "explorer": "https://chainsco.pe/terra2/tx/B0110C4EAF591D149ADF791EC26BDDEDF38DF780C52E292CF2671915A0DD3D54"
+    },
+    {
+      "txhash": "EC387A1CC216CA57664C7C74C5DEF18990915D76B1E31BB95E6785C2B671C9E5",
+      "time": "2026-07-21T02:45:17Z",
+      "height": "22004500",
+      "sender": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "amount": 11889000000,
+      "denom": "uluna",
+      "validator": "Lion DAO",
+      "luna": 11889.0,
+      "explorer": "https://chainsco.pe/terra2/tx/EC387A1CC216CA57664C7C74C5DEF18990915D76B1E31BB95E6785C2B671C9E5"
+    },
+    {
+      "txhash": "B1B791C9227C1ADDDC5B1E7073D776AFF51584C5622E307EA7319199DDBDD213",
+      "time": "2026-07-21T02:46:10Z",
+      "height": "22004509",
+      "sender": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "amount": 12884000000,
+      "denom": "uluna",
+      "validator": "Galactic Punks",
+      "luna": 12884.0,
+      "explorer": "https://chainsco.pe/terra2/tx/B1B791C9227C1ADDDC5B1E7073D776AFF51584C5622E307EA7319199DDBDD213"
+    },
+    {
+      "txhash": "553B9BD95F3145F349CFE42760E1E5376CE3D76A2CDC240200E942275051117D",
+      "time": "2026-08-18T00:59:46Z",
+      "height": "22421970",
+      "sender": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "amount": 13290000000,
+      "denom": "uluna",
+      "validator": "Galactic Punks",
+      "luna": 13290.0,
+      "explorer": "https://chainsco.pe/terra2/tx/553B9BD95F3145F349CFE42760E1E5376CE3D76A2CDC240200E942275051117D"
+    },
+    {
+      "txhash": "905C272C8C00140B0B51231994B82AB98549DC130E2849F8A059EC2808DC9E6D",
+      "time": "2026-08-18T01:03:48Z",
+      "height": "22422012",
+      "sender": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "amount": 12448000000,
+      "denom": "uluna",
+      "validator": "Lion DAO",
+      "luna": 12448.0,
+      "explorer": "https://chainsco.pe/terra2/tx/905C272C8C00140B0B51231994B82AB98549DC130E2849F8A059EC2808DC9E6D"
+    },
+    {
+      "txhash": "28E06296F03C506121EBDE15697D138DA183906B09261EB80844B6FCD2AE4093",
+      "time": "2026-09-16T09:48:01Z",
+      "height": "22863473",
+      "sender": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "amount": 14556000000,
+      "denom": "uluna",
+      "validator": "Galactic Punks",
+      "luna": 14556.0,
+      "explorer": "https://chainsco.pe/terra2/tx/28E06296F03C506121EBDE15697D138DA183906B09261EB80844B6FCD2AE4093"
+    },
+    {
+      "txhash": "88BDA63A50EFF45EAB125B4F86255A70E696C333FD010C3E5AB3B6EA7619CA9B",
+      "time": "2026-09-16T09:49:05Z",
+      "height": "22863484",
+      "sender": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "amount": 12384000000,
+      "denom": "uluna",
+      "validator": "Lion DAO",
+      "luna": 12384.0,
+      "explorer": "https://chainsco.pe/terra2/tx/88BDA63A50EFF45EAB125B4F86255A70E696C333FD010C3E5AB3B6EA7619CA9B"
+    },
+    {
+      "txhash": "B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C",
+      "time": "2026-10-19T02:21:37Z",
+      "height": "23351003",
+      "sender": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "amount": 12654000000,
+      "denom": "uluna",
+      "validator": "Lion DAO",
+      "luna": 12654.0,
+      "explorer": "https://chainsco.pe/terra2/tx/B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C"
+    },
+    {
+      "txhash": "C940EBF82897A30739149AE35316C0E4A8019D18BD7BEC0998DE1E2C9B9E22E2",
+      "time": "2026-10-19T02:24:14Z",
+      "height": "23351030",
+      "sender": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "amount": 15265000000,
+      "denom": "uluna",
+      "validator": "Galactic Punks",
+      "luna": 15265.0,
+      "explorer": "https://chainsco.pe/terra2/tx/C940EBF82897A30739149AE35316C0E4A8019D18BD7BEC0998DE1E2C9B9E22E2"
+    }
+  ],
+  "monthly_totals": {
+    "Galactic Punks": 116735.0,
+    "Lion DAO": 105227.0
+  },
+  "signer_otc": {
+    "recipient": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+    "gross_luna_received": 795991.566014,
+    "classification": "OTC asset exchanges, not compensation",
+    "transactions": [
+      {
+        "txhash": "F96DD429882A39A6B1D32333D397E37B4433D88FA718B7FF81D1BA968614CB6D",
+        "time": "2026-04-17T04:08:58Z",
+        "luna_received": 158523.586975,
+        "explorer": "https://chainsco.pe/terra2/tx/F96DD429882A39A6B1D32333D397E37B4433D88FA718B7FF81D1BA968614CB6D"
+      },
+      {
+        "txhash": "79ADFBA51FE0CFE46D4149624C76523309CB268F1D27925E1ADE645A3F51E866",
+        "time": "2026-09-07T12:07:16Z",
+        "luna_received": 19360.979262,
+        "explorer": "https://chainsco.pe/terra2/tx/79ADFBA51FE0CFE46D4149624C76523309CB268F1D27925E1ADE645A3F51E866"
+      },
+      {
+        "txhash": "E604121D1409D577F369C070425093F934A68579EFAA7158CE893DEE30909BFE",
+        "time": "2026-09-07T12:12:32Z",
+        "luna_received": 96804.896314,
+        "explorer": "https://chainsco.pe/terra2/tx/E604121D1409D577F369C070425093F934A68579EFAA7158CE893DEE30909BFE"
+      },
+      {
+        "txhash": "534BD43487480F7C9D878F17667CDE7259DF143D1BECA96560B25ABF2672BA72",
+        "time": "2026-09-07T12:18:43Z",
+        "luna_received": 96804.896314,
+        "explorer": "https://chainsco.pe/terra2/tx/534BD43487480F7C9D878F17667CDE7259DF143D1BECA96560B25ABF2672BA72"
+      },
+      {
+        "txhash": "E9CEE659C88DEE619D709DAD6A3C4F9BE83A9566E12FAE245C9C611F12807315",
+        "time": "2026-09-21T09:21:43Z",
+        "luna_received": 37527.204878,
+        "explorer": "https://chainsco.pe/terra2/tx/E9CEE659C88DEE619D709DAD6A3C4F9BE83A9566E12FAE245C9C611F12807315"
+      },
+      {
+        "txhash": "78E697A4808BA15F14E60497C58DA4F5DAE47B4CCA6068E3B5DF9267B6C11034",
+        "time": "2026-09-21T09:23:58Z",
+        "luna_received": 37527.204878,
+        "explorer": "https://chainsco.pe/terra2/tx/78E697A4808BA15F14E60497C58DA4F5DAE47B4CCA6068E3B5DF9267B6C11034"
+      },
+      {
+        "txhash": "64BB50BCF60CF5BB5938D701D3DBAF659ABEA73B15E88287FAC37E5C49CE688E",
+        "time": "2026-09-21T09:25:25Z",
+        "luna_received": 37527.204878,
+        "explorer": "https://chainsco.pe/terra2/tx/64BB50BCF60CF5BB5938D701D3DBAF659ABEA73B15E88287FAC37E5C49CE688E"
+      },
+      {
+        "txhash": "5387DEDABD86D6FFE74E1D95412E9F1BD8BDF36EA13CB1296219AF9A24545437",
+        "time": "2026-09-21T09:26:13Z",
+        "luna_received": 37527.204878,
+        "explorer": "https://chainsco.pe/terra2/tx/5387DEDABD86D6FFE74E1D95412E9F1BD8BDF36EA13CB1296219AF9A24545437"
+      },
+      {
+        "txhash": "416CADCB7148437E660DA550DD05E9D8450F59AE0C6FD3BD9F6F56756027501F",
+        "time": "2026-09-21T09:26:52Z",
+        "luna_received": 37527.204878,
+        "explorer": "https://chainsco.pe/terra2/tx/416CADCB7148437E660DA550DD05E9D8450F59AE0C6FD3BD9F6F56756027501F"
+      },
+      {
+        "txhash": "F6E9240AE46625987F3BD6FE4FB32F4D98156C6BDCB872BB13CEC4B1C7B1D9F7",
+        "time": "2026-09-21T09:34:19Z",
+        "luna_received": 236861.182759,
+        "explorer": "https://chainsco.pe/terra2/tx/F6E9240AE46625987F3BD6FE4FB32F4D98156C6BDCB872BB13CEC4B1C7B1D9F7"
+      }
+    ]
+  },
+  "october_stewardship_actions": {
+    "97": {
+      "data": {
+        "id": 97,
+        "name": "infra payments (2026-06-15 - 2026-10-15)",
+        "reserved": [],
+        "cancelled": false,
+        "done": true,
+        "setup": {
+          "payment": {
+            "payments": [
+              {
+                "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "485000000"
+                },
+                "claimable_after_s": 1782893258
+              },
+              {
+                "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "485000000"
+                },
+                "claimable_after_s": 1785571658
+              },
+              {
+                "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "485000000"
+                },
+                "claimable_after_s": 1788250058
+              },
+              {
+                "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "485000000"
+                },
+                "claimable_after_s": 1790842058
+              }
+            ]
+          }
+        },
+        "active_from": 1781356530,
+        "total_usd": "1940",
+        "total_usd_30d": "1940",
+        "runtime": {
+          "payment": {
+            "open": []
+          }
+        }
+      }
+    },
+    "100": {
+      "data": {
+        "id": 100,
+        "name": "stewardship payments (2026-07-01 - 2026-10-01)",
+        "reserved": [],
+        "cancelled": false,
+        "done": true,
+        "setup": {
+          "payment": {
+            "payments": [
+              {
+                "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "8640000000"
+                },
+                "claimable_after_s": 1784102858
+              },
+              {
+                "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "8640000000"
+                },
+                "claimable_after_s": 1786781258
+              },
+              {
+                "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "8640000000"
+                },
+                "claimable_after_s": 1789459658
+              },
+              {
+                "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "5640000000"
+                },
+                "claimable_after_s": 1784102858
+              },
+              {
+                "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "5640000000"
+                },
+                "claimable_after_s": 1786781258
+              },
+              {
+                "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "5640000000"
+                },
+                "claimable_after_s": 1789459658
+              },
+              {
+                "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "4800000000"
+                },
+                "claimable_after_s": 1784102858
+              },
+              {
+                "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "4800000000"
+                },
+                "claimable_after_s": 1786781258
+              },
+              {
+                "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "4800000000"
+                },
+                "claimable_after_s": 1789459658
+              },
+              {
+                "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "5000000000"
+                },
+                "claimable_after_s": 1784102858
+              },
+              {
+                "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "5000000000"
+                },
+                "claimable_after_s": 1786781258
+              },
+              {
+                "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "5000000000"
+                },
+                "claimable_after_s": 1789459658
+              }
+            ]
+          }
+        },
+        "active_from": 1781615730,
+        "total_usd": "72240",
+        "total_usd_30d": "106180",
+        "runtime": {
+          "payment": {
+            "open": []
+          }
+        }
+      }
+    },
+    "118": {
+      "data": {
+        "id": 118,
+        "name": "stewardship payments (2026-10-01 - 2026-11-01) - wy0a",
+        "reserved": [],
+        "cancelled": false,
+        "done": true,
+        "setup": {
+          "payment": {
+            "payments": [
+              {
+                "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "8640000000"
+                },
+                "claimable_after_s": 1792032270
+              }
+            ]
+          }
+        },
+        "active_from": 1791470796,
+        "total_usd": "8640",
+        "total_usd_30d": "30140",
+        "runtime": {
+          "payment": {
+            "open": []
+          }
+        }
+      }
+    },
+    "119": {
+      "data": {
+        "id": 119,
+        "name": "stewardship payments (2026-10-01 - 2026-11-01) - zzw3",
+        "reserved": [],
+        "cancelled": false,
+        "done": true,
+        "setup": {
+          "payment": {
+            "payments": [
+              {
+                "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+                "asset": {
+                  "info": {
+                    "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                  },
+                  "amount": "4800000000"
+                },
+                "claimable_after_s": 1792032270
+              }
+            ]
+          }
+        },
+        "active_from": 1791470848,
+        "total_usd": "4800",
+        "total_usd_30d": "34940",
+        "runtime": {
+          "payment": {
+            "open": []
+          }
+        }
+      }
+    }
+  },
+  "action_120": {
+    "id": 120,
+    "name": "stewardship payments (2026-10-01 - 2026-11-01) - ml73",
+    "reserved": [],
+    "cancelled": false,
+    "done": true,
+    "setup": {
+      "payment": {
+        "payments": [
+          {
+            "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+            "asset": {
+              "info": {
+                "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+              },
+              "amount": "5640000000"
+            },
+            "claimable_after_s": 1792032270
+          }
+        ]
+      }
+    },
+    "active_from": 1791495405,
+    "total_usd": "5640",
+    "total_usd_30d": "40580",
+    "runtime": {
+      "payment": {
+        "open": []
+      }
+    }
+  }
+}

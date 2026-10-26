@@ -1,0 +1,2731 @@
+{
+  "edition": "Public-source edition",
+  "updated_utc": "2026-10-26T06:20:59.135936+00:00",
+  "files": [
+    {
+      "file": "app.js",
+      "bytes": 7746,
+      "sha256": "c98725d0cf7a6ac87033e12127a0734fd060cca1b54a4b6b88daf8ce854d440c"
+    },
+    {
+      "file": "coverage.json",
+      "bytes": 4634,
+      "sha256": "085ae6c00932a954c0ead21ffbf00fe9968f2511ea673dfaf041c7e2b544705f"
+    },
+    {
+      "file": "historical-usd.csv",
+      "bytes": 311337,
+      "sha256": "beac2e7d71ddc735e2216b46a7e00f4fcf17a278868dee3390a8452f422ee787"
+    },
+    {
+      "file": "index.html",
+      "bytes": 6011,
+      "sha256": "b4ff5daf6952d56b152de4d3639ee516e6f4699e98852be3cf1dc2037c8e5e6d"
+    },
+    {
+      "file": "sources/037ced71b5ddad92.json",
+      "bytes": 337,
+      "sha256": "037ced71b5ddad92a42b58da25f36b1764d8fa133010a4823300ebcdda61b624"
+    },
+    {
+      "file": "sources/03b0c2f16452de74.json",
+      "bytes": 20216,
+      "sha256": "03b0c2f16452de7497125517ca6baf616f4d31d8c990a61982a3b9b8e3256285"
+    },
+    {
+      "file": "sources/062c7710cae835f2.json",
+      "bytes": 347,
+      "sha256": "062c7710cae835f2e1fb6104ff98e42c6d0b8065306d449e52b333db34c1230d"
+    },
+    {
+      "file": "sources/07ec42a42d47176e.json",
+      "bytes": 340,
+      "sha256": "07ec42a42d47176e3b4bdf8ff8b029edcc2b2ff24e8a063edb0838fcfedcbfbc"
+    },
+    {
+      "file": "sources/082891034bf56f43.json",
+      "bytes": 103578,
+      "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+    },
+    {
+      "file": "sources/0b9c24393a76127f.json",
+      "bytes": 343,
+      "sha256": "0b9c24393a76127f7cd5c2fc5276172c531ed22a4604890f46a7ea8d353b2908"
+    },
+    {
+      "file": "sources/0f1044ac97334c2f.json",
+      "bytes": 135292,
+      "sha256": "0f1044ac97334c2fbdb74cfd790d00f16e316df5dfb1f97c99b64a7a398f70eb"
+    },
+    {
+      "file": "sources/0fe39a813787ab92.json",
+      "bytes": 340,
+      "sha256": "0fe39a813787ab92b18383428b4ed1d5e52bec11da1a5d2de10a96f858d08bd5"
+    },
+    {
+      "file": "sources/101994cc137cd970.json",
+      "bytes": 346,
+      "sha256": "101994cc137cd970bac96d6369da27712deff4d4616da53883ee057d6b89f3e1"
+    },
+    {
+      "file": "sources/10696eb3c64a2a32.json",
+      "bytes": 346,
+      "sha256": "10696eb3c64a2a32a2de4d557bf4b410be41bc50f8347ea85729ee0727133b10"
+    },
+    {
+      "file": "sources/110d5a9b272dfd3e.json",
+      "bytes": 349,
+      "sha256": "110d5a9b272dfd3eef8d07774f8b280887468cd4ef6e6608b709fc8b9ddfd693"
+    },
+    {
+      "file": "sources/119faf0c9e871499.json",
+      "bytes": 348,
+      "sha256": "119faf0c9e871499fac677817ec66b901b7717e8cce954240a07f732bf9820ec"
+    },
+    {
+      "file": "sources/12ef9fe80f6d51ac.json",
+      "bytes": 367,
+      "sha256": "12ef9fe80f6d51ac123e2ee4d6d7405c411da807f8cdce60712982a277f2d6e2"
+    },
+    {
+      "file": "sources/13d79d5036d99fe6.json",
+      "bytes": 349,
+      "sha256": "13d79d5036d99fe600b94918acf9470f9f5b3e6648bffbf63775119b6de8338e"
+    },
+    {
+      "file": "sources/14c00fda02ae7706.json",
+      "bytes": 371,
+      "sha256": "14c00fda02ae7706b05ce9349975aae23767699230108ea6917b5e533749c2ff"
+    },
+    {
+      "file": "sources/152a70049e0a684b.json",
+      "bytes": 340,
+      "sha256": "152a70049e0a684b74fd7320080fcb1ec36e942d9f7208c15d045cc732dca1d8"
+    },
+    {
+      "file": "sources/16ea418f6b4d628c.json",
+      "bytes": 348,
+      "sha256": "16ea418f6b4d628c1e0b511787ecae09274570367a23fa3db2bce6ed3685b962"
+    },
+    {
+      "file": "sources/19b4ae6f5ca086d7.json",
+      "bytes": 348,
+      "sha256": "19b4ae6f5ca086d712e0270c7588d19d9a2b9d763246b5aaefb96f0c8b4e7b53"
+    },
+    {
+      "file": "sources/1b8b752814437b4a.json",
+      "bytes": 349,
+      "sha256": "1b8b752814437b4ab656e82c3cbdd7d7b7290c73851dcb9dc8e019d2bd5354f8"
+    },
+    {
+      "file": "sources/1bcca8cfd40a890c.json",
+      "bytes": 111017,
+      "sha256": "1bcca8cfd40a890cb29d069002ac658a7f15ef1b2640fafcb134413ffa348e0a"
+    },
+    {
+      "file": "sources/1d77f79d430d2c21.json",
+      "bytes": 348,
+      "sha256": "1d77f79d430d2c2182cb745a6e0604d21cf0b979c131c9608715859991de788b"
+    },
+    {
+      "file": "sources/1f703a028867d09e.json",
+      "bytes": 413,
+      "sha256": "1f703a028867d09e15af8c8c71f5011198ea94666b4134595b3cc037f564e88c"
+    },
+    {
+      "file": "sources/1fc0eb1f0eb4bb8b.json",
+      "bytes": 11132,
+      "sha256": "1fc0eb1f0eb4bb8b01d264422d144b00421cf2bba6d383338a74088ff9975c35"
+    },
+    {
+      "file": "sources/207c4eb9ad852173.json",
+      "bytes": 375,
+      "sha256": "207c4eb9ad85217377bbe82b371405abe667fa9089fb4fc58f53fdeb61bb4cdc"
+    },
+    {
+      "file": "sources/257ba173fa6d8eae.json",
+      "bytes": 345,
+      "sha256": "257ba173fa6d8eaee14746a1667ade787e3a8953081f17e7fb65ce48dd7a28d3"
+    },
+    {
+      "file": "sources/26d354a036a0d8f9.json",
+      "bytes": 340,
+      "sha256": "26d354a036a0d8f9dab13e09c5cf51e56d199d1023dd88b165e6a343f51d4941"
+    },
+    {
+      "file": "sources/2763514188b90257.json",
+      "bytes": 349,
+      "sha256": "2763514188b90257fe064d92deeb0df665ebce555d26372e7c51b09e71d7a476"
+    },
+    {
+      "file": "sources/281f57e54fa089c0.json",
+      "bytes": 349,
+      "sha256": "281f57e54fa089c08b250bd2e21171488abda9335151f6bfd0ad6fdfe617181c"
+    },
+    {
+      "file": "sources/2a0755b705eec205.json",
+      "bytes": 377,
+      "sha256": "2a0755b705eec20526d9486472329b0ed82bd4eace20130b03ebd1ed5ad68f12"
+    },
+    {
+      "file": "sources/2adf4ba40186be6f.json",
+      "bytes": 341,
+      "sha256": "2adf4ba40186be6f9f34f0b65195b35f5ed64154abf68eb1c34e3d90dd81b70c"
+    },
+    {
+      "file": "sources/2bc44bfeceb9ee16.json",
+      "bytes": 334,
+      "sha256": "2bc44bfeceb9ee164c97b9348414f71fc89874b4b4361883395b146dd9c73fc6"
+    },
+    {
+      "file": "sources/2ca7e70b72176acc.json",
+      "bytes": 377,
+      "sha256": "2ca7e70b72176acc5b9b163299e7bbc02caebf59a344e27eedc84859234efbbe"
+    },
+    {
+      "file": "sources/2f69af9887cb770e.json",
+      "bytes": 371,
+      "sha256": "2f69af9887cb770ef4140c8c3624fa9a397b47ed1debe187ed47234a9a5add6e"
+    },
+    {
+      "file": "sources/3078e435b03ef1f5.json",
+      "bytes": 343,
+      "sha256": "3078e435b03ef1f5482f53acd438c312123b66d2badc4285a17202783d222646"
+    },
+    {
+      "file": "sources/3102587b822bef78.json",
+      "bytes": 354,
+      "sha256": "3102587b822bef78417e6706f29322ae7125571e75b437664aa3182d66295f5c"
+    },
+    {
+      "file": "sources/31a9709ccfc4c370.json",
+      "bytes": 344,
+      "sha256": "31a9709ccfc4c370038fe3f81ad809c11122705f8f8a77222a38ddab5b8be0c8"
+    },
+    {
+      "file": "sources/31eb69d0006e6255.json",
+      "bytes": 349,
+      "sha256": "31eb69d0006e62550ec9fb7855cec2898c5ae2cb61b37076647e62604a82a1f6"
+    },
+    {
+      "file": "sources/325817423bdfd886.json",
+      "bytes": 353,
+      "sha256": "325817423bdfd8869c661549ba5edd5cd823edec083c0b74154d31bf357b1006"
+    },
+    {
+      "file": "sources/3436f23388ca4aab.json",
+      "bytes": 375,
+      "sha256": "3436f23388ca4aab6debf870823d31513cbdbcfd9700799fc74a1571e9c4f62a"
+    },
+    {
+      "file": "sources/35440872c1978acc.json",
+      "bytes": 349,
+      "sha256": "35440872c1978acc0ea936ca2c2e151458ad997b15741a4c6bb597bc7a5e77af"
+    },
+    {
+      "file": "sources/359560efc701ad34.json",
+      "bytes": 352,
+      "sha256": "359560efc701ad349276131d22af9c3b565953e38511371ea68d7e0bcd42b739"
+    },
+    {
+      "file": "sources/3691d19960f5525c.json",
+      "bytes": 350,
+      "sha256": "3691d19960f5525c5db820fedc7dbf36d69696ffea6102af63160905a92d5fe5"
+    },
+    {
+      "file": "sources/3809f0a025746b62.json",
+      "bytes": 354,
+      "sha256": "3809f0a025746b62d4584b67401d01a4cb1e6f493267c8d73e5adf6dbdc4c274"
+    },
+    {
+      "file": "sources/39434e1cc4a73143.json",
+      "bytes": 349,
+      "sha256": "39434e1cc4a7314351d772289a4e3cab31682a00a4364eca6218de08c553f352"
+    },
+    {
+      "file": "sources/3b1729eeba5c024f.json",
+      "bytes": 352,
+      "sha256": "3b1729eeba5c024f7db58e3069b265fd4c004af83ccfe27e6a96a3798da6e3c2"
+    },
+    {
+      "file": "sources/3c480577c4205560.json",
+      "bytes": 375,
+      "sha256": "3c480577c42055601ca1bb174ab2fc1ca9582064d639dbb716408ffbc1dcca41"
+    },
+    {
+      "file": "sources/3e991a5b6c71a26e.json",
+      "bytes": 349,
+      "sha256": "3e991a5b6c71a26e1e003d76a91b0a17b6c5d1f710e63bce98485a2302384fc7"
+    },
+    {
+      "file": "sources/412c47f7db6f6e69.json",
+      "bytes": 347,
+      "sha256": "412c47f7db6f6e693a92c5d5eb3e1c0a6d5e01b757a38145dedcfaccfd9d9b11"
+    },
+    {
+      "file": "sources/41dbd2e1fc7f7bf9.json",
+      "bytes": 53014,
+      "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534"
+    },
+    {
+      "file": "sources/431510dae85b4e00.json",
+      "bytes": 350,
+      "sha256": "431510dae85b4e007ee073e82e7bf8f83e84fe334618bc226ff0044bef1fe474"
+    },
+    {
+      "file": "sources/4444ec38bdd77d1e.json",
+      "bytes": 93201,
+      "sha256": "4444ec38bdd77d1e729c57d76946be5850351864fda2ed2f5d875b0c1eb74a39"
+    },
+    {
+      "file": "sources/45d369539deec8ab.json",
+      "bytes": 340,
+      "sha256": "45d369539deec8ab159ed977c8010151fed84979e48194f6e0513d8ef3c400a1"
+    },
+    {
+      "file": "sources/4a8ac4276c08a2b2.json",
+      "bytes": 355,
+      "sha256": "4a8ac4276c08a2b2ff0bb8dcf25afec2de42b8a5ebdfc160e4dc1050ac2d3b25"
+    },
+    {
+      "file": "sources/4abbc69f761ea8cd.json",
+      "bytes": 340,
+      "sha256": "4abbc69f761ea8cd66569c78cf4a23ec31493a6c1afad0966c11a324285c9f51"
+    },
+    {
+      "file": "sources/4db4db8396d22404.json",
+      "bytes": 375,
+      "sha256": "4db4db8396d22404501923f598b9e1ff263e153d319bdde2ec073813562040fb"
+    },
+    {
+      "file": "sources/4e6073e222e199e8.json",
+      "bytes": 70598,
+      "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df"
+    },
+    {
+      "file": "sources/4f63d9385116fe82.json",
+      "bytes": 354,
+      "sha256": "4f63d9385116fe825019c3bb7268d248eb020d227a46fbeab178143dc2f8a9c9"
+    },
+    {
+      "file": "sources/4ffd07776e1d6894.json",
+      "bytes": 375,
+      "sha256": "4ffd07776e1d68943f73a0eba96cad3e32c7ba4b291878c058ebaeb5cc11bf1a"
+    },
+    {
+      "file": "sources/539c4f55d30f5cff.json",
+      "bytes": 347,
+      "sha256": "539c4f55d30f5cffd80b8e07e3bdcadfa602b1f4ce47721a4e5b8fa2db436cfc"
+    },
+    {
+      "file": "sources/54d06a838a0017c3.json",
+      "bytes": 343,
+      "sha256": "54d06a838a0017c38d61d4767d32c55d543bd875c675f5640fa933885cf46982"
+    },
+    {
+      "file": "sources/56ee3a7c1ea50e56.json",
+      "bytes": 4114,
+      "sha256": "56ee3a7c1ea50e56f74091494080dc342d4f8d9f7e9204a5b1e06e6b569b4d2b"
+    },
+    {
+      "file": "sources/5ad8338997a00ce8.json",
+      "bytes": 16634,
+      "sha256": "5ad8338997a00ce8394ce74ac14a943ee8c2b3fd7166dbd098aa921b1b00ed95"
+    },
+    {
+      "file": "sources/5bfef9da73d3367d.json",
+      "bytes": 335,
+      "sha256": "5bfef9da73d3367d3b939e79a084838dc0f67b7b071c18c12db9775bbff3a33f"
+    },
+    {
+      "file": "sources/5cc669cb9e0d9025.json",
+      "bytes": 377,
+      "sha256": "5cc669cb9e0d9025de667985424d5057ae8955e36c00cd1d0ea435435d039948"
+    },
+    {
+      "file": "sources/63743f3e8ce56459.json",
+      "bytes": 352,
+      "sha256": "63743f3e8ce564591416ac642ee6c22a329d0f57e23a17885d4ae6aa3fe3d227"
+    },
+    {
+      "file": "sources/6414ed882ca01f18.json",
+      "bytes": 354,
+      "sha256": "6414ed882ca01f18e3373192e00d734b2ec6cac36634ea06c2e2567761245a78"
+    },
+    {
+      "file": "sources/65c0c1010e8106b2.json",
+      "bytes": 339,
+      "sha256": "65c0c1010e8106b226aaf242d75f45fb6bb2680bfe7baa280e61f6970dbea0c1"
+    },
+    {
+      "file": "sources/6942d97b24dd6e59.json",
+      "bytes": 348,
+      "sha256": "6942d97b24dd6e591f358bfd84d272a688f6cd0c7b4dc7facf5f6e7feb784ba4"
+    },
+    {
+      "file": "sources/6b0dd067a093578e.json",
+      "bytes": 346,
+      "sha256": "6b0dd067a093578ece089d15289867372003bff440ec1de49c217baf4db44274"
+    },
+    {
+      "file": "sources/6da0d8332b2a2df6.json",
+      "bytes": 343,
+      "sha256": "6da0d8332b2a2df62b46d76d295ae5c861d465c9c59398a68463c40c06e8c1ec"
+    },
+    {
+      "file": "sources/6e99fcca39ef2dd0.json",
+      "bytes": 348,
+      "sha256": "6e99fcca39ef2dd05b074ba0b7dc5f998c9415e657dfc79617c0cd9bc3930a87"
+    },
+    {
+      "file": "sources/71554379b6c3e9ba.json",
+      "bytes": 350,
+      "sha256": "71554379b6c3e9bab8a4026e7301b38023e5f01407c88bb4bb9339dafc3c2ca8"
+    },
+    {
+      "file": "sources/720560703b18e322.json",
+      "bytes": 345,
+      "sha256": "720560703b18e32243f0412d38b7c386e50fb30998659c39fed43e66b24f1ce0"
+    },
+    {
+      "file": "sources/728933e47ce60791.json",
+      "bytes": 375,
+      "sha256": "728933e47ce60791e5736ce6397b5fb215bb50b6ae8ea44dfed0f2bd0939eab0"
+    },
+    {
+      "file": "sources/72a36c7ab46ebaf2.json",
+      "bytes": 333,
+      "sha256": "72a36c7ab46ebaf2bdb14ebe0878d6eeb306576a9229196469ca7f7b8ab8de74"
+    },
+    {
+      "file": "sources/734e3cf3905e8227.json",
+      "bytes": 332,
+      "sha256": "734e3cf3905e8227e1c0debec97943cd73e5f66a27ab33a6ee58a5df1d274455"
+    },
+    {
+      "file": "sources/749f3f705671971b.json",
+      "bytes": 354,
+      "sha256": "749f3f705671971b7772250ef7f7a49ec8f522e1d0c7e002bcd4c6b1e1c24f31"
+    },
+    {
+      "file": "sources/75c04b91dd72b9b4.json",
+      "bytes": 103604,
+      "sha256": "75c04b91dd72b9b449ddea3024adb599164844645b052d2b0cf5ddea19a30316"
+    },
+    {
+      "file": "sources/77ef9e7b5b0411d2.json",
+      "bytes": 368,
+      "sha256": "77ef9e7b5b0411d2dea543b2017903143bb6d6594fbd844cb041a9206df466d0"
+    },
+    {
+      "file": "sources/7accc8a896ac756b.json",
+      "bytes": 349,
+      "sha256": "7accc8a896ac756bcef705c63a2af2978f9315b61a376d520ad641f59bc229c9"
+    },
+    {
+      "file": "sources/7b7e5390806bd208.json",
+      "bytes": 69158,
+      "sha256": "7b7e5390806bd208d5ff82df06ae36e89f1bee99cd4dec37bebe6e68c7f7a084"
+    },
+    {
+      "file": "sources/7f2136d8f9b0e4a0.json",
+      "bytes": 333,
+      "sha256": "7f2136d8f9b0e4a0230956846f48c513023be8ac3c144719ed5c8df1decf24bd"
+    },
+    {
+      "file": "sources/809897d128846bdf.json",
+      "bytes": 348,
+      "sha256": "809897d128846bdf0161d162199831639a7ee17986cc9d66bb7ea42bf7d79e55"
+    },
+    {
+      "file": "sources/82ff982f62331517.json",
+      "bytes": 415,
+      "sha256": "82ff982f62331517e7b9bc2c84432e0ec54a7957557d7a5cf01ebad288a2ff49"
+    },
+    {
+      "file": "sources/8496c47eec74149e.json",
+      "bytes": 342,
+      "sha256": "8496c47eec74149e5b3ace58c25759b40298f275d4473534d4d2278f9bab57f1"
+    },
+    {
+      "file": "sources/8a95343af5787e43.json",
+      "bytes": 421,
+      "sha256": "8a95343af5787e43ba70e8775ed15c5182a81c6d8c041d8b8f07f80af4cc75d5"
+    },
+    {
+      "file": "sources/8bb223e5b38c8e9c.json",
+      "bytes": 10418,
+      "sha256": "8bb223e5b38c8e9ce45a7bc081065cf70fb36df4999e469507cfb4fe6845f29f"
+    },
+    {
+      "file": "sources/8c3e2cadaa6a0ca6.json",
+      "bytes": 345,
+      "sha256": "8c3e2cadaa6a0ca696d1255a9ea9bf51d3e21bec117c90f7d0ae9abd6df507fa"
+    },
+    {
+      "file": "sources/8f56945cd381db50.json",
+      "bytes": 352,
+      "sha256": "8f56945cd381db50ce660bf39ae4d62b15a3101d6808af343f1800a1c11cb829"
+    },
+    {
+      "file": "sources/91c47ef6926727e4.json",
+      "bytes": 371,
+      "sha256": "91c47ef6926727e49053d3252eb159e4a4e1b5ffc63542f581a650e7d8a62aa4"
+    },
+    {
+      "file": "sources/93ec6b5b4a8b0972.json",
+      "bytes": 345,
+      "sha256": "93ec6b5b4a8b0972c5a8f717f6a281ad2101dfe3b685782b01cf8a4a3d7414f7"
+    },
+    {
+      "file": "sources/9579775a03c5189f.json",
+      "bytes": 377,
+      "sha256": "9579775a03c5189fdd9824f8ed3081cfbc95d7a638ac03407d3d7a54c63f960a"
+    },
+    {
+      "file": "sources/9597c9230f13121b.json",
+      "bytes": 340,
+      "sha256": "9597c9230f13121b26edd6478c090c2d65314673551a476b5034e28f61f9c4f1"
+    },
+    {
+      "file": "sources/98b6d0b0d736f4e0.json",
+      "bytes": 371,
+      "sha256": "98b6d0b0d736f4e03c72399dccf619774e0f3087ef2a56ce130631fa3fb41804"
+    },
+    {
+      "file": "sources/98ec87f3d9344093.json",
+      "bytes": 371,
+      "sha256": "98ec87f3d9344093918bec9d0a2b1519ca8b9864fc89f9c79105eb0d4be641cd"
+    },
+    {
+      "file": "sources/99cd8a84ad02b6f1.json",
+      "bytes": 19135,
+      "sha256": "99cd8a84ad02b6f112d33ad87a863b87f3672430867f997fa740f6ba3f37b3d5"
+    },
+    {
+      "file": "sources/99ce001b4f309004.json",
+      "bytes": 341,
+      "sha256": "99ce001b4f30900411144764373fccfc809670022012fc0ee46195de9f3bec54"
+    },
+    {
+      "file": "sources/9b5aa907a4446164.json",
+      "bytes": 376,
+      "sha256": "9b5aa907a44461646a6441f6ca38a23e097bed8535f0394b6c6f5b2c9bd951e2"
+    },
+    {
+      "file": "sources/9db149b46678b605.json",
+      "bytes": 345,
+      "sha256": "9db149b46678b605710c5ea7e029f22f43e31aee6cb87cd5cd8dac354663d96e"
+    },
+    {
+      "file": "sources/9e127cd0021decfe.json",
+      "bytes": 334,
+      "sha256": "9e127cd0021decfe455df51d807626545c490a6775971df368cbc90583dc6e44"
+    },
+    {
+      "file": "sources/a07b09778e1b9035.json",
+      "bytes": 349,
+      "sha256": "a07b09778e1b9035c4a6e182f5ebd212bc4bedbcaaeb9cccf3f21b2553bbb16f"
+    },
+    {
+      "file": "sources/a3851875380ce58e.json",
+      "bytes": 44078,
+      "sha256": "a3851875380ce58ee9b8a0e246bd39b7a1e070ef150f26a5601a4fc180010bf9"
+    },
+    {
+      "file": "sources/a75f634c8dfb7479.json",
+      "bytes": 351,
+      "sha256": "a75f634c8dfb74793ef4709382f06cee1d27334d3909305aed31ba3857668c59"
+    },
+    {
+      "file": "sources/a7eb5d5dc4d9b133.json",
+      "bytes": 345,
+      "sha256": "a7eb5d5dc4d9b13371b694d35889a8ba0ef816f640670cbd7992c7b6c5d09ac7"
+    },
+    {
+      "file": "sources/a858c3501627009c.json",
+      "bytes": 326,
+      "sha256": "a858c3501627009c8d885d0a2f8b2d45b8338a90a715448fe8737092feeb73e6"
+    },
+    {
+      "file": "sources/abb2ab31783479d0.json",
+      "bytes": 333,
+      "sha256": "abb2ab31783479d0e3f19d2fa8b2074c0966794fe40eb065229c9a19814fbe49"
+    },
+    {
+      "file": "sources/abbd83211b10aa9f.json",
+      "bytes": 11076,
+      "sha256": "abbd83211b10aa9fc6b24697c71a0b3254b409eb819405448990c53063e1335d"
+    },
+    {
+      "file": "sources/ad3bc7237fc24d6a.json",
+      "bytes": 36184,
+      "sha256": "ad3bc7237fc24d6a0138f04085b93b57e8f982ff58a19ecb07539dded7ed6cc3"
+    },
+    {
+      "file": "sources/afb47bb238269a47.json",
+      "bytes": 340,
+      "sha256": "afb47bb238269a4747fc8f2930aae59b739efe2caf120d7f7817af4802370be1"
+    },
+    {
+      "file": "sources/afc7ae0374f840a6.json",
+      "bytes": 333,
+      "sha256": "afc7ae0374f840a67a80987fff0b2773188ab014dfc48dcaa5f89b35ea8628d3"
+    },
+    {
+      "file": "sources/afc990f598e38928.json",
+      "bytes": 355,
+      "sha256": "afc990f598e38928b2a2bc995eb3645571a666cfaf2f686b2a29f1d0313d30b4"
+    },
+    {
+      "file": "sources/b1f37567ede53727.json",
+      "bytes": 338,
+      "sha256": "b1f37567ede53727954a3e365f25f8194bece1635e283a93666e827b8e0ed7a3"
+    },
+    {
+      "file": "sources/b4a91b4f04382ad7.json",
+      "bytes": 376,
+      "sha256": "b4a91b4f04382ad7b064246ec1bf9b81717666d76fca73298fba71fc60a1132a"
+    },
+    {
+      "file": "sources/b4f693845902518a.json",
+      "bytes": 354,
+      "sha256": "b4f693845902518ac323abd1d391d68d2f055561587788781b1b933f29a500f8"
+    },
+    {
+      "file": "sources/b6c8a26ce53dc29b.json",
+      "bytes": 344,
+      "sha256": "b6c8a26ce53dc29bbd050f558bb35e68c237b972648ae45a2511fa97170c811e"
+    },
+    {
+      "file": "sources/b8d9924cb59448d5.json",
+      "bytes": 11375,
+      "sha256": "b8d9924cb59448d57e9d25b22a6349149aa378eaf30faef0a27912c871544dbe"
+    },
+    {
+      "file": "sources/bb8846efb9a24e58.json",
+      "bytes": 352,
+      "sha256": "bb8846efb9a24e58e84a332b1d0fd199b83b973b553f295ad12a36ea3ac4cdfc"
+    },
+    {
+      "file": "sources/bcf48c23065002b4.json",
+      "bytes": 354,
+      "sha256": "bcf48c23065002b443f011334670b1eadc7a43fc8dc28eea7e11103de2d0fbe1"
+    },
+    {
+      "file": "sources/bd047dd6b70cb709.json",
+      "bytes": 354,
+      "sha256": "bd047dd6b70cb709982788969576046f4aeb45ad97552d11b5808d52d857929a"
+    },
+    {
+      "file": "sources/bf94a81c7a36bbfd.json",
+      "bytes": 352,
+      "sha256": "bf94a81c7a36bbfdb6b2942e2c6285490d59538e1c590c81bf2ca384a021a46f"
+    },
+    {
+      "file": "sources/bf9de124b832ab82.json",
+      "bytes": 332,
+      "sha256": "bf9de124b832ab8261471ddb82775d7762e9e125a13f143df80de2d8192414c0"
+    },
+    {
+      "file": "sources/c450e7b9bc5d6687.json",
+      "bytes": 345,
+      "sha256": "c450e7b9bc5d66870d00bcbf7f2ea08a2602ac129247f17b0130918a5b6969b7"
+    },
+    {
+      "file": "sources/c49edce79f7e67ca.json",
+      "bytes": 369,
+      "sha256": "c49edce79f7e67ca436e2d9a32dcbeefd54e6a5fc0c366dfb5e18e0f71941e8c"
+    },
+    {
+      "file": "sources/c52076e3d80ed81a.json",
+      "bytes": 12248,
+      "sha256": "c52076e3d80ed81acc40d5cc7b263b706cd8f5db7804fefa8f5e755824a5777c"
+    },
+    {
+      "file": "sources/c650b445fe9f299a.json",
+      "bytes": 348,
+      "sha256": "c650b445fe9f299ad58b3246190c8c62366f7b650569b34acd0fb306a985c832"
+    },
+    {
+      "file": "sources/c6d570e30b861270.json",
+      "bytes": 344,
+      "sha256": "c6d570e30b861270afd12577c894ae60871bb771e5b2a716ac0620be2575ae3d"
+    },
+    {
+      "file": "sources/c74697b10dace5aa.json",
+      "bytes": 344,
+      "sha256": "c74697b10dace5aa70f7801351519244b371e9f9a843a5cb8da2792ac72db0f0"
+    },
+    {
+      "file": "sources/c7a2a049762aa751.json",
+      "bytes": 335,
+      "sha256": "c7a2a049762aa751b1fbc6f8f35ff6e24b02dc93881db625a3cbf38c2dd66b1d"
+    },
+    {
+      "file": "sources/c910d704af07d09d.json",
+      "bytes": 237883,
+      "sha256": "c910d704af07d09d071e1e8bbb11bcb5a8e3203529dee4cf2d688108f7362824"
+    },
+    {
+      "file": "sources/ca873c036e093be5.json",
+      "bytes": 340,
+      "sha256": "ca873c036e093be52413c79323dd6d1314406468147752501b8c2364f3291a45"
+    },
+    {
+      "file": "sources/cf6dc8462f4301ae.json",
+      "bytes": 350,
+      "sha256": "cf6dc8462f4301aec1d1cd7396ad624236289c40ea958912fa0b34444391988c"
+    },
+    {
+      "file": "sources/cfbd66141d0a2e9e.json",
+      "bytes": 348,
+      "sha256": "cfbd66141d0a2e9ed0421a2321d5f6f9dfe1ad3b4a6a0bedc10328221c60e622"
+    },
+    {
+      "file": "sources/cfcf135ce4bb1dba.json",
+      "bytes": 326,
+      "sha256": "cfcf135ce4bb1dba28bdf3faa018b1023683b1e66693621721bab57ba0388a05"
+    },
+    {
+      "file": "sources/contracts.json",
+      "bytes": 74708,
+      "sha256": "ce7f6504682653c1f3bc559732b9139cdb3b5b63268ffc4b29512fc1b814e66b"
+    },
+    {
+      "file": "sources/d09c87b39f3eefb2.json",
+      "bytes": 375,
+      "sha256": "d09c87b39f3eefb279341d5fe88f52feea27099a33053da67474834501a6025c"
+    },
+    {
+      "file": "sources/d56abe199ddac46d.json",
+      "bytes": 371,
+      "sha256": "d56abe199ddac46dbccf61487241286d503e66f803ae18d9059c4bf9c55abba5"
+    },
+    {
+      "file": "sources/d742bda175240a29.json",
+      "bytes": 344,
+      "sha256": "d742bda175240a29e6c341cb5b68a048c8831dedd3ad04032b5b4cdac703b983"
+    },
+    {
+      "file": "sources/daa0247117e87db3.json",
+      "bytes": 342,
+      "sha256": "daa0247117e87db3cd8074dea0df74c698f36202d6a710c00ed279b48157db78"
+    },
+    {
+      "file": "sources/db17d702c738bf23.json",
+      "bytes": 344,
+      "sha256": "db17d702c738bf2340d789d7b9974c385d61c5ff2e3cdaeda050ad3abf050dcd"
+    },
+    {
+      "file": "sources/db1cee2471d834b4.json",
+      "bytes": 354,
+      "sha256": "db1cee2471d834b435f9cc47c97a379c9357de197b4a57fd69c857d44606b35a"
+    },
+    {
+      "file": "sources/db8915a5a266f998.json",
+      "bytes": 341,
+      "sha256": "db8915a5a266f9985f4e719f5715970aa8b22baa2a2af79e55c175b41bd17aef"
+    },
+    {
+      "file": "sources/dd3ee9ba4d289e5e.json",
+      "bytes": 20928,
+      "sha256": "dd3ee9ba4d289e5e6e9f2f1e5479141f8c4cb3577d8c7014de152610460c48a1"
+    },
+    {
+      "file": "sources/dd45c6bb10265476.json",
+      "bytes": 352,
+      "sha256": "dd45c6bb10265476df08456fb0e3fec6aefd1cf260b14fbd6cffcf8ae162c8fe"
+    },
+    {
+      "file": "sources/e191d80b09344ede.json",
+      "bytes": 17812,
+      "sha256": "e191d80b09344ede79320d1b1cc35e82a9cea46298a688b7d19726d2d92c1d9b"
+    },
+    {
+      "file": "sources/e2ed40079d847d7f.json",
+      "bytes": 349,
+      "sha256": "e2ed40079d847d7f8bf190b00ac36e0d6cd459eb03f4d732814a10c82b877bca"
+    },
+    {
+      "file": "sources/e3cad66cd2dfdf6e.json",
+      "bytes": 341,
+      "sha256": "e3cad66cd2dfdf6e27e918d5206ea5bec4cbe2881bfd6e85b553763ae4d12adf"
+    },
+    {
+      "file": "sources/e6936cdccd8bc2ef.json",
+      "bytes": 352,
+      "sha256": "e6936cdccd8bc2ef113c24020a5858e19c477bb716e06364fed4ffb2ed14577f"
+    },
+    {
+      "file": "sources/e6fdf7d71605f7e3.json",
+      "bytes": 359,
+      "sha256": "e6fdf7d71605f7e3794e5c13c10f2ca55803b01f6dc650ace2641c27c65a89f6"
+    },
+    {
+      "file": "sources/e744cbc1d45d70b8.json",
+      "bytes": 348,
+      "sha256": "e744cbc1d45d70b813a060df7e74466133c1207b1fef04e9b18e970313ce8fc7"
+    },
+    {
+      "file": "sources/e976598ad11f6acf.json",
+      "bytes": 347,
+      "sha256": "e976598ad11f6acf6419d22fc469c9c2d0f2c29d86df52ec7d42efe4afe28f49"
+    },
+    {
+      "file": "sources/ec6577867e4f7e97.json",
+      "bytes": 344,
+      "sha256": "ec6577867e4f7e97ad3fdf27f6106d7b129648a229b2e04e49b82107c7332fea"
+    },
+    {
+      "file": "sources/ed0006a31533a573.json",
+      "bytes": 333,
+      "sha256": "ed0006a31533a5739ea34daccf68d4c1e1d8d25cfb1ed10bb57877e2860dad42"
+    },
+    {
+      "file": "sources/ed6e3e57e4278fa3.json",
+      "bytes": 352,
+      "sha256": "ed6e3e57e4278fa3eff0b619471767dff40acf14c60254b154918f754a75b90e"
+    },
+    {
+      "file": "sources/eris-ceres-rebalance-explorer.txt",
+      "bytes": 13977,
+      "sha256": "846ce673b8db9298e20d760161c0587b239a0cc6ef8b1e2d66d200f23b4dc55c"
+    },
+    {
+      "file": "sources/eris-ceres-remove-explorer.txt",
+      "bytes": 5655,
+      "sha256": "609bef99e690ccefa26fbcfec93d18e4397bd6b9dea3f6f60c18cbac2e244e5b"
+    },
+    {
+      "file": "sources/f1941bc3dd06f4b3.json",
+      "bytes": 336,
+      "sha256": "f1941bc3dd06f4b3436aeebda252dd846141ae407aec6850ceed92c7ca90e556"
+    },
+    {
+      "file": "sources/f29674e2a65946f8.json",
+      "bytes": 345,
+      "sha256": "f29674e2a65946f8ca498505cc7677f2db5200e8c19fb775bb3967433bbd8985"
+    },
+    {
+      "file": "sources/f4bf67fb9f0b89ef.json",
+      "bytes": 349,
+      "sha256": "f4bf67fb9f0b89efea09f0eec3b11cf4dcd61775d1dfa4100aa96a0b3ec168ba"
+    },
+    {
+      "file": "sources/f5d6c2bb2adba1b5.json",
+      "bytes": 332,
+      "sha256": "f5d6c2bb2adba1b5e5ba523f9a60f23706c1c848ca5a60f181338369d36b3b19"
+    },
+    {
+      "file": "sources/f68f2ea44214390f.json",
+      "bytes": 347,
+      "sha256": "f68f2ea44214390f312c71c017221d47c11942410345d26074bcc1fee663b88c"
+    },
+    {
+      "file": "sources/f69a82904a3f0c11.json",
+      "bytes": 350,
+      "sha256": "f69a82904a3f0c11dd09763109a33fcf0f9ed940e1180c92570957a69eb97c6b"
+    },
+    {
+      "file": "sources/f7cae66c8bf4b567.json",
+      "bytes": 363,
+      "sha256": "f7cae66c8bf4b567df905936269bd18847dbfef61c9abb9cacc850e6ed2e7a4a"
+    },
+    {
+      "file": "sources/f8763e346777759d.json",
+      "bytes": 347,
+      "sha256": "f8763e346777759d7fff47df6009e33d8c9179ce3b15ddc0ae021167617e35c3"
+    },
+    {
+      "file": "sources/f8c7b737fcf25e22.json",
+      "bytes": 358,
+      "sha256": "f8c7b737fcf25e2269ce73ef90728b9ded1518ce1ba2d50afd62b5d8e2647f1d"
+    },
+    {
+      "file": "sources/f95bb999925d1c0d.json",
+      "bytes": 354,
+      "sha256": "f95bb999925d1c0d8a42fa353a5391d5e9542639bf617db4a7b3384a6b0a98df"
+    },
+    {
+      "file": "sources/fa7847636192c103.json",
+      "bytes": 347,
+      "sha256": "fa7847636192c103170d6162a9dbe324c27299bc8e718eb0d2987f750ef75bd5"
+    },
+    {
+      "file": "sources/ff796b7ddaba9b0a.json",
+      "bytes": 362,
+      "sha256": "ff796b7ddaba9b0acef9079dbec2ba401843f09f5f2cfe0bd36b5c9656077ce8"
+    },
+    {
+      "file": "sources/forum-statements.json",
+      "bytes": 36662,
+      "sha256": "7ae5e6cdd141af59ba519d50c6c44516ebe8fa344e9e8d999ccffc9ba156016e"
+    },
+    {
+      "file": "sources/forum_administrators_20261017.json",
+      "bytes": 1785,
+      "sha256": "2ffbcad2924cde90aac3b9e88239b2190ad7a1db4cc63a69d91f624f492eee92"
+    },
+    {
+      "file": "sources/funding-register.json",
+      "bytes": 29842,
+      "sha256": "921af64f018b0fd7d3c62f66c3a9dc92c2d9e7e134b84b9cda4b530fd5d481b3"
+    },
+    {
+      "file": "sources/gauge_info.json",
+      "bytes": 332,
+      "sha256": "734e3cf3905e8227e1c0debec97943cd73e5f66a27ab33a6ee58a5df1d274455"
+    },
+    {
+      "file": "sources/gauge_info.json.capture.json",
+      "bytes": 444,
+      "sha256": "4dfae6b49af56d499f7636412f9d5d0c6484d447c8b03d69ea8ec0c8ea5ec276"
+    },
+    {
+      "file": "sources/historical-prices.json",
+      "bytes": 325182,
+      "sha256": "57c6f3243c65d7d24a01f3f7faba92c4f45031143b4b8d2dae330e402d295feb"
+    },
+    {
+      "file": "sources/hub-native-vote-use.json",
+      "bytes": 115548,
+      "sha256": "275575f46a319b63aa430ff92ca0fcfca3416a1c2ec2eecacd0c1c6c2b3f0279"
+    },
+    {
+      "file": "sources/hub_config.json",
+      "bytes": 2132,
+      "sha256": "befa7e50218747a217616dd178bd06807c0d3cf83b31be7839f4b7cd71801519"
+    },
+    {
+      "file": "sources/hub_config.json.capture.json",
+      "bytes": 472,
+      "sha256": "d342e27c83290560b792c00cb1cd84d46affee25bffaf85f8226b362b6fce460"
+    },
+    {
+      "file": "sources/hub_delegations.json",
+      "bytes": 3022,
+      "sha256": "02db1a8f9cf7c8757a2400cd2d8953fa976dd83815093bcfb0ad0d0579adae70"
+    },
+    {
+      "file": "sources/hub_delegations.json.capture.json",
+      "bytes": 485,
+      "sha256": "c8baf42cf0afb22dccb4cadd7b2cdf5473dbf75f86a26fe11e7186a4e54fa68c"
+    },
+    {
+      "file": "sources/hub_execution_source.rs",
+      "bytes": 31999,
+      "sha256": "b50368e8bd7f85c813eb01a51a87ed9245f73e20547519e003d97bfba93fe3b0"
+    },
+    {
+      "file": "sources/hub_execution_source.rs.capture.json",
+      "bytes": 460,
+      "sha256": "9aa805d09a0fee07c7d43fe30914197219cb291b47bf9bad605ca9159fb13e1d"
+    },
+    {
+      "file": "sources/hub_governance_source.rs",
+      "bytes": 2272,
+      "sha256": "353952bed96522da2e9215890c9858e9dd1512d383f03ece8234a6cd8bcba788"
+    },
+    {
+      "file": "sources/hub_governance_source.rs.capture.json",
+      "bytes": 457,
+      "sha256": "36a2d82879f590ac66113c327257322f02ed360f015bf31ccc472b7b948c2e68"
+    },
+    {
+      "file": "sources/hub_info.json",
+      "bytes": 363,
+      "sha256": "f7cae66c8bf4b567df905936269bd18847dbfef61c9abb9cacc850e6ed2e7a4a"
+    },
+    {
+      "file": "sources/hub_info.json.capture.json",
+      "bytes": 440,
+      "sha256": "e44ee06f2fc75806f3b922c7627d8302ada94c800333b6ba38d9ad117a969d4a"
+    },
+    {
+      "file": "sources/hub_vote_4823_transaction.json",
+      "bytes": 14606,
+      "sha256": "277b9eec1d5f0def81041434a0377e6598ce064b4117411415221a1aadce78e8"
+    },
+    {
+      "file": "sources/hub_vote_operator.json",
+      "bytes": 99,
+      "sha256": "209c38e04416834707014d1e1e7046ae3967be9808ad018f87bc2c0381e3e7ca"
+    },
+    {
+      "file": "sources/hub_vote_operator.json.capture.json",
+      "bytes": 482,
+      "sha256": "9c2f18eb1e718d1b7f0668157991e38fb75025b745db7069bb8f1917eb594047"
+    },
+    {
+      "file": "sources/lion-delegation-exchange.json",
+      "bytes": 2995,
+      "sha256": "ce5e8d120ffef1cc7561e476a9fc7412bda986bf22a3da0f9af2dcae319b4fc9"
+    },
+    {
+      "file": "sources/power_20261022_alliances.json",
+      "bytes": 4418,
+      "sha256": "0944733b5e68e00f14b4b9ac399ed69df1209f44fc86012f65bfe8d231049267"
+    },
+    {
+      "file": "sources/power_20261022_amp_delegations.json",
+      "bytes": 3018,
+      "sha256": "95424e5122450cd4b4a3ce79a08e0b8c6a87542cc0bc5ab92e1a8e7013a158aa"
+    },
+    {
+      "file": "sources/power_20261022_openfields_pd_power.json",
+      "bytes": 42972,
+      "sha256": "f837215454aabb6b360fa00d3b1827f8e06f2353e8ff79b96e1cdcff727bc8c1"
+    },
+    {
+      "file": "sources/power_20261022_staking_pool.json",
+      "bytes": 81,
+      "sha256": "a4f7b3ed896dae759244be4a169d686dd49f099e6410c383376f02c70316bd75"
+    },
+    {
+      "file": "sources/power_20261022_validators.json",
+      "bytes": 54497,
+      "sha256": "de542d3d924234235575f954cc640d146e84da9842126924674212439280f139"
+    },
+    {
+      "file": "sources/pressure-records.json",
+      "bytes": 333,
+      "sha256": "0cce04d507fc989170ee4657b6fa2a771b8ba77d68c2bc81b8948faec24afab8"
+    },
+    {
+      "file": "sources/prices/00a64ddea52079b1.json",
+      "bytes": 15522,
+      "sha256": "00a64ddea52079b10a7905c4122dd536e9078449ce10033ed2ec2ffb4df8345e"
+    },
+    {
+      "file": "sources/prices/01dfc00ef02058ca.json",
+      "bytes": 15638,
+      "sha256": "01dfc00ef02058cacad930f7bf4588f5993b1f90109711bf83d41b27cc8f9373"
+    },
+    {
+      "file": "sources/prices/0255821ee31a296f.json",
+      "bytes": 15549,
+      "sha256": "0255821ee31a296f31192502101dd90ac1db130a941d8edba2f286881bd39451"
+    },
+    {
+      "file": "sources/prices/077c68a0d03e88d5.json",
+      "bytes": 15715,
+      "sha256": "077c68a0d03e88d5a76c4ac5afab90ca453f9a430eb8b07c4eaf1af33008156c"
+    },
+    {
+      "file": "sources/prices/090aaf6eb86f90bf.json",
+      "bytes": 161,
+      "sha256": "090aaf6eb86f90bfd12efde0a4df9c17cd837b5c950cbbe68ae6a5b8b26612be"
+    },
+    {
+      "file": "sources/prices/0998e02b564067aa.json",
+      "bytes": 162,
+      "sha256": "0998e02b564067aa34a56de957628410608124004031c72828bef38b3fa320ef"
+    },
+    {
+      "file": "sources/prices/0b87c76585ef3acd.json",
+      "bytes": 13650,
+      "sha256": "0b87c76585ef3acdfc0ddd555b5f0a9eb46a53efd6bc3d35f2ffb2d235e81dca"
+    },
+    {
+      "file": "sources/prices/0c16c6ab740ad4ec.json",
+      "bytes": 724,
+      "sha256": "0c16c6ab740ad4ecc806e53d0accb9ec484ca14cc2085b46ad80ca36d919693e"
+    },
+    {
+      "file": "sources/prices/0c753444360df022.json",
+      "bytes": 160,
+      "sha256": "0c753444360df0224f6206e4a8183ca086034aa0c5ab3b1256188bbcd2878044"
+    },
+    {
+      "file": "sources/prices/0c9600512dfdecfd.json",
+      "bytes": 173,
+      "sha256": "0c9600512dfdecfd67643c15d7274a84068ab40632664b33e612331222d31191"
+    },
+    {
+      "file": "sources/prices/0cc9ee3023e09a1c.json",
+      "bytes": 169227,
+      "sha256": "0cc9ee3023e09a1c4e7722def01c4b8fa8f31eb875761383cc5d1117b9244cd2"
+    },
+    {
+      "file": "sources/prices/0d1666095b3e1737.json",
+      "bytes": 1709,
+      "sha256": "0d1666095b3e173727e61dfba869a185160698cb9c22d9cabc99ed33869c8299"
+    },
+    {
+      "file": "sources/prices/0e3f197fae1761f2.json",
+      "bytes": 39028,
+      "sha256": "0e3f197fae1761f29be172a59b6301093d1cfc3ed8cc4f925e4a45da146125a3"
+    },
+    {
+      "file": "sources/prices/0f1cc8d5e2d9abae.json",
+      "bytes": 165980,
+      "sha256": "0f1cc8d5e2d9abae19bb85b783e7a7c9d22a4dfd57443651b80200b2a2a8be3e"
+    },
+    {
+      "file": "sources/prices/0f80f76f192f87e9.json",
+      "bytes": 167,
+      "sha256": "0f80f76f192f87e954965fdc12c09e11330cac64d48615948c3a1bc3aaf2192c"
+    },
+    {
+      "file": "sources/prices/11f6b70cd1cb0cef.json",
+      "bytes": 97409,
+      "sha256": "11f6b70cd1cb0cefa10e2f23fb49873fe772ba266d09dc4d9a5279443b7d51bd"
+    },
+    {
+      "file": "sources/prices/1407f07643c1090e.json",
+      "bytes": 15819,
+      "sha256": "1407f07643c1090e78d671a53f348567024099764c210c54279d69e17b7e28a3"
+    },
+    {
+      "file": "sources/prices/14b124b5f0cf743f.json",
+      "bytes": 170,
+      "sha256": "14b124b5f0cf743fb5fd6d8ec30b82c311af68521a20d3020c604a97289eb254"
+    },
+    {
+      "file": "sources/prices/14d8412a6a745931.json",
+      "bytes": 173,
+      "sha256": "14d8412a6a745931a59feb41b98b33debe11d5eda1a9207ace9cd7f62802935e"
+    },
+    {
+      "file": "sources/prices/15b14c30045e8577.json",
+      "bytes": 173,
+      "sha256": "15b14c30045e8577fad0b342432a85f1897395cf62a8a82d070c26b14a53f09a"
+    },
+    {
+      "file": "sources/prices/15f70376637f4b51.json",
+      "bytes": 15825,
+      "sha256": "15f70376637f4b51bc21eedce4619112656758a26805a56bc2dc4d53923a29d5"
+    },
+    {
+      "file": "sources/prices/165e9838b22393c4.json",
+      "bytes": 109,
+      "sha256": "165e9838b22393c453eaa655c3a379509d9818b1727cc2c8880bd88f150bb8f4"
+    },
+    {
+      "file": "sources/prices/177d64190791bc65.json",
+      "bytes": 114,
+      "sha256": "177d64190791bc655bc1e32bfc238f1fd9971dc0fde1dfcb73d2e15c8377931d"
+    },
+    {
+      "file": "sources/prices/1915d4d83f8fbe08.json",
+      "bytes": 162,
+      "sha256": "1915d4d83f8fbe08be8787111791a7bd327b40ea4cbd293fb008ca370119f23e"
+    },
+    {
+      "file": "sources/prices/196eb0035f0723ac.json",
+      "bytes": 164,
+      "sha256": "196eb0035f0723accb2833f10b7931c6a61e67f7323657ae8295db7debedd158"
+    },
+    {
+      "file": "sources/prices/1b6af96f5aa5dd05.json",
+      "bytes": 172,
+      "sha256": "1b6af96f5aa5dd0529f9f838bd2e0b2da13786d1cac2328b467f669ea015cd48"
+    },
+    {
+      "file": "sources/prices/1b8bbe2a7a080389.json",
+      "bytes": 1701,
+      "sha256": "1b8bbe2a7a080389d28ac717f87f7f833b6fb5088437bbca4ba0415870a7cf9a"
+    },
+    {
+      "file": "sources/prices/1c7bdd829513d308.json",
+      "bytes": 398,
+      "sha256": "1c7bdd829513d3084bf82689a719ebc4ccbd7593a3d9484076d16f6cd7b0d3a3"
+    },
+    {
+      "file": "sources/prices/1c98bb16e1464652.json",
+      "bytes": 11353,
+      "sha256": "1c98bb16e1464652a25e0e3ba2737fc0225a9a6f1538fb6a733f29933fe1c545"
+    },
+    {
+      "file": "sources/prices/1d15c06756aae697.json",
+      "bytes": 174,
+      "sha256": "1d15c06756aae6978f35d9f0c0664d3f6b1bbe46a3cdb1e4e58a0cc3c53d4820"
+    },
+    {
+      "file": "sources/prices/1d7bc3e806657f20.json",
+      "bytes": 161,
+      "sha256": "1d7bc3e806657f20891810d0cfa050757d3072a6acbc6bcc60dab3dcc6369dda"
+    },
+    {
+      "file": "sources/prices/1e480c01a23cacd0.json",
+      "bytes": 110,
+      "sha256": "1e480c01a23cacd0f36c4f014bd50310e6242e42a45c1fe0d8fb37fd101669c4"
+    },
+    {
+      "file": "sources/prices/1e86d3114d067725.json",
+      "bytes": 15464,
+      "sha256": "1e86d3114d067725906eac4a0121c79c781a90cf08cac903004254a2f5699c65"
+    },
+    {
+      "file": "sources/prices/1f2b46a2b25596df.json",
+      "bytes": 175,
+      "sha256": "1f2b46a2b25596dfc9754b8e4f5707a1c94578f2f90afaaa2554b5b53e092d9c"
+    },
+    {
+      "file": "sources/prices/207b0a041b0ca493.json",
+      "bytes": 177,
+      "sha256": "207b0a041b0ca4938d474f67845edeab8a142b63c6f2c06e42dada291231e531"
+    },
+    {
+      "file": "sources/prices/211b8f8ca3d21af9.json",
+      "bytes": 15827,
+      "sha256": "211b8f8ca3d21af9f14f963d8fda9a14d08e415ea67a82f1e9ba3caedb393736"
+    },
+    {
+      "file": "sources/prices/21caa16799d66066.json",
+      "bytes": 173,
+      "sha256": "21caa16799d660668ca0dc3657819f535cef02ad5b92e4392c5961aa80629158"
+    },
+    {
+      "file": "sources/prices/2390846034746a93.json",
+      "bytes": 167261,
+      "sha256": "2390846034746a9379ffb19162dc6c13cb2d4bd9ee5c353bb8fc97b80790460d"
+    },
+    {
+      "file": "sources/prices/26a1c8a96c05ba2c.json",
+      "bytes": 170,
+      "sha256": "26a1c8a96c05ba2c91e62dad3c3630228bc36ac3df6e219d916f28f559d68753"
+    },
+    {
+      "file": "sources/prices/2806e6f2b23a2fbd.json",
+      "bytes": 109,
+      "sha256": "2806e6f2b23a2fbd8da153d4d51dd4879f2305d2f127567e7e5968639da2b1af"
+    },
+    {
+      "file": "sources/prices/287e57b45cd53c9f.json",
+      "bytes": 173,
+      "sha256": "287e57b45cd53c9fa5d61bcf75b5aafeab687750070c0ab6896d2959b39c6443"
+    },
+    {
+      "file": "sources/prices/2c5a218c7bf81d5d.json",
+      "bytes": 159,
+      "sha256": "2c5a218c7bf81d5de689afdc22b37163683dace669c55a9af812bd29ab818c3b"
+    },
+    {
+      "file": "sources/prices/2e3c17d9c80f9906.json",
+      "bytes": 15462,
+      "sha256": "2e3c17d9c80f99068c4c5ea120c2131fa538ef1f0b5716ea7b2f1065c3d47b5a"
+    },
+    {
+      "file": "sources/prices/30eb6e38b4d23732.json",
+      "bytes": 9041,
+      "sha256": "30eb6e38b4d237326d08bbf9d78568c460fdbdd87bf2a87f88679dd255ce2d51"
+    },
+    {
+      "file": "sources/prices/3156e5e2639743eb.json",
+      "bytes": 173,
+      "sha256": "3156e5e2639743ebcf8d32365a6ac822c16e017e9a8a14507b345d4538cf77f1"
+    },
+    {
+      "file": "sources/prices/31af0ab24fdf8b6f.json",
+      "bytes": 15070,
+      "sha256": "31af0ab24fdf8b6f1941c239c33d0fd6d6679151d02fdf2e345bf3d2357a1d45"
+    },
+    {
+      "file": "sources/prices/34319f19274136b2.json",
+      "bytes": 175,
+      "sha256": "34319f19274136b2833e2597e0869fd4f3e81190789e78f4b7baedff53024cb1"
+    },
+    {
+      "file": "sources/prices/34eaca8e1900353a.json",
+      "bytes": 163016,
+      "sha256": "34eaca8e1900353a3ab644945a17d079a5626ab38493729d30c9882b1f8c420a"
+    },
+    {
+      "file": "sources/prices/37617700d010d141.json",
+      "bytes": 15476,
+      "sha256": "37617700d010d14161466687e240376ac4e3b07c572ff4ab45ba8f79159f8054"
+    },
+    {
+      "file": "sources/prices/383e2cd5aa9a91dc.json",
+      "bytes": 173,
+      "sha256": "383e2cd5aa9a91dc26f8ae1cf0cc580bc872f75bd900d635a72dab996ce9ed15"
+    },
+    {
+      "file": "sources/prices/385da91f26b85c1a.json",
+      "bytes": 108,
+      "sha256": "385da91f26b85c1ae8c8a83f8807c9b72f9784969c2416fe8a1b2516e58f8c53"
+    },
+    {
+      "file": "sources/prices/38d9aacf70563259.json",
+      "bytes": 169,
+      "sha256": "38d9aacf705632598ec171a240b1bc28bd9ae0f4bee9d9fbcedeaf9b2cfd43be"
+    },
+    {
+      "file": "sources/prices/39cac54dfc41e057.json",
+      "bytes": 12764,
+      "sha256": "39cac54dfc41e057a7264668c100dcbf0988bff4c95fdc4eb31f5ae4027b275f"
+    },
+    {
+      "file": "sources/prices/3d06018de082b7a4.json",
+      "bytes": 160381,
+      "sha256": "3d06018de082b7a47d31c72ec1f29867730a5a32ce2dbda920bc309fd7785bc5"
+    },
+    {
+      "file": "sources/prices/3d4359a32d8f85bf.json",
+      "bytes": 99,
+      "sha256": "3d4359a32d8f85bfe01ba102c01fd6b52a55d347b259ba73321ad6a0ffa4f65b"
+    },
+    {
+      "file": "sources/prices/3db179eecfea303d.json",
+      "bytes": 156601,
+      "sha256": "3db179eecfea303d93c3c3c08520dd378c3eea35997e192ac694fbd1242ad952"
+    },
+    {
+      "file": "sources/prices/3fc163070a66b3fd.json",
+      "bytes": 177,
+      "sha256": "3fc163070a66b3fd29c5acb4eaca7dc1bad3d30f4b04a11a301e0935c0938d3f"
+    },
+    {
+      "file": "sources/prices/3ff90da9eb5a23de.json",
+      "bytes": 15307,
+      "sha256": "3ff90da9eb5a23de71ac595bf641a9f4bd604ae8e843971a9a640ce1db1cbb6e"
+    },
+    {
+      "file": "sources/prices/40d70e496aa251b7.json",
+      "bytes": 15945,
+      "sha256": "40d70e496aa251b7a12e8c1c392b249b301832455ea54834f47278697e639c26"
+    },
+    {
+      "file": "sources/prices/4128f9b3a903d3c3.json",
+      "bytes": 58842,
+      "sha256": "4128f9b3a903d3c30bf4a93928763bf79acd762b88be9c22ff7210611fead4a8"
+    },
+    {
+      "file": "sources/prices/4179f27c99fc835d.json",
+      "bytes": 15926,
+      "sha256": "4179f27c99fc835d778e2c4036d296dbb8bd2c1a937c577cba79f723b4f760ff"
+    },
+    {
+      "file": "sources/prices/453f89899a617401.json",
+      "bytes": 161,
+      "sha256": "453f89899a61740194b65e6ccf55942eed9cc0769c39404070458b2a31f5fbed"
+    },
+    {
+      "file": "sources/prices/454a4b7662785219.json",
+      "bytes": 156254,
+      "sha256": "454a4b7662785219b54d129276a4562257264862552773b8df27f847f3c7fca4"
+    },
+    {
+      "file": "sources/prices/45fc60f1f783d322.json",
+      "bytes": 161,
+      "sha256": "45fc60f1f783d322c74dceec0b920a332b08c41a179f78b958fb89a9e74a5419"
+    },
+    {
+      "file": "sources/prices/46709f903e6c4b89.json",
+      "bytes": 167,
+      "sha256": "46709f903e6c4b896ef73ffe60267c4d207b928c7bf26d783e7635612094d32a"
+    },
+    {
+      "file": "sources/prices/46a32f6273415a3e.json",
+      "bytes": 111,
+      "sha256": "46a32f6273415a3e1c3f95a6e2a85cc5f3bc1f2ad78b37f97887679ea7f7f08b"
+    },
+    {
+      "file": "sources/prices/46f80f5e5b5b6f3e.json",
+      "bytes": 170,
+      "sha256": "46f80f5e5b5b6f3e55e2e847135709ce6ab53f38a91239f79727e3846f16dbe3"
+    },
+    {
+      "file": "sources/prices/47e5728f1e692f1e.json",
+      "bytes": 175,
+      "sha256": "47e5728f1e692f1e99d522c0d19ef68698f1fbc21ff91688af8a0524a837d47a"
+    },
+    {
+      "file": "sources/prices/4848bdd21bd1be69.json",
+      "bytes": 157,
+      "sha256": "4848bdd21bd1be697ab5560b08df03cf01fb70fae4c5b53d32295c46b774f20d"
+    },
+    {
+      "file": "sources/prices/48adc270195ddb7b.json",
+      "bytes": 173,
+      "sha256": "48adc270195ddb7bbbe4670bb8cf62f409c82795de8c8f013af3c0a0734b6aea"
+    },
+    {
+      "file": "sources/prices/4a19619e0d0b4c11.json",
+      "bytes": 173,
+      "sha256": "4a19619e0d0b4c113e48a251af13b90c7b7a0f232444516033d2511a71c8fac2"
+    },
+    {
+      "file": "sources/prices/4b048093677912db.json",
+      "bytes": 159519,
+      "sha256": "4b048093677912dbe0aaacd4ca93e9695846565624f1c2a2897d29bfbc83da71"
+    },
+    {
+      "file": "sources/prices/4b9d7717df0f90cc.json",
+      "bytes": 71563,
+      "sha256": "4b9d7717df0f90cc0bd0525244c43b2e96c761c4a157ba1c65db20b770ca5236"
+    },
+    {
+      "file": "sources/prices/4cf1fe1ea9be06ec.json",
+      "bytes": 173,
+      "sha256": "4cf1fe1ea9be06ec249cdfb0c5d23d7f5ce4e115adae6d5e1903f657a95cfd71"
+    },
+    {
+      "file": "sources/prices/4f886a70d86a1e38.json",
+      "bytes": 15821,
+      "sha256": "4f886a70d86a1e38940fffd8bb7abad02e71dd8519c60ddb308b78cf5fdea063"
+    },
+    {
+      "file": "sources/prices/50067ff2191e33a9.json",
+      "bytes": 170,
+      "sha256": "50067ff2191e33a96b32fb1271658c689e5fca772e32d9db8b0f39742340e5de"
+    },
+    {
+      "file": "sources/prices/50ff7537190ccfb0.json",
+      "bytes": 14165,
+      "sha256": "50ff7537190ccfb0f364f85d57a4603c7dfbabfb76b18cd835c0d719685de4b2"
+    },
+    {
+      "file": "sources/prices/529a8c5f452757af.json",
+      "bytes": 154014,
+      "sha256": "529a8c5f452757af549382cbd520fc910019bb61e8fbfd8853bdfcabf9709c53"
+    },
+    {
+      "file": "sources/prices/53c8ae9bd348e8bb.json",
+      "bytes": 167,
+      "sha256": "53c8ae9bd348e8bb941527d0ed8e9eaa10863fb7295e2dec86d1c9fee72eca57"
+    },
+    {
+      "file": "sources/prices/53d7ed6dd02ae8e2.json",
+      "bytes": 38046,
+      "sha256": "53d7ed6dd02ae8e24f4121c3a0a17c9f82fd64cfed59228a5593706ec72788bf"
+    },
+    {
+      "file": "sources/prices/550f69bffe0944bd.json",
+      "bytes": 113,
+      "sha256": "550f69bffe0944bd8276800a8e20d23417a67121ba1586a1bc21f60e67b1d474"
+    },
+    {
+      "file": "sources/prices/576807a9a6251937.json",
+      "bytes": 161,
+      "sha256": "576807a9a62519378d5517c1ec7d1328eb45f67463213ff643a06a0584e2dbf4"
+    },
+    {
+      "file": "sources/prices/58b3b529d7570fbb.json",
+      "bytes": 139196,
+      "sha256": "58b3b529d7570fbbe9ceebdd00e92ed93da060b7c8c8387e8964a60d71b47d9b"
+    },
+    {
+      "file": "sources/prices/5b93892479a5412d.json",
+      "bytes": 113,
+      "sha256": "5b93892479a5412d8e71fca2eebcd37ede4a16d719ba3221c25fce4b3ac76892"
+    },
+    {
+      "file": "sources/prices/5cea764993a3d6a4.json",
+      "bytes": 15821,
+      "sha256": "5cea764993a3d6a48051f5140822e4eadad2960c173573627a966f56757f5401"
+    },
+    {
+      "file": "sources/prices/5d9be4c277b3294d.json",
+      "bytes": 173,
+      "sha256": "5d9be4c277b3294df014196d3c506fe7481be31f9f0eb4386d4eacad36057586"
+    },
+    {
+      "file": "sources/prices/5f43e3c6ed805b6c.json",
+      "bytes": 173,
+      "sha256": "5f43e3c6ed805b6c975e551914a4aa857ae1b20663f217d444e297c18fd3f39b"
+    },
+    {
+      "file": "sources/prices/5fbe41938c941716.json",
+      "bytes": 165,
+      "sha256": "5fbe41938c941716234852f7c54654867c2c5170f929882914fd76b79269d6e9"
+    },
+    {
+      "file": "sources/prices/637eb552d328af34.json",
+      "bytes": 15786,
+      "sha256": "637eb552d328af3452735cf5caa3209ccff9d88b044cc1b6ba89844c7fc99e8f"
+    },
+    {
+      "file": "sources/prices/6780059ed2100955.json",
+      "bytes": 161,
+      "sha256": "6780059ed210095512ad7a4bf7a5bab6667ae5abd63be3a7f0f1e690ba0bb3c6"
+    },
+    {
+      "file": "sources/prices/67fbf3a9de1c5e4d.json",
+      "bytes": 172,
+      "sha256": "67fbf3a9de1c5e4d092624334fa1e2ae311a1b6e17037be6656a09dd99997787"
+    },
+    {
+      "file": "sources/prices/6831805c0e4d1300.json",
+      "bytes": 50827,
+      "sha256": "6831805c0e4d130056a145b3a83663c6c0ffd71eb0467faa3c4c8e67fa7718fa"
+    },
+    {
+      "file": "sources/prices/6ce830dd15d600f1.json",
+      "bytes": 174,
+      "sha256": "6ce830dd15d600f1f2e5296d12f25d030cf992009b698d3c341c115bdb90e543"
+    },
+    {
+      "file": "sources/prices/6f760ea8f1592ddd.json",
+      "bytes": 148122,
+      "sha256": "6f760ea8f1592ddd475e6319ef1efeacfa71a9083833445df77438f08c6a0e21"
+    },
+    {
+      "file": "sources/prices/71924496472fce7e.json",
+      "bytes": 114,
+      "sha256": "71924496472fce7edb054515fe90071e526dec84902a9b8ffa2f1093d40ed8b9"
+    },
+    {
+      "file": "sources/prices/71ed4039755d718b.json",
+      "bytes": 11561,
+      "sha256": "71ed4039755d718b52df02aad175e14aa747b8fa24ecfb4b4ece9adb3ff97b46"
+    },
+    {
+      "file": "sources/prices/72ee9f29f3f7e9b7.json",
+      "bytes": 19931,
+      "sha256": "72ee9f29f3f7e9b7e80e7d38aa99fac7e7fa955359cc5e563ecdff38e483c1d8"
+    },
+    {
+      "file": "sources/prices/76300799637f4c2c.json",
+      "bytes": 156121,
+      "sha256": "76300799637f4c2c215f2203996ec4f00cfa5de78bef7049bb6dcc4486ecdeab"
+    },
+    {
+      "file": "sources/prices/770398a446af3f12.json",
+      "bytes": 162,
+      "sha256": "770398a446af3f12ec9017d3ca3728efbcacc0b8f51718b753477f1e92c28b9e"
+    },
+    {
+      "file": "sources/prices/772254cd46c36bdd.json",
+      "bytes": 15936,
+      "sha256": "772254cd46c36bdd4b5c5b098c950cd47ec2587115d168c9c0bd5b8284ddcb6d"
+    },
+    {
+      "file": "sources/prices/78a71ab706d9a38c.json",
+      "bytes": 111,
+      "sha256": "78a71ab706d9a38c3ebdaea921cbcb5ee55c5ea81b02a2a628be9e810de70b35"
+    },
+    {
+      "file": "sources/prices/7b074f6db31ebac2.json",
+      "bytes": 15895,
+      "sha256": "7b074f6db31ebac27d2cbb24a8b3ba0822d6b4ade7dddbd994c5ddf249f3a4fa"
+    },
+    {
+      "file": "sources/prices/7bf03ab2010edd71.json",
+      "bytes": 169303,
+      "sha256": "7bf03ab2010edd71d878dfd5619b9795f0d3408324646b9ae84b0f706d314464"
+    },
+    {
+      "file": "sources/prices/7d688da3aeaa179c.json",
+      "bytes": 9097,
+      "sha256": "7d688da3aeaa179cd0ab1e42828b17e1ef0d7f5cd93992a2f4feed354099817f"
+    },
+    {
+      "file": "sources/prices/809dc6125fe3eddd.json",
+      "bytes": 157,
+      "sha256": "809dc6125fe3eddd9d35aca90115bfbcde6e17ec801dfc2a027b774cee9de390"
+    },
+    {
+      "file": "sources/prices/81f0c830e10936a1.json",
+      "bytes": 85310,
+      "sha256": "81f0c830e10936a11c25ba390938177bf8312c5d2242a4530e7d5730fb32cef0"
+    },
+    {
+      "file": "sources/prices/82d4f053ce8c9ec5.json",
+      "bytes": 169,
+      "sha256": "82d4f053ce8c9ec553b0979537f7112901c721442da6f0514ebb8d19d27e4fec"
+    },
+    {
+      "file": "sources/prices/834b3c441af2d77c.json",
+      "bytes": 663,
+      "sha256": "834b3c441af2d77c85c32d5b8af58e66fbf2373a582940a4911edd88ec529257"
+    },
+    {
+      "file": "sources/prices/83c031b86f068647.json",
+      "bytes": 112,
+      "sha256": "83c031b86f06864774288b94c6a22b3706abd9f5d2b094e2528182e9efef294a"
+    },
+    {
+      "file": "sources/prices/84631afe22c4af10.json",
+      "bytes": 161,
+      "sha256": "84631afe22c4af10f94ff0af051460d5d557f3bc6e08d1ef259db7e6a7ee1cf3"
+    },
+    {
+      "file": "sources/prices/859a45e3657b627c.json",
+      "bytes": 173,
+      "sha256": "859a45e3657b627cce69bd406f90dda7d06ae8f9dc94f6f4e9e27ea8cdf7f38f"
+    },
+    {
+      "file": "sources/prices/85e0be4e2e408a77.json",
+      "bytes": 162,
+      "sha256": "85e0be4e2e408a771696c05ac852c57a87fd9b790dde544c723e6c5969a9ead5"
+    },
+    {
+      "file": "sources/prices/8648907351ca2068.json",
+      "bytes": 168,
+      "sha256": "8648907351ca2068b2bb3909a348bb429cdd2774b27517cb097b44a76a752584"
+    },
+    {
+      "file": "sources/prices/86ac19c074413c9d.json",
+      "bytes": 113,
+      "sha256": "86ac19c074413c9d92e3d1f58d2ae532fe9f2b19e7478ee6240c99963e6c2eb2"
+    },
+    {
+      "file": "sources/prices/8929591ab8a4784e.json",
+      "bytes": 159634,
+      "sha256": "8929591ab8a4784ead41bfafa07695ff5222da6b9f7eb194157210ad37621222"
+    },
+    {
+      "file": "sources/prices/896b91ab842f5334.json",
+      "bytes": 175,
+      "sha256": "896b91ab842f5334186663617828581ac43b1eeef55c591454002197d90a99a1"
+    },
+    {
+      "file": "sources/prices/8af24fb11f76f5a8.json",
+      "bytes": 163,
+      "sha256": "8af24fb11f76f5a8fedef73d2551b4f0ddcf5c641e0965645738a00454cf8340"
+    },
+    {
+      "file": "sources/prices/8cdd114442915a98.json",
+      "bytes": 15770,
+      "sha256": "8cdd114442915a982db1b8d9027dfba5b98ce6d6f9fdcb7599291e38ad54e08c"
+    },
+    {
+      "file": "sources/prices/8f1c9d2ef265ceef.json",
+      "bytes": 173,
+      "sha256": "8f1c9d2ef265ceef8eb007385251ebcbc279ddb688e998e018e1255b704fe2df"
+    },
+    {
+      "file": "sources/prices/906a473cfa688085.json",
+      "bytes": 172,
+      "sha256": "906a473cfa688085a79df282b7f5728fb3db1870dc0eb98cd664723d090f65dd"
+    },
+    {
+      "file": "sources/prices/907899bdc5b8a5c6.json",
+      "bytes": 155514,
+      "sha256": "907899bdc5b8a5c6f09961bc7cf2d39e1d2768cfe2c5bb6caa5f075d41ded005"
+    },
+    {
+      "file": "sources/prices/92a0db7ba2bd9792.json",
+      "bytes": 16061,
+      "sha256": "92a0db7ba2bd979209e95ef6edd467e2a001138eff969d7470e1172d73a8826b"
+    },
+    {
+      "file": "sources/prices/940b545d1a2a2cc7.json",
+      "bytes": 15087,
+      "sha256": "940b545d1a2a2cc7b26aab3f0ede8ce940ec51a61025b976d37765be303e80eb"
+    },
+    {
+      "file": "sources/prices/942f0bc207cb6b05.json",
+      "bytes": 5808,
+      "sha256": "942f0bc207cb6b05066895a4a33bbf8465de5600c7dfcebbbfa3fd4a6ed3a610"
+    },
+    {
+      "file": "sources/prices/94389c4f29fa2125.json",
+      "bytes": 89000,
+      "sha256": "94389c4f29fa21257d7776dbc015b053bf134642d911521291ed1d455e89ac7a"
+    },
+    {
+      "file": "sources/prices/94d0fe5718f313c8.json",
+      "bytes": 170,
+      "sha256": "94d0fe5718f313c8ef4f190dc29f07d5dfcad0d92378a48cb956c735d75a9137"
+    },
+    {
+      "file": "sources/prices/94d4b31399ca33b6.json",
+      "bytes": 106,
+      "sha256": "94d4b31399ca33b6787669533da2b4608d3a1146b4bb0516f8d7a0567ae0513e"
+    },
+    {
+      "file": "sources/prices/96f8fc88fbee242f.json",
+      "bytes": 159394,
+      "sha256": "96f8fc88fbee242f9259242a62df476c1d2944f99289302fb41284372591c6bc"
+    },
+    {
+      "file": "sources/prices/98ab5b3a54d85ce1.json",
+      "bytes": 160328,
+      "sha256": "98ab5b3a54d85ce19fd1d4d0a9fcd51eaaf8bab104c6b6747c9ac10157262991"
+    },
+    {
+      "file": "sources/prices/991779aa61313b8c.json",
+      "bytes": 110,
+      "sha256": "991779aa61313b8cb97d7f175b10e96cabd94bab89e82cddacad5d057eecfb73"
+    },
+    {
+      "file": "sources/prices/9a38cbb1f0a79b6e.json",
+      "bytes": 172,
+      "sha256": "9a38cbb1f0a79b6ef29968f88b2f424db95f6faf24d6151c726e03702be9eaf6"
+    },
+    {
+      "file": "sources/prices/9d6fff6152bbe869.json",
+      "bytes": 16064,
+      "sha256": "9d6fff6152bbe8697fe5d3464bf9673ad85ccac67db6a03f0e5f517cf5e76deb"
+    },
+    {
+      "file": "sources/prices/9f770807f3f35f1e.json",
+      "bytes": 166,
+      "sha256": "9f770807f3f35f1e29e1f47e07f4360335cbfa1f6ea8729f5a14c3661b163baf"
+    },
+    {
+      "file": "sources/prices/9fe210eb7fdba554.json",
+      "bytes": 173,
+      "sha256": "9fe210eb7fdba5546fe64d49f4c759a82b035c35e758b92a5f3f64e416f368fb"
+    },
+    {
+      "file": "sources/prices/a0d3a03feed94f99.json",
+      "bytes": 164,
+      "sha256": "a0d3a03feed94f99e3c71dd1a54bba098c786e56a16b9a9723f9e9849a7d80d8"
+    },
+    {
+      "file": "sources/prices/a3082f6eb4bd4dd5.json",
+      "bytes": 173,
+      "sha256": "a3082f6eb4bd4dd57015463e9c0cc5d840fd5826f2ef83efe6c549ce9dfde529"
+    },
+    {
+      "file": "sources/prices/a4f82de69b4f158d.json",
+      "bytes": 13733,
+      "sha256": "a4f82de69b4f158d0f6d51ed58f0e07b2e5cdda30493d5acd00421c03e9d3091"
+    },
+    {
+      "file": "sources/prices/a618947ea2760616.json",
+      "bytes": 14913,
+      "sha256": "a618947ea2760616980812b4c04796011d6b38337d0c33e2c09731f3322dae20"
+    },
+    {
+      "file": "sources/prices/a770347557f8edde.json",
+      "bytes": 102757,
+      "sha256": "a770347557f8edde1f890dcd9737150a728262ce7d3b30a91b2f070421b95921"
+    },
+    {
+      "file": "sources/prices/a933ff9b8719a49f.json",
+      "bytes": 173,
+      "sha256": "a933ff9b8719a49f957cb2632ab287cbbcb32c814f520d062bb5ceeff52fc1a0"
+    },
+    {
+      "file": "sources/prices/a94dc4ea25ce7aac.json",
+      "bytes": 376,
+      "sha256": "a94dc4ea25ce7aac29a2af8f08a9f3d7ba172d4cc1a323e79e4642352b0ddac2"
+    },
+    {
+      "file": "sources/prices/a9ecec3466672273.json",
+      "bytes": 16135,
+      "sha256": "a9ecec3466672273daee185cbadddf078541c120917224492c58d3eec7ff0e20"
+    },
+    {
+      "file": "sources/prices/add61d2dd516866e.json",
+      "bytes": 1448,
+      "sha256": "add61d2dd516866e1f4695de863f84c2c869aff4c8b49f34f291bbb089e55692"
+    },
+    {
+      "file": "sources/prices/aff12d4c4a799d9f.json",
+      "bytes": 165,
+      "sha256": "aff12d4c4a799d9f386cfadfe7d3557054a529f438d2e4b6cf28b3a0b6c65ba6"
+    },
+    {
+      "file": "sources/prices/b0fa105fde25e5a4.json",
+      "bytes": 14206,
+      "sha256": "b0fa105fde25e5a4b5969be49adef09cff21f0145a8240aa503405aebefb6622"
+    },
+    {
+      "file": "sources/prices/b39a9b65251d4f5a.json",
+      "bytes": 15777,
+      "sha256": "b39a9b65251d4f5a3a52d75ba18613ed2f75f8bb10459cd23558530b1388236b"
+    },
+    {
+      "file": "sources/prices/b3c10e2dc1e68328.json",
+      "bytes": 173,
+      "sha256": "b3c10e2dc1e68328abedd89c63b14ebd08501b5a7ccb8ef552919061b0689a15"
+    },
+    {
+      "file": "sources/prices/b3e011478a2beb64.json",
+      "bytes": 114,
+      "sha256": "b3e011478a2beb64229801677779064a4e89d2ba0075f06a7aaea891fc1c9092"
+    },
+    {
+      "file": "sources/prices/b4d0f218487bb061.json",
+      "bytes": 175,
+      "sha256": "b4d0f218487bb06154f1b72fc2e1986968d6cae434b1af3158cc6d4ca86c8da3"
+    },
+    {
+      "file": "sources/prices/b55e427bdfd6cece.json",
+      "bytes": 15900,
+      "sha256": "b55e427bdfd6cecece1d7c74d7193e8c4f27e464554cac08489d470e4a1b0260"
+    },
+    {
+      "file": "sources/prices/b664129c644a48e3.json",
+      "bytes": 15182,
+      "sha256": "b664129c644a48e3f402ea4d254edf97bb4f92702311e8b040fbe4fc2e274fe3"
+    },
+    {
+      "file": "sources/prices/b732514458580f81.json",
+      "bytes": 153810,
+      "sha256": "b732514458580f814f29631abc1355872e9d91eec74ae8dad6d1ea09b390f0e5"
+    },
+    {
+      "file": "sources/prices/b89a90b1fc8c55c4.json",
+      "bytes": 162,
+      "sha256": "b89a90b1fc8c55c4c4329b174c5b50878dba0240c6d127bc8420f0a83fc6fa46"
+    },
+    {
+      "file": "sources/prices/bae842a5f7534653.json",
+      "bytes": 15714,
+      "sha256": "bae842a5f7534653ba291fe9dabe535a64f760fb605efaeb36ad76d7f7e62358"
+    },
+    {
+      "file": "sources/prices/bc24f8f74979232a.json",
+      "bytes": 177,
+      "sha256": "bc24f8f74979232acc27e4895042e3b717e8153b99fe733c52067086674e2a39"
+    },
+    {
+      "file": "sources/prices/be480443e7f236c8.json",
+      "bytes": 100,
+      "sha256": "be480443e7f236c871ec754e8b115d85ae5e33b43cb84a1d088fdff5b4ead3a7"
+    },
+    {
+      "file": "sources/prices/be4955c1d10cd9e8.json",
+      "bytes": 173,
+      "sha256": "be4955c1d10cd9e8cd50f850cddff6cdbbda8970666c126687804b24219508a2"
+    },
+    {
+      "file": "sources/prices/befd7f9d5ac42eb2.json",
+      "bytes": 175,
+      "sha256": "befd7f9d5ac42eb23e515c93162b881792236f215ea0209b2e216ff660f8ea76"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1669820400.json",
+      "bytes": 162,
+      "sha256": "b89a90b1fc8c55c4c4329b174c5b50878dba0240c6d127bc8420f0a83fc6fa46"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1670238000.json",
+      "bytes": 160,
+      "sha256": "d91b18ab93ef8dd2ea29410142b4db1f812d750bcbfca3eaacf63c94728010c7"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1673596800.json",
+      "bytes": 168,
+      "sha256": "8648907351ca2068b2bb3909a348bb429cdd2774b27517cb097b44a76a752584"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1681074000.json",
+      "bytes": 164,
+      "sha256": "e28588098d71655e5b125e6784aa2aed1248ecbe9e0322eac2ad7e58d3e9e483"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1681304400.json",
+      "bytes": 162,
+      "sha256": "0998e02b564067aa34a56de957628410608124004031c72828bef38b3fa320ef"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1682942400.json",
+      "bytes": 159,
+      "sha256": "2c5a218c7bf81d5de689afdc22b37163683dace669c55a9af812bd29ab818c3b"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1688396400.json",
+      "bytes": 164,
+      "sha256": "a0d3a03feed94f99e3c71dd1a54bba098c786e56a16b9a9723f9e9849a7d80d8"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1688400000.json",
+      "bytes": 162,
+      "sha256": "1915d4d83f8fbe08be8787111791a7bd327b40ea4cbd293fb008ca370119f23e"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1689004800.json",
+      "bytes": 167,
+      "sha256": "53c8ae9bd348e8bb941527d0ed8e9eaa10863fb7295e2dec86d1c9fee72eca57"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1689955200.json",
+      "bytes": 169,
+      "sha256": "e1a62fcc174cb1cfc667a1b977fec4b0904c3fd6868466100889c9756899b8d3"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1697644800.json",
+      "bytes": 161,
+      "sha256": "453f89899a61740194b65e6ccf55942eed9cc0769c39404070458b2a31f5fbed"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1717167600.json",
+      "bytes": 166,
+      "sha256": "9f770807f3f35f1e29e1f47e07f4360335cbfa1f6ea8729f5a14c3661b163baf"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1722963600.json",
+      "bytes": 163,
+      "sha256": "8af24fb11f76f5a8fedef73d2551b4f0ddcf5c641e0965645738a00454cf8340"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1724414400.json",
+      "bytes": 162,
+      "sha256": "770398a446af3f12ec9017d3ca3728efbcacc0b8f51718b753477f1e92c28b9e"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1737129600.json",
+      "bytes": 164,
+      "sha256": "196eb0035f0723accb2833f10b7931c6a61e67f7323657ae8295db7debedd158"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1737187200.json",
+      "bytes": 165,
+      "sha256": "aff12d4c4a799d9f386cfadfe7d3557054a529f438d2e4b6cf28b3a0b6c65ba6"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1738908000.json",
+      "bytes": 165,
+      "sha256": "5fbe41938c941716234852f7c54654867c2c5170f929882914fd76b79269d6e9"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1739170800.json",
+      "bytes": 162,
+      "sha256": "85e0be4e2e408a771696c05ac852c57a87fd9b790dde544c723e6c5969a9ead5"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1744027200.json",
+      "bytes": 161,
+      "sha256": "6780059ed210095512ad7a4bf7a5bab6667ae5abd63be3a7f0f1e690ba0bb3c6"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1745406000.json",
+      "bytes": 161,
+      "sha256": "d1f99fedfd21ae022291357a3b770f5355f34b273c80c633912d68bc11a9cf16"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1745830800.json",
+      "bytes": 161,
+      "sha256": "45fc60f1f783d322c74dceec0b920a332b08c41a179f78b958fb89a9e74a5419"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1747209600.json",
+      "bytes": 165,
+      "sha256": "c108a49c6171980291eeb673ab1403516f08d052ccf052aedcb1e06e2ff9e0b0"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1755766800.json",
+      "bytes": 160,
+      "sha256": "d8fc6d824140fe1a59f6944e7e60d8e5057034dec550c8fe92dfc604440568b9"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1756220400.json",
+      "bytes": 161,
+      "sha256": "576807a9a62519378d5517c1ec7d1328eb45f67463213ff643a06a0584e2dbf4"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1758427200.json",
+      "bytes": 158,
+      "sha256": "ecf6880a912d508416eacc9ed7297f18c21e357661888bf02a82a84ab172cb99"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1758445200.json",
+      "bytes": 162,
+      "sha256": "fbf8389e21c0ec90ab781e764ad311efc346b9c03488c724977da6eb5906b05d"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1758960000.json",
+      "bytes": 160,
+      "sha256": "0c753444360df0224f6206e4a8183ca086034aa0c5ab3b1256188bbcd2878044"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1759219200.json",
+      "bytes": 161,
+      "sha256": "84631afe22c4af10f94ff0af051460d5d557f3bc6e08d1ef259db7e6a7ee1cf3"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1761505200.json",
+      "bytes": 161,
+      "sha256": "090aaf6eb86f90bfd12efde0a4df9c17cd837b5c950cbbe68ae6a5b8b26612be"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1791957600.json",
+      "bytes": 157,
+      "sha256": "4848bdd21bd1be697ab5560b08df03cf01fb70fae4c5b53d32295c46b774f20d"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1792645200.json",
+      "bytes": 157,
+      "sha256": "809dc6125fe3eddd9d35aca90115bfbcde6e17ec801dfc2a027b774cee9de390"
+    },
+    {
+      "file": "sources/prices/binance_LUNAUSDT_1h_1792857600.json",
+      "bytes": 161,
+      "sha256": "1d7bc3e806657f20891810d0cfa050757d3072a6acbc6bcc60dab3dcc6369dda"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1728460800.json",
+      "bytes": 172,
+      "sha256": "d278c1841756b42a3ac027ca8aa06a336e5ef53acdffd50b13b13647cc75cd75"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1728482400.json",
+      "bytes": 172,
+      "sha256": "1b6af96f5aa5dd0529f9f838bd2e0b2da13786d1cac2328b467f669ea015cd48"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1728565200.json",
+      "bytes": 173,
+      "sha256": "3156e5e2639743ebcf8d32365a6ac822c16e017e9a8a14507b345d4538cf77f1"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1728637200.json",
+      "bytes": 170,
+      "sha256": "26a1c8a96c05ba2c91e62dad3c3630228bc36ac3df6e219d916f28f559d68753"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1728882000.json",
+      "bytes": 170,
+      "sha256": "d89f4b138907d4f902c0a980479b1c9a929f2f350cdefef136d2b00c63175240"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1729688400.json",
+      "bytes": 173,
+      "sha256": "a3082f6eb4bd4dd57015463e9c0cc5d840fd5826f2ef83efe6c549ce9dfde529"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1729710000.json",
+      "bytes": 173,
+      "sha256": "287e57b45cd53c9fa5d61bcf75b5aafeab687750070c0ab6896d2959b39c6443"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1730707200.json",
+      "bytes": 173,
+      "sha256": "383e2cd5aa9a91dc26f8ae1cf0cc580bc872f75bd900d635a72dab996ce9ed15"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1730721600.json",
+      "bytes": 172,
+      "sha256": "dfb6807a98ce036b7636fcd76036bc1b4b63b365e75b0bbda9e5aa4e4775f872"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1730761200.json",
+      "bytes": 170,
+      "sha256": "50067ff2191e33a96b32fb1271658c689e5fca772e32d9db8b0f39742340e5de"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1730764800.json",
+      "bytes": 172,
+      "sha256": "906a473cfa688085a79df282b7f5728fb3db1870dc0eb98cd664723d090f65dd"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1730768400.json",
+      "bytes": 173,
+      "sha256": "fcc6b6fb2feb3651b7f1b2ef346f57ba1f4b1cefa2f7a285268a7d911141d478"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1731160800.json",
+      "bytes": 173,
+      "sha256": "48adc270195ddb7bbbe4670bb8cf62f409c82795de8c8f013af3c0a0734b6aea"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1731236400.json",
+      "bytes": 173,
+      "sha256": "ce5e0fa203c3b3915a4997e66d9d3e4e78689eba7d2cd5a59c74a20ae4082902"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1731369600.json",
+      "bytes": 173,
+      "sha256": "5f43e3c6ed805b6c975e551914a4aa857ae1b20663f217d444e297c18fd3f39b"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1735646400.json",
+      "bytes": 173,
+      "sha256": "0c9600512dfdecfd67643c15d7274a84068ab40632664b33e612331222d31191"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1735650000.json",
+      "bytes": 173,
+      "sha256": "859a45e3657b627cce69bd406f90dda7d06ae8f9dc94f6f4e9e27ea8cdf7f38f"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1736352000.json",
+      "bytes": 173,
+      "sha256": "dc6c9b8b3217b3fd486203b62d1ebd481700e91d70c2ebd057819d431d2a0f58"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1736920800.json",
+      "bytes": 172,
+      "sha256": "9a38cbb1f0a79b6ef29968f88b2f424db95f6faf24d6151c726e03702be9eaf6"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1737169200.json",
+      "bytes": 175,
+      "sha256": "e93ab4e83f34feb2925319285bdca8b0e63abd3d7e286afcecb79e889c124a15"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1737187200.json",
+      "bytes": 173,
+      "sha256": "b3c10e2dc1e68328abedd89c63b14ebd08501b5a7ccb8ef552919061b0689a15"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1740128400.json",
+      "bytes": 173,
+      "sha256": "dd8a2474985cb5f78259a556e892f0be76cf75f081f0659867feb9b3aabf7aa4"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1740574800.json",
+      "bytes": 173,
+      "sha256": "15b14c30045e8577fad0b342432a85f1897395cf62a8a82d070c26b14a53f09a"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1744016400.json",
+      "bytes": 175,
+      "sha256": "f33b2c8f64db4387c762b6c45206a52b3fbb9ad8e49b2a86ff6160e1b85fb3e3"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1744027200.json",
+      "bytes": 173,
+      "sha256": "e82081cb6b35723d77b5ace290857ca8129f45faefe0e05b83761b2a1f5686cd"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1744106400.json",
+      "bytes": 172,
+      "sha256": "db5eb7307b8226db6373f66b9884c0bfdbf8be8fdc8ed6e1f90bd94fd1c1eb62"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1744646400.json",
+      "bytes": 175,
+      "sha256": "ffe8b98ce783fce980f473ee4b74c9216214f1f2a7ba166e2ab8f4b530b84e24"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1747209600.json",
+      "bytes": 173,
+      "sha256": "be4955c1d10cd9e8cd50f850cddff6cdbbda8970666c126687804b24219508a2"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1749128400.json",
+      "bytes": 175,
+      "sha256": "e9b93c3507340ac89b19c4995ffd3c6fcfb34c18fa9650847bbf676643e71323"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1751601600.json",
+      "bytes": 173,
+      "sha256": "f6a110385413f7c5963f8014f65b55714765384ed5e1289185ea99d36392a499"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1751871600.json",
+      "bytes": 172,
+      "sha256": "67fbf3a9de1c5e4d092624334fa1e2ae311a1b6e17037be6656a09dd99997787"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1752210000.json",
+      "bytes": 177,
+      "sha256": "207b0a041b0ca4938d474f67845edeab8a142b63c6f2c06e42dada291231e531"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1752764400.json",
+      "bytes": 173,
+      "sha256": "e16ff8068711d440c7164b78a72cd9c23384362729252fced3cb5f39b5b3d372"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1753254000.json",
+      "bytes": 173,
+      "sha256": "21caa16799d660668ca0dc3657819f535cef02ad5b92e4392c5961aa80629158"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1754384400.json",
+      "bytes": 173,
+      "sha256": "5d9be4c277b3294df014196d3c506fe7481be31f9f0eb4386d4eacad36057586"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1754888400.json",
+      "bytes": 177,
+      "sha256": "bc24f8f74979232acc27e4895042e3b717e8153b99fe733c52067086674e2a39"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1755766800.json",
+      "bytes": 173,
+      "sha256": "8f1c9d2ef265ceef8eb007385251ebcbc279ddb688e998e018e1255b704fe2df"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1756220400.json",
+      "bytes": 173,
+      "sha256": "a933ff9b8719a49f957cb2632ab287cbbcb32c814f520d062bb5ceeff52fc1a0"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1756447200.json",
+      "bytes": 175,
+      "sha256": "47e5728f1e692f1e99d522c0d19ef68698f1fbc21ff91688af8a0524a837d47a"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1759219200.json",
+      "bytes": 175,
+      "sha256": "befd7f9d5ac42eb23e515c93162b881792236f215ea0209b2e216ff660f8ea76"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1764964800.json",
+      "bytes": 173,
+      "sha256": "14d8412a6a745931a59feb41b98b33debe11d5eda1a9207ace9cd7f62802935e"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1765029600.json",
+      "bytes": 171,
+      "sha256": "c224eb348e543352a4adc1c88e900286646665c94aac5aa289d841e27f806fca"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1765058400.json",
+      "bytes": 170,
+      "sha256": "14b124b5f0cf743fb5fd6d8ec30b82c311af68521a20d3020c604a97289eb254"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1765447200.json",
+      "bytes": 173,
+      "sha256": "4cf1fe1ea9be06ec249cdfb0c5d23d7f5ce4e115adae6d5e1903f657a95cfd71"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1767110400.json",
+      "bytes": 175,
+      "sha256": "34319f19274136b2833e2597e0869fd4f3e81190789e78f4b7baedff53024cb1"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1786446000.json",
+      "bytes": 173,
+      "sha256": "9fe210eb7fdba5546fe64d49f4c759a82b035c35e758b92a5f3f64e416f368fb"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1786453200.json",
+      "bytes": 175,
+      "sha256": "b4d0f218487bb06154f1b72fc2e1986968d6cae434b1af3158cc6d4ca86c8da3"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1791421200.json",
+      "bytes": 177,
+      "sha256": "3fc163070a66b3fd29c5acb4eaca7dc1bad3d30f4b04a11a301e0935c0938d3f"
+    },
+    {
+      "file": "sources/prices/binance_USDCUSDT_1h_1792375200.json",
+      "bytes": 175,
+      "sha256": "1f2b46a2b25596dfc9754b8e4f5707a1c94578f2f90afaaa2554b5b53e092d9c"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1728637200.json",
+      "bytes": 167,
+      "sha256": "0f80f76f192f87e954965fdc12c09e11330cac64d48615948c3a1bc3aaf2192c"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1729231200.json",
+      "bytes": 168,
+      "sha256": "f505687959832c08e1f381437a10a284a5a9bd181f70fedc6232f5fdf742e08c"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1730707200.json",
+      "bytes": 169,
+      "sha256": "82d4f053ce8c9ec553b0979537f7112901c721442da6f0514ebb8d19d27e4fec"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1730768400.json",
+      "bytes": 170,
+      "sha256": "46f80f5e5b5b6f3e55e2e847135709ce6ab53f38a91239f79727e3846f16dbe3"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1731236400.json",
+      "bytes": 175,
+      "sha256": "896b91ab842f5334186663617828581ac43b1eeef55c591454002197d90a99a1"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1731247200.json",
+      "bytes": 170,
+      "sha256": "94d0fe5718f313c8ef4f190dc29f07d5dfcad0d92378a48cb956c735d75a9137"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1731592800.json",
+      "bytes": 173,
+      "sha256": "fe13ac96d2c4d07ad68b3579d970cd5ed11f19a06232a25ecf8955fdb4d302e2"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1731661200.json",
+      "bytes": 171,
+      "sha256": "fc16d24b86c35016f62a8a785fb339124f1217f87afc1e91a110f206de42181c"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1731747600.json",
+      "bytes": 168,
+      "sha256": "d2885581267ef142ad394ce901d1cd67cfd9bfb0f88ab66b4971b96fba7d9c85"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1731762000.json",
+      "bytes": 168,
+      "sha256": "ffa694fec54a70780ae0c91200c29f56205a75d33560d3a11606c77db649b454"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1731826800.json",
+      "bytes": 167,
+      "sha256": "46709f903e6c4b896ef73ffe60267c4d207b928c7bf26d783e7635612094d32a"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1736920800.json",
+      "bytes": 169,
+      "sha256": "38d9aacf705632598ec171a240b1bc28bd9ae0f4bee9d9fbcedeaf9b2cfd43be"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1737187200.json",
+      "bytes": 174,
+      "sha256": "6ce830dd15d600f1f2e5296d12f25d030cf992009b698d3c341c115bdb90e543"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1745406000.json",
+      "bytes": 169,
+      "sha256": "fb729e7ae7b27de5e4fb4663e6b74617cdea28dff016d5e80ebe3a6cec59143d"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1747209600.json",
+      "bytes": 174,
+      "sha256": "1d15c06756aae6978f35d9f0c0664d3f6b1bbe46a3cdb1e4e58a0cc3c53d4820"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1747216800.json",
+      "bytes": 172,
+      "sha256": "cd76d5cdcad97b4739d2dea03bd9eb3754640d77872df4fd817d3b6642cb56e7"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1753257600.json",
+      "bytes": 173,
+      "sha256": "4a19619e0d0b4c113e48a251af13b90c7b7a0f232444516033d2511a71c8fac2"
+    },
+    {
+      "file": "sources/prices/binance_WBTCUSDT_1h_1754384400.json",
+      "bytes": 172,
+      "sha256": "c727390d9dec39b36fa67f2ff4bbb5642033490ade49e0e1372f5e1c176ab1ec"
+    },
+    {
+      "file": "sources/prices/c108a49c61719802.json",
+      "bytes": 165,
+      "sha256": "c108a49c6171980291eeb673ab1403516f08d052ccf052aedcb1e06e2ff9e0b0"
+    },
+    {
+      "file": "sources/prices/c224eb348e543352.json",
+      "bytes": 171,
+      "sha256": "c224eb348e543352a4adc1c88e900286646665c94aac5aa289d841e27f806fca"
+    },
+    {
+      "file": "sources/prices/c3cfe10d23c35294.json",
+      "bytes": 113,
+      "sha256": "c3cfe10d23c35294b50f76caf7786590df936f59115b60c9873f4c70914feb4a"
+    },
+    {
+      "file": "sources/prices/c727390d9dec39b3.json",
+      "bytes": 172,
+      "sha256": "c727390d9dec39b36fa67f2ff4bbb5642033490ade49e0e1372f5e1c176ab1ec"
+    },
+    {
+      "file": "sources/prices/cad464368c4ab985.json",
+      "bytes": 15551,
+      "sha256": "cad464368c4ab9853fb740a105c66d0d4b6d731c19cedb7b025894c3ad7859e6"
+    },
+    {
+      "file": "sources/prices/cc57aefd76f2577a.json",
+      "bytes": 3921,
+      "sha256": "cc57aefd76f2577ac11769ca1deda67e0ba39dd4a9b4b1a8f4bc7970e2a72eda"
+    },
+    {
+      "file": "sources/prices/cd76d5cdcad97b47.json",
+      "bytes": 172,
+      "sha256": "cd76d5cdcad97b4739d2dea03bd9eb3754640d77872df4fd817d3b6642cb56e7"
+    },
+    {
+      "file": "sources/prices/ce5e0fa203c3b391.json",
+      "bytes": 173,
+      "sha256": "ce5e0fa203c3b3915a4997e66d9d3e4e78689eba7d2cd5a59c74a20ae4082902"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1669820400.json",
+      "bytes": 113,
+      "sha256": "df551edb7e26b7266b02a879518b082c2eadf6840aef301cc04881e60346fe16"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1670238000.json",
+      "bytes": 108,
+      "sha256": "385da91f26b85c1ae8c8a83f8807c9b72f9784969c2416fe8a1b2516e58f8c53"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1673596800.json",
+      "bytes": 100,
+      "sha256": "be480443e7f236c871ec754e8b115d85ae5e33b43cb84a1d088fdff5b4ead3a7"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1681074000.json",
+      "bytes": 110,
+      "sha256": "1e480c01a23cacd0f36c4f014bd50310e6242e42a45c1fe0d8fb37fd101669c4"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1681304400.json",
+      "bytes": 113,
+      "sha256": "86ac19c074413c9d92e3d1f58d2ae532fe9f2b19e7478ee6240c99963e6c2eb2"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1682942400.json",
+      "bytes": 111,
+      "sha256": "e897388cbd032bd427925dc8496e198754c2497d0e5011e802a3f9887012e57f"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1688396400.json",
+      "bytes": 109,
+      "sha256": "165e9838b22393c453eaa655c3a379509d9818b1727cc2c8880bd88f150bb8f4"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1688400000.json",
+      "bytes": 114,
+      "sha256": "71924496472fce7edb054515fe90071e526dec84902a9b8ffa2f1093d40ed8b9"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1689004800.json",
+      "bytes": 99,
+      "sha256": "3d4359a32d8f85bfe01ba102c01fd6b52a55d347b259ba73321ad6a0ffa4f65b"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1689955200.json",
+      "bytes": 112,
+      "sha256": "e5978d5a3fe0bac89e036ea4519e7aeedbd1f55e4158d5803839640b2af3dae1"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1697644800.json",
+      "bytes": 113,
+      "sha256": "c3cfe10d23c35294b50f76caf7786590df936f59115b60c9873f4c70914feb4a"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1717167600.json",
+      "bytes": 112,
+      "sha256": "d5ed3d90fdeabfd1a1d2443187532add46d4ec4940371411198630419333a365"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1724414400.json",
+      "bytes": 106,
+      "sha256": "94d4b31399ca33b6787669533da2b4608d3a1146b4bb0516f8d7a0567ae0513e"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1729231200.json",
+      "bytes": 114,
+      "sha256": "177d64190791bc655bc1e32bfc238f1fd9971dc0fde1dfcb73d2e15c8377931d"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1729688400.json",
+      "bytes": 113,
+      "sha256": "5b93892479a5412d8e71fca2eebcd37ede4a16d719ba3221c25fce4b3ac76892"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1729710000.json",
+      "bytes": 114,
+      "sha256": "b3e011478a2beb64229801677779064a4e89d2ba0075f06a7aaea891fc1c9092"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1736352000.json",
+      "bytes": 113,
+      "sha256": "f0c79372b01da1846f743892e0fb4bc9addba4755473f8ece8d3ccbd0ec12e8a"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1736920800.json",
+      "bytes": 113,
+      "sha256": "550f69bffe0944bd8276800a8e20d23417a67121ba1586a1bc21f60e67b1d474"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1740128400.json",
+      "bytes": 115,
+      "sha256": "f5cccbadcc6762d61a5b0f693397216052bc5a11d0b685ab0d2ad96d1916befb"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1763643600.json",
+      "bytes": 112,
+      "sha256": "83c031b86f06864774288b94c6a22b3706abd9f5d2b094e2528182e9efef294a"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1765029600.json",
+      "bytes": 111,
+      "sha256": "78a71ab706d9a38c3ebdaea921cbcb5ee55c5ea81b02a2a628be9e810de70b35"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1765058400.json",
+      "bytes": 111,
+      "sha256": "46a32f6273415a3e1c3f95a6e2a85cc5f3bc1f2ad78b37f97887679ea7f7f08b"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1791957600.json",
+      "bytes": 111,
+      "sha256": "e25e9269d37c6963fd1bb6b7778d6910662d636f804d54be4a2ba4c5fe80f579"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1792375200.json",
+      "bytes": 109,
+      "sha256": "2806e6f2b23a2fbd8da153d4d51dd4879f2305d2f127567e7e5968639da2b1af"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1792645200.json",
+      "bytes": 110,
+      "sha256": "991779aa61313b8cb97d7f175b10e96cabd94bab89e82cddacad5d057eecfb73"
+    },
+    {
+      "file": "sources/prices/coinbase_USDT-USD_1h_1792857600.json",
+      "bytes": 111,
+      "sha256": "dae2fdc44e69f322b42c89775e447126fb65ca03056831196f3b836ea0f72936"
+    },
+    {
+      "file": "sources/prices/d1f99fedfd21ae02.json",
+      "bytes": 161,
+      "sha256": "d1f99fedfd21ae022291357a3b770f5355f34b273c80c633912d68bc11a9cf16"
+    },
+    {
+      "file": "sources/prices/d278c1841756b42a.json",
+      "bytes": 172,
+      "sha256": "d278c1841756b42a3ac027ca8aa06a336e5ef53acdffd50b13b13647cc75cd75"
+    },
+    {
+      "file": "sources/prices/d2885581267ef142.json",
+      "bytes": 168,
+      "sha256": "d2885581267ef142ad394ce901d1cd67cfd9bfb0f88ab66b4971b96fba7d9c85"
+    },
+    {
+      "file": "sources/prices/d334f88b98727375.json",
+      "bytes": 15849,
+      "sha256": "d334f88b9872737551a36b12f7468857cbf2845e29722e77fc399c373871201a"
+    },
+    {
+      "file": "sources/prices/d5ed3d90fdeabfd1.json",
+      "bytes": 112,
+      "sha256": "d5ed3d90fdeabfd1a1d2443187532add46d4ec4940371411198630419333a365"
+    },
+    {
+      "file": "sources/prices/d89f4b138907d4f9.json",
+      "bytes": 170,
+      "sha256": "d89f4b138907d4f902c0a980479b1c9a929f2f350cdefef136d2b00c63175240"
+    },
+    {
+      "file": "sources/prices/d8fc6d824140fe1a.json",
+      "bytes": 160,
+      "sha256": "d8fc6d824140fe1a59f6944e7e60d8e5057034dec550c8fe92dfc604440568b9"
+    },
+    {
+      "file": "sources/prices/d91b18ab93ef8dd2.json",
+      "bytes": 160,
+      "sha256": "d91b18ab93ef8dd2ea29410142b4db1f812d750bcbfca3eaacf63c94728010c7"
+    },
+    {
+      "file": "sources/prices/dae2fdc44e69f322.json",
+      "bytes": 111,
+      "sha256": "dae2fdc44e69f322b42c89775e447126fb65ca03056831196f3b836ea0f72936"
+    },
+    {
+      "file": "sources/prices/db5eb7307b8226db.json",
+      "bytes": 172,
+      "sha256": "db5eb7307b8226db6373f66b9884c0bfdbf8be8fdc8ed6e1f90bd94fd1c1eb62"
+    },
+    {
+      "file": "sources/prices/dc6c9b8b3217b3fd.json",
+      "bytes": 173,
+      "sha256": "dc6c9b8b3217b3fd486203b62d1ebd481700e91d70c2ebd057819d431d2a0f58"
+    },
+    {
+      "file": "sources/prices/dd8a2474985cb5f7.json",
+      "bytes": 173,
+      "sha256": "dd8a2474985cb5f78259a556e892f0be76cf75f081f0659867feb9b3aabf7aa4"
+    },
+    {
+      "file": "sources/prices/df551edb7e26b726.json",
+      "bytes": 113,
+      "sha256": "df551edb7e26b7266b02a879518b082c2eadf6840aef301cc04881e60346fe16"
+    },
+    {
+      "file": "sources/prices/dfb6807a98ce036b.json",
+      "bytes": 172,
+      "sha256": "dfb6807a98ce036b7636fcd76036bc1b4b63b365e75b0bbda9e5aa4e4775f872"
+    },
+    {
+      "file": "sources/prices/dfc13deeb0cc01af.json",
+      "bytes": 14586,
+      "sha256": "dfc13deeb0cc01af32b77a18b325fbe42fb96135733005d54ed78c0be13f5a68"
+    },
+    {
+      "file": "sources/prices/dfe6a9abc70864ec.json",
+      "bytes": 156407,
+      "sha256": "dfe6a9abc70864ecaef4736ce770046c490ad61b890440e75ff5b6d7e3272f21"
+    },
+    {
+      "file": "sources/prices/e16ff8068711d440.json",
+      "bytes": 173,
+      "sha256": "e16ff8068711d440c7164b78a72cd9c23384362729252fced3cb5f39b5b3d372"
+    },
+    {
+      "file": "sources/prices/e1943875fe6ac4a5.json",
+      "bytes": 156573,
+      "sha256": "e1943875fe6ac4a549e98fa49a41449b0bf2dd3922ecd926279727e022d3b418"
+    },
+    {
+      "file": "sources/prices/e1a62fcc174cb1cf.json",
+      "bytes": 169,
+      "sha256": "e1a62fcc174cb1cfc667a1b977fec4b0904c3fd6868466100889c9756899b8d3"
+    },
+    {
+      "file": "sources/prices/e1f6126fae6fce81.json",
+      "bytes": 51696,
+      "sha256": "e1f6126fae6fce81dfdd0a929f8e26cac6ab5ab60dab65b93be97667adfa2ed7"
+    },
+    {
+      "file": "sources/prices/e23ec0ceccfa0069.json",
+      "bytes": 76453,
+      "sha256": "e23ec0ceccfa00693027bc4fe954845bac1d4e51be0e782b1887e5e7a4e82373"
+    },
+    {
+      "file": "sources/prices/e25e9269d37c6963.json",
+      "bytes": 111,
+      "sha256": "e25e9269d37c6963fd1bb6b7778d6910662d636f804d54be4a2ba4c5fe80f579"
+    },
+    {
+      "file": "sources/prices/e28588098d71655e.json",
+      "bytes": 164,
+      "sha256": "e28588098d71655e5b125e6784aa2aed1248ecbe9e0322eac2ad7e58d3e9e483"
+    },
+    {
+      "file": "sources/prices/e2daca2474f3792f.json",
+      "bytes": 15373,
+      "sha256": "e2daca2474f3792f8e07047cbacfb9435495c075415e8d7330e349fb9a5a3e69"
+    },
+    {
+      "file": "sources/prices/e5978d5a3fe0bac8.json",
+      "bytes": 112,
+      "sha256": "e5978d5a3fe0bac89e036ea4519e7aeedbd1f55e4158d5803839640b2af3dae1"
+    },
+    {
+      "file": "sources/prices/e82081cb6b35723d.json",
+      "bytes": 173,
+      "sha256": "e82081cb6b35723d77b5ace290857ca8129f45faefe0e05b83761b2a1f5686cd"
+    },
+    {
+      "file": "sources/prices/e82f882982fd43de.json",
+      "bytes": 15504,
+      "sha256": "e82f882982fd43decf3a6d8547b4beb36186b5db3a96f596468aadafc40fd2f7"
+    },
+    {
+      "file": "sources/prices/e897388cbd032bd4.json",
+      "bytes": 111,
+      "sha256": "e897388cbd032bd427925dc8496e198754c2497d0e5011e802a3f9887012e57f"
+    },
+    {
+      "file": "sources/prices/e93ab4e83f34feb2.json",
+      "bytes": 175,
+      "sha256": "e93ab4e83f34feb2925319285bdca8b0e63abd3d7e286afcecb79e889c124a15"
+    },
+    {
+      "file": "sources/prices/e9b93c3507340ac8.json",
+      "bytes": 175,
+      "sha256": "e9b93c3507340ac89b19c4995ffd3c6fcfb34c18fa9650847bbf676643e71323"
+    },
+    {
+      "file": "sources/prices/ecf6880a912d5084.json",
+      "bytes": 158,
+      "sha256": "ecf6880a912d508416eacc9ed7297f18c21e357661888bf02a82a84ab172cb99"
+    },
+    {
+      "file": "sources/prices/f0c79372b01da184.json",
+      "bytes": 113,
+      "sha256": "f0c79372b01da1846f743892e0fb4bc9addba4755473f8ece8d3ccbd0ec12e8a"
+    },
+    {
+      "file": "sources/prices/f33b2c8f64db4387.json",
+      "bytes": 175,
+      "sha256": "f33b2c8f64db4387c762b6c45206a52b3fbb9ad8e49b2a86ff6160e1b85fb3e3"
+    },
+    {
+      "file": "sources/prices/f44bb8c399bb0b8d.json",
+      "bytes": 15622,
+      "sha256": "f44bb8c399bb0b8d6dc21fc84460aef46995a0d031221ff1183791484a5f7fe3"
+    },
+    {
+      "file": "sources/prices/f505687959832c08.json",
+      "bytes": 168,
+      "sha256": "f505687959832c08e1f381437a10a284a5a9bd181f70fedc6232f5fdf742e08c"
+    },
+    {
+      "file": "sources/prices/f5cccbadcc6762d6.json",
+      "bytes": 115,
+      "sha256": "f5cccbadcc6762d61a5b0f693397216052bc5a11d0b685ab0d2ad96d1916befb"
+    },
+    {
+      "file": "sources/prices/f6a110385413f7c5.json",
+      "bytes": 173,
+      "sha256": "f6a110385413f7c5963f8014f65b55714765384ed5e1289185ea99d36392a499"
+    },
+    {
+      "file": "sources/prices/f96177e746fff633.json",
+      "bytes": 15866,
+      "sha256": "f96177e746fff6339dd24bde8aa02f6b8d7812964941991f4a027a87d48a543e"
+    },
+    {
+      "file": "sources/prices/fa35d6846723ddd4.json",
+      "bytes": 15676,
+      "sha256": "fa35d6846723ddd4fecc2139777e3c54ec200e444125ac593e980f1ea98ea771"
+    },
+    {
+      "file": "sources/prices/fb729e7ae7b27de5.json",
+      "bytes": 169,
+      "sha256": "fb729e7ae7b27de5e4fb4663e6b74617cdea28dff016d5e80ebe3a6cec59143d"
+    },
+    {
+      "file": "sources/prices/fbf8389e21c0ec90.json",
+      "bytes": 162,
+      "sha256": "fbf8389e21c0ec90ab781e764ad311efc346b9c03488c724977da6eb5906b05d"
+    },
+    {
+      "file": "sources/prices/fc16d24b86c35016.json",
+      "bytes": 171,
+      "sha256": "fc16d24b86c35016f62a8a785fb339124f1217f87afc1e91a110f206de42181c"
+    },
+    {
+      "file": "sources/prices/fcc6b6fb2feb3651.json",
+      "bytes": 173,
+      "sha256": "fcc6b6fb2feb3651b7f1b2ef346f57ba1f4b1cefa2f7a285268a7d911141d478"
+    },
+    {
+      "file": "sources/prices/fe13ac96d2c4d07a.json",
+      "bytes": 173,
+      "sha256": "fe13ac96d2c4d07ad68b3579d970cd5ed11f19a06232a25ecf8955fdb4d302e2"
+    },
+    {
+      "file": "sources/prices/ffa694fec54a7078.json",
+      "bytes": 168,
+      "sha256": "ffa694fec54a70780ae0c91200c29f56205a75d33560d3a11606c77db649b454"
+    },
+    {
+      "file": "sources/prices/ffb207033dca212e.json",
+      "bytes": 157334,
+      "sha256": "ffb207033dca212e635b8e9f8dd38a270921c4a51c205c73df22080d6211ca49"
+    },
+    {
+      "file": "sources/prices/ffe8b98ce783fce9.json",
+      "bytes": 175,
+      "sha256": "ffe8b98ce783fce980f473ee4b74c9216214f1f2a7ba166e2ab8f4b530b84e24"
+    },
+    {
+      "file": "sources/proposal9.json",
+      "bytes": 620,
+      "sha256": "f8bf14be00a169caf277aa7fffe61b0c4f8d474f25f391ab33abf60f4e9add9d"
+    },
+    {
+      "file": "sources/proposal9.json.capture.json",
+      "bytes": 489,
+      "sha256": "9122c91121ca54f3f019522b35989c03909233e0743311c2d93a64a55c51f23e"
+    },
+    {
+      "file": "sources/source-index.json",
+      "bytes": 189872,
+      "sha256": "959883b0105b78c4615a98c1c8ef461ddfb6696f6c55580622074c735f0d6214"
+    },
+    {
+      "file": "sources/stake-dependence.json",
+      "bytes": 10417,
+      "sha256": "804ff418e0f33d8cf61aa2aca5aad758339a708744b69b0789f541ea1f280e74"
+    },
+    {
+      "file": "sources/upgrade-proposals.json",
+      "bytes": 9810,
+      "sha256": "d1bf8af38ea8635d63a1b9433a610ce775b68c5a7e67970f4c339218a269b2d7"
+    },
+    {
+      "file": "sources/votion_A16_proposal.json",
+      "bytes": 750,
+      "sha256": "380d388b81de5895588153315b54abcaaa996ff2eec5b8d88fc0ac1dd26f8263"
+    },
+    {
+      "file": "sources/votion_A16_transactions.json",
+      "bytes": 32305,
+      "sha256": "896fe9ffa3f6fb62808048e122b15c0ea8352a373cdc2110ef7d1efe66e68daa"
+    },
+    {
+      "file": "sources/votion_fee_config.json",
+      "bytes": 498,
+      "sha256": "5c38d41a90ac4cd78bab69ada36f077c60b56330b00e9234554f2377a5533c6a"
+    },
+    {
+      "file": "style.css",
+      "bytes": 8879,
+      "sha256": "274b91fdd43dc2f880619362ebd285b9f983bc512a1002d0048e4f3e958ddbb7"
+    }
+  ]
+}

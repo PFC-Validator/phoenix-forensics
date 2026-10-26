@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2025-08-17T12:33:19Z",
+    "hash": "5A3A2B0BC68DF9BFC569C01226A324F3DD3F7494405B4906F2B7694B3ED93234",
+    "msg_index": 0,
+    "kind": "migration",
+    "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+    "label": "Voting escrow",
+    "sender": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+    "code_id": "3692",
+    "msg": {},
+    "success": true,
+    "old_code_id": 3690,
+    "new_code_id": 3692,
+    "power": "Wasm migration administrator"
+  }
+]

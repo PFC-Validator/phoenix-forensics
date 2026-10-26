@@ -1,0 +1,3003 @@
+{
+  "label": "incentive_blacklist",
+  "query": "wasm.action='asset/update_incentive_blacklist'",
+  "provider": "http://15.204.43.42:1317",
+  "indexed_total": 4,
+  "unique_returned": 4,
+  "records": [
+    {
+      "tx": {
+        "body": {
+          "messages": [
+            {
+              "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+              "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+              "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+              "msg": {
+                "update_incentive_blacklist": {
+                  "add": [
+                    {
+                      "cw20": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+                    }
+                  ],
+                  "remove": []
+                }
+              },
+              "funds": []
+            }
+          ],
+          "memo": "",
+          "timeout_height": "0",
+          "extension_options": [],
+          "non_critical_extension_options": []
+        },
+        "auth_info": {
+          "signer_infos": [
+            {
+              "public_key": {
+                "@type": "/cosmos.crypto.secp256k1.PubKey",
+                "key": "A8Skydzpj2Nt2o0XvQ8SRDq51UmYXbTjfpHT70stReVu"
+              },
+              "mode_info": {
+                "single": {
+                  "mode": "SIGN_MODE_DIRECT"
+                }
+              },
+              "sequence": "835"
+            }
+          ],
+          "fee": {
+            "amount": [
+              {
+                "denom": "uluna",
+                "amount": "2390"
+              }
+            ],
+            "gas_limit": "159278",
+            "payer": "",
+            "granter": ""
+          },
+          "tip": null
+        },
+        "signatures": [
+          "fC95TiOHZr1e4mdEXmnrmy0JhvlH2zD9ldvP3OxZSyxnfGLV/G67BObzC8Q7Okbtju5LyX7XyROPXOkg1KnjNQ=="
+        ]
+      },
+      "tx_response": {
+        "height": "22952721",
+        "txhash": "4D6F5AE19115266A921ED01819BBF4A894274DB795174622463FB712AF69D853",
+        "codespace": "",
+        "code": 0,
+        "data": "122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365",
+        "raw_log": "",
+        "logs": [],
+        "info": "",
+        "gas_wanted": "159278",
+        "gas_used": "157977",
+        "tx": {
+          "@type": "/cosmos.tx.v1beta1.Tx",
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+                "msg": {
+                  "update_incentive_blacklist": {
+                    "add": [
+                      {
+                        "cw20": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+                      }
+                    ],
+                    "remove": []
+                  }
+                },
+                "funds": []
+              }
+            ],
+            "memo": "",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A8Skydzpj2Nt2o0XvQ8SRDq51UmYXbTjfpHT70stReVu"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "835"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "uluna",
+                  "amount": "2390"
+                }
+              ],
+              "gas_limit": "159278",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "fC95TiOHZr1e4mdEXmnrmy0JhvlH2zD9ldvP3OxZSyxnfGLV/G67BObzC8Q7Okbtju5LyX7XyROPXOkg1KnjNQ=="
+          ]
+        },
+        "timestamp": "2026-09-22T11:02:18Z",
+        "events": [
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "2390uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "2390uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "2390uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "fee",
+                "value": "2390uluna",
+                "index": true
+              },
+              {
+                "key": "fee_payer",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "acc_seq",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl/835",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "signature",
+                "value": "fC95TiOHZr1e4mdEXmnrmy0JhvlH2zD9ldvP3OxZSyxnfGLV/G67BObzC8Q7Okbtju5LyX7XyROPXOkg1KnjNQ==",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "module",
+                "value": "wasm",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "execute",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "wasm",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+                "index": true
+              },
+              {
+                "key": "action",
+                "value": "asset/update_incentive_blacklist",
+                "index": true
+              },
+              {
+                "key": "added",
+                "value": "cw20:terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl",
+                "index": true
+              },
+              {
+                "key": "removed",
+                "value": "",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1195uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1195uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1195uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "juno.feeshare.v1.FeePayoutEvent",
+            "attributes": [
+              {
+                "key": "fees_paid",
+                "value": "[{\"denom\":\"uluna\",\"amount\":\"1195\"}]",
+                "index": true
+              },
+              {
+                "key": "withdraw_address",
+                "value": "\"terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa\"",
+                "index": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tx": {
+        "body": {
+          "messages": [
+            {
+              "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+              "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+              "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+              "msg": {
+                "update_incentive_blacklist": {
+                  "add": [
+                    {
+                      "cw20": "terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8"
+                    },
+                    {
+                      "cw20": "terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4"
+                    },
+                    {
+                      "cw20": "terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp"
+                    },
+                    {
+                      "cw20": "terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx"
+                    },
+                    {
+                      "cw20": "terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc"
+                    }
+                  ],
+                  "remove": []
+                }
+              },
+              "funds": []
+            },
+            {
+              "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+              "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+              "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+              "msg": {
+                "update_incentive_blacklist": {
+                  "add": [
+                    {
+                      "cw20": "terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk"
+                    },
+                    {
+                      "cw20": "terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a"
+                    },
+                    {
+                      "cw20": "terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc"
+                    },
+                    {
+                      "cw20": "terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm"
+                    },
+                    {
+                      "cw20": "terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht"
+                    },
+                    {
+                      "cw20": "terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra"
+                    },
+                    {
+                      "cw20": "terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz"
+                    },
+                    {
+                      "cw20": "terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4"
+                    },
+                    {
+                      "cw20": "terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u"
+                    },
+                    {
+                      "cw20": "terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564"
+                    },
+                    {
+                      "cw20": "terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44"
+                    }
+                  ],
+                  "remove": []
+                }
+              },
+              "funds": []
+            },
+            {
+              "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+              "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+              "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+              "msg": {
+                "update_incentive_blacklist": {
+                  "add": [
+                    {
+                      "cw20": "terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc"
+                    },
+                    {
+                      "cw20": "terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt"
+                    },
+                    {
+                      "cw20": "terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75"
+                    },
+                    {
+                      "cw20": "terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu"
+                    },
+                    {
+                      "cw20": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+                    },
+                    {
+                      "cw20": "terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry"
+                    },
+                    {
+                      "cw20": "terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3"
+                    },
+                    {
+                      "cw20": "terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw"
+                    },
+                    {
+                      "cw20": "terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn"
+                    },
+                    {
+                      "cw20": "terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js"
+                    },
+                    {
+                      "cw20": "terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5"
+                    },
+                    {
+                      "cw20": "terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn"
+                    }
+                  ],
+                  "remove": []
+                }
+              },
+              "funds": []
+            },
+            {
+              "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+              "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+              "contract": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+              "msg": {
+                "update_incentive_blacklist": {
+                  "add": [
+                    {
+                      "cw20": "terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2"
+                    },
+                    {
+                      "cw20": "terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn"
+                    },
+                    {
+                      "cw20": "terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny"
+                    },
+                    {
+                      "cw20": "terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh"
+                    },
+                    {
+                      "cw20": "terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5"
+                    },
+                    {
+                      "cw20": "terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww"
+                    },
+                    {
+                      "cw20": "terra1zn0kcywt3epp6md4ugnprslf84hhxklwz4g0d8ck7ldf9uspudqqpmf0ya"
+                    },
+                    {
+                      "cw20": "terra1yxj707eppjphy4fshmt2rcqfnmat4ym58z6x9jk52mvte56ktv7sqfy2r5"
+                    },
+                    {
+                      "cw20": "terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h"
+                    },
+                    {
+                      "cw20": "terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0"
+                    },
+                    {
+                      "native": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6"
+                    },
+                    {
+                      "native": "factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA"
+                    },
+                    {
+                      "cw20": "terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr"
+                    }
+                  ],
+                  "remove": []
+                }
+              },
+              "funds": []
+            }
+          ],
+          "memo": "",
+          "timeout_height": "0",
+          "extension_options": [],
+          "non_critical_extension_options": []
+        },
+        "auth_info": {
+          "signer_infos": [
+            {
+              "public_key": {
+                "@type": "/cosmos.crypto.secp256k1.PubKey",
+                "key": "A8Skydzpj2Nt2o0XvQ8SRDq51UmYXbTjfpHT70stReVu"
+              },
+              "mode_info": {
+                "single": {
+                  "mode": "SIGN_MODE_DIRECT"
+                }
+              },
+              "sequence": "836"
+            }
+          ],
+          "fee": {
+            "amount": [
+              {
+                "denom": "uluna",
+                "amount": "9488"
+              }
+            ],
+            "gas_limit": "632518",
+            "payer": "",
+            "granter": ""
+          },
+          "tip": null
+        },
+        "signatures": [
+          "3DUxvJapn3h6MSqD03ScOmqjKyq29eYJTFD+RSTPaLMR5zoSEpEBd+lVxMSBysWKhvsv/DFdMaLQVFx3O/Wlmw=="
+        ]
+      },
+      "tx_response": {
+        "height": "22952746",
+        "txhash": "10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+        "codespace": "",
+        "code": 0,
+        "data": "122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365",
+        "raw_log": "",
+        "logs": [],
+        "info": "",
+        "gas_wanted": "632518",
+        "gas_used": "556721",
+        "tx": {
+          "@type": "/cosmos.tx.v1beta1.Tx",
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+                "msg": {
+                  "update_incentive_blacklist": {
+                    "add": [
+                      {
+                        "cw20": "terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8"
+                      },
+                      {
+                        "cw20": "terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4"
+                      },
+                      {
+                        "cw20": "terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp"
+                      },
+                      {
+                        "cw20": "terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx"
+                      },
+                      {
+                        "cw20": "terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc"
+                      }
+                    ],
+                    "remove": []
+                  }
+                },
+                "funds": []
+              },
+              {
+                "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+                "msg": {
+                  "update_incentive_blacklist": {
+                    "add": [
+                      {
+                        "cw20": "terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk"
+                      },
+                      {
+                        "cw20": "terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a"
+                      },
+                      {
+                        "cw20": "terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc"
+                      },
+                      {
+                        "cw20": "terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm"
+                      },
+                      {
+                        "cw20": "terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht"
+                      },
+                      {
+                        "cw20": "terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra"
+                      },
+                      {
+                        "cw20": "terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz"
+                      },
+                      {
+                        "cw20": "terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4"
+                      },
+                      {
+                        "cw20": "terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u"
+                      },
+                      {
+                        "cw20": "terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564"
+                      },
+                      {
+                        "cw20": "terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44"
+                      }
+                    ],
+                    "remove": []
+                  }
+                },
+                "funds": []
+              },
+              {
+                "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+                "msg": {
+                  "update_incentive_blacklist": {
+                    "add": [
+                      {
+                        "cw20": "terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc"
+                      },
+                      {
+                        "cw20": "terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt"
+                      },
+                      {
+                        "cw20": "terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75"
+                      },
+                      {
+                        "cw20": "terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu"
+                      },
+                      {
+                        "cw20": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+                      },
+                      {
+                        "cw20": "terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry"
+                      },
+                      {
+                        "cw20": "terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3"
+                      },
+                      {
+                        "cw20": "terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw"
+                      },
+                      {
+                        "cw20": "terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn"
+                      },
+                      {
+                        "cw20": "terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js"
+                      },
+                      {
+                        "cw20": "terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5"
+                      },
+                      {
+                        "cw20": "terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn"
+                      }
+                    ],
+                    "remove": []
+                  }
+                },
+                "funds": []
+              },
+              {
+                "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "contract": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+                "msg": {
+                  "update_incentive_blacklist": {
+                    "add": [
+                      {
+                        "cw20": "terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2"
+                      },
+                      {
+                        "cw20": "terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn"
+                      },
+                      {
+                        "cw20": "terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny"
+                      },
+                      {
+                        "cw20": "terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh"
+                      },
+                      {
+                        "cw20": "terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5"
+                      },
+                      {
+                        "cw20": "terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww"
+                      },
+                      {
+                        "cw20": "terra1zn0kcywt3epp6md4ugnprslf84hhxklwz4g0d8ck7ldf9uspudqqpmf0ya"
+                      },
+                      {
+                        "cw20": "terra1yxj707eppjphy4fshmt2rcqfnmat4ym58z6x9jk52mvte56ktv7sqfy2r5"
+                      },
+                      {
+                        "cw20": "terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h"
+                      },
+                      {
+                        "cw20": "terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0"
+                      },
+                      {
+                        "native": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6"
+                      },
+                      {
+                        "native": "factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA"
+                      },
+                      {
+                        "cw20": "terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr"
+                      }
+                    ],
+                    "remove": []
+                  }
+                },
+                "funds": []
+              }
+            ],
+            "memo": "",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A8Skydzpj2Nt2o0XvQ8SRDq51UmYXbTjfpHT70stReVu"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "836"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "uluna",
+                  "amount": "9488"
+                }
+              ],
+              "gas_limit": "632518",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "3DUxvJapn3h6MSqD03ScOmqjKyq29eYJTFD+RSTPaLMR5zoSEpEBd+lVxMSBysWKhvsv/DFdMaLQVFx3O/Wlmw=="
+          ]
+        },
+        "timestamp": "2026-09-22T11:04:44Z",
+        "events": [
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "9488uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "9488uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "9488uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "fee",
+                "value": "9488uluna",
+                "index": true
+              },
+              {
+                "key": "fee_payer",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "acc_seq",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl/836",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "signature",
+                "value": "3DUxvJapn3h6MSqD03ScOmqjKyq29eYJTFD+RSTPaLMR5zoSEpEBd+lVxMSBysWKhvsv/DFdMaLQVFx3O/Wlmw==",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "module",
+                "value": "wasm",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "execute",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "wasm",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+                "index": true
+              },
+              {
+                "key": "action",
+                "value": "asset/update_incentive_blacklist",
+                "index": true
+              },
+              {
+                "key": "added",
+                "value": "cw20:terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8,cw20:terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4,cw20:terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp,cw20:terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx,cw20:terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc",
+                "index": true
+              },
+              {
+                "key": "removed",
+                "value": "",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "module",
+                "value": "wasm",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "1",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "execute",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "1",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "wasm",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+                "index": true
+              },
+              {
+                "key": "action",
+                "value": "asset/update_incentive_blacklist",
+                "index": true
+              },
+              {
+                "key": "added",
+                "value": "cw20:terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk,cw20:terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a,cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc,cw20:terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm,cw20:terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht,cw20:terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra,cw20:terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz,cw20:terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4,cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u,cw20:terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564,cw20:terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44",
+                "index": true
+              },
+              {
+                "key": "removed",
+                "value": "",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "1",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "module",
+                "value": "wasm",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "2",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "execute",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "2",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "wasm",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+                "index": true
+              },
+              {
+                "key": "action",
+                "value": "asset/update_incentive_blacklist",
+                "index": true
+              },
+              {
+                "key": "added",
+                "value": "cw20:terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc,cw20:terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt,cw20:terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75,cw20:terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu,cw20:terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl,cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry,cw20:terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3,cw20:terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw,cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn,cw20:terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js,cw20:terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5,cw20:terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn",
+                "index": true
+              },
+              {
+                "key": "removed",
+                "value": "",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "2",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "module",
+                "value": "wasm",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "3",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "execute",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "3",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "wasm",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+                "index": true
+              },
+              {
+                "key": "action",
+                "value": "asset/update_incentive_blacklist",
+                "index": true
+              },
+              {
+                "key": "added",
+                "value": "cw20:terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2,cw20:terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn,cw20:terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny,cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh,cw20:terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5,cw20:terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww,cw20:terra1zn0kcywt3epp6md4ugnprslf84hhxklwz4g0d8ck7ldf9uspudqqpmf0ya,cw20:terra1yxj707eppjphy4fshmt2rcqfnmat4ym58z6x9jk52mvte56ktv7sqfy2r5,cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h,cw20:terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0,native:ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6,native:factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA,cw20:terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr",
+                "index": true
+              },
+              {
+                "key": "removed",
+                "value": "",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "3",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "juno.feeshare.v1.FeePayoutEvent",
+            "attributes": [
+              {
+                "key": "fees_paid",
+                "value": "[{\"denom\":\"uluna\",\"amount\":\"1186\"}]",
+                "index": true
+              },
+              {
+                "key": "withdraw_address",
+                "value": "\"terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa\"",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "juno.feeshare.v1.FeePayoutEvent",
+            "attributes": [
+              {
+                "key": "fees_paid",
+                "value": "[{\"denom\":\"uluna\",\"amount\":\"1186\"}]",
+                "index": true
+              },
+              {
+                "key": "withdraw_address",
+                "value": "\"terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa\"",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "juno.feeshare.v1.FeePayoutEvent",
+            "attributes": [
+              {
+                "key": "fees_paid",
+                "value": "[{\"denom\":\"uluna\",\"amount\":\"1186\"}]",
+                "index": true
+              },
+              {
+                "key": "withdraw_address",
+                "value": "\"terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa\"",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1186uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "juno.feeshare.v1.FeePayoutEvent",
+            "attributes": [
+              {
+                "key": "fees_paid",
+                "value": "[{\"denom\":\"uluna\",\"amount\":\"1186\"}]",
+                "index": true
+              },
+              {
+                "key": "withdraw_address",
+                "value": "\"terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa\"",
+                "index": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tx": {
+        "body": {
+          "messages": [
+            {
+              "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+              "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+              "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+              "msg": {
+                "update_incentive_blacklist": {
+                  "add": [],
+                  "remove": [
+                    {
+                      "cw20": "terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8"
+                    },
+                    {
+                      "cw20": "terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4"
+                    },
+                    {
+                      "cw20": "terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp"
+                    },
+                    {
+                      "cw20": "terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx"
+                    },
+                    {
+                      "cw20": "terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc"
+                    }
+                  ]
+                }
+              },
+              "funds": []
+            },
+            {
+              "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+              "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+              "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+              "msg": {
+                "update_incentive_blacklist": {
+                  "add": [],
+                  "remove": [
+                    {
+                      "cw20": "terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk"
+                    },
+                    {
+                      "cw20": "terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a"
+                    },
+                    {
+                      "cw20": "terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc"
+                    },
+                    {
+                      "cw20": "terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm"
+                    },
+                    {
+                      "cw20": "terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht"
+                    },
+                    {
+                      "cw20": "terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra"
+                    },
+                    {
+                      "cw20": "terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz"
+                    },
+                    {
+                      "cw20": "terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4"
+                    },
+                    {
+                      "cw20": "terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u"
+                    },
+                    {
+                      "cw20": "terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564"
+                    },
+                    {
+                      "cw20": "terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44"
+                    }
+                  ]
+                }
+              },
+              "funds": []
+            },
+            {
+              "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+              "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+              "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+              "msg": {
+                "update_incentive_blacklist": {
+                  "add": [],
+                  "remove": [
+                    {
+                      "cw20": "terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc"
+                    },
+                    {
+                      "cw20": "terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt"
+                    },
+                    {
+                      "cw20": "terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75"
+                    },
+                    {
+                      "cw20": "terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu"
+                    },
+                    {
+                      "cw20": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+                    },
+                    {
+                      "cw20": "terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry"
+                    },
+                    {
+                      "cw20": "terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3"
+                    },
+                    {
+                      "cw20": "terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw"
+                    },
+                    {
+                      "cw20": "terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn"
+                    },
+                    {
+                      "cw20": "terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js"
+                    },
+                    {
+                      "cw20": "terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5"
+                    },
+                    {
+                      "cw20": "terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn"
+                    }
+                  ]
+                }
+              },
+              "funds": []
+            },
+            {
+              "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+              "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+              "contract": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+              "msg": {
+                "update_incentive_blacklist": {
+                  "add": [],
+                  "remove": [
+                    {
+                      "cw20": "terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2"
+                    },
+                    {
+                      "cw20": "terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn"
+                    },
+                    {
+                      "cw20": "terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny"
+                    },
+                    {
+                      "cw20": "terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh"
+                    },
+                    {
+                      "cw20": "terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5"
+                    },
+                    {
+                      "cw20": "terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww"
+                    },
+                    {
+                      "cw20": "terra1zn0kcywt3epp6md4ugnprslf84hhxklwz4g0d8ck7ldf9uspudqqpmf0ya"
+                    },
+                    {
+                      "cw20": "terra1yxj707eppjphy4fshmt2rcqfnmat4ym58z6x9jk52mvte56ktv7sqfy2r5"
+                    },
+                    {
+                      "cw20": "terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h"
+                    },
+                    {
+                      "cw20": "terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0"
+                    },
+                    {
+                      "native": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6"
+                    },
+                    {
+                      "native": "factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA"
+                    },
+                    {
+                      "cw20": "terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr"
+                    }
+                  ]
+                }
+              },
+              "funds": []
+            }
+          ],
+          "memo": "",
+          "timeout_height": "0",
+          "extension_options": [],
+          "non_critical_extension_options": []
+        },
+        "auth_info": {
+          "signer_infos": [
+            {
+              "public_key": {
+                "@type": "/cosmos.crypto.secp256k1.PubKey",
+                "key": "A8Skydzpj2Nt2o0XvQ8SRDq51UmYXbTjfpHT70stReVu"
+              },
+              "mode_info": {
+                "single": {
+                  "mode": "SIGN_MODE_DIRECT"
+                }
+              },
+              "sequence": "839"
+            }
+          ],
+          "fee": {
+            "amount": [
+              {
+                "denom": "uluna",
+                "amount": "6409"
+              }
+            ],
+            "gas_limit": "427210",
+            "payer": "",
+            "granter": ""
+          },
+          "tip": null
+        },
+        "signatures": [
+          "af7lQf67LPOrFhN5Bw1lJ9sLN8btMW8muKlccJ7lYcplraQP39KiibnIHkDz9Yf2LVfjUQJKfU7NwOJUnw09bA=="
+        ]
+      },
+      "tx_response": {
+        "height": "22954423",
+        "txhash": "3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+        "codespace": "",
+        "code": 0,
+        "data": "122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365",
+        "raw_log": "",
+        "logs": [],
+        "info": "",
+        "gas_wanted": "427210",
+        "gas_used": "356110",
+        "tx": {
+          "@type": "/cosmos.tx.v1beta1.Tx",
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+                "msg": {
+                  "update_incentive_blacklist": {
+                    "add": [],
+                    "remove": [
+                      {
+                        "cw20": "terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8"
+                      },
+                      {
+                        "cw20": "terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4"
+                      },
+                      {
+                        "cw20": "terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp"
+                      },
+                      {
+                        "cw20": "terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx"
+                      },
+                      {
+                        "cw20": "terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc"
+                      }
+                    ]
+                  }
+                },
+                "funds": []
+              },
+              {
+                "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+                "msg": {
+                  "update_incentive_blacklist": {
+                    "add": [],
+                    "remove": [
+                      {
+                        "cw20": "terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk"
+                      },
+                      {
+                        "cw20": "terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a"
+                      },
+                      {
+                        "cw20": "terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc"
+                      },
+                      {
+                        "cw20": "terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm"
+                      },
+                      {
+                        "cw20": "terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht"
+                      },
+                      {
+                        "cw20": "terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra"
+                      },
+                      {
+                        "cw20": "terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz"
+                      },
+                      {
+                        "cw20": "terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4"
+                      },
+                      {
+                        "cw20": "terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u"
+                      },
+                      {
+                        "cw20": "terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564"
+                      },
+                      {
+                        "cw20": "terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44"
+                      }
+                    ]
+                  }
+                },
+                "funds": []
+              },
+              {
+                "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+                "msg": {
+                  "update_incentive_blacklist": {
+                    "add": [],
+                    "remove": [
+                      {
+                        "cw20": "terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc"
+                      },
+                      {
+                        "cw20": "terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt"
+                      },
+                      {
+                        "cw20": "terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75"
+                      },
+                      {
+                        "cw20": "terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu"
+                      },
+                      {
+                        "cw20": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+                      },
+                      {
+                        "cw20": "terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry"
+                      },
+                      {
+                        "cw20": "terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3"
+                      },
+                      {
+                        "cw20": "terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw"
+                      },
+                      {
+                        "cw20": "terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn"
+                      },
+                      {
+                        "cw20": "terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js"
+                      },
+                      {
+                        "cw20": "terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5"
+                      },
+                      {
+                        "cw20": "terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn"
+                      }
+                    ]
+                  }
+                },
+                "funds": []
+              },
+              {
+                "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "contract": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+                "msg": {
+                  "update_incentive_blacklist": {
+                    "add": [],
+                    "remove": [
+                      {
+                        "cw20": "terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2"
+                      },
+                      {
+                        "cw20": "terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn"
+                      },
+                      {
+                        "cw20": "terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny"
+                      },
+                      {
+                        "cw20": "terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh"
+                      },
+                      {
+                        "cw20": "terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5"
+                      },
+                      {
+                        "cw20": "terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww"
+                      },
+                      {
+                        "cw20": "terra1zn0kcywt3epp6md4ugnprslf84hhxklwz4g0d8ck7ldf9uspudqqpmf0ya"
+                      },
+                      {
+                        "cw20": "terra1yxj707eppjphy4fshmt2rcqfnmat4ym58z6x9jk52mvte56ktv7sqfy2r5"
+                      },
+                      {
+                        "cw20": "terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h"
+                      },
+                      {
+                        "cw20": "terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0"
+                      },
+                      {
+                        "native": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6"
+                      },
+                      {
+                        "native": "factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA"
+                      },
+                      {
+                        "cw20": "terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr"
+                      }
+                    ]
+                  }
+                },
+                "funds": []
+              }
+            ],
+            "memo": "",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A8Skydzpj2Nt2o0XvQ8SRDq51UmYXbTjfpHT70stReVu"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "839"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "uluna",
+                  "amount": "6409"
+                }
+              ],
+              "gas_limit": "427210",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "af7lQf67LPOrFhN5Bw1lJ9sLN8btMW8muKlccJ7lYcplraQP39KiibnIHkDz9Yf2LVfjUQJKfU7NwOJUnw09bA=="
+          ]
+        },
+        "timestamp": "2026-09-22T13:47:12Z",
+        "events": [
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "6409uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "6409uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "6409uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "fee",
+                "value": "6409uluna",
+                "index": true
+              },
+              {
+                "key": "fee_payer",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "acc_seq",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl/839",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "signature",
+                "value": "af7lQf67LPOrFhN5Bw1lJ9sLN8btMW8muKlccJ7lYcplraQP39KiibnIHkDz9Yf2LVfjUQJKfU7NwOJUnw09bA==",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "module",
+                "value": "wasm",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "execute",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "wasm",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+                "index": true
+              },
+              {
+                "key": "action",
+                "value": "asset/update_incentive_blacklist",
+                "index": true
+              },
+              {
+                "key": "added",
+                "value": "",
+                "index": true
+              },
+              {
+                "key": "removed",
+                "value": "cw20:terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8,cw20:terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4,cw20:terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp,cw20:terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx,cw20:terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "module",
+                "value": "wasm",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "1",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "execute",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "1",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "wasm",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+                "index": true
+              },
+              {
+                "key": "action",
+                "value": "asset/update_incentive_blacklist",
+                "index": true
+              },
+              {
+                "key": "added",
+                "value": "",
+                "index": true
+              },
+              {
+                "key": "removed",
+                "value": "cw20:terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk,cw20:terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a,cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc,cw20:terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm,cw20:terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht,cw20:terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra,cw20:terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz,cw20:terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4,cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u,cw20:terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564,cw20:terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "1",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "module",
+                "value": "wasm",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "2",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "execute",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "2",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "wasm",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+                "index": true
+              },
+              {
+                "key": "action",
+                "value": "asset/update_incentive_blacklist",
+                "index": true
+              },
+              {
+                "key": "added",
+                "value": "",
+                "index": true
+              },
+              {
+                "key": "removed",
+                "value": "cw20:terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc,cw20:terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt,cw20:terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75,cw20:terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu,cw20:terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl,cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry,cw20:terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3,cw20:terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw,cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn,cw20:terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js,cw20:terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5,cw20:terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "2",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "module",
+                "value": "wasm",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "3",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "execute",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "3",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "wasm",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+                "index": true
+              },
+              {
+                "key": "action",
+                "value": "asset/update_incentive_blacklist",
+                "index": true
+              },
+              {
+                "key": "added",
+                "value": "",
+                "index": true
+              },
+              {
+                "key": "removed",
+                "value": "cw20:terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2,cw20:terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn,cw20:terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny,cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh,cw20:terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5,cw20:terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww,cw20:terra1zn0kcywt3epp6md4ugnprslf84hhxklwz4g0d8ck7ldf9uspudqqpmf0ya,cw20:terra1yxj707eppjphy4fshmt2rcqfnmat4ym58z6x9jk52mvte56ktv7sqfy2r5,cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h,cw20:terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0,native:ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6,native:factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA,cw20:terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "3",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "juno.feeshare.v1.FeePayoutEvent",
+            "attributes": [
+              {
+                "key": "fees_paid",
+                "value": "[{\"denom\":\"uluna\",\"amount\":\"801\"}]",
+                "index": true
+              },
+              {
+                "key": "withdraw_address",
+                "value": "\"terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa\"",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "juno.feeshare.v1.FeePayoutEvent",
+            "attributes": [
+              {
+                "key": "fees_paid",
+                "value": "[{\"denom\":\"uluna\",\"amount\":\"801\"}]",
+                "index": true
+              },
+              {
+                "key": "withdraw_address",
+                "value": "\"terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa\"",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "juno.feeshare.v1.FeePayoutEvent",
+            "attributes": [
+              {
+                "key": "fees_paid",
+                "value": "[{\"denom\":\"uluna\",\"amount\":\"801\"}]",
+                "index": true
+              },
+              {
+                "key": "withdraw_address",
+                "value": "\"terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa\"",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "801uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "juno.feeshare.v1.FeePayoutEvent",
+            "attributes": [
+              {
+                "key": "fees_paid",
+                "value": "[{\"denom\":\"uluna\",\"amount\":\"801\"}]",
+                "index": true
+              },
+              {
+                "key": "withdraw_address",
+                "value": "\"terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa\"",
+                "index": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tx": {
+        "body": {
+          "messages": [
+            {
+              "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+              "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+              "contract": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+              "msg": {
+                "update_incentive_blacklist": {
+                  "add": [
+                    {
+                      "native": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6"
+                    }
+                  ],
+                  "remove": []
+                }
+              },
+              "funds": []
+            }
+          ],
+          "memo": "",
+          "timeout_height": "0",
+          "extension_options": [],
+          "non_critical_extension_options": []
+        },
+        "auth_info": {
+          "signer_infos": [
+            {
+              "public_key": {
+                "@type": "/cosmos.crypto.secp256k1.PubKey",
+                "key": "A8Skydzpj2Nt2o0XvQ8SRDq51UmYXbTjfpHT70stReVu"
+              },
+              "mode_info": {
+                "single": {
+                  "mode": "SIGN_MODE_DIRECT"
+                }
+              },
+              "sequence": "851"
+            }
+          ],
+          "fee": {
+            "amount": [
+              {
+                "denom": "uluna",
+                "amount": "2395"
+              }
+            ],
+            "gas_limit": "159623",
+            "payer": "",
+            "granter": ""
+          },
+          "tip": null
+        },
+        "signatures": [
+          "ASRcWAUr7jOIA8GROgqFVo+pZzqf+jHT3nHM+GznvkxoKu6eSBiJ3N+nXXHhJ6Ektu4ttsLpKz/dfsVDJk5ITQ=="
+        ]
+      },
+      "tx_response": {
+        "height": "23199404",
+        "txhash": "F78FC385BF76091CAD6EA4D28771AE1415790CAD0F2C64E88D9F848DF1095028",
+        "codespace": "",
+        "code": 0,
+        "data": "122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365",
+        "raw_log": "",
+        "logs": [],
+        "info": "",
+        "gas_wanted": "159623",
+        "gas_used": "158337",
+        "tx": {
+          "@type": "/cosmos.tx.v1beta1.Tx",
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "contract": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+                "msg": {
+                  "update_incentive_blacklist": {
+                    "add": [
+                      {
+                        "native": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6"
+                      }
+                    ],
+                    "remove": []
+                  }
+                },
+                "funds": []
+              }
+            ],
+            "memo": "",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A8Skydzpj2Nt2o0XvQ8SRDq51UmYXbTjfpHT70stReVu"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "851"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "uluna",
+                  "amount": "2395"
+                }
+              ],
+              "gas_limit": "159623",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "ASRcWAUr7jOIA8GROgqFVo+pZzqf+jHT3nHM+GznvkxoKu6eSBiJ3N+nXXHhJ6Ektu4ttsLpKz/dfsVDJk5ITQ=="
+          ]
+        },
+        "timestamp": "2026-10-08T23:21:29Z",
+        "events": [
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "2395uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "2395uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "2395uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "fee",
+                "value": "2395uluna",
+                "index": true
+              },
+              {
+                "key": "fee_payer",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "acc_seq",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl/851",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "tx",
+            "attributes": [
+              {
+                "key": "signature",
+                "value": "ASRcWAUr7jOIA8GROgqFVo+pZzqf+jHT3nHM+GznvkxoKu6eSBiJ3N+nXXHhJ6Ektu4ttsLpKz/dfsVDJk5ITQ==",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+                "index": true
+              },
+              {
+                "key": "module",
+                "value": "wasm",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "execute",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "wasm",
+            "attributes": [
+              {
+                "key": "_contract_address",
+                "value": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+                "index": true
+              },
+              {
+                "key": "action",
+                "value": "asset/update_incentive_blacklist",
+                "index": true
+              },
+              {
+                "key": "added",
+                "value": "native:ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6",
+                "index": true
+              },
+              {
+                "key": "removed",
+                "value": "",
+                "index": true
+              },
+              {
+                "key": "msg_index",
+                "value": "0",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1198uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1198uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+                "index": true
+              },
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              },
+              {
+                "key": "amount",
+                "value": "1198uluna",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "sender",
+                "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+                "index": true
+              }
+            ]
+          },
+          {
+            "type": "juno.feeshare.v1.FeePayoutEvent",
+            "attributes": [
+              {
+                "key": "fees_paid",
+                "value": "[{\"denom\":\"uluna\",\"amount\":\"1198\"}]",
+                "index": true
+              },
+              {
+                "key": "withdraw_address",
+                "value": "\"terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa\"",
+                "index": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2024-10-21T08:59:25Z",
+    "hash": "16B544CEC4C3F12E0F1A24D78DFB6ABC57BEBD5E93F7D994C5B2B3CE435A280D",
+    "msg_index": 0,
+    "kind": "migration",
+    "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+    "label": "Stable staking",
+    "sender": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+    "code_id": "3243",
+    "msg": {},
+    "success": true,
+    "old_code_id": 3175,
+    "new_code_id": 3243,
+    "power": "Wasm migration administrator"
+  },
+  {
+    "timestamp": "2024-10-21T08:59:25Z",
+    "hash": "16B544CEC4C3F12E0F1A24D78DFB6ABC57BEBD5E93F7D994C5B2B3CE435A280D",
+    "msg_index": 1,
+    "kind": "migration",
+    "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+    "label": "Project staking",
+    "sender": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+    "code_id": "3243",
+    "msg": {},
+    "success": true,
+    "old_code_id": 3175,
+    "new_code_id": 3243,
+    "power": "Wasm migration administrator"
+  },
+  {
+    "timestamp": "2024-10-21T08:59:25Z",
+    "hash": "16B544CEC4C3F12E0F1A24D78DFB6ABC57BEBD5E93F7D994C5B2B3CE435A280D",
+    "msg_index": 2,
+    "kind": "migration",
+    "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+    "label": "Bluechip staking",
+    "sender": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+    "code_id": "3243",
+    "msg": {},
+    "success": true,
+    "old_code_id": 3175,
+    "new_code_id": 3243,
+    "power": "Wasm migration administrator"
+  }
+]

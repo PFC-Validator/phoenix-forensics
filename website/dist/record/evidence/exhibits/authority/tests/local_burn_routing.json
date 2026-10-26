@@ -1,0 +1,184 @@
+{
+  "scope": "LOCAL ONLY controlled illustrative state to resolve BURN_RECIPIENT semantics. Config and registry from chain, exact current code4038. Asset distribution, synthetic reward balance and blacklist toggle local; not historic transfer replay, no live tx or bank dispatch.",
+  "cases": [
+    {
+      "blacklisted_asset": false,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "msg": {
+        "callback": {
+          "update_rewards": {
+            "initial_balance": {
+              "info": {
+                "native": "factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna"
+              },
+              "amount": "1000000"
+            }
+          }
+        }
+      },
+      "sender": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "SYNTHETIC_reward_increment_micro": 1000000,
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/update_rewards_callback"
+            },
+            {
+              "key": "rewards",
+              "value": "native:factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna:1000000"
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "query_chain",
+          "request": {
+            "bank": {
+              "balance": {
+                "address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+                "denom": "factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna"
+              }
+            }
+          },
+          "SYNTHETIC_bank_response": {
+            "amount": {
+              "denom": "factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna",
+              "amount": "2000000"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "61737365745f7265776172645f646973747269627574696f6e",
+          "exists": true
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0013696e63656e746976655f626c61636b6c69737400076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0005746f74616c00076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "blacklisted_asset": true,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "msg": {
+        "callback": {
+          "update_rewards": {
+            "initial_balance": {
+              "info": {
+                "native": "factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna"
+              },
+              "amount": "1000000"
+            }
+          }
+        }
+      },
+      "sender": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "SYNTHETIC_reward_increment_micro": 1000000,
+      "result": {
+        "ok": {
+          "messages": [
+            {
+              "id": 0,
+              "msg": {
+                "bank": {
+                  "send": {
+                    "to_address": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+                    "amount": [
+                      {
+                        "denom": "factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna",
+                        "amount": "1000000"
+                      }
+                    ]
+                  }
+                }
+              },
+              "gas_limit": null,
+              "reply_on": "never"
+            }
+          ],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/update_rewards_callback"
+            },
+            {
+              "key": "rewards",
+              "value": "native:factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna:1000000"
+            },
+            {
+              "key": "burned",
+              "value": "1000000"
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "query_chain",
+          "request": {
+            "bank": {
+              "balance": {
+                "address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+                "denom": "factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna"
+              }
+            }
+          },
+          "SYNTHETIC_bank_response": {
+            "amount": {
+              "denom": "factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna",
+              "amount": "2000000"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "61737365745f7265776172645f646973747269627574696f6e",
+          "exists": true
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0013696e63656e746976655f626c61636b6c69737400076e61746976653a756c756e61",
+          "exists": true
+        },
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNCVVJOX1JFQ0lQSUVOVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWQ0cHZrZzRza2dnbnpjZDZ0d3g4cXQ2dnNmYWYwYXV3NGRyOXY5Ig=="
+            }
+          }
+        }
+      ],
+      "writes": {}
+    }
+  ]
+}

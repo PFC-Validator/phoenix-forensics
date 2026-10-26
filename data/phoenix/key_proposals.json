@@ -1,0 +1,605 @@
+{
+  "116": {
+    "proposal": {
+      "id": 116,
+      "proposal": {
+        "title": "[pdt] Enable Milestone 1 for Votion & LA Frontend",
+        "description": "also claims payment to be used in streamweave",
+        "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "start_height": 14297779,
+        "min_voting_period": null,
+        "expiration": {
+          "at_time": "1740131278163050722"
+        },
+        "threshold": {
+          "absolute_percentage": {
+            "percentage": {
+              "percent": "0.75"
+            }
+          }
+        },
+        "total_power": "100",
+        "msgs": [
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJ1cGRhdGVfbWlsZXN0b25lIjp7ImVuYWJsZWQiOnRydWUsImlkIjozMiwiaW5kZXgiOjB9fQ==",
+                "funds": []
+              }
+            }
+          },
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJ1cGRhdGVfbWlsZXN0b25lIjp7ImVuYWJsZWQiOnRydWUsImlkIjoyOCwiaW5kZXgiOjB9fQ==",
+                "funds": []
+              }
+            }
+          },
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJjbGFpbSI6eyJpZCI6MzF9fQ==",
+                "funds": []
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "votes": {
+          "yes": "75",
+          "no": "0",
+          "abstain": "0"
+        },
+        "allow_revoting": false,
+        "veto": null
+      }
+    },
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra15vwmgac9tlcgkrkjn4rq3r0md003ufsqp64vaw",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ]
+  },
+  "159": {
+    "proposal": {
+      "id": 159,
+      "proposal": {
+        "title": "[pdt] Setup stewardship payments",
+        "description": ".",
+        "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "start_height": 16343574,
+        "min_voting_period": null,
+        "expiration": {
+          "at_time": "1752213213745969964"
+        },
+        "threshold": {
+          "absolute_percentage": {
+            "percentage": {
+              "percent": "0.75"
+            }
+          }
+        },
+        "total_power": "100",
+        "msgs": [
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJzZXR1cCI6eyJuYW1lIjoic3Rld2FyZHNoaXAgcGF5bWVudHMgKDIwMjUtMDctMDEgLSAyMDI1LTEwLTAxKSIsImFjdGlvbiI6eyJwYXltZW50Ijp7InBheW1lbnRzIjpbeyJhc3NldCI6eyJhbW91bnQiOiI4NjQwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExZ2F4emN5Z2p5ejdncThncTl0ankwMnFxMzhrY2Y4NHVtOXd5MGEiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1MjU1ODc3N30seyJhc3NldCI6eyJhbW91bnQiOiI4NjQwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExZ2F4emN5Z2p5ejdncThncTl0ankwMnFxMzhrY2Y4NHVtOXd5MGEiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1NTIzNzE3N30seyJhc3NldCI6eyJhbW91bnQiOiI4NjQwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExZ2F4emN5Z2p5ejdncThncTl0ankwMnFxMzhrY2Y4NHVtOXd5MGEiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1NzkxNTU3N30seyJhc3NldCI6eyJhbW91bnQiOiI1NjQwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExdnY5emF5Z3Q3Y3NjNHdudWZ3azRzbnEyamxlMnNkaDczdm1sNzMiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1MjU1ODc3N30seyJhc3NldCI6eyJhbW91bnQiOiI1NjQwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExdnY5emF5Z3Q3Y3NjNHdudWZ3azRzbnEyamxlMnNkaDczdm1sNzMiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1NTIzNzE3N30seyJhc3NldCI6eyJhbW91bnQiOiI1NjQwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExdnY5emF5Z3Q3Y3NjNHdudWZ3azRzbnEyamxlMnNkaDczdm1sNzMiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1NzkxNTU3N30seyJhc3NldCI6eyJhbW91bnQiOiIzMDAwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExNHAzbWMwNHM3amNheHZ2ZXRsemVodmh4OWdkeDZ3NG5tM3p6dzMiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1MjU1ODc3N30seyJhc3NldCI6eyJhbW91bnQiOiIzMDAwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExNHAzbWMwNHM3amNheHZ2ZXRsemVodmh4OWdkeDZ3NG5tM3p6dzMiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1NTIzNzE3N30seyJhc3NldCI6eyJhbW91bnQiOiIzMDAwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExNHAzbWMwNHM3amNheHZ2ZXRsemVodmh4OWdkeDZ3NG5tM3p6dzMiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1NzkxNTU3N30seyJhc3NldCI6eyJhbW91bnQiOiI1MDAwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExOHJ1cWtjY2w1dHA0OTN1aHZyYTB1Nmp5bHJ6cTh0OGR2NXFzNGMiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1MjU1ODc3N30seyJhc3NldCI6eyJhbW91bnQiOiI1MDAwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExOHJ1cWtjY2w1dHA0OTN1aHZyYTB1Nmp5bHJ6cTh0OGR2NXFzNGMiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1NTIzNzE3N30seyJhc3NldCI6eyJhbW91bnQiOiI1MDAwMDAwMDAwIiwiaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9fSwicmVjaXBpZW50IjoidGVycmExOHJ1cWtjY2w1dHA0OTN1aHZyYTB1Nmp5bHJ6cTh0OGR2NXFzNGMiLCJjbGFpbWFibGVfYWZ0ZXJfcyI6MTc1NzkxNTU3N31dfX19fQ==",
+                "funds": []
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "votes": {
+          "yes": "75",
+          "no": "0",
+          "abstain": "0"
+        },
+        "allow_revoting": false,
+        "veto": null
+      }
+    },
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ]
+  },
+  "175": {
+    "proposal": {
+      "id": 175,
+      "proposal": {
+        "title": "[pdt] Enable Milestone for Votion",
+        "description": ".",
+        "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "start_height": 17050699,
+        "min_voting_period": null,
+        "expiration": {
+          "at_time": "1756375928588896122"
+        },
+        "threshold": {
+          "absolute_percentage": {
+            "percentage": {
+              "percent": "0.75"
+            }
+          }
+        },
+        "total_power": "100",
+        "msgs": [
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJ1cGRhdGVfbWlsZXN0b25lIjp7ImVuYWJsZWQiOnRydWUsImlkIjoyOCwiaW5kZXgiOjF9fQ==",
+                "funds": []
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "votes": {
+          "yes": "75",
+          "no": "0",
+          "abstain": "0"
+        },
+        "allow_revoting": false,
+        "veto": null
+      }
+    },
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ]
+  },
+  "209": {
+    "proposal": {
+      "id": 209,
+      "proposal": {
+        "title": "[pdt] Enable Milestone 1-3 for Creda",
+        "description": ".",
+        "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "start_height": 18792574,
+        "min_voting_period": null,
+        "expiration": {
+          "at_time": "1766580893815136105"
+        },
+        "threshold": {
+          "absolute_percentage": {
+            "percentage": {
+              "percent": "0.75"
+            }
+          }
+        },
+        "total_power": "100",
+        "msgs": [
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJ1cGRhdGVfbWlsZXN0b25lIjp7ImVuYWJsZWQiOnRydWUsImlkIjo3MiwiaW5kZXgiOjB9fQ==",
+                "funds": []
+              }
+            }
+          },
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJ1cGRhdGVfbWlsZXN0b25lIjp7ImVuYWJsZWQiOnRydWUsImlkIjo3MiwiaW5kZXgiOjF9fQ==",
+                "funds": []
+              }
+            }
+          },
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJ1cGRhdGVfbWlsZXN0b25lIjp7ImVuYWJsZWQiOnRydWUsImlkIjo3MiwiaW5kZXgiOjJ9fQ==",
+                "funds": []
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "votes": {
+          "yes": "75",
+          "no": "0",
+          "abstain": "0"
+        },
+        "allow_revoting": false,
+        "veto": null
+      }
+    },
+    "votes": [
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ]
+  },
+  "215": {
+    "proposal": {
+      "id": 215,
+      "proposal": {
+        "title": "Redo of [pdt] Enable Milestone 4 for Creda",
+        "description": ".",
+        "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "start_height": 19269660,
+        "min_voting_period": null,
+        "expiration": {
+          "at_time": "1769342710429378809"
+        },
+        "threshold": {
+          "absolute_percentage": {
+            "percentage": {
+              "percent": "0.75"
+            }
+          }
+        },
+        "total_power": "100",
+        "msgs": [
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJ1cGRhdGVfbWlsZXN0b25lIjp7ImVuYWJsZWQiOnRydWUsImlkIjo3MiwiaW5kZXgiOjN9fQ==",
+                "funds": []
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "votes": {
+          "yes": "75",
+          "no": "0",
+          "abstain": "0"
+        },
+        "allow_revoting": false,
+        "veto": null
+      }
+    },
+    "votes": [
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ]
+  },
+  "249": {
+    "proposal": {
+      "id": 249,
+      "proposal": {
+        "title": "[pdt]  Funding atrium-marketplace (Solid) security audit.",
+        "description": ".",
+        "proposer": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "start_height": 21534267,
+        "min_voting_period": null,
+        "expiration": {
+          "at_time": "1782475616765753063"
+        },
+        "threshold": {
+          "absolute_percentage": {
+            "percentage": {
+              "percent": "0.75"
+            }
+          }
+        },
+        "total_power": "100",
+        "msgs": [
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJzZXR1cCI6eyJuYW1lIjoiU29saWQgLSBGdW5kaW5nIGF0cml1bS1tYXJrZXRwbGFjZSBhdWRpdC4iLCJhY3Rpb24iOnsicGF5bWVudCI6eyJwYXltZW50cyI6W3siYXNzZXQiOnsiYW1vdW50IjoiMTY5MDAwMDAwMDAiLCJpbmZvIjp7Im5hdGl2ZSI6ImliYy8yQzk2MkRBQjlGNTdGRTA5MjE0MzU0MjZBRTc1MTk2MDA5RkFBMTk4MUJGODY5OTEyMDNDODQxMUY4OTgwRkRCIn19LCJyZWNpcGllbnQiOiJ0ZXJyYTE4cnVxa2NjbDV0cDQ5M3VodnJhMHU2anlscnpxOHQ4ZHY1cXM0YyJ9XX19fX0=",
+                "funds": []
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "votes": {
+          "yes": "75",
+          "no": "0",
+          "abstain": "0"
+        },
+        "allow_revoting": false,
+        "veto": null
+      }
+    },
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ]
+  },
+  "266": {
+    "proposal": {
+      "id": 266,
+      "proposal": {
+        "title": "[pdt] Setup Estima Grant - Advanced Liquidity Layer & DEX for Terra",
+        "description": ".",
+        "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "start_height": 22936042,
+        "min_voting_period": null,
+        "expiration": {
+          "at_time": "1790576266659299473"
+        },
+        "threshold": {
+          "absolute_percentage": {
+            "percentage": {
+              "percent": "0.75"
+            }
+          }
+        },
+        "total_power": "100",
+        "msgs": [
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJzZXR1cCI6eyJuYW1lIjoiRXN0aW1hIEdyYW50IC0gQWR2YW5jZWQgTGlxdWlkaXR5IExheWVyICYgREVYIGZvciBUZXJyYSIsImFjdGlvbiI6eyJtaWxlc3RvbmUiOnsiYXNzZXRfaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9LCJyZWNpcGllbnQiOiJ0ZXJyYTF2bTVhemh2YXhlYW5jN2F1eGgwMnk4am14cms4dGo5M2Y2YXl3cCIsIm1pbGVzdG9uZXMiOlt7ImFtb3VudCI6IjQ1MDAwMDAwMDAwIiwidGV4dCI6IlByb2plY3QgS2lja29mZiJ9LHsiYW1vdW50IjoiNDUwMDAwMDAwMDAiLCJ0ZXh0IjoiTWFpbm5ldCBMYXVuY2gifSx7ImFtb3VudCI6IjM1MDAwMDAwMDAwIiwidGV4dCI6IkFuYWx5dGljcyAmIFRMQSBJbnRlZ3JhdGlvbiJ9XX19fX0=",
+                "funds": []
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "votes": {
+          "yes": "75",
+          "no": "0",
+          "abstain": "0"
+        },
+        "allow_revoting": false,
+        "veto": null
+      }
+    },
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ]
+  },
+  "271": {
+    "proposal": {
+      "id": 271,
+      "proposal": {
+        "title": "[pdt] Enable Milestone 1: Kickoff for Estima",
+        "description": ".",
+        "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "start_height": 23068084,
+        "min_voting_period": null,
+        "expiration": {
+          "at_time": "1791345380544110809"
+        },
+        "threshold": {
+          "absolute_percentage": {
+            "percentage": {
+              "percent": "0.75"
+            }
+          }
+        },
+        "total_power": "100",
+        "msgs": [
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                "msg": "eyJ1cGRhdGVfbWlsZXN0b25lIjp7ImVuYWJsZWQiOnRydWUsImlkIjoxMTIsImluZGV4IjowfX0=",
+                "funds": []
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "votes": {
+          "yes": "75",
+          "no": "0",
+          "abstain": "0"
+        },
+        "allow_revoting": false,
+        "veto": null
+      }
+    },
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ]
+  },
+  "272": {
+    "proposal": {
+      "id": 272,
+      "proposal": {
+        "title": "Stewardship Membership Update",
+        "description": "Remove Vini from the Phoenix Foundation Stewardship based on the following cumulative concerns:\n\n- Mandate / Strategic Alignment: Fundamental disagreement on Terra's direction and PF's mandate. This includes advocating for grants to become exceptional and prioritizing preservation of PF's remaining allocation over continued ecosystem investment, while insisting on higher compensation for his own role. It also includes questioning whether Terra should remain focused on DeFi at all, including raising meme coins as a possible new direction. This is no longer disagreement over individual proposals, but a fundamental difference over what PF exists to execute under the Phoenix Directive.\n\n- Governance / Due Process: Failure to follow established governance and conflict-of-interest procedures. This includes directly advancing a proposal (A249) that paid his own company despite a recognized conflict, actively seeking signatures for it, and ultimately voting on it despite an agreed recusal. The conflict was also not referred to the Phoenix Think Tank or Terra governance, as the Phoenix Directive requires.\n\n- Contribution / Accountability: Insufficient contribution relative to the responsibilities, authority and recurring compensation attached to his Stewardship role. This includes low participation in basic Stewardship duties, partial or no delivery on most responsibilities of the role he drafted himself when his compensation was raised from about $2,900 to $5,000 per month, and a broader imbalance between equal decision-making authority and actual operational involvement.\n \n- Risk Management / Trust: Serious failures in the handling of material ecosystem risks. Written security concerns about Astroport's dependency on Neutron governance were dismissed days before that risk materialized, potentially exposing about $4.4M of Terra liquidity. Material information concerning Astroport was also held through private communications without being equally shared with other Directors while a fork or takeover was being discussed. The combination of risk judgment, information handling and stepping away during the incident has resulted in a material breakdown of Director-level trust.\n\nThese issues are cumulative and concern continued suitability for the Stewardship role rather than any single disagreement or proposal.\n\nEffect of Proposal: Approval of this proposal constitutes the Stewardship decision to remove Vini as a Director of the Phoenix Foundation. The removal and corresponding update to the Stewardship will be implemented in accordance with the applicable procedures set out in the Phoenix Foundation Bylaws. If no conclusive decision can be reached within the Stewardship due to a stalemate, the matter will be referred to Terra governance for resolution in accordance with the Bylaws and the Phoenix Directive.\n\nThe technical messages remove Vini from the multi-sig and convert it to a 2-out-of-3 multi-sig.",
+        "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "start_height": 23120028,
+        "min_voting_period": null,
+        "expiration": {
+          "at_time": "1791644536159098273"
+        },
+        "threshold": {
+          "absolute_percentage": {
+            "percentage": {
+              "percent": "0.75"
+            }
+          }
+        },
+        "total_power": "100",
+        "msgs": [
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra1pq9f4a8cn4cdvvm9j7v0mu8n5elf44tgtre8mzrfz3j4x6yyl2yq4hnkuk",
+                "msg": "eyJ1cGRhdGVfbWVtYmVycyI6eyJhZGQiOltdLCJyZW1vdmUiOlsidGVycmExOHJ1cWtjY2w1dHA0OTN1aHZyYTB1Nmp5bHJ6cTh0OGR2NXFzNGMiXX19",
+                "funds": []
+              }
+            }
+          },
+          {
+            "wasm": {
+              "execute": {
+                "contract_addr": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+                "msg": "eyJ1cGRhdGVfY29uZmlnIjp7InRocmVzaG9sZCI6eyJhYnNvbHV0ZV9wZXJjZW50YWdlIjp7InBlcmNlbnRhZ2UiOnsicGVyY2VudCI6IjAuNiJ9fX0sIm1heF92b3RpbmdfcGVyaW9kIjp7InRpbWUiOjYwNDgwMH0sIm9ubHlfbWVtYmVyc19leGVjdXRlIjp0cnVlLCJhbGxvd19yZXZvdGluZyI6ZmFsc2UsInZldG8iOm51bGwsImRhbyI6InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamciLCJjbG9zZV9wcm9wb3NhbF9vbl9leGVjdXRpb25fZmFpbHVyZSI6dHJ1ZSwibWluX3ZvdGluZ19wZXJpb2QiOm51bGx9fQ==",
+                "funds": []
+              }
+            }
+          }
+        ],
+        "status": "rejected",
+        "votes": {
+          "yes": "50",
+          "no": "25",
+          "abstain": "0"
+        },
+        "allow_revoting": false,
+        "veto": null
+      }
+    },
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "no",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-10-03T02:17:58Z",
+    "hash": "7545CEEB62C382CAFBB018BD7BD9A60A37772929182D5804140AAC0A54CA3650",
+    "msg_index": 0,
+    "kind": "registry_change",
+    "contract": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+    "label": "TLA permissions registry",
+    "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "msg": {
+      "set_addresses": {
+        "addresses": [],
+        "lists": [
+          [
+            "ASSET_STAKING_FIX",
+            [
+              "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp"
+            ]
+          ]
+        ]
+      }
+    },
+    "success": true,
+    "power": "TLA registry owner"
+  }
+]

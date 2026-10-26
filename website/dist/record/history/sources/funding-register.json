@@ -1,0 +1,783 @@
+{
+  "scope": "13 ERIS/Philipp-associated or shared-project funding records. Requests, approvals, custody, reported awards and actual receipt evidence are separate. No aggregate personal-profit total is calculated.",
+  "records": [
+    {
+      "id": "TERRA_3460",
+      "project": "ERIS Protocol Grant Proposal",
+      "funder": "Terra community pool",
+      "financial_capacity": "Rejected developer grant request",
+      "request_or_proposed_amount": {
+        "asset": "LUNA",
+        "asset_id": "uluna",
+        "decimals": 6,
+        "raw_amount": "450000000000",
+        "amount": "450000"
+      },
+      "approved_amount": null,
+      "approval_status": "PROPOSAL_STATUS_REJECTED",
+      "reported_received_amount": null,
+      "claimed_state_amount": null,
+      "actual_direct_receipt_amount": null,
+      "recipient": "terra18997xdg3mkrw5kl7jddpje687ude4j6y0cz4e3q6kfsl7037lk8qpcvavn",
+      "professional_project_beneficiary": "Eris Protocol",
+      "coverage_note": "Rejected proposal is not counted as approved or received funding.",
+      "refs": [
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/3460",
+          "label": "Original funding record"
+        }
+      ],
+      "valuation": {
+        "amount": "450000",
+        "asset": "LUNA",
+        "at_utc": "2022-11-30T16:40:17.561208497Z",
+        "basis": "At proposal submission; rejected request",
+        "status": "priced",
+        "usd": "721193.36",
+        "usd_exact": "721193.3635500000000",
+        "unit_usd": "1.6026519190000",
+        "underlying_unit_usd": "1.6026519190000",
+        "quote_close_utc": "2022-11-30T16:00:00Z",
+        "quote_lag_seconds": 2417.56120800972,
+        "quote_ids": [
+          "LUNAUSDT-1669820400",
+          "USDT-USD-1669820400"
+        ]
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "TERRA_3796",
+      "project": "ERIS Protocol Revised Grant Proposal",
+      "funder": "Terra community pool",
+      "financial_capacity": "Development grant with community multisig custody",
+      "request_or_proposed_amount": {
+        "asset": "LUNA",
+        "asset_id": "uluna",
+        "decimals": 6,
+        "raw_amount": "312500000000",
+        "amount": "312500"
+      },
+      "approved_amount": {
+        "asset": "LUNA",
+        "asset_id": "uluna",
+        "decimals": 6,
+        "raw_amount": "312500000000",
+        "amount": "312500"
+      },
+      "approval_status": "PROPOSAL_STATUS_PASSED",
+      "reported_received_amount": null,
+      "claimed_state_amount": null,
+      "actual_direct_receipt_amount": {
+        "amount": "312500",
+        "asset": "LUNA"
+      },
+      "recipient": "terra18997xdg3mkrw5kl7jddpje687ude4j6y0cz4e3q6kfsl7037lk8qpcvavn",
+      "professional_project_beneficiary": "Eris Protocol",
+      "coverage_note": "Actual receipt events and receipt-time prices reconciled to the later 105-receipt schedule. Approval, treasury setup and receipt remain separate stages.",
+      "refs": [
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/3796",
+          "label": "Original funding record"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        }
+      ],
+      "receipt_usd": "598925.52",
+      "receipt_dates": [
+        "2023-01-20T09:01:23.078806631Z"
+      ],
+      "receipt_ids": [
+        "phoenix-1:3410102:EndBlock:transfer:281"
+      ],
+      "valuation": {
+        "amount": "312500",
+        "asset": "LUNA",
+        "at_utc": "2023-01-20T09:01:21.129060153Z",
+        "basis": "At voting close",
+        "status": "priced",
+        "usd": "598925.52",
+        "usd_exact": "598925.5212500000000",
+        "unit_usd": "1.9165616680000",
+        "underlying_unit_usd": "1.9165616680000",
+        "quote_close_utc": "2023-01-20T09:00:00Z",
+        "quote_lag_seconds": 81.12906002998352,
+        "quote_ids": [
+          "LUNAUSDT-1674201600",
+          "USDT-USD-1674201600"
+        ]
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "TERRA_4735",
+      "project": "\"Revitalizing Terra: A Backbone Labs and Eris Protocol Collaboration\" (Not a Grant)",
+      "funder": "Terra community pool",
+      "financial_capacity": "Rejected erroneous liquidity instruction",
+      "request_or_proposed_amount": {
+        "asset": "LUNA",
+        "asset_id": "uluna",
+        "decimals": 6,
+        "raw_amount": "512000000",
+        "amount": "512"
+      },
+      "approved_amount": null,
+      "approval_status": "PROPOSAL_STATUS_REJECTED",
+      "reported_received_amount": null,
+      "claimed_state_amount": null,
+      "actual_direct_receipt_amount": null,
+      "recipient": "terra1zsxq90mrkxjnr9zgev4ulyg3vs0fk4afcrw9zy6agzrdnwv7yevser7pye",
+      "professional_project_beneficiary": "Eris / Backbone shared community liquidity",
+      "coverage_note": "Rejected proposal is not counted as approved or received funding.",
+      "refs": [
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4735",
+          "label": "Original funding record"
+        }
+      ],
+      "valuation": {
+        "amount": "512",
+        "asset": "LUNA",
+        "at_utc": "2023-07-03T16:38:24.916585345Z",
+        "basis": "At proposal submission; rejected request",
+        "status": "priced",
+        "usd": "335.41",
+        "usd_exact": "335.4103040000000",
+        "unit_usd": "0.6550982500000",
+        "underlying_unit_usd": "0.6550982500000",
+        "quote_close_utc": "2023-07-03T16:00:00Z",
+        "quote_lag_seconds": 2304.916584968567,
+        "quote_ids": [
+          "LUNAUSDT-1688396400",
+          "USDT-USD-1688396400"
+        ]
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "TERRA_4736",
+      "project": "OFFICIAL \"Revitalizing Terra: A Backbone Labs and Eris Protocol Collaboration\" (Not a Grant)",
+      "funder": "Terra community pool",
+      "financial_capacity": "Community liquidity custody and investment principal",
+      "request_or_proposed_amount": {
+        "asset": "LUNA",
+        "asset_id": "uluna",
+        "decimals": 6,
+        "raw_amount": "5000000000000",
+        "amount": "5000000"
+      },
+      "approved_amount": {
+        "asset": "LUNA",
+        "asset_id": "uluna",
+        "decimals": 6,
+        "raw_amount": "5000000000000",
+        "amount": "5000000"
+      },
+      "approval_status": "PROPOSAL_STATUS_PASSED",
+      "reported_received_amount": null,
+      "claimed_state_amount": null,
+      "actual_direct_receipt_amount": null,
+      "recipient": "terra1zsxq90mrkxjnr9zgev4ulyg3vs0fk4afcrw9zy6agzrdnwv7yevser7pye",
+      "professional_project_beneficiary": "Eris / Backbone shared community liquidity",
+      "coverage_note": "Exact original community-pool transfer hash/time not recovered here; voting close is not substituted for receipt time.",
+      "refs": [
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4736",
+          "label": "Original funding record"
+        }
+      ],
+      "valuation": {
+        "amount": "5000000",
+        "asset": "LUNA",
+        "at_utc": "2023-07-10T17:49:05.431971558Z",
+        "basis": "At voting close",
+        "status": "priced",
+        "usd": "2993500.00",
+        "usd_exact": "2993500.00000000",
+        "unit_usd": "0.59870000",
+        "underlying_unit_usd": "0.59870000",
+        "quote_close_utc": "2023-07-10T17:00:00Z",
+        "quote_lag_seconds": 2945.4319710731506,
+        "quote_ids": [
+          "LUNAUSDT-1689004800",
+          "USDT-USD-1689004800"
+        ]
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "TERRA_4813",
+      "project": "Terra Liquidity Alliance Proposal",
+      "funder": "Terra community pool",
+      "financial_capacity": "Eris TLA development and audit funding",
+      "request_or_proposed_amount": {
+        "asset": "LUNA",
+        "asset_id": "uluna",
+        "decimals": 6,
+        "raw_amount": "384615000000",
+        "amount": "384615"
+      },
+      "approved_amount": {
+        "asset": "LUNA",
+        "asset_id": "uluna",
+        "decimals": 6,
+        "raw_amount": "384615000000",
+        "amount": "384615"
+      },
+      "approval_status": "PROPOSAL_STATUS_PASSED",
+      "reported_received_amount": null,
+      "claimed_state_amount": null,
+      "actual_direct_receipt_amount": {
+        "amount": "384615",
+        "asset": "LUNA"
+      },
+      "recipient": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "professional_project_beneficiary": "Eris Protocol",
+      "coverage_note": "Actual receipt events and receipt-time prices reconciled to the later 105-receipt schedule. Approval, treasury setup and receipt remain separate stages.",
+      "refs": [
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4813",
+          "label": "Original funding record"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        }
+      ],
+      "receipt_usd": "250986.08",
+      "receipt_dates": [
+        "2024-06-07T16:21:38.612714551Z"
+      ],
+      "receipt_ids": [
+        "phoenix-1:10666963:EndBlock:transfer:277"
+      ],
+      "valuation": {
+        "amount": "384615",
+        "asset": "LUNA",
+        "at_utc": "2024-06-07T16:21:35.788277180Z",
+        "basis": "At voting close",
+        "status": "priced",
+        "usd": "250986.08",
+        "usd_exact": "250986.0790136700000",
+        "unit_usd": "0.6525644580000",
+        "underlying_unit_usd": "0.6525644580000",
+        "quote_close_utc": "2024-06-07T16:00:00Z",
+        "quote_lag_seconds": 1295.7882769107819,
+        "quote_ids": [
+          "LUNAUSDT-1717772400",
+          "USDT-USD-1717772400"
+        ]
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "PHOENIX_A107",
+      "project": "Votion Project Grant",
+      "funder": "Phoenix primary treasury",
+      "financial_capacity": "Development grant / funded service",
+      "approved_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "50000000000",
+        "amount": "50000.000000"
+      },
+      "approval_status": "Executed setup",
+      "reported_received_amount": null,
+      "claimed_state_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "50000000000",
+        "amount": "50000.000000"
+      },
+      "open_state_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "0",
+        "amount": "0.000000"
+      },
+      "actual_direct_receipt_amount": {
+        "amount": "50000",
+        "asset": "USDC.noble"
+      },
+      "recipient": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "professional_project_beneficiary": "Votion / Creda / Estima project account",
+      "coverage_note": "Actual receipt events and receipt-time prices reconciled to the later 105-receipt schedule. Approval, treasury setup and receipt remain separate stages.",
+      "refs": [
+        {
+          "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A107",
+          "label": "Original funding record"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        }
+      ],
+      "receipt_usd": "49994.50",
+      "receipt_dates": [
+        "2025-02-19T15:54:02Z",
+        "2025-08-25T08:54:22Z"
+      ],
+      "receipt_ids": [
+        "TREASURY:EAFD276B9B0715B7A0C7347448C80034438FEDB30DFBC9693AA77156B9A878D6:top_level_tx.events:12:0",
+        "TREASURY:11B8F9AAF6BEE5F56F8C85FE73397899225959E910BDF8D87E34D6A742DA1353:top_level_tx.events:12:0"
+      ],
+      "valuation": {
+        "amount": "50000.000000",
+        "asset": "USDC.noble",
+        "at_utc": "2025-02-05T11:28:57.382324483Z",
+        "basis": "At proposal creation; not execution or receipt date",
+        "status": "priced",
+        "usd": "49999.49",
+        "usd_exact": "49999.4922000000000000000",
+        "unit_usd": "0.9999898440000",
+        "underlying_unit_usd": "0.9999898440000",
+        "quote_close_utc": "2025-02-05T11:00:00Z",
+        "quote_lag_seconds": 1737.3823239803314,
+        "quote_ids": [
+          "USDCUSDT-1738749600",
+          "USDT-USD-1738749600"
+        ]
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "PHOENIX_A190",
+      "project": "Creda Grant",
+      "funder": "Phoenix primary treasury",
+      "financial_capacity": "Development grant / funded service",
+      "approved_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "210000000000",
+        "amount": "210000.000000"
+      },
+      "approval_status": "Executed setup",
+      "reported_received_amount": null,
+      "claimed_state_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "210000000000",
+        "amount": "210000.000000"
+      },
+      "open_state_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "0",
+        "amount": "0.000000"
+      },
+      "actual_direct_receipt_amount": {
+        "amount": "210000",
+        "asset": "USDC.noble"
+      },
+      "recipient": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "professional_project_beneficiary": "Votion / Creda / Estima project account",
+      "coverage_note": "Actual receipt events and receipt-time prices reconciled to the later 105-receipt schedule. Approval, treasury setup and receipt remain separate stages.",
+      "refs": [
+        {
+          "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A190",
+          "label": "Original funding record"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        }
+      ],
+      "receipt_usd": "210004.67",
+      "receipt_dates": [
+        "2026-01-02T18:03:42Z",
+        "2026-01-27T11:58:03Z"
+      ],
+      "receipt_ids": [
+        "TREASURY:B69406784A9862287627AFD55FDEC09D616575F14C098B8C57540BFA682B78A4:top_level_tx.events:12:0",
+        "TREASURY:1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A:top_level_tx.events:12:0"
+      ],
+      "valuation": {
+        "amount": "210000.000000",
+        "asset": "USDC.noble",
+        "at_utc": "2025-09-30T09:24:35.611933852Z",
+        "basis": "At proposal creation; not execution or receipt date",
+        "status": "priced",
+        "usd": "209960.03",
+        "usd_exact": "209960.0250300000000000000",
+        "unit_usd": "0.9998096430000",
+        "underlying_unit_usd": "0.9998096430000",
+        "quote_close_utc": "2025-09-30T09:00:00Z",
+        "quote_lag_seconds": 1475.6119329929352,
+        "quote_ids": [
+          "USDCUSDT-1759219200",
+          "USDT-USD-1759219200"
+        ]
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "PHOENIX_A263",
+      "project": "Fund USDC.inj Migration App - Part 1",
+      "funder": "Phoenix primary treasury",
+      "financial_capacity": "Development grant / funded service",
+      "approved_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "5000000000",
+        "amount": "5000.000000"
+      },
+      "approval_status": "Executed setup",
+      "reported_received_amount": null,
+      "claimed_state_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "5000000000",
+        "amount": "5000.000000"
+      },
+      "open_state_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "0",
+        "amount": "0.000000"
+      },
+      "actual_direct_receipt_amount": {
+        "amount": "5000",
+        "asset": "USDC.noble"
+      },
+      "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+      "professional_project_beneficiary": "Philipp / @0xPhilipp",
+      "coverage_note": "Actual receipt events and receipt-time prices reconciled to the later 105-receipt schedule. Approval, treasury setup and receipt remain separate stages.",
+      "refs": [
+        {
+          "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A263",
+          "label": "Original funding record"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        }
+      ],
+      "receipt_usd": "4999.50",
+      "receipt_dates": [
+        "2026-09-10T09:56:05Z"
+      ],
+      "receipt_ids": [
+        "TREASURY:DE263C81499583B22805A5B8577D2818B41A22826D56A03AA8F987EC020D9B9D:top_level_tx.events:12:0"
+      ],
+      "valuation": {
+        "amount": "5000.000000",
+        "asset": "USDC.noble",
+        "at_utc": "2026-09-10T01:34:05.161252913Z",
+        "basis": "At proposal creation; not execution or receipt date",
+        "status": "priced",
+        "usd": "4999.60",
+        "usd_exact": "4999.5997660000000000000",
+        "unit_usd": "0.9999199532000",
+        "underlying_unit_usd": "0.9999199532000",
+        "quote_close_utc": "2026-09-10T01:00:00Z",
+        "quote_lag_seconds": 2045.1612520217896,
+        "quote_ids": [
+          "USDCUSDT-1788998400",
+          "USDT-USD-1788998400"
+        ]
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "PHOENIX_A266",
+      "project": "Estima Grant - Advanced Liquidity Layer & DEX for Terra",
+      "funder": "Phoenix primary treasury",
+      "financial_capacity": "Development grant / funded service",
+      "approved_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "125000000000",
+        "amount": "125000.000000"
+      },
+      "approval_status": "Executed setup",
+      "reported_received_amount": null,
+      "claimed_state_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "45000000000",
+        "amount": "45000.000000"
+      },
+      "open_state_amount": {
+        "asset": "USDC.noble",
+        "asset_id": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "decimals": 6,
+        "raw_amount": "80000000000",
+        "amount": "80000.000000"
+      },
+      "actual_direct_receipt_amount": {
+        "amount": "45000",
+        "asset": "USDC.noble"
+      },
+      "recipient": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "professional_project_beneficiary": "Votion / Creda / Estima project account",
+      "coverage_note": "Actual receipt events and receipt-time prices reconciled to the later 105-receipt schedule. Approval, treasury setup and receipt remain separate stages.",
+      "refs": [
+        {
+          "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A266",
+          "label": "Original funding record"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        },
+        {
+          "url": "/evidence/exhibits/legacy/Zahlungen_105.json",
+          "label": "Receipt and historical price proof"
+        }
+      ],
+      "receipt_usd": "44998.65",
+      "receipt_dates": [
+        "2026-10-03T14:47:41Z"
+      ],
+      "receipt_ids": [
+        "TREASURY:491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D:top_level_tx.events:12:0"
+      ],
+      "valuation": {
+        "amount": "125000.000000",
+        "asset": "USDC.noble",
+        "at_utc": "2026-09-21T06:17:46.659299473Z",
+        "basis": "At proposal creation; not execution or receipt date",
+        "status": "priced",
+        "usd": "124986.24",
+        "usd_exact": "124986.2440500000000000000",
+        "unit_usd": "0.9998899524000",
+        "underlying_unit_usd": "0.9998899524000",
+        "quote_close_utc": "2026-09-21T06:00:00Z",
+        "quote_lag_seconds": 1066.6592988967896,
+        "quote_ids": [
+          "USDCUSDT-1789966800",
+          "USDT-USD-1789966800"
+        ]
+      },
+      "unpaid_note": "80,000 USDC remained in the captured approved schedule; future payment price is unknown."
+    },
+    {
+      "id": "AADAO_SUPERBOLT",
+      "project": "Superbolt",
+      "funder": "AADAO",
+      "financial_capacity": "External project developer award",
+      "approved_amount": {
+        "asset": "USD reference amount",
+        "amount": "125000",
+        "raw_amount": null,
+        "decimals": null
+      },
+      "approval_status": "Award reported approved by funder",
+      "approved_date_reported": "2024-07-03",
+      "reported_received_amount": {
+        "asset": "USD reference amount",
+        "amount": "80000",
+        "raw_amount": null,
+        "decimals": null
+      },
+      "reported_cancelled_amount": "45000",
+      "actual_direct_receipt_amount": null,
+      "recipient": null,
+      "professional_representative": "MB Aejir",
+      "counterevidence": "AADAO Oversight post 22 reports $80,000 paid and $45,000 cancelled; grant restructured by mutual agreement, Particle Accelerator and Supercharger delivery recognized, token launch requirement waived.",
+      "coverage_note": "Reported USD sums do not identify actual token or customer account. Hydro initial25,000is within50,000final; Superbolt cancelled45,000notpaid. Related brands/contributors do not justify legal consolidation.",
+      "refs": [
+        {
+          "url": "https://forum.cosmos.network/t/atom-accelerator-dao-transparency-report-7/14199",
+          "label": "Original funding record"
+        },
+        {
+          "url": "https://forum.cosmos.network/t/aadao-wind-down-oversight-updates-and-reports/15913/22",
+          "label": "Original funding record"
+        },
+        {
+          "url": "https://daodao.zone/dao/neutron10xwzc88kefwtlup9c2tmw4mj4ng7u79g8lsapp0c9jc02xt247zqwzzghf/proposals/A192",
+          "label": "Original funding record"
+        }
+      ],
+      "valuation": {
+        "amount": "125000",
+        "asset": "USD reference amount",
+        "usd": "125000.00",
+        "status": "stated USD",
+        "at_utc": "2024-07-03",
+        "basis": "Funder-stated USD award; settlement token and payment dates not inferred"
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "AADAO_HYDRO_VOTION",
+      "project": "Hydro Votion",
+      "funder": "AADAO",
+      "financial_capacity": "External project developer award",
+      "approved_amount": {
+        "asset": "USD reference amount",
+        "amount": "50000",
+        "raw_amount": null,
+        "decimals": null
+      },
+      "approval_status": "Award reported approved by funder",
+      "approved_date_reported": "2024-12-17",
+      "reported_received_amount": {
+        "asset": "USD reference amount",
+        "amount": "50000",
+        "raw_amount": null,
+        "decimals": null
+      },
+      "reported_cancelled_amount": "0",
+      "actual_direct_receipt_amount": null,
+      "recipient": null,
+      "professional_representative": "Philipp; Hydro representative Thyborg",
+      "counterevidence": "AADAO Oversight final post names Philipp as Votion representative and Thyborg as Hydro representative, reports all milestones jointly verified, and $50,000 total paid; linked A190.",
+      "coverage_note": "Reported USD sums do not identify actual token or customer account. Hydro initial25,000is within50,000final; Superbolt cancelled45,000notpaid. Related brands/contributors do not justify legal consolidation.",
+      "refs": [
+        {
+          "url": "https://forum.cosmos.network/t/atom-accelerator-dao-transparency-report-9/15449",
+          "label": "Original funding record"
+        },
+        {
+          "url": "https://daodao.zone/dao/neutron10xwzc88kefwtlup9c2tmw4mj4ng7u79g8lsapp0c9jc02xt247zqwzzghf/proposals/A132",
+          "label": "Original funding record"
+        },
+        {
+          "url": "https://forum.cosmos.network/t/aadao-wind-down-oversight-updates-and-reports/15913/22",
+          "label": "Original funding record"
+        },
+        {
+          "url": "https://daodao.zone/dao/neutron10xwzc88kefwtlup9c2tmw4mj4ng7u79g8lsapp0c9jc02xt247zqwzzghf/proposals/A190",
+          "label": "Original funding record"
+        }
+      ],
+      "valuation": {
+        "amount": "50000",
+        "asset": "USD reference amount",
+        "usd": "50000.00",
+        "status": "stated USD",
+        "at_utc": "2024-12-17",
+        "basis": "Funder-stated USD award; settlement token and payment dates not inferred"
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "MIGALOO_WHALE",
+      "project": "Eris Migaloo ecosystem partner",
+      "funder": "Migaloo proposed ecosystem grant",
+      "financial_capacity": "Developer alignment grant",
+      "request_or_proposed_amount": {
+        "asset": "WHALE",
+        "amount": "5000000",
+        "raw_amount": null,
+        "decimals": null
+      },
+      "approved_amount": null,
+      "approval_status": "No original passed decision recovered",
+      "reported_received_amount": {
+        "asset": "WHALE",
+        "amount": "5000000",
+        "basis": "Philipp retrospective public statement",
+        "reported_at_utc": "2024-10-10T08:03:47+00:00"
+      },
+      "actual_direct_receipt_amount": null,
+      "recipient": null,
+      "professional_project_beneficiary": "Eris team / protocol",
+      "coverage_note": "Request and reportedreceipt are the same claimedaward, not two5mflows. DocumentedgovernanceAPIs failed; acceptance,vestingcontract,transactions andsplit realization unknown.",
+      "refs": [
+        {
+          "url": "https://medium.com/@eris_protocol/migaloo-x-eris-ecosystem-partner-grant-proposal-f59dd2a32278",
+          "label": "Original funding record"
+        }
+      ],
+      "valuation": {
+        "status": "unpriced",
+        "amount": "5000000",
+        "asset": "WHALE",
+        "basis": "No verified historical market quote and actual settlement date recovered; USD value left unpriced"
+      },
+      "unpaid_note": ""
+    },
+    {
+      "id": "MANTA_MNTA",
+      "project": "Eris MantaDAO ampMNTA / arbMNTA partnership",
+      "funder": "MantaDAO proposed treasury",
+      "financial_capacity": "Proposed developer partnership",
+      "request_or_proposed_amount": {
+        "asset": "MNTA",
+        "amount": "150000",
+        "raw_amount": null,
+        "decimals": null
+      },
+      "approved_amount": null,
+      "approval_status": "Publisher links MIP68 signaling; accepted spend not recovered",
+      "reported_received_amount": null,
+      "actual_direct_receipt_amount": null,
+      "recipient": null,
+      "professional_project_beneficiary": "Eris Protocol",
+      "coverage_note": "Proposed signaling,escrowfunding andmilestonerelease require separate proofs. Publisher-linked app timedout/TLSfailed; no receipt assumed.",
+      "refs": [
+        {
+          "url": "https://medium.com/@eris_protocol/eris-x-mantadao-partner-proposal-ae6e0e847cb4",
+          "label": "Original funding record"
+        }
+      ],
+      "valuation": {
+        "status": "unpriced",
+        "amount": "150000",
+        "asset": "MNTA",
+        "basis": "No verified historical market quote and actual settlement date recovered; USD value left unpriced"
+      },
+      "unpaid_note": ""
+    }
+  ]
+}

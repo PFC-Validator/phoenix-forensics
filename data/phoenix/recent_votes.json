@@ -1,0 +1,689 @@
+[
+  {
+    "id": "A269",
+    "created": "2026-09-28T08:28:31.613161465Z",
+    "title": "2. Burn 107723.389777 LUNA",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-09-28T08:49:10Z",
+    "philipp_vote_time": "2026-09-28T08:28:48Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A269",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNjksImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A270",
+    "created": "2026-09-30T03:44:29.889998283Z",
+    "title": "[pdt] Setup Lion Packs: Matching Gacha Grant",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-09-30T05:55:03Z",
+    "philipp_vote_time": "2026-09-30T03:44:39Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A270",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNzAsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A271",
+    "created": "2026-09-30T03:56:20.544110809Z",
+    "title": "[pdt] Enable Milestone 1: Kickoff for Estima",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-09-30T05:55:26Z",
+    "philipp_vote_time": "2026-09-30T03:57:12Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A271",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNzEsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A272",
+    "created": "2026-10-03T15:02:16.159098273Z",
+    "title": "Stewardship Membership Update",
+    "status": "rejected",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "no",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-04T00:15:12Z",
+    "philipp_vote_time": "2026-10-04T00:20:45Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNzIsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A273",
+    "created": "2026-10-03T16:12:30.100272483Z",
+    "title": "[pdt] Setup payments",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-03T23:24:57Z",
+    "philipp_vote_time": "2026-10-03T16:12:47Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A273",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNzMsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A274",
+    "created": "2026-10-04T11:07:50.788634239Z",
+    "title": "[pdt] Setup payments infra",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "not_recorded",
+    "mb_vote_time": null,
+    "philipp_vote_time": "2026-10-04T11:08:02Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A274",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNzQsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A275",
+    "created": "2026-10-04T11:17:37.359036953Z",
+    "title": "Withdraw USDC.noble Liquidity to redeploy as USDC.inj Liquidity",
+    "status": "execution_failed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "not_recorded",
+    "mb_vote_time": null,
+    "philipp_vote_time": "2026-10-04T11:18:12Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A275",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNzUsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A276",
+    "created": "2026-10-08T02:32:19.186818542Z",
+    "title": "Withdraw USDC.noble Liquidity to redeploy as USDC.inj Liquidity",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-08T02:38:25Z",
+    "philipp_vote_time": "2026-10-08T02:32:30Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A276",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNzYsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A277",
+    "created": "2026-10-08T02:47:28.963753847Z",
+    "title": "[pdt] Setup payments - zzw3",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-08T14:47:16Z",
+    "philipp_vote_time": "2026-10-08T02:50:22Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A277",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNzcsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A278",
+    "created": "2026-10-08T02:47:46.290743001Z",
+    "title": "[pdt] Setup payments - ml73",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-08T21:36:33Z",
+    "philipp_vote_time": "2026-10-08T02:50:33Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A278",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNzgsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A279",
+    "created": "2026-10-08T02:47:52.394081414Z",
+    "title": "[pdt] Setup payments - wy0a",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-08T14:46:24Z",
+    "philipp_vote_time": "2026-10-08T02:50:40Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A279",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyNzksImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A280",
+    "created": "2026-10-08T02:54:02.149376266Z",
+    "title": "Swap USDC.noble to USDC.inj",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "not_recorded",
+    "mb_vote_time": null,
+    "philipp_vote_time": "2026-10-08T02:54:13Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A280",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyODAsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A281",
+    "created": "2026-10-08T23:05:08.106872778Z",
+    "title": "[asset-staking] Whitelist 0, Remove 1",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "not_recorded",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-08T23:17:13Z",
+    "philipp_vote_time": null,
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A281",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyODEsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A282",
+    "created": "2026-10-13T01:03:23.731123416Z",
+    "title": "[asset-staking] Whitelist 0, Remove 2",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "not_recorded",
+    "mb_vote_time": null,
+    "philipp_vote_time": "2026-10-13T01:03:58Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A282",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyODIsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A283",
+    "created": "2026-10-14T07:22:29.376855139Z",
+    "title": "Provide Liquidity in USDC.inj again",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-14T08:02:21Z",
+    "philipp_vote_time": "2026-10-14T07:23:44Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A283",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyODMsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A284",
+    "created": "2026-10-17T12:04:35.307033502Z",
+    "title": "[asset-staking] Whitelist 0, Remove 1",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "abstain",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "abstain",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-19T00:39:40Z",
+    "philipp_vote_time": "2026-10-19T00:20:13Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A284",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyODQsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A285",
+    "created": "2026-10-19T03:01:17.499281783Z",
+    "title": "[pdt] Convert first batch of USDC.n to USDC.inj",
+    "status": "open",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "not_recorded",
+    "mb_vote_time": null,
+    "philipp_vote_time": "2026-10-19T03:02:15Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A285",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyODUsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A286",
+    "created": "2026-10-19T03:08:29.388182611Z",
+    "title": "Transfer USDC.n-USDT liquidity to Operations Wallet to convert to USDC.inj",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-19T03:13:34Z",
+    "philipp_vote_time": "2026-10-19T03:08:40Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A286",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyODYsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A287",
+    "created": "2026-10-19T07:26:14.552796104Z",
+    "title": "[asset-staking] Whitelist 1, Remove 0",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-19T07:39:33Z",
+    "philipp_vote_time": "2026-10-19T07:26:50Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A287",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyODcsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A288",
+    "created": "2026-10-22T06:44:30.057558025Z",
+    "title": "[tla] Remove Bribes + Adding vote incentives based on trading efficiency + volume",
+    "status": "rejected",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "no",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "no",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "no",
+    "mb_vote": "not_recorded",
+    "mb_vote_time": null,
+    "philipp_vote_time": "2026-10-22T06:46:47Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A288",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyODgsImxpbWl0IjoxMDB9fQ=="
+  },
+  {
+    "id": "A289",
+    "created": "2026-10-22T06:47:45.663996320Z",
+    "title": "[tla] Adding vote incentives based on trading efficiency + volume",
+    "status": "executed",
+    "proposer": "Philipp",
+    "votes": [
+      {
+        "voter": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      },
+      {
+        "voter": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "vote": "yes",
+        "power": "25",
+        "rationale": null
+      }
+    ],
+    "philipp_vote": "yes",
+    "mb_vote": "yes",
+    "mb_vote_time": "2026-10-22T06:48:38Z",
+    "philipp_vote_time": "2026-10-22T06:49:47Z",
+    "proposal_url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A289",
+    "ballot_query_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyODksImxpbWl0IjoxMDB9fQ=="
+  }
+]

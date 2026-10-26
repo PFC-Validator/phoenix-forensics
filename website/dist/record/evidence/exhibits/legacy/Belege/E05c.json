@@ -1,0 +1,215 @@
+{
+  "data": {
+    "proposals": [
+      {
+        "id": 249,
+        "proposal": {
+          "title": "[pdt]  Funding atrium-marketplace (Solid) security audit.",
+          "description": ".",
+          "proposer": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+          "start_height": 21534267,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1782475616765753063"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.75"
+              }
+            }
+          },
+          "total_power": "100",
+          "msgs": [
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                  "msg": "eyJzZXR1cCI6eyJuYW1lIjoiU29saWQgLSBGdW5kaW5nIGF0cml1bS1tYXJrZXRwbGFjZSBhdWRpdC4iLCJhY3Rpb24iOnsicGF5bWVudCI6eyJwYXltZW50cyI6W3siYXNzZXQiOnsiYW1vdW50IjoiMTY5MDAwMDAwMDAiLCJpbmZvIjp7Im5hdGl2ZSI6ImliYy8yQzk2MkRBQjlGNTdGRTA5MjE0MzU0MjZBRTc1MTk2MDA5RkFBMTk4MUJGODY5OTEyMDNDODQxMUY4OTgwRkRCIn19LCJyZWNpcGllbnQiOiJ0ZXJyYTE4cnVxa2NjbDV0cDQ5M3VodnJhMHU2anlscnpxOHQ4ZHY1cXM0YyJ9XX19fX0=",
+                  "funds": []
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "75",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 263,
+        "proposal": {
+          "title": "[pdt] Setup USDC.inj Migration App - Part 1",
+          "description": ".",
+          "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "start_height": 22768397,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1789608845161252913"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.75"
+              }
+            }
+          },
+          "total_power": "100",
+          "msgs": [
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                  "msg": "eyJzZXR1cCI6eyJuYW1lIjoiRnVuZCBVU0RDLmluaiBNaWdyYXRpb24gQXBwIC0gUGFydCAxIiwiYWN0aW9uIjp7InBheW1lbnQiOnsicGF5bWVudHMiOlt7ImFzc2V0Ijp7ImFtb3VudCI6IjUwMDAwMDAwMDAiLCJpbmZvIjp7Im5hdGl2ZSI6ImliYy8yQzk2MkRBQjlGNTdGRTA5MjE0MzU0MjZBRTc1MTk2MDA5RkFBMTk4MUJGODY5OTEyMDNDODQxMUY4OTgwRkRCIn19LCJyZWNpcGllbnQiOiJ0ZXJyYTFnYXh6Y3lnanl6N2dxOGdxOXRqeTAycXEzOGtjZjg0dW05d3kwYSJ9XX19fX0=",
+                  "funds": []
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "75",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 266,
+        "proposal": {
+          "title": "[pdt] Setup Estima Grant - Advanced Liquidity Layer & DEX for Terra",
+          "description": ".",
+          "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "start_height": 22936042,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1790576266659299473"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.75"
+              }
+            }
+          },
+          "total_power": "100",
+          "msgs": [
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                  "msg": "eyJzZXR1cCI6eyJuYW1lIjoiRXN0aW1hIEdyYW50IC0gQWR2YW5jZWQgTGlxdWlkaXR5IExheWVyICYgREVYIGZvciBUZXJyYSIsImFjdGlvbiI6eyJtaWxlc3RvbmUiOnsiYXNzZXRfaW5mbyI6eyJuYXRpdmUiOiJpYmMvMkM5NjJEQUI5RjU3RkUwOTIxNDM1NDI2QUU3NTE5NjAwOUZBQTE5ODFCRjg2OTkxMjAzQzg0MTFGODk4MEZEQiJ9LCJyZWNpcGllbnQiOiJ0ZXJyYTF2bTVhemh2YXhlYW5jN2F1eGgwMnk4am14cms4dGo5M2Y2YXl3cCIsIm1pbGVzdG9uZXMiOlt7ImFtb3VudCI6IjQ1MDAwMDAwMDAwIiwidGV4dCI6IlByb2plY3QgS2lja29mZiJ9LHsiYW1vdW50IjoiNDUwMDAwMDAwMDAiLCJ0ZXh0IjoiTWFpbm5ldCBMYXVuY2gifSx7ImFtb3VudCI6IjM1MDAwMDAwMDAwIiwidGV4dCI6IkFuYWx5dGljcyAmIFRMQSBJbnRlZ3JhdGlvbiJ9XX19fX0=",
+                  "funds": []
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "75",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 271,
+        "proposal": {
+          "title": "[pdt] Enable Milestone 1: Kickoff for Estima",
+          "description": ".",
+          "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "start_height": 23068084,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1791345380544110809"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.75"
+              }
+            }
+          },
+          "total_power": "100",
+          "msgs": [
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                  "msg": "eyJ1cGRhdGVfbWlsZXN0b25lIjp7ImVuYWJsZWQiOnRydWUsImlkIjoxMTIsImluZGV4IjowfX0=",
+                  "funds": []
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "75",
+            "no": "0",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 272,
+        "proposal": {
+          "title": "Stewardship Membership Update",
+          "description": "Remove Vini from the Phoenix Foundation Stewardship based on the following cumulative concerns:\n\n- Mandate / Strategic Alignment: Fundamental disagreement on Terra's direction and PF's mandate. This includes advocating for grants to become exceptional and prioritizing preservation of PF's remaining allocation over continued ecosystem investment, while insisting on higher compensation for his own role. It also includes questioning whether Terra should remain focused on DeFi at all, including raising meme coins as a possible new direction. This is no longer disagreement over individual proposals, but a fundamental difference over what PF exists to execute under the Phoenix Directive.\n\n- Governance / Due Process: Failure to follow established governance and conflict-of-interest procedures. This includes directly advancing a proposal (A249) that paid his own company despite a recognized conflict, actively seeking signatures for it, and ultimately voting on it despite an agreed recusal. The conflict was also not referred to the Phoenix Think Tank or Terra governance, as the Phoenix Directive requires.\n\n- Contribution / Accountability: Insufficient contribution relative to the responsibilities, authority and recurring compensation attached to his Stewardship role. This includes low participation in basic Stewardship duties, partial or no delivery on most responsibilities of the role he drafted himself when his compensation was raised from about $2,900 to $5,000 per month, and a broader imbalance between equal decision-making authority and actual operational involvement.\n \n- Risk Management / Trust: Serious failures in the handling of material ecosystem risks. Written security concerns about Astroport's dependency on Neutron governance were dismissed days before that risk materialized, potentially exposing about $4.4M of Terra liquidity. Material information concerning Astroport was also held through private communications without being equally shared with other Directors while a fork or takeover was being discussed. The combination of risk judgment, information handling and stepping away during the incident has resulted in a material breakdown of Director-level trust.\n\nThese issues are cumulative and concern continued suitability for the Stewardship role rather than any single disagreement or proposal.\n\nEffect of Proposal: Approval of this proposal constitutes the Stewardship decision to remove Vini as a Director of the Phoenix Foundation. The removal and corresponding update to the Stewardship will be implemented in accordance with the applicable procedures set out in the Phoenix Foundation Bylaws. If no conclusive decision can be reached within the Stewardship due to a stalemate, the matter will be referred to Terra governance for resolution in accordance with the Bylaws and the Phoenix Directive.\n\nThe technical messages remove Vini from the multi-sig and convert it to a 2-out-of-3 multi-sig.",
+          "proposer": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "start_height": 23120028,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1791644536159098273"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.75"
+              }
+            }
+          },
+          "total_power": "100",
+          "msgs": [
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "terra1pq9f4a8cn4cdvvm9j7v0mu8n5elf44tgtre8mzrfz3j4x6yyl2yq4hnkuk",
+                  "msg": "eyJ1cGRhdGVfbWVtYmVycyI6eyJhZGQiOltdLCJyZW1vdmUiOlsidGVycmExOHJ1cWtjY2w1dHA0OTN1aHZyYTB1Nmp5bHJ6cTh0OGR2NXFzNGMiXX19",
+                  "funds": []
+                }
+              }
+            },
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+                  "msg": "eyJ1cGRhdGVfY29uZmlnIjp7InRocmVzaG9sZCI6eyJhYnNvbHV0ZV9wZXJjZW50YWdlIjp7InBlcmNlbnRhZ2UiOnsicGVyY2VudCI6IjAuNiJ9fX0sIm1heF92b3RpbmdfcGVyaW9kIjp7InRpbWUiOjYwNDgwMH0sIm9ubHlfbWVtYmVyc19leGVjdXRlIjp0cnVlLCJhbGxvd19yZXZvdGluZyI6ZmFsc2UsInZldG8iOm51bGwsImRhbyI6InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamciLCJjbG9zZV9wcm9wb3NhbF9vbl9leGVjdXRpb25fZmFpbHVyZSI6dHJ1ZSwibWluX3ZvdGluZ19wZXJpb2QiOm51bGx9fQ==",
+                  "funds": []
+                }
+              }
+            }
+          ],
+          "status": "rejected",
+          "votes": {
+            "yes": "50",
+            "no": "25",
+            "abstain": "0"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      }
+    ]
+  }
+}

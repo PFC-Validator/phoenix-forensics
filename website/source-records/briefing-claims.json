@@ -1,0 +1,35 @@
+{
+  "receipt_total": {
+    "value": "1567716.90",
+    "source": "/record/data/ledger-index.json",
+    "qualification": "Historical gross funding, receipts and locked allocation; overlaps excluded; not personal net profit"
+  },
+  "estima_release": {
+    "source": [
+      "/record/evidence/exhibits/legacy/Belege/E05c.json",
+      "/record/evidence/exhibits/legacy/Belege/E05g.json",
+      "/record/evidence/exhibits/legacy/Belege/E05e.json"
+    ]
+  },
+  "beneficiary_approvals": {
+    "source": "/record/evidence/#payments"
+  },
+  "retained_authority": {
+    "source": "/record/handover/evidence/operations.json",
+    "operations": 31,
+    "transactions": 19,
+    "affected_contracts": 7
+  },
+  "voting": {
+    "source": "/record/evidence/#votes",
+    "yes": 251,
+    "cast": 252,
+    "scope": "A1\u2013A289, 23 October 2026, two MB wallets combined"
+  },
+  "a272": {
+    "source": "/record/evidence/#governance",
+    "status": "failed",
+    "proposed_threshold": "60%",
+    "captured_threshold": "75%"
+  }
+}

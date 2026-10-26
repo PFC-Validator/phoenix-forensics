@@ -1,0 +1,455 @@
+{
+  "source": "outputs/evidence_quality_audit_20261018/authority_usage/registry_executions_now.json",
+  "scope": "Reconstruction from 12 indexed successful registry execute transactions; registry owner itself and upgrade admin separate.",
+  "changes": [
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "DELEGATION_CONTROLLER",
+      "before": null,
+      "after": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "ASSET_WHITELIST_CONTROLLER",
+      "before": null,
+      "after": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "BRIBE_WHITELIST_CONTROLLER",
+      "before": null,
+      "after": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "VE_GUARDIAN",
+      "before": null,
+      "after": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "TAKE_RECIPIENT",
+      "before": null,
+      "after": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "FEE_COLLECTOR",
+      "before": null,
+      "after": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "ASSET_GAUGE",
+      "before": null,
+      "after": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "VOTING_ESCROW",
+      "before": null,
+      "after": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "BRIBE_MANAGER",
+      "before": null,
+      "after": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "CONNECTOR__stable",
+      "before": null,
+      "after": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "CONNECTOR__project",
+      "before": null,
+      "after": "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "CONNECTOR__bluechip",
+      "before": null,
+      "after": "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "ASSET_STAKING__stable",
+      "before": null,
+      "after": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "ASSET_STAKING__project",
+      "before": null,
+      "after": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "address",
+      "role": "ASSET_STAKING__bluechip",
+      "before": null,
+      "after": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-08-09T09:11:38Z",
+      "txhash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "message_index": 0,
+      "type": "list",
+      "role": "FREE_BRIBES",
+      "before": null,
+      "after": [
+        "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv"
+      ],
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T11:42:50Z",
+      "txhash": "56B72129DEDCC78628DB32D6044C05FBB7471A95F90E34C532AF3723E04E8AB4",
+      "message_index": 0,
+      "type": "address",
+      "role": "PDT_CONTROLLER",
+      "before": null,
+      "after": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T11:42:50Z",
+      "txhash": "56B72129DEDCC78628DB32D6044C05FBB7471A95F90E34C532AF3723E04E8AB4",
+      "message_index": 0,
+      "type": "address",
+      "role": "PDT_CONFIG_OWNER",
+      "before": null,
+      "after": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T11:42:50Z",
+      "txhash": "56B72129DEDCC78628DB32D6044C05FBB7471A95F90E34C532AF3723E04E8AB4",
+      "message_index": 0,
+      "type": "list",
+      "role": "PDT_DCA_EXECUTOR",
+      "before": null,
+      "after": [
+        "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+        "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup"
+      ],
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T13:45:36Z",
+      "txhash": "BB68D1FAD2D430A7FA08627B50AFD34BAE29EDE085606652B8376DBA7D12C1B1",
+      "message_index": 0,
+      "type": "address",
+      "role": "CONNECTOR__stable",
+      "before": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+      "after": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T13:45:36Z",
+      "txhash": "BB68D1FAD2D430A7FA08627B50AFD34BAE29EDE085606652B8376DBA7D12C1B1",
+      "message_index": 0,
+      "type": "address",
+      "role": "CONNECTOR__project",
+      "before": "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh",
+      "after": "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T13:45:36Z",
+      "txhash": "BB68D1FAD2D430A7FA08627B50AFD34BAE29EDE085606652B8376DBA7D12C1B1",
+      "message_index": 0,
+      "type": "address",
+      "role": "CONNECTOR__bluechip",
+      "before": "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53",
+      "after": "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T13:45:36Z",
+      "txhash": "BB68D1FAD2D430A7FA08627B50AFD34BAE29EDE085606652B8376DBA7D12C1B1",
+      "message_index": 0,
+      "type": "address",
+      "role": "CONNECTOR__single",
+      "before": null,
+      "after": "terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T13:45:36Z",
+      "txhash": "BB68D1FAD2D430A7FA08627B50AFD34BAE29EDE085606652B8376DBA7D12C1B1",
+      "message_index": 0,
+      "type": "address",
+      "role": "ASSET_STAKING__stable",
+      "before": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "after": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T13:45:36Z",
+      "txhash": "BB68D1FAD2D430A7FA08627B50AFD34BAE29EDE085606652B8376DBA7D12C1B1",
+      "message_index": 0,
+      "type": "address",
+      "role": "ASSET_STAKING__project",
+      "before": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "after": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T13:45:36Z",
+      "txhash": "BB68D1FAD2D430A7FA08627B50AFD34BAE29EDE085606652B8376DBA7D12C1B1",
+      "message_index": 0,
+      "type": "address",
+      "role": "ASSET_STAKING__bluechip",
+      "before": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "after": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T13:45:36Z",
+      "txhash": "BB68D1FAD2D430A7FA08627B50AFD34BAE29EDE085606652B8376DBA7D12C1B1",
+      "message_index": 0,
+      "type": "address",
+      "role": "ASSET_STAKING__single",
+      "before": null,
+      "after": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-07T13:45:36Z",
+      "txhash": "BB68D1FAD2D430A7FA08627B50AFD34BAE29EDE085606652B8376DBA7D12C1B1",
+      "message_index": 0,
+      "type": "list",
+      "role": "FREE_BRIBES",
+      "before": [
+        "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv"
+      ],
+      "after": [
+        "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k"
+      ],
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-08T12:21:10Z",
+      "txhash": "B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+      "message_index": 0,
+      "type": "address",
+      "role": "PDT_CONFIG_OWNER",
+      "before": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "after": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-21T14:21:42Z",
+      "txhash": "982F5C7B895B40ADB116D7D8AC65A8E8793DD5A842BCD829775B536F0269E265",
+      "message_index": 0,
+      "type": "list",
+      "role": "BOT",
+      "before": null,
+      "after": [
+        "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+        "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup",
+        "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+      ],
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2024-10-21T14:23:11Z",
+      "txhash": "A83E6365F7EEA87FBD673BA34471EFF4488D26CE8729ED3053BCD7A5909E6562",
+      "message_index": 0,
+      "type": "address",
+      "role": "ZAPPER",
+      "before": null,
+      "after": "terra1qdjsxsv96aagrdxz83gwtjk8qvf2mrg4y8y3dqjxg556lm79pg5qdgmaxl",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2025-08-12T11:41:56Z",
+      "txhash": "BA405CD3EE230CA3B03DAFB4E88D28243F7C7B917D73139170CE0E1CCF440134",
+      "message_index": 0,
+      "type": "list",
+      "role": "BOT",
+      "before": [
+        "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+        "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup",
+        "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+      ],
+      "after": [
+        "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+        "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup",
+        "terra1alqg9kfy0nlvfr7rmww8nhrdpekwnvacqnmr5w",
+        "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+      ],
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2025-10-01T11:27:33Z",
+      "txhash": "DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+      "message_index": 0,
+      "type": "address",
+      "role": "FEE_COLLECTOR",
+      "before": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "after": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2026-09-22T09:55:22Z",
+      "txhash": "D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+      "message_index": 0,
+      "type": "address",
+      "role": "BURN_RECIPIENT",
+      "before": null,
+      "after": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2026-10-03T02:17:58Z",
+      "txhash": "7545CEEB62C382CAFBB018BD7BD9A60A37772929182D5804140AAC0A54CA3650",
+      "message_index": 0,
+      "type": "list",
+      "role": "ASSET_STAKING_FIX",
+      "before": null,
+      "after": [
+        "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp"
+      ],
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2026-10-03T02:21:42Z",
+      "txhash": "5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+      "message_index": 0,
+      "type": "list",
+      "role": "ASSET_STAKING_FIX",
+      "before": [
+        "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp"
+      ],
+      "after": [
+        "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz"
+      ],
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    },
+    {
+      "timestamp_utc": "2026-10-18T15:14:14Z",
+      "txhash": "EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+      "message_index": 0,
+      "type": "list",
+      "role": "ASSET_STAKING_FIX",
+      "before": [
+        "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz"
+      ],
+      "after": [],
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    }
+  ],
+  "latest_reconstructed_addresses": {
+    "DELEGATION_CONTROLLER": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+    "ASSET_WHITELIST_CONTROLLER": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+    "BRIBE_WHITELIST_CONTROLLER": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+    "VE_GUARDIAN": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+    "TAKE_RECIPIENT": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+    "FEE_COLLECTOR": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "ASSET_GAUGE": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+    "VOTING_ESCROW": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+    "BRIBE_MANAGER": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+    "CONNECTOR__stable": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+    "CONNECTOR__project": "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh",
+    "CONNECTOR__bluechip": "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53",
+    "ASSET_STAKING__stable": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+    "ASSET_STAKING__project": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+    "ASSET_STAKING__bluechip": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+    "PDT_CONTROLLER": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+    "PDT_CONFIG_OWNER": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "CONNECTOR__single": "terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u",
+    "ASSET_STAKING__single": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+    "ZAPPER": "terra1qdjsxsv96aagrdxz83gwtjk8qvf2mrg4y8y3dqjxg556lm79pg5qdgmaxl",
+    "BURN_RECIPIENT": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9"
+  },
+  "latest_reconstructed_lists": {
+    "FREE_BRIBES": [
+      "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k"
+    ],
+    "PDT_DCA_EXECUTOR": [
+      "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup"
+    ],
+    "BOT": [
+      "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup",
+      "terra1alqg9kfy0nlvfr7rmww8nhrdpekwnvacqnmr5w",
+      "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+    ],
+    "ASSET_STAKING_FIX": []
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "data": {
+    "proposals": [
+      {
+        "id": 1,
+        "title": "Test update code-id for test contract",
+        "description": "",
+        "msgs": [
+          {
+            "wasm": {
+              "migrate": {
+                "contract_addr": "terra1ckthjpaw9w74s409hsr2peracq8akx6e86lxyd0j28e0hw4dd6tqn938pa",
+                "new_code_id": 1082,
+                "msg": "e30="
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "expires": {
+          "at_time": "1676036991402573646"
+        },
+        "threshold": {
+          "absolute_count": {
+            "weight": 70,
+            "total_weight": 90
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "Upgrade Amplifier to 1.4.1",
+        "description": "",
+        "msgs": [
+          {
+            "wasm": {
+              "migrate": {
+                "contract_addr": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+                "new_code_id": 1160,
+                "msg": "e30="
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "expires": {
+          "at_time": "1677711420444804067"
+        },
+        "threshold": {
+          "absolute_count": {
+            "weight": 70,
+            "total_weight": 90
+          }
+        }
+      },
+      {
+        "id": 3,
+        "title": "Update Amplifier 1.5.0",
+        "description": "",
+        "msgs": [
+          {
+            "wasm": {
+              "migrate": {
+                "contract_addr": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+                "new_code_id": 1257,
+                "msg": "e30="
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "expires": {
+          "at_time": "1678814171985728466"
+        },
+        "threshold": {
+          "absolute_count": {
+            "weight": 70,
+            "total_weight": 90
+          }
+        }
+      },
+      {
+        "id": 4,
+        "title": "Update Admin to new Multi-Sig",
+        "description": "",
+        "msgs": [
+          {
+            "wasm": {
+              "update_admin": {
+                "contract_addr": "terra1ckthjpaw9w74s409hsr2peracq8akx6e86lxyd0j28e0hw4dd6tqn938pa",
+                "admin": "terra1xk7laye7e0rpf3wamtz8nscw720k7a7jar64vmhry7jeyw2hrurse6zttl"
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "expires": {
+          "at_time": "1702298354325630274"
+        },
+        "threshold": {
+          "absolute_count": {
+            "weight": 70,
+            "total_weight": 90
+          }
+        }
+      },
+      {
+        "id": 5,
+        "title": "Update CW20-ICS20 to 1.1.2",
+        "description": "",
+        "msgs": [
+          {
+            "wasm": {
+              "migrate": {
+                "contract_addr": "terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+                "new_code_id": 2724,
+                "msg": "e30="
+              }
+            }
+          }
+        ],
+        "status": "rejected",
+        "expires": {
+          "at_time": "1711984380234358319"
+        },
+        "threshold": {
+          "absolute_count": {
+            "weight": 70,
+            "total_weight": 90
+          }
+        }
+      },
+      {
+        "id": 6,
+        "title": "Migrate ERIS Amplifier to 1.8.0",
+        "description": "",
+        "msgs": [
+          {
+            "wasm": {
+              "migrate": {
+                "contract_addr": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+                "new_code_id": 2726,
+                "msg": "e30="
+              }
+            }
+          }
+        ],
+        "status": "rejected",
+        "expires": {
+          "at_time": "1711985957048284080"
+        },
+        "threshold": {
+          "absolute_count": {
+            "weight": 70,
+            "total_weight": 90
+          }
+        }
+      },
+      {
+        "id": 7,
+        "title": "Update CW20-ICS20 to 1.1.2",
+        "description": "",
+        "msgs": [
+          {
+            "wasm": {
+              "migrate": {
+                "contract_addr": "terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+                "new_code_id": 2724,
+                "msg": "e30="
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "expires": {
+          "at_time": "1713360109258243279"
+        },
+        "threshold": {
+          "absolute_count": {
+            "weight": 70,
+            "total_weight": 90
+          }
+        }
+      },
+      {
+        "id": 8,
+        "title": "Transfer Ownership of Amplifier and CW20-ICS20 to Phoenix Foundation",
+        "description": ".",
+        "msgs": [
+          {
+            "wasm": {
+              "update_admin": {
+                "contract_addr": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+                "admin": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+              }
+            }
+          },
+          {
+            "wasm": {
+              "update_admin": {
+                "contract_addr": "terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+                "admin": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+              }
+            }
+          }
+        ],
+        "status": "rejected",
+        "expires": {
+          "at_time": "1768997900580385557"
+        },
+        "threshold": {
+          "absolute_count": {
+            "weight": 70,
+            "total_weight": 90
+          }
+        }
+      },
+      {
+        "id": 9,
+        "title": "Transfer Ownership of Amplifier and CW20-ICS20 to Phoenix Foundation",
+        "description": ".",
+        "msgs": [
+          {
+            "wasm": {
+              "update_admin": {
+                "contract_addr": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+                "admin": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+              }
+            }
+          },
+          {
+            "wasm": {
+              "update_admin": {
+                "contract_addr": "terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+                "admin": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+              }
+            }
+          }
+        ],
+        "status": "executed",
+        "expires": {
+          "at_time": "1793259209766143077"
+        },
+        "threshold": {
+          "absolute_count": {
+            "weight": 70,
+            "total_weight": 90
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,3178 @@
+{
+  "scope": "LOCAL ONLY partial-state authorization probe; no transaction, no signature, no live state change. Actual current config, historical registry17Oct and downloaded exact deployed code variants.",
+  "cases": [
+    {
+      "code_id": 4033,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/update_incentive_blacklist"
+            },
+            {
+              "key": "added",
+              "value": "native:uluna"
+            },
+            {
+              "key": "removed",
+              "value": ""
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        },
+        {
+          "host": "db_write",
+          "key_hex": "0013696e63656e746976655f626c61636b6c69737400076e61746976653a756c756e61",
+          "value": "true"
+        }
+      ],
+      "writes": {
+        "0013696e63656e746976655f626c61636b6c69737400076e61746976653a756c756e61": {
+          "before": "",
+          "after": "true"
+        }
+      }
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/update_incentive_blacklist"
+            },
+            {
+              "key": "added",
+              "value": ""
+            },
+            {
+              "key": "removed",
+              "value": ""
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c7465727261316b656661327a676a6e343563746a33326433746a65356a64777573377078366e326b6c677a6c00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f7261746500407465727261316b38756736646b7a6e74637a667a6e3736777368323474646a6d78393434796a366d6b30363377756d376e3230637764376c7871346c70706a6700076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c746572726131766d35617a6876617865616e633761757868303279386a6d78726b38746a393366366179777000076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c7465727261316b656661327a676a6e343563746a33326433746a65356a64777573377078366e326b6c677a6c00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f7261746500407465727261316b38756736646b7a6e74637a667a6e3736777368323474646a6d78393434796a366d6b30363377756d376e3230637764376c7871346c70706a6700076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c746572726131766d35617a6876617865616e633761757868303279386a6d78726b38746a393366366179777000076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Unauthorized missing right: (ASSET_WHITELIST_CONTROLLER, terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl)"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Asset not whitelisted"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "000977686974656c69737400076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Unauthorized missing right: (ASSET_WHITELIST_CONTROLLER, terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz)"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Unauthorized missing right: (ASSET_WHITELIST_CONTROLLER, terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp)"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/update_incentive_blacklist"
+            },
+            {
+              "key": "added",
+              "value": "native:uluna"
+            },
+            {
+              "key": "removed",
+              "value": ""
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        },
+        {
+          "host": "db_write",
+          "key_hex": "0013696e63656e746976655f626c61636b6c69737400076e61746976653a756c756e61",
+          "value": "true"
+        }
+      ],
+      "writes": {
+        "0013696e63656e746976655f626c61636b6c69737400076e61746976653a756c756e61": {
+          "before": "",
+          "after": "true"
+        }
+      }
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/update_incentive_blacklist"
+            },
+            {
+              "key": "added",
+              "value": ""
+            },
+            {
+              "key": "removed",
+              "value": ""
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c7465727261316b656661327a676a6e343563746a33326433746a65356a64777573377078366e326b6c677a6c00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f7261746500407465727261316b38756736646b7a6e74637a667a6e3736777368323474646a6d78393434796a366d6b30363377756d376e3230637764376c7871346c70706a6700076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c746572726131766d35617a6876617865616e633761757868303279386a6d78726b38746a393366366179777000076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c7465727261316b656661327a676a6e343563746a33326433746a65356a64777573377078366e326b6c677a6c00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f7261746500407465727261316b38756736646b7a6e74637a667a6e3736777368323474646a6d78393434796a366d6b30363377756d376e3230637764376c7871346c70706a6700076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c746572726131766d35617a6876617865616e633761757868303279386a6d78726b38746a393366366179777000076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Unauthorized missing right: (ASSET_WHITELIST_CONTROLLER, terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl)"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Asset not whitelisted"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "000977686974656c69737400076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Unauthorized missing right: (ASSET_WHITELIST_CONTROLLER, terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz)"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Unauthorized missing right: (ASSET_WHITELIST_CONTROLLER, terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp)"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/update_incentive_blacklist"
+            },
+            {
+              "key": "added",
+              "value": "native:uluna"
+            },
+            {
+              "key": "removed",
+              "value": ""
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        },
+        {
+          "host": "db_write",
+          "key_hex": "0013696e63656e746976655f626c61636b6c69737400076e61746976653a756c756e61",
+          "value": "true"
+        }
+      ],
+      "writes": {
+        "0013696e63656e746976655f626c61636b6c69737400076e61746976653a756c756e61": {
+          "before": "",
+          "after": "true"
+        }
+      }
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [
+            {
+              "native": "uluna"
+            }
+          ],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/update_incentive_blacklist"
+            },
+            {
+              "key": "added",
+              "value": ""
+            },
+            {
+              "key": "removed",
+              "value": ""
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "update_incentive_blacklist": {
+          "add": [],
+          "remove": []
+        }
+      },
+      "result": {
+        "error": "Unauthorized"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "b3duZXJzaGlw"
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "eyJvd25lciI6InRlcnJhMWtlZmEyemdqbjQ1Y3RqMzJkM3RqZTVqZHd1czdweDZuMmtsZ3psIiwicGVuZGluZ19vd25lciI6bnVsbCwicGVuZGluZ19leHBpcnkiOm51bGx9"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c7465727261316b656661327a676a6e343563746a33326433746a65356a64777573377078366e326b6c677a6c00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f7261746500407465727261316b38756736646b7a6e74637a667a6e3736777368323474646a6d78393434796a366d6b30363377756d376e3230637764376c7871346c70706a6700076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c746572726131766d35617a6876617865616e633761757868303279386a6d78726b38746a393366366179777000076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c7465727261316b656661327a676a6e343563746a33326433746a65356a64777573377078366e326b6c677a6c00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f7261746500407465727261316b38756736646b7a6e74637a667a6e3736777368323474646a6d78393434796a366d6b30363377756d376e3230637764376c7871346c70706a6700076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c746572726131766d35617a6876617865616e633761757868303279386a6d78726b38746a393366366179777000076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Unauthorized missing right: (ASSET_WHITELIST_CONTROLLER, terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl)"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Asset not whitelisted"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "000977686974656c69737400076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Unauthorized missing right: (ASSET_WHITELIST_CONTROLLER, terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz)"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "update_asset_config": {
+          "info": {
+            "native": "uluna"
+          },
+          "config": {
+            "yearly_take_rate": "0.1",
+            "stake_config": "default"
+          }
+        }
+      },
+      "result": {
+        "error": "Unauthorized missing right: (ASSET_WHITELIST_CONTROLLER, terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp)"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAlhZGRyZXNzZXNBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamci"
+            }
+          }
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9XSElURUxJU1RfQ09OVFJPTExFUg=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": ""
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "owner",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "board",
+      "sender": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "repair",
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "sender_label": "project",
+      "sender": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "message": {
+        "stake": {
+          "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+        }
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    }
+  ]
+}

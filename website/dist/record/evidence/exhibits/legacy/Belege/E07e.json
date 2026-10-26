@@ -1,0 +1,163 @@
+{
+  "status": "ok",
+  "groups": [
+    {
+      "name": "chain",
+      "stats": [
+        {
+          "name": "indexer",
+          "description": "Checks if the indexer is running properly",
+          "checkTookMs": 453,
+          "status": "ok",
+          "value": "Indexer is running properly",
+          "data": {
+            "Rescue node height": 23236106,
+            "Indexed height": 23236107
+          }
+        },
+        {
+          "name": "price-oracle",
+          "description": "Checks if the price oracle is working properly",
+          "checkTookMs": 10,
+          "status": "ok",
+          "value": "All prices are healthy"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "name": "backend",
+      "stats": [
+        {
+          "name": "database",
+          "description": "Checks if the database is reachable",
+          "checkTookMs": 5,
+          "status": "ok",
+          "value": "Database is reachable"
+        },
+        {
+          "name": "email-server",
+          "description": "Checks if the email server is reachable",
+          "checkTookMs": 1247,
+          "status": "ok",
+          "value": "Email server is reachable"
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "name": "markets",
+      "stats": [
+        {
+          "name": "markets",
+          "description": "Checks if all markets are healthy",
+          "checkTookMs": 42,
+          "status": "ok",
+          "value": "All markets are healthy"
+        },
+        {
+          "name": "portfolios",
+          "description": "Checks if portfolios have any bad debt",
+          "checkTookMs": 40,
+          "status": "ok",
+          "value": "All portfolios have no bad debt"
+        },
+        {
+          "name": "liquidable-portfolios",
+          "description": "Checks if there are any liquidable portfolios",
+          "checkTookMs": 40,
+          "status": "ok",
+          "value": "No liquidable portfolios found."
+        },
+        {
+          "name": "zappable-markets",
+          "description": "Checks if all markets are zappable for liquidation",
+          "checkTookMs": 207,
+          "status": "ok",
+          "value": "All markets are zappable"
+        },
+        {
+          "name": "contract-balances",
+          "description": "Checks if contract balances cover all deposits + reserves",
+          "checkTookMs": 217,
+          "status": "ok",
+          "value": "All asset balances are sufficient",
+          "data": {
+            "Assets with dust": [
+              {
+                "asset": "ampLUNA",
+                "dust": "0.000281",
+                "dustRaw": "281"
+              },
+              {
+                "asset": "arbLUNA",
+                "dust": "0.000336",
+                "dustRaw": "336"
+              },
+              {
+                "asset": "LUNA-AMPLUNA-AMPLP",
+                "dust": "0.000205",
+                "dustRaw": "205"
+              },
+              {
+                "asset": "USDC.n-EURE-AMPLP",
+                "dust": "0.000076",
+                "dustRaw": "76"
+              },
+              {
+                "asset": "USDC.n-USDT-AMPLP",
+                "dust": "0.000088",
+                "dustRaw": "88"
+              },
+              {
+                "asset": "USDC.inj-EURE-AMPLP",
+                "dust": "0.000009",
+                "dustRaw": "9"
+              },
+              {
+                "asset": "USDC.inj-USDT-AMPLP",
+                "dust": "0.000012",
+                "dustRaw": "12"
+              },
+              {
+                "asset": "PAXG",
+                "dust": "0.006483",
+                "dustRaw": "6483"
+              },
+              {
+                "asset": "USDC.n",
+                "dust": "0.001172",
+                "dustRaw": "1172"
+              },
+              {
+                "asset": "WBTC",
+                "dust": "0.000879",
+                "dustRaw": "879"
+              },
+              {
+                "asset": "EURE",
+                "dust": "0.000129",
+                "dustRaw": "129"
+              },
+              {
+                "asset": "wstETH",
+                "dust": "6.928388",
+                "dustRaw": "6928388"
+              },
+              {
+                "asset": "LUNA",
+                "dust": "0.001075",
+                "dustRaw": "1075"
+              }
+            ],
+            "Total assets checked": 14
+          }
+        }
+      ],
+      "status": "ok"
+    }
+  ],
+  "checkTime": "2026-10-11T10:21:11.468Z",
+  "checkTookMs": 1248,
+  "validUntil": "2026-10-11T10:22:11.468Z"
+}

@@ -1,0 +1,2752 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 139,
+        "name": null,
+        "username": "0xPhilipp",
+        "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+        "created_at": "2026-10-16T01:55:56.411Z",
+        "cooked": "<h3><a name=\"p-139-why-i-am-submitting-this-proposal-1\" class=\"anchor\" href=\"#p-139-why-i-am-submitting-this-proposal-1\" aria-label=\"Heading link\"></a><strong>Why I am submitting this proposal</strong></h3>\n<p>In June 2024, when Terraform Labs announced it was winding down, a small group of us asked the Terra community to trust that Terra could continue without a Labs company. The Phoenix Foundation was created to help secure the chain, support builders and keep the ecosystem moving forward. I still believe strongly in that mission.</p>\n<p>As part of my role within the Foundation, I am responsible for strategic leadership and organizational oversight. That includes helping ensure that the Foundation remains capable of carrying out its mandate and that its Directors remain accountable for the responsibilities entrusted to them. Where serious questions of governance or accountability can no longer be resolved internally, I consider it part of that responsibility to escalate the matter to Terra Governance.</p>\n<h3><a name=\"p-139-the-issue-2\" class=\"anchor\" href=\"#p-139-the-issue-2\" aria-label=\"Heading link\"></a><strong>The issue</strong></h3>\n<p>The Phoenix Foundation currently has four Stewardship Directors. Proposal A272, concerning the continued membership of one Director, has resulted in a 2–2 deadlock. The serious concerns behind that proposal relate to strategic alignment, governance procedures, contribution and accountability, risk management and Director-level trust.</p>\n<p>Those concerns are disputed, and this proposal does not ask Terra Governance to decide who is right.</p>\n<p>The immediate problem is that the Stewardship is evenly divided on a question concerning its own composition as a result of these serious concerns and cannot resolve it internally. A governing body also needs a credible mechanism to hold its members accountable when serious concerns arise. Without one, accountability effectively ends wherever an internal deadlock begins.</p>\n<h3><a name=\"p-139-proposed-solution-3\" class=\"anchor\" href=\"#p-139-proposed-solution-3\" aria-label=\"Heading link\"></a><strong>Proposed solution</strong></h3>\n<p>The Phoenix Foundation Bylaws provide for the appointment of an independent Emergency Supervisor in circumstances where the Foundation’s governing bodies become unable to properly perform their responsibilities. I believe this is the appropriate mechanism here.</p>\n<p>The Supervisor should review the circumstances and issues leading to A272, hear from all four Directors, examine the relevant internal records and independently determine how the situation should be resolved. This may include concluding that a change to the Stewardship is necessary, or that it is not. Both outcomes must remain possible.</p>\n<p>The appointment should be strictly temporary and limited to this specific matter, with a maximum term of <strong>four weeks from acceptance of the appointment</strong> unless Terra Governance explicitly approves an extension.</p>\n<p>I am directly involved in the current dispute and supported A272. For that reason, I am not asking Terra Governance to accept my assessment of the matter. I am asking for an independent process capable of reaching a conclusion where the Stewardship itself cannot, and I will accept the outcome of that process even if I disagree with it.</p>\n<h3><a name=\"p-139-selecting-the-emergency-supervisor-4\" class=\"anchor\" href=\"#p-139-selecting-the-emergency-supervisor-4\" aria-label=\"Heading link\"></a><strong>Selecting the Emergency Supervisor</strong></h3>\n<p>The Emergency Supervisor should be chosen by the Terra community rather than by either side of the dispute. Candidates should be discussed openly before the final governance proposal is submitted.</p>\n<p>Any candidate should meet the following conditions:</p>\n<ul>\n<li>\n<p>no current or past financial relationship with the Phoenix Foundation, any Director, or any team affiliated with a Director;</p>\n</li>\n<li>\n<p>no pending or prior application for Foundation funding;</p>\n</li>\n<li>\n<p>no current or recent role in Terra governance, the Stewardship or the Veto-Multisig;</p>\n</li>\n<li>\n<p>no public position taken on A272 or the underlying dispute;</p>\n</li>\n<li>\n<p>no personal or professional relationship with any of the four Directors that could reasonably be seen as compromising impartiality;</p>\n</li>\n<li>\n<p>ideally, prior experience using Terra and familiarity with the ecosystem.</p>\n</li>\n</ul>\n<p>Two potential candidates raised:</p>\n<ul>\n<li>\n<p><strong>Ray Raspberry</strong> — long-term Terra community member, on-chain researcher and investigator.</p>\n</li>\n<li>\n<p><strong>Martin</strong> — long-term Terra community member, Canadian lawyer and significant DeFi liquidity provider.</p>\n</li>\n</ul>\n<p>Both have been acknowledged as potential candidates by three of the four current Stewardship Directors. This should not be understood as a predetermined appointment or endorsement. The candidates are presented for community discussion, and additional candidates may be proposed.</p>\n<h3><a name=\"p-139-proposed-governance-action-5\" class=\"anchor\" href=\"#p-139-proposed-governance-action-5\" aria-label=\"Heading link\"></a><strong>Proposed Governance Action</strong></h3>\n<p>By Emergency System Governance Process, Terra Governance is asked to:</p>\n<ol>\n<li>\n<p><strong>Recognize</strong> the serious Stewardship dysfunction underlying Proposal A272, and the resulting inability to resolve these issues internally (2-2), as an Adverse Event under the Phoenix Foundation Bylaws.</p>\n</li>\n<li>\n<p><strong>Appoint</strong> the Emergency Supervisor selected following community discussion under Article 2.6.1.</p>\n</li>\n<li>\n<p><strong>Instruct</strong> the Emergency Supervisor under Article 2.6.3 to investigate the Adverse Event, hear from all four Directors, review the relevant records, the conduct of any Director where relevant and determine how it should be resolved.</p>\n</li>\n<li>\n<p><strong>Confirm</strong> that the Emergency Supervisor may exercise the powers available under Article 2.4.5.4, including instructing the removal of a Stewardship Multisig Member where the Supervisor determines that this is necessary or desirable to resolve the Adverse Event.</p>\n</li>\n<li>\n<p><strong>Limit the appointment</strong> to a maximum of <strong>four weeks from the Supervisor’s written acceptance</strong>, unless Terra Governance explicitly approves an extension. The written acceptance will need to include a statement of independence.</p>\n</li>\n<li>\n<p><strong>Set compensation</strong> for the Emergency Supervisor under Article 2.6.6 at an amount of <strong>up to USD 10,000</strong>, to be determined in the final governance proposal and paid from Foundation funds.</p>\n</li>\n</ol>\n<h3><a name=\"p-139-appendices-6\" class=\"anchor\" href=\"#p-139-appendices-6\" aria-label=\"Heading link\"></a><strong>Appendices</strong></h3>\n<ul>\n<li>\n<p>A. <a href=\"https://github.com/phoenix-directive/docs/blob/main/the-phoenix-directive.md\">Phoenix Directive</a></p>\n</li>\n<li>\n<p>B. <a href=\"https://github.com/phoenix-directive/docs/blob/main/Phoenix%20Foundation%20-%20Bylaws.pdf\">Phoenix Foundation Bylaws</a></p>\n</li>\n<li>\n<p>C. <a href=\"https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272\">Proposal A272</a> and Stewardship voting record:</p>\n<ul>\n<li>\n<p>Philipp: Yes</p>\n</li>\n<li>\n<p>MB: Yes</p>\n</li>\n<li>\n<p>Rose: No</p>\n</li>\n<li>\n<p>Vini: Did not vote</p>\n</li>\n</ul>\n</li>\n</ul>\n<p>The Stewardship has reached a question it cannot resolve internally. Rather than asking Terra Governance to take sides, I believe the fairest approach is to let the community appoint an independent person, give that person access to the full facts and allow them to reach a decision.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-23T02:20:07.308Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 644,
+        "reads": 30,
+        "readers_count": 29,
+        "score": 3241,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 5,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272",
+            "internal": false,
+            "reflection": false,
+            "title": "Phoenix DAOs",
+            "clicks": 30
+          },
+          {
+            "url": "https://github.com/phoenix-directive/docs/blob/main/Phoenix%20Foundation%20-%20Bylaws.pdf",
+            "internal": false,
+            "reflection": false,
+            "title": "docs/Phoenix Foundation - Bylaws.pdf at main · phoenix-directive/docs · GitHub",
+            "clicks": 10
+          },
+          {
+            "url": "https://github.com/phoenix-directive/docs/blob/main/the-phoenix-directive.md",
+            "internal": false,
+            "reflection": false,
+            "title": "docs/the-phoenix-directive.md at main · phoenix-directive/docs · GitHub",
+            "clicks": 4
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/1",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 140,
+        "name": "Thomas",
+        "username": "HighStakes",
+        "avatar_template": "/user_avatar/forum.phoenix.money/highstakes/{size}/46_2.png",
+        "created_at": "2026-10-16T04:13:32.262Z",
+        "cooked": "<p>Another potential candidate for the position of emergency supervisor would be Grace Yuh from CLK. We’ve seen that she is pretty thorough in her investigations and I believe she’d be very qualified in this instance.</p>\n<p>(Don’t know if she matches the other criteria regarding the absence of relationship with any of the directors)</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T04:13:32.262Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 24,
+        "readers_count": 23,
+        "score": 14.8,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": "Thomas",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 61,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/2",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 141,
+        "name": "Vini | SCV-Security, PD",
+        "username": "vini",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/v/c77e96/{size}.png",
+        "created_at": "2026-10-16T07:52:46.424Z",
+        "cooked": "<p>Thanks Philipp for putting this to the community. I agree that Terra governance should have the final say, and I welcome an independent review. The independence criteria in your post are good, and I’d support them for any appointment. A few facts are missing, though, and they matter for how the community might vote.</p>\n<p><strong>1. A272 was more than a removal.</strong> It had two messages: removing me from the member group, and changing the PF DAO threshold to 60%. After the removal that means 2 of 3, so two directors could pass anything on their own. Community can check it here: <a href=\"https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272\" class=\"inline-onebox\">Phoenix DAOs</a></p>\n<p><strong>2. One failed vote is not a “persistent deadlock”.</strong> Since A272, the board has passed 10 of 11 proposals (A273 to A283): payments, including monthly salaries for the other 3 directors (there has not yet been one for me deliberately by Phillip), liquidity moves and asset-staking updates, most of them proposed by Philipp and approved with/including my vote. The Foundation is functional. A proposal that didn’t reach the threshold simply failed. That is how a 3-of-4 board is meant to work.</p>\n<p><strong>3. Item 4 asks community to interpret conflicting bylaws.</strong> Art. 2.6.2 says the Emergency Supervisor “shall not have any authority to remove, replace, or direct the decision-making of the BORG, the Board”. Art. 2.4.5.4 says directors should facilitate a removal if a Supervisor instructs one. These two contradict each other. An emergency governance vote is not the right place to settle that, and certainly not by granting the removal power in advance.</p>\n<p><strong>4. The bylaws already provide a standing referee that PF has never appointed.</strong> Art. 2.5.1: “The BORG shall at all times have a supervisor… able and willing to supervise the management of the BORG.” The Emergency Supervisor in Art. 2.6.1 is described as an “additional” Supervisor. Before declaring an emergency, the board should appoint the permanent Supervisor the bylaws require. One of the candidates in this thread could fill that role, with the same independence criteria.</p>\n<p><strong>On candidates</strong>, two suggestions in the spirit of Philipp’s criteria. First, every candidate should publicly disclose any personal or professional relationship with any of the four directors before a vote. Second, the Emergency Supervisor’s powers in Art. 2.6.2 are mainly legal (investigating, holding parties liable, bringing claims under  bylaws), so legal or governance expertise should come first than Terra familiarity. Art. 2.6.1 allows “one or more” Supervisors, so a pair (one legal/governance expert, one experienced Terra community member, both independent) would balance the two.</p>\n<p><strong>To Conclude:</strong> The community should be aware of context and what they are voting. If the community wants to decide who sits on the board, I’d accept a direct, transparent Terra governance vote on that question, rather than an emergency process built around one disputed vote.</p>\n<p>I remain committed to address any questions the community might have to this or any matter related to Terra.</p>\n<p>Thank you, Vini</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T07:52:46.424Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 13,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 140,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": "Vini | SCV-Security, PD",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272",
+            "internal": false,
+            "reflection": false,
+            "title": "Phoenix DAOs",
+            "clicks": 2
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 1,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/3",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 142,
+        "name": null,
+        "username": "0xPhilipp",
+        "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+        "created_at": "2026-10-16T08:03:35.725Z",
+        "cooked": "<p>Grace Yuh does not meet the independence criteria.</p>\n<ul>\n<li>She is part of the leadership of another chain,</li>\n<li>I have prior AADAO-related history with her,</li>\n<li>and PF has ongoing strategic discussions related to Cosmos Labs.</li>\n</ul>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T08:03:35.725Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 4.2,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 61,
+          "username": "HighStakes",
+          "name": "Thomas",
+          "avatar_template": "/user_avatar/forum.phoenix.money/highstakes/{size}/46_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/4",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 143,
+        "name": null,
+        "username": "0xPhilipp",
+        "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+        "created_at": "2026-10-16T08:28:11.643Z",
+        "cooked": "<p>A272 was clear: a removal necessarily will always come with a move to 2-of-3 so one remaining Director could not unilaterally veto the Foundation, bylaws and the foundation board explicitly states that the majority decides. Routine payments passing afterwards do not erase a 2-2 deadlock on a fundamental Stewardship issue. The Bylaws are also not contradictory: the Emergency Supervisor cannot directly remove a Director, but can instruct Stewardship to facilitate removal. And the missing standing Supervisor is a separate governance issue, not a reason the Emergency Supervisor process suddenly cannot be used.</p>\n<p>This is again a diversion into procedure instead of addressing why the proposal exists.</p>\n<p>Community members and validators should read the actual substance and consider the risks Terra has been exposed to. While I have repeatedly been the one identifying problems, escalating them and putting out fires, serious security risks have been downplayed to the point where Terra came dangerously close to catastrophic liquidity loss.</p>\n<p>That is what this is about: mandate, contribution, governance, security judgment, trust and accountability. Not procedural word games.</p>\n<p>I will not accept potential legal exposure arising from potentially negligent conduct by another Director. When someone downplays existential security risks while questioning whether Terra should even remain focused on DeFi, I genuinely have to wonder whether you even hold meaningful assets on Terra yourself.</p>\n<p>And this is exactly why Terra Governance is being asked to appoint an independent Emergency Supervisor: not to accept my version of events, but to review the internal discussions, speak with all four Directors, assess the facts independently and determine how the Adverse Event should be resolved. The proposal explicitly leaves both outcomes open.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T08:33:21.769Z",
+        "reply_count": 0,
+        "reply_to_post_number": 3,
+        "quote_count": 0,
+        "incoming_link_count": 8,
+        "reads": 23,
+        "readers_count": 22,
+        "score": 44.6,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 1,
+          "username": "vini",
+          "name": "Vini | SCV-Security, PD",
+          "avatar_template": "/letter_avatar_proxy/v4/letter/v/c77e96/{size}.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/5",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 144,
+        "name": null,
+        "username": "Vegas",
+        "avatar_template": "/user_avatar/forum.phoenix.money/vegas/{size}/77_2.png",
+        "created_at": "2026-10-16T10:15:39.694Z",
+        "cooked": "<p>Having considered the discussion and the relevant provisions of the bylaws, I believe the community should reconsider whether appointing a single Emergency Supervisor is the most appropriate approach, given the seriousness of the situation and the potential consequences of this appointment.</p>\n<p>Article 2.6.1 expressly allows for the appointment of one or more Emergency Supervisors. I therefore believe the proposal should be amended to provide for <strong>at least three genuinely independent Emergency Supervisors</strong>, rather than placing such significant responsibility and influence in the hands of one individual.</p>\n<p>This is an important decision for the Foundation and the wider community. Regardless of anyone’s personal reputation or existing relationships, placing so much responsibility in the hands of a single person creates a concentration of influence that could be avoided. A small group of independent individuals would offer a better opportunity for balanced judgement, different perspectives and appropriate scrutiny.</p>\n<p><strong>I would also ask that an open application process be established.</strong></p>\n<p>Rather than selecting a specific individual or presenting the community with a predetermined choice of candidates, anyone from the community who meets clearly defined eligibility criteria should have the opportunity to apply. Each candidate should publish their relevant experience, proposed approach and compensation requirements, together with any professional, financial or other relevant relationships that could reasonably be perceived as affecting their independence.</p>\n<p>The community should have the opportunity to review these applications, ask questions and assess the candidates before voting. The selection process should be transparent, with the same requirements and standards applied to everyone.</p>\n<p>A person may be well regarded, experienced and trusted by many community members, and those qualities should certainly be considered. However, reputation alone cannot replace transparency. We may know that someone is a good person or has made valuable contributions, but that does not necessarily mean we know the full extent of their relationships, affiliations or potential conflicts of interest. These matters should be disclosed and assessed openly rather than left to assumptions.</p>\n<p>The mandate of the appointed Supervisors should also be clearly defined, including their powers, compensation, reporting obligations, decision-making arrangements and the process for resolving disagreements. The community should understand how the Supervisors will operate collectively and how their independence will be maintained throughout the appointment.</p>\n<p>The investigation itself should establish whether the circumstances satisfy the bylaws’ definition of an Adverse Event, examine the evidence regarding the alleged persistent deadlock, and assess any substantiated concerns about governance, accountability and risk management. All parties should have a fair opportunity to present their positions, and any findings should be evidence-based.</p>\n<p>It is equally important to clarify the limits of the Emergency Supervisors’ authority. Article 2.6.2 restricts their ability to remove or replace Directors or direct Board decision-making, while Article 2.4.5.4 addresses the facilitation of removals following an instruction from an Emergency Supervisor. The relationship between these provisions should be explained clearly so that the community understands the powers it is being asked to authorise.</p>\n<p><strong>I also believe we should consider what happens after the current emergency has been resolved.</strong></p>\n<p>Article 2.6.1 makes clear that Emergency Supervisors are not intended to remain indefinitely. Their appointment should therefore have a clearly defined scope, duration and conclusion, with transparent criteria for determining when the specific Adverse Event has been addressed.</p>\n<p>At the same time, resolving the immediate dispute should not prevent the Foundation from improving its longer-term governance and oversight. The investigation could help identify gaps in expertise, accountability or representation that would benefit from being addressed separately.</p>\n<p>Where additional expertise or perspectives are needed, the Foundation should consider appropriate ways to bring them in through transparent processes. This could include people with complementary experience in technical security ,markting ,reach, wider ecosystem and community relations. Any permanent supervisory appointment or other ongoing role should be handled separately under the relevant provisions of the bylaws, rather than automatically extending an emergency appointment beyond its intended purpose.</p>\n<p>The objective should not be to favour or target any particular Director. It should be to establish the facts, protect the ecosystem, and ensure that any necessary remedies follow a fair, transparent and properly authorised process.</p>\n<p><strong>My request is therefore that the current proposal be amended to provide for at least three Emergency Supervisors and that an open, public application process be established before candidates are selected.</strong> The community should have a genuine opportunity to evaluate the available candidates rather than being asked to place its confidence in one individual chosen in advance.</p>\n<p>This is a significant decision with potentially far-reaching consequences. The selection process must be as robust, transparent and independent as the responsibilities these individuals will be expected to undertake. We should use this opportunity not only to address the immediate situation but also to consider how the Foundation can develop stronger, more decentralised oversight in the future.</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T10:15:39.694Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 11,
+        "reads": 23,
+        "readers_count": 22,
+        "score": 84.6,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 79,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/6",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 145,
+        "name": null,
+        "username": "0xPhilipp",
+        "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+        "created_at": "2026-10-16T11:28:26.261Z",
+        "cooked": "<p>We would prefer personal responses rather than walls of AI-generated text, but your points are pretty simple.</p>\n<ol>\n<li>\n<p>Three Emergency Supervisors would be okay, as long as they meet the requirements and there is broad agreement within PF (and the community). We already reached that for the two names mentioned.</p>\n<p>However in this case a single supervisor would be a more efficient way of resolving this in a timely way so that we can get back to business. Hence the current prop asks the community to select one of 2 candidates.</p>\n</li>\n<li>\n<p>An open application process can be done through this forum thread. Anyone who wants to be considered can put themselves forward, show that they meet the stated requirements, disclose any relevant relationships, and explain why they are suitable. The community can then comment openly before the final candidates are selected. I’ll also coordinate with PF so our view on whether someone meets the criteria is given here transparently. If no suitable third person can be found, the proposal will still go ahead with only 1, so it should not block the process. Target for on-chain publishing is end of next week.</p>\n</li>\n<li>\n<p>PF structural changes should not be mixed into this process. The current issue needs to be resolved first.</p>\n</li>\n</ol>\n<p>Yes, this process can have a major impact on the ecosystem. That is exactly why it is necessary. PF needs to get back into a position where it can actually act, especially with more security incidents, infrastructure problems and fires to put out.</p>\n<p>We need a Foundation that is pulling in the same direction and focused on protecting and growing Terra, not one consumed by internal political fights, downplaying security issues, lethargy and non-contribution or slowly turning Terra into Terra Classic through stagnation, risk aversion and an inability to act.</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T12:18:53.937Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 14.4,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 6,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 79,
+          "username": "Vegas",
+          "name": null,
+          "avatar_template": "/user_avatar/forum.phoenix.money/vegas/{size}/77_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/7",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 146,
+        "name": null,
+        "username": "Vegas",
+        "avatar_template": "/user_avatar/forum.phoenix.money/vegas/{size}/77_2.png",
+        "created_at": "2026-10-16T11:49:12.534Z",
+        "cooked": "<p>As you know, English is not my first language, so yes, I use AI to help correct my grammar and express my thoughts more clearly. But I don’t think that should be the point of discussion; what matters is the substance of the arguments.</p>\n<p>I appreciate that you agree the Foundation needs improvement and that having three Emergency Supervisors is a reasonable approach. I also agree that the current situation needs to be addressed without unnecessary delays.</p>\n<p>Regarding the selection of candidates, I believe this should ultimately be decided through community governance. The application process should be open, transparent and give the community a genuine opportunity to assess the candidates, rather than leaving the decision mainly to the Foundation itself.</p>\n<p>On the question of improving the Foundation’s structure, my point was not to delay accountability. Quite the opposite. I believe we could use this opportunity to address the immediate problem while also laying the groundwork for a stronger and more decentralised structure in the future.</p>\n<p>If we are already appointing independent people to help resolve the current situation, why not take the opportunity to consider how we can bring more experience, different perspectives and new contributors into the Foundation? This could help us address not only the immediate dispute but also some of the structural weaknesses that may have contributed to it.</p>\n<p>Of course, the emergency process should have a clear mandate and should not be held up by broader reforms. But resolving the current issue and improving the Foundation do not have to be mutually exclusive.</p>\n<p>My concern remains that we should not place so much responsibility in the hands of one person, or predetermine the outcome before the process has run its course. We should give the community a meaningful role in selecting the people involved and ensure that the process is fair, transparent and independent.</p>\n<p>Ultimately, we all want a stronger Foundation that can protect and develop Terra. I believe we have an opportunity here not only to resolve the current situation, but also to take a positive step towards making the Foundation more accountable, decentralised and representative of the community.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T11:56:54.903Z",
+        "reply_count": 1,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 24.2,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 79,
+          "username": "Vegas",
+          "name": null,
+          "avatar_template": "/user_avatar/forum.phoenix.money/vegas/{size}/77_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 79,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/8",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 147,
+        "name": null,
+        "username": "0xPhilipp",
+        "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+        "created_at": "2026-10-16T12:00:21.908Z",
+        "cooked": "<p>Thank you for the input. The current proposal follows the existing Bylaws and the process they provide for appointing an independent Emergency Supervisor. The immediate issue needs to be resolved first under the existing structure and governance framework.</p>\n<p>Suggestions regarding broader governance reform, additional oversight mechanisms or changes to the Foundation’s structure are noted and can be considered separately once the current process has concluded.</p>\n<p>For now, the focus should remain on resolving the matter before us through the process already defined.</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T12:00:21.908Z",
+        "reply_count": 1,
+        "reply_to_post_number": 8,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 24.4,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 79,
+          "username": "Vegas",
+          "name": null,
+          "avatar_template": "/user_avatar/forum.phoenix.money/vegas/{size}/77_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/9",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 148,
+        "name": null,
+        "username": "Vegas",
+        "avatar_template": "/user_avatar/forum.phoenix.money/vegas/{size}/77_2.png",
+        "created_at": "2026-10-16T12:35:50.261Z",
+        "cooked": "<p>I agree this needs to be resolved as soon as possible. My suggestion is to open the process to the whole community, allowing anyone who meets the requirements to put themselves forward. Rather than proceeding with one Emergency Supervisor, I believe we should consider three independent supervisors, with the community assessing the candidates and deciding through governance who should serve.</p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T12:35:50.562Z",
+        "reply_count": 0,
+        "reply_to_post_number": 9,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 20,
+        "readers_count": 19,
+        "score": 19,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3,
+          "username": "0xPhilipp",
+          "name": null,
+          "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 79,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": "Automatically removed quote of whole previous post.",
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/10",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 149,
+        "name": null,
+        "username": "Rarma",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/3bc359/{size}.png",
+        "created_at": "2026-10-16T12:47:28.186Z",
+        "cooked": "<p>The proposal rests on item 1. Article 2.6.1 only allows an Emergency Supervisor “If there has been an Adverse Event”, and item 1 asks Terra governance to recognize “the persistent 2–2 Stewardship deadlock” as one. The record doesn’t show that.</p>\n<p>* A272 got 2 yes votes out of 4 (Philipp and MB yes, Rose no, Vini didn’t vote), short of the 75% every proposal needs. Article 3.1.3.2(c) requires that threshold for any Board action through the multisig, so “the majority decides” doesn’t apply, and 2 of 4 isn’t a majority anyway.</p>\n<p>* Since A272 opened, all 11 proposals have reached the threshold, including steward pay and liquidity moves. Vini voted yes on 9 of them.</p>\n<p>* No proposal in 283 has ever split 2-2. Failures are normal under a 3-of-4 threshold: 14 of the 271 proposals before A272 failed.</p>\n<p>Item 1 relies on the part of the definition covering anything materially adverse to the Foundation’s ability to perform its duties, “including without limitation any persistent deadlock or dysfunction of any Body”. One failed removal vote, while everything else passes, is the threshold doing its job. If the proposal rests on something else, such as the negligence post 5 alludes to, it should say so and set out the evidence. If the real question is who sits on the Board, Terra governance can be asked that directly, as Vini suggested.</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T12:47:28.186Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 64.4,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 78,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/11",
+        "reactions": [
+          {
+            "id": "+1",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 150,
+        "name": null,
+        "username": "Rebel_Defi",
+        "avatar_template": "/user_avatar/forum.phoenix.money/rebel_defi/{size}/9_2.png",
+        "created_at": "2026-10-16T13:14:38.684Z",
+        "cooked": "<p>Have you read proposal A272?</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272\">\n  <header class=\"source\">\n      <img src=\"https://forum.phoenix.money/uploads/default/original/1X/b93f02e9c5051e8bc5a8695c37109c01589db68c.png\" class=\"site-icon\" alt=\"\" data-dominant-color=\"797979\" width=\"500\" height=\"500\">\n\n      <a href=\"https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272\" target=\"_blank\" rel=\"noopener nofollow ugc\">daodao.zone</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    \n\n<h3><a href=\"https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272\" target=\"_blank\" rel=\"noopener nofollow ugc\">DAO DAO</a></h3>\n\n  <p>Create a DAO to manage your community, protocol, or entire blockchain in just a few clicks. We support multisig, token-based, and NFT-based DAOs that can be as simple or complex as you want. Set up SubDAOs, manage interchain assets, and interact with...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n\n<blockquote>\n<p><strong>Risk Management / Trust:</strong> Serious failures in the handling of material ecosystem risks. Written security concerns about Astroport’s dependency on Neutron governance were dismissed days before that risk materialized, potentially exposing about $4.4M of Terra liquidity. Material information concerning Astroport was also held through private communications without being equally shared with other Directors while a fork or takeover was being discussed. The combination of risk judgment, information handling and stepping away during the incident has resulted in a material breakdown of Director-level trust.</p>\n</blockquote>\n<p>Normally, you seem pretty interested in chain security (or lack thereof).</p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T13:14:38.684Z",
+        "reply_count": 0,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 23,
+        "readers_count": 22,
+        "score": 14.6,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272",
+            "internal": false,
+            "reflection": false,
+            "title": "DAO DAO",
+            "clicks": 6
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 78,
+          "username": "Rarma",
+          "name": null,
+          "avatar_template": "/letter_avatar_proxy/v4/letter/r/3bc359/{size}.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/12",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 151,
+        "name": null,
+        "username": "0xPhilipp",
+        "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+        "created_at": "2026-10-16T13:53:37.514Z",
+        "cooked": "<p>Thank you for the input. The proposal A272 shows a clear internal dysfunction, that will not be resolved internally, updated the proposal text to make that more clear.</p>\n<p>We are following the Bylaws to appoint an independent Emergency Supervisor. Other PF members have already engaged with this process and agreed with the options being put forward, acknowledging the need for an independent review and resolution.</p>\n<p>Separately, I think, your Neutron governance attack report omitted that MB and I were the ones who identified and reported the issue and triggered the process for an immediate Neutron chain halt, while roughly $4.4M of Terra liquidity was exposed.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-16T14:14:31.135Z",
+        "reply_count": 0,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 34.4,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 78,
+          "username": "Rarma",
+          "name": null,
+          "avatar_template": "/letter_avatar_proxy/v4/letter/r/3bc359/{size}.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/13",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 152,
+        "name": null,
+        "username": "defi_patriot",
+        "avatar_template": "/user_avatar/forum.phoenix.money/defi_patriot/{size}/79_2.png",
+        "created_at": "2026-10-17T09:29:03.912Z",
+        "cooked": "<p>Thanks to Vegas and Vini for the substance so far. I’ll keep this to what I think the appointing proposal needs to say before it goes on chain, so that whoever is appointed has the community’s confidence regardless of what they conclude.</p>\n<p><strong>1. Three supervisors, open applications, written conflict disclosure.</strong> Philipp has said three would be acceptable and that applications can come through this thread. I’d ask that the on-chain text commit to that rather than default to one, and that every candidate including the two already named, post a written disclosure covering. Any current or past grant, delegation, salary or contract from the Foundation or from a company a Director runs any TLA, Votion or Eris position of material size and any personal relationship with a Director. Not to disqualify anyone, but so the community can judge independence itself rather than take it on assurance.</p>\n<p><strong>2. Terra pays them, not the Foundation.</strong> The proposal offers up to $10,000 from Foundation funds. The Bylaws (2.6.6) allow compensation to be set by the Emergency process subject to Community approval, so I’d ask that it be paid from the community pool through the same governance vote, fixed in advance, and not conditional on the outcome. The people being reviewed should not be the people signing the reviewers pay.</p>\n<p><strong>3. A mandate that includes both sides and the structure, with a published report.</strong> The supervisors should hear each Director, review whatever any of them submits, and publish a written report to the community before any action is taken. The mandate should include the question the Bylaws already raise: 2.5.1 requires a standing Supervisor “at all times,” and none has ever been appointed. That one applies to all four Directors equally and is exactly what an independent reviewer should be asked about.</p>\n<p><strong>4. The appointing vote should not pre-authorise a removal.</strong> Supervisors investigate and recommend the community decides on the recommendation. Folding the remedy into the appointment turns a review into a mechanism chosen by one side, whichever side it is.</p>\n<p><strong>5. If the outcome is a removal, the replacement comes with it.</strong> A272 would have taken the board from four at 75% to three at 60%, which is two people. Any removal should be packaged with a replacement of equivalent technical competence so the Foundation never operates as a 2-of-3. I’d also ask the supervisors to consider whether one or two seats should be community elected or unpaid and term limited, so that at least some votes on the board are held by people whose income does not depend on the Foundation’s own decisions. That’s not a comment on anyone currently serving it’s a design question about where independent judgment comes from.</p>\n<p>None of this slows the process down. All of it can be in the text that goes on chain next week.</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-17T09:29:03.912Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 23,
+        "readers_count": 22,
+        "score": 9.6,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/14",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 153,
+        "name": null,
+        "username": "ValidatorOperator",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/v/49beb7/{size}.png",
+        "created_at": "2026-10-17T09:41:40.223Z",
+        "cooked": "<p><strong><span class=\"bbcode-u\">There’s a lot of text here, so let me quickly summarise my understanding to bring everyone up to speed:</span></strong></p>\n<p>— Despite otherwise being in agreement on literally every other proposal, Vini voted “no” on a <em>single proposal</em> that would have <em>directly benefited</em> 0xPhilipp.</p>\n<p>— Claiming a “<em>deadlock</em>”, 0xPhilipp then tried to have Vini removed and move to 2-of-3 Rule</p>\n<p>— The vote to remove Vini failed, but 0xPhilipp <em>still withheld Vini’s pay</em> last month anyway.</p>\n<p>— 0xPhilipp is now proposing the <em>community pay $10,000</em> for someone to agree with him.</p>\n<p>— There is now a debate on who the patsy should be.</p>\n<p><strong>… Did I miss anything or does that about sum it up?</strong></p>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-17T09:41:40.223Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 9.4,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 81,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/15",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 154,
+        "name": null,
+        "username": "0xPhilipp",
+        "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+        "created_at": "2026-10-17T09:46:52.464Z",
+        "cooked": "<p>I guess you’re trolling.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://forum.phoenix.money/uploads/default/original/1X/bf545db36cd851a26d0bd8bdd0df8438d1abdc52.png\" data-download-href=\"https://forum.phoenix.money/uploads/default/bf545db36cd851a26d0bd8bdd0df8438d1abdc52\" title=\"image\"><img src=\"https://forum.phoenix.money/uploads/default/original/1X/bf545db36cd851a26d0bd8bdd0df8438d1abdc52.png\" alt=\"image\" data-base62-sha1=\"rizWUDyarjLBRhpti8mAPsTLSSK\" width=\"98\" height=\"33\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">393×135 19.1 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>I don’t control PF, and any PF member can put forward proposals. I also cannot “withhold” anyone’s funds if the Board decides they should be paid.</p>\n<p>The claims that I am bribing someone to agree with me, or acting corruptly, are blatant allegations and I strongly reject them. I don’t take accusations like that lightly, Adam.</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-17T11:58:42.449Z",
+        "reply_count": 0,
+        "reply_to_post_number": 15,
+        "quote_count": 0,
+        "incoming_link_count": 5,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 29.4,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 3,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 81,
+          "username": "ValidatorOperator",
+          "name": null,
+          "avatar_template": "/letter_avatar_proxy/v4/letter/v/49beb7/{size}.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/16",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 155,
+        "name": null,
+        "username": "0xPhilipp",
+        "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+        "created_at": "2026-10-17T09:56:27.373Z",
+        "cooked": "<p>Most of Vini and Vegas messages is redesigning the process which already is defined in our bylaws, rather than discussing the underlying issues.</p>\n<ol>\n<li>Three supervisors and disclosures are fine if suitable candidates are available.</li>\n<li>Payment source is largely irrelevant. The Bylaws allow compensation through either the PF or Terra Governance. Just easier to execute &amp; manage.</li>\n<li>The mandate should stay limited to the Adverse Event. A fully public report may not be possible where confidential material is involved, especially considering this including private discussions, which are confidential based on the Bylaws.</li>\n<li>Removal is not pre-decided. The Bylaws already define what an Emergency Supervisor can do if they conclude removal is necessary.</li>\n<li>A replacement is not required as part of the same process. We have approached candidates, but unsurprisingly they do not want to join during an active internal conflict.</li>\n</ol>\n<p>Resolve the current issue first. Structural reform comes afterwards.</p>",
+        "post_number": 17,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-17T09:56:27.373Z",
+        "reply_count": 1,
+        "reply_to_post_number": 14,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 9.2,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 4,
+          "username": "defi_patriot",
+          "name": null,
+          "avatar_template": "/user_avatar/forum.phoenix.money/defi_patriot/{size}/79_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/17",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 156,
+        "name": null,
+        "username": "defi_patriot",
+        "avatar_template": "/user_avatar/forum.phoenix.money/defi_patriot/{size}/79_2.png",
+        "created_at": "2026-10-17T10:31:07.674Z",
+        "cooked": "<p>Appreciate the direct answers. Taking them in order.</p>\n<p><strong>Payment.</strong> If the source is “largely irrelevant,” then there’s no cost to paying from the community pool through the appointing vote and a real benefit. Nobody can later say the reviewers were paid by the reviewed. Convenience shouldn’t be the reason to leave that open.</p>\n<p><strong>Report.</strong> Agreed that confidential material can’t all be public. The standard elsewhere is a public findings and recommendation summary with a confidential annex available to validators under an NDA. The community is being asked to vote on whatever comes out of this it should be able to read what it’s voting on.</p>\n<p><strong>Scope.</strong> “Limited to the Adverse Event” is fine, provided the mandate includes the question of whether one exists that’s the point Rarma raised and it hasn’t been answered. Determining the threshold is the first thing an independent reviewer should do, not something the appointing text assumes.</p>\n<p><strong>Replacement.</strong> If candidates won’t join during an active conflict, that’s the strongest argument for tying the two together, not separating them. Otherwise the Foundation runs as 2-of-3 at 60% for an open ended period. A simple fix, if the supervisors recommend removal, it takes effect on the appointment of a replacement, or the threshold stays at unanimity of the remaining three until then. That’s not structural reform it’s the terms of this one process.</p>\n<p><strong>“Already defined in the Bylaws.”</strong> The Bylaws say the supervisors are appointed “through the Terra Governance Process.” Setting the terms of that appointment is governance doing its job, not redesigning the process. Also the one standing requirement the Bylaws do impose a Supervisor “at all times” under 2.5.1 has never been met, which is reason enough for the community to be careful about the terms this time.</p>",
+        "post_number": 18,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-17T10:31:07.674Z",
+        "reply_count": 1,
+        "reply_to_post_number": 17,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 24.2,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3,
+          "username": "0xPhilipp",
+          "name": null,
+          "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/18",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 157,
+        "name": null,
+        "username": "0xPhilipp",
+        "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+        "created_at": "2026-10-17T11:56:09.245Z",
+        "cooked": "<p>Phoenix Foundation is a separate legal entity governed by Bylaws drafted with MetaLeX to cover precisely these kinds of situations. Terra Governance has specific powers over funding, veto and emergency processes, but neither the chain nor an individual forum user can simply rewrite that legal framework ad hoc.</p>\n<p>The process defined in the Bylaws needs to be followed by the Directors. This proposal is therefore an informational notice asking Terra Governance to appoint an independent Emergency Supervisor, so that the defined due process is being followed. Nothing more, nothing less.</p>",
+        "post_number": 19,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-17T11:56:09.245Z",
+        "reply_count": 0,
+        "reply_to_post_number": 18,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 44.2,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 4,
+          "username": "defi_patriot",
+          "name": null,
+          "avatar_template": "/user_avatar/forum.phoenix.money/defi_patriot/{size}/79_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": 3,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/19",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 158,
+        "name": null,
+        "username": "David",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/aeb1de/{size}.png",
+        "created_at": "2026-10-17T13:41:43.581Z",
+        "cooked": "<p>I’ve read this proposal, reread the A272 prop, read the discussion to date and, importantly, the bylaws of the PF BORG for the first time.</p>\n<p>I’m viewing this prop and the broader discussion as focussing on establishing proper procedure to manage the current internal PF dispute.</p>\n<p>When A272 first came to attention, I publicly voiced that I had concerns about some of the allegations, specifically those relating to the Neutron/Astroport security breach and the reference to potentially converting Terra from being a defi chain to a meme coin.</p>\n<p>Without making any judgement, both those sets of allegations seemed existential to me and still do. So at that time I was of the view that it might be beneficial if the prop stalemated (which it has) and instead went to Terra for governance. I thought this would give opportunity for the chain to consider the context of the allegations and also for the director concerned to speak to them.</p>\n<p>Having now read the bylaws in full, I am of a bit different mind as influenced by the following clauses and developments:</p>\n<ol>\n<li>\n<p>Whilst we can see that PF has not yet had a persistent general functional impasse at a voting level, the circumstances of A272 can be seen as constituting an Adverse Event under the definitions. I am considering 2 respects:<br>\na/ wherein the charges constitute allegations of gross negligence notwithstanding potential harm to Terra was preemptively mitigated and,<br>\nb/ the extent of the dispute is such that, despite having only one obvious voting impasse, the conditions now exist for persistent dysfunction of the  BORG because there is unwillingness for all the directors to continue to work together without resolution of the dispute.</p>\n</li>\n<li>\n<p>Section 5 Confidential information provides clear direction on confidentialilty and PII. Essentially I read it that the contextual information around the allegations in the prop cannot be shared in a public forum because they are deemed by the board as confidential. In hindsight, this is the proper approach as board discussions and debate cannot generically be subject to public scrutiny, only the decisions and actions taken thereof. Terra Governance is thus the wrong place for a decision on the matter and I have to change my view to align with the bylaws/constitution of the BORG.</p>\n</li>\n<li>\n<p>While this is structurally an internal dispute for the BORG to resolve, it cannot be done by the current personnel structure because it’s a stalemated 4 person voting group, being defined as the members of the Multisig, with no tie breaking vote in place (aside: absence of a tiebreaker must be addressed too in my opinion). As this is stalemated and unchanging, a mechanism from the bylaws needs to be activated. For an adverse event, the appointment of an Emergency Supervisor/s is the localised solution (Section 2.6). The Emergency Supervisor is a temporary role and cannot be a long term or permanent role.</p>\n</li>\n</ol>\n<p>I note that the bylaws do require that a Supervisor (not emergency) should also have been in place from the beginning and, depending on the laws of jurisdiction governing the BORG, they may have had some powers to help resolve this dispute although such powers aren’t clear in the bylaws. (Section 2.5). However the BORG has failed in it’s obligation to make that appointment which could arguably also be seen as a general adverse event that should also be considered by an appointed Emergency Supervisor given the current stalemated board.</p>\n<p>Practically, the board appoints a Supervisor, Terra Governance appoints an Emergency Supervisor/s</p>\n<ol start=\"4\">\n<li>\n<p>There is an apparent willingness by all of the directors to abide by the direction of an emergency Supervisor/s. I used the term direction in the sense of advice as the bylaws constrain the Emergency Supervisors capacity to direct.</p>\n</li>\n<li>\n<p>This prop fulfills the requirements of the bylaws for the purpose of Terra Governance electing an Emergency Supervisor/s.</p>\n</li>\n</ol>\n<p>Two excellent candidates have been put forward, acceptable to the board. Personally I would support either or both if that’s what the chain decides.</p>\n<p>My personal opinion is that it is unnecessary to have more than one Emergency Supervisor to resolve this situation. Further, to engender a whole discussion to expand the options also seems unnecessary and likely to be a significant time sync with potential for engendering disharmony. But if the weight of opinion goes that way then the Board should be open to revising the prop accordingly.</p>\n<p>If it was to be one appointed, then my personal election would be for the party with the greatest legal experience to help secure the credibility of the BORG and it’s processes and steer it to correctly remedy the current weaknesses. These aren’t really addressed in this prop but I think it would be a good idea to revise the prop to empower the Emergency Supervisor to also review PF for compliance with the bylaws and recommend appropriate remedial action. Of the two candidates, Martin is the one with the most relevant legal qualifications.</p>\n<ol start=\"6\">\n<li>Apart from resolving the A272 dispute the 2 structural things I would like to see modified are those I referenced above:<br>\na. moving to an odd number of directors to ensure the presence of a tie breaking vote. This should be 5 or 7 max. Ideally all decisions could be resolved by consensus however strategically this may not always be possible and the board should be able to make decisions for action.<br>\nb. The appointment of an ongoing Supervisor as that is required under the bylaws.<br>\nWhile they are separate issues, I feel it would serve Terra’s interests for them to be resolved by advice in this process too so that they have the stamp of the independence of the Emergency Supervisor.</li>\n</ol>",
+        "post_number": 20,
+        "post_type": 1,
+        "posts_count": 92,
+        "updated_at": "2026-10-17T21:36:06.289Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 14,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 135.2,
+        "yours": false,
+        "topic_id": 47,
+        "topic_slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 22,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/20",
+        "reactions": [
+          {
+            "id": "+1",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      200,
+      201,
+      202,
+      204,
+      205,
+      206,
+      208,
+      209,
+      210,
+      221,
+      224,
+      225,
+      226,
+      227,
+      228,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      250,
+      251,
+      252,
+      253,
+      255
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      10
+    ],
+    [
+      14,
+      9
+    ],
+    [
+      23,
+      8
+    ],
+    [
+      25,
+      7
+    ],
+    [
+      61,
+      6
+    ],
+    [
+      72,
+      5
+    ],
+    [
+      76,
+      4
+    ],
+    [
+      86,
+      3
+    ],
+    [
+      88,
+      1
+    ],
+    [
+      91,
+      0
+    ]
+  ],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Phoenix Foundation: Appointment of an Emergency Supervisor",
+  "id": 47,
+  "title": "Phoenix Foundation: Appointment of an Emergency Supervisor",
+  "posts_count": 92,
+  "created_at": "2026-10-16T01:55:56.382Z",
+  "views": 906,
+  "reply_count": 66,
+  "like_count": 55,
+  "last_posted_at": "2026-10-26T10:49:45.159Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": true,
+  "archetype": "regular",
+  "slug": "phoenix-foundation-appointment-of-an-emergency-supervisor",
+  "category_id": 5,
+  "word_count": 26711,
+  "deleted_at": null,
+  "user_id": 3,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_47",
+  "draft_sequence": 48,
+  "posted": false,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 100,
+  "last_read_post_number": 92,
+  "last_read_post_id": 244,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 589,
+  "participant_count": 20,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "board_memberships": [],
+  "valid_reactions": [
+    "heart",
+    "+1",
+    "laughing",
+    "open_mouth",
+    "clap",
+    "confetti_ball",
+    "hugs"
+  ],
+  "has_accepted_answer": false,
+  "can_create_shared_issue": false,
+  "shared_issue_visible": false,
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 2,
+    "notifications_reason_id": 4,
+    "can_invite_to": true,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 3,
+        "username": "0xPhilipp",
+        "name": null,
+        "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+        "post_count": 23,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "admin": true,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 78,
+        "username": "Rarma",
+        "name": null,
+        "avatar_template": "/letter_avatar_proxy/v4/letter/r/3bc359/{size}.png",
+        "post_count": 11,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 2,
+        "username": "Rebel_Defi",
+        "name": null,
+        "avatar_template": "/user_avatar/forum.phoenix.money/rebel_defi/{size}/9_2.png",
+        "post_count": 8,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 79,
+        "username": "Vegas",
+        "name": null,
+        "avatar_template": "/user_avatar/forum.phoenix.money/vegas/{size}/77_2.png",
+        "post_count": 7,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 80,
+        "username": "MaxP",
+        "name": "Cordt",
+        "avatar_template": "/user_avatar/forum.phoenix.money/maxp/{size}/81_2.png",
+        "post_count": 7,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 1,
+        "username": "vini",
+        "name": "Vini | SCV-Security, PD",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/v/c77e96/{size}.png",
+        "post_count": 5,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "admin": true,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 62,
+        "username": "PhoenixPinion",
+        "name": null,
+        "avatar_template": "/user_avatar/forum.phoenix.money/phoenixpinion/{size}/49_2.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 15,
+        "username": "cryptobull",
+        "name": null,
+        "avatar_template": "/letter_avatar_proxy/v4/letter/c/e36b37/{size}.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 84,
+        "username": "Ex_TFL",
+        "name": null,
+        "avatar_template": "/user_avatar/forum.phoenix.money/ex_tfl/{size}/92_2.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 16,
+        "username": "mbaejir",
+        "name": null,
+        "avatar_template": "/letter_avatar_proxy/v4/letter/m/bb73d2/{size}.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "admin": true,
+        "trust_level": 1
+      },
+      {
+        "id": 4,
+        "username": "defi_patriot",
+        "name": null,
+        "avatar_template": "/user_avatar/forum.phoenix.money/defi_patriot/{size}/79_2.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 7,
+        "username": "rose",
+        "name": null,
+        "avatar_template": "/user_avatar/forum.phoenix.money/rose/{size}/10_2.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "admin": true,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 92,
+        "username": "terra1kepapcnh78hsk8nx2u9nv05rn7vjwwf4fvccj0",
+        "name": "Terra1kepapcnh78hsk8nx2u9nv05rn7vjwwf4fvccj0",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/t/7bcc69/{size}.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 83,
+        "username": "LionKing",
+        "name": null,
+        "avatar_template": "/letter_avatar_proxy/v4/letter/l/f04885/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 22,
+        "username": "David",
+        "name": null,
+        "avatar_template": "/letter_avatar_proxy/v4/letter/d/aeb1de/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 82,
+        "username": "BananaMan",
+        "name": null,
+        "avatar_template": "/letter_avatar_proxy/v4/letter/b/b77776/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 88,
+        "username": "JustATerraUser",
+        "name": "JustATerraUser",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/j/f0a364/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 85,
+        "username": "Niemin1",
+        "name": "Niemin1",
+        "avatar_template": "/letter_avatar_proxy/v4/letter/n/77aa72/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 81,
+        "username": "ValidatorOperator",
+        "name": null,
+        "avatar_template": "/letter_avatar_proxy/v4/letter/v/49beb7/{size}.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 61,
+        "username": "HighStakes",
+        "name": "Thomas",
+        "avatar_template": "/user_avatar/forum.phoenix.money/highstakes/{size}/46_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 3,
+      "username": "0xPhilipp",
+      "name": null,
+      "avatar_template": "/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png"
+    },
+    "last_poster": {
+      "id": 92,
+      "username": "terra1kepapcnh78hsk8nx2u9nv05rn7vjwwf4fvccj0",
+      "name": "Terra1kepapcnh78hsk8nx2u9nv05rn7vjwwf4fvccj0",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/t/7bcc69/{size}.png"
+    },
+    "links": [
+      {
+        "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272",
+        "title": "Phoenix DAOs",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 32,
+        "user_id": 1,
+        "domain": "dao.phoenix.money",
+        "root_domain": "phoenix.money"
+      },
+      {
+        "url": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A272",
+        "title": "DAO DAO",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 10,
+        "user_id": 2,
+        "domain": "daodao.zone",
+        "root_domain": "daodao.zone"
+      },
+      {
+        "url": "https://github.com/phoenix-directive/docs/blob/main/Phoenix%20Foundation%20-%20Bylaws.pdf",
+        "title": "docs/Phoenix Foundation - Bylaws.pdf at main · phoenix-directive/docs · GitHub",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 10,
+        "user_id": 3,
+        "domain": "github.com",
+        "root_domain": "github.com"
+      },
+      {
+        "url": "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/1DE81BB81938CD27B89D3ED16A04E5D3404956F3EDE1963FB2F2587F446B6243",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 6,
+        "user_id": 84,
+        "domain": "rest-archive.neutron.solva.solutions",
+        "root_domain": "solva.solutions"
+      },
+      {
+        "url": "https://x.com/Rarma_/status/1976852371558031451",
+        "title": "Rarma on X: \"Hahahahaahahahah, sorry for those holding the bag. You have had more warning and notice than anyonE. And no, I’m not a buyer of your shitcoins at these prices. LMFAO\" / X",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 5,
+        "user_id": 3,
+        "domain": "x.com",
+        "root_domain": "x.com"
+      },
+      {
+        "url": "https://github.com/phoenix-directive/docs/blob/main/the-phoenix-directive.md",
+        "title": "docs/the-phoenix-directive.md at main · phoenix-directive/docs · GitHub",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 4,
+        "user_id": 3,
+        "domain": "github.com",
+        "root_domain": "github.com"
+      },
+      {
+        "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+        "title": "Phoenix DAOs",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 3,
+        "user_id": 84,
+        "domain": "dao.phoenix.money",
+        "root_domain": "phoenix.money"
+      },
+      {
+        "url": "https://www.caliber.ky/#team",
+        "title": "Caliber Cayman - Independent Directors & Fiduciary Services for Digital Assets | Crypto Governance Experts",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 3,
+        "user_id": 84,
+        "domain": "www.caliber.ky",
+        "root_domain": "caliber.ky"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/phoenix-directive/docs@main/Phoenix%20Foundation%20-%20Bylaws.pdf#page=30",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 3,
+        "user_id": 80,
+        "domain": "cdn.jsdelivr.net",
+        "root_domain": "jsdelivr.net"
+      },
+      {
+        "url": "https://x.com/search?q=from%3A%400xphilipp%20%40rarma_&src=typed_query&f=top",
+        "title": "X - The Everything App / X",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 78,
+        "domain": "x.com",
+        "root_domain": "x.com"
+      },
+      {
+        "url": "https://chainsco.pe/terra2/tx/B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+        "title": "chainscope",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 84,
+        "domain": "chainsco.pe",
+        "root_domain": "chainsco.pe"
+      },
+      {
+        "url": "https://github.com/phoenix-directive/docs/blob/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md#L168-L169",
+        "title": "docs/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md at 7cebbd26048f0e1568a2aed55177090b90788d8b · phoenix-directive/docs · GitHub",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 84,
+        "domain": "github.com",
+        "root_domain": "github.com"
+      },
+      {
+        "url": "https://leeward.ky/about-us/our-team/glenn-kennedy",
+        "title": "Glenn Kennedy | Managing Director | Leeward",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 84,
+        "domain": "leeward.ky",
+        "root_domain": "leeward.ky"
+      },
+      {
+        "url": "https://www.ims.ky/meet-the-team/aaron-unterman",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 84,
+        "domain": "www.ims.ky",
+        "root_domain": "ims.ky"
+      },
+      {
+        "url": "https://x.com/Rarma_/status/1977098899161858402",
+        "title": "Rarma on X: \"@0xphilipp Probably not the one to be talking about others Character, mate.\" / X",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 2,
+        "user_id": 3,
+        "domain": "x.com",
+        "root_domain": "x.com"
+      },
+      {
+        "url": "https://terra-money.notion.site/Community-Guidelines-a8f707de0b7d4164922452d53a49cbbf",
+        "title": "Notion",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 3,
+        "domain": "terra-money.notion.site",
+        "root_domain": "notion.site"
+      },
+      {
+        "url": "https://common.xyz/terra/discussion/7889-scv-terra-security-expansion-program-proposal",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 2,
+        "domain": "common.xyz",
+        "root_domain": "common.xyz"
+      },
+      {
+        "url": "https://www.fticonsulting.com/en/spain/experts/david-griffin",
+        "title": "David Griffin | Senior Managing Director | FTI Consulting",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 84,
+        "domain": "www.fticonsulting.com",
+        "root_domain": "fticonsulting.com"
+      },
+      {
+        "url": "https://analytics.smartstake.io/terra/proposal/3534",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 2,
+        "domain": "analytics.smartstake.io",
+        "root_domain": "smartstake.io"
+      },
+      {
+        "url": "https://github.com/phoenix-directive/core/blob/release/v2.20/CODE_OF_CONDUCT.md",
+        "title": "core/CODE_OF_CONDUCT.md at release/v2.20 · phoenix-directive/core · GitHub",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 3,
+        "domain": "github.com",
+        "root_domain": "github.com"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/phoenix-directive/docs@main/Phoenix%20Foundation%20-%20Bylaws.pdf#page=12",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 80,
+        "domain": "cdn.jsdelivr.net",
+        "root_domain": "jsdelivr.net"
+      },
+      {
+        "url": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A266",
+        "title": null,
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 1,
+        "domain": "dao.phoenix.money",
+        "root_domain": "phoenix.money"
+      }
+    ]
+  },
+  "pending_posts": [],
+  "bookmarks": []
+}

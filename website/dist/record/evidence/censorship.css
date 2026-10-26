@@ -1,0 +1,28 @@
+/* The approved evidence section: sources stay beside their statements. */
+#censorship{font-size:19px;line-height:1.65}
+#censorship p{max-width:74ch}
+#censorship>.censorship-lead{font-size:22px;line-height:1.6;margin:0 0 36px}
+#censorship h3{font:650 25px/1.35 var(--sans);letter-spacing:0;margin:42px 0 20px}
+#censorship h4{font:650 21px/1.4 var(--sans);letter-spacing:0;margin:0 0 16px}
+#censorship #mass-deletions{padding:0 0 32px;margin:0 0 36px;border:0;border-bottom:1px solid var(--line)}
+#censorship .source-block{margin:20px 0 32px;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+#censorship .source-block>p{margin:0 0 12px}
+#censorship .source-block ul{list-style:none;padding:0;margin:0}
+#censorship .source-block li{margin:14px 0}
+#censorship .source-block li:last-child{margin-bottom:0}
+#censorship .source-block span{display:block;color:var(--muted);margin:4px 0 0;font-size:inherit}
+#censorship .source-block a{display:inline-block;padding:4px 0;font-size:inherit}
+#censorship .verification{padding:24px;background:var(--wash);margin:32px 0}
+#censorship .verification ol{margin:0;padding-left:24px}
+#censorship .verification li{padding-left:4px;margin:0 0 16px}
+#censorship .verification li:last-child{margin-bottom:0}
+#censorship .links{font-size:inherit;line-height:1.6}
+#censorship .links a{display:block;margin:12px 0;padding:4px 0;font-weight:600;font-size:inherit}
+#censorship figure{margin:24px 0}
+#censorship figure>a{display:block}
+#censorship img{display:block;width:100%;max-width:100%;height:auto;max-height:none;border:1px solid var(--line)}
+#censorship figcaption{margin-top:12px;font-size:16px;line-height:1.5;color:var(--muted)}
+#censorship code{font-size:.9em;overflow-wrap:anywhere}
+#censorship summary{padding:12px 0;font-size:inherit;font-weight:600}
+#censorship .records{border-top:1px solid var(--line);margin-top:36px;padding-top:24px}
+@media(max-width:600px){#censorship{font-size:17px}#censorship>.censorship-lead{font-size:20px}#censorship h3{font-size:23px}#censorship h4{font-size:20px}#censorship .verification{padding:20px 16px}}

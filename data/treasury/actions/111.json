@@ -1,0 +1,38 @@
+{
+  "data": {
+    "id": 111,
+    "name": "OTC 1313452.17073 LUNA -> 70000.00000 USDC",
+    "reserved": [
+      {
+        "info": {
+          "native": "uluna"
+        },
+        "amount": "5"
+      }
+    ],
+    "cancelled": false,
+    "done": false,
+    "setup": {
+      "otc": {
+        "amount": {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "1313452170733"
+        },
+        "into": {
+          "info": {
+            "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+          },
+          "amount": "70000000000"
+        }
+      }
+    },
+    "active_from": 1789956424,
+    "total_usd": "70855",
+    "total_usd_30d": "118951",
+    "runtime": {
+      "otc": {}
+    }
+  }
+}

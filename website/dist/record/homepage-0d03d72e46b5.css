@@ -1,0 +1,19 @@
+/* Payment-led homepage: preserved ledger, direct navigation and key records. */
+.home-record-page main{padding-top:36px}
+.home-record-page .intro h1{margin-bottom:14px}
+.home-record-page .intro .lead{font-size:22px;margin-bottom:12px}
+.home-record-page .headline-figures{margin-top:26px}
+.home-record-page .home-core{padding:28px 0}
+.home-fact-grid{display:grid;grid-template-columns:1.35fr 1fr 1fr}
+.home-fact{padding:0 24px;border-right:1px solid var(--line);min-width:0}
+.home-fact:first-child{padding-left:0}.home-fact:last-child{padding-right:0;border:0}
+.home-record-page .home-fact h2{font:600 15px/1.4 var(--sans);margin:0 0 10px;max-width:30ch}
+.home-record-page .home-fact-number{font:550 36px/1.15 var(--sans);font-variant-numeric:tabular-nums;letter-spacing:-.025em;margin:0 0 12px}
+.home-fact-number small{font:400 17px/1.4 var(--sans);letter-spacing:0}
+.home-record-page .home-fact p:not(.home-fact-number){font:400 15px/1.6 var(--sans);margin:0 0 14px;max-width:42ch}
+.home-fact>a{font:500 14px/1.5 var(--sans)}
+.home-record-links{display:flex;flex-wrap:wrap;gap:14px 32px;margin:26px 0 12px;font:600 16px/1.5 var(--sans)}
+.home-record-page .home-snapshot{font:400 12px/1.55 var(--sans);color:var(--muted);margin:0}
+.home-record-page .payment-contents{margin-bottom:0}
+@media(max-width:720px){.home-record-page main{padding-top:28px}.home-record-page .intro .lead{font-size:20px}.home-record-page .headline-figures{margin-top:24px}.home-record-page .home-core{padding:28px 0}.home-fact-grid{grid-template-columns:1fr;gap:24px}.home-fact,.home-fact:first-child,.home-fact:last-child{display:grid;grid-template-columns:84px minmax(0,1fr);gap:6px 20px;padding:0 0 24px;border:0;border-bottom:1px solid var(--line)}.home-fact:last-child{padding-bottom:0;border:0}.home-record-page .home-fact h2{grid-column:2;margin:0;font-size:15px}.home-record-page .home-fact-number{grid-column:1;grid-row:1/3;margin:0;font-size:31px}.home-fact-number small{display:block;font-size:12px;margin-top:6px}.home-record-page .home-fact p:not(.home-fact-number){grid-column:2;margin:0;font-size:14px}.home-fact>a{grid-column:2;font-size:13px;margin-top:4px}.home-record-links{display:block;font-size:15px}.home-record-links a{display:block;padding:8px 0}.home-record-page .home-snapshot{font-size:12px}.home-record-page .headline-figure{grid-template-columns:minmax(0,1fr) auto;gap:5px 14px}.home-record-page .headline-figure>strong{font-size:26px}.home-record-page .headline-figure small{font-size:15px}}
+@media(max-width:370px){.home-record-page .headline-figure{display:block}.home-record-page .headline-figure>strong{display:block;text-align:left;margin:8px 0}.home-fact,.home-fact:first-child,.home-fact:last-child{grid-template-columns:70px minmax(0,1fr);gap:6px 16px}}

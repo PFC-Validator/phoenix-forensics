@@ -1,0 +1,38 @@
+{
+  "data": {
+    "id": 91,
+    "name": "OTC 754547.74166 LUNA -> 0.62500 WBTC",
+    "reserved": [
+      {
+        "info": {
+          "native": "uluna"
+        },
+        "amount": "2"
+      }
+    ],
+    "cancelled": false,
+    "done": false,
+    "setup": {
+      "otc": {
+        "amount": {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "754547741664"
+        },
+        "into": {
+          "info": {
+            "native": "ibc/CF57A83CED6CEC7D706631B5DC53ABC21B7EDA7DF7490732B4361E6D5DD19C73"
+          },
+          "amount": "62500000"
+        }
+      }
+    },
+    "active_from": 1776397466,
+    "total_usd": "49568",
+    "total_usd_30d": "0",
+    "runtime": {
+      "otc": {}
+    }
+  }
+}

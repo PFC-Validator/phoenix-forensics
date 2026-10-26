@@ -1,0 +1,444 @@
+{
+  "title": "Philipp Payments",
+  "evidence_cutoff": "Records reviewed through 18 October 2026; individual datasets have earlier cutoffs. Proposal 4813 receipt verified from its 7 June 2024 block.",
+  "scope": "Philipp is the single display heading for his identified accounts, Eris and the project funding and fee streams below. Product and account names identify the route and purpose. The total combines gross funding, work pay, revenue, expenses and locked capital; it is not personal net profit or a claim of sole legal ownership of every recipient. It is not a damages calculation.",
+  "price_basis": "USD figures for recorded receipts use the preserved historical market references, generally the preceding completed hour, not today’s token price or realized sale proceeds. Unpriced means no defensible receipt-time USD value has been joined.",
+  "total_usd": "1567716.8972259018060900567422881361140620000",
+  "received": [
+    {
+      "id": "received-3",
+      "person": "Philipp",
+      "title": "Stewardship compensation",
+      "amount": "200,080 USDC",
+      "usd": "200060.3029152960000000000",
+      "date": "13 Nov 2024–17 Oct 2026",
+      "status": "Recorded receipts",
+      "meaning": "23 recorded work-pay receipts, including 8,640 USDC claimed on 17 October 2026. Project grants and expenses are separate.",
+      "include_in_received_total": true,
+      "usd_basis": "Historical reference value",
+      "sources": []
+    },
+    {
+      "id": "project-creda",
+      "person": "Philipp",
+      "title": "Creda",
+      "amount": "210,000 USDC",
+      "usd": "210004.6711000000000000000",
+      "date": "2026-01-02; 2026-01-27",
+      "status": "Recorded project receipts",
+      "meaning": "Component of Phoenix project grants.",
+      "include_in_received_total": true,
+      "sources": [
+        {
+          "label": "2026-01-02 payment",
+          "href": "https://chainsco.pe/terra2/tx/B69406784A9862287627AFD55FDEC09D616575F14C098B8C57540BFA682B78A4"
+        },
+        {
+          "label": "2026-01-27 payment",
+          "href": "https://chainsco.pe/terra2/tx/1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A"
+        }
+      ]
+    },
+    {
+      "id": "project-votion",
+      "person": "Philipp",
+      "title": "Votion",
+      "amount": "50,000 USDC",
+      "usd": "49994.4994500000000000000",
+      "date": "2025-02-19; 2025-08-25",
+      "status": "Recorded project receipts",
+      "meaning": "Component of Phoenix project grants.",
+      "include_in_received_total": true,
+      "sources": [
+        {
+          "label": "2025-02-19 payment",
+          "href": "https://chainsco.pe/terra2/tx/EAFD276B9B0715B7A0C7347448C80034438FEDB30DFBC9693AA77156B9A878D6"
+        },
+        {
+          "label": "2025-08-25 payment",
+          "href": "https://chainsco.pe/terra2/tx/11B8F9AAF6BEE5F56F8C85FE73397899225959E910BDF8D87E34D6A742DA1353"
+        }
+      ]
+    },
+    {
+      "id": "project-migration-tool",
+      "person": "Philipp",
+      "title": "Migration tool",
+      "amount": "5,000 USDC",
+      "usd": "4999.4993645000000000000",
+      "date": "2026-09-10",
+      "status": "Recorded project receipts",
+      "meaning": "Component of Phoenix project grants.",
+      "include_in_received_total": true,
+      "sources": [
+        {
+          "label": "2026-09-10 payment",
+          "href": "https://chainsco.pe/terra2/tx/DE263C81499583B22805A5B8577D2818B41A22826D56A03AA8F987EC020D9B9D"
+        }
+      ]
+    },
+    {
+      "id": "project-estima-kickoff",
+      "person": "Philipp",
+      "title": "Estima kickoff",
+      "amount": "45,000 USDC",
+      "usd": "44998.6486320000000000000",
+      "date": "2026-10-03",
+      "status": "Recorded project receipts",
+      "meaning": "Component of Phoenix project grants.",
+      "include_in_received_total": true,
+      "sources": [
+        {
+          "label": "2026-10-03 payment",
+          "href": "https://chainsco.pe/terra2/tx/491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D"
+        }
+      ]
+    },
+    {
+      "id": "received-4",
+      "person": "Philipp",
+      "title": "Neutron project grants",
+      "amount": "100,000 USDC",
+      "usd": "99994.989500000000000000",
+      "date": "8 Jul 2024–2 Jun 2025",
+      "status": "Recorded receipts",
+      "meaning": "Two 50,000-USDC awards. Subsequent transfers of 90,000 to Superbolt and 10,000 to another professional account are later uses of this funding.",
+      "include_in_received_total": true,
+      "usd_basis": "Historical reference value",
+      "sources": []
+    },
+    {
+      "id": "overlap-1",
+      "person": "Philipp",
+      "title": "Superbolt invoice-labelled payment batches",
+      "amount": "55,975.5 USDC",
+      "usd": "55967.8878550000000000000",
+      "date": "2025-08-05–2026-03-17",
+      "status": "Paid; not added again",
+      "meaning": "Identified payments to Philipp. Kept outside the broad resource sum to avoid adding a downstream company payout to funding already counted upstream.",
+      "include_in_received_total": false,
+      "usd_basis": "Historical reference value",
+      "sources": []
+    },
+    {
+      "id": "overlap-2",
+      "person": "Philipp",
+      "title": "Superbolt invoice 2024-002",
+      "amount": "7,500 USDC",
+      "usd": "7498.0499100000000000000",
+      "date": "2024-08-23",
+      "status": "Paid; not added again",
+      "meaning": "Identified payments to Philipp. Kept outside the broad resource sum to avoid adding a downstream company payout to funding already counted upstream.",
+      "include_in_received_total": false,
+      "usd_basis": "Historical reference value",
+      "sources": []
+    },
+    {
+      "id": "received-voting",
+      "person": "Philipp",
+      "title": "Voting incentives and rebases",
+      "amount": "Multiple tokens",
+      "usd": "1043.5390509759083477526876354800510700000",
+      "date": "2025-12-31–2026-09-23",
+      "status": "Recorded receipts",
+      "meaning": "Recorded incentives/rebases. Includes rewards paid to or compounded for associated positions, not proof of a discretionary salary or pure profit.",
+      "include_in_received_total": true,
+      "sources": []
+    },
+    {
+      "id": "received-6",
+      "person": "Philipp",
+      "title": "Expenses and reimbursements",
+      "amount": "10,450 USDC + 3,500 LUNA",
+      "usd": "10925.2608677000000000000",
+      "date": "19 Nov 2024–23 Jun 2025",
+      "status": "Recorded receipts",
+      "meaning": "Gross reimbursements received. The related expenses have not been reconciled into retained benefit.",
+      "include_in_received_total": true,
+      "usd_basis": "Historical reference value",
+      "sources": []
+    },
+    {
+      "id": "received-7",
+      "person": "Philipp",
+      "title": "Permanent alignment allocation — A43",
+      "amount": "20,750 ampLUNA · NFT 432",
+      "usd": "9338.1335790918637842862455870000000000000",
+      "date": "5 Nov 2024",
+      "status": "Locked allocation",
+      "meaning": "Permanent locked capital allocation, assigned on 5 November 2024. This identifies the allocation precisely rather than calling it a generic bonus.",
+      "include_in_received_total": true,
+      "usd_basis": "Historical reference value",
+      "sources": []
+    },
+    {
+      "id": "received-1",
+      "person": "Philipp",
+      "title": "Original Eris development grant",
+      "amount": "312,500 LUNA",
+      "usd": "598925.5212500000000",
+      "date": "20 Jan 2023",
+      "status": "Recorded receipts",
+      "meaning": "Received into the Eris grant custody structure. Predates Phoenix Foundation; includes development, audit, marketing and infrastructure budgets.",
+      "include_in_received_total": true,
+      "usd_basis": "Historical reference value",
+      "sources": []
+    },
+    {
+      "id": "received-tla-4813",
+      "person": "Philipp",
+      "title": "TLA development and audit grant — proposal 4813",
+      "amount": "384,615 LUNA",
+      "usd": "250986.079013670",
+      "date": "7 Jun 2024",
+      "status": "Verified project receipt",
+      "meaning": "Project development and audit funding paid from the Terra community pool on 7 June 2024. The block-end transfer is verified; it has no ordinary transaction hash. Gross project funding, not personal retained profit or damages.",
+      "usd_basis": "Historical receipt-time market reference; proposal budget is not added separately",
+      "include_in_received_total": true,
+      "sources": [
+        {
+          "label": "Verified block transfer and valuation",
+          "href": "data/tla-grant-evidence.json"
+        },
+        {
+          "label": "Block 10,666,963",
+          "href": "http://15.204.43.42:1317/cosmos/base/tendermint/v1beta1/blocks/10666963"
+        },
+        {
+          "label": "Raw EndBlock transfer",
+          "href": "http://15.204.43.42:26657/block_results?height=10666963"
+        },
+        {
+          "label": "Proposal 4813 on chain",
+          "href": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4813"
+        }
+      ]
+    },
+    {
+      "id": "received-fees",
+      "person": "Philipp",
+      "title": "Eris fees",
+      "amount": "Multiple tokens",
+      "usd": "81969.9355813280993827178090656560629920000",
+      "date": "30 May 2022–11 Oct 2026; coverage varies",
+      "status": "Recorded fee receipts",
+      "meaning": "Original product fees and network fee share; excludes later collector distributions.",
+      "include_in_received_total": true,
+      "sources": []
+    },
+    {
+      "id": "received-validator",
+      "person": "Philipp",
+      "title": "Eris validator commissions",
+      "amount": "Multiple tokens",
+      "usd": "4475.8169213399345753000",
+      "date": "2026-06-30–2026-10-06",
+      "status": "Recorded receipts",
+      "meaning": "Gross recorded Eris validator commission withdrawals. Delegated principal and delegator rewards are excluded.",
+      "include_in_received_total": true,
+      "sources": []
+    }
+  ],
+  "future": [
+    {
+      "id": "future-mainnet",
+      "person": "Philipp",
+      "title": "Estima — Mainnet Launch",
+      "amount": "45,000 USDC",
+      "usd": "45000",
+      "date": "Milestone release; no fixed due date captured",
+      "status": "Approved; unpaid in snapshot",
+      "meaning": "Part of the adopted 125,000-USDC grant. The saved action shows this stage disabled and unclaimed. Kickoff 45,000 was already paid and appears above.",
+      "nominal_unpaid_usdc": "45000",
+      "usd_basis": "Nominal USDC face value",
+      "include_in_received_total": false,
+      "sources": [
+        {
+          "label": "Adopted grant A266",
+          "href": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A266"
+        }
+      ]
+    },
+    {
+      "id": "future-analytics",
+      "person": "Philipp",
+      "title": "Estima — Analytics & TLA Integration",
+      "amount": "35,000 USDC",
+      "usd": "35000",
+      "date": "Milestone release; no fixed due date captured",
+      "status": "Approved; unpaid in snapshot",
+      "meaning": "Second remaining stage of the same grant. Saved action disabled and unclaimed. A conditional reservation is not evidence that a payment is overdue.",
+      "nominal_unpaid_usdc": "35000",
+      "usd_basis": "Nominal USDC face value",
+      "include_in_received_total": false,
+      "sources": [
+        {
+          "label": "Adopted grant A266",
+          "href": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A266"
+        }
+      ]
+    },
+    {
+      "id": "future-estima-fees",
+      "person": "Philipp",
+      "title": "Estima — proposed continuing operator fees",
+      "amount": "10–20% operator share",
+      "usd": null,
+      "date": "Publicly discussed before launch",
+      "status": "Proposed variable revenue",
+      "meaning": "Philipp described an operator share for maintenance, with the remainder going to corresponding TLA-pool bribes. Final adopted fee terms and the revenue base must be checked; no dollar amount can be forecast from this alone.",
+      "usd_basis": "Variable; not valued",
+      "include_in_received_total": false,
+      "sources": [
+        {
+          "label": "1 September 2026 statement",
+          "href": "data/operator-fee-statement.json"
+        }
+      ]
+    }
+  ],
+  "additional": [
+    {
+      "id": "extra-hydro",
+      "person": "Philipp",
+      "title": "Hydro Votion award — AADAO",
+      "amount": "Reported $50,000",
+      "usd": null,
+      "date": "Award 17 Dec 2024; funder report 8 Jan 2026",
+      "status": "Funder reports paid",
+      "meaning": "Funder names Philipp as the Votion representative and reports $50,000 paid. Settlement account, token and overlap still need reconciliation. The initial $25,000 is part of the $50,000.",
+      "reported_usd": "50000",
+      "usd_basis": "Funder-reported USD",
+      "include_in_received_total": false,
+      "sources": [
+        {
+          "label": "Funder report",
+          "href": "https://forum.cosmos.network/t/aadao-wind-down-oversight-updates-and-reports/15913/22"
+        }
+      ]
+    },
+    {
+      "id": "extra-superbolt",
+      "person": "Philipp",
+      "title": "Superbolt award — AADAO",
+      "amount": "Reported $80,000",
+      "usd": null,
+      "date": "Award 3 Jul 2024; funder report 8 Jan 2026",
+      "status": "Funder reports paid",
+      "meaning": "Company funding involving Philipp and other paid contributors; $80,000 of the original $125,000 was reported paid and $45,000 cancelled. Settlement and overlap with company payouts remain unresolved. Not a personal $80,000 receipt.",
+      "reported_usd": "80000",
+      "usd_basis": "Funder-reported USD",
+      "include_in_received_total": false,
+      "sources": [
+        {
+          "label": "Funder report",
+          "href": "https://forum.cosmos.network/t/aadao-wind-down-oversight-updates-and-reports/15913/22"
+        }
+      ]
+    },
+    {
+      "id": "extra-whale",
+      "person": "Philipp",
+      "title": "Migaloo alignment award",
+      "amount": "5,000,000 WHALE",
+      "usd": null,
+      "date": "Request 14 May 2023; Philipp statement 10 Oct 2024",
+      "status": "Philipp reports award",
+      "meaning": "Proposed split: 1,000,000 liquid + 4,000,000 vested quarterly over two years. Original approval, transfers and realized vesting are not verified. No receipt-time USD estimate is available.",
+      "include_in_received_total": false,
+      "sources": [
+        {
+          "label": "Publisher proposal",
+          "href": "https://medium.com/@eris_protocol/migaloo-x-eris-ecosystem-partner-grant-proposal-f59dd2a32278"
+        }
+      ]
+    },
+    {
+      "id": "extra-tla-fees",
+      "person": "Philipp",
+      "title": "TLA fees for adding bribes",
+      "amount": "2,280 LUNA",
+      "usd": "159.9500376600000",
+      "date": "1 Oct 2025–12 Oct 2026",
+      "status": "Paid; historical USD priced",
+      "meaning": "228 matching 10-LUNA transfers across 95 transactions after the recipient changed from the board. All 228 events are priced at receipt time: $159.95. Kept outside the broad main subtotal pending full overlap reconciliation.",
+      "include_in_received_total": false,
+      "sources": [
+        {
+          "label": "228 fee events and transaction links",
+          "href": "data/tla-fee-records.json"
+        },
+        {
+          "label": "All 228 valuations and primary-event proof",
+          "href": "/evidence/exhibits/legacy/TLA_Gebuehren_228.json"
+        }
+      ]
+    },
+    {
+      "id": "extra-unpriced",
+      "person": "Philipp",
+      "title": "Other captured fee and reward tokens",
+      "amount": "576 unpriced product-fee receipts; 10 unpriced incentive/rebase receipts",
+      "usd": null,
+      "date": "Product series through 11 Oct 2026; rewards through 23 Sep 2026",
+      "status": "Paid; unpriced",
+      "meaning": "Includes ROAR-hub and other fee tokens. Quantities exist in the source ledgers; missing historical prices contribute no dollars to the main total. These are not zero-value receipts.",
+      "include_in_received_total": false,
+      "sources": [
+        {
+          "label": "Full receipt ledger",
+          "href": "data/ledger-index.json"
+        }
+      ]
+    },
+    {
+      "id": "extra-otc",
+      "person": "Philipp",
+      "title": "OTC purchase price advantage — reference comparison",
+      "amount": "65 USDC-funded purchases",
+      "usd": null,
+      "date": "Within 5 Nov 2024–21 Sep 2026",
+      "status": "Calculated reference difference",
+      "meaning": "LUNA market-reference value exceeded 1,401,863.363506 USDC paid by $80,847.41 on these 65 trades. This is not realized trading profit; sale prices, fees and financing costs are missing. All 71 purchases delivered 8,791,980.014392 LUNA, historical value $1,618,880.15, in exchange for consideration.",
+      "reference_usd": "80847.4133583136562190000",
+      "usd_basis": "Market-reference difference, not earned cash",
+      "include_in_received_total": false,
+      "sources": []
+    }
+  ],
+  "company_payouts": [
+    {
+      "id": "overlap-1",
+      "person": "Philipp",
+      "title": "Superbolt invoice-labelled payment batches",
+      "amount": "55,975.5 USDC",
+      "usd": "55967.8878550000000000000",
+      "date": "2025-08-05–2026-03-17",
+      "status": "Paid; not added again",
+      "meaning": "Identified payments to Philipp. Kept outside the broad resource sum to avoid adding a downstream company payout to funding already counted upstream.",
+      "include_in_received_total": false,
+      "usd_basis": "Historical reference value",
+      "sources": []
+    },
+    {
+      "id": "overlap-2",
+      "person": "Philipp",
+      "title": "Superbolt invoice 2024-002",
+      "amount": "7,500 USDC",
+      "usd": "7498.0499100000000000000",
+      "date": "2024-08-23",
+      "status": "Paid; not added again",
+      "meaning": "Identified payments to Philipp. Kept outside the broad resource sum to avoid adding a downstream company payout to funding already counted upstream.",
+      "include_in_received_total": false,
+      "usd_basis": "Historical reference value",
+      "sources": []
+    }
+  ],
+  "adjustments": [
+    {
+      "title": "Less Superbolt onward payments already counted upstream",
+      "usd": "-63465.937765",
+      "reason": "Removes duplicate counting across project funding and later company payments to Philipp."
+    }
+  ]
+}

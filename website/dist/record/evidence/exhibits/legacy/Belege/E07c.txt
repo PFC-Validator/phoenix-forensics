@@ -1,0 +1,130 @@
+- banner:
+  - link "Creda":
+    - /url: /markets
+    - generic: Creda
+  - navigation "Main":
+    - list:
+      - link "Dashboard":
+        - /url: /
+      - link "Markets":
+        - /url: /markets
+      - button "More":
+        - text: More
+  - button "Toggle theme":
+    - generic: Toggle theme
+  - button "Settings":
+    - generic: Settings
+  - button "Connect Wallet Connect Wallet":
+    - generic: Connect Wallet
+    - generic: Connect Wallet
+- main:
+  - link "Back":
+    - /url: /markets
+    - generic: Back
+  - img "LUNA"
+  - heading "LUNA" [level=1]
+  - paragraph: Market Size
+  - generic: $163.91K
+  - paragraph: Available Liquidity
+  - generic: $53.49K
+  - paragraph: Utilization Rate
+  - generic: 67.37%
+  - paragraph: Oracle Price
+  - generic: $0.0469
+  - link "LUNA":
+    - /url: https://chainsco.pe/terra2/assets/uluna
+  - button:
+  - radio "1d"
+  - radio "1w" [checked]
+  - radio "1m"
+  - radio "6m"
+  - radio "1y"
+  - generic: Supply Info
+  - generic: Supply APR for the last week
+  - paragraph: APY
+  - button "10.21 %":
+    - text: "10.21"
+    - generic: "%"
+  - paragraph: Total supplied
+  - generic: 3.50M of 4.00M
+  - generic: $163.91K of $187.45K
+  - text: Can be collateral
+  - paragraph: Max LTV
+  - generic: 70.00%
+  - paragraph: Liquidation Threshold
+  - generic: 72.00%
+  - paragraph: Liquidation Penalty
+  - generic: 10.00%
+  - generic: Borrow Info
+  - generic: Borrow APR for the last week
+  - paragraph: APY
+  - generic: 16.84%
+  - paragraph: Total borrowed
+  - generic: 2.36M of 3.50M
+  - generic: $110.42K of $163.91K
+  - text: Can be borrowed
+  - generic: Supply & Borrow Amounts
+  - generic: Supplied and borrowed amounts over the last week
+  - radio "USD" [checked]
+  - radio "Tokens"
+  - generic: Oracle Price History
+  - generic: Oracle price over the last week
+  - generic: Efficiency Mode
+  - generic: Efficiency Modes this asset can be used in.
+  - button "LUNA correlated":
+    - text: LUNA correlated
+  - text: Can be collateral
+  - text: Can be borrowed
+  - paragraph: Max LTV
+  - generic: 90.00%
+  - paragraph: Liquidation Threshold
+  - generic: 93.00%
+  - paragraph: Liquidation Penalty
+  - generic: 5.00%
+  - paragraph: Enabled
+  - generic: Interest Rate Model
+  - generic: Borrow APR depending on utilization
+  - generic: Reserve Factor Model
+  - generic: Reserve Factor is how much of the paid interest goes into the reserve fund.
+  - generic: Please, connect your wallet
+  - generic: Please connect a wallet to view your personal information here.
+  - button "Connect Wallet Connect Wallet":
+    - generic: Connect Wallet
+    - generic: Connect Wallet
+- contentinfo:
+  - link "Creda":
+    - /url: /
+    - generic: Creda
+  - paragraph: Believe in Growth.
+  - heading "Product" [level=3]
+  - list:
+    - link "Markets":
+      - /url: /markets
+    - link "Dashboard":
+      - /url: /
+  - heading "Resources" [level=3]
+  - list:
+    - link "Documentation":
+      - /url: https://docs.creda.finance
+    - link "Brand Assets":
+      - /url: /brand
+    - link "GitHub":
+      - /url: https://github.com/credafinance
+  - heading "Community" [level=3]
+  - list:
+    - link "X":
+      - /url: https://x.com/creda_finance
+      - text: X
+    - link "Telegram":
+      - /url: https://t.me/creda_finance
+      - text: Telegram
+  - paragraph: © 2026 Creda Finance. All rights reserved.
+  - list:
+    - link "Disclaimer":
+      - /url: /legal#disclaimer
+    - link "Terms and Conditions":
+      - /url: /legal#terms
+    - link "Privacy Policy":
+      - /url: /legal#privacy
+- region "Notifications alt+T"
+- generic: Oct 4

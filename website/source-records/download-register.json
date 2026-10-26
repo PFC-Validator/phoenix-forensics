@@ -1,0 +1,1762 @@
+[
+  {
+    "url": "https://philipp-payments.pages.dev/",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/favicon.svg",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/style.css",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/site.css",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/homepage-0d03d72e46b5.css",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/sources/",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/tla-grant-evidence.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/estima-project-context.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/operator-fee-statement.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/TLA_Gebuehren_228.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/tla-fee-records.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/ledger-index.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/fee-reconciliation.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/payment-schedule.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/original-grant-evidence.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/privacy/",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/app.js",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/site.js",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/style.css",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/censorship.css",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/packaged_ledger.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E06b.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E06g.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Summen_und_Abgrenzung.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E12c.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/treasury_info.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/registry_info.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/registry_owner.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/registry_addresses.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/proposal9.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/proposal9_votes.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/hub_info.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/ics20_info.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E10a.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E10b.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E10c.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E10f.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E10g.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E10h.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E11a.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Zahlungen_105.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E04a.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E04b.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E05b.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E05c.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E05e.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E05f.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E05g.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E07a.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E07c.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E07e.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E09a.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E09b.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E09c.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/board_config.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/board_members.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/voting_record/mb_voting_record.csv",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/voting_record/mb_voting_record.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/voting_record/findings.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/transaction_chronology.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/SHA256SUMS.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/source_index.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E04c.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E04d.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E04e.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E05d.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E05h.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E10e.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/legacy/Belege/E12d.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S01_targeted_results.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S02_ve_execute_update_config_p1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S03_authority_event_ledger.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S04_terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj_migration_transactions.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S05_terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh_migration_transactions.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S06_terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq_migration_transactions.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S07_terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa_migration_transactions.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S08_terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv_migration_transactions.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S09_registry_executions_now.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S10_terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg_migration_transactions.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S11_incentive_blacklist_query.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S12_incentive_blacklist_archive_001.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S13_terra1qdjsxsv96aagrdxz83gwtjk8qvf2mrg4y8y3dqjxg556lm79pg5qdgmaxl_migration_transactions.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S14_terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k_migration_transactions.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S15_terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx_migration_transactions.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/sources/AUTH-S16_upgrade_wallet_admin_acquisitions_archive_001.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/tests/permissions_review.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/tests/local_freeze_toggle.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/tests/local_permission_probe2.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/tests/local_burn_routing.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/tests/registry_role_changes.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/binaries/code_4033.wasm",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/binaries/code_4037.wasm",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/binaries/code_4038.wasm",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/binaries/code_4033.source.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/binaries/code_4037.source.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/binaries/code_4038.source.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/asset_staking__bluechip.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/asset_staking__project.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/asset_staking__single.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/asset_staking__stable.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/bylaws_current.pdf",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/hub_config.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/treasury_config.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/censorship-records/suspension-records.png",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/censorship-records/vegas-post-revision.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/censorship-records/vegas-revision-overview.png",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/censorship-records/forum-thread-2026-10-19.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/public-identity.csv",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/public-identity.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/style.css",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/power_20261022_openfields_pd_power.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/stake-dependence.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/power_20261022_amp_delegations.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/hub_delegations.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/hub_config.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/hub_vote_operator.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/hub_execution_source.rs",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/gauge_info.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/hub_info.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/historical-prices.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/funding-register.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/payments/",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/events.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/events.csv",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/historical-usd.csv",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/source-index.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/SHA256SUMS.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/app.js",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/style.css",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/operations.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-1a29c1316a46ce10d8b1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-66c1c14e27867f7df155.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-6A39217CB92F85AC8AF60C988120A5827746901E3200CCE4C9E935257869EA29.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-5ad8338997a00ce8394c.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-16B544CEC4C3F12E0F1A24D78DFB6ABC57BEBD5E93F7D994C5B2B3CE435A280D.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-082891034bf56f4346d3.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-E2C405314C46A27548EEBD8F5E60D7B1F5895BE914AC3672365A813435D10A4B.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-b8d9924cb59448d57e9d.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-54724BA583C5A44585325FC47E5930DC2F5D02918AD50D97A7778C7440DC8E50.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-2F974A5FA9F0FB82C5E736FC73C016FC4B26A8143C2C28463B1C19FA2BF2A067.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-1fc0eb1f0eb4bb8b01d2.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-BA405CD3EE230CA3B03DAFB4E88D28243F7C7B917D73139170CE0E1CCF440134.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-4e6073e222e199e8149c.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-0DB971C43AC0B15F788ACBEEA08AD9CD1C9CAD2D4F503F11225FFDB243CA20E7.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-c52076e3d80ed81acc40.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-5A3A2B0BC68DF9BFC569C01226A324F3DD3F7494405B4906F2B7694B3ED93234.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-3C4D01C64A0E58CA3FEC401622596D2B0960213D0E1C09F3827DD438FDE7D873.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-4D6F5AE19115266A921ED01819BBF4A894274DB795174622463FB712AF69D853.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-41dbd2e1fc7f7bf90e74.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-7545CEEB62C382CAFBB018BD7BD9A60A37772929182D5804140AAC0A54CA3650.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/archive-provenance.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/tx-EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-37f6d71dbb221648f9d6.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-6b0dd067a093578ece08.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-c9aaa3816b39a630b61e.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-b367a2278634f23f5be0.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-daa0247117e87db3cd80.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-88bcca9a1f040762c377.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-257ba173fa6d8eaee147.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-7a400017078875a19ee6.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-f29674e2a65946f8ca49.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-cdf93290e03700389f46.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-9db149b46678b605710c.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-df4cf6afdaff4be8fd3d.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-ca873c036e093be52413.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-d458a48f6000805fcba5.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-26d354a036a0d8f9dab1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-1795aed193daa2601c75.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-45d369539deec8ab159e.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-d6835a0e3ce254ccb0a2.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-afb47bb238269a4747fc.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-67c743ad86704eb6bac4.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-93ec6b5b4a8b0972c5a8.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-25c556e0fc42ccb96277.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/source-0d1b84b2615d4c2d3658.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/statements.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/chain-timeline.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/evidence/manifest.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/handover/app.js",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/llms.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/verification.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/readable/history.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-3-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/project-creda-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/project-votion-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/project-migration-tool-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/project-estima-kickoff-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-4-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-voting-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-6-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-7-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-1-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-tla-4813-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-2.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-3.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-4.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-5.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-6.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-7.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-8.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-9.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-10.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-11.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-12.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-13.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-14.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-15.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-16.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-17.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-18.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-19.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-20.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-21.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-22.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-23.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-24.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-25.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-26.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-27.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-28.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-29.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-30.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-31.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-32.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-33.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-34.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-35.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-36.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-37.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-38.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-39.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-40.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-41.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-42.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-43.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-44.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-45.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-46.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-47.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-48.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-49.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-50.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-51.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-52.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-53.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-54.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-55.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-56.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-57.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-58.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-59.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-60.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-61.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-62.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-63.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-64.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-65.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-66.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-67.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-68.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-69.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-70.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-71.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-72.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-73.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-74.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-75.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-76.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-77.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-78.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-79.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-80.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-81.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-82.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-83.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-84.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-85.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-86.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-87.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-88.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-89.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-90.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-91.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-92.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-93.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-94.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-95.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-96.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-97.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-98.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-99.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-100.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-101.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-102.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-103.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-104.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-105.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-106.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-107.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-108.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-109.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-110.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-111.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-112.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-113.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-114.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-115.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-116.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-117.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-118.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-119.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-120.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-121.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-122.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-123.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-124.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-125.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-126.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-127.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-128.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-129.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-130.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-131.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-132.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-133.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-134.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-135.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-136.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-137.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-138.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-139.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-140.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-141.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-142.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-143.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-144.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-145.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-146.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-147.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-148.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-149.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-150.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-151.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-152.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-153.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-154.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-155.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-156.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-157.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-158.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-159.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-160.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-161.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-162.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-163.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-164.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-165.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-166.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-167.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-168.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-169.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-170.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-171.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-172.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-173.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-174.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-175.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-176.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-177.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-178.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-179.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-180.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-181.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-182.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-183.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-184.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-185.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-186.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-187.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-188.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-189.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-190.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-191.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-192.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-fees-193.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/received-validator-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/overlap-1-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/data/overlap-2-1.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/evidence_quality_audit_20261018/authority_usage/authority_event_ledger.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/evidence_quality_audit_20261018/authority_usage/terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj_migration_transactions.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/evidence_quality_audit_20261018/authority_usage/terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq_migration_transactions.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/evidence_quality_audit_20261018/authority_usage/terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa_migration_transactions.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/evidence_quality_audit_20261018/authority_usage/terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv_migration_transactions.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/current/TX_EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/operations_signed_query.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/chain_sources/ampluna_token_info.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/evidence/exhibits/authority/chain_sources/operations_ampluna_balance.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/user_avatar/forum.phoenix.money/0xphilipp/{size}/7_2.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/user_avatar/forum.phoenix.money/highstakes/{size}/46_2.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/letter_avatar_proxy/v4/letter/v/c77e96/{size}.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/user_avatar/forum.phoenix.money/vegas/{size}/77_2.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/letter_avatar_proxy/v4/letter/r/3bc359/{size}.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/user_avatar/forum.phoenix.money/rebel_defi/{size}/9_2.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/user_avatar/forum.phoenix.money/defi_patriot/{size}/79_2.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/letter_avatar_proxy/v4/letter/v/49beb7/{size}.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/letter_avatar_proxy/v4/letter/d/aeb1de/{size}.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/user_avatar/forum.phoenix.money/maxp/{size}/81_2.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/user_avatar/forum.phoenix.money/rose/{size}/10_2.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/letter_avatar_proxy/v4/letter/b/b77776/{size}.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/letter_avatar_proxy/v4/letter/m/bb73d2/{size}.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/letter_avatar_proxy/v4/letter/l/f04885/{size}.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/letter_avatar_proxy/v4/letter/c/e36b37/{size}.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/user_avatar/forum.phoenix.money/phoenixpinion/{size}/49_2.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/letter_avatar_proxy/v4/letter/n/77aa72/{size}.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/user_avatar/forum.phoenix.money/ex_tfl/{size}/92_2.png",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/payments/favicon.svg",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/payments/style.css",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/payments/app.js",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/readable/overview.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/readable/payments.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/readable/handover.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/readable/evidence.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/readable/sources.txt",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/hub-native-vote-use.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/sources/forum-statements.json",
+    "error": null
+  },
+  {
+    "url": "https://philipp-payments.pages.dev/history/manifest.json",
+    "error": null
+  }
+]

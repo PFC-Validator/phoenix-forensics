@@ -1,0 +1,967 @@
+{
+  "written_at_utc": "2026-10-18T22:10:49.701532+00:00",
+  "conservative_cutoff": "2024-11-27T00:00:00Z",
+  "scope": "Permission semantics and targeted owner actions. Code migrations and other administrative operations are listed in the full operation ledger. This is a method-specific subset.",
+  "key_findings": [
+    "ASSET_STAKING_FIX is a sender blocking list in reviewed deployed code, not permission to execute a repair.",
+    "BURN_RECIPIENT receives bank SEND output for excluded reward allocations; attribute burned is not proof of coin destruction.",
+    "update_incentive_blacklist is registry-owner-only in reviewed code; the board ASSET_WHITELIST_CONTROLLER role does not confer this separate permission.",
+    "Compounding owner can change fee settings; BOT only authorizes compound operation.",
+    "On 28 September 2026, the Phoenix operations wallet redeemed 3,889.332388 zLUNA receipt tokens for 2,383.589113 ampLUNA. Receipt-token burns did not destroy the economic backing; current ampLUNA balance equals the receipts. Human custody and personal benefit remain distinct questions.",
+    "Historical voting-escrow code 3122 reserves update_config to the registry owner, and that owner actually appended a deposit asset on 18 December 2024."
+  ],
+  "roles": [
+    {
+      "role": "Registry owner",
+      "recorded_holder": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "effect": "Can replace registry addresses and address lists, including who acts as Treasury controller, operators, guardians and fee recipients.",
+      "basis": "Existing local exact-WASM3121 replay plus12 actual successful set_addresses tx.",
+      "limit": "Changing a pointer is distinct from subsequently executing its downstream power."
+    },
+    {
+      "role": "Upgrade administrator",
+      "recorded_holder": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "effect": "Can request replacement code for the contracts where named as admin; no extra Phoenix board or MB signature required by the reviewed native migration path.",
+      "basis": "Current 27-contract inventory; wasmd 0.54.10 permission review; historical migration and administrator transaction ledger.",
+      "limit": "Does not establish custody of private key, validity of any replacement, or control of unrelated contracts/native governance."
+    },
+    {
+      "role": "PDT_CONTROLLER",
+      "recorded_holder": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "effect": "Treasury action/milestone control subject to current code and veto rules. Registry owner can replace this designation.",
+      "basis": "Existing exact-WASM3121/3347 replay and current registry.",
+      "limit": "Board is presently designated; no current finding that the controller pointer was changed from board after assignment."
+    },
+    {
+      "role": "PDT_CONFIG_OWNER",
+      "recorded_holder": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "effect": "Current Treasury config method changes oracle configuration.",
+      "basis": "Controlled execution of the exact Treasury WASM, code 3347.",
+      "limit": "Not itself unrestricted spending, veto editing or administrator replacement."
+    },
+    {
+      "role": "PDT_DCA_EXECUTOR",
+      "recorded_holder": [
+        "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+        "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup"
+      ],
+      "effect": "Authorized executor list for Treasury DCA operations.",
+      "basis": "Registry assignments; full downstream method semantics not re-probed here.",
+      "limit": "Do not infer ability to choose arbitrary spending beneficiaries from this label."
+    },
+    {
+      "role": "BOT",
+      "recorded_holder": [
+        "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+        "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup",
+        "terra1alqg9kfy0nlvfr7rmww8nhrdpekwnvacqnmr5w",
+        "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+      ],
+      "effect": "Authorizes asset-compounding compound operations.",
+      "basis": "Controlled execution of code 3778: listed owner and board pass the BOT gate; the project wallet is rejected.",
+      "limit": "This is an automation permission; not by itself an arbitrary withdrawal permission."
+    },
+    {
+      "role": "ASSET_STAKING_FIX",
+      "recorded_holder": [],
+      "effect": "Sender blocking list: membership causes stake, unstake, claim_reward and claim_rewards to abort with an arithmetic error.",
+      "basis": "Controlled execution of codes 4037 and 4038 with matched lists. Code 4037 reads ASSET_STAKING_BLACKLIST; code 4038 reads ASSET_STAKING_FIX.",
+      "limit": "Currently cleared by18Oct2026 transaction. Local partial-state comparison proves early branch behavior, not a historical attempted withdrawal or whole-chain transaction replay."
+    },
+    {
+      "role": "BURN_RECIPIENT",
+      "recorded_holder": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+      "effect": "Receives the reward portion attributable to incentive-blacklisted assets through a bank SEND. The callback additionally labels that amount burned. Actual receipt tokens were later redeemed for ampLUNA.",
+      "basis": "Controlled execution of code 4038, recorded role changes, receipt-token redemption and reward-routing analysis.",
+      "limit": "Setting/label does not itself destroy coins. Recipient is the published Phoenix operations wallet by exact A138/A181 matching; human custody is not established here."
+    },
+    {
+      "role": "FEE_COLLECTOR",
+      "recorded_holder": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+      "effect": "Receives fixed voting-incentive creation fees from bribe manager.",
+      "basis": "Registry change1Oct2025 and228 actual10LUNA transfer events in earlier fee audit.",
+      "limit": "Separate from LP take rate and broader ERIS product-fee ledger."
+    },
+    {
+      "role": "TAKE_RECIPIENT",
+      "recorded_holder": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "effect": "Receives LP take-rate output.",
+      "basis": "Primary ERIS technical docs and exact4038 distribute_take_rate local permission trace.",
+      "limit": "Still points to Stewardship in reconstructed state; do not conflate with FEE_COLLECTOR."
+    },
+    {
+      "role": "DELEGATION_CONTROLLER",
+      "recorded_holder": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "effect": "Controls Alliance connector delegation operations.",
+      "basis": "Primary ERIS technical docs; current registry.",
+      "limit": "Role effects were not independently replayed in this pass; not validator consensus-key ownership."
+    },
+    {
+      "role": "ASSET_WHITELIST_CONTROLLER",
+      "recorded_holder": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "effect": "Controls whitelisted assets and asset-specific configuration.",
+      "basis": "Primary docs and exact4033/4037/4038 update_asset_config auth probe: board passes gate, registry owner fails unless role is reassigned.",
+      "limit": "Registry ownership is not an automatic bypass in this method; it can change the designation first."
+    },
+    {
+      "role": "BRIBE_WHITELIST_CONTROLLER",
+      "recorded_holder": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "effect": "Controls whitelist of voting-incentive assets.",
+      "basis": "Primary ERIS technical docs; registry.",
+      "limit": "Downstream exact method not re-probed here."
+    },
+    {
+      "role": "VE_GUARDIAN",
+      "recorded_holder": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "effect": "Can add/remove voting-escrow users from blacklist.",
+      "basis": "Primary ERIS technical docs; registry.",
+      "limit": "Different from staking sender freeze list and different from asset incentive blacklist."
+    },
+    {
+      "role": "FREE_BRIBES",
+      "recorded_holder": [
+        "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k"
+      ],
+      "effect": "Accounts/contracts exempted from the fixed incentive-creation fee.",
+      "basis": "Primary ERIS docs; registry.",
+      "limit": "Exemption is not control of all bribe balances."
+    },
+    {
+      "role": "ASSET_GAUGE",
+      "recorded_holder": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "VOTING_ESCROW",
+      "recorded_holder": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "BRIBE_MANAGER",
+      "recorded_holder": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "ZAPPER",
+      "recorded_holder": "terra1qdjsxsv96aagrdxz83gwtjk8qvf2mrg4y8y3dqjxg556lm79pg5qdgmaxl",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "CONNECTOR__stable",
+      "recorded_holder": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "CONNECTOR__project",
+      "recorded_holder": "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "CONNECTOR__bluechip",
+      "recorded_holder": "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "ASSET_STAKING__stable",
+      "recorded_holder": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "ASSET_STAKING__project",
+      "recorded_holder": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "ASSET_STAKING__bluechip",
+      "recorded_holder": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "CONNECTOR__single",
+      "recorded_holder": "terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "ASSET_STAKING__single",
+      "recorded_holder": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+      "effect": "Trusted protocol address used for downstream queries, cross-contract execution and/or caller checks.",
+      "basis": "Primary docs; registry; ASSET_GAUGE setter authorization locally verified.",
+      "limit": "Exact effect depends on receiving contract and method; a registry rewrite alone does not prove a transfer."
+    },
+    {
+      "role": "Asset-staking incentive blacklist (stored per staking contract)",
+      "recorded_holder": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "effect": "Registry owner can exclude specified assets/pools from reward distribution. Excluded allocated rewards are sent to BURN_RECIPIENT.",
+      "basis": "Exact4033/4037/4038 owner-only update_incentive_blacklist probes;4 actualtransactions/10 directcalls.",
+      "limit": "This asset/pool mechanism is separate from ASSET_STAKING_FIX wallet freeze list."
+    },
+    {
+      "role": "Asset-compounding configuration owner",
+      "recorded_holder": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "effect": "Registry owner can change fee rate within code limits and its fee_collector.",
+      "basis": "Controlled execution of code 3778: 9% allowed, 50% rejected; board and project wallets return Unauthorized.",
+      "limit": "These are current-code capabilities. Historical configuration calls are recorded separately in the operation ledger."
+    },
+    {
+      "role": "Voting-escrow configuration owner",
+      "recorded_holder": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "effect": "Registry owner can update voting-escrow configuration, including appending accepted deposit assets.",
+      "basis": "Controlled execution of historical code 3122: owner succeeds; board, project and administrator wallets return Unauthorized. The successful direct owner call on 18 December 2024 appends a CW20 deposit asset.",
+      "limit": "Partial-state test uses current retrieved config and the pinned registry owner fixture. Actual historical transaction independently establishes the call and success; no full historical state replay is claimed."
+    }
+  ],
+  "binary_hash_checks": [
+    {
+      "code_id": "3436",
+      "computed_sha256": "3c7ccde810e6670e8453305b5db06cdc5939406f5fdeb5e748a9dd170a74cc7e",
+      "onchain_data_hash": "3C7CCDE810E6670E8453305B5DB06CDC5939406F5FDEB5E748A9DD170A74CC7E",
+      "matches": true
+    },
+    {
+      "code_id": "4038",
+      "computed_sha256": "814ad478aa883d23ba5effc9591ad683d31db329a645972001c0d426eeb31ee2",
+      "onchain_data_hash": "814AD478AA883D23BA5EFFC9591AD683D31DB329A645972001C0D426EEB31EE2",
+      "matches": true
+    },
+    {
+      "code_id": "3694",
+      "computed_sha256": "35fb6b70d887e3b6081758a10bf98f9bfd7f93bfea42adbdfa0b41ea59d8d4bb",
+      "onchain_data_hash": "35FB6B70D887E3B6081758A10BF98F9BFD7F93BFEA42ADBDFA0B41EA59D8D4BB",
+      "matches": true
+    },
+    {
+      "code_id": "4033",
+      "computed_sha256": "c31d867650725fda718f5b0821dea2238005885bdd774c7cd290fee8e804ece6",
+      "onchain_data_hash": "C31D867650725FDA718F5B0821DEA2238005885BDD774C7CD290FEE8E804ECE6",
+      "matches": true
+    },
+    {
+      "code_id": "3778",
+      "computed_sha256": "4120ac051446134526d1896d79ce4e6268bf369b8f05b6def0d47003fe747c23",
+      "onchain_data_hash": "4120AC051446134526D1896D79CE4E6268BF369B8F05B6DEF0D47003FE747C23",
+      "matches": true
+    },
+    {
+      "code_id": "4037",
+      "computed_sha256": "976b88dbc811edf7697de39f9ac700e2a10f8ca4ddb50b6f28b5640c6d41db62",
+      "onchain_data_hash": "976B88DBC811EDF7697DE39F9AC700E2A10F8CA4DDB50B6F28B5640C6D41DB62",
+      "matches": true
+    },
+    {
+      "code_id": "3122",
+      "computed_sha256": "0c5b686465a38cdd202c304947b90a1b92a89f6466a59859dd3201e21d5bd626",
+      "onchain_data_hash": "0C5B686465A38CDD202C304947B90A1B92A89F6466A59859DD3201E21D5BD626",
+      "matches": true
+    }
+  ],
+  "targeted_actual_blacklist_calls": [
+    {
+      "timestamp_utc": "2026-09-22T11:02:18Z",
+      "hash": "4D6F5AE19115266A921ED01819BBF4A894274DB795174622463FB712AF69D853",
+      "message_index": 0,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "add": [
+        {
+          "cw20": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+        }
+      ],
+      "remove": [],
+      "success": true
+    },
+    {
+      "timestamp_utc": "2026-09-22T11:04:44Z",
+      "hash": "10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+      "message_index": 0,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "add": [
+        {
+          "cw20": "terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8"
+        },
+        {
+          "cw20": "terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4"
+        },
+        {
+          "cw20": "terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp"
+        },
+        {
+          "cw20": "terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx"
+        },
+        {
+          "cw20": "terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc"
+        }
+      ],
+      "remove": [],
+      "success": true
+    },
+    {
+      "timestamp_utc": "2026-09-22T11:04:44Z",
+      "hash": "10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+      "message_index": 1,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "add": [
+        {
+          "cw20": "terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk"
+        },
+        {
+          "cw20": "terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a"
+        },
+        {
+          "cw20": "terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc"
+        },
+        {
+          "cw20": "terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm"
+        },
+        {
+          "cw20": "terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht"
+        },
+        {
+          "cw20": "terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra"
+        },
+        {
+          "cw20": "terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz"
+        },
+        {
+          "cw20": "terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4"
+        },
+        {
+          "cw20": "terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u"
+        },
+        {
+          "cw20": "terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564"
+        },
+        {
+          "cw20": "terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44"
+        }
+      ],
+      "remove": [],
+      "success": true
+    },
+    {
+      "timestamp_utc": "2026-09-22T11:04:44Z",
+      "hash": "10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+      "message_index": 2,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "add": [
+        {
+          "cw20": "terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc"
+        },
+        {
+          "cw20": "terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt"
+        },
+        {
+          "cw20": "terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75"
+        },
+        {
+          "cw20": "terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu"
+        },
+        {
+          "cw20": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+        },
+        {
+          "cw20": "terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry"
+        },
+        {
+          "cw20": "terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3"
+        },
+        {
+          "cw20": "terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw"
+        },
+        {
+          "cw20": "terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn"
+        },
+        {
+          "cw20": "terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js"
+        },
+        {
+          "cw20": "terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5"
+        },
+        {
+          "cw20": "terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn"
+        }
+      ],
+      "remove": [],
+      "success": true
+    },
+    {
+      "timestamp_utc": "2026-09-22T11:04:44Z",
+      "hash": "10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+      "message_index": 3,
+      "contract": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "add": [
+        {
+          "cw20": "terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2"
+        },
+        {
+          "cw20": "terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn"
+        },
+        {
+          "cw20": "terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny"
+        },
+        {
+          "cw20": "terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh"
+        },
+        {
+          "cw20": "terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5"
+        },
+        {
+          "cw20": "terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww"
+        },
+        {
+          "cw20": "terra1zn0kcywt3epp6md4ugnprslf84hhxklwz4g0d8ck7ldf9uspudqqpmf0ya"
+        },
+        {
+          "cw20": "terra1yxj707eppjphy4fshmt2rcqfnmat4ym58z6x9jk52mvte56ktv7sqfy2r5"
+        },
+        {
+          "cw20": "terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h"
+        },
+        {
+          "cw20": "terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0"
+        },
+        {
+          "native": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6"
+        },
+        {
+          "native": "factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA"
+        },
+        {
+          "cw20": "terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr"
+        }
+      ],
+      "remove": [],
+      "success": true
+    },
+    {
+      "timestamp_utc": "2026-09-22T13:47:12Z",
+      "hash": "3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+      "message_index": 0,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "add": [],
+      "remove": [
+        {
+          "cw20": "terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8"
+        },
+        {
+          "cw20": "terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4"
+        },
+        {
+          "cw20": "terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp"
+        },
+        {
+          "cw20": "terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx"
+        },
+        {
+          "cw20": "terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc"
+        }
+      ],
+      "success": true
+    },
+    {
+      "timestamp_utc": "2026-09-22T13:47:12Z",
+      "hash": "3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+      "message_index": 1,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "add": [],
+      "remove": [
+        {
+          "cw20": "terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk"
+        },
+        {
+          "cw20": "terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a"
+        },
+        {
+          "cw20": "terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc"
+        },
+        {
+          "cw20": "terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm"
+        },
+        {
+          "cw20": "terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht"
+        },
+        {
+          "cw20": "terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra"
+        },
+        {
+          "cw20": "terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz"
+        },
+        {
+          "cw20": "terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4"
+        },
+        {
+          "cw20": "terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u"
+        },
+        {
+          "cw20": "terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564"
+        },
+        {
+          "cw20": "terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44"
+        }
+      ],
+      "success": true
+    },
+    {
+      "timestamp_utc": "2026-09-22T13:47:12Z",
+      "hash": "3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+      "message_index": 2,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "add": [],
+      "remove": [
+        {
+          "cw20": "terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc"
+        },
+        {
+          "cw20": "terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt"
+        },
+        {
+          "cw20": "terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75"
+        },
+        {
+          "cw20": "terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu"
+        },
+        {
+          "cw20": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+        },
+        {
+          "cw20": "terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry"
+        },
+        {
+          "cw20": "terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3"
+        },
+        {
+          "cw20": "terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw"
+        },
+        {
+          "cw20": "terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn"
+        },
+        {
+          "cw20": "terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js"
+        },
+        {
+          "cw20": "terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5"
+        },
+        {
+          "cw20": "terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn"
+        }
+      ],
+      "success": true
+    },
+    {
+      "timestamp_utc": "2026-09-22T13:47:12Z",
+      "hash": "3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+      "message_index": 3,
+      "contract": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "add": [],
+      "remove": [
+        {
+          "cw20": "terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2"
+        },
+        {
+          "cw20": "terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn"
+        },
+        {
+          "cw20": "terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny"
+        },
+        {
+          "cw20": "terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh"
+        },
+        {
+          "cw20": "terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5"
+        },
+        {
+          "cw20": "terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww"
+        },
+        {
+          "cw20": "terra1zn0kcywt3epp6md4ugnprslf84hhxklwz4g0d8ck7ldf9uspudqqpmf0ya"
+        },
+        {
+          "cw20": "terra1yxj707eppjphy4fshmt2rcqfnmat4ym58z6x9jk52mvte56ktv7sqfy2r5"
+        },
+        {
+          "cw20": "terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h"
+        },
+        {
+          "cw20": "terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0"
+        },
+        {
+          "native": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6"
+        },
+        {
+          "native": "factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA"
+        },
+        {
+          "cw20": "terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr"
+        }
+      ],
+      "success": true
+    },
+    {
+      "timestamp_utc": "2026-10-08T23:21:29Z",
+      "hash": "F78FC385BF76091CAD6EA4D28771AE1415790CAD0F2C64E88D9F848DF1095028",
+      "message_index": 0,
+      "contract": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "add": [
+        {
+          "native": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6"
+        }
+      ],
+      "remove": [],
+      "success": true
+    }
+  ],
+  "targeted_counts": {
+    "incentive_blacklist_successful_transactions": 4,
+    "incentive_blacklist_direct_messages": 10,
+    "original_three_staking_contract_messages": 7,
+    "original_three_staking_contract_transactions": 3
+  },
+  "source_limit": "https://api.github.com/repos/erisprotocol/contracts-ve3 returned404; listed public ERIS repositories did not include it. No original source/build match is asserted. Downloaded binaries match chain code hashes. Local host supplies partial state and is not fullCosmWasm/chain consensus execution. Code-backed capability and actual indexed transactions are reported separately.",
+  "actual_burn_redemption_consequence": {
+    "transaction": "DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2",
+    "timestamp_utc": "2026-09-28T08:42:54Z",
+    "success_code": 0,
+    "recipient": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+    "cw20_contract": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+    "cw20_transfer_events": [
+      {
+        "event_index": 20,
+        "_contract_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "action": "transfer",
+        "amount": "1036487860",
+        "from": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+        "to": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+        "msg_index": "0"
+      },
+      {
+        "event_index": 34,
+        "_contract_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "action": "transfer",
+        "amount": "506327078",
+        "from": "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh",
+        "to": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+        "msg_index": "1"
+      },
+      {
+        "event_index": 48,
+        "_contract_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "action": "transfer",
+        "amount": "557742091",
+        "from": "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53",
+        "to": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+        "msg_index": "2"
+      },
+      {
+        "event_index": 62,
+        "_contract_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "action": "transfer",
+        "amount": "283032084",
+        "from": "terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u",
+        "to": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+        "msg_index": "3"
+      }
+    ],
+    "total_base_units": 2383589113,
+    "burn_events": [
+      {
+        "event_index": 17,
+        "event_type": "burn",
+        "attributes": [
+          {
+            "key": "burner",
+            "value": "terra19ejy8n9qsectrf4semdp9cpknflld0j6my8d0p",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1696193427factory/terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8/zluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "event_index": 18,
+        "event_type": "tf_burn",
+        "attributes": [
+          {
+            "key": "burn_from_address",
+            "value": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1696193427factory/terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8/zluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "event_index": 31,
+        "event_type": "burn",
+        "attributes": [
+          {
+            "key": "burner",
+            "value": "terra19ejy8n9qsectrf4semdp9cpknflld0j6my8d0p",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "828593648factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "1",
+            "index": true
+          }
+        ]
+      },
+      {
+        "event_index": 32,
+        "event_type": "tf_burn",
+        "attributes": [
+          {
+            "key": "burn_from_address",
+            "value": "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "828593648factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "1",
+            "index": true
+          }
+        ]
+      },
+      {
+        "event_index": 45,
+        "event_type": "burn",
+        "attributes": [
+          {
+            "key": "burner",
+            "value": "terra19ejy8n9qsectrf4semdp9cpknflld0j6my8d0p",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "912730004factory/terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53/zluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "2",
+            "index": true
+          }
+        ]
+      },
+      {
+        "event_index": 46,
+        "event_type": "tf_burn",
+        "attributes": [
+          {
+            "key": "burn_from_address",
+            "value": "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "912730004factory/terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53/zluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "2",
+            "index": true
+          }
+        ]
+      },
+      {
+        "event_index": 59,
+        "event_type": "burn",
+        "attributes": [
+          {
+            "key": "burner",
+            "value": "terra19ejy8n9qsectrf4semdp9cpknflld0j6my8d0p",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "451815309factory/terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u/zluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "3",
+            "index": true
+          }
+        ]
+      },
+      {
+        "event_index": 60,
+        "event_type": "tf_burn",
+        "attributes": [
+          {
+            "key": "burn_from_address",
+            "value": "terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "451815309factory/terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u/zluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "3",
+            "index": true
+          }
+        ]
+      }
+    ],
+    "messages": [
+      {
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "sender": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+        "contract": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+        "msg": {
+          "withdraw": {}
+        },
+        "funds": [
+          {
+            "denom": "factory/terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8/zluna",
+            "amount": "1696193427"
+          }
+        ]
+      },
+      {
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "sender": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+        "contract": "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh",
+        "msg": {
+          "withdraw": {}
+        },
+        "funds": [
+          {
+            "denom": "factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna",
+            "amount": "828593648"
+          }
+        ]
+      },
+      {
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "sender": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+        "contract": "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53",
+        "msg": {
+          "withdraw": {}
+        },
+        "funds": [
+          {
+            "denom": "factory/terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53/zluna",
+            "amount": "912730004"
+          }
+        ]
+      },
+      {
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "sender": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+        "contract": "terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u",
+        "msg": {
+          "withdraw": {}
+        },
+        "funds": [
+          {
+            "denom": "factory/terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u/zluna",
+            "amount": "451815309"
+          }
+        ]
+      }
+    ],
+    "interpretation": "The connectors burned deposited zLUNA receipt tokens and transferred 2,383.589113 ampLUNA backing to the Phoenix operations wallet in the same successful transaction. The zLUNA burns were redemption accounting, not destruction of the economic backing. Current queried ampLUNA balance equals this received amount. This does not establish personal ownership, profit, or USD value.",
+    "source": "../operations_signed_query.json",
+    "token_metadata": {
+      "data": {
+        "name": "Eris Amplified LUNA",
+        "symbol": "ampLUNA",
+        "decimals": 6,
+        "total_supply": "13186925643803"
+      }
+    },
+    "metadata_source": "../chain_sources/ampluna_token_info.json",
+    "received_ampluna": "2383.589113",
+    "current_balance_source": "../chain_sources/operations_ampluna_balance.json"
+  },
+  "voting_escrow_owner_update": {
+    "hash": "3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+    "timestamp_utc": "2024-12-18T09:23:25Z",
+    "success_code": 0,
+    "message": {
+      "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+      "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "msg": {
+        "update_config": {
+          "append_deposit_assets": [
+            {
+              "config": {
+                "exchange_rate": {
+                  "contract": "terra1r9gls56glvuc4jedsvc3uwh6vj95mqm9efc7hnweqxa2nlme5cyqxygy5m"
+                }
+              },
+              "info": {
+                "cw20": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490"
+              }
+            }
+          ]
+        }
+      },
+      "funds": []
+    }
+  }
+}

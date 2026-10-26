@@ -1,0 +1,289 @@
+{
+  "observation_date": "2026-10-22",
+  "record_type": "Analysis of preserved public chain responses and Openfields indexer estimate",
+  "channels": {
+    "ERIS": {
+      "native_LUNA": "31633056.167845",
+      "control": "Hub owner: Philipp’s kefa wallet. Voting operator: Prop Gauge. Separate Prop Gauge administrator: Philipp’s q0v wallet."
+    },
+    "PD_TLA": {
+      "active_synthetic_LUNA_equivalent": 94748598.14107808,
+      "indexer_bonded_denominator": 299219779.620774,
+      "share_percent": 31.665218877295093,
+      "control": "Ordinary delegation controller: Phoenix board. Registry owner: Philipp’s kefa wallet. Registry administrator: Philipp’s q0v wallet.",
+      "unit": "Synthetic Alliance staking weight expressed in LUNA-equivalent; not withdrawable native LUNA or personal assets. No cash valuation assigned to this accounting weight."
+    }
+  },
+  "method": "ERIS amounts are native delegations; PD/TLA amounts and percentages are the saved Openfields model. Snapshots were taken at nearby heights. Columns remain separate; no combined personal vote percentage is inferred. Empty cells mean no allocation listed in that dataset. Inactive recipients are marked.",
+  "rows": [
+    {
+      "operator": "terravaloper1l63t9c0nruewg5zdrmv8pvcxdg0az6fqgg008k",
+      "validator": "Node39.TOP",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 2105226.65022891,
+      "pd_share_percent": 99.88581362670347,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1lg8zwpjvyx4pqy0j5ue2kf08edkuwy6l0j7f0h",
+      "validator": "owlstake",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 2105226.65022891,
+      "pd_share_percent": 99.68285386457465,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0",
+      "validator": "🦁 The Lion DAO",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 7816998.067598821,
+      "pd_share_percent": 94.66108646367891,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1a9zv7n6pmkzlm3wj6c23qyejqlmyxsl5faanrv",
+      "validator": "Active Nodes",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 4544766.319005355,
+      "pd_share_percent": 88.78885146636934,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1plxp55happ379eevsnk2xeuwzsrldsmqduyu36",
+      "validator": "0base.vc",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 3272231.748383361,
+      "pd_share_percent": 84.55126435607345,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper10c04ysz9uznx2mkenuk3j3esjczyqh0j783nzt",
+      "validator": "SCV-Security",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 3676812.701993105,
+      "pd_share_percent": 83.50914808582857,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1cqc26lnatzxvu0z5nd4yx8m4ecllkm7jlakwrw",
+      "validator": "SOLID",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 3635449.475834085,
+      "pd_share_percent": 79.8586215803432,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1tm0xkark2ufecmdhgaaw7gqsycyt4qag6py8x6",
+      "validator": "Synergy Nodes",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 4544766.319005355,
+      "pd_share_percent": 74.10001886481577,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1jt8pcx4sesgztjkjsvjjqtvyfgcehqx09u4exq",
+      "validator": "Terrascope",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 4908347.627884227,
+      "pd_share_percent": 73.41672011348714,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper16vc0num5aaq4mqdh4vjhs02s3ypd0j8c7ujxpm",
+      "validator": "Stakely.io",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 6544463.496874468,
+      "pd_share_percent": 71.74147314086112,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1puzp2yjqps43x7nse33svljc550xjz35jxg432",
+      "validator": "Pro-Nodes75",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 3090441.0938927457,
+      "pd_share_percent": 70.40386012903242,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1vcd42qfvlvnjwaw7hvl6y32wrzqxvas653yus9",
+      "validator": "Lavender.Five Nodes 🐝",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 4544766.319005355,
+      "pd_share_percent": 63.83181697756181,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcfs5wf",
+      "validator": "Orbital Command",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 5041477.5443375725,
+      "pd_share_percent": 61.25447016103494,
+      "eris_native_luna": "986354.227932",
+      "eris_share_percent": "11.98430521443690806117749888"
+    },
+    {
+      "operator": "terravaloper1cs0dspacdhym4cwcm3f7suurfszvl6k5s9p06a",
+      "validator": "TdrSys | Auto-Compound",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 2181487.8322573695,
+      "pd_share_percent": 53.84636303205879,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1vm5azhvaxeanc7auxh02y8jmxrk8tj93f43e7j",
+      "validator": "ERIS ⚡️ Delegate for claimdrop",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 4622278.825222999,
+      "pd_share_percent": 53.75234498916004,
+      "eris_native_luna": "3878960.095695",
+      "eris_share_percent": "45.10831326860161228005220596"
+    },
+    {
+      "operator": "terravaloper1l920a79akuc98hz4389axf9ctcymrf5ays578x",
+      "validator": "WildSage 🧙",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 2545069.141136242,
+      "pd_share_percent": 53.270467409740455,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1htey4gcdcass29vn4dwjcuq58mrvv8ra5pjz4k",
+      "validator": "cosmosrescue",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 4202071.659437623,
+      "pd_share_percent": 50.52019375428334,
+      "eris_native_luna": "3749579.152397",
+      "eris_share_percent": "45.08001781708546864973987596"
+    },
+    {
+      "operator": "terravaloper1mgpgp53tynj4djmckxdjhufa7q8lqqjuwnrlqm",
+      "validator": "Stakin by The Tie",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 2484472.252768376,
+      "pd_share_percent": 48.23706569229333,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1wdymftapg5pcvf2aqw4pd0yuuh5w9m6yqdnukv",
+      "validator": "01node",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 2545069.141136242,
+      "pd_share_percent": 43.72844172526261,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1pgyelqv0hwjavgf6vhdm4e4pt766wfxxczu20l",
+      "validator": "HighStakes.ch | Stake for Airdrop",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 3453671.404936834,
+      "pd_share_percent": 42.77763667119664,
+      "eris_native_luna": "3254064.061032",
+      "eris_share_percent": "40.30527337043272076597549557"
+    },
+    {
+      "operator": "terravaloper1rr2g4z2ch4cqwl8s70yj94a5l2vakg0v36nmjh",
+      "validator": "polkachu.com",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 5090138.271869605,
+      "pd_share_percent": 38.997097494928134,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper15lsftv92eyssjwkh2393s0nhjc07kryqen2fqf",
+      "validator": "Galactic Punks Validator",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 4908347.627884227,
+      "pd_share_percent": 34.37733612684867,
+      "eris_native_luna": "7862461.405355",
+      "eris_share_percent": "55.06750927353818207388198042"
+    },
+    {
+      "operator": "terravaloper188e99yz54744uhr8xjfxmmplhnuw75xea55zfp",
+      "validator": "Smart Stake",
+      "active": true,
+      "pd_synthetic_luna_equivalent": 6885017.970156261,
+      "pd_share_percent": 32.169838945124454,
+      "eris_native_luna": "7862461.40529",
+      "eris_share_percent": "36.73688554144697942407504774"
+    },
+    {
+      "operator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+      "validator": "Ceres Ventures",
+      "active": true,
+      "pd_synthetic_luna_equivalent": null,
+      "pd_share_percent": null,
+      "eris_native_luna": "695349.426655",
+      "eris_share_percent": "24.95305993998749312754801183"
+    },
+    {
+      "operator": "terravaloper1wr0p7dzss74wfmzfqm8r65mk26efg5zhzpm77s",
+      "validator": "BackBone Labs | Delegate for $SOUL Claim Drop",
+      "active": true,
+      "pd_synthetic_luna_equivalent": null,
+      "pd_share_percent": null,
+      "eris_native_luna": "3343826.393489",
+      "eris_share_percent": "74.46662199508492685946237082"
+    },
+    {
+      "operator": "terravaloper1vh9m0jpuznh00t05c66yqqpsgqzudrg258q6ch",
+      "validator": "closed",
+      "active": false,
+      "pd_synthetic_luna_equivalent": 3635800.473776615,
+      "pd_share_percent": 99.92781353603768,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    },
+    {
+      "operator": "terravaloper1564j3fq8p8np4yhh4lytnftz33japc03wn40kg",
+      "validator": "[Shutting down] cosmostation please redelegate",
+      "active": false,
+      "pd_synthetic_luna_equivalent": 6665657.2629972175,
+      "pd_share_percent": 87.32946844711495,
+      "eris_native_luna": null,
+      "eris_share_percent": null
+    }
+  ],
+  "allocation_decision_ids": [
+    4,
+    5,
+    6,
+    20,
+    21,
+    61,
+    81,
+    82,
+    114,
+    115,
+    136,
+    194,
+    195,
+    196,
+    197,
+    198,
+    218
+  ],
+  "source_files": [
+    "sources/power_20261022_openfields_pd_power.json",
+    "sources/power_20261022_amp_delegations.json",
+    "sources/power_20261022_validators.json",
+    "sources/power_20261022_staking_pool.json",
+    "sources/power_20261022_alliances.json"
+  ]
+}

@@ -1,0 +1,2891 @@
+{
+  "record_type": "Verified extraction of contract-origin native-governance vote events",
+  "scope": "58 events in 56 successful transactions, 13 proposals, 17 March 2023–10 October 2024, found in the preserved archive query corpus. Multiple events can update the same proposal ballot. This is not a claim of complete lifetime voting coverage.",
+  "attribution": "The voter is the ERIS hub, not automatically the external transaction signer. One event explicitly names the hub voter; 57 match the unique hub address in the accompanying voted_weighted event. Those 57 retain the inference flag. Upstream callers and instructions are included; this ledger does not attribute every aggregated choice personally to Philipp.",
+  "records": [
+    {
+      "event_id": "8238F69B00BA9FC2B9F6FB758C83C354D5AE3CC2B9F673BEB7EB49062F2F3F0A:event/14",
+      "txhash": "8238F69B00BA9FC2B9F6FB758C83C354D5AE3CC2B9F673BEB7EB49062F2F3F0A",
+      "height": 4222909,
+      "timestamp_utc": "2023-03-17T11:15:41Z",
+      "proposal_id": 4706,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":2,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4706"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4706"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4706,
+              "vote": "abstain"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/8238F69B00BA9FC2B9F6FB758C83C354D5AE3CC2B9F673BEB7EB49062F2F3F0A",
+      "source_response_sha256": "a82bf060aa67d76ae488b9ef0f8af8dbfec8256a42c92ee358b0a2a31dc74afc",
+      "success_code": 0
+    },
+    {
+      "event_id": "3BD45E70C568A486B2C3E620BA8348230BB276743F6A107894BEF1DA985A13CD:event/14",
+      "txhash": "3BD45E70C568A486B2C3E620BA8348230BB276743F6A107894BEF1DA985A13CD",
+      "height": 4230220,
+      "timestamp_utc": "2023-03-17T23:20:49Z",
+      "proposal_id": 4706,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.003000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.997000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.003000000000000000\"}\n{\"option\":2,\"weight\":\"0.997000000000000000\"}",
+        "proposal_id": "4706"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4706"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1mgucrxz3tqt5wzxd9vgza9fltxhytxpsxfp6sn",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4706,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/3BD45E70C568A486B2C3E620BA8348230BB276743F6A107894BEF1DA985A13CD",
+      "source_response_sha256": "a82bf060aa67d76ae488b9ef0f8af8dbfec8256a42c92ee358b0a2a31dc74afc",
+      "success_code": 0
+    },
+    {
+      "event_id": "474A253950A30EDC00084785F1274608A1FD70AA3BCF7F1DBBF3F56E42A9DCE3:event/14",
+      "txhash": "474A253950A30EDC00084785F1274608A1FD70AA3BCF7F1DBBF3F56E42A9DCE3",
+      "height": 4243896,
+      "timestamp_utc": "2023-03-18T21:55:52Z",
+      "proposal_id": 4706,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.004000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.996000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.004000000000000000\"}\n{\"option\":2,\"weight\":\"0.996000000000000000\"}",
+        "proposal_id": "4706"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4706"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1ez7zehwatq5ypq3efv5memew6f06h9xqupr4h0",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4706,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/474A253950A30EDC00084785F1274608A1FD70AA3BCF7F1DBBF3F56E42A9DCE3",
+      "source_response_sha256": "b307208dc0a3b157c680e41fcf910d12dcc2bb4fa9c80d25bfec44bbdc81fc52",
+      "success_code": 0
+    },
+    {
+      "event_id": "4EA9E31FBF9CADF74DF4ABE651AC6B9FC126D075CA529E6D9EFE628A60C43155:event/14",
+      "txhash": "4EA9E31FBF9CADF74DF4ABE651AC6B9FC126D075CA529E6D9EFE628A60C43155",
+      "height": 4248629,
+      "timestamp_utc": "2023-03-19T05:44:57Z",
+      "proposal_id": 4706,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.004000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.996000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.004000000000000000\"}\n{\"option\":2,\"weight\":\"0.996000000000000000\"}",
+        "proposal_id": "4706"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4706"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra137p2qrs3qw00c28679pwu4a76md48q8z7xe795",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4706,
+              "vote": "abstain"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/4EA9E31FBF9CADF74DF4ABE651AC6B9FC126D075CA529E6D9EFE628A60C43155",
+      "source_response_sha256": "b307208dc0a3b157c680e41fcf910d12dcc2bb4fa9c80d25bfec44bbdc81fc52",
+      "success_code": 0
+    },
+    {
+      "event_id": "34BB8355C70CF6DB48510F0FE0690D8DF9191D9A78DA415EDDE518290F1E49D4:event/14",
+      "txhash": "34BB8355C70CF6DB48510F0FE0690D8DF9191D9A78DA415EDDE518290F1E49D4",
+      "height": 4250421,
+      "timestamp_utc": "2023-03-19T08:42:25Z",
+      "proposal_id": 4706,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.004000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.996000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.004000000000000000\"}\n{\"option\":2,\"weight\":\"0.996000000000000000\"}",
+        "proposal_id": "4706"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4706"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1as8j8qhexvsc3sy0gxrfajuuggwar45chfhqwn",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4706,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/34BB8355C70CF6DB48510F0FE0690D8DF9191D9A78DA415EDDE518290F1E49D4",
+      "source_response_sha256": "b307208dc0a3b157c680e41fcf910d12dcc2bb4fa9c80d25bfec44bbdc81fc52",
+      "success_code": 0
+    },
+    {
+      "event_id": "BEAA247646F6A8AADB2469B143478D7ADB2C22A1FEEB0F1865A1FFF501D49025:event/14",
+      "txhash": "BEAA247646F6A8AADB2469B143478D7ADB2C22A1FEEB0F1865A1FFF501D49025",
+      "height": 4279973,
+      "timestamp_utc": "2023-03-21T09:33:49Z",
+      "proposal_id": 4706,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.008000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.992000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.008000000000000000\"}\n{\"option\":2,\"weight\":\"0.992000000000000000\"}",
+        "proposal_id": "4706"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4706"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1669s3r39f99ulzsde45vq0heydezgnupjngkpe",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4706,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/BEAA247646F6A8AADB2469B143478D7ADB2C22A1FEEB0F1865A1FFF501D49025",
+      "source_response_sha256": "a3fdb393878000187872d83e40a25f5ebe782d0677d83836eee4871c494c9757",
+      "success_code": 0
+    },
+    {
+      "event_id": "94590AFA129373186502087BD066A88974C5467E8AC221437235F10204C2B92A:event/14",
+      "txhash": "94590AFA129373186502087BD066A88974C5467E8AC221437235F10204C2B92A",
+      "height": 4512385,
+      "timestamp_utc": "2023-04-06T10:38:21Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":2,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "abstain"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/94590AFA129373186502087BD066A88974C5467E8AC221437235F10204C2B92A",
+      "source_response_sha256": "b80cc231ffa1cc3be7dcf06e9d85a98c48d631e32e35db6bf84fc623f327a71e",
+      "success_code": 0
+    },
+    {
+      "event_id": "076C2D6536811D9F4E0AA399C80F31EBA061E97B6C00C0F2C38094EEB9B8748F:event/14",
+      "txhash": "076C2D6536811D9F4E0AA399C80F31EBA061E97B6C00C0F2C38094EEB9B8748F",
+      "height": 4512480,
+      "timestamp_utc": "2023-04-06T10:47:44Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.003000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.997000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.003000000000000000\"}\n{\"option\":2,\"weight\":\"0.997000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra174jqm68e3mp28gwcqxu5q4vvdyjujefl7pxf8d",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/076C2D6536811D9F4E0AA399C80F31EBA061E97B6C00C0F2C38094EEB9B8748F",
+      "source_response_sha256": "b80cc231ffa1cc3be7dcf06e9d85a98c48d631e32e35db6bf84fc623f327a71e",
+      "success_code": 0
+    },
+    {
+      "event_id": "E643AB7A8927B6A83A2C5EE51C7DD85D725CC0C4215E6AD45A18E92428EA5E42:event/14",
+      "txhash": "E643AB7A8927B6A83A2C5EE51C7DD85D725CC0C4215E6AD45A18E92428EA5E42",
+      "height": 4512822,
+      "timestamp_utc": "2023-04-06T11:21:48Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.007000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.993000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.007000000000000000\"}\n{\"option\":2,\"weight\":\"0.993000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra174echl95gxagu523ey6yupqz6kllahmlr374zu",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/E643AB7A8927B6A83A2C5EE51C7DD85D725CC0C4215E6AD45A18E92428EA5E42",
+      "source_response_sha256": "b80cc231ffa1cc3be7dcf06e9d85a98c48d631e32e35db6bf84fc623f327a71e",
+      "success_code": 0
+    },
+    {
+      "event_id": "046FFDCFEEA3041CE71CA58D62BA4FE944D31FB51D24266E555D7462180739E3:event/14",
+      "txhash": "046FFDCFEEA3041CE71CA58D62BA4FE944D31FB51D24266E555D7462180739E3",
+      "height": 4513672,
+      "timestamp_utc": "2023-04-06T12:46:23Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.009000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.991000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.009000000000000000\"}\n{\"option\":2,\"weight\":\"0.991000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra160lml094xruqkufvapdm6j3qph8ppkrjt2m4dd",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/046FFDCFEEA3041CE71CA58D62BA4FE944D31FB51D24266E555D7462180739E3",
+      "source_response_sha256": "b80cc231ffa1cc3be7dcf06e9d85a98c48d631e32e35db6bf84fc623f327a71e",
+      "success_code": 0
+    },
+    {
+      "event_id": "9AFB9BCB62B5FA2EB9D4396D5473A67DA5EE1E6D4680D81D6160DFA921BD4466:event/14",
+      "txhash": "9AFB9BCB62B5FA2EB9D4396D5473A67DA5EE1E6D4680D81D6160DFA921BD4466",
+      "height": 4518959,
+      "timestamp_utc": "2023-04-06T21:32:21Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.014000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.986000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.014000000000000000\"}\n{\"option\":2,\"weight\":\"0.986000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1wn20yk4jcva0h22x0dlx7jcr8leykh40l6wlm6",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/9AFB9BCB62B5FA2EB9D4396D5473A67DA5EE1E6D4680D81D6160DFA921BD4466",
+      "source_response_sha256": "e0c6441c6a7cc59e53d32c6d67097f78206babc337f9dbe5cfac8ca404b08347",
+      "success_code": 0
+    },
+    {
+      "event_id": "416CFFF5CCD1E604EC6AC499EB2347E62F4F91FB81DA1D3D8E6D17A4CB71690F:event/14",
+      "txhash": "416CFFF5CCD1E604EC6AC499EB2347E62F4F91FB81DA1D3D8E6D17A4CB71690F",
+      "height": 4560742,
+      "timestamp_utc": "2023-04-09T18:49:48Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.014000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.986000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.014000000000000000\"}\n{\"option\":2,\"weight\":\"0.986000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1cugykexy3x6fzpumg8zu53sqr86la8jy7te0q6",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/416CFFF5CCD1E604EC6AC499EB2347E62F4F91FB81DA1D3D8E6D17A4CB71690F",
+      "source_response_sha256": "310cc5d1ce6751d0555d751bbcb1eb31580bfed3c0d0799dd49167fda62a1f33",
+      "success_code": 0
+    },
+    {
+      "event_id": "4F803C57111C4DA54A51DC01F9B1D0EC382488333F29A9D295F01EA7AC9C88AE:event/14",
+      "txhash": "4F803C57111C4DA54A51DC01F9B1D0EC382488333F29A9D295F01EA7AC9C88AE",
+      "height": 4562149,
+      "timestamp_utc": "2023-04-09T21:09:42Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.015000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.021000000000000000"
+        },
+        {
+          "option": "ABSTAIN",
+          "weight": "0.964000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.015000000000000000\"}\n{\"option\":3,\"weight\":\"0.021000000000000000\"}\n{\"option\":2,\"weight\":\"0.964000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/4F803C57111C4DA54A51DC01F9B1D0EC382488333F29A9D295F01EA7AC9C88AE",
+      "source_response_sha256": "310cc5d1ce6751d0555d751bbcb1eb31580bfed3c0d0799dd49167fda62a1f33",
+      "success_code": 0
+    },
+    {
+      "event_id": "641061470AADF46D827642D562503CA3BAC16042A60EC013BA3999BC653E572A:event/14",
+      "txhash": "641061470AADF46D827642D562503CA3BAC16042A60EC013BA3999BC653E572A",
+      "height": 4576197,
+      "timestamp_utc": "2023-04-10T20:27:32Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.014000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.986000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.014000000000000000\"}\n{\"option\":3,\"weight\":\"0.986000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/641061470AADF46D827642D562503CA3BAC16042A60EC013BA3999BC653E572A",
+      "source_response_sha256": "f5926e2c65e1572b5be223677e724bde7a5b8956c18c77b15d32930135199735",
+      "success_code": 0
+    },
+    {
+      "event_id": "FA482124946FFE7C37AEF4252D596DB92BCE8087C2B78CEEA668F1C5140CF949:event/14",
+      "txhash": "FA482124946FFE7C37AEF4252D596DB92BCE8087C2B78CEEA668F1C5140CF949",
+      "height": 4576445,
+      "timestamp_utc": "2023-04-10T20:52:11Z",
+      "proposal_id": 4715,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4715"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4715"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4715,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/FA482124946FFE7C37AEF4252D596DB92BCE8087C2B78CEEA668F1C5140CF949",
+      "source_response_sha256": "f5926e2c65e1572b5be223677e724bde7a5b8956c18c77b15d32930135199735",
+      "success_code": 0
+    },
+    {
+      "event_id": "2CDAB0F0BE92FAEDC71CA3E7B4091A55BC5C3B7DA17704EFE268FCB4054F9AEA:event/14",
+      "txhash": "2CDAB0F0BE92FAEDC71CA3E7B4091A55BC5C3B7DA17704EFE268FCB4054F9AEA",
+      "height": 4579065,
+      "timestamp_utc": "2023-04-11T01:12:21Z",
+      "proposal_id": 4715,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4715"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4715"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra17w74x9vrqq4a338ssh9y9r4m9s3f6zef7wy5ms",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4715,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/2CDAB0F0BE92FAEDC71CA3E7B4091A55BC5C3B7DA17704EFE268FCB4054F9AEA",
+      "source_response_sha256": "d1b753541f1062e9b622635d7326a5f6f808e09a35c2ecc2ec37d3117f2593ba",
+      "success_code": 0
+    },
+    {
+      "event_id": "D13FB949C0DEB8D57D5847B1A2A63D801F190A38C70EBD48EEF5E3B97A1BE0F5:event/14",
+      "txhash": "D13FB949C0DEB8D57D5847B1A2A63D801F190A38C70EBD48EEF5E3B97A1BE0F5",
+      "height": 4579068,
+      "timestamp_utc": "2023-04-11T01:12:40Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.014000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.986000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.014000000000000000\"}\n{\"option\":3,\"weight\":\"0.986000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra17w74x9vrqq4a338ssh9y9r4m9s3f6zef7wy5ms",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/D13FB949C0DEB8D57D5847B1A2A63D801F190A38C70EBD48EEF5E3B97A1BE0F5",
+      "source_response_sha256": "d1b753541f1062e9b622635d7326a5f6f808e09a35c2ecc2ec37d3117f2593ba",
+      "success_code": 0
+    },
+    {
+      "event_id": "D4C60EB23212AD13BB4A6A96E7BDFB70834FC670AB8CCDECD43E22B452C132F3:event/14",
+      "txhash": "D4C60EB23212AD13BB4A6A96E7BDFB70834FC670AB8CCDECD43E22B452C132F3",
+      "height": 4586684,
+      "timestamp_utc": "2023-04-11T13:49:24Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.012000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.988000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.012000000000000000\"}\n{\"option\":3,\"weight\":\"0.988000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1yxmz0r83s3xy9jn5ywx39xsxtm75esfx896lhr",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/D4C60EB23212AD13BB4A6A96E7BDFB70834FC670AB8CCDECD43E22B452C132F3",
+      "source_response_sha256": "6ea7f6359949d798c7d8b41e5b29abc43da0852e3e505583b55feed3cd827867",
+      "success_code": 0
+    },
+    {
+      "event_id": "8BB1BDCAA8DE5CC8917995DE9F518B9D4B8C9120363F09815A42658C1760E561:event/14",
+      "txhash": "8BB1BDCAA8DE5CC8917995DE9F518B9D4B8C9120363F09815A42658C1760E561",
+      "height": 4586688,
+      "timestamp_utc": "2023-04-11T13:49:48Z",
+      "proposal_id": 4715,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4715"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4715"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1yxmz0r83s3xy9jn5ywx39xsxtm75esfx896lhr",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4715,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/8BB1BDCAA8DE5CC8917995DE9F518B9D4B8C9120363F09815A42658C1760E561",
+      "source_response_sha256": "6ea7f6359949d798c7d8b41e5b29abc43da0852e3e505583b55feed3cd827867",
+      "success_code": 0
+    },
+    {
+      "event_id": "790F4C1B0A4A945D78848D663399EA5F24AA237ABFA8CD7E4F7F44EEF6D6CC91:event/14",
+      "txhash": "790F4C1B0A4A945D78848D663399EA5F24AA237ABFA8CD7E4F7F44EEF6D6CC91",
+      "height": 4586695,
+      "timestamp_utc": "2023-04-11T13:50:30Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.008000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.992000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.008000000000000000\"}\n{\"option\":3,\"weight\":\"0.992000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1st4g9u7yz2h4fjh2hhgg7vdclz8qpe4sk7z8ku",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/790F4C1B0A4A945D78848D663399EA5F24AA237ABFA8CD7E4F7F44EEF6D6CC91",
+      "source_response_sha256": "6ea7f6359949d798c7d8b41e5b29abc43da0852e3e505583b55feed3cd827867",
+      "success_code": 0
+    },
+    {
+      "event_id": "0CC63A3BF99B58F730D8CE4D38EA179267EC0A45BD7AF0BD1951872856EB60DA:event/14",
+      "txhash": "0CC63A3BF99B58F730D8CE4D38EA179267EC0A45BD7AF0BD1951872856EB60DA",
+      "height": 4586701,
+      "timestamp_utc": "2023-04-11T13:51:07Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.006000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.994000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.006000000000000000\"}\n{\"option\":3,\"weight\":\"0.994000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1x87c2kh7w3v6s9cq9yecqnnxppq7vs4krcyyju",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/0CC63A3BF99B58F730D8CE4D38EA179267EC0A45BD7AF0BD1951872856EB60DA",
+      "source_response_sha256": "6ea7f6359949d798c7d8b41e5b29abc43da0852e3e505583b55feed3cd827867",
+      "success_code": 0
+    },
+    {
+      "event_id": "BE6195F51C55F17A4579CF9D9D636665DFF071039018304E665DDF6A786391AE:event/14",
+      "txhash": "BE6195F51C55F17A4579CF9D9D636665DFF071039018304E665DDF6A786391AE",
+      "height": 4586717,
+      "timestamp_utc": "2023-04-11T13:52:41Z",
+      "proposal_id": 4714,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.006000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.994000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"0.006000000000000000\"}\n{\"option\":3,\"weight\":\"0.994000000000000000\"}",
+        "proposal_id": "4714"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4714"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14047v5xmjgvkjzdhf6l2w2c44tcvyszpldv57z",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4714,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/BE6195F51C55F17A4579CF9D9D636665DFF071039018304E665DDF6A786391AE",
+      "source_response_sha256": "6ea7f6359949d798c7d8b41e5b29abc43da0852e3e505583b55feed3cd827867",
+      "success_code": 0
+    },
+    {
+      "event_id": "CF35312620A1B00C6376CCAF5C3CEDB18F62CF789F9132E98777C1576103987A:event/14",
+      "txhash": "CF35312620A1B00C6376CCAF5C3CEDB18F62CF789F9132E98777C1576103987A",
+      "height": 4588318,
+      "timestamp_utc": "2023-04-11T16:31:47Z",
+      "proposal_id": 4715,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4715"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4715"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1tyvr2gfjhavcwx7gncrq9q74pn272lzftuc74z",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4715,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/CF35312620A1B00C6376CCAF5C3CEDB18F62CF789F9132E98777C1576103987A",
+      "source_response_sha256": "32ba699ba07248c6dd77b95bab43f7e055f62921d5f008659c9984b93c5c3258",
+      "success_code": 0
+    },
+    {
+      "event_id": "9672009016A695F2B51B5E9C28CFE2CD32BD49D551A7C39A1BAE76E828192F70:event/14",
+      "txhash": "9672009016A695F2B51B5E9C28CFE2CD32BD49D551A7C39A1BAE76E828192F70",
+      "height": 4593943,
+      "timestamp_utc": "2023-04-12T01:50:44Z",
+      "proposal_id": 4715,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4715"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4715"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1axga8vmadpx38t9766980rwkkzvdtwxwn976fl",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4715,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/9672009016A695F2B51B5E9C28CFE2CD32BD49D551A7C39A1BAE76E828192F70",
+      "source_response_sha256": "32ba699ba07248c6dd77b95bab43f7e055f62921d5f008659c9984b93c5c3258",
+      "success_code": 0
+    },
+    {
+      "event_id": "91829850B3F960CC4FEB2F7903B7670B1B005B57114AB4677A9D54F6AF8A2CC4:event/14",
+      "txhash": "91829850B3F960CC4FEB2F7903B7670B1B005B57114AB4677A9D54F6AF8A2CC4",
+      "height": 4602441,
+      "timestamp_utc": "2023-04-12T15:54:16Z",
+      "proposal_id": 4716,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4716"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4716"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4716,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/91829850B3F960CC4FEB2F7903B7670B1B005B57114AB4677A9D54F6AF8A2CC4",
+      "source_response_sha256": "3bfd468d82f1a5c5a179a2e459b2e980ed60305916102cab2b1107bcb9392d31",
+      "success_code": 0
+    },
+    {
+      "event_id": "4ADEB625B45F2F72B920A703578620A2A05495E5EBE6A9AF7A634367E732E247:event/14",
+      "txhash": "4ADEB625B45F2F72B920A703578620A2A05495E5EBE6A9AF7A634367E732E247",
+      "height": 4607444,
+      "timestamp_utc": "2023-04-13T00:12:03Z",
+      "proposal_id": 4716,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4716"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4716"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1vlwmp6e2waq24rmt72vwjy0kkn8u0tcjvavzuq",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4716,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/4ADEB625B45F2F72B920A703578620A2A05495E5EBE6A9AF7A634367E732E247",
+      "source_response_sha256": "50e3e8a464f7219e4d98dabf2cf3744fc8cfe17c2690a85cf598eb83854356ed",
+      "success_code": 0
+    },
+    {
+      "event_id": "8B7CF43835E65EE4EF4E979958E682136C0924947E7C8FD809798519095614C5:event/14",
+      "txhash": "8B7CF43835E65EE4EF4E979958E682136C0924947E7C8FD809798519095614C5",
+      "height": 4607447,
+      "timestamp_utc": "2023-04-13T00:12:20Z",
+      "proposal_id": 4715,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4715"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4715"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1vlwmp6e2waq24rmt72vwjy0kkn8u0tcjvavzuq",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4715,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/8B7CF43835E65EE4EF4E979958E682136C0924947E7C8FD809798519095614C5",
+      "source_response_sha256": "91034816d9775325630dca12ab19ff518d2cba6e4b00a25a28e0f8f611361416",
+      "success_code": 0
+    },
+    {
+      "event_id": "8B47F4E09213040DF3193E58FC43283D7A41656FD7750BED5E4E7E9FED56A6E8:event/14",
+      "txhash": "8B47F4E09213040DF3193E58FC43283D7A41656FD7750BED5E4E7E9FED56A6E8",
+      "height": 4614105,
+      "timestamp_utc": "2023-04-13T11:12:53Z",
+      "proposal_id": 4716,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4716"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4716"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra18au39029aa4mey00fap4l74c936l8efjuqhf6u",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4716,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/8B47F4E09213040DF3193E58FC43283D7A41656FD7750BED5E4E7E9FED56A6E8",
+      "source_response_sha256": "937a160ef57f2e7833149eb9a15380dfa8ea22d6cfeacb5e3415b6541b8aa571",
+      "success_code": 0
+    },
+    {
+      "event_id": "F790505B95CD8636FAE2FCCC18BC9CC85571EEA6CFC9E9651F389E252DCDB670:event/14",
+      "txhash": "F790505B95CD8636FAE2FCCC18BC9CC85571EEA6CFC9E9651F389E252DCDB670",
+      "height": 4623220,
+      "timestamp_utc": "2023-04-14T02:18:11Z",
+      "proposal_id": 4716,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "{\"option\":1,\"weight\":\"1.000000000000000000\"}",
+        "proposal_id": "4716"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4716"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14aqddykks6c8j0lfkk00n2xe4mf65dsssncutc",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4716,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/F790505B95CD8636FAE2FCCC18BC9CC85571EEA6CFC9E9651F389E252DCDB670",
+      "source_response_sha256": "5a8ebd383ada0bd08a64e7242cd65eb56ae716466658f6d2776c8d9f359c4638",
+      "success_code": 0
+    },
+    {
+      "event_id": "C87C0DE6BC3AE3A422F4EDA20E57244CA6760C0A72A9B5E477952E40789698B3:event/14",
+      "txhash": "C87C0DE6BC3AE3A422F4EDA20E57244CA6760C0A72A9B5E477952E40789698B3",
+      "height": 4957619,
+      "timestamp_utc": "2023-05-07T08:05:32Z",
+      "proposal_id": 4723,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_NO weight:\"1.000000000000000000\"",
+        "proposal_id": "4723"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4723"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4723,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/C87C0DE6BC3AE3A422F4EDA20E57244CA6760C0A72A9B5E477952E40789698B3",
+      "source_response_sha256": "ee545cf6d65cbe2b89c6262f4c3f6a51ef4cd607f5b6c84e190d31f5fcce8696",
+      "success_code": 0
+    },
+    {
+      "event_id": "2272FCEBD9899BFF6C2C555F123AB7360BFA53EDB604E738876A4DF4FE513E08:event/18",
+      "txhash": "2272FCEBD9899BFF6C2C555F123AB7360BFA53EDB604E738876A4DF4FE513E08",
+      "height": 5783086,
+      "timestamp_utc": "2023-07-03T20:00:10Z",
+      "proposal_id": 4735,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_NO weight:\"1.000000000000000000\"",
+        "proposal_id": "4735"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 17,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4735"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1ep7exp42jjtwgjly36y4vgylz82fplnjwpkz95wljzwfald8zwwqggsdzz",
+          "msg": {
+            "extend_lock_time": {
+              "time": 1814400
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/2272FCEBD9899BFF6C2C555F123AB7360BFA53EDB604E738876A4DF4FE513E08",
+      "source_response_sha256": "f6318bbe3276fa8b6bcece532d6b8ee442d8cdfc4202bc8b858f30c727ec1670",
+      "success_code": 0
+    },
+    {
+      "event_id": "2272FCEBD9899BFF6C2C555F123AB7360BFA53EDB604E738876A4DF4FE513E08:event/22",
+      "txhash": "2272FCEBD9899BFF6C2C555F123AB7360BFA53EDB604E738876A4DF4FE513E08",
+      "height": 5783086,
+      "timestamp_utc": "2023-07-03T20:00:10Z",
+      "proposal_id": 4736,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4736"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 21,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4736"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1ep7exp42jjtwgjly36y4vgylz82fplnjwpkz95wljzwfald8zwwqggsdzz",
+          "msg": {
+            "extend_lock_time": {
+              "time": 1814400
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/2272FCEBD9899BFF6C2C555F123AB7360BFA53EDB604E738876A4DF4FE513E08",
+      "source_response_sha256": "f6318bbe3276fa8b6bcece532d6b8ee442d8cdfc4202bc8b858f30c727ec1670",
+      "success_code": 0
+    },
+    {
+      "event_id": "03A29675C51CBD5F218029AF7CB22BA1223D0D99FEF04E52930D7936C7E9CD22:event/14",
+      "txhash": "03A29675C51CBD5F218029AF7CB22BA1223D0D99FEF04E52930D7936C7E9CD22",
+      "height": 5788643,
+      "timestamp_utc": "2023-07-04T05:16:27Z",
+      "proposal_id": 4735,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.136000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.864000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"0.136000000000000000\" \noption:VOTE_OPTION_NO weight:\"0.864000000000000000\"",
+        "proposal_id": "4735"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4735"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1wpg32jhp3qnaguyayy6phxhz3kpv2c6reg9lta",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4735,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/03A29675C51CBD5F218029AF7CB22BA1223D0D99FEF04E52930D7936C7E9CD22",
+      "source_response_sha256": "276119711474898d8aa589d44361d39eaf1647f63601dc3e2f8c05a90c4e273b",
+      "success_code": 0
+    },
+    {
+      "event_id": "B8C946933BA2534A670766186A9F4BD22FB7B46F5158C05877A39801379180C0:event/14",
+      "txhash": "B8C946933BA2534A670766186A9F4BD22FB7B46F5158C05877A39801379180C0",
+      "height": 5795061,
+      "timestamp_utc": "2023-07-04T16:05:53Z",
+      "proposal_id": 4736,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4736"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4736"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1l4fpfnal3gv9ukun2ht6zut00v8chvykfsvr37",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4736,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/B8C946933BA2534A670766186A9F4BD22FB7B46F5158C05877A39801379180C0",
+      "source_response_sha256": "40c9451dcaba9d40ae298f3e59a2b1ddffa3676cfc210903d2531ebc55f1ff6c",
+      "success_code": 0
+    },
+    {
+      "event_id": "AD93EF86F632DCEB138AABC4B4D830702306859F2E6DAF95B114BCC213B2965B:event/14",
+      "txhash": "AD93EF86F632DCEB138AABC4B4D830702306859F2E6DAF95B114BCC213B2965B",
+      "height": 5795171,
+      "timestamp_utc": "2023-07-04T16:17:00Z",
+      "proposal_id": 4735,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.080000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.920000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"0.080000000000000000\" \noption:VOTE_OPTION_NO weight:\"0.920000000000000000\"",
+        "proposal_id": "4735"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4735"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1l4fpfnal3gv9ukun2ht6zut00v8chvykfsvr37",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4735,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/AD93EF86F632DCEB138AABC4B4D830702306859F2E6DAF95B114BCC213B2965B",
+      "source_response_sha256": "40c9451dcaba9d40ae298f3e59a2b1ddffa3676cfc210903d2531ebc55f1ff6c",
+      "success_code": 0
+    },
+    {
+      "event_id": "BBADC7C7A7923E1436381C91DE0347C9D9A74775C028F66860B2300D39BE4312:event/14",
+      "txhash": "BBADC7C7A7923E1436381C91DE0347C9D9A74775C028F66860B2300D39BE4312",
+      "height": 5795723,
+      "timestamp_utc": "2023-07-04T17:12:51Z",
+      "proposal_id": 4735,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.087000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.913000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"0.087000000000000000\" \noption:VOTE_OPTION_NO weight:\"0.913000000000000000\"",
+        "proposal_id": "4735"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4735"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1pc3vp2ua6rxyp0eycyhmc0zdsmyknf22r8tvds",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4735,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/BBADC7C7A7923E1436381C91DE0347C9D9A74775C028F66860B2300D39BE4312",
+      "source_response_sha256": "40c9451dcaba9d40ae298f3e59a2b1ddffa3676cfc210903d2531ebc55f1ff6c",
+      "success_code": 0
+    },
+    {
+      "event_id": "A7F809A9D2DF9BFCADA62D3180FAC7C7D9C885BF5EA618F8365ADFE6FACC0043:event/14",
+      "txhash": "A7F809A9D2DF9BFCADA62D3180FAC7C7D9C885BF5EA618F8365ADFE6FACC0043",
+      "height": 5795730,
+      "timestamp_utc": "2023-07-04T17:13:34Z",
+      "proposal_id": 4736,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4736"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4736"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1pc3vp2ua6rxyp0eycyhmc0zdsmyknf22r8tvds",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4736,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/A7F809A9D2DF9BFCADA62D3180FAC7C7D9C885BF5EA618F8365ADFE6FACC0043",
+      "source_response_sha256": "40c9451dcaba9d40ae298f3e59a2b1ddffa3676cfc210903d2531ebc55f1ff6c",
+      "success_code": 0
+    },
+    {
+      "event_id": "22328F30B29BBA612D7FDDA37A90E71D782855C4019571AC4C853AFF1E7CECE4:event/14",
+      "txhash": "22328F30B29BBA612D7FDDA37A90E71D782855C4019571AC4C853AFF1E7CECE4",
+      "height": 5797290,
+      "timestamp_utc": "2023-07-04T19:51:33Z",
+      "proposal_id": 4736,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4736"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4736"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1tyvr2gfjhavcwx7gncrq9q74pn272lzftuc74z",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4736,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/22328F30B29BBA612D7FDDA37A90E71D782855C4019571AC4C853AFF1E7CECE4",
+      "source_response_sha256": "40c9451dcaba9d40ae298f3e59a2b1ddffa3676cfc210903d2531ebc55f1ff6c",
+      "success_code": 0
+    },
+    {
+      "event_id": "FCF2F8D38C3B5F58FAC9A9D7398A389FC772295F05C71B29E11CAD73CF9A9502:event/14",
+      "txhash": "FCF2F8D38C3B5F58FAC9A9D7398A389FC772295F05C71B29E11CAD73CF9A9502",
+      "height": 5799426,
+      "timestamp_utc": "2023-07-04T23:26:12Z",
+      "proposal_id": 4736,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4736"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4736"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra18au39029aa4mey00fap4l74c936l8efjuqhf6u",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4736,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/FCF2F8D38C3B5F58FAC9A9D7398A389FC772295F05C71B29E11CAD73CF9A9502",
+      "source_response_sha256": "bfbd9711c45710b62ee97c1b62de3dd97c6b7936ed9c308d1b2334ae177cd9bb",
+      "success_code": 0
+    },
+    {
+      "event_id": "1FAE2F639DFDF12CB67950C5E5FB30F072FF68159BB90BC65ABD45B1618EB787:event/14",
+      "txhash": "1FAE2F639DFDF12CB67950C5E5FB30F072FF68159BB90BC65ABD45B1618EB787",
+      "height": 5810053,
+      "timestamp_utc": "2023-07-05T17:10:55Z",
+      "proposal_id": 4735,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.088000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.912000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"0.088000000000000000\" \noption:VOTE_OPTION_NO weight:\"0.912000000000000000\"",
+        "proposal_id": "4735"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4735"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra10s2nj7d9dkqypschw9rrqddl4v5f7ywe8nrnvd",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4735,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/1FAE2F639DFDF12CB67950C5E5FB30F072FF68159BB90BC65ABD45B1618EB787",
+      "source_response_sha256": "bfbd9711c45710b62ee97c1b62de3dd97c6b7936ed9c308d1b2334ae177cd9bb",
+      "success_code": 0
+    },
+    {
+      "event_id": "1DE02FD173609B0A7C7CEE9527669C7F24A7CF343B95CDD1A75D43372F871B98:event/14",
+      "txhash": "1DE02FD173609B0A7C7CEE9527669C7F24A7CF343B95CDD1A75D43372F871B98",
+      "height": 5810086,
+      "timestamp_utc": "2023-07-05T17:14:12Z",
+      "proposal_id": 4736,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4736"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4736"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra10s2nj7d9dkqypschw9rrqddl4v5f7ywe8nrnvd",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4736,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/1DE02FD173609B0A7C7CEE9527669C7F24A7CF343B95CDD1A75D43372F871B98",
+      "source_response_sha256": "bfbd9711c45710b62ee97c1b62de3dd97c6b7936ed9c308d1b2334ae177cd9bb",
+      "success_code": 0
+    },
+    {
+      "event_id": "71DF51D0FCC64088621D8B7851F33B9D1F1B75D25DC6A3CEEDD4567C330DB5F8:event/14",
+      "txhash": "71DF51D0FCC64088621D8B7851F33B9D1F1B75D25DC6A3CEEDD4567C330DB5F8",
+      "height": 5815898,
+      "timestamp_utc": "2023-07-06T02:55:25Z",
+      "proposal_id": 4736,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4736"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4736"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1ksk66lcvzwaanc47nvn3athj4yzcpay8z8ru04",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4736,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/71DF51D0FCC64088621D8B7851F33B9D1F1B75D25DC6A3CEEDD4567C330DB5F8",
+      "source_response_sha256": "4c9f16a15105756ddcebb3382d348d5d6da3967d9f9b21942f056665cb41595b",
+      "success_code": 0
+    },
+    {
+      "event_id": "486BF05B106A9CC0363425D48F83B422649DC24B2E2796991894A604BF9A9037:event/18",
+      "txhash": "486BF05B106A9CC0363425D48F83B422649DC24B2E2796991894A604BF9A9037",
+      "height": 6043705,
+      "timestamp_utc": "2023-07-21T23:55:29Z",
+      "proposal_id": 4739,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_NO weight:\"1.000000000000000000\"",
+        "proposal_id": "4739"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 17,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4739"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1ep7exp42jjtwgjly36y4vgylz82fplnjwpkz95wljzwfald8zwwqggsdzz",
+          "msg": {
+            "extend_lock_time": {
+              "time": 1814400
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/486BF05B106A9CC0363425D48F83B422649DC24B2E2796991894A604BF9A9037",
+      "source_response_sha256": "52353b8cfcf36c67b7608817c777c2d6cea9ed25adf8c5ce94f0ab28e07aa93c",
+      "success_code": 0
+    },
+    {
+      "event_id": "E27376A24E2DE08B0DE7D344A40916F2FCDD40EE0972CE02FBA82D14DF1088A5:event/14",
+      "txhash": "E27376A24E2DE08B0DE7D344A40916F2FCDD40EE0972CE02FBA82D14DF1088A5",
+      "height": 6048217,
+      "timestamp_utc": "2023-07-22T07:28:12Z",
+      "proposal_id": 4738,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_NO weight:\"1.000000000000000000\"",
+        "proposal_id": "4738"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4738"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4738,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/E27376A24E2DE08B0DE7D344A40916F2FCDD40EE0972CE02FBA82D14DF1088A5",
+      "source_response_sha256": "52353b8cfcf36c67b7608817c777c2d6cea9ed25adf8c5ce94f0ab28e07aa93c",
+      "success_code": 0
+    },
+    {
+      "event_id": "AE8540999F04483FFF885689D6189B7DF16CD3D3CDCB06F0D9940AC5C991EB73:event/14",
+      "txhash": "AE8540999F04483FFF885689D6189B7DF16CD3D3CDCB06F0D9940AC5C991EB73",
+      "height": 6054188,
+      "timestamp_utc": "2023-07-22T17:28:00Z",
+      "proposal_id": 4738,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_NO weight:\"1.000000000000000000\"",
+        "proposal_id": "4738"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4738"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1ksk66lcvzwaanc47nvn3athj4yzcpay8z8ru04",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4738,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/AE8540999F04483FFF885689D6189B7DF16CD3D3CDCB06F0D9940AC5C991EB73",
+      "source_response_sha256": "52353b8cfcf36c67b7608817c777c2d6cea9ed25adf8c5ce94f0ab28e07aa93c",
+      "success_code": 0
+    },
+    {
+      "event_id": "7D5301F106807B94B08F7F3358BC5E9EF6F56D4FE506BF800929DAF3FA9FF89A:event/14",
+      "txhash": "7D5301F106807B94B08F7F3358BC5E9EF6F56D4FE506BF800929DAF3FA9FF89A",
+      "height": 6056209,
+      "timestamp_utc": "2023-07-22T20:51:05Z",
+      "proposal_id": 4738,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_NO weight:\"1.000000000000000000\"",
+        "proposal_id": "4738"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4738"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1wpg32jhp3qnaguyayy6phxhz3kpv2c6reg9lta",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4738,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/7D5301F106807B94B08F7F3358BC5E9EF6F56D4FE506BF800929DAF3FA9FF89A",
+      "source_response_sha256": "27f2e49841adc9dfb0e159b0fe356871e976de57e4320415474cd0d1eb1ccc07",
+      "success_code": 0
+    },
+    {
+      "event_id": "BDD8CCC7D6DF70BF1172A0F311BFE24CD4C6BA8078ECC014062E8D23F0187195:event/14",
+      "txhash": "BDD8CCC7D6DF70BF1172A0F311BFE24CD4C6BA8078ECC014062E8D23F0187195",
+      "height": 6056224,
+      "timestamp_utc": "2023-07-22T20:52:35Z",
+      "proposal_id": 4739,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_NO weight:\"1.000000000000000000\"",
+        "proposal_id": "4739"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4739"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1wpg32jhp3qnaguyayy6phxhz3kpv2c6reg9lta",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4739,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/BDD8CCC7D6DF70BF1172A0F311BFE24CD4C6BA8078ECC014062E8D23F0187195",
+      "source_response_sha256": "27f2e49841adc9dfb0e159b0fe356871e976de57e4320415474cd0d1eb1ccc07",
+      "success_code": 0
+    },
+    {
+      "event_id": "0D2E2F289438ACB1042FB62A0A6572282D1AD9825EB562B8A8DB596EE92E5060:event/14",
+      "txhash": "0D2E2F289438ACB1042FB62A0A6572282D1AD9825EB562B8A8DB596EE92E5060",
+      "height": 6064585,
+      "timestamp_utc": "2023-07-23T10:52:33Z",
+      "proposal_id": 4739,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "NO",
+          "weight": "0.788000000000000000"
+        },
+        {
+          "option": "NO_WITH_VETO",
+          "weight": "0.212000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_NO weight:\"0.788000000000000000\" \noption:VOTE_OPTION_NO_WITH_VETO weight:\"0.212000000000000000\"",
+        "proposal_id": "4739"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4739"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra18au39029aa4mey00fap4l74c936l8efjuqhf6u",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4739,
+              "vote": "no_with_veto"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/0D2E2F289438ACB1042FB62A0A6572282D1AD9825EB562B8A8DB596EE92E5060",
+      "source_response_sha256": "27f2e49841adc9dfb0e159b0fe356871e976de57e4320415474cd0d1eb1ccc07",
+      "success_code": 0
+    },
+    {
+      "event_id": "6BE87AFD67425989D4A72D6CC662F4F5DED21AEC349F8A769B6B076BEFDDE5B4:event/14",
+      "txhash": "6BE87AFD67425989D4A72D6CC662F4F5DED21AEC349F8A769B6B076BEFDDE5B4",
+      "height": 6066684,
+      "timestamp_utc": "2023-07-23T14:23:34Z",
+      "proposal_id": 4738,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.366000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.634000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"0.366000000000000000\" \noption:VOTE_OPTION_NO weight:\"0.634000000000000000\"",
+        "proposal_id": "4738"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4738"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1l4fpfnal3gv9ukun2ht6zut00v8chvykfsvr37",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4738,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/6BE87AFD67425989D4A72D6CC662F4F5DED21AEC349F8A769B6B076BEFDDE5B4",
+      "source_response_sha256": "0d9498241360b1b6f80d6e464dd2786c7c7771c6d5a678e8dcb862101f977986",
+      "success_code": 0
+    },
+    {
+      "event_id": "A16D18A8463E0E59A10F4E6B657623AD521C1B12A64BB55C92296194F1A0C555:event/14",
+      "txhash": "A16D18A8463E0E59A10F4E6B657623AD521C1B12A64BB55C92296194F1A0C555",
+      "height": 6079386,
+      "timestamp_utc": "2023-07-24T11:39:27Z",
+      "proposal_id": 4739,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "NO",
+          "weight": "0.791000000000000000"
+        },
+        {
+          "option": "NO_WITH_VETO",
+          "weight": "0.209000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_NO weight:\"0.791000000000000000\" \noption:VOTE_OPTION_NO_WITH_VETO weight:\"0.209000000000000000\"",
+        "proposal_id": "4739"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4739"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1tyvr2gfjhavcwx7gncrq9q74pn272lzftuc74z",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4739,
+              "vote": "no"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/A16D18A8463E0E59A10F4E6B657623AD521C1B12A64BB55C92296194F1A0C555",
+      "source_response_sha256": "0d9498241360b1b6f80d6e464dd2786c7c7771c6d5a678e8dcb862101f977986",
+      "success_code": 0
+    },
+    {
+      "event_id": "29C78C3BCDE2FF454CE2AFB823EC15051FACCE76FF6AA6BC55CE82925A6ABFDE:event/18",
+      "txhash": "29C78C3BCDE2FF454CE2AFB823EC15051FACCE76FF6AA6BC55CE82925A6ABFDE",
+      "height": 6280285,
+      "timestamp_utc": "2023-08-07T12:01:11Z",
+      "proposal_id": 4742,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_NO weight:\"1.000000000000000000\"",
+        "proposal_id": "4742"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 17,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4742"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1ep7exp42jjtwgjly36y4vgylz82fplnjwpkz95wljzwfald8zwwqggsdzz",
+          "msg": {
+            "extend_lock_time": {
+              "time": 2419200
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/29C78C3BCDE2FF454CE2AFB823EC15051FACCE76FF6AA6BC55CE82925A6ABFDE",
+      "source_response_sha256": "026699d9a6b689a163733f04c3277058bab248419d0a99beb8044ebe3cd4099b",
+      "success_code": 0
+    },
+    {
+      "event_id": "29C78C3BCDE2FF454CE2AFB823EC15051FACCE76FF6AA6BC55CE82925A6ABFDE:event/22",
+      "txhash": "29C78C3BCDE2FF454CE2AFB823EC15051FACCE76FF6AA6BC55CE82925A6ABFDE",
+      "height": 6280285,
+      "timestamp_utc": "2023-08-07T12:01:11Z",
+      "proposal_id": 4743,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4743"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 21,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4743"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1ep7exp42jjtwgjly36y4vgylz82fplnjwpkz95wljzwfald8zwwqggsdzz",
+          "msg": {
+            "extend_lock_time": {
+              "time": 2419200
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/29C78C3BCDE2FF454CE2AFB823EC15051FACCE76FF6AA6BC55CE82925A6ABFDE",
+      "source_response_sha256": "026699d9a6b689a163733f04c3277058bab248419d0a99beb8044ebe3cd4099b",
+      "success_code": 0
+    },
+    {
+      "event_id": "DD206B95500979D4800B925B82377688A9D727E11A263EB1D4841B2ECD1B290B:event/14",
+      "txhash": "DD206B95500979D4800B925B82377688A9D727E11A263EB1D4841B2ECD1B290B",
+      "height": 6292733,
+      "timestamp_utc": "2023-08-08T08:51:59Z",
+      "proposal_id": 4744,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4744"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4744"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4744,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/DD206B95500979D4800B925B82377688A9D727E11A263EB1D4841B2ECD1B290B",
+      "source_response_sha256": "9feb90b7ce3c644db7984c0604cf6ed3b59e217647a455cb2f9c318f437877e8",
+      "success_code": 0
+    },
+    {
+      "event_id": "79802D91F5F36C47D803CAD5621FB080498F5E4DD8E148C1304BD78CAC92B994:event/14",
+      "txhash": "79802D91F5F36C47D803CAD5621FB080498F5E4DD8E148C1304BD78CAC92B994",
+      "height": 6295664,
+      "timestamp_utc": "2023-08-08T13:47:04Z",
+      "proposal_id": 4743,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4743"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4743"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra18au39029aa4mey00fap4l74c936l8efjuqhf6u",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4743,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/79802D91F5F36C47D803CAD5621FB080498F5E4DD8E148C1304BD78CAC92B994",
+      "source_response_sha256": "dbe2df39bd16802a6ccff82e4c2532367c1475be13e85d117e40e509f3e27ce9",
+      "success_code": 0
+    },
+    {
+      "event_id": "1D30A9C68FF331866730F6CA235AF3B443E6F5294B6CE1056305D37DEDFF73A0:event/14",
+      "txhash": "1D30A9C68FF331866730F6CA235AF3B443E6F5294B6CE1056305D37DEDFF73A0",
+      "height": 6355336,
+      "timestamp_utc": "2023-08-12T17:28:29Z",
+      "proposal_id": 4742,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "0.391000000000000000"
+        },
+        {
+          "option": "NO",
+          "weight": "0.609000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"0.391000000000000000\" \noption:VOTE_OPTION_NO weight:\"0.609000000000000000\"",
+        "proposal_id": "4742"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4742"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1nrt0tcqc3kazztzfhyd2pf9q59p49ywu9g36w8",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4742,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/1D30A9C68FF331866730F6CA235AF3B443E6F5294B6CE1056305D37DEDFF73A0",
+      "source_response_sha256": "bf14a19d2c06f000fe3e6731aa7907bae07d6ceb5cc59aa71a9423c510394ddc",
+      "success_code": 0
+    },
+    {
+      "event_id": "311D437C4E992E091F073E3A12E23587C861972646BCAEEEC867372FA94490B5:event/14",
+      "txhash": "311D437C4E992E091F073E3A12E23587C861972646BCAEEEC867372FA94490B5",
+      "height": 6355337,
+      "timestamp_utc": "2023-08-12T17:28:35Z",
+      "proposal_id": 4743,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4743"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4743"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1nrt0tcqc3kazztzfhyd2pf9q59p49ywu9g36w8",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4743,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/311D437C4E992E091F073E3A12E23587C861972646BCAEEEC867372FA94490B5",
+      "source_response_sha256": "bf14a19d2c06f000fe3e6731aa7907bae07d6ceb5cc59aa71a9423c510394ddc",
+      "success_code": 0
+    },
+    {
+      "event_id": "53C001EEEF35E386342E495ADF2795C6628095D21693A7254E152A5D48708C62:event/14",
+      "txhash": "53C001EEEF35E386342E495ADF2795C6628095D21693A7254E152A5D48708C62",
+      "height": 6355340,
+      "timestamp_utc": "2023-08-12T17:28:53Z",
+      "proposal_id": 4744,
+      "voter": null,
+      "voter_evidence": "not present in this historical proposal_vote event",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4744"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 13,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4744"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1nrt0tcqc3kazztzfhyd2pf9q59p49ywu9g36w8",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4744,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/53C001EEEF35E386342E495ADF2795C6628095D21693A7254E152A5D48708C62",
+      "source_response_sha256": "bf14a19d2c06f000fe3e6731aa7907bae07d6ceb5cc59aa71a9423c510394ddc",
+      "success_code": 0
+    },
+    {
+      "event_id": "235C9F92854815174516D51AFD2CDD2653E416CFF875A82AC2B3D36866FDE462:event/13",
+      "txhash": "235C9F92854815174516D51AFD2CDD2653E416CFF875A82AC2B3D36866FDE462",
+      "height": 12440292,
+      "timestamp_utc": "2024-10-10T10:39:31Z",
+      "proposal_id": 4823,
+      "voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "voter_evidence": "explicit proposal_vote.voter event attribute",
+      "inferred_voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "inference_basis": "Unique contract address in matching wasm-erishub/voted_weighted event for this proposal; retained as inference, not substituted for absent on-chain voter field",
+      "options": [
+        {
+          "option": "YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "raw_vote_attributes": {
+        "option": "option:VOTE_OPTION_YES weight:\"1.000000000000000000\"",
+        "proposal_id": "4823",
+        "voter": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk"
+      },
+      "related_contract_events": [
+        {
+          "event_index": 12,
+          "type": "wasm-erishub/voted_weighted",
+          "attributes": {
+            "_contract_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+            "prop": "4823"
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "contract": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+          "msg": {
+            "vote": {
+              "proposal_id": 4823,
+              "vote": "yes"
+            }
+          },
+          "funds": []
+        }
+      ],
+      "explorer_url": "https://chainsco.pe/terra2/tx/235C9F92854815174516D51AFD2CDD2653E416CFF875A82AC2B3D36866FDE462",
+      "source_response_sha256": "aed781a03d1c12d640243e85103744d36ab740042885a9ac05381466e7dd1119",
+      "success_code": 0
+    }
+  ]
+}

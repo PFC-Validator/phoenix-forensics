@@ -1,0 +1,2260 @@
+{
+  "prepared_utc": "2026-10-18T22:08:41.028823+00:00",
+  "scope": "Additional privileged method sweep, original ten launch contracts only, cutoff 27 November 2024. Incentive blacklist actions are listed separately in the operation ledger.",
+  "all_nine_event_queries_complete_to_reported_total": true,
+  "additional_retained_owner_messages": 1,
+  "additional_retained_owner_transactions": 1,
+  "separate_board_route_action_events": 23,
+  "separate_board_route_transactions": 16,
+  "additional_retained_owner_events": [
+    {
+      "timestamp": "2024-12-18T09:23:25Z",
+      "hash": "3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+      "event_index": 9,
+      "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "action": "ve/execute_update_config",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "direct_retained_eris_owner",
+      "direct_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "message": {
+            "update_config": {
+              "append_deposit_assets": [
+                {
+                  "config": {
+                    "exchange_rate": {
+                      "contract": "terra1r9gls56glvuc4jedsvc3uwh6vj95mqm9efc7hnweqxa2nlme5cyqxygy5m"
+                    }
+                  },
+                  "info": {
+                    "cw20": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "message": {
+            "update_config": {
+              "append_deposit_assets": [
+                {
+                  "config": {
+                    "exchange_rate": {
+                      "contract": "terra1r9gls56glvuc4jedsvc3uwh6vj95mqm9efc7hnweqxa2nlme5cyqxygy5m"
+                    }
+                  },
+                  "info": {
+                    "cw20": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+        "action": "ve/execute_update_config"
+      },
+      "source_files": [
+        "ve_execute_update_config_p1.json"
+      ]
+    }
+  ],
+  "all_original_contract_matching_events": [
+    {
+      "timestamp": "2024-08-09T09:13:48Z",
+      "hash": "26BA50D5F83B8C9BE81C50935F64FD217ECAE0377DC7ABB46AB3586AD1C89072",
+      "event_index": 9,
+      "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "action": "ve/execute_update_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "direct_retained_eris_owner",
+      "direct_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "message": {
+            "update_config": {
+              "push_update_contracts": [
+                "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj"
+              ]
+            }
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "message": {
+            "update_config": {
+              "push_update_contracts": [
+                "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj"
+              ]
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+        "action": "ve/execute_update_config"
+      },
+      "source_files": [
+        "ve_execute_update_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-27T13:18:53Z",
+      "hash": "6002ECF7C7A8CCC681FD915D344026B01BB922ED769C8472533EDC7AA3760755",
+      "event_index": 13,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 2
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "action": "asset/whitelist_assets",
+        "assets": "native:factory/terra18fved7svlqq9q9h23cg4uw97lllmg7fa03psevczy20ayhdwrm3sznjeh5/uLP,native:factory/terra1wymgwg90ry2w04avy899ucmuuak7w8n3xw2msmw2jf9rfugre0ssenx4hn/uLP,native:factory/terra16a45v4k74w3yy30utfxdsekdlnks27sv48sn2suaf4wt7u6meq8scz75mx/uLP"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-27T13:18:53Z",
+      "hash": "6002ECF7C7A8CCC681FD915D344026B01BB922ED769C8472533EDC7AA3760755",
+      "event_index": 15,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 2
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/whitelist_assets",
+        "assets": "native:factory/terra1wje8lj3372njwuw8t4scmyp94t5pyxxh89tsnkrfyxghqh6aunzqz4a9k3/uLP,native:factory/terra1nll8xy7m2dyac3sww2tg7dqj8s0mlak68drgtzd9gh4yvnvpplhsn3sxnv/uLP,native:factory/terra12exvyhctk6ggqvzj2tlhsv769llctntf5zdj9erz6q2uq4h8hn8q5k5xpg/uLP,native:factory/terra126w5m24usxydxn0tjqd73k8uw06r42wttahf9t0cjyhmljlqhrdsjucx45/uLP,native:factory/terra1hvntefafgn05llkqyl6uxx6j0jjwmqjtxqdrwdm43s9tkzx7xkfqkcl7h6/uLP,native:factory/terra1zushwxgqdkg22mtv9p946yp53r6den6lv427esjaadua3ftzyjpsqgtl5z/uLP,cw20:terra10un5hr6asmn7g0ggh9sz0x3v8f9evh5cvawk8xs65rghundc25mq7g5par,cw20:terra1q475uvk9te5nxq2lzu0h96t0devmx4v8ctxqtm253ut05wrpugsq0m4e3k"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-27T13:18:53Z",
+      "hash": "6002ECF7C7A8CCC681FD915D344026B01BB922ED769C8472533EDC7AA3760755",
+      "event_index": 17,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 2
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra1adp223mw8937arxcfl36acjjyn2dcf7wzp8h09jek5k0gw3vch8sqlq6su,native:factory/terra12u7a9wkjqrkhxjcxx70uhfx8y49j4lclfnet2smw9agpnrv9chps27n9mh/uLP,native:factory/terra1m5juz238n27dd24d9e3kacmqax8gu7j5ee9hhfczpl52f3n7adaqudk2c9/uLP,native:factory/terra1q2gd6kc7nt8xct94chrlsqtpxfs9rve0j76lquce624y5zp85cdseshh85/uLP,native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74jvpft069py7l7l9kr7wx3tnsxrazux/uLP,native:factory/terra12hs75vlyd38zjvhegsqzr8uvz2r764fdy8mhqw0qg0s2mv858yvstwmsf8/uLP,native:factory/terra1aysexulsnuxna62m5rlnuzfcvct3df93gd4q0kkjtjcqsvv93s5sd0fyd2/uLP"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-27T13:19:23Z",
+      "hash": "3A836797EADB03B596CA36E2AA01B9E040A520F428A527E97011A09D341BE9A6",
+      "event_index": 13,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 3
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8,cw20:terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4,cw20:terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-27T13:19:23Z",
+      "hash": "3A836797EADB03B596CA36E2AA01B9E040A520F428A527E97011A09D341BE9A6",
+      "event_index": 15,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 3
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk,cw20:terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a,cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc,cw20:terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm,cw20:terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht,cw20:terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra,cw20:terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4,cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-27T13:19:23Z",
+      "hash": "3A836797EADB03B596CA36E2AA01B9E040A520F428A527E97011A09D341BE9A6",
+      "event_index": 17,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 3
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt,cw20:terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75,cw20:terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu,cw20:terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl,cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry,cw20:terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3,cw20:terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-28T09:58:19Z",
+      "hash": "C544F3070479302BE6E4EF6FCF860DF1B6F70335FFB46BEE4853E4E79E481F0F",
+      "event_index": 13,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 7
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8,native:factory/terra18fved7svlqq9q9h23cg4uw97lllmg7fa03psevczy20ayhdwrm3sznjeh5/uLP"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-28T09:58:19Z",
+      "hash": "C544F3070479302BE6E4EF6FCF860DF1B6F70335FFB46BEE4853E4E79E481F0F",
+      "event_index": 15,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 7
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8,native:factory/terra18fved7svlqq9q9h23cg4uw97lllmg7fa03psevczy20ayhdwrm3sznjeh5/uLP"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:11:50Z",
+      "hash": "6486DB96C40DC9B9B66027673D9C9951864262EB5BA269553D1B5418B1C999E4",
+      "event_index": 13,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 8
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 13,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 15,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 17,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 19,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 21,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 23,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 25,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 27,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 29,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 31,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 33,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 35,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 37,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 39,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 41,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 43,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-29T07:13:09Z",
+      "hash": "B6D35C4B1D4DBDBEEB9CB0588B56597F3EA8A62A6D8B17EB49B2D3C3B353A400",
+      "event_index": 45,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 9
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-30T09:46:01Z",
+      "hash": "7E229DF34078996C5F278AB591B01E65B98DC778E0D2551722B02892F373C6A5",
+      "event_index": 13,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 10
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra1yqp35sjllqjqh25pt49pcqnnpe3960tanmf2upfadej2gdumz6psn8t5vp"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-30T09:46:01Z",
+      "hash": "7E229DF34078996C5F278AB591B01E65B98DC778E0D2551722B02892F373C6A5",
+      "event_index": 15,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 10
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra1a2nc0k4m6hun6yr4g6ujnc46wlpfuywzves689at3tdkezrjg8wq7p35ra"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-30T09:46:01Z",
+      "hash": "7E229DF34078996C5F278AB591B01E65B98DC778E0D2551722B02892F373C6A5",
+      "event_index": 17,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 10
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-08-30T09:46:01Z",
+      "hash": "7E229DF34078996C5F278AB591B01E65B98DC778E0D2551722B02892F373C6A5",
+      "event_index": 19,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 10
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-09-05T08:54:26Z",
+      "hash": "AEAE5AD46C7EE38AE321C6F261891287CFC5101D773D3F66B5509BA22EBB77A2",
+      "event_index": 13,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/update_asset_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 11
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/update_asset_config",
+        "asset": "cw20:terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm"
+      },
+      "source_files": [
+        "asset_update_asset_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-10-07T13:51:45Z",
+      "hash": "4813307150B8723B79CD6A07559B2C553F0B9D321B37A45E207A9414C81142E1",
+      "event_index": 9,
+      "contract": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+      "action": "gauge/update_config",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "direct_retained_eris_owner",
+      "direct_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "contract": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+          "message": {
+            "update_config": {
+              "update_gauge": {
+                "min_gauge_percentage": "0.01",
+                "name": "single"
+              }
+            }
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "contract": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+          "message": {
+            "update_config": {
+              "update_gauge": {
+                "min_gauge_percentage": "0.01",
+                "name": "single"
+              }
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+        "action": "gauge/update_config"
+      },
+      "source_files": [
+        "gauge_update_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-11-21T14:12:29Z",
+      "hash": "CCF44CF1A5ED2AB5C80FDB7812FE1929C0894F35D95C78CBC801535BB8790FD7",
+      "event_index": 15,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": false,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 55
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564,native:factory/terra15rzp38yq2cqy2jnewc9vgzqguf3t2q0gqpv9evg8tckrtqp8x44qezhthc/uLP"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-12-18T09:23:25Z",
+      "hash": "3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+      "event_index": 9,
+      "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "action": "ve/execute_update_config",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "direct_retained_eris_owner",
+      "direct_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "message": {
+            "update_config": {
+              "append_deposit_assets": [
+                {
+                  "config": {
+                    "exchange_rate": {
+                      "contract": "terra1r9gls56glvuc4jedsvc3uwh6vj95mqm9efc7hnweqxa2nlme5cyqxygy5m"
+                    }
+                  },
+                  "info": {
+                    "cw20": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "message": {
+            "update_config": {
+              "append_deposit_assets": [
+                {
+                  "config": {
+                    "exchange_rate": {
+                      "contract": "terra1r9gls56glvuc4jedsvc3uwh6vj95mqm9efc7hnweqxa2nlme5cyqxygy5m"
+                    }
+                  },
+                  "info": {
+                    "cw20": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+        "action": "ve/execute_update_config"
+      },
+      "source_files": [
+        "ve_execute_update_config_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-12-23T12:18:16Z",
+      "hash": "5E7F62DA87C33C51B6F613A344D3AB7A11E77F05FF92D0758A054CF75ADFE462",
+      "event_index": 13,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 79
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/remove_assets",
+        "assets": "native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74jvpft069py7l7l9kr7wx3tnsxrazux/uLP"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2024-12-23T12:18:16Z",
+      "hash": "5E7F62DA87C33C51B6F613A344D3AB7A11E77F05FF92D0758A054CF75ADFE462",
+      "event_index": 15,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 79
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/whitelist_assets",
+        "assets": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-01-01T03:21:59Z",
+      "hash": "886152557921DE6F80F17BE742E31BBE0102095921FE1DCC852AB5CCA81A8485",
+      "event_index": 13,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 86
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc,native:factory/terra1gny66hmejvrkra39cn7r8f7y7yg06hy3cv2xehpxraqfgjtdtpnqjtmu53/uLP"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-01-01T03:31:48Z",
+      "hash": "705B95D293F0D68039EA48AD61A11B05835B69F0C61F4054836C332D2687298C",
+      "event_index": 13,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 87
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn,native:factory/terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej/uLP"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-03-11T11:13:58Z",
+      "hash": "2F55A347B921150B5532527825AEC36EE214A0364437C36BC9BF3C6A2EE70070",
+      "event_index": 13,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 122
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz,native:factory/terra1zushwxgqdkg22mtv9p946yp53r6den6lv427esjaadua3ftzyjpsqgtl5z/uLP"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-04-07T12:01:02Z",
+      "hash": "1EC36679DF4166BB9E6B71C283386496F2388FE9A5F8B6E7BAF50ECA342716BB",
+      "event_index": 13,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 126
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry,native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74jvpft069py7l7l9kr7wx3tnsxrazux/uLP"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-04-10T11:16:32Z",
+      "hash": "C589D6C478D157DAA28320175B99910E3F29B3C0FCB33BA796FD8E53DB6A968A",
+      "event_index": 13,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 129
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/remove_assets",
+        "assets": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-05-18T21:02:40Z",
+      "hash": "054E93B69E811B6C4CE2C9D69E55540CAE871B0EB7A2276E1C659A6414678EF0",
+      "event_index": 13,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 147
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/remove_assets",
+        "assets": "native:factory/terra1m5juz238n27dd24d9e3kacmqax8gu7j5ee9hhfczpl52f3n7adaqudk2c9/uLP,cw20:terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu,native:factory/terra12u7a9wkjqrkhxjcxx70uhfx8y49j4lclfnet2smw9agpnrv9chps27n9mh/uLP,cw20:terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-06-01T06:44:42Z",
+      "hash": "7AD3F461B4A57FC143D2184D0D4E3AA35B25D0021AD30B8D5DD8A77DA3B3E4E8",
+      "event_index": 13,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 149
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5,cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-07-24T11:16:21Z",
+      "hash": "7C7DA48062778884B25AF9F90C4ECABFED6FF76FCFA2963997486EE0B2BF8505",
+      "event_index": 13,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 168
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-07-24T11:16:21Z",
+      "hash": "7C7DA48062778884B25AF9F90C4ECABFED6FF76FCFA2963997486EE0B2BF8505",
+      "event_index": 15,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 168
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-09-30T12:43:56Z",
+      "hash": "19D08CEED0678CC498925D3B5CFAED599359DFB162A8A5BE7C5DEC2B34DDB566",
+      "event_index": 13,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 193
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2025-11-03T09:12:09Z",
+      "hash": "77948854B43A803ECAE5E6C4AE4D42522844126E7372000AAF0B6AC80106F61D",
+      "event_index": 13,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 200
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-01-12T09:41:33Z",
+      "hash": "E4602CF37B290FD9E7EB1A70B7B975A3B39ECA090196E981A857794878045510",
+      "event_index": 13,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 214
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a,native:factory/terra1nll8xy7m2dyac3sww2tg7dqj8s0mlak68drgtzd9gh4yvnvpplhsn3sxnv/uLP",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-03-19T03:46:06Z",
+      "hash": "C076095EA2DF1368A49C3D49621B7C68ABEB841E7E22B60075475DEF46B36BBD",
+      "event_index": 13,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 230
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3,native:factory/terra12hs75vlyd38zjvhegsqzr8uvz2r764fdy8mhqw0qg0s2mv858yvstwmsf8/uLP",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-14T16:01:16Z",
+      "hash": "CB553547335C4BB6745AE4A280F76666C21CC7CD7662F4CC23B488FB4BD4031C",
+      "event_index": 13,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 236
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw,native:factory/terra1aysexulsnuxna62m5rlnuzfcvct3df93gd4q0kkjtjcqsvv93s5sd0fyd2/uLP",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-09-23T07:59:57Z",
+      "hash": "9014B56414FD2E56BD8D8F174F0A4C0BD12D84E820C664F75945CB59E7857016",
+      "event_index": 13,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 267
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra1vc5qy9gw7a2hwfavhyrtcslpjq0e4yxrg6q5456f2zm9j8us2hgstg40lv",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-09-23T07:59:57Z",
+      "hash": "9014B56414FD2E56BD8D8F174F0A4C0BD12D84E820C664F75945CB59E7857016",
+      "event_index": 15,
+      "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 267
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx,native:factory/terra16a45v4k74w3yy30utfxdsekdlnks27sv48sn2suaf4wt7u6meq8scz75mx/uLP",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-09-23T07:59:57Z",
+      "hash": "9014B56414FD2E56BD8D8F174F0A4C0BD12D84E820C664F75945CB59E7857016",
+      "event_index": 17,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 267
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra13788t9th9gsm662uzp98wjw0qlnlnpwtnuf2jpkx9aqxna6njx3s8nep88",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-09-23T07:59:57Z",
+      "hash": "9014B56414FD2E56BD8D8F174F0A4C0BD12D84E820C664F75945CB59E7857016",
+      "event_index": 19,
+      "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 267
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn,native:factory/terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej/uLP",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-09-23T07:59:57Z",
+      "hash": "9014B56414FD2E56BD8D8F174F0A4C0BD12D84E820C664F75945CB59E7857016",
+      "event_index": 21,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/whitelist_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 267
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/whitelist_assets",
+        "assets": "cw20:terra1ts8k6smknzzdwwd9gnjf2cdr5slxdax2dml0pfmhkcla82hn7ygsne3av3",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-09-23T07:59:57Z",
+      "hash": "9014B56414FD2E56BD8D8F174F0A4C0BD12D84E820C664F75945CB59E7857016",
+      "event_index": 23,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 267
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk,native:factory/terra1wje8lj3372njwuw8t4scmyp94t5pyxxh89tsnkrfyxghqh6aunzqz4a9k3/uLP",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json",
+        "asset_whitelist_assets_p1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T01:10:53Z",
+      "hash": "BA1B0321EFFA634C86984D90A3539C4C07F2B594B20675D589493D4D2D509649",
+      "event_index": 13,
+      "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "action": "asset/remove_assets",
+      "success": true,
+      "after_three_month_cutoff": true,
+      "route": "board_proposal_route",
+      "direct_messages": [],
+      "top_level_messages": [
+        {
+          "msg_index": 0,
+          "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+          "message": {
+            "execute": {
+              "proposal_id": 282
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "_contract_address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "action": "asset/remove_assets",
+        "assets": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc,native:factory/terra12exvyhctk6ggqvzj2tlhsv769llctntf5zdj9erz6q2uq4h8hn8q5k5xpg/uLP",
+        "msg_index": "0"
+      },
+      "source_files": [
+        "asset_remove_assets_p1.json"
+      ]
+    }
+  ],
+  "action_index_coverage": {
+    "prepared_utc": "2026-10-18T22:07:14.302646+00:00",
+    "endpoint": "http://15.204.43.42:1317",
+    "actions": [
+      {
+        "action": "ve/execute_update_config",
+        "pages": [
+          {
+            "file": "ve_execute_update_config_p1.json",
+            "returned": 2,
+            "total": 2
+          }
+        ],
+        "complete_to_reported_total": true,
+        "failure": null
+      },
+      {
+        "action": "ve/update_blacklist",
+        "pages": [
+          {
+            "file": "ve_update_blacklist_p1.json",
+            "returned": 0,
+            "total": 0
+          }
+        ],
+        "complete_to_reported_total": true,
+        "failure": null
+      },
+      {
+        "action": "gauge/update_config",
+        "pages": [
+          {
+            "file": "gauge_update_config_p1.json",
+            "returned": 1,
+            "total": 1
+          }
+        ],
+        "complete_to_reported_total": true,
+        "failure": null
+      },
+      {
+        "action": "bribe/update_config",
+        "pages": [
+          {
+            "file": "bribe_update_config_p1.json",
+            "returned": 0,
+            "total": 0
+          }
+        ],
+        "complete_to_reported_total": true,
+        "failure": null
+      },
+      {
+        "action": "bribe/whitelist_assets",
+        "pages": [
+          {
+            "file": "bribe_whitelist_assets_p1.json",
+            "returned": 0,
+            "total": 0
+          }
+        ],
+        "complete_to_reported_total": true,
+        "failure": null
+      },
+      {
+        "action": "bribe/remove_assets",
+        "pages": [
+          {
+            "file": "bribe_remove_assets_p1.json",
+            "returned": 0,
+            "total": 0
+          }
+        ],
+        "complete_to_reported_total": true,
+        "failure": null
+      },
+      {
+        "action": "asset/update_asset_config",
+        "pages": [
+          {
+            "file": "asset_update_asset_config_p1.json",
+            "returned": 3,
+            "total": 3
+          }
+        ],
+        "complete_to_reported_total": true,
+        "failure": null
+      },
+      {
+        "action": "asset/whitelist_assets",
+        "pages": [
+          {
+            "file": "asset_whitelist_assets_p1.json",
+            "returned": 20,
+            "total": 20
+          }
+        ],
+        "complete_to_reported_total": true,
+        "failure": null
+      },
+      {
+        "action": "asset/remove_assets",
+        "pages": [
+          {
+            "file": "asset_remove_assets_p1.json",
+            "returned": 21,
+            "total": 21
+          }
+        ],
+        "complete_to_reported_total": true,
+        "failure": null
+      }
+    ],
+    "note": "Event-name discovery, not proof all privileged call paths have been found."
+  },
+  "registry_crosscheck": [
+    {
+      "name": "registry_all_wasm",
+      "query": "wasm._contract_address='terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa'",
+      "returned": 12,
+      "reported_total": "12"
+    },
+    {
+      "name": "registry_clear_addresses",
+      "query": "execute._contract_address='terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa' AND wasm.action='clear_addresses'",
+      "returned": 0,
+      "reported_total": "0"
+    },
+    {
+      "name": "registry_clear_lists",
+      "query": "execute._contract_address='terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa' AND wasm.action='clear_lists'",
+      "returned": 0,
+      "reported_total": "0"
+    },
+    {
+      "name": "registry_update_ownership",
+      "query": "execute._contract_address='terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa' AND wasm.action='update_ownership'",
+      "returned": 0,
+      "reported_total": "0"
+    }
+  ],
+  "all_registry_execute_methods": [
+    {
+      "timestamp": "2024-08-09T09:11:38Z",
+      "hash": "056C7B552306A28F88EA405D9B98F9E93808AE276D954C98E05EB22C4B58B159",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2024-10-07T11:42:50Z",
+      "hash": "56B72129DEDCC78628DB32D6044C05FBB7471A95F90E34C532AF3723E04E8AB4",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2024-10-07T13:45:36Z",
+      "hash": "BB68D1FAD2D430A7FA08627B50AFD34BAE29EDE085606652B8376DBA7D12C1B1",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2024-10-08T12:21:10Z",
+      "hash": "B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2024-10-21T14:21:42Z",
+      "hash": "982F5C7B895B40ADB116D7D8AC65A8E8793DD5A842BCD829775B536F0269E265",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2024-10-21T14:23:11Z",
+      "hash": "A83E6365F7EEA87FBD673BA34471EFF4488D26CE8729ED3053BCD7A5909E6562",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2025-08-12T11:41:56Z",
+      "hash": "BA405CD3EE230CA3B03DAFB4E88D28243F7C7B917D73139170CE0E1CCF440134",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2025-10-01T11:27:33Z",
+      "hash": "DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2026-09-22T09:55:22Z",
+      "hash": "D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2026-10-03T02:17:58Z",
+      "hash": "7545CEEB62C382CAFBB018BD7BD9A60A37772929182D5804140AAC0A54CA3650",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2026-10-03T02:21:42Z",
+      "hash": "5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+      "methods": [
+        "set_addresses"
+      ]
+    },
+    {
+      "timestamp": "2026-10-18T15:14:14Z",
+      "hash": "EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+      "methods": [
+        "set_addresses"
+      ]
+    }
+  ],
+  "negative_scope": "No additional indexed rows is not a proof of absolute chain-history completeness. Ordinary user activity and routine permissionless operations are excluded. This sweep tests identified action labels; differently emitted or silent historical operations remain an index coverage caveat."
+}

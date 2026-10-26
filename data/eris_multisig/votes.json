@@ -1,0 +1,158 @@
+{
+  "1": [
+    {
+      "proposal_id": 1,
+      "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+      "vote": "yes",
+      "weight": 10
+    },
+    {
+      "proposal_id": 1,
+      "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+      "vote": "yes",
+      "weight": 50
+    },
+    {
+      "proposal_id": 1,
+      "voter": "terra1t0vq0c9dwmqpfuyu4xhqg5g5efh8asqhyy64gk",
+      "vote": "yes",
+      "weight": 10
+    }
+  ],
+  "2": [
+    {
+      "proposal_id": 2,
+      "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+      "vote": "yes",
+      "weight": 10
+    },
+    {
+      "proposal_id": 2,
+      "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+      "vote": "yes",
+      "weight": 50
+    },
+    {
+      "proposal_id": 2,
+      "voter": "terra1rmyzqglwrwmajvp4qa2c7pel7c960amdyrh0ty",
+      "vote": "yes",
+      "weight": 10
+    }
+  ],
+  "3": [
+    {
+      "proposal_id": 3,
+      "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+      "vote": "yes",
+      "weight": 10
+    },
+    {
+      "proposal_id": 3,
+      "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+      "vote": "yes",
+      "weight": 50
+    },
+    {
+      "proposal_id": 3,
+      "voter": "terra1t0vq0c9dwmqpfuyu4xhqg5g5efh8asqhyy64gk",
+      "vote": "yes",
+      "weight": 10
+    }
+  ],
+  "4": [
+    {
+      "proposal_id": 4,
+      "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+      "vote": "yes",
+      "weight": 10
+    },
+    {
+      "proposal_id": 4,
+      "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+      "vote": "yes",
+      "weight": 50
+    },
+    {
+      "proposal_id": 4,
+      "voter": "terra1scku27w5rsg4392zcaf2y9gnrh0w62t578ez7p",
+      "vote": "yes",
+      "weight": 10
+    }
+  ],
+  "5": [
+    {
+      "proposal_id": 5,
+      "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+      "vote": "yes",
+      "weight": 10
+    },
+    {
+      "proposal_id": 5,
+      "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+      "vote": "yes",
+      "weight": 50
+    }
+  ],
+  "6": [
+    {
+      "proposal_id": 6,
+      "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+      "vote": "yes",
+      "weight": 10
+    },
+    {
+      "proposal_id": 6,
+      "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+      "vote": "yes",
+      "weight": 50
+    }
+  ],
+  "7": [
+    {
+      "proposal_id": 7,
+      "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+      "vote": "yes",
+      "weight": 10
+    },
+    {
+      "proposal_id": 7,
+      "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+      "vote": "yes",
+      "weight": 50
+    },
+    {
+      "proposal_id": 7,
+      "voter": "terra1t0vq0c9dwmqpfuyu4xhqg5g5efh8asqhyy64gk",
+      "vote": "yes",
+      "weight": 10
+    }
+  ],
+  "8": [
+    {
+      "proposal_id": 8,
+      "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+      "vote": "yes",
+      "weight": 50
+    }
+  ],
+  "9": [
+    {
+      "proposal_id": 9,
+      "voter": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+      "vote": "yes",
+      "weight": 10
+    },
+    {
+      "proposal_id": 9,
+      "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+      "vote": "yes",
+      "weight": 50
+    },
+    {
+      "proposal_id": 9,
+      "voter": "terra1scku27w5rsg4392zcaf2y9gnrh0w62t578ez7p",
+      "vote": "yes",
+      "weight": 10
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-09-22T11:02:18Z",
+    "hash": "4D6F5AE19115266A921ED01819BBF4A894274DB795174622463FB712AF69D853",
+    "msg_index": 0,
+    "kind": "incentive_blacklist",
+    "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+    "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "msg": {
+      "update_incentive_blacklist": {
+        "add": [
+          {
+            "cw20": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl"
+          }
+        ],
+        "remove": []
+      }
+    },
+    "success": true,
+    "label": "Bluechip staking",
+    "power": "TLA registry owner"
+  }
+]

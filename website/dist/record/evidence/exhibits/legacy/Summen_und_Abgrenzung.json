@@ -1,0 +1,106 @@
+{
+  "broader_resource_reconciliation": {
+    "previous_exact": "1316730.8182122318060900567422881361140620000",
+    "new_tla_receipt_exact": "250986.079013670",
+    "updated_exact": "1567716.8972259018060900567422881361140620000",
+    "updated_rounded": "1567716.90",
+    "meaning": "Selected Philipp-associated and Eris project resources, not personal earnings/damages/legal consolidation. Old fee components arithmetically checked; not every fee event reopened in narrow table."
+  },
+  "fee_boundary_audit": {
+    "method": "Independently recomputed physical-key de-duplication and decimal sums from existing receipt/valuation rows. This portion does not claim each of 48,243 fee events or all redemption prices was reauthenticated from primary raw records.",
+    "frozen_physical_rows": 2342,
+    "frozen_unique_physical_keys": 2342,
+    "supplemental_verified_rows": 47188,
+    "supplemental_unique_keys": 47188,
+    "supplemental_overlap_excluded": 506,
+    "overlap_types": {
+      "direct_product_fee": 448,
+      "reserve_withdrawal": 58
+    },
+    "frozen_mixed_fees_reserves_usd": "14700.706713089048755866849417537920176",
+    "remove_frozen_reserve_usd": "1646.487929015545609804043770181857184",
+    "retained_frozen_source_fees_usd": "13054.218784073503146062805647356062992",
+    "additional_direct_product_fees_usd": "68335.9232405510956786550034183",
+    "additional_configured_product_fees_usd": "222.521998719973583",
+    "network_fee_share_usd": "357.271557983526975",
+    "source_fee_plus_network_sum_usd": "81969.935581328099382717809065656062992",
+    "excluded_collector_distributions_usd": "60889.489370482154749",
+    "unpriced_product_receipts": 576,
+    "source": {
+      "json_pointer": "",
+      "sha256": "b6af0ad79ed06a960a639ba46396ee3979d87622f8b79c3636b471c3b7335c5b"
+    },
+    "all_nine_fee_manifest_source_hashes_match": true,
+    "TLA_added_bribe_fees": {
+      "independent_primary_transfer_recount": 228,
+      "transactions": 95,
+      "each_LUNA": "10",
+      "total_LUNA": "2280",
+      "first_utc": "2025-10-01T11:43:14Z",
+      "last_utc": "2026-10-12T23:04:01Z",
+      "primary_source": {
+        "json_pointer": "/tx_responses",
+        "sha256": "35623cb15a418a0b2cca6702ca33075608e3c538cc688b60ca1af569ce8ee509"
+      },
+      "source_hash_event_index_recipient_raw_amount_matches_in_canonical_and_supplemental_fee_rows": 0,
+      "usd_added_to_resource_total": false,
+      "meaning": "Distinct captured fee flow. No historical USD valuation added here. No proof of net profit, final personal beneficiary or entitlement."
+    },
+    "Votion_whole_pool_fees": {
+      "record_count": 487,
+      "gross_arbLUNA": "10644.488586",
+      "unique_tx_fee_events": 487,
+      "at_least_existing_tx_amount_matches": 120,
+      "source": {
+        "json_pointer": "/records",
+        "sha256": "1b6ac2080cbe83483293e9f76591387d8659d219e78db49894486f0c7116971a"
+      },
+      "meaning": "Existing fee rows overlap this longer whole-pool series; never add full series to broad fee total. Do not attribute whole-pool fees or current pool-share percentage retrospectively to Phoenix."
+    }
+  },
+  "exclusions_and_overlap_rules": [
+    "No overall sum of per-person schedules: grants and subsequent company/member payments can repeat the same underlying funds across people/capacities.",
+    "Philipp broad resource view excludes Superbolt downstream payments when original Neutron funding is counted; $63,465.937765 company receipts only in narrower payment view.",
+    "MB website 20,000 USDC is original project capital to unidentified contractor; 19,001/999 onward routes are uses of same capital, not extra pay.",
+    "Rebel 26,500-USDC programme administration separate from 56,500-USDC work/bonus; 13,400-USDC downstream payments not additional earnings.",
+    "LUNA grant proposal budgets are not additional to transfers; EndBlock awards have no ordinary payment tx hashes.",
+    "Remaining Estima 80,000 reserved/unpaid in held snapshot; rejected A258 150,000 not another grant; no future salary projected.",
+    "Superbolt P8 empty executable messages and one P9 payment; rejected P29/P34 and other unexecuted proposals produce no paid rows.",
+    "Purchases/OTC, reimbursements, locked awards, validator-business receipts, rewards, unpriced fees and internal conversions excluded from narrow work/invoice subtotals.",
+    "Broad resources are not legal consolidation or proved net benefit. MB October 5,640-USDC authorization remained open in held 16 October snapshot; no receipt certified here."
+  ],
+  "superbolt_native_cashflow_independent_reparse": {
+    "method": "Reopened all 20 recipient-page captures listed in saved coverage and the sender page, deduplicated by tx hash, then parsed only successful native transfer events for the treasury. 1,912 successful unique transactions yielded 3,512 distinct bank-event coin rows.",
+    "unique_transactions": 1912,
+    "unique_bank_event_coins": 3512,
+    "captured_USDC_inflow": "175710.430585",
+    "captured_USDC_outflow": "175687.730000",
+    "recomputed_USDC_closing": "22.700585",
+    "recomputed_ATOM_closing": "0.342400",
+    "recomputed_NTRN_closing": "0.000008",
+    "all_three_match_saved_bank": true,
+    "bank_source": {
+      "json_pointer": "/body/balances",
+      "sha256": "c63a736f93b643c59540ce986b2d1125cc7f367beb3258fe2b9a634809923d29"
+    },
+    "capture_inventory_source": {
+      "json_pointer": "/coverage/pages",
+      "sha256": "49a9c87cfdf939ee909848fd9e3ea737b3b8006f2803080c4e5bdc45244d4698"
+    },
+    "P41_block_43758857": {
+      "all_USDC_inflows_through_block": "175627.591958",
+      "known_external_grant_capital": "170000",
+      "all_other_inflow_ceiling": "5627.591958",
+      "batch_paid_USDC": "40000",
+      "conditional_minimum_grant_pool_funding_USDC": "34372.408042",
+      "conditions": "Captured public native index, zero opening USDC, 170,000 of independently traced external grant capital; not every offchain/unindexed event. This is a fungible-cash bound for the whole batch, not individual coin attribution or proof of improper use."
+    }
+  },
+  "separate_TLA_fee_addition": {
+    "gross_LUNA": "2280",
+    "historical_USD": "159.9500376600000",
+    "overlap_found": false,
+    "included_in_1567716_90": false,
+    "reason": "Gesondert dargestellte spätere Ergänzung; nicht als Schaden bezeichnet."
+  }
+}

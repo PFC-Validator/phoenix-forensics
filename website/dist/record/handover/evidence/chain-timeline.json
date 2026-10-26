@@ -1,0 +1,1664 @@
+{
+  "prepared_utc": "2026-10-18T23:00:59.672270+00:00",
+  "purpose": "Verified input for a public TLA handover timeline. Research output only; this agent did not publish.",
+  "scope": "The original ten TLA contracts named by the launch registry and transferred together on 2 September 2024. Phoenix Treasury is a separate related timeline, excluded from the strict 31-operation count.",
+  "addresses": {
+    "eris_configuration_wallet": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "eris_upgrade_wallet": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+    "stewardship_dao": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+    "registry": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+    "phoenix_treasury": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5"
+  },
+  "public_launch_post": {
+    "title": "Launching Terra Liquidity Alliance",
+    "thread_id": 24385,
+    "author_account": "0xPhilipp",
+    "author_account_address": "cosmos142v8lp8m8fgj3zegg9mzsq9k5n2z2r06cn04h5",
+    "created_utc": "2024-08-12T08:46:56.607Z",
+    "last_edited_utc_as_archived": "2024-08-12T18:52:56.915Z",
+    "original_url": "https://common.xyz/terra/discussion/24385-launching-terra-liquidity-alliance",
+    "preserved_url": "https://github.com/phoenix-directive/docs/blob/82573858bd2933ad9722466ce94a019ac2fe2774/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md",
+    "preserved_source": {
+      "sha256": "b4023cebacad7d606be70c6637ce7a23a087983b2e6f32d66374ca48e63f5c92",
+      "url": "https://github.com/phoenix-directive/docs/blob/82573858bd2933ad9722466ce94a019ac2fe2774/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md"
+    },
+    "archive_commit": "82573858bd2933ad9722466ce94a019ac2fe2774",
+    "provenance_manifest": {
+      "sha256": "509774ec9ee15ff9033d8a96ef09fa64ba1069a526a1898d4bc34501754f32f1"
+    },
+    "admin_promise_exact": "Contract Admin will be transferred to PD Stewardship after 1 month.",
+    "owner_promise_exact": "Ownership transferred to PD Stewardship after 3 months.",
+    "start_clock": "No explicit start-date formula accompanies these two promises.",
+    "authority_context": "The post identifies the two exact ERIS wallets and distinguishes code-migration administration, configuration ownership, and delegated board roles.",
+    "provenance_limit": "This is a repository-preserved forum copy with archived author/date metadata, not an independently authenticated contemporaneous forum revision log."
+  },
+  "native_proposal_4817": {
+    "title": "Launching Terra Liquidity Alliance",
+    "proposer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "status": "PROPOSAL_STATUS_PASSED",
+    "submit_time": "2024-08-20T06:02:52.053534550Z",
+    "voting_start_time": "2024-08-20T06:02:52.053534550Z",
+    "voting_end_time": "2024-08-27T06:02:52.053534550Z",
+    "public_url": "https://chainsco.pe/terra2/governance/proposal/4817",
+    "source_capture": {
+      "sha256": "c130ff3a140482cd986a59ada85e127733a47592a4b6b0bd268d78ef619c25bc"
+    },
+    "explicitly_links_launch_post": true,
+    "executable_message_types": [
+      "/alliance.alliance.MsgCreateAlliance",
+      "/alliance.alliance.MsgCreateAlliance",
+      "/alliance.alliance.MsgCreateAlliance"
+    ],
+    "interpretation": "The three messages create Alliance assets. They do not execute the promised administrator/owner handover. The record states passed; voting_end_time is not a separately recovered enactment-block timestamp."
+  },
+  "original_contracts": [
+    {
+      "label": "TLA permissions registry",
+      "address": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+      "deployed_utc": "2024-08-09T08:40:53Z",
+      "deployment_height": "11558817",
+      "initial_code_id": 3121,
+      "initial_admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "deployer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "initial_config": {
+        "owner": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+      },
+      "deployment_tx": "99864CC4829EC6640CFD3A3D82A3B8739964EB91E9C9897F0AC2775E51A61CFB",
+      "deployment_message_index": 0,
+      "deployment_url": "https://chainsco.pe/terra2/tx/99864CC4829EC6640CFD3A3D82A3B8739964EB91E9C9897F0AC2775E51A61CFB",
+      "deployment_source": {
+        "sha256": "37f6d71dbb221648f9d65ea286791f92186bbf8e668731fc149181bab21f8a98",
+        "url": "https://chainsco.pe/terra2/tx/99864CC4829EC6640CFD3A3D82A3B8739964EB91E9C9897F0AC2775E51A61CFB"
+      },
+      "code_history_source": {
+        "sha256": "988851ad057eeb91063abd549f844a9363118f5053d6feb1d8b7c6328d220088"
+      },
+      "admin_transfer_utc": "2024-09-02T21:13:54Z",
+      "admin_transfer_tx": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+      "current_admin_at_snapshot": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "current_code_at_snapshot": 3121,
+      "current_metadata_source": {
+        "sha256": "6b0dd067a093578ece089d15289867372003bff440ec1de49c217baf4db44274"
+      }
+    },
+    {
+      "label": "Voting gauge",
+      "address": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+      "deployed_utc": "2024-08-09T08:48:00Z",
+      "deployment_height": "11558887",
+      "initial_code_id": 3117,
+      "initial_admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "deployer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "initial_config": {
+        "gauges": [
+          {
+            "name": "stable",
+            "min_gauge_percentage": "0.01"
+          },
+          {
+            "name": "project",
+            "min_gauge_percentage": "0.01"
+          },
+          {
+            "name": "bluechip",
+            "min_gauge_percentage": "0.01"
+          }
+        ],
+        "global_config_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "rebase_asset": {
+          "cw20": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct"
+        }
+      },
+      "deployment_tx": "796303416964AE7476BB0E95CEA71528C1BC7FFA100B7BE07E906358FFB08F51",
+      "deployment_message_index": 0,
+      "deployment_url": "https://chainsco.pe/terra2/tx/796303416964AE7476BB0E95CEA71528C1BC7FFA100B7BE07E906358FFB08F51",
+      "deployment_source": {
+        "sha256": "b367a2278634f23f5be09d38add2c5c57f1e25c69a817810c6a8b1b01a2a67d8",
+        "url": "https://chainsco.pe/terra2/tx/796303416964AE7476BB0E95CEA71528C1BC7FFA100B7BE07E906358FFB08F51"
+      },
+      "code_history_source": {
+        "sha256": "b67b16624c0dbcfad7de93384d71bf0041964d320b5d1895eca5bdf0ec671604"
+      },
+      "admin_transfer_utc": "2024-09-02T21:13:54Z",
+      "admin_transfer_tx": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+      "current_admin_at_snapshot": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "current_code_at_snapshot": 3436,
+      "current_metadata_source": {
+        "sha256": "daa0247117e87db3cd8074dea0df74c698f36202d6a710c00ed279b48157db78"
+      }
+    },
+    {
+      "label": "Stable Alliance connector",
+      "address": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+      "deployed_utc": "2024-08-09T08:50:10Z",
+      "deployment_height": "11558907",
+      "initial_code_id": 3120,
+      "initial_admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "deployer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "initial_config": {
+        "global_config_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "alliance_token_denom": "vt",
+        "gauge": "stable",
+        "lst_asset_info": {
+          "cw20": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct"
+        },
+        "lst_hub_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+        "reward_denom": "uluna",
+        "zasset_denom": "zluna"
+      },
+      "deployment_tx": "4245C4F143B0A2FB16661EADA0B59D6A42DD4543AEEE8B41D2EC7F14D8DC9AD4",
+      "deployment_message_index": 0,
+      "deployment_url": "https://chainsco.pe/terra2/tx/4245C4F143B0A2FB16661EADA0B59D6A42DD4543AEEE8B41D2EC7F14D8DC9AD4",
+      "deployment_source": {
+        "sha256": "88bcca9a1f040762c377b6c1b5dffe3cadd36c4ce28555b58c77f410865c8925",
+        "url": "https://chainsco.pe/terra2/tx/4245C4F143B0A2FB16661EADA0B59D6A42DD4543AEEE8B41D2EC7F14D8DC9AD4"
+      },
+      "code_history_source": {
+        "sha256": "b2aadfaaa6efb17dea88061eba4c09244cb845834b4d0708f4621c8322b7b738"
+      },
+      "admin_transfer_utc": "2024-09-02T21:13:54Z",
+      "admin_transfer_tx": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+      "current_admin_at_snapshot": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "current_code_at_snapshot": 3120,
+      "current_metadata_source": {
+        "sha256": "257ba173fa6d8eaee14746a1667ade787e3a8953081f17e7fb65ce48dd7a28d3"
+      }
+    },
+    {
+      "label": "Project Alliance connector",
+      "address": "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh",
+      "deployed_utc": "2024-08-09T08:50:45Z",
+      "deployment_height": "11558913",
+      "initial_code_id": 3120,
+      "initial_admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "deployer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "initial_config": {
+        "global_config_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "alliance_token_denom": "vt",
+        "gauge": "project",
+        "lst_asset_info": {
+          "cw20": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct"
+        },
+        "lst_hub_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+        "reward_denom": "uluna",
+        "zasset_denom": "zluna"
+      },
+      "deployment_tx": "F1DD67D1B622FE5EBA5D18B02B8ADDC0BB4FB517A539256B162B171063D6B131",
+      "deployment_message_index": 0,
+      "deployment_url": "https://chainsco.pe/terra2/tx/F1DD67D1B622FE5EBA5D18B02B8ADDC0BB4FB517A539256B162B171063D6B131",
+      "deployment_source": {
+        "sha256": "7a400017078875a19ee6164ba9daa4ab68e7aaf1ef6560049cc2e95bd822b280",
+        "url": "https://chainsco.pe/terra2/tx/F1DD67D1B622FE5EBA5D18B02B8ADDC0BB4FB517A539256B162B171063D6B131"
+      },
+      "code_history_source": {
+        "sha256": "7d938ee3306a09f5bf7191e70eb355f1f1c87db1a51304b8898dccad7200b5bd"
+      },
+      "admin_transfer_utc": "2024-09-02T21:13:54Z",
+      "admin_transfer_tx": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+      "current_admin_at_snapshot": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "current_code_at_snapshot": 3120,
+      "current_metadata_source": {
+        "sha256": "f29674e2a65946f8ca498505cc7677f2db5200e8c19fb775bb3967433bbd8985"
+      }
+    },
+    {
+      "label": "Bluechip Alliance connector",
+      "address": "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53",
+      "deployed_utc": "2024-08-09T08:51:38Z",
+      "deployment_height": "11558921",
+      "initial_code_id": 3120,
+      "initial_admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "deployer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "initial_config": {
+        "global_config_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "alliance_token_denom": "vt",
+        "gauge": "bluechip",
+        "lst_asset_info": {
+          "cw20": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct"
+        },
+        "lst_hub_address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+        "reward_denom": "uluna",
+        "zasset_denom": "zluna"
+      },
+      "deployment_tx": "E9DA6103D09B36B4630298834A0F9EC916BE9C9E38202C9481E6C37B23E14F5C",
+      "deployment_message_index": 0,
+      "deployment_url": "https://chainsco.pe/terra2/tx/E9DA6103D09B36B4630298834A0F9EC916BE9C9E38202C9481E6C37B23E14F5C",
+      "deployment_source": {
+        "sha256": "cdf93290e03700389f46b0c01a5722ae9649c1c97f02c8dd96640de1ef7926c8",
+        "url": "https://chainsco.pe/terra2/tx/E9DA6103D09B36B4630298834A0F9EC916BE9C9E38202C9481E6C37B23E14F5C"
+      },
+      "code_history_source": {
+        "sha256": "e0f520c0a69b5ea3265297fb09cc22db9228cfbd66e2c431b10d5091e46e456d"
+      },
+      "admin_transfer_utc": "2024-09-02T21:13:54Z",
+      "admin_transfer_tx": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+      "current_admin_at_snapshot": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "current_code_at_snapshot": 3120,
+      "current_metadata_source": {
+        "sha256": "9db149b46678b605710c5ea7e029f22f43e31aee6cb87cd5cd8dac354663d96e"
+      }
+    },
+    {
+      "label": "Voting escrow",
+      "address": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "deployed_utc": "2024-08-09T08:57:55Z",
+      "deployment_height": "11558979",
+      "initial_code_id": 3122,
+      "initial_admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "deployer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "initial_config": {
+        "global_config_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "deposit_assets": [
+          {
+            "config": "default",
+            "info": {
+              "native": "uluna"
+            }
+          },
+          {
+            "config": {
+              "exchange_rate": {
+                "contract": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk"
+              }
+            },
+            "info": {
+              "cw20": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct"
+            }
+          },
+          {
+            "config": {
+              "exchange_rate": {
+                "contract": "terra1l2nd99yze5fszmhl5svyh5fky9wm4nz4etlgnztfu4e8809gd52q04n3ea"
+              }
+            },
+            "info": {
+              "cw20": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml"
+            }
+          },
+          {
+            "config": "default",
+            "info": {
+              "native": "ibc/08095CEDEA29977C9DD0CE9A48329FDA622C183359D5F90CF04CC4FF80CBE431"
+            }
+          }
+        ]
+      },
+      "deployment_tx": "854BA2512DD5441B923395574D5F558CF2CD85C62C04C276DF457F45ABE01751",
+      "deployment_message_index": 0,
+      "deployment_url": "https://chainsco.pe/terra2/tx/854BA2512DD5441B923395574D5F558CF2CD85C62C04C276DF457F45ABE01751",
+      "deployment_source": {
+        "sha256": "df4cf6afdaff4be8fd3df67ee5646343c592e36032c7fff4515bbc48507dc8e2",
+        "url": "https://chainsco.pe/terra2/tx/854BA2512DD5441B923395574D5F558CF2CD85C62C04C276DF457F45ABE01751"
+      },
+      "code_history_source": {
+        "sha256": "f377c1432fafdcb783af8cb7c8d16b9f962f8551a3b6cbdcfd23e24bab35b128"
+      },
+      "admin_transfer_utc": "2024-09-02T21:13:54Z",
+      "admin_transfer_tx": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+      "current_admin_at_snapshot": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "current_code_at_snapshot": 3694,
+      "current_metadata_source": {
+        "sha256": "ca873c036e093be52413c79323dd6d1314406468147752501b8c2364f3291a45"
+      }
+    },
+    {
+      "label": "Stable staking",
+      "address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "deployed_utc": "2024-08-09T08:58:50Z",
+      "deployment_height": "11558988",
+      "initial_code_id": 3118,
+      "initial_admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "deployer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "initial_config": {
+        "global_config_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "default_yearly_take_rate": "0.1",
+        "gauge": "stable",
+        "reward_info": {
+          "native": "factory/terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8/zluna"
+        }
+      },
+      "deployment_tx": "82E5ADBE54B6D86BF3411FFAAA7A340BC57D37ACC3A49AA316592C91182ED46D",
+      "deployment_message_index": 0,
+      "deployment_url": "https://chainsco.pe/terra2/tx/82E5ADBE54B6D86BF3411FFAAA7A340BC57D37ACC3A49AA316592C91182ED46D",
+      "deployment_source": {
+        "sha256": "d458a48f6000805fcba51f64bb6956011f8032734e817a714f7b040a4b73e65f",
+        "url": "https://chainsco.pe/terra2/tx/82E5ADBE54B6D86BF3411FFAAA7A340BC57D37ACC3A49AA316592C91182ED46D"
+      },
+      "code_history_source": {
+        "sha256": "42b9ef30842efe907fe43ac3049b197fbf624dde25cb7ef4e004cc84247ccfe0"
+      },
+      "admin_transfer_utc": "2024-09-02T21:13:54Z",
+      "admin_transfer_tx": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+      "current_admin_at_snapshot": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "current_code_at_snapshot": 4038,
+      "current_metadata_source": {
+        "sha256": "26d354a036a0d8f9dab13e09c5cf51e56d199d1023dd88b165e6a343f51d4941"
+      }
+    },
+    {
+      "label": "Project staking",
+      "address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "deployed_utc": "2024-08-09T08:59:14Z",
+      "deployment_height": "11558992",
+      "initial_code_id": 3118,
+      "initial_admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "deployer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "initial_config": {
+        "global_config_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "default_yearly_take_rate": "0.1",
+        "gauge": "project",
+        "reward_info": {
+          "native": "factory/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh/zluna"
+        }
+      },
+      "deployment_tx": "F887F63156465D70B3D7226717E8E7AE4783A6A687E4B49F9A12FBB822014E91",
+      "deployment_message_index": 0,
+      "deployment_url": "https://chainsco.pe/terra2/tx/F887F63156465D70B3D7226717E8E7AE4783A6A687E4B49F9A12FBB822014E91",
+      "deployment_source": {
+        "sha256": "1795aed193daa2601c75e1446042632e1c2a5cbe8c55a6b4bec6c8f64dadc329",
+        "url": "https://chainsco.pe/terra2/tx/F887F63156465D70B3D7226717E8E7AE4783A6A687E4B49F9A12FBB822014E91"
+      },
+      "code_history_source": {
+        "sha256": "4b67a0cd768072fb48eb03c775490181d8285e52670750ef8daf131989f11c11"
+      },
+      "admin_transfer_utc": "2024-09-02T21:13:54Z",
+      "admin_transfer_tx": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+      "current_admin_at_snapshot": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "current_code_at_snapshot": 4038,
+      "current_metadata_source": {
+        "sha256": "45d369539deec8ab159ed977c8010151fed84979e48194f6e0513d8ef3c400a1"
+      }
+    },
+    {
+      "label": "Bluechip staking",
+      "address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "deployed_utc": "2024-08-09T08:59:51Z",
+      "deployment_height": "11558998",
+      "initial_code_id": 3118,
+      "initial_admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "deployer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "initial_config": {
+        "global_config_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "default_yearly_take_rate": "0.1",
+        "gauge": "bluechip",
+        "reward_info": {
+          "native": "factory/terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53/zluna"
+        }
+      },
+      "deployment_tx": "A6C9E905B665C8B0545180865EC66757CB97A6534C51C31B5B376BD7608C7169",
+      "deployment_message_index": 0,
+      "deployment_url": "https://chainsco.pe/terra2/tx/A6C9E905B665C8B0545180865EC66757CB97A6534C51C31B5B376BD7608C7169",
+      "deployment_source": {
+        "sha256": "d6835a0e3ce254ccb0a2b0db2f6dd26bdbf4c8478eaf15e48819e2793f775001",
+        "url": "https://chainsco.pe/terra2/tx/A6C9E905B665C8B0545180865EC66757CB97A6534C51C31B5B376BD7608C7169"
+      },
+      "code_history_source": {
+        "sha256": "5e7fd76b0a138f9858517e953ae5b1846380092a4d2f6104ca400af3c3f4543d"
+      },
+      "admin_transfer_utc": "2024-09-02T21:13:54Z",
+      "admin_transfer_tx": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+      "current_admin_at_snapshot": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "current_code_at_snapshot": 4038,
+      "current_metadata_source": {
+        "sha256": "afb47bb238269a4747fc8f2930aae59b739efe2caf120d7f7817af4802370be1"
+      }
+    },
+    {
+      "label": "Voting-incentive manager",
+      "address": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+      "deployed_utc": "2024-08-09T09:04:49Z",
+      "deployment_height": "11559045",
+      "initial_code_id": 3119,
+      "initial_admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "deployer": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "initial_config": {
+        "global_config_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "fee": {
+          "amount": "10000000",
+          "info": {
+            "native": "uluna"
+          }
+        },
+        "whitelist": []
+      },
+      "deployment_tx": "57200B7AD446942C8286E0960D44D75141304474AACEA3E4B2FA3576C991D4DC",
+      "deployment_message_index": 0,
+      "deployment_url": "https://chainsco.pe/terra2/tx/57200B7AD446942C8286E0960D44D75141304474AACEA3E4B2FA3576C991D4DC",
+      "deployment_source": {
+        "sha256": "67c743ad86704eb6bac4f31f9c6a1b1f376225fefc4134a41d13bcb700ad03dd",
+        "url": "https://chainsco.pe/terra2/tx/57200B7AD446942C8286E0960D44D75141304474AACEA3E4B2FA3576C991D4DC"
+      },
+      "code_history_source": {
+        "sha256": "326f5d893bdea1f6891f551484bbbf15e658bd5df442d239f152c01c40b30938"
+      },
+      "admin_transfer_utc": "2024-09-02T21:13:54Z",
+      "admin_transfer_tx": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+      "current_admin_at_snapshot": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "current_code_at_snapshot": 3494,
+      "current_metadata_source": {
+        "sha256": "93ec6b5b4a8b0972c5a8f717f6a281ad2101dfe3b685782b01cf8a4a3d7414f7"
+      }
+    }
+  ],
+  "initial_deployment_summary": {
+    "date_utc": "2024-08-09",
+    "first_deployment_utc": "2024-08-09T08:40:53Z",
+    "last_deployment_utc": "2024-08-09T09:04:49Z",
+    "contracts": 10,
+    "all_initial_admins": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "all_deployers": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "registry_initial_owner": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "initial_admin_verified_from_explicit_instantiate_field": 10
+  },
+  "september_2_transfer": {
+    "date_utc": "2024-09-02T21:13:54Z",
+    "height": "11910063",
+    "txhash": "3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+    "url": "https://chainsco.pe/terra2/tx/3C7D83963F5B19592A4A4A8461C4170DF91B66E3CCCB65C87388B0209C5F873D",
+    "message_count": 10,
+    "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "new_admin": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+    "success": true,
+    "is_handover_to_stewardship": false,
+    "effect": "Moves migration administration of all ten original contracts to the second ERIS wallet. It does not change the registry owner."
+  },
+  "deadline_analysis": {
+    "primary_anchor": "proposal_4817_voting_end",
+    "primary_one_month_utc": "2024-09-27T06:02:52.053534550Z",
+    "primary_three_months_utc": "2024-11-27T06:02:52.053534550Z",
+    "ledger_cutoff_utc": "2024-11-27T06:02:52Z",
+    "precision_note": "The older ledger truncates the proposal timestamp to whole seconds. No counted operation lies near that subsecond boundary.",
+    "classification": "Analytical calendar-month convention, not an exact deadline printed in the promise.",
+    "alternatives": [
+      {
+        "anchor": "deployment",
+        "label": "Original ten deployed",
+        "anchor_utc": "2024-08-09T09:04:49Z",
+        "one_calendar_month_utc": "2024-09-09T09:04:49Z",
+        "three_calendar_months_utc": "2024-11-09T09:04:49Z",
+        "is_explicit_contractual_start_formula": false,
+        "known_operations_after_three_months": 34,
+        "known_distinct_txs_after_three_months": 20,
+        "first_known_operation_after_three_months": "2024-11-17T15:56:18Z",
+        "count_scope_note": "Sensitivity over the already assembled retained-authority ledger, not a separate full historical query for each alternative date."
+      },
+      {
+        "anchor": "post",
+        "label": "Archived launch-post creation",
+        "anchor_utc": "2024-08-12T08:46:56.607Z",
+        "one_calendar_month_utc": "2024-09-12T08:46:56.607Z",
+        "three_calendar_months_utc": "2024-11-12T08:46:56.607Z",
+        "is_explicit_contractual_start_formula": false,
+        "known_operations_after_three_months": 34,
+        "known_distinct_txs_after_three_months": 20,
+        "first_known_operation_after_three_months": "2024-11-17T15:56:18Z",
+        "count_scope_note": "Sensitivity over the already assembled retained-authority ledger, not a separate full historical query for each alternative date."
+      },
+      {
+        "anchor": "vote_end",
+        "label": "Proposal 4817 voting end",
+        "anchor_utc": "2024-08-27T06:02:52.053534550Z",
+        "one_calendar_month_utc": "2024-09-27T06:02:52.053534550Z",
+        "three_calendar_months_utc": "2024-11-27T06:02:52.053534550Z",
+        "is_explicit_contractual_start_formula": false,
+        "known_operations_after_three_months": 31,
+        "known_distinct_txs_after_three_months": 19,
+        "first_known_operation_after_three_months": "2024-12-18T09:23:25Z",
+        "count_scope_note": "Sensitivity over the already assembled retained-authority ledger, not a separate full historical query for each alternative date."
+      },
+      {
+        "anchor": "admin_transfer",
+        "label": "Later internal ERIS administrator transfer",
+        "anchor_utc": "2024-09-02T21:13:54Z",
+        "one_calendar_month_utc": "2024-10-02T21:13:54Z",
+        "three_calendar_months_utc": "2024-12-02T21:13:54Z",
+        "is_explicit_contractual_start_formula": false,
+        "known_operations_after_three_months": 31,
+        "known_distinct_txs_after_three_months": 19,
+        "first_known_operation_after_three_months": "2024-12-18T09:23:25Z",
+        "count_scope_note": "Sensitivity over the already assembled retained-authority ledger, not a separate full historical query for each alternative date."
+      }
+    ],
+    "robustness": "Using the later 2 September administrator transfer as an alternative anchor moves the dates to 2 October and 2 December. The strict post-three-month total remains 31 operations in 19 transactions because its first entry is 18 December.",
+    "publication_wording": "Using proposal 4817’s voting end as the clock gives 27 September for administration and 27 November for ownership. The promise does not specify the clock; even starting from the later 2 September transfer, all 31 counted operations occurred after the three-month period."
+  },
+  "post_deadline_count": {
+    "operations": 31,
+    "distinct_transactions": 19,
+    "original_contracts_affected": 7,
+    "kinds": {
+      "voting_escrow_config": 1,
+      "migration": 17,
+      "registry_change": 6,
+      "incentive_blacklist": 7
+    },
+    "first_utc": "2024-12-18T09:23:25Z",
+    "last_utc": "2026-10-18T15:14:14Z",
+    "additional_admin_migrations_between_primary_one_and_three_month_dates": {
+      "messages": 7,
+      "transactions": 3,
+      "first_utc": "2024-10-07T15:11:48Z",
+      "last_utc": "2024-11-17T15:56:18Z"
+    },
+    "scope_limit": "A verified minimum in the bounded indexes and methods reviewed, not a proof that every possible historical operation was found. Count operations, not thefts, losses or legal conclusions.",
+    "full_ledger_source": {
+      "sha256": "61ffa1b153bc0aa19bb2734758bbe5b48cbfe85351eb31e98d4795f051b77f12"
+    },
+    "all_primary_message_comparisons": [
+      {
+        "hash": "3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+        "message_index": 0,
+        "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+        "primary_source": {
+          "sha256": "b8d9924cb59448d57e9d25b22a6349149aa378eaf30faef0a27912c871544dbe",
+          "url": "https://chainsco.pe/terra2/tx/3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE"
+        },
+        "matches": true
+      },
+      {
+        "hash": "54724BA583C5A44585325FC47E5930DC2F5D02918AD50D97A7778C7440DC8E50",
+        "message_index": 0,
+        "contract": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+        "primary_source": {
+          "sha256": "5ad8338997a00ce8394ce74ac14a943ee8c2b3fd7166dbd098aa921b1b00ed95",
+          "url": "https://chainsco.pe/terra2/tx/54724BA583C5A44585325FC47E5930DC2F5D02918AD50D97A7778C7440DC8E50"
+        },
+        "matches": true
+      },
+      {
+        "hash": "2F974A5FA9F0FB82C5E736FC73C016FC4B26A8143C2C28463B1C19FA2BF2A067",
+        "message_index": 0,
+        "contract": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "primary_source": {
+          "sha256": "1fc0eb1f0eb4bb8b01d264422d144b00421cf2bba6d383338a74088ff9975c35",
+          "url": "https://chainsco.pe/terra2/tx/2F974A5FA9F0FB82C5E736FC73C016FC4B26A8143C2C28463B1C19FA2BF2A067"
+        },
+        "matches": true
+      },
+      {
+        "hash": "D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463",
+        "message_index": 0,
+        "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463"
+        },
+        "matches": true
+      },
+      {
+        "hash": "D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463",
+        "message_index": 1,
+        "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463"
+        },
+        "matches": true
+      },
+      {
+        "hash": "D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463",
+        "message_index": 2,
+        "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463"
+        },
+        "matches": true
+      },
+      {
+        "hash": "BA405CD3EE230CA3B03DAFB4E88D28243F7C7B917D73139170CE0E1CCF440134",
+        "message_index": 0,
+        "contract": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "primary_source": {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df",
+          "url": "https://chainsco.pe/terra2/tx/BA405CD3EE230CA3B03DAFB4E88D28243F7C7B917D73139170CE0E1CCF440134"
+        },
+        "matches": true
+      },
+      {
+        "hash": "0DB971C43AC0B15F788ACBEEA08AD9CD1C9CAD2D4F503F11225FFDB243CA20E7",
+        "message_index": 0,
+        "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+        "primary_source": {
+          "sha256": "c52076e3d80ed81acc40d5cc7b263b706cd8f5db7804fefa8f5e755824a5777c",
+          "url": "https://chainsco.pe/terra2/tx/0DB971C43AC0B15F788ACBEEA08AD9CD1C9CAD2D4F503F11225FFDB243CA20E7"
+        },
+        "matches": true
+      },
+      {
+        "hash": "5A3A2B0BC68DF9BFC569C01226A324F3DD3F7494405B4906F2B7694B3ED93234",
+        "message_index": 0,
+        "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+        "primary_source": {
+          "sha256": "c52076e3d80ed81acc40d5cc7b263b706cd8f5db7804fefa8f5e755824a5777c",
+          "url": "https://chainsco.pe/terra2/tx/5A3A2B0BC68DF9BFC569C01226A324F3DD3F7494405B4906F2B7694B3ED93234"
+        },
+        "matches": true
+      },
+      {
+        "hash": "3C4D01C64A0E58CA3FEC401622596D2B0960213D0E1C09F3827DD438FDE7D873",
+        "message_index": 0,
+        "contract": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+        "primary_source": {
+          "sha256": "c52076e3d80ed81acc40d5cc7b263b706cd8f5db7804fefa8f5e755824a5777c",
+          "url": "https://chainsco.pe/terra2/tx/3C4D01C64A0E58CA3FEC401622596D2B0960213D0E1C09F3827DD438FDE7D873"
+        },
+        "matches": true
+      },
+      {
+        "hash": "DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+        "message_index": 0,
+        "contract": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "primary_source": {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df",
+          "url": "https://chainsco.pe/terra2/tx/DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64"
+        },
+        "matches": true
+      },
+      {
+        "hash": "D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+        "message_index": 0,
+        "contract": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "primary_source": {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df",
+          "url": "https://chainsco.pe/terra2/tx/D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB"
+        },
+        "matches": true
+      },
+      {
+        "hash": "8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC",
+        "message_index": 0,
+        "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC"
+        },
+        "matches": true
+      },
+      {
+        "hash": "8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC",
+        "message_index": 1,
+        "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC"
+        },
+        "matches": true
+      },
+      {
+        "hash": "8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC",
+        "message_index": 2,
+        "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC"
+        },
+        "matches": true
+      },
+      {
+        "hash": "4D6F5AE19115266A921ED01819BBF4A894274DB795174622463FB712AF69D853",
+        "message_index": 0,
+        "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "primary_source": {
+          "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534",
+          "url": "https://chainsco.pe/terra2/tx/4D6F5AE19115266A921ED01819BBF4A894274DB795174622463FB712AF69D853"
+        },
+        "matches": true
+      },
+      {
+        "hash": "10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+        "message_index": 0,
+        "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "primary_source": {
+          "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534",
+          "url": "https://chainsco.pe/terra2/tx/10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC"
+        },
+        "matches": true
+      },
+      {
+        "hash": "10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+        "message_index": 1,
+        "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "primary_source": {
+          "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534",
+          "url": "https://chainsco.pe/terra2/tx/10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC"
+        },
+        "matches": true
+      },
+      {
+        "hash": "10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+        "message_index": 2,
+        "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "primary_source": {
+          "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534",
+          "url": "https://chainsco.pe/terra2/tx/10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC"
+        },
+        "matches": true
+      },
+      {
+        "hash": "3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+        "message_index": 0,
+        "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "primary_source": {
+          "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534",
+          "url": "https://chainsco.pe/terra2/tx/3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA"
+        },
+        "matches": true
+      },
+      {
+        "hash": "3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+        "message_index": 1,
+        "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "primary_source": {
+          "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534",
+          "url": "https://chainsco.pe/terra2/tx/3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA"
+        },
+        "matches": true
+      },
+      {
+        "hash": "3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+        "message_index": 2,
+        "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "primary_source": {
+          "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534",
+          "url": "https://chainsco.pe/terra2/tx/3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA"
+        },
+        "matches": true
+      },
+      {
+        "hash": "D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C",
+        "message_index": 0,
+        "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C"
+        },
+        "matches": true
+      },
+      {
+        "hash": "D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C",
+        "message_index": 1,
+        "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C"
+        },
+        "matches": true
+      },
+      {
+        "hash": "D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C",
+        "message_index": 2,
+        "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C"
+        },
+        "matches": true
+      },
+      {
+        "hash": "7545CEEB62C382CAFBB018BD7BD9A60A37772929182D5804140AAC0A54CA3650",
+        "message_index": 0,
+        "contract": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "primary_source": {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df",
+          "url": "https://chainsco.pe/terra2/tx/7545CEEB62C382CAFBB018BD7BD9A60A37772929182D5804140AAC0A54CA3650"
+        },
+        "matches": true
+      },
+      {
+        "hash": "BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560",
+        "message_index": 0,
+        "contract": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560"
+        },
+        "matches": true
+      },
+      {
+        "hash": "BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560",
+        "message_index": 1,
+        "contract": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560"
+        },
+        "matches": true
+      },
+      {
+        "hash": "BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560",
+        "message_index": 2,
+        "contract": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+        "primary_source": {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb",
+          "url": "https://chainsco.pe/terra2/tx/BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560"
+        },
+        "matches": true
+      },
+      {
+        "hash": "5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+        "message_index": 0,
+        "contract": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "primary_source": {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df",
+          "url": "https://chainsco.pe/terra2/tx/5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE"
+        },
+        "matches": true
+      },
+      {
+        "hash": "EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+        "message_index": 0,
+        "contract": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+        "primary_source": {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df",
+          "url": "https://chainsco.pe/terra2/tx/EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230"
+        },
+        "matches": true
+      }
+    ]
+  },
+  "post_deadline_transactions": [
+    {
+      "date_utc": "2024-12-18T09:23:25Z",
+      "txhash": "3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+      "url": "https://chainsco.pe/terra2/tx/3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+      "operation_count": 1,
+      "kinds": {
+        "voting_escrow_config": 1
+      },
+      "titles": [
+        "Admitted ERIS arbLUNA to voting escrow"
+      ],
+      "effects": [
+        "Added another ERIS product as eligible voting-escrow deposit collateral and selected its ERIS arbitrage vault as exchange-rate source. This changes product eligibility and voting collateral; it is more than a software-version update."
+      ],
+      "contracts": [
+        {
+          "label": "Voting escrow",
+          "address": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "b8d9924cb59448d57e9d25b22a6349149aa378eaf30faef0a27912c871544dbe"
+        }
+      ]
+    },
+    {
+      "date_utc": "2024-12-27T15:41:30Z",
+      "txhash": "54724BA583C5A44585325FC47E5930DC2F5D02918AD50D97A7778C7440DC8E50",
+      "url": "https://chainsco.pe/terra2/tx/54724BA583C5A44585325FC47E5930DC2F5D02918AD50D97A7778C7440DC8E50",
+      "operation_count": 1,
+      "kinds": {
+        "migration": 1
+      },
+      "titles": [
+        "Replaced voting-gauge code"
+      ],
+      "effects": [
+        "Exercised the power to replace the gauge implementation. Exact old/new binaries are preserved; a complete source-level explanation has not been recovered."
+      ],
+      "contracts": [
+        {
+          "label": "Voting gauge",
+          "address": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "5ad8338997a00ce8394ce74ac14a943ee8c2b3fd7166dbd098aa921b1b00ed95"
+        }
+      ]
+    },
+    {
+      "date_utc": "2025-01-27T08:23:22Z",
+      "txhash": "2F974A5FA9F0FB82C5E736FC73C016FC4B26A8143C2C28463B1C19FA2BF2A067",
+      "url": "https://chainsco.pe/terra2/tx/2F974A5FA9F0FB82C5E736FC73C016FC4B26A8143C2C28463B1C19FA2BF2A067",
+      "operation_count": 1,
+      "kinds": {
+        "migration": 1
+      },
+      "titles": [
+        "Replaced voting-incentive manager code"
+      ],
+      "effects": [
+        "Exercised migration authority over the contract administering voting incentives."
+      ],
+      "contracts": [
+        {
+          "label": "Voting-incentive manager",
+          "address": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "1fc0eb1f0eb4bb8b01d264422d144b00421cf2bba6d383338a74088ff9975c35"
+        }
+      ]
+    },
+    {
+      "date_utc": "2025-04-13T20:30:37Z",
+      "txhash": "D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463",
+      "url": "https://chainsco.pe/terra2/tx/D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463",
+      "operation_count": 3,
+      "kinds": {
+        "migration": 3
+      },
+      "titles": [
+        "Upgraded three original staking contracts"
+      ],
+      "effects": [
+        "Installed code3585 on Stable, Project and Bluechip staking. Three contract changes in one transaction."
+      ],
+      "contracts": [
+        {
+          "label": "Stable staking",
+          "address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+          "message_index": 0
+        },
+        {
+          "label": "Project staking",
+          "address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+          "message_index": 1
+        },
+        {
+          "label": "Bluechip staking",
+          "address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+          "message_index": 2
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        },
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        },
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        }
+      ]
+    },
+    {
+      "date_utc": "2025-08-12T11:41:56Z",
+      "txhash": "BA405CD3EE230CA3B03DAFB4E88D28243F7C7B917D73139170CE0E1CCF440134",
+      "url": "https://chainsco.pe/terra2/tx/BA405CD3EE230CA3B03DAFB4E88D28243F7C7B917D73139170CE0E1CCF440134",
+      "operation_count": 1,
+      "kinds": {
+        "registry_change": 1
+      },
+      "titles": [
+        "Changed the authorized BOT operator list"
+      ],
+      "effects": [
+        "Added an operator to the list used by related automation. BOT is an execution permission; it is not the same as the power to set fees or replace code."
+      ],
+      "contracts": [
+        {
+          "label": "TLA permissions registry",
+          "address": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df"
+        }
+      ]
+    },
+    {
+      "date_utc": "2025-08-17T11:35:18Z",
+      "txhash": "0DB971C43AC0B15F788ACBEEA08AD9CD1C9CAD2D4F503F11225FFDB243CA20E7",
+      "url": "https://chainsco.pe/terra2/tx/0DB971C43AC0B15F788ACBEEA08AD9CD1C9CAD2D4F503F11225FFDB243CA20E7",
+      "operation_count": 1,
+      "kinds": {
+        "migration": 1
+      },
+      "titles": [
+        "Replaced voting-escrow code: first August upgrade"
+      ],
+      "effects": [
+        "Installed code3690 in the original voting-escrow contract."
+      ],
+      "contracts": [
+        {
+          "label": "Voting escrow",
+          "address": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "c52076e3d80ed81acc40d5cc7b263b706cd8f5db7804fefa8f5e755824a5777c"
+        }
+      ]
+    },
+    {
+      "date_utc": "2025-08-17T12:33:19Z",
+      "txhash": "5A3A2B0BC68DF9BFC569C01226A324F3DD3F7494405B4906F2B7694B3ED93234",
+      "url": "https://chainsco.pe/terra2/tx/5A3A2B0BC68DF9BFC569C01226A324F3DD3F7494405B4906F2B7694B3ED93234",
+      "operation_count": 1,
+      "kinds": {
+        "migration": 1
+      },
+      "titles": [
+        "Replaced voting-escrow code again"
+      ],
+      "effects": [
+        "Replaced code3690 with3692 about58minutes later."
+      ],
+      "contracts": [
+        {
+          "label": "Voting escrow",
+          "address": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "c52076e3d80ed81acc40d5cc7b263b706cd8f5db7804fefa8f5e755824a5777c"
+        }
+      ]
+    },
+    {
+      "date_utc": "2025-08-17T13:33:44Z",
+      "txhash": "3C4D01C64A0E58CA3FEC401622596D2B0960213D0E1C09F3827DD438FDE7D873",
+      "url": "https://chainsco.pe/terra2/tx/3C4D01C64A0E58CA3FEC401622596D2B0960213D0E1C09F3827DD438FDE7D873",
+      "operation_count": 1,
+      "kinds": {
+        "migration": 1
+      },
+      "titles": [
+        "Replaced voting-escrow code a third time"
+      ],
+      "effects": [
+        "Replaced code3692 with3694 another hour later. Three separate exercises of the retained migration key."
+      ],
+      "contracts": [
+        {
+          "label": "Voting escrow",
+          "address": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "c52076e3d80ed81acc40d5cc7b263b706cd8f5db7804fefa8f5e755824a5777c"
+        }
+      ]
+    },
+    {
+      "date_utc": "2025-10-01T11:27:33Z",
+      "txhash": "DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+      "url": "https://chainsco.pe/terra2/tx/DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+      "operation_count": 1,
+      "kinds": {
+        "registry_change": 1
+      },
+      "titles": [
+        "Redirected incentive-creation fees to ERIS"
+      ],
+      "effects": [
+        "Replaced Stewardship as FEE_COLLECTOR with the ERIS fee account. The separately reconciled captured stream is228payments /2,280LUNA, approximately$159.95 at receipt-time prices; not the wider ERIS fee total."
+      ],
+      "contracts": [
+        {
+          "label": "TLA permissions registry",
+          "address": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-09-22T09:55:22Z",
+      "txhash": "D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+      "url": "https://chainsco.pe/terra2/tx/D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+      "operation_count": 1,
+      "kinds": {
+        "registry_change": 1
+      },
+      "titles": [
+        "Set the destination for excluded incentive rewards"
+      ],
+      "effects": [
+        "Set BURN_RECIPIENT to the PF operations wallet. The exact deployed code sends excluded rewards there; the name alone does not mean the underlying value is destroyed."
+      ],
+      "contracts": [
+        {
+          "label": "TLA permissions registry",
+          "address": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-09-22T10:13:51Z",
+      "txhash": "8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC",
+      "url": "https://chainsco.pe/terra2/tx/8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC",
+      "operation_count": 3,
+      "kinds": {
+        "migration": 3
+      },
+      "titles": [
+        "Added asset-level incentive blacklisting"
+      ],
+      "effects": [
+        "Upgraded the three original staking contracts to4033. The new interface permits the registry owner to exclude specified assets from incentive allocation and route their reward share to BURN_RECIPIENT. The same transaction also touched the later Single contract, outside this strict count."
+      ],
+      "contracts": [
+        {
+          "label": "Stable staking",
+          "address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+          "message_index": 0
+        },
+        {
+          "label": "Project staking",
+          "address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+          "message_index": 1
+        },
+        {
+          "label": "Bluechip staking",
+          "address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+          "message_index": 2
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        },
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        },
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-09-22T11:02:18Z",
+      "txhash": "4D6F5AE19115266A921ED01819BBF4A894274DB795174622463FB712AF69D853",
+      "url": "https://chainsco.pe/terra2/tx/4D6F5AE19115266A921ED01819BBF4A894274DB795174622463FB712AF69D853",
+      "operation_count": 1,
+      "kinds": {
+        "incentive_blacklist": 1
+      },
+      "titles": [
+        "Excluded a Bluechip asset from incentives"
+      ],
+      "effects": [
+        "Called the new owner-only update_incentive_blacklist method for one CW20 asset. The ensuing reward-update transaction sent receipt tokens to the configured operations wallet."
+      ],
+      "contracts": [
+        {
+          "label": "Bluechip staking",
+          "address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-09-22T11:04:44Z",
+      "txhash": "10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+      "url": "https://chainsco.pe/terra2/tx/10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+      "operation_count": 3,
+      "kinds": {
+        "incentive_blacklist": 3
+      },
+      "titles": [
+        "Applied broader incentive exclusions"
+      ],
+      "effects": [
+        "Added asset lists to all three original staking contracts. The same transaction also covered the later Single contract. This changes reward allocation without using the ordinary asset-whitelist board role."
+      ],
+      "contracts": [
+        {
+          "label": "Stable staking",
+          "address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+          "message_index": 0
+        },
+        {
+          "label": "Project staking",
+          "address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+          "message_index": 1
+        },
+        {
+          "label": "Bluechip staking",
+          "address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+          "message_index": 2
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-09-22T13:47:12Z",
+      "txhash": "3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+      "url": "https://chainsco.pe/terra2/tx/3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+      "operation_count": 3,
+      "kinds": {
+        "incentive_blacklist": 3
+      },
+      "titles": [
+        "Removed the broader incentive exclusions"
+      ],
+      "effects": [
+        "Removed the bulk asset lists from the three original contracts, about2hours42minutes after adding them. The ledger preserves the exact add/remove arrays rather than assuming every prior exclusion was cleared."
+      ],
+      "contracts": [
+        {
+          "label": "Stable staking",
+          "address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+          "message_index": 0
+        },
+        {
+          "label": "Project staking",
+          "address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+          "message_index": 1
+        },
+        {
+          "label": "Bluechip staking",
+          "address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+          "message_index": 2
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "41dbd2e1fc7f7bf90e74da21482a288ed73b5ff9566cf92f29778c1dbb581534"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-10-03T02:14:58Z",
+      "txhash": "D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C",
+      "url": "https://chainsco.pe/terra2/tx/D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C",
+      "operation_count": 3,
+      "kinds": {
+        "migration": 3
+      },
+      "titles": [
+        "Introduced a per-wallet staking restriction"
+      ],
+      "effects": [
+        "Installed code4037, which consults ASSET_STAKING_BLACKLIST. Controlled execution of the exact binary shows listed senders fail stake, unstake and reward-claim operations before account-state checks."
+      ],
+      "contracts": [
+        {
+          "label": "Stable staking",
+          "address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+          "message_index": 0
+        },
+        {
+          "label": "Project staking",
+          "address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+          "message_index": 1
+        },
+        {
+          "label": "Bluechip staking",
+          "address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+          "message_index": 2
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        },
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        },
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-10-03T02:17:58Z",
+      "txhash": "7545CEEB62C382CAFBB018BD7BD9A60A37772929182D5804140AAC0A54CA3650",
+      "url": "https://chainsco.pe/terra2/tx/7545CEEB62C382CAFBB018BD7BD9A60A37772929182D5804140AAC0A54CA3650",
+      "operation_count": 1,
+      "kinds": {
+        "registry_change": 1
+      },
+      "titles": [
+        "Put Philipp’s project address in the new FIX list"
+      ],
+      "effects": [
+        "Set ASSET_STAKING_FIX to the project address. At this moment4037 still read the differently named BLACKLIST list, so this assignment alone did not yet activate the tested4038 restriction."
+      ],
+      "contracts": [
+        {
+          "label": "TLA permissions registry",
+          "address": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-10-03T02:19:17Z",
+      "txhash": "BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560",
+      "url": "https://chainsco.pe/terra2/tx/BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560",
+      "operation_count": 3,
+      "kinds": {
+        "migration": 3
+      },
+      "titles": [
+        "Changed the restriction to read the FIX list"
+      ],
+      "effects": [
+        "Installed code4038, four minutes19seconds after4037. It reads ASSET_STAKING_FIX and applies the same sender-dependent failures. Both binaries report the samev1.9.10 label despite different hashes."
+      ],
+      "contracts": [
+        {
+          "label": "Stable staking",
+          "address": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+          "message_index": 0
+        },
+        {
+          "label": "Project staking",
+          "address": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+          "message_index": 1
+        },
+        {
+          "label": "Bluechip staking",
+          "address": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+          "message_index": 2
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        },
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        },
+        {
+          "sha256": "082891034bf56f4346d35a6c1f4ba0ad007b99e8a79abe048068ffe646bbafdb"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-10-03T02:21:42Z",
+      "txhash": "5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+      "url": "https://chainsco.pe/terra2/tx/5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+      "operation_count": 1,
+      "kinds": {
+        "registry_change": 1
+      },
+      "titles": [
+        "Replaced the restricted address with another wallet"
+      ],
+      "effects": [
+        "Replaced the project address with terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz. That entry remained effective for15days12hours52minutes32seconds. This proves the restriction was configured; no failed live attempt by that wallet after activation has been recovered."
+      ],
+      "contracts": [
+        {
+          "label": "TLA permissions registry",
+          "address": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-10-18T15:14:14Z",
+      "txhash": "EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+      "url": "https://chainsco.pe/terra2/tx/EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+      "operation_count": 1,
+      "kinds": {
+        "registry_change": 1
+      },
+      "titles": [
+        "Removed the per-wallet restriction"
+      ],
+      "effects": [
+        "Emptied ASSET_STAKING_FIX on18October2026. This is another actual use of the retained owner key,690days after the common counting cutoff. Removing the entry did not transfer the owner or administrator to Stewardship."
+      ],
+      "contracts": [
+        {
+          "label": "TLA permissions registry",
+          "address": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+          "message_index": 0
+        }
+      ],
+      "primary_sources": [
+        {
+          "sha256": "4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df"
+        }
+      ]
+    }
+  ],
+  "october18_snapshot": {
+    "height": "23348316",
+    "time_utc": "2026-10-18T22:03:04.390772210Z",
+    "all_ten_admin": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+    "all_ten_admin_metadata_at_same_height": true,
+    "block_source": {
+      "sha256": "25c556e0fc42ccb962774269bd2ecbab94921e2f161e13beb099127d68bdf5a7"
+    },
+    "admin_history_check_source": {
+      "sha256": "2c9ca8c8d8e92a3b29ca99e8143218d864e86c2f0d9b6880e5fce928230396ec"
+    },
+    "admin_history_result": "Each original contract-wide UpdateAdmin index returned the same single 2 September 2024 transfer. No later transfer to Stewardship was returned.",
+    "registry_owner_at_separate_same_date_query": {
+      "owner": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "pending_owner": null,
+      "pending_expiry": null
+    },
+    "owner_query_retrieved_utc": "2026-10-18T21:27:05.651991+00:00",
+    "owner_query_height": "23347940",
+    "owner_source": {
+      "sha256": "0d1b84b2615d4c2d3658d672bf1d40aadf4483e9b7d0531390577064cee9ecd9"
+    },
+    "owner_source_capture": {
+      "sha256": "c67446dfbdc2c0fb06ea271b214913fc52e621d29f263ace87a015e25d0a85ce"
+    },
+    "precision_limit": "The registry ownership query and the ten-contract admin metadata snapshot are separate queries at different heights on 18 October; they are not represented as one atomic snapshot."
+  },
+  "separate_treasury_timeline": [
+    {
+      "date_utc": "2024-10-07T11:35:59Z",
+      "title": "Treasury deployed under the ERIS configuration wallet",
+      "finding": "The instantiate message explicitly names the ERIS configuration wallet as upgrade administrator and uses the pre-existing TLA registry.",
+      "txhash": "F2E565D7702755E2CE4770B4A5DB2FA020BC2F1D15B5CAE131129068FDD4F2E4",
+      "height": "12398038",
+      "url": "https://chainsco.pe/terra2/tx/F2E565D7702755E2CE4770B4A5DB2FA020BC2F1D15B5CAE131129068FDD4F2E4",
+      "messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgInstantiateContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "admin": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "code_id": "3222",
+          "label": "phoenix_treasury",
+          "msg": {
+            "global_config_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+            "veto_owner": "terra10d07y265gmmuvt4z0w9aw880jnsr700juxf95n",
+            "alliance_token_denom": "vt",
+            "oracles": [
+              [
+                {
+                  "native": "uluna"
+                },
+                {
+                  "pair": {
+                    "contract": "terra1v3lqxl0eyte9x3nhdgcj8hwvjq76aupnnzz0yll8mxs5cckc29pqvg2scu",
+                    "simulation_amount": "1000000"
+                  }
+                }
+              ],
+              [
+                {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "usdc"
+              ],
+              [
+                {
+                  "native": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5"
+                },
+                "usdc"
+              ]
+            ],
+            "reward_denom": "uluna",
+            "vetos": [
+              {
+                "vetoer": "terra10d07y265gmmuvt4z0w9aw880jnsr700juxf95n",
+                "spend_above_usd": "0",
+                "spend_above_usd_30d": "0",
+                "delay_s": 0
+              },
+              {
+                "vetoer": "terra10d07y265gmmuvt4z0w9aw880jnsr700juxf95n",
+                "spend_above_usd": "150000",
+                "spend_above_usd_30d": "450000",
+                "delay_s": 864000
+              },
+              {
+                "vetoer": "terra15l7567hhxttv2k5enmu4k8uez8e3cx3sxqfg6fsq4zzuwuzy2fqsjq00gr",
+                "spend_above_usd": "50000",
+                "spend_above_usd_30d": "150000",
+                "delay_s": 259200
+              }
+            ]
+          },
+          "funds": [
+            {
+              "denom": "uluna",
+              "amount": "10000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_utc": "2024-10-07T11:42:50Z",
+      "title": "Stewardship assigned Treasury application roles",
+      "finding": "Registry set_addresses assigns PDT_CONTROLLER and PDT_CONFIG_OWNER to Stewardship. This is not a transfer of registry ownership or contract migration administration.",
+      "txhash": "56B72129DEDCC78628DB32D6044C05FBB7471A95F90E34C532AF3723E04E8AB4",
+      "height": "12398104",
+      "url": "https://chainsco.pe/terra2/tx/56B72129DEDCC78628DB32D6044C05FBB7471A95F90E34C532AF3723E04E8AB4",
+      "messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "contract": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+          "msg": {
+            "set_addresses": {
+              "addresses": [
+                [
+                  "PDT_CONTROLLER",
+                  "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+                ],
+                [
+                  "PDT_CONFIG_OWNER",
+                  "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+                ]
+              ],
+              "lists": [
+                [
+                  "PDT_DCA_EXECUTOR",
+                  [
+                    "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+                    "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup"
+                  ]
+                ]
+              ]
+            }
+          },
+          "funds": []
+        }
+      ]
+    },
+    {
+      "date_utc": "2024-10-07T12:11:43.809049614Z",
+      "title": "Treasury funding vote begins",
+      "finding": "Proposal 4822 creates Alliance funding; its executable messages do not transfer the Treasury administrator.",
+      "url": "https://chainsco.pe/terra2/governance/proposal/4822"
+    },
+    {
+      "date_utc": "2024-10-08T12:21:10Z",
+      "title": "Treasury configuration role reassigned to ERIS",
+      "finding": "PDT_CONFIG_OWNER changes from Stewardship to the ERIS configuration wallet during proposal 4822 voting. The distinct PDT_CONTROLLER role is unchanged by this transaction.",
+      "txhash": "B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+      "height": "12412391",
+      "url": "https://chainsco.pe/terra2/tx/B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+      "messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "contract": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+          "msg": {
+            "set_addresses": {
+              "addresses": [
+                [
+                  "PDT_CONFIG_OWNER",
+                  "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+                ]
+              ],
+              "lists": []
+            }
+          },
+          "funds": []
+        }
+      ]
+    },
+    {
+      "date_utc": "2024-10-14T12:11:43.809049614Z",
+      "title": "Treasury funding vote ends; proposal recorded passed",
+      "finding": "Proposal 4822 creates Alliance funding; its executable messages do not transfer the Treasury administrator.",
+      "url": "https://chainsco.pe/terra2/governance/proposal/4822"
+    },
+    {
+      "date_utc": "2026-09-23T08:19:01Z",
+      "title": "Treasury upgrade administration moved between ERIS wallets",
+      "finding": "This is MsgUpdateAdmin, not a code migration. It moved authority already created on 7 October 2024; it neither created the authority for the first time nor transferred it to Stewardship.",
+      "txhash": "5202CA47D1B467EA0C2441B3EDF1B40674D8633EC232C0E06F32C7DCC38BF3D3",
+      "height": "22965956",
+      "url": "https://chainsco.pe/terra2/tx/5202CA47D1B467EA0C2441B3EDF1B40674D8633EC232C0E06F32C7DCC38BF3D3",
+      "messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgUpdateAdmin",
+          "sender": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+          "new_admin": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+          "contract": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5"
+        }
+      ]
+    }
+  ],
+  "separate_treasury_limit": "The Treasury uses the same registry but was deployed later, on 7 October 2024. The TLA launch post is not automatically a separate express Treasury handover deadline. The 23 September 2026 transaction is an administrator change, not a code migration or first creation of control.",
+  "interpretive_limits": [
+    "The original post disclosed temporary ERIS control. The documented issue is retention after the promised period and later exercise, not that the initial arrangement was wholly unmentioned.",
+    "On-chain records establish addresses and authorization. They do not identify the person physically signing or prove exclusive human custody of either key.",
+    "No approved extension was located in the reviewed corpus; this is not proof that no off-chain approval document exists.",
+    "Giving Stewardship particular application roles is distinct from transferring registry ownership or upgrade administration.",
+    "No live mutations, outreach, publication or edits to other research outputs were performed."
+  ]
+}

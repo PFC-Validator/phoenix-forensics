@@ -1,0 +1,64 @@
+- banner:
+  - link "Creda":
+    - /url: /markets
+    - generic: Creda
+  - navigation "Main":
+    - list:
+      - link "Dashboard":
+        - /url: /
+      - link "Markets":
+        - /url: /markets
+      - button "More":
+        - text: More
+  - button "Toggle theme":
+    - generic: Toggle theme
+  - button "Settings":
+    - generic: Settings
+  - button "Connect Wallet Connect Wallet":
+    - generic: Connect Wallet
+    - generic: Connect Wallet
+- main:
+  - heading "Analytics" [level=1]
+  - paragraph: View protocol metrics and statistics
+  - generic: Protocol Stats
+  - generic: Key metrics for the Creda protocol
+  - paragraph: Analytics data will be displayed here...
+  - generic: Market Performance
+  - generic: Historical performance data
+  - paragraph: Performance charts will be displayed here...
+- contentinfo:
+  - link "Creda":
+    - /url: /
+    - generic: Creda
+  - paragraph: Believe in Growth.
+  - heading "Product" [level=3]
+  - list:
+    - link "Markets":
+      - /url: /markets
+    - link "Dashboard":
+      - /url: /
+  - heading "Resources" [level=3]
+  - list:
+    - link "Documentation":
+      - /url: https://docs.creda.finance
+    - link "Brand Assets":
+      - /url: /brand
+    - link "GitHub":
+      - /url: https://github.com/credafinance
+  - heading "Community" [level=3]
+  - list:
+    - link "X":
+      - /url: https://x.com/creda_finance
+      - text: X
+    - link "Telegram":
+      - /url: https://t.me/creda_finance
+      - text: Telegram
+  - paragraph: © 2026 Creda Finance. All rights reserved.
+  - list:
+    - link "Disclaimer":
+      - /url: /legal#disclaimer
+    - link "Terms and Conditions":
+      - /url: /legal#terms
+    - link "Privacy Policy":
+      - /url: /legal#privacy
+- region "Notifications alt+T"

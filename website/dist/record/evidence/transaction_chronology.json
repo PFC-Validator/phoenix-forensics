@@ -1,0 +1,288 @@
+[
+  {
+    "timestamp_utc": "2024-12-18T09:23:25Z",
+    "transaction": "3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+    "operations": 1,
+    "title": "Admitted ERIS arbLUNA to voting escrow",
+    "effect": "Added another ERIS product as eligible voting-escrow deposit collateral and selected its ERIS arbitrage vault as exchange-rate source. This changes product eligibility and voting collateral; it is more than a software-version update.",
+    "url": "https://chainsco.pe/terra2/tx/3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+    "contracts": [
+      "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S02_ve_execute_update_config_p1.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2024-12-27T15:41:30Z",
+    "transaction": "54724BA583C5A44585325FC47E5930DC2F5D02918AD50D97A7778C7440DC8E50",
+    "operations": 1,
+    "title": "Replaced voting-gauge code",
+    "effect": "Exercised the power to replace the gauge implementation. Exact old/new binaries are preserved; a complete source-level explanation has not been recovered.",
+    "url": "https://chainsco.pe/terra2/tx/54724BA583C5A44585325FC47E5930DC2F5D02918AD50D97A7778C7440DC8E50",
+    "contracts": [
+      "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S04_terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj_migration_transactions.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2025-01-27T08:23:22Z",
+    "transaction": "2F974A5FA9F0FB82C5E736FC73C016FC4B26A8143C2C28463B1C19FA2BF2A067",
+    "operations": 1,
+    "title": "Replaced voting-incentive manager code",
+    "effect": "Exercised migration authority over the contract administering voting incentives.",
+    "url": "https://chainsco.pe/terra2/tx/2F974A5FA9F0FB82C5E736FC73C016FC4B26A8143C2C28463B1C19FA2BF2A067",
+    "contracts": [
+      "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S05_terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh_migration_transactions.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2025-04-13T20:30:37Z",
+    "transaction": "D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463",
+    "operations": 3,
+    "title": "Upgraded three original staking contracts",
+    "effect": "Installed code3585 on Stable, Project and Bluechip staking. Three contract changes in one transaction.",
+    "url": "https://chainsco.pe/terra2/tx/D3D58602B9147D6CA41E6A2F4600BD9B3C25DE5D85B00A77599A2B5554BB1463",
+    "contracts": [
+      "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S06_terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq_migration_transactions.json",
+      "exhibits/authority/sources/AUTH-S07_terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa_migration_transactions.json",
+      "exhibits/authority/sources/AUTH-S08_terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv_migration_transactions.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2025-08-12T11:41:56Z",
+    "transaction": "BA405CD3EE230CA3B03DAFB4E88D28243F7C7B917D73139170CE0E1CCF440134",
+    "operations": 1,
+    "title": "Changed the authorized BOT operator list",
+    "effect": "Added an operator to the list used by related automation. BOT is an execution permission; it is not the same as the power to set fees or replace code.",
+    "url": "https://chainsco.pe/terra2/tx/BA405CD3EE230CA3B03DAFB4E88D28243F7C7B917D73139170CE0E1CCF440134",
+    "contracts": [
+      "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S09_registry_executions_now.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2025-08-17T11:35:18Z",
+    "transaction": "0DB971C43AC0B15F788ACBEEA08AD9CD1C9CAD2D4F503F11225FFDB243CA20E7",
+    "operations": 1,
+    "title": "Replaced voting-escrow code: first August upgrade",
+    "effect": "Installed code3690 in the original voting-escrow contract.",
+    "url": "https://chainsco.pe/terra2/tx/0DB971C43AC0B15F788ACBEEA08AD9CD1C9CAD2D4F503F11225FFDB243CA20E7",
+    "contracts": [
+      "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S10_terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg_migration_transactions.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2025-08-17T12:33:19Z",
+    "transaction": "5A3A2B0BC68DF9BFC569C01226A324F3DD3F7494405B4906F2B7694B3ED93234",
+    "operations": 1,
+    "title": "Replaced voting-escrow code again",
+    "effect": "Replaced code3690 with3692 about58minutes later.",
+    "url": "https://chainsco.pe/terra2/tx/5A3A2B0BC68DF9BFC569C01226A324F3DD3F7494405B4906F2B7694B3ED93234",
+    "contracts": [
+      "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S10_terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg_migration_transactions.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2025-08-17T13:33:44Z",
+    "transaction": "3C4D01C64A0E58CA3FEC401622596D2B0960213D0E1C09F3827DD438FDE7D873",
+    "operations": 1,
+    "title": "Replaced voting-escrow code a third time",
+    "effect": "Replaced code3692 with3694 another hour later. Three separate exercises of the retained migration key.",
+    "url": "https://chainsco.pe/terra2/tx/3C4D01C64A0E58CA3FEC401622596D2B0960213D0E1C09F3827DD438FDE7D873",
+    "contracts": [
+      "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S10_terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg_migration_transactions.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2025-10-01T11:27:33Z",
+    "transaction": "DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+    "operations": 1,
+    "title": "Redirected incentive-creation fees to ERIS",
+    "effect": "Replaced Stewardship as FEE_COLLECTOR with the ERIS fee account. The separately reconciled captured stream is228payments /2,280LUNA, approximately$159.95 at receipt-time prices; not the wider ERIS fee total.",
+    "url": "https://chainsco.pe/terra2/tx/DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+    "contracts": [
+      "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S09_registry_executions_now.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2026-09-22T09:55:22Z",
+    "transaction": "D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+    "operations": 1,
+    "title": "Set the destination for excluded incentive rewards",
+    "effect": "Set BURN_RECIPIENT to the PF operations wallet. The exact deployed code sends excluded rewards there; the name alone does not mean the underlying value is destroyed.",
+    "url": "https://chainsco.pe/terra2/tx/D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+    "contracts": [
+      "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S09_registry_executions_now.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2026-09-22T10:13:51Z",
+    "transaction": "8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC",
+    "operations": 3,
+    "title": "Added asset-level incentive blacklisting",
+    "effect": "Upgraded the three original staking contracts to4033. The new interface permits the registry owner to exclude specified assets from incentive allocation and route their reward share to BURN_RECIPIENT. The same transaction also touched the later Single contract, outside this strict count.",
+    "url": "https://chainsco.pe/terra2/tx/8EDB8C8956B7BEB632A25E3F6BE7B452A035FEF752DB846657E4AC0E3E84A4DC",
+    "contracts": [
+      "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S06_terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq_migration_transactions.json",
+      "exhibits/authority/sources/AUTH-S07_terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa_migration_transactions.json",
+      "exhibits/authority/sources/AUTH-S08_terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv_migration_transactions.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2026-09-22T11:02:18Z",
+    "transaction": "4D6F5AE19115266A921ED01819BBF4A894274DB795174622463FB712AF69D853",
+    "operations": 1,
+    "title": "Excluded a Bluechip asset from incentives",
+    "effect": "Called the new owner-only update_incentive_blacklist method for one CW20 asset. The ensuing reward-update transaction sent receipt tokens to the configured operations wallet.",
+    "url": "https://chainsco.pe/terra2/tx/4D6F5AE19115266A921ED01819BBF4A894274DB795174622463FB712AF69D853",
+    "contracts": [
+      "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S12_incentive_blacklist_archive_001.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2026-09-22T11:04:44Z",
+    "transaction": "10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+    "operations": 3,
+    "title": "Applied broader incentive exclusions",
+    "effect": "Added asset lists to all three original staking contracts. The same transaction also covered the later Single contract. This changes reward allocation without using the ordinary asset-whitelist board role.",
+    "url": "https://chainsco.pe/terra2/tx/10D4246C800BE4EE7F2421A654E7C20D167B91D3BF6B38B0EFE632ECE91C33CC",
+    "contracts": [
+      "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S12_incentive_blacklist_archive_001.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2026-09-22T13:47:12Z",
+    "transaction": "3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+    "operations": 3,
+    "title": "Removed the broader incentive exclusions",
+    "effect": "Removed the bulk asset lists from the three original contracts, about2hours42minutes after adding them. The ledger preserves the exact add/remove arrays rather than assuming every prior exclusion was cleared.",
+    "url": "https://chainsco.pe/terra2/tx/3C92395B06F13FAB169DC504092F0346ABA93004DAD595DD3E912DF65C8801FA",
+    "contracts": [
+      "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S12_incentive_blacklist_archive_001.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2026-10-03T02:14:58Z",
+    "transaction": "D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C",
+    "operations": 3,
+    "title": "Introduced a per-wallet staking restriction",
+    "effect": "Installed code4037, which consults ASSET_STAKING_BLACKLIST. Controlled execution of the exact binary shows listed senders fail stake, unstake and reward-claim operations before account-state checks.",
+    "url": "https://chainsco.pe/terra2/tx/D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C",
+    "contracts": [
+      "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S06_terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq_migration_transactions.json",
+      "exhibits/authority/sources/AUTH-S07_terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa_migration_transactions.json",
+      "exhibits/authority/sources/AUTH-S08_terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv_migration_transactions.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2026-10-03T02:17:58Z",
+    "transaction": "7545CEEB62C382CAFBB018BD7BD9A60A37772929182D5804140AAC0A54CA3650",
+    "operations": 1,
+    "title": "Put Philipp’s project address in the new FIX list",
+    "effect": "Set ASSET_STAKING_FIX to the project address. At this moment4037 still read the differently named BLACKLIST list, so this assignment alone did not yet activate the tested4038 restriction.",
+    "url": "https://chainsco.pe/terra2/tx/7545CEEB62C382CAFBB018BD7BD9A60A37772929182D5804140AAC0A54CA3650",
+    "contracts": [
+      "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S09_registry_executions_now.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2026-10-03T02:19:17Z",
+    "transaction": "BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560",
+    "operations": 3,
+    "title": "Changed the restriction to read the FIX list",
+    "effect": "Installed code4038, four minutes19seconds after4037. It reads ASSET_STAKING_FIX and applies the same sender-dependent failures. Both binaries report the samev1.9.10 label despite different hashes.",
+    "url": "https://chainsco.pe/terra2/tx/BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560",
+    "contracts": [
+      "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S06_terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq_migration_transactions.json",
+      "exhibits/authority/sources/AUTH-S07_terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa_migration_transactions.json",
+      "exhibits/authority/sources/AUTH-S08_terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv_migration_transactions.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2026-10-03T02:21:42Z",
+    "transaction": "5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+    "operations": 1,
+    "title": "Replaced the restricted address with another wallet",
+    "effect": "Replaced the project address with terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz. That entry remained effective for15days12hours52minutes32seconds. This proves the restriction was configured; no failed live attempt by that wallet after activation has been recovered.",
+    "url": "https://chainsco.pe/terra2/tx/5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+    "contracts": [
+      "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S09_registry_executions_now.json"
+    ]
+  },
+  {
+    "timestamp_utc": "2026-10-18T15:14:14Z",
+    "transaction": "EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+    "operations": 1,
+    "title": "Removed the per-wallet restriction",
+    "effect": "Emptied ASSET_STAKING_FIX on18October2026. This is another actual use of the retained owner key,690days after the common counting cutoff. Removing the entry did not transfer the owner or administrator to Stewardship.",
+    "url": "https://chainsco.pe/terra2/tx/EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+    "contracts": [
+      "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa"
+    ],
+    "source_files": [
+      "exhibits/authority/sources/AUTH-S09_registry_executions_now.json"
+    ]
+  }
+]

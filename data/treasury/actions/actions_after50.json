@@ -1,0 +1,2672 @@
+{
+  "data": [
+    {
+      "id": 51,
+      "name": "infra payments (2025-06-15 - 2025-10-15)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "400000000"
+              },
+              "claimable_after_s": 1751348681
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "400000000"
+              },
+              "claimable_after_s": 1754027081
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "400000000"
+              },
+              "claimable_after_s": 1756705481
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "400000000"
+              },
+              "claimable_after_s": 1759297481
+            }
+          ]
+        }
+      },
+      "active_from": 1751609476,
+      "total_usd": "1600",
+      "total_usd_30d": "2075",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 52,
+      "name": "stewardship payments (2025-07-01 - 2025-10-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1752558777
+            },
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1755237177
+            },
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1757915577
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1752558777
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1755237177
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1757915577
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1752558777
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1755237177
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1757915577
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1752558777
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1755237177
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1757915577
+            }
+          ]
+        }
+      },
+      "active_from": 1751936769,
+      "total_usd": "66840",
+      "total_usd_30d": "68915",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 53,
+      "name": "core payments (2025-07-01 - 2025-10-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1752558883
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1755237283
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1757915683
+            }
+          ]
+        }
+      },
+      "active_from": 1751677891,
+      "total_usd": "15000",
+      "total_usd_30d": "83915",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 54,
+      "name": "Innovator Grant 1",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra17ymux3nuuz5t0vjhc0kg2wkhqfg6qtf7hypwk2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "2000000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1751884535,
+      "total_usd": "2000",
+      "total_usd_30d": "85915",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 55,
+      "name": "OTC 596750.25328 LUNA -> 100000.00000 USDC",
+      "reserved": [
+        {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "3"
+        }
+      ],
+      "cancelled": false,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "596750253276"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+            },
+            "amount": "100000000000"
+          }
+        }
+      },
+      "active_from": 1752238419,
+      "total_usd": "104400",
+      "total_usd_30d": "0",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 56,
+      "name": "mod payments (2025-06-15 - 2025-10-15)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1lqqsydqeeccndxcaatgryf4ra8ujnrluk5meqs",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1800000000"
+              },
+              "claimable_after_s": 1751388378
+            },
+            {
+              "recipient": "terra1lqqsydqeeccndxcaatgryf4ra8ujnrluk5meqs",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1800000000"
+              },
+              "claimable_after_s": 1754066778
+            },
+            {
+              "recipient": "terra1lqqsydqeeccndxcaatgryf4ra8ujnrluk5meqs",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1800000000"
+              },
+              "claimable_after_s": 1756745178
+            },
+            {
+              "recipient": "terra1lqqsydqeeccndxcaatgryf4ra8ujnrluk5meqs",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1800000000"
+              },
+              "claimable_after_s": 1759337178
+            }
+          ]
+        }
+      },
+      "active_from": 1752813114,
+      "total_usd": "7200",
+      "total_usd_30d": "7200",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 57,
+      "name": "comms payments (2025-07-01 - 2025-10-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1752598106
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1755276506
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1757954906
+            }
+          ]
+        }
+      },
+      "active_from": 1752821569,
+      "total_usd": "9000",
+      "total_usd_30d": "16200",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 58,
+      "name": "OTC 548264.61092 LUNA -> 100000.00000 USDC",
+      "reserved": [],
+      "cancelled": true,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "548264610923"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+            },
+            "amount": "100000000000"
+          }
+        }
+      },
+      "active_from": 1753262827,
+      "total_usd": "100938",
+      "total_usd_30d": "16200",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 59,
+      "name": "Deploy USDC liquidity",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "50000000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1754735554,
+      "total_usd": "50000",
+      "total_usd_30d": "66200",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 60,
+      "name": "delegation program payments (2025-07-28 - 2025-09-07)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra139yr82dtp908pjzj76hevnjvq374rsw79e32cf",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "700000000"
+              },
+              "claimable_after_s": 1754290363
+            },
+            {
+              "recipient": "terra139yr82dtp908pjzj76hevnjvq374rsw79e32cf",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "700000000"
+              },
+              "claimable_after_s": 1755499963
+            },
+            {
+              "recipient": "terra139yr82dtp908pjzj76hevnjvq374rsw79e32cf",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "700000000"
+              },
+              "claimable_after_s": 1756709563
+            },
+            {
+              "recipient": "terra1j00tmfa8el568llp3y96dquc9j2fcczmccnsn0",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "700000000"
+              },
+              "claimable_after_s": 1754290363
+            },
+            {
+              "recipient": "terra1j00tmfa8el568llp3y96dquc9j2fcczmccnsn0",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "700000000"
+              },
+              "claimable_after_s": 1755499963
+            },
+            {
+              "recipient": "terra1j00tmfa8el568llp3y96dquc9j2fcczmccnsn0",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "700000000"
+              },
+              "claimable_after_s": 1756709563
+            }
+          ]
+        }
+      },
+      "active_from": 1754900435,
+      "total_usd": "4200",
+      "total_usd_30d": "4200",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 61,
+      "name": "Transfer LUNA to Delegation Program",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1zfd09ncxfusp0eh3wg3w8kvyaserf8gng8tzq42mv778elgqxzqq2r6ndt",
+              "asset": {
+                "info": {
+                  "native": "uluna"
+                },
+                "amount": "2000000000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1756926280,
+      "total_usd": "323436",
+      "total_usd_30d": "327636",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 62,
+      "name": "OTC 668856.95023 LUNA -> 100000.00000 USDC",
+      "reserved": [],
+      "cancelled": true,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "668856950226"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+            },
+            "amount": "100000000000"
+          }
+        }
+      },
+      "active_from": 1756062292,
+      "total_usd": "108166",
+      "total_usd_30d": "327636",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 63,
+      "name": "OTC 1371958.91587 LUNA -> 200000.00000 USDC",
+      "reserved": [
+        {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "3"
+        }
+      ],
+      "cancelled": false,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1371958915867"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+            },
+            "amount": "200000000000"
+          }
+        }
+      },
+      "active_from": 1756252428,
+      "total_usd": "205497",
+      "total_usd_30d": "327636",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 64,
+      "name": "Setup Transfer for Content Bounties",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "2500000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1757047939,
+      "total_usd": "2500",
+      "total_usd_30d": "330136",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 65,
+      "name": "Transfer LUNA to Stewardship Multi-Sig",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+              "asset": {
+                "info": {
+                  "native": "uluna"
+                },
+                "amount": "250000000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1758410246,
+      "total_usd": "38960",
+      "total_usd_30d": "38960",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 66,
+      "name": "ambassador payments (2025-10-01 - 2026-02-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1ez76cl0ldavltjuakex0sjpjrwhdedt2mclsxu",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1000000000"
+              },
+              "claimable_after_s": 1760521233
+            },
+            {
+              "recipient": "terra1ez76cl0ldavltjuakex0sjpjrwhdedt2mclsxu",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1000000000"
+              },
+              "claimable_after_s": 1763203233
+            },
+            {
+              "recipient": "terra1ez76cl0ldavltjuakex0sjpjrwhdedt2mclsxu",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1000000000"
+              },
+              "claimable_after_s": 1765795233
+            },
+            {
+              "recipient": "terra1ez76cl0ldavltjuakex0sjpjrwhdedt2mclsxu",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1000000000"
+              },
+              "claimable_after_s": 1768473633
+            }
+          ]
+        }
+      },
+      "active_from": 1759408962,
+      "total_usd": "4000",
+      "total_usd_30d": "42960",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 67,
+      "name": "infra payments (2025-10-15 - 2026-02-15)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "440000000"
+              },
+              "claimable_after_s": 1761993633
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "440000000"
+              },
+              "claimable_after_s": 1764585633
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "440000000"
+              },
+              "claimable_after_s": 1767264033
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "440000000"
+              },
+              "claimable_after_s": 1769942433
+            }
+          ]
+        }
+      },
+      "active_from": 1759408962,
+      "total_usd": "1760",
+      "total_usd_30d": "44720",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 68,
+      "name": "comms payments (2025-10-01 - 2026-02-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1760521233
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1763203233
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1765795233
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1768473633
+            }
+          ]
+        }
+      },
+      "active_from": 1759408962,
+      "total_usd": "12000",
+      "total_usd_30d": "56720",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 69,
+      "name": "stewardship payments (2025-10-01 - 2026-02-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1760521233
+            },
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1763203233
+            },
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1765795233
+            },
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1768473633
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1760521233
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1763203233
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1765795233
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1768473633
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4575000000"
+              },
+              "claimable_after_s": 1760521233
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4575000000"
+              },
+              "claimable_after_s": 1763203233
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4575000000"
+              },
+              "claimable_after_s": 1765795233
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4575000000"
+              },
+              "claimable_after_s": 1768473633
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1760521233
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1763203233
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1765795233
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1768473633
+            }
+          ]
+        }
+      },
+      "active_from": 1759668162,
+      "total_usd": "95420",
+      "total_usd_30d": "152140",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 70,
+      "name": "core payments (2025-10-01 - 2026-02-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1760521233
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1763203233
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1765795233
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1768473633
+            }
+          ]
+        }
+      },
+      "active_from": 1759668162,
+      "total_usd": "20000",
+      "total_usd_30d": "172140",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 71,
+      "name": "OTC 743526.37608 LUNA -> 100000.00000 USDC",
+      "reserved": [
+        {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "1"
+        }
+      ],
+      "cancelled": false,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "743526376078"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+            },
+            "amount": "100000000000"
+          }
+        }
+      },
+      "active_from": 1759409068,
+      "total_usd": "107417",
+      "total_usd_30d": "172140",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 72,
+      "name": "Creda Grant",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "milestone": {
+          "recipient": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "asset_info": {
+            "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+          },
+          "milestones": [
+            {
+              "text": "Kickoff",
+              "amount": "40000000000"
+            },
+            {
+              "text": "Mainnet launch",
+              "amount": "100000000000"
+            },
+            {
+              "text": "eMode + Isolation",
+              "amount": "60000000000"
+            },
+            {
+              "text": "Analytics",
+              "amount": "10000000000"
+            }
+          ]
+        }
+      },
+      "active_from": 1760594959,
+      "total_usd": "210000",
+      "total_usd_30d": "382140",
+      "runtime": {
+        "milestone": {
+          "milestones": [
+            {
+              "amount": "40000000000",
+              "enabled": true,
+              "claimed": true
+            },
+            {
+              "amount": "100000000000",
+              "enabled": true,
+              "claimed": true
+            },
+            {
+              "amount": "60000000000",
+              "enabled": true,
+              "claimed": true
+            },
+            {
+              "amount": "10000000000",
+              "enabled": true,
+              "claimed": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 73,
+      "name": "OTC 918599.75268 LUNA -> 100000.00000 USDC",
+      "reserved": [
+        {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "108565"
+        }
+      ],
+      "cancelled": false,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "918599752676"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+            },
+            "amount": "100000000000"
+          }
+        }
+      },
+      "active_from": 1764990087,
+      "total_usd": "91712",
+      "total_usd_30d": "0",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 74,
+      "name": "OTC 839386.14684 LUNA -> 100000.00000 USDC",
+      "reserved": [
+        {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "2"
+        }
+      ],
+      "cancelled": false,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "839386146838"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+            },
+            "amount": "100000000000"
+          }
+        }
+      },
+      "active_from": 1765101819,
+      "total_usd": "101184",
+      "total_usd_30d": "0",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 75,
+      "name": "OTC 659152.83143 LUNA -> 130000.00000 USDC",
+      "reserved": [
+        {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "5"
+        }
+      ],
+      "cancelled": false,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "659152831429"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+            },
+            "amount": "130000000000"
+          }
+        }
+      },
+      "active_from": 1765456378,
+      "total_usd": "130038",
+      "total_usd_30d": "0",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 76,
+      "name": "Bonus Comms",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "2500000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1767505225,
+      "total_usd": "2500",
+      "total_usd_30d": "2500",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 77,
+      "name": "Bonus Liquidity Deployment",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1j00tmfa8el568llp3y96dquc9j2fcczmccnsn0",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1000000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1767505225,
+      "total_usd": "1000",
+      "total_usd_30d": "3500",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 78,
+      "name": "Transfer LUNA to Liquidity Alliance Multi-Sig",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+              "asset": {
+                "info": {
+                  "native": "uluna"
+                },
+                "amount": "500000000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1767505734,
+      "total_usd": "48151",
+      "total_usd_30d": "51651",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 79,
+      "name": "Comms Typefully 2025, 2026",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "696000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1768903155,
+      "total_usd": "696",
+      "total_usd_30d": "696",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 80,
+      "name": "ambassador payments (2026-02-01 - 2026-06-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1ez76cl0ldavltjuakex0sjpjrwhdedt2mclsxu",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1500000000"
+              },
+              "claimable_after_s": 1771156924
+            },
+            {
+              "recipient": "terra1ez76cl0ldavltjuakex0sjpjrwhdedt2mclsxu",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1500000000"
+              },
+              "claimable_after_s": 1773576124
+            },
+            {
+              "recipient": "terra1ez76cl0ldavltjuakex0sjpjrwhdedt2mclsxu",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1500000000"
+              },
+              "claimable_after_s": 1776250924
+            },
+            {
+              "recipient": "terra1ez76cl0ldavltjuakex0sjpjrwhdedt2mclsxu",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "1500000000"
+              },
+              "claimable_after_s": 1778842924
+            }
+          ]
+        }
+      },
+      "active_from": 1769595913,
+      "total_usd": "6000",
+      "total_usd_30d": "6696",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 81,
+      "name": "infra payments (2026-02-15 - 2026-06-15)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "440000000"
+              },
+              "claimable_after_s": 1772366524
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "440000000"
+              },
+              "claimable_after_s": 1775041324
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "440000000"
+              },
+              "claimable_after_s": 1777633324
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "440000000"
+              },
+              "claimable_after_s": 1780311724
+            }
+          ]
+        }
+      },
+      "active_from": 1769595913,
+      "total_usd": "1760",
+      "total_usd_30d": "8456",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 82,
+      "name": "comms payments (2026-02-01 - 2026-06-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1771156924
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1773576124
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1776250924
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1778842924
+            }
+          ]
+        }
+      },
+      "active_from": 1769595913,
+      "total_usd": "12000",
+      "total_usd_30d": "20456",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 83,
+      "name": "core payments (2026-02-01 - 2026-06-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1771156924
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1773576124
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1776250924
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1778842924
+            }
+          ]
+        }
+      },
+      "active_from": 1769595913,
+      "total_usd": "20000",
+      "total_usd_30d": "40456",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 84,
+      "name": "stewardship payments (2026-02-01 - 2026-03-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1771151771
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1771151771
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4575000000"
+              },
+              "claimable_after_s": 1771151771
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1771151771
+            }
+          ]
+        }
+      },
+      "active_from": 1769614221,
+      "total_usd": "23855",
+      "total_usd_30d": "64311",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 85,
+      "name": "Keplr Infra Service Agreement (2026-01-27 - 2027-01-27)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra12nwz7dneewtw7nfh4elzqz5y92m2yl5y3l33c5",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "6500000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1769752821,
+      "total_usd": "6500",
+      "total_usd_30d": "70811",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 86,
+      "name": "Transfer LUNA to Liquidity Alliance Multi-Sig",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+              "asset": {
+                "info": {
+                  "native": "uluna"
+                },
+                "amount": "1000000000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1772107461,
+      "total_usd": "60051",
+      "total_usd_30d": "60051",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 87,
+      "name": "Transfer LUNA to Phoenix Stewardship Multi-Sig",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+              "asset": {
+                "info": {
+                  "native": "uluna"
+                },
+                "amount": "200000000000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1772074302,
+      "total_usd": "12834",
+      "total_usd_30d": "72885",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 88,
+      "name": "OTC 731487.03837 LUNA -> 45000.00000 USDC",
+      "reserved": [
+        {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "1"
+        }
+      ],
+      "cancelled": false,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "731487038375"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+            },
+            "amount": "45000000000"
+          }
+        }
+      },
+      "active_from": 1772448172,
+      "total_usd": "45699",
+      "total_usd_30d": "72885",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 89,
+      "name": "stewardship payments (2026-03-01 - 2026-05-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1773567873
+            },
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1776242673
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1773567873
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1776242673
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4575000000"
+              },
+              "claimable_after_s": 1773567873
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4575000000"
+              },
+              "claimable_after_s": 1776242673
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1773567873
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1776242673
+            }
+          ]
+        }
+      },
+      "active_from": 1773797486,
+      "total_usd": "47710",
+      "total_usd_30d": "47710",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 90,
+      "name": "slack refund Mar 17, 2026 - Mar 16, 2027",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "95700000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1773920870,
+      "total_usd": "95",
+      "total_usd_30d": "47805",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 91,
+      "name": "OTC 754547.74166 LUNA -> 0.62500 WBTC",
+      "reserved": [
+        {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "2"
+        }
+      ],
+      "cancelled": false,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "754547741664"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/CF57A83CED6CEC7D706631B5DC53ABC21B7EDA7DF7490732B4361E6D5DD19C73"
+            },
+            "amount": "62500000"
+          }
+        }
+      },
+      "active_from": 1776397466,
+      "total_usd": "49568",
+      "total_usd_30d": "0",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 92,
+      "name": "OTC 769483.26908 LUNA -> 10.00000 PAXG",
+      "reserved": [
+        {
+          "info": {
+            "native": "uluna"
+          },
+          "amount": "2"
+        }
+      ],
+      "cancelled": false,
+      "done": false,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "769483269085"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62"
+            },
+            "amount": "10000000000000000000"
+          }
+        }
+      },
+      "active_from": 1776397466,
+      "total_usd": "50549",
+      "total_usd_30d": "0",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 93,
+      "name": "OTC 0.62500 wBTC.osmo -> wBTC.atom",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "otc": {
+          "amount": {
+            "info": {
+              "native": "ibc/CF57A83CED6CEC7D706631B5DC53ABC21B7EDA7DF7490732B4361E6D5DD19C73"
+            },
+            "amount": "62500000"
+          },
+          "into": {
+            "info": {
+              "native": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB"
+            },
+            "amount": "62500000"
+          }
+        }
+      },
+      "active_from": 1777418526,
+      "total_usd": "47411",
+      "total_usd_30d": "0",
+      "runtime": {
+        "otc": {}
+      }
+    },
+    {
+      "id": 94,
+      "name": "stewardship payments (2026-05-01 - 2026-07-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1778840022
+            },
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1781518422
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1778840022
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1781518422
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4575000000"
+              },
+              "claimable_after_s": 1778840022
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4575000000"
+              },
+              "claimable_after_s": 1781518422
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1778840022
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1781518422
+            }
+          ]
+        }
+      },
+      "active_from": 1777458346,
+      "total_usd": "47710",
+      "total_usd_30d": "47710",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 95,
+      "name": "Transfer wBTC.atom to Liquidity Alliance Multi-Sig",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+              "asset": {
+                "info": {
+                  "native": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB"
+                },
+                "amount": "62500000"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1778208651,
+      "total_usd": "49680",
+      "total_usd_30d": "49680",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 96,
+      "name": "Transfer PAXG to Liquidity Alliance Multi-Sig",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+              "asset": {
+                "info": {
+                  "native": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62"
+                },
+                "amount": "9999999999999999488"
+              },
+              "claimable_after_s": null
+            }
+          ]
+        }
+      },
+      "active_from": 1778208651,
+      "total_usd": "46667",
+      "total_usd_30d": "96347",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 97,
+      "name": "infra payments (2026-06-15 - 2026-10-15)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "485000000"
+              },
+              "claimable_after_s": 1782893258
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "485000000"
+              },
+              "claimable_after_s": 1785571658
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "485000000"
+              },
+              "claimable_after_s": 1788250058
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "485000000"
+              },
+              "claimable_after_s": 1790842058
+            }
+          ]
+        }
+      },
+      "active_from": 1781356530,
+      "total_usd": "1940",
+      "total_usd_30d": "1940",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 98,
+      "name": "comms payments (2026-06-01 - 2026-10-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1781510858
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1784102858
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1786781258
+            },
+            {
+              "recipient": "terra12jrvhyc4fn2zvhcw8t7cnyy2udgpvdcm8g7egn",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "3000000000"
+              },
+              "claimable_after_s": 1789459658
+            }
+          ]
+        }
+      },
+      "active_from": 1781356530,
+      "total_usd": "12000",
+      "total_usd_30d": "13940",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    },
+    {
+      "id": 99,
+      "name": "core payments (2026-06-01 - 2026-10-01)",
+      "reserved": [
+        {
+          "info": {
+            "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+          },
+          "amount": "10000000000"
+        }
+      ],
+      "cancelled": false,
+      "done": false,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1781510858
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1784102858
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1786781258
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1789459658
+            }
+          ]
+        }
+      },
+      "active_from": 1781356530,
+      "total_usd": "20000",
+      "total_usd_30d": "33940",
+      "runtime": {
+        "payment": {
+          "open": [
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1786781258
+            },
+            {
+              "recipient": "terra1azcpczz2jfysyl6m3wx3scpunt4lgcujpkyzt2",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1789459658
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 100,
+      "name": "stewardship payments (2026-07-01 - 2026-10-01)",
+      "reserved": [],
+      "cancelled": false,
+      "done": true,
+      "setup": {
+        "payment": {
+          "payments": [
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1784102858
+            },
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1786781258
+            },
+            {
+              "recipient": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "8640000000"
+              },
+              "claimable_after_s": 1789459658
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1784102858
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1786781258
+            },
+            {
+              "recipient": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5640000000"
+              },
+              "claimable_after_s": 1789459658
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4800000000"
+              },
+              "claimable_after_s": 1784102858
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4800000000"
+              },
+              "claimable_after_s": 1786781258
+            },
+            {
+              "recipient": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "4800000000"
+              },
+              "claimable_after_s": 1789459658
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1784102858
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1786781258
+            },
+            {
+              "recipient": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+              "asset": {
+                "info": {
+                  "native": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+                },
+                "amount": "5000000000"
+              },
+              "claimable_after_s": 1789459658
+            }
+          ]
+        }
+      },
+      "active_from": 1781615730,
+      "total_usd": "72240",
+      "total_usd_30d": "106180",
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      }
+    }
+  ]
+}

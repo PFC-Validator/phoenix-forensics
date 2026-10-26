@@ -1,0 +1,32 @@
+{
+  "project": "Estima — advanced liquidity layer and DEX",
+  "original_request_USDC": "150000",
+  "original_status": "A258 rejected or superseded; not additional live funding",
+  "approved_budget_USDC": "125000",
+  "received_USDC": "45000",
+  "conditional_unpaid_USDC": "80000",
+  "initial_proposal": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A258",
+  "adopted_proposal": "https://dao.phoenix.money/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals/A266",
+  "further_projects": "Prediction-market module and Pendle-style maturity markets publicly discussed. No separate current funding amount established in the reviewed records.",
+  "scope_source": "ERIS public chat, 16 October 2026 snapshot",
+  "messages": [
+    {
+      "message_id": 34885,
+      "sender": "0xPhilipp | PF, ERIS",
+      "timestamp_utc": "2026-09-01T08:47:48+00:00",
+      "text": "The current scope requested is 125k $, but this number can only be evaluated when you can see the full scope, as the things I mentioned are just parts of it. \n\nAnd it contains \n- analytics like coinhall previously had, \n- prediction market like polymarket (only binary and percentage results) (excluded)\n- order books like Kujira, \n- specialized lst pools like curve, \n- pool routing like tfm\n- transaction reporting similar to creda\n- ve3,3 incentive mechanism like aerodrome\n- clmm dex like osmosis\n\nAnd potentially a follow up for being the base for a maturities market like pendle."
+    },
+    {
+      "message_id": 34891,
+      "sender": "0xPhilipp | PF, ERIS",
+      "timestamp_utc": "2026-09-01T09:13:17+00:00",
+      "text": "Fees are split in an operator share for maintenance 10-20% and rest will be added to bribes of corresponding TLA pool listings."
+    },
+    {
+      "message_id": 35068,
+      "sender": "0xPhilipp | PF, ERIS",
+      "timestamp_utc": "2026-09-18T15:54:26+00:00",
+      "text": "Prediction market is one module that can be built on the new dex, it doesn’t need to be part of the grant. There were some legal worries about it in PF. But this is why PF doesn’t have a labs organization. A legal separation between dapp builders and foundation.\n\nWhen I started preparing this proposal 6 weeks ago, for me there was a focus on being ready to have a proper dex available, in case of astroport maintenance dropping. But this was never planned as an astroport replacement, and always a completely unique liquidity system.\n\nThis discussion pretty much self developed into where we are now, and by the day I feel less comfortable with astroport, as I don’t know what is going on internally at the team."
+    }
+  ]
+}

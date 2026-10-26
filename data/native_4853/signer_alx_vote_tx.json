@@ -1,0 +1,257 @@
+{
+  "tx": {
+    "body": {
+      "messages": [
+        {
+          "@type": "/cosmos.gov.v1beta1.MsgVote",
+          "proposal_id": "4853",
+          "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+          "option": "VOTE_OPTION_YES"
+        }
+      ],
+      "memo": "",
+      "timeout_height": "0",
+      "extension_options": [],
+      "non_critical_extension_options": []
+    },
+    "auth_info": {
+      "signer_infos": [
+        {
+          "public_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AwQwAF91lVnTLv8m4gpTAi9bdhEjmXTMiEf6WJceCo/W"
+          },
+          "mode_info": {
+            "single": {
+              "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+            }
+          },
+          "sequence": "4265"
+        }
+      ],
+      "fee": {
+        "amount": [
+          {
+            "denom": "uluna",
+            "amount": "1706"
+          }
+        ],
+        "gas_limit": "85260",
+        "payer": "",
+        "granter": ""
+      },
+      "tip": null
+    },
+    "signatures": [
+      "gGG1zMiWFy+aTsMmU1oHpY/mqu1FIpoNL7fTLHGGT24x+p0vGZE/uUUj/U/US4vu90/28yrAWqzpdId2Wk/YJw=="
+    ]
+  },
+  "tx_response": {
+    "height": "23426992",
+    "txhash": "B8210663C2B8D7BE90F655FE11C7994FBCDFCF4FEB9890F3F2662FDEDB485AD6",
+    "codespace": "",
+    "code": 0,
+    "data": "12250A232F636F736D6F732E676F762E763162657461312E4D7367566F7465526573706F6E7365",
+    "raw_log": "",
+    "logs": [],
+    "info": "",
+    "gas_wanted": "85260",
+    "gas_used": "69773",
+    "tx": {
+      "@type": "/cosmos.tx.v1beta1.Tx",
+      "body": {
+        "messages": [
+          {
+            "@type": "/cosmos.gov.v1beta1.MsgVote",
+            "proposal_id": "4853",
+            "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+            "option": "VOTE_OPTION_YES"
+          }
+        ],
+        "memo": "",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+      },
+      "auth_info": {
+        "signer_infos": [
+          {
+            "public_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "AwQwAF91lVnTLv8m4gpTAi9bdhEjmXTMiEf6WJceCo/W"
+            },
+            "mode_info": {
+              "single": {
+                "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+              }
+            },
+            "sequence": "4265"
+          }
+        ],
+        "fee": {
+          "amount": [
+            {
+              "denom": "uluna",
+              "amount": "1706"
+            }
+          ],
+          "gas_limit": "85260",
+          "payer": "",
+          "granter": ""
+        },
+        "tip": null
+      },
+      "signatures": [
+        "gGG1zMiWFy+aTsMmU1oHpY/mqu1FIpoNL7fTLHGGT24x+p0vGZE/uUUj/U/US4vu90/28yrAWqzpdId2Wk/YJw=="
+      ]
+    },
+    "timestamp": "2026-10-24T03:57:49Z",
+    "events": [
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1706uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1706uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1706uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "sender",
+            "value": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "fee",
+            "value": "1706uluna",
+            "index": true
+          },
+          {
+            "key": "fee_payer",
+            "value": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "acc_seq",
+            "value": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c/4265",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "signature",
+            "value": "gGG1zMiWFy+aTsMmU1oHpY/mqu1FIpoNL7fTLHGGT24x+p0vGZE/uUUj/U/US4vu90/28yrAWqzpdId2Wk/YJw==",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "action",
+            "value": "/cosmos.gov.v1beta1.MsgVote",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+            "index": true
+          },
+          {
+            "key": "module",
+            "value": "gov",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "proposal_vote",
+        "attributes": [
+          {
+            "key": "voter",
+            "value": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+            "index": true
+          },
+          {
+            "key": "option",
+            "value": "[{\"option\":1,\"weight\":\"1.000000000000000000\"}]",
+            "index": true
+          },
+          {
+            "key": "proposal_id",
+            "value": "4853",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      }
+    ]
+  }
+}

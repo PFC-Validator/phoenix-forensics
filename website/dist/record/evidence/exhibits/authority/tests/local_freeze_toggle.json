@@ -1,0 +1,929 @@
+{
+  "scope": "LOCAL ONLY controlled-list authorization comparison, no transaction/signature/live change. Same config, sender, env and input in paired tests; registry list changed locally. Partial state: later missing-key errors are not real-chain results, but earlier membership-dependent failure is observed before user-state reads.",
+  "cases": [
+    {
+      "code_id": 4033,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "stake": {}
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_rewards": {}
+      },
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/claim_rewards"
+            },
+            {
+              "key": "user",
+              "value": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz"
+            },
+            {
+              "key": "assets",
+              "value": ""
+            },
+            {
+              "key": "reward_amount",
+              "value": "0"
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "stake": {}
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4033,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_rewards": {}
+      },
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/claim_rewards"
+            },
+            {
+              "key": "user",
+              "value": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz"
+            },
+            {
+              "key": "assets",
+              "value": ""
+            },
+            {
+              "key": "reward_amount",
+              "value": "0"
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "stake": {}
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "W10="
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "W10="
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "W10="
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_rewards": {}
+      },
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/claim_rewards"
+            },
+            {
+              "key": "user",
+              "value": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz"
+            },
+            {
+              "key": "assets",
+              "value": ""
+            },
+            {
+              "key": "reward_amount",
+              "value": "0"
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "W10="
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "stake": {}
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4037,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_rewards": {}
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0JMQUNLTElTVA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "stake": {}
+      },
+      "result": {
+        "error": "Only a single asset is allowed"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "W10="
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "W10="
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "type: cosmwasm_std::math::decimal::Decimal; key: [00, 11, 61, 73, 73, 65, 74, 5F, 72, 65, 77, 61, 72, 64, 5F, 72, 61, 74, 65, 00, 07, 6E, 61, 74, 69, 76, 65, 3A, 75, 6C, 75, 6E, 61] not found"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "W10="
+            }
+          }
+        },
+        {
+          "host": "db_read",
+          "key_hex": "0016757365725f61737365745f7265776172645f72617465002c74657272613175617370636e6833723565747233737a666d676e36656375756d3030646d336c37667374767a00076e61746976653a756c756e61",
+          "exists": false
+        },
+        {
+          "host": "db_read",
+          "key_hex": "001161737365745f7265776172645f7261746500076e61746976653a756c756e61",
+          "exists": false
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "list_member": false,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_rewards": {}
+      },
+      "result": {
+        "ok": {
+          "messages": [],
+          "attributes": [
+            {
+              "key": "action",
+              "value": "asset/claim_rewards"
+            },
+            {
+              "key": "user",
+              "value": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz"
+            },
+            {
+              "key": "assets",
+              "value": ""
+            },
+            {
+              "key": "reward_amount",
+              "value": "0"
+            }
+          ],
+          "events": [],
+          "data": null
+        }
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "W10="
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "stake": {}
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "unstake": {
+          "asset": {
+            "info": {
+              "native": "uluna"
+            },
+            "amount": "1"
+          }
+        }
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_reward": {
+          "asset": {
+            "native": "uluna"
+          }
+        }
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    },
+    {
+      "code_id": 4038,
+      "list_member": true,
+      "sender": "terra1uaspcnh3r5etr3szfmgn6ecuum00dm3l7fstvz",
+      "message": {
+        "claim_rewards": {}
+      },
+      "result": {
+        "error": "Cannot Sub with 8734 and 19472"
+      },
+      "trace": [
+        {
+          "host": "db_read",
+          "key_hex": "636f6e666967",
+          "exists": true
+        },
+        {
+          "host": "query_chain",
+          "request": {
+            "wasm": {
+              "raw": {
+                "contract_addr": "terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+                "key": "AAxhZGRyZXNzX2xpc3RBU1NFVF9TVEFLSU5HX0ZJWA=="
+              }
+            }
+          },
+          "response": {
+            "ok": {
+              "ok": "WyJ0ZXJyYTF1YXNwY25oM3I1ZXRyM3N6Zm1nbjZlY3V1bTAwZG0zbDdmc3R2eiJd"
+            }
+          }
+        }
+      ],
+      "writes": {}
+    }
+  ]
+}
