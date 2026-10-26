@@ -1,6 +1,6 @@
 # Phoenix governance audit pack
 
-Start with `REPORT.md`, then `PAYMENTS.md` for the ownership, validator-transfer, Treasury, OTC, and compensation review. See `THINKTANK.md` for the veto DAO, its voting record, member payment relationships and bounded wallet-link analysis.
+Start with `REPORT.md`, then `PAYMENTS.md` for the ownership, validator-transfer, Treasury, OTC, and compensation review. See `THINKTANK.md` for the veto DAO, its voting record, member payment relationships and bounded wallet-link analysis. `GOVERNANCE_4853.md` assesses the live native vote, ERIS/vAMP influence, Lion DAO and potential governance issues.
 
 ## Contents
 
