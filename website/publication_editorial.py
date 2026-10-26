@@ -53,8 +53,8 @@ def apply_editorial(dist, page, head):
         body=head(title,'A curated guide to the underlying funding and governance records.')
         body+='<div class="wrap page-content reading">'+anchors+'<p class="context-note">'+POLICY+'</p>'
         body+='<p>The original site’s commentary is not reproduced here. These guides retain relevant source downloads; the shorter briefing explains their scope, caveats and alternative explanations.</p>'
-        body+='<p><a href="/funding/">Funding and accounting method</a> · <a href="/governance/">Approvals, delivery and technical control</a> · <a href="/timeline/">Dated chronology</a></p>'
-        body+='<h2>Read the records in context</h2><p>Project receipts are not a measure of personal profit. A beneficiary’s participation does not alone establish wrongdoing. Timing and voting agreement do not establish motive. Dated captures do not describe every later development.</p>'
+        body+='<p><a href="/voting/">4853 and voting</a> · <a href="/stakeholders/">Stakeholders</a> · <a href="/treasury/">Treasury</a> · <a href="/governance/">Governance controls</a> · <a href="/evidence/">Evidence and method</a></p>'
+        body+='<h2>Read the records in context</h2><p>Project receipts are not a measure of personal profit. Beneficiary participation, timing, payments or voting agreement do not alone establish wrongdoing. Review every stakeholder and preserve dissent and alternative explanations. Dated captures do not describe every later development.</p>'
         body+='<details class="evidence-detail"><summary>Available source downloads ('+str(len(links))+')</summary><ul>'+''.join(links)+'</ul></details></div>'
         page(title,body,'/record/'+route)
     # Do not serve personal-allegation galleries or the older authored chronology.

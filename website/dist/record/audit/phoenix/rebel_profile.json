@@ -1,0 +1,38 @@
+{
+  "project_wallet": "terra1rnwr9zjgf6204lyk37w0l6hhtaptke5m2cfpmf",
+  "role": "Think Tank veto member, weight 1 of 6",
+  "threshold": "66% (four YES votes required)",
+  "thinktank_ballots": [],
+  "thinktank_proposals": 5,
+  "invoice": {
+    "txhash": "02B838A200BCF19F693FC461F3DF09ADD1A3D81AB789A0B260034DF8A6C3AC80",
+    "time": "2026-06-07T07:48:09Z",
+    "from": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "to": "terra1rnwr9zjgf6204lyk37w0l6hhtaptke5m2cfpmf",
+    "amount_usdc": 7500,
+    "memo": "invoice"
+  },
+  "other_published_addresses": [
+    {
+      "address": "terra17w74x9vrqq4a338ssh9y9r4m9s3f6zef7wy5ms",
+      "attribution": "Rebel Defi handle in archived governance comments",
+      "native_4853": "no ballot",
+      "bounded_transfer_matches": 0
+    },
+    {
+      "address": "terra1pnxgfvlaywamhykr4nfeep8n2ejd2mactz3un8",
+      "attribution": "Rebel in 2023 multisig-member document",
+      "native_4853": "no ballot",
+      "bounded_transfer_matches": 0
+    },
+    {
+      "address": "terra1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcxuf76",
+      "attribution": "Orbital Command validator account; Rebel association is documented separately",
+      "native_4853": "YES",
+      "eris_hub_delegated_luna": 1124005.906919
+    }
+  ],
+  "cautions": [
+    "No direct transfer to fixed multisig signers found in bounded searches. Think Tank and validator roles are separate from the Phoenix board and ERIS fixed multisig."
+  ]
+}

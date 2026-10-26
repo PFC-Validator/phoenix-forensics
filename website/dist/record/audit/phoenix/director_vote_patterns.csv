@@ -1,0 +1,290 @@
+proposal_id,created_utc,title,status,Philipp,MB_current,MB_prior,Vini,Rose
+A1,2024-08-06T18:21:37.949380114Z,Refund 1 LUNA,executed,yes,not_recorded,yes,yes,yes
+A2,2024-08-27T08:02:23.106320519Z,[asset-staking]: Whitelist WW LPs,executed,yes,not_recorded,yes,not_recorded,yes
+A3,2024-08-27T09:00:09.313410733Z,[asset-staking]: Whitelist Astroport LPs,executed,yes,not_recorded,yes,not_recorded,yes
+A4,2024-08-27T12:29:17.963899449Z,[alliance-connector]: Stake VT for Stable Gauge,executed,yes,not_recorded,yes,not_recorded,yes
+A5,2024-08-27T12:30:11.713234600Z,[alliance-connector]: Stake VT for Project Gauge,executed,yes,not_recorded,yes,yes,not_recorded
+A6,2024-08-27T12:30:59.910451317Z,[alliance-connector]: Stake VT for Bluechip Gauge,executed,yes,not_recorded,yes,yes,not_recorded
+A7,2024-08-28T09:52:06.257066581Z,[asset-staking]: Move LUNA-SOLID to Project Gauge,executed,yes,not_recorded,yes,yes,yes
+A8,2024-08-28T19:25:21.267196800Z,[asset-staking]: Change bribes recapture of LUNA-USDC to native ASTRO,executed,yes,not_recorded,yes,not_recorded,yes
+A9,2024-08-28T19:31:56.727338720Z,[asset-staking]: Change bribes recapture of remaining Astroport LPs to native ASTRO,executed,yes,not_recorded,yes,not_recorded,yes
+A10,2024-08-30T09:39:34.921778599Z,[asset-staking] Migrating Astroport USDC and WHALE pairs to PCL,executed,yes,not_recorded,yes,yes,yes
+A11,2024-09-05T06:07:32.899217862Z,[asset-staking] Add ROAR to bribe recapture for LUNA-ROAR LP,executed,yes,not_recorded,yes,not_recorded,yes
+A12,2024-10-09T09:18:33.092190945Z,[axelar-recovery] Setup test OTC,executed,yes,not_recorded,yes,not_recorded,yes
+A13,2024-10-09T15:04:29.912695076Z,[axelar-recovery] Setup OTC 9990.00 LUNA -> 3404.24 axlUSDC @0.3408 (CoinGecko: 0.3587),executed,yes,not_recorded,yes,not_recorded,yes
+A14,2024-10-10T14:14:41.326634508Z,[axelar-recovery] Setup OTC 300000.00 LUNA -> 103920.30 axlUSDC @0.3464 (CoinGecko: 0.3499),executed,yes,not_recorded,yes,not_recorded,yes
+A15,2024-10-10T14:43:00.907912921Z,[axelar-recovery] Setup OTC 300000.00 LUNA -> 102791.70 axlUSDC @0.3426 (CoinGecko: 0.3461),executed,yes,not_recorded,yes,not_recorded,yes
+A16,2024-10-11T10:39:04.371843490Z,"[axelar-recovery] Setup OTC batch (CoinGecko: 0.35871, 60994.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A17,2024-10-11T10:54:06.965114029Z,"[axelar-recovery] Setup OTC 150000.00000 LUNA -> 0.87023 axlWBTC (CoinGecko: 0.35749, 61004.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A18,2024-10-12T12:45:04.073448046Z,"[axelar-recovery] Setup OTC batch (CoinGecko: 0.36448, 62885.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A19,2024-10-14T06:38:36.125522558Z,"[axelar-recovery] Setup OTC batch (CoinGecko: 0.36421, 64009.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A20,2024-10-14T13:54:28.239188271Z,[PDT] Stake VT,executed,yes,not_recorded,yes,not_recorded,yes
+A21,2024-10-15T07:14:19.641564058Z,[alliance-connector]: Stake VT for Single Gauge,executed,yes,not_recorded,yes,not_recorded,yes
+A22,2024-10-16T14:50:39.218480308Z,[asset-staking] Whitelist assets for single asset gauge,executed,yes,not_recorded,yes,not_recorded,yes
+A23,2024-10-17T11:48:10.152509237Z,[asset-staking] Change Single Whitelist,executed,yes,not_recorded,yes,not_recorded,yes
+A24,2024-10-18T07:16:03.487998793Z,"[axelar-recovery] Cancel BTC OTC and Setup new OTC batch (CoinGecko: 0.36809, 67961.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A25,2024-10-19T23:28:40.339232557Z,[asset-staking] Change Single Whitelist,executed,yes,not_recorded,yes,not_recorded,yes
+A26,2024-10-23T14:22:43.865658129Z,"[axelar-recovery] Setup OTC for USDC (ASTRO) (CoinGecko: 0.36558, 66533.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A27,2024-10-23T20:00:19.346028116Z,"[axelar-recovery] Setup OTC for USDC (ASTRO) (CoinGecko: 0.36080, 66366.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A28,2024-10-23T20:48:17.527444552Z,[pdt] Transfer 40k LUNA for Long Term Alignment Program,closed,yes,not_recorded,no,not_recorded,no
+A29,2024-10-23T20:53:15.141205018Z,[pdt] Transfer 40k LUNA for Long Term Alignment Program,executed,yes,not_recorded,yes,not_recorded,yes
+A30,2024-10-24T09:35:17.362240838Z,[alignment] Claim LUNA from PDT,executed,yes,not_recorded,yes,not_recorded,yes
+A31,2024-10-24T19:19:06.582047179Z,[alignment] Liquid stake 40k LUNA,executed,yes,not_recorded,yes,yes,abstain
+A32,2024-10-27T23:27:00.986493666Z,[daodao] add ampLUNA as treasury token,executed,yes,not_recorded,yes,not_recorded,yes
+A33,2024-10-28T23:28:42.462665524Z,[alignment] create and distribute permanent locks with 5400 ampLUNA each,executed,yes,not_recorded,yes,not_recorded,yes
+A34,2024-10-29T13:31:50.233951724Z,[pdt] Transfer 116k LUNA for Long Term Alignment Program,executed,yes,not_recorded,yes,not_recorded,yes
+A35,2024-10-30T00:16:46.983997504Z,[alignment] Claim LUNA from PDT,executed,yes,not_recorded,yes,not_recorded,yes
+A36,2024-11-04T09:53:18.553020426Z,[axelar-recovery] Cancel old OTC,executed,yes,not_recorded,yes,yes,yes
+A37,2024-11-04T09:56:33.955389890Z,"[axelar-recovery] Batch OTC (CoinGecko: 0.30730, 68642.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A38,2024-11-04T09:57:30.507167918Z,"[axelar-recovery] Batch OTC (CoinGecko: 0.30685, 68536.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A39,2024-11-04T13:21:53.054691528Z,[alignment] Stake LUNA,executed,yes,not_recorded,yes,not_recorded,yes
+A40,2024-11-04T13:34:35.370643972Z,"[axelar-recovery] OTC USDC (CoinGecko: 0.31177, 69032.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A41,2024-11-04T13:39:07.840030405Z,"[PDT] OTC 150k LUNA -> USDC (CoinGecko: 0.31177, 69032.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A42,2024-11-04T23:49:09.507560414Z,"[axelar-recovery] Cancel OTC (CoinGecko: 0.29795, 67840.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A43,2024-11-05T00:11:05.971303283Z,[alignment] create and distribute permanent locks with 20750 ampLUNA each,executed,yes,not_recorded,yes,not_recorded,yes
+A44,2024-11-05T00:18:04.759517171Z,"[pdt] Recreate OTC (CoinGecko: 0.30081, 67909.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A45,2024-11-05T01:58:28.544976880Z,"[axelar-recovery] Create OTC (CoinGecko: 0.30256, 67899.00000)",executed,yes,not_recorded,yes,yes,yes
+A46,2024-11-05T02:00:15.422286506Z,"[axelar-recovery] Create OTC (CoinGecko: 0.30256, 67899.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A47,2024-11-09T15:33:04.795942946Z,"[axelar-recovery] Create OTC (CoinGecko: 0.35547, 76398.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A48,2024-11-09T15:35:22.020686850Z,"[pdt] Create OTC (CoinGecko: 0.35547, 76398.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A49,2024-11-09T15:49:56.246662976Z,[pdt] payment stewardship,executed,yes,not_recorded,yes,yes,not_recorded
+A50,2024-11-10T12:35:34.330422908Z,"[pdt] update OTC (CoinGecko: 0.38507, 79324.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A51,2024-11-10T12:40:01.657971672Z,"[axelar-recovery] Update OTC (CoinGecko: 0.38701, 79419.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A52,2024-11-10T15:48:40.039441191Z,"[axelar-recovery] Add wBTC.osmo OTC (CoinGecko: 0.39264, 79768.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A53,2024-11-12T01:40:54.709998581Z,"[pdt] update OTC (CoinGecko: 0.39705, 88974.00000)",executed,yes,not_recorded,yes,yes,yes
+A54,2024-11-14T15:57:49.275004380Z,"[axelar-recovery] Setup OTC (CoinGecko: 0.36027, 88130.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A55,2024-11-14T17:06:33.000076139Z,[asset-staking] Adding LUNA-CAPA to project and ampCAPA to single gauge whitelist,executed,yes,not_recorded,yes,no,yes
+A56,2024-11-15T10:05:39.436735140Z,"[axelar-recovery] Setup OTC (CoinGecko: 0.36464, 89111.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A57,2024-11-16T10:08:48.603677408Z,"[axelar-recovery] Setup OTC (CoinGecko: 0.40399, 91413.00000)",rejected,no,not_recorded,yes,not_recorded,yes
+A58,2024-11-16T10:10:53.470075157Z,"[pdt] Setup OTC (CoinGecko: 0.40399, 91413.00000)",rejected,no,not_recorded,yes,not_recorded,yes
+A59,2024-11-16T14:24:51.962774573Z,"[axelar-recovery] Setup OTC (CoinGecko: 0.50059, 90843.00000)",rejected,yes,not_recorded,yes,not_recorded,no
+A60,2024-11-16T14:25:33.732872313Z,"[axelar-recovery] Setup OTC (CoinGecko: 0.50059, 90843.00000)",rejected,yes,not_recorded,yes,not_recorded,no
+A61,2024-11-17T06:58:35.773241332Z,[LA+PDT] Redelegate VT,executed,yes,not_recorded,yes,yes,yes
+A62,2024-11-17T08:28:18.160752465Z,"[axelar-recovery] Setup OTC (CoinGecko: 0.44749, 90517.00000)",executed,yes,not_recorded,not_recorded,yes,yes
+A63,2024-11-17T08:29:01.117354373Z,"[axelar-recovery] Setup OTC (CoinGecko: 0.44749, 90517.00000)",executed,yes,not_recorded,not_recorded,yes,yes
+A64,2024-11-18T14:47:40.668791292Z,[pdt] Setup Payment for Domain,executed,yes,not_recorded,yes,not_recorded,yes
+A65,2024-11-19T11:26:11.879718292Z,"[axelar-recovery] Setup OTC (CoinGecko: 0.42950, 91676.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A66,2024-11-19T14:41:14.932436323Z,[pdt] Setup SOLID Protocol Grant,executed,yes,not_recorded,yes,not_recorded,yes
+A67,2024-11-23T13:22:54.419956849Z,"[axelar-recovery] Setup OTC (CoinGecko: 0.50567, 98876.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A68,2024-11-23T13:24:46.813847974Z,"[pdt] Setup OTC (CoinGecko: 0.50567, 98876.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A69,2024-11-23T13:26:40.848611646Z,[pdt] Refund tributes,executed,yes,not_recorded,yes,not_recorded,yes
+A70,2024-11-28T10:50:28.622995807Z,[pdt] Setup mod payments,executed,yes,not_recorded,yes,yes,not_recorded
+A71,2024-11-29T08:30:41.880411244Z,[pdt] Setup infra payments,executed,yes,not_recorded,yes,yes,not_recorded
+A72,2024-12-04T09:26:30.137570172Z,"[axelar-recovery] Setup OTC (CoinGecko: 0.65491, 96905.00000)",executed,yes,not_recorded,not_recorded,yes,yes
+A73,2024-12-04T09:29:01.203419514Z,"[pdt] Setup OTC (CoinGecko: 0.65491, 96905.00000)",executed,yes,not_recorded,not_recorded,yes,yes
+A74,2024-12-04T09:35:40.234888571Z,[dao] Recognize Legal Contingency Fund as a SubDAO,executed,yes,not_recorded,not_recorded,yes,yes
+A75,2024-12-04T09:39:10.680499050Z,[pdt] Setup Legal Contingency Fund - 70k USDC,executed,yes,not_recorded,not_recorded,yes,yes
+A76,2024-12-04T11:55:27.884021154Z,[axelar-recovery] Refund Astroport,executed,yes,not_recorded,yes,not_recorded,yes
+A77,2024-12-04T14:10:19.219821437Z,[pdt] Enable SOLID Protocol Grant - Milestone 1,executed,yes,not_recorded,yes,not_recorded,yes
+A78,2024-12-05T11:37:33.166212460Z,[pdt] Enable SOLID Protocol Grant - Milestone 2,executed,yes,not_recorded,yes,yes,not_recorded
+A79,2024-12-22T12:12:13.330310808Z,[asset-staking] Change WW USDC-USDT pool to stableswap,executed,yes,not_recorded,yes,not_recorded,yes
+A80,2024-12-22T12:16:49.216781689Z,[pdt] Refund 1500 $ hydro bribe,executed,yes,not_recorded,yes,not_recorded,yes
+A81,2024-12-23T12:08:35.789702048Z,[LA+PDT] Redelegate VT,executed,yes,not_recorded,yes,not_recorded,yes
+A82,2024-12-26T10:45:04.389829729Z,[LA+PDT] Redelegate VT,executed,yes,not_recorded,yes,yes,not_recorded
+A83,2024-12-31T13:48:21.142481517Z,[pdt] Setup Ophir DAO Audit Grant,executed,yes,not_recorded,yes,yes,not_recorded
+A84,2024-12-31T13:53:57.047417187Z,[pdt] Setup stewardship payments,executed,yes,not_recorded,yes,yes,not_recorded
+A85,2024-12-31T14:22:47.971972673Z,[pdt] Setup Boost DAO Project Grant,executed,abstain,not_recorded,yes,yes,yes
+A86,2024-12-31T14:27:32.405716239Z,[asset-staking] Adding LUNA-EURe to stable gauge whitelist,executed,yes,not_recorded,yes,yes,not_recorded
+A87,2024-12-31T14:33:32.801525520Z,[asset-staking] Adding USDC-EURe to bluechip gauge whitelist,executed,not_recorded,not_recorded,yes,yes,yes
+A88,2025-01-01T17:35:21.897351647Z,[pdt] Setup comms payments,executed,yes,not_recorded,yes,not_recorded,yes
+A89,2025-01-01T17:38:28.161139843Z,[pdt] Setup core payments,executed,yes,not_recorded,yes,not_recorded,yes
+A90,2025-01-02T09:15:30.465864741Z,"[pdt] Setup OTC (CoinGecko: 0.44237, 96055.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A91,2025-01-08T17:41:44.176317617Z,[pdt] Setup Audit Payment of Core Repository,executed,yes,not_recorded,yes,yes,yes
+A92,2025-01-15T07:12:44.958683184Z,"[pdt] Setup Remaining OTC (CoinGecko: 0.40350, 97136.00000)",executed,yes,not_recorded,not_recorded,yes,yes
+A93,2025-01-17T17:23:40.992658655Z,Recognize Liquidity Alliance as a SubDAO,executed,yes,not_recorded,yes,yes,not_recorded
+A94,2025-01-17T17:29:58.384185400Z,[pdt] Setup LA participation,executed,yes,not_recorded,yes,yes,not_recorded
+A95,2025-01-18T04:34:28.742606202Z,[pdt] Funding for Ethereum ASTRO OTC,executed,yes,not_recorded,yes,yes,yes
+A96,2025-01-18T09:27:49.763289414Z,[axelar-recovery] Withdraw too many assets from recovery,executed,yes,not_recorded,yes,yes,not_recorded
+A97,2025-01-18T09:32:34.987627423Z,[axelar-recovery] Refund 650796.000000 LUNA to recovery multi-sig,executed,yes,not_recorded,yes,yes,not_recorded
+A98,2025-01-19T20:55:51.366932069Z,[DAO] Instantiate Neutron Account,executed,yes,not_recorded,yes,yes,not_recorded
+A99,2025-01-20T09:49:09.698708900Z,[axelar-recovery] Claim all,executed,yes,not_recorded,yes,not_recorded,yes
+A100,2025-01-20T10:04:10.144720440Z,[pdt] Enable Milestone 1,executed,yes,not_recorded,yes,not_recorded,yes
+A101,2025-01-20T21:22:56.173192184Z,[astro-wars] test transfer 100 xASTRO to Neutron,executed,yes,not_recorded,yes,not_recorded,yes
+A102,2025-01-21T11:39:41.789012241Z,[astro-wars] transfer xASTRO to Neutron,executed,yes,not_recorded,yes,yes,yes
+A103,2025-01-23T16:38:32.227313106Z,[astro-wars] Lockup all xASTRO,executed,yes,not_recorded,yes,not_recorded,yes
+A104,2025-01-26T10:39:53.256732704Z,"[astro-wars] vote 80% for LUNA-USDC, 20% for USDC-USDT",executed,yes,not_recorded,yes,yes,not_recorded
+A105,2025-01-29T15:43:04.446589412Z,[pdt] Enable Milestone 2,executed,yes,not_recorded,yes,not_recorded,yes
+A106,2025-02-05T07:35:02.426000366Z,[decision] Put up Terra Text Governance Proposal to remove WHALE from single Alliance?,passed,yes,not_recorded,yes,yes,no
+A107,2025-02-05T11:28:57.382324483Z,[pdt] Setup Votion Project Grant,executed,yes,not_recorded,yes,not_recorded,yes
+A108,2025-02-07T07:47:12.711037627Z,"[pdt] Setup OTC (CoinGecko: 0.24509, 96797.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A109,2025-02-10T08:08:40.721341506Z,[pdt] Transfer to PD Multi-Sig,executed,yes,not_recorded,yes,not_recorded,yes
+A110,2025-02-10T08:09:51.484393239Z,[pdt] Transfer for CAPA buyback,closed,yes,not_recorded,yes,not_recorded,no
+A111,2025-02-10T08:34:48.472761869Z,"[pdt] Setup OTC (CoinGecko: 0.25511, 97634.00000)",executed,yes,not_recorded,yes,not_recorded,yes
+A112,2025-02-10T12:58:43.566532242Z,[pdt] Setup LA Secondary Frontend Grant,executed,yes,not_recorded,yes,not_recorded,yes
+A113,2025-02-10T13:05:57.591927964Z,[pdt] Setup payments infra & mods (2025-02-15 - 2025-06-15),closed,yes,not_recorded,yes,not_recorded,not_recorded
+A114,2025-02-10T13:12:14.449004282Z,[LA+PDT] Redelegate VT,executed,yes,not_recorded,yes,not_recorded,yes
+A115,2025-02-10T17:16:42.415508180Z,[LA+PDT] Redelegate VT,executed,yes,not_recorded,yes,not_recorded,yes
+A116,2025-02-14T09:47:58.163050722Z,[pdt] Enable Milestone 1 for Votion & LA Frontend,executed,yes,not_recorded,yes,not_recorded,yes
+A117,2025-02-14T10:09:53.295168754Z,[asset-staking] Remove SWTH-rSWTH from single gauge whitelist,executed,yes,not_recorded,yes,not_recorded,yes
+A118,2025-02-17T12:00:31.988122054Z,[pdt] Setup Streamweave Launch Grant,executed,yes,not_recorded,yes,not_recorded,yes
+A119,2025-02-21T10:51:09.276843203Z,[pdt] Setup payments infra,executed,yes,not_recorded,yes,not_recorded,yes
+A120,2025-02-26T14:20:18.619986137Z,[pdt] Setup payments mods,executed,yes,not_recorded,yes,not_recorded,yes
+A121,2025-02-26T14:22:34.594107142Z,[asset-staking] Remove ampWHALE-WHALE and bWHALE-WHALE from single gauge whitelist,executed,yes,not_recorded,yes,not_recorded,yes
+A122,2025-03-09T20:04:02.240916203Z,[asset-staking] Remove WHALE-LUNA from project gauge whitelist,executed,yes,not_recorded,yes,not_recorded,yes
+A123,2025-03-11T11:03:40.444607906Z,[asset-staking] Add ampROAR-ROAR Astroport pair to Single,executed,yes,not_recorded,yes,not_recorded,yes
+A124,2025-03-27T21:06:14.371943099Z,[pdt] Setup stewardship payments,executed,yes,not_recorded,yes,not_recorded,yes
+A125,2025-03-27T21:08:15.892113976Z,[stewardship] Replace member wallet,executed,yes,not_recorded,yes,not_recorded,yes
+A126,2025-04-07T10:19:15.676797382Z,[asset-staking] move USDC-USDT pair to Single,executed,yes,yes,not_recorded,not_recorded,yes
+A127,2025-04-07T10:33:44.732117386Z,[pdt] Setup payments comms,executed,yes,yes,not_recorded,not_recorded,yes
+A128,2025-04-07T13:03:23.171742610Z,"[pdt] Setup OTC (CoinGecko: 0.14905, 77249.00000)",executed,yes,yes,not_recorded,not_recorded,yes
+A129,2025-04-08T09:18:06.762459055Z,[asset-staking] fix USDC-USDT WW pair,executed,yes,yes,not_recorded,not_recorded,yes
+A130,2025-04-08T11:51:24.012093706Z,[pdt] Setup landing page payments (2025-04-01 - 2025-07-01),executed,yes,not_recorded,not_recorded,yes,yes
+A131,2025-04-13T10:08:02.162588944Z,[astro] Vote for all Astroport proposals,executed,yes,yes,not_recorded,not_recorded,yes
+A132,2025-04-14T17:53:45.037505169Z,[pdt] Setup core payments,executed,yes,yes,not_recorded,yes,yes
+A133,2025-04-16T09:13:31.698463468Z,[ops] Deploy 200k LUNA liquidity to Demex Nitron (Carbon),closed,yes,yes,not_recorded,not_recorded,not_recorded
+A134,2025-04-16T09:16:03.963956614Z,Refund Hydro Incentives Round 5,executed,yes,yes,not_recorded,not_recorded,yes
+A135,2025-04-16T09:59:10.483714814Z,[pdt] Deploy liquidity incentives to TLA,executed,yes,yes,not_recorded,not_recorded,yes
+A136,2025-04-23T12:27:39.620181197Z,[LA+PDT] Redelegate VT,executed,yes,yes,not_recorded,not_recorded,yes
+A137,2025-04-23T12:31:37.302239485Z,[pdt] Claim funds for setting up vote incentives,executed,yes,yes,not_recorded,not_recorded,yes
+A138,2025-04-23T12:32:25.661885782Z,[ops] REDO - Deploy 200k LUNA liquidity to Demex Nitron (Carbon) ,executed,yes,yes,not_recorded,not_recorded,yes
+A139,2025-04-23T12:37:25.558425570Z,"[pdt] Setup OTC (CoinGecko: 0.17775, 93798.00000)",executed,yes,yes,not_recorded,not_recorded,yes
+A140,2025-04-23T12:47:23.855098444Z,"[pdt] Setup OTC (CoinGecko: 0.17804, 93693.00000)",executed,yes,yes,not_recorded,not_recorded,yes
+A141,2025-04-28T10:15:31.269115296Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A142,2025-05-14T09:46:40.802096415Z,"[pdt] Setup OTC (CoinGecko: 0.21579, 103220.00000)",executed,yes,not_recorded,not_recorded,yes,yes
+A143,2025-05-14T09:49:35.221891785Z,[pdt] Deploy wBTC.axl-USDC liquidity,executed,yes,not_recorded,not_recorded,yes,yes
+A144,2025-05-14T09:52:04.492411500Z,[astro-wars] transfer xASTRO to Neutron,executed,yes,not_recorded,not_recorded,yes,yes
+A145,2025-05-14T11:47:50.965483176Z,[astro-wars] Lockup all xASTRO,executed,yes,yes,not_recorded,not_recorded,yes
+A146,2025-05-14T11:50:16.732837818Z,[pdt] Deploy wBTC.axl-USDC liquidity,executed,yes,yes,not_recorded,not_recorded,yes
+A147,2025-05-16T10:37:34.324641050Z,"[asset-staking] Remove BNB.wh, SOL.wh and wETH.wh assets",executed,yes,yes,not_recorded,yes,yes
+A148,2025-05-16T11:15:45.206563658Z,[wh] Withdraw astroport pools + transfer whitewhale LP to operations wallet,rejected,yes,not_recorded,not_recorded,not_recorded,yes
+A149,2025-05-30T13:26:11.959092501Z,[asset-staking] Add LUNA-WBNB AXL and LUNA-WBTC EUREKA to bluechip,executed,yes,yes,not_recorded,not_recorded,yes
+A150,2025-05-30T13:28:00.844481878Z,[pdt] Cancel OTC,executed,yes,yes,not_recorded,not_recorded,yes
+A151,2025-06-05T14:44:50.170035790Z,[pdt] Enable Milestones for Streamweave and LA Frontend,executed,yes,yes,not_recorded,not_recorded,yes
+A152,2025-06-05T14:45:33.608300343Z,[pdt] Refund Hydro Incentives Round 6,executed,yes,yes,not_recorded,not_recorded,yes
+A153,2025-06-05T14:46:23.195959960Z,[wh] RETRY - Withdraw astroport pools + transfer whitewhale LP to operations wallet,executed,yes,yes,not_recorded,not_recorded,yes
+A154,2025-06-23T07:45:44.807102956Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A155,2025-06-23T07:50:32.776162477Z,[pdt] Refund Hydro Incentives Round 8,executed,yes,yes,not_recorded,not_recorded,yes
+A156,2025-06-23T07:54:51.630217357Z,Unwrap WH assets,executed,yes,yes,not_recorded,not_recorded,yes
+A157,2025-06-26T16:38:44.633479400Z,[upgrade] Proposal deposit reimbursement,executed,yes,yes,not_recorded,not_recorded,yes
+A158,2025-07-04T05:45:39.117758444Z,[pdt] Setup payments infra,executed,yes,not_recorded,not_recorded,yes,yes
+A159,2025-07-04T05:53:33.745969964Z,[pdt] Setup stewardship payments,executed,yes,not_recorded,not_recorded,yes,yes
+A160,2025-07-04T05:55:13.773661517Z,[pdt] Setup core payments,executed,yes,not_recorded,not_recorded,yes,yes
+A161,2025-07-07T08:10:51.816334245Z,[pdt] Setup Innovator Grant 1,executed,yes,yes,not_recorded,not_recorded,yes
+A162,2025-07-11T06:35:22.569829342Z,"[pdt] Setup OTC (CoinGecko: 0.17276, 118160.00000)",executed,yes,yes,not_recorded,not_recorded,yes
+A163,2025-07-17T16:47:33.017841557Z,[pdt] Setup payments mods,executed,yes,yes,not_recorded,yes,yes
+A164,2025-07-17T16:49:01.153541793Z,[pdt] Setup payments comms,executed,yes,yes,not_recorded,not_recorded,yes
+A165,2025-07-23T08:52:45.558023927Z,"[pdt] Setup OTC (CoinGecko: 0.18612, 118353.00000)",executed,yes,yes,not_recorded,not_recorded,yes
+A166,2025-07-23T09:14:43.017465841Z,[tla] Adding vote incentives based on trading efficiency + volume for 2 months,executed,yes,yes,not_recorded,not_recorded,yes
+A167,2025-07-23T09:47:01.673803612Z,"[axelar-recovery] Cancel open OTCs, withdraw remaining 307 LUNA, transfer 0.583 WBTC",executed,yes,yes,not_recorded,not_recorded,yes
+A168,2025-07-23T12:06:44.677708685Z,[asset-staking] Migrate LUNA-WBTC EUREKA to new pool,executed,yes,yes,not_recorded,not_recorded,yes
+A169,2025-07-25T10:47:57.187438924Z,[axelar-recovery] claim remaining BTC for liquidity deployment,executed,yes,yes,not_recorded,yes,yes
+A170,2025-08-05T10:51:36.338522808Z,[astro-wars] transfer xASTRO to Neutron,executed,yes,yes,not_recorded,yes,yes
+A171,2025-08-05T10:53:22.689524977Z,[liquidity] transfer wbtc + usdc to Liquidity Multi-Sig,executed,yes,yes,not_recorded,yes,yes
+A172,2025-08-05T10:56:36.074584141Z,[pdt] Deploy wBTC-USDC liquidity + cancel OTC,executed,yes,yes,not_recorded,yes,yes
+A173,2025-08-11T06:54:03.343224432Z,[pdt] Setup delegation program payments,executed,yes,yes,not_recorded,not_recorded,yes
+A174,2025-08-21T10:10:56.351902182Z,[pdt] Cancel discontinued grant,executed,yes,not_recorded,not_recorded,yes,yes
+A175,2025-08-21T10:12:08.588896122Z,[pdt] Enable Milestone for Votion,executed,yes,not_recorded,not_recorded,yes,yes
+A176,2025-08-21T10:13:19.041913265Z,[pdt] Setup OTC (CoinGecko: 0.15256),executed,yes,not_recorded,not_recorded,yes,yes
+A177,2025-08-21T10:17:51.572227536Z,[pdt] Transfer LUNA to Delegation Program,executed,yes,not_recorded,not_recorded,yes,yes
+A178,2025-08-26T14:46:06.638308568Z,[asset-staking] Migrate LUNA-arbLUNA to new pool,executed,yes,yes,not_recorded,yes,not_recorded
+A179,2025-08-26T16:49:00.117069214Z,[pdt] Cancel + Setup OTC (CoinGecko: 0.14875),executed,yes,yes,not_recorded,yes,not_recorded
+A180,2025-08-28T13:52:27.642007353Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A181,2025-08-29T07:10:52.999984233Z,[pdt] Transfer for Content Bounties,executed,yes,yes,not_recorded,not_recorded,yes
+A182,2025-08-29T07:14:34.169799793Z,Accept SubDAO Request,executed,yes,yes,not_recorded,not_recorded,yes
+A183,2025-09-01T08:52:54.691556180Z,[tla] Adding vote incentives,executed,yes,yes,not_recorded,not_recorded,yes
+A184,2025-09-12T12:59:37.165616622Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A185,2025-09-17T06:04:38.133128887Z,[pdt] Transfer LUNA to Stewardship Multi-Sig,executed,yes,yes,not_recorded,yes,not_recorded
+A186,2025-09-21T05:47:37.212006028Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,yes,yes
+A187,2025-09-21T10:11:13.481800418Z,[tla] Withdraw bribes 151 + Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,yes,yes
+A188,2025-09-27T09:01:47.327630231Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,yes,yes
+A189,2025-09-30T09:16:24.903927131Z,[pdt] Setup Creda Grant,rejected,no,not_recorded,not_recorded,abstain,not_recorded
+A190,2025-09-30T09:24:35.611933852Z,[pdt] Setup Creda Grant (missed a milestone),executed,not_recorded,yes,not_recorded,yes,yes
+A191,2025-09-30T09:43:05.828337890Z,[pdt] Setup payments,executed,yes,yes,not_recorded,yes,not_recorded
+A192,2025-09-30T09:44:56.394533728Z,"[pdt] Setup OTC (CoinGecko: 0.13724, 113029.00000)",executed,yes,yes,not_recorded,yes,not_recorded
+A193,2025-09-30T12:09:53.359154779Z,[asset-staking] Whitelist LUNA-FUEL in project,executed,yes,yes,not_recorded,not_recorded,yes
+A194,2025-10-10T09:21:24.743775456Z,[LA+PDT] Redelegate VT (PDT),executed,yes,yes,not_recorded,not_recorded,yes
+A195,2025-10-10T09:23:28.978209384Z,[LA+PDT] Redelegate VT (Single),executed,yes,yes,not_recorded,yes,not_recorded
+A196,2025-10-10T09:27:27.620176434Z,[LA+PDT] Redelegate VT (Bluechip),executed,yes,yes,not_recorded,yes,not_recorded
+A197,2025-10-10T09:28:19.524661723Z,[LA+PDT] Redelegate VT (Stable),executed,yes,yes,not_recorded,yes,not_recorded
+A198,2025-10-10T09:29:30.061897328Z,[LA+PDT] Redelegate VT (Project),executed,yes,yes,not_recorded,yes,not_recorded
+A199,2025-10-26T20:50:39.630860678Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A200,2025-10-28T19:24:25.041251439Z,[asset-staking] Whitelist LUNA-PAXG in bluechip,executed,not_recorded,yes,not_recorded,yes,yes
+A201,2025-11-14T13:41:56.693573242Z,[asset-staking] Remove dATOM-ATOM LPs,executed,yes,yes,not_recorded,yes,not_recorded
+A202,2025-11-20T14:06:49.870418958Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A203,2025-11-25T09:02:47.741866598Z,[Proposal] Deposit LUNA into Proposal - Revenue Generating PoL Deployment,executed,yes,yes,not_recorded,yes,yes
+A204,2025-12-05T21:48:42.779251584Z,"[pdt] Setup OTC (CoinGecko: 0.11108, 89277.00000)",executed,yes,yes,not_recorded,not_recorded,yes
+A205,2025-12-06T15:13:11.903997093Z,"[pdt] Setup OTC (CoinGecko: 0.12157, 89859.00000)",executed,yes,yes,not_recorded,yes,no
+A206,2025-12-06T21:34:01.176037731Z,[astro-wars] transfer xASTRO to Neutron,executed,yes,yes,not_recorded,not_recorded,yes
+A207,2025-12-06T23:04:59.596662440Z,"[pdt] Setup OTC (CoinGecko: 0.13575, 89302.00000)",execution_failed,yes,not_recorded,not_recorded,yes,yes
+A208,2025-12-11T11:24:25.314447649Z,"[pdt] Setup OTC (CoinGecko: 0.19922, 90347.00000)",executed,yes,yes,not_recorded,not_recorded,yes
+A209,2025-12-17T12:54:53.815136105Z,[pdt] Enable Milestone 1-3 for Creda,executed,yes,yes,not_recorded,yes,not_recorded
+A210,2025-12-20T15:27:52.856959687Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,not_recorded,yes,not_recorded,yes,yes
+A211,2025-12-30T17:12:57.573998857Z,[pdt] Setup Contribution Bonus,executed,yes,yes,not_recorded,not_recorded,yes
+A212,2026-01-02T17:34:48.560506086Z,[pdt] Transfer LUNA to Liquidity Alliance Multi-Sig,executed,yes,yes,not_recorded,not_recorded,yes
+A213,2026-01-02T18:07:40.424911293Z,[pdt] Enable Milestone 4 for Creda,closed,yes,yes,not_recorded,not_recorded,not_recorded
+A214,2026-01-08T11:22:19.201328299Z,[asset-staking] Remove LUNA-SWTH LPs,executed,yes,yes,not_recorded,yes,not_recorded
+A215,2026-01-18T12:05:10.429378809Z,Redo of [pdt] Enable Milestone 4 for Creda,executed,yes,yes,not_recorded,yes,not_recorded
+A216,2026-01-18T20:34:57.965126599Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,yes,yes
+A217,2026-01-20T09:51:49.530109123Z,"[pdt] Setup comms Typefully Payment 2025, 2026",executed,yes,yes,not_recorded,yes,not_recorded
+A218,2026-01-23T09:50:58.871794430Z,[LA+PDT] Redelegate VT,executed,not_recorded,yes,not_recorded,yes,yes
+A219,2026-01-27T12:03:33.528234788Z,[pdt] Setup payments,executed,yes,yes,not_recorded,yes,not_recorded
+A220,2026-01-28T10:36:59.897076868Z,[pdt] Setup stewardship payments (2026-02-01 - 2026-03-01),executed,yes,yes,not_recorded,not_recorded,yes
+A221,2026-01-29T13:42:48.644930468Z,[pdt] Setup Keplr Infra Service Agreement (2026-01-27 - 2027-01-27),executed,not_recorded,yes,not_recorded,yes,yes
+A222,2026-02-15T09:32:26.003660513Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,yes,not_recorded
+A223,2026-02-20T17:13:55.264249214Z,[pdt] Transfer LUNA to Liquidity Alliance Multi-Sig,executed,yes,yes,not_recorded,not_recorded,yes
+A224,2026-02-25T14:48:43.775058761Z,[pdt] Transfer LUNA to Phoenix Stewardship Multi-Sig,executed,yes,yes,not_recorded,not_recorded,yes
+A225,2026-02-27T09:20:05.315241190Z,Claim LUNA,executed,yes,not_recorded,not_recorded,yes,yes
+A226,2026-02-27T10:10:09.270143210Z,"[pdt] Setup OTC (CoinGecko: 0.06765, 67326.00000)",rejected,yes,yes,not_recorded,not_recorded,not_recorded
+A227,2026-03-02T10:15:51.296575734Z,"[pdt] Setup OTC (CoinGecko: 0.06277, 66136.00000)",executed,yes,yes,not_recorded,not_recorded,yes
+A228,2026-03-04T09:52:49.457346054Z,Test burn 1 LUNA,executed,yes,yes,not_recorded,yes,not_recorded
+A229,2026-03-15T16:41:36.948102073Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,not_recorded,not_recorded,yes,yes
+A230,2026-03-16T23:49:38.177775692Z,[asset-staking] Remove all wstETH pools,executed,yes,yes,not_recorded,not_recorded,yes
+A231,2026-03-17T09:45:21.434118205Z,[pdt] Setup stewardship payments,executed,yes,yes,not_recorded,not_recorded,yes
+A232,2026-03-17T10:32:41.468793862Z,[pdt] Setup Slack Refund,executed,yes,yes,not_recorded,not_recorded,yes
+A233,2026-03-17T14:46:57.451446666Z,Burn 58498.336816 LUNA,executed,yes,yes,not_recorded,not_recorded,yes
+A234,2026-04-13T06:53:56.903918943Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A235,2026-04-13T06:58:22.590722467Z,[liquidity]: Withdraw wsteth liquidity to unwrap,executed,yes,yes,not_recorded,not_recorded,yes
+A236,2026-04-13T07:57:21.218265442Z,[asset-staking] Remove wBTC pools (wBTC.osmo + wBTC.atom) + add wBTC.atom-PAXG pool + vcaWBTC,executed,yes,yes,not_recorded,not_recorded,yes
+A237,2026-04-17T01:04:43.931754223Z,"[pdt] Setup OTC (CoinGecko: 0.06271, 74956.00000, 4777.48000)",executed,yes,not_recorded,not_recorded,yes,yes
+A238,2026-04-17T01:17:45.580462802Z,Transfer wstETH to Operations Wallet,executed,yes,not_recorded,not_recorded,yes,yes
+A239,2026-04-19T01:51:34.520751198Z,[tla] Adding launch incentives,executed,yes,yes,not_recorded,not_recorded,yes
+A240,2026-04-28T10:05:36.158343936Z,"[pdt] Setup OTC (CoinGecko: 0.06958, 76637.00000, 4603.98000)",executed,yes,yes,not_recorded,yes,not_recorded
+A241,2026-04-28T10:14:00.925783970Z,[pdt] Setup stewardship payments,executed,not_recorded,yes,not_recorded,yes,yes
+A242,2026-05-08T00:06:42.144917474Z,Withdraw wBTC.osmo and wBTC.axl and discontinued pairs,executed,yes,yes,not_recorded,not_recorded,yes
+A243,2026-05-08T00:13:11.647456111Z,[pdt] Transfer wBTC and PAXG to Liquidity Alliance Multi-Sig,executed,yes,yes,not_recorded,not_recorded,yes
+A244,2026-05-17T07:38:09.514153806Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A245,2026-05-17T08:02:25.956542944Z,Transfer wBTC.osmo to Operations Wallet,executed,yes,not_recorded,not_recorded,yes,yes
+A246,2026-06-07T08:08:36.334624638Z,[pdt] Setup payments,executed,yes,yes,not_recorded,yes,not_recorded
+A247,2026-06-13T04:46:22.937024283Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,not_recorded,not_recorded,yes,yes
+A248,2026-06-17T15:42:29.882080311Z,[pdt] Setup payments ambassadors,executed,yes,yes,not_recorded,yes,not_recorded
+A249,2026-06-19T12:06:56.765753063Z,[pdt]  Funding atrium-marketplace (Solid) security audit.,executed,not_recorded,yes,not_recorded,yes,yes
+A250,2026-07-08T14:00:01.970347259Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A251,2026-07-09T01:02:06.647171976Z,[pdt] Transfer LUNA to Liquidity Alliance Multi-Sig,executed,not_recorded,yes,not_recorded,yes,yes
+A252,2026-07-21T07:38:15.016673850Z,[pdt] Fund Relayer,executed,yes,yes,not_recorded,not_recorded,yes
+A253,2026-08-08T10:28:15.513866574Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A254,2026-08-11T12:52:35.085719798Z,"[pdt] Setup OTC (CoinGecko: 0.04770, 64303.00000)",executed,yes,yes,not_recorded,not_recorded,yes
+A255,2026-08-11T14:29:03.585267191Z,"[pdt] Setup OTC (CoinGecko: 0.05151, 64061.00000)",rejected,yes,not_recorded,not_recorded,not_recorded,not_recorded
+A256,2026-08-22T03:53:49.522722606Z,"[pdt] Setup OTC (CoinGecko: 0.05217, 78649.00000, 4590.81000)",executed,yes,yes,not_recorded,not_recorded,yes
+A257,2026-08-29T05:33:22.636695516Z,[pdt] Convert 10 USDC.noble to 10 USDC.inj,executed,yes,yes,not_recorded,not_recorded,yes
+A258,2026-08-29T05:56:26.631543041Z,[pdt] Approve Estima Grant,rejected,not_recorded,yes,not_recorded,no,no
+A259,2026-09-02T01:09:25.745180477Z,[asset-staking] Remove ampROAR-ROAR Astroport Pool from single,executed,yes,yes,not_recorded,not_recorded,yes
+A260,2026-09-06T06:13:07.930423521Z,[pdt] Transfer LUNA to Phoenix Stewardship Multi-Sig,executed,yes,not_recorded,not_recorded,yes,yes
+A261,2026-09-06T07:40:26.812724089Z,Claim LUNA,executed,yes,yes,not_recorded,not_recorded,yes
+A262,2026-09-06T11:41:20.690454398Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A263,2026-09-10T01:34:05.161252913Z,[pdt] Setup USDC.inj Migration App - Part 1,executed,not_recorded,yes,not_recorded,yes,yes
+A264,2026-09-10T08:57:28.590932784Z,[pdt] Transfer USDC.noble for seeding liquidity in USDC.inj transmuter,executed,yes,yes,not_recorded,yes,not_recorded
+A265,2026-09-21T01:58:53.106700613Z,"[pdt] Setup OTC (CoinGecko: 0.05383, 80926.00000, 4368.39000)",executed,yes,not_recorded,not_recorded,yes,yes
+A266,2026-09-21T06:17:46.659299473Z,[pdt] Setup Estima Grant - Advanced Liquidity Layer & DEX for Terra,executed,not_recorded,yes,not_recorded,yes,yes
+A267,2026-09-23T07:30:56.292324581Z,"[asset-staking] Whitelist 4, Remove 8",executed,yes,yes,not_recorded,not_recorded,yes
+A268,2026-09-23T07:51:55.501049765Z,[tla] Remove Bribes + Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes
+A269,2026-09-28T08:28:31.613161465Z,2. Burn 107723.389777 LUNA,executed,yes,yes,not_recorded,yes,not_recorded
+A270,2026-09-30T03:44:29.889998283Z,[pdt] Setup Lion Packs: Matching Gacha Grant,executed,yes,yes,not_recorded,not_recorded,yes
+A271,2026-09-30T03:56:20.544110809Z,[pdt] Enable Milestone 1: Kickoff for Estima,executed,yes,yes,not_recorded,not_recorded,yes
+A272,2026-10-03T15:02:16.159098273Z,Stewardship Membership Update,rejected,yes,yes,not_recorded,not_recorded,no
+A273,2026-10-03T16:12:30.100272483Z,[pdt] Setup payments,executed,yes,yes,not_recorded,yes,not_recorded
+A274,2026-10-04T11:07:50.788634239Z,[pdt] Setup payments infra,executed,yes,not_recorded,not_recorded,yes,yes
+A275,2026-10-04T11:17:37.359036953Z,Withdraw USDC.noble Liquidity to redeploy as USDC.inj Liquidity,execution_failed,yes,not_recorded,not_recorded,yes,yes
+A276,2026-10-08T02:32:19.186818542Z,Withdraw USDC.noble Liquidity to redeploy as USDC.inj Liquidity,executed,yes,yes,not_recorded,not_recorded,yes
+A277,2026-10-08T02:47:28.963753847Z,[pdt] Setup payments - zzw3,executed,yes,yes,not_recorded,yes,not_recorded
+A278,2026-10-08T02:47:46.290743001Z,[pdt] Setup payments - ml73,executed,yes,yes,not_recorded,yes,not_recorded
+A279,2026-10-08T02:47:52.394081414Z,[pdt] Setup payments - wy0a,executed,yes,yes,not_recorded,yes,not_recorded
+A280,2026-10-08T02:54:02.149376266Z,Swap USDC.noble to USDC.inj,executed,yes,not_recorded,not_recorded,yes,yes
+A281,2026-10-08T23:05:08.106872778Z,"[asset-staking] Whitelist 0, Remove 1",executed,not_recorded,yes,not_recorded,yes,yes
+A282,2026-10-13T01:03:23.731123416Z,"[asset-staking] Whitelist 0, Remove 2",executed,yes,not_recorded,not_recorded,yes,yes
+A283,2026-10-14T07:22:29.376855139Z,Provide Liquidity in USDC.inj again,executed,yes,yes,not_recorded,not_recorded,yes
+A284,2026-10-17T12:04:35.307033502Z,"[asset-staking] Whitelist 0, Remove 1",executed,abstain,yes,not_recorded,yes,yes
+A285,2026-10-19T03:01:17.499281783Z,[pdt] Convert first batch of USDC.n to USDC.inj,open,yes,not_recorded,not_recorded,not_recorded,yes
+A286,2026-10-19T03:08:29.388182611Z,Transfer USDC.n-USDT liquidity to Operations Wallet to convert to USDC.inj,executed,yes,yes,not_recorded,not_recorded,yes
+A287,2026-10-19T07:26:14.552796104Z,"[asset-staking] Whitelist 1, Remove 0",executed,yes,yes,not_recorded,not_recorded,yes
+A288,2026-10-22T06:44:30.057558025Z,[tla] Remove Bribes + Adding vote incentives based on trading efficiency + volume,rejected,no,not_recorded,not_recorded,not_recorded,no
+A289,2026-10-22T06:47:45.663996320Z,[tla] Adding vote incentives based on trading efficiency + volume,executed,yes,yes,not_recorded,not_recorded,yes

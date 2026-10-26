@@ -2,8 +2,8 @@
 
 - **Artifact:** `data/eris_multisig_votes_all.csv`
 - **SHA-256:** `e521c2247bdd5bb09fcd7f6b84ca2ce7e59ef2d1804a6ff9d1058ef52cb18f4f`
-- **Artifact timestamp (UTC):** 2026-10-26T14:19:35.272644+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.085907+00:00
+- **Artifact timestamp (UTC):** 2026-10-26T19:04:34.466115+00:00
+- **Sidecar generated (UTC):** 2026-10-26T19:09:26.021753+00:00
 - **Classification:** Derived dataset
 - **Acquisition / transformation:** Local transformation using `analysis/export_data.py`.
 - **Transformation:** `analysis/export_data.py`

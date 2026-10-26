@@ -249,6 +249,23 @@ def for_path(rel):
     if p.startswith('website/dist/record/'):
         upstream=urls_in_file(ROOT/p) or ['data/source_index.json']
         return info('Website record or generated presentation',['website build inputs'],upstream,'Existing website build/preservation pipeline; no independent re-download by this provenance script.',notes='Generated presentation is not primary evidence; use the linked original response where available.')
+    if p=='data/native_4853/votes.json':
+        url=LCD+'/cosmos/gov/v1/proposals/4853/votes?pagination.limit=1000'
+        return info('Primary source response with documented merge', [url], [url,'data/native_4853/votes.json at the preceding local capture'],'Current browser response compared against the preceding 79-ballot response; exactly four additions and no changed ballots were merged in current response order.',notes='All 83 current ballot values are preserved. This is a semantic JSON merge, not a byte-for-byte HTTP-body capture.')
+    if p=='data/governance_4853/scenario.json':
+        return derived(['data/governance_4853/live_tally.json','data/native_4853/votes.json','data/eris_multisig/hub_delegations.json'],'Full-hub-YES scenario recalculation','Validator operator addresses converted to account addresses using the same Bech32 payload; each non-YES hub delegation moved mechanically to YES. Synthetic Alliance weight excluded.')
+    if p=='data/governance_4853/live_tally.json':
+        urls=[LCD+'/cosmos/gov/v1/proposals/4853/tally',LCD+'/cosmos/gov/v1/proposals/4853/votes?pagination.limit=1000']
+        return info('Derived analysis artifact',urls,urls,'Values extracted from the cited public chain responses.',notes='Live capture during 26 October review; companion ballot response contained 83 current ballots. Values can change before voting ends.')
+    if p=='data/governance_4853/vamp_review.json':
+        urls=urls_in_file(ROOT/(p+'.source.md'))
+        return info('Derived analysis artifact',urls,urls,'Values extracted from the cited public contract responses.',notes='Period-208 balances are quoted exactly. Combined share is a scenario total, not evidence of coordination or common ownership.')
+    if p=='data/lion_dao/ryan_relationship.json':
+        urls=urls_in_file(ROOT/(p+'.source.md'))
+        return info('Derived analysis artifact',urls,urls,'Values extracted from cited public chain and governance responses.',notes='Direct transfer and DAO profile link support an operational wallet relationship, not sole identity, ownership or motive.')
+    if p.startswith('data/admin_handover/'):
+        urls=urls_in_file(ROOT/(p+'.source.md'))
+        return info('Primary source response',urls,urls,'Read-only HTTP GET through the browser; JSON whitespace normalized without changing values.',notes='Fresh contract metadata and internal configuration captured after ERIS proposal 9.')
     raise ValueError('No provenance rule for '+p)
 
 def write_sidecar(path):

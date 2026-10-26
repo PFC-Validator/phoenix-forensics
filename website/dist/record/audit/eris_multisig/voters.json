@@ -1,0 +1,26 @@
+{
+  "data": {
+    "voters": [
+      {
+        "addr": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "weight": 10
+      },
+      {
+        "addr": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+        "weight": 50
+      },
+      {
+        "addr": "terra1rmyzqglwrwmajvp4qa2c7pel7c960amdyrh0ty",
+        "weight": 10
+      },
+      {
+        "addr": "terra1scku27w5rsg4392zcaf2y9gnrh0w62t578ez7p",
+        "weight": 10
+      },
+      {
+        "addr": "terra1t0vq0c9dwmqpfuyu4xhqg5g5efh8asqhyy64gk",
+        "weight": 10
+      }
+    ]
+  }
+}

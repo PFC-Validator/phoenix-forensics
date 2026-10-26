@@ -1,0 +1,7 @@
+{
+  "data": {
+    "default_timeout": 900,
+    "default_gas_limit": 510000,
+    "gov_contract": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew"
+  }
+}

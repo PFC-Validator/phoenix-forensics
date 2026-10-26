@@ -1,9 +1,9 @@
 # Source and provenance
 
 - **Artifact:** `website/dist/record/readable/sources.txt`
-- **SHA-256:** `46a0b2761c4f1c07f02d4a4326ca6965d7c7c0c133d686dab21e20579542b12c`
-- **Artifact timestamp (UTC):** 2026-10-26T14:35:05.380746+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.193345+00:00
+- **SHA-256:** `40aeb3e1c6233c05ac5e983a435f3e8bed07be68f90307ec8623283bee83d39d`
+- **Artifact timestamp (UTC):** 2026-10-26T19:09:23.967556+00:00
+- **Sidecar generated (UTC):** 2026-10-26T19:09:26.112819+00:00
 - **Classification:** Derived dataset
 - **Acquisition / transformation:** Local transformation using `website publication pipeline`.
 - **Transformation:** `website publication pipeline`

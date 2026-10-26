@@ -1,9 +1,9 @@
 # Source and provenance
 
 - **Artifact:** `website/dist/record/verification.json`
-- **SHA-256:** `f88f7e0b76ba91abe60a9b438c118bd012af93e46cbbc911067859cb08ca7279`
-- **Artifact timestamp (UTC):** 2026-10-26T14:35:05.389220+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.183021+00:00
+- **SHA-256:** `dc58d075a66940d404397dcc710ae67efaa48929f5846c69a91a5ff198ceed09`
+- **Artifact timestamp (UTC):** 2026-10-26T19:09:23.977045+00:00
+- **Sidecar generated (UTC):** 2026-10-26T19:09:26.083963+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

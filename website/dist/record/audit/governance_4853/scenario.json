@@ -1,0 +1,27 @@
+{
+  "capture": "2026-10-26 live refresh",
+  "ballot_count": 83,
+  "base": {
+    "yes_count": "40037384528549",
+    "abstain_count": "22600302010582",
+    "no_count": "17466527882279",
+    "no_with_veto_count": "38686323994614"
+  },
+  "full_hub_yes_scenario": {
+    "yes_count": "59371122609466",
+    "abstain_count": "19346237949550",
+    "no_count": "17466527882279",
+    "no_with_veto_count": "29700055520630"
+  },
+  "base_metrics": {
+    "yes_share_non_abstain_percent": 41.623127278522695,
+    "veto_share_all_percent": 32.566839506298166,
+    "total_luna": 118790538.416024
+  },
+  "scenario_metrics": {
+    "yes_share_non_abstain_percent": 55.72780270167417,
+    "veto_share_all_percent": 23.593203855777755,
+    "total_luna": 125883943.961925
+  },
+  "caution": "Hypothetical full native hub YES; no current hub ballot at capture. Uses preserved hub delegations and current validator ballots; excludes synthetic Alliance weight."
+}

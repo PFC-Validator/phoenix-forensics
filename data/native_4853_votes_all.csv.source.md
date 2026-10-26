@@ -1,9 +1,9 @@
 # Source and provenance
 
 - **Artifact:** `data/native_4853_votes_all.csv`
-- **SHA-256:** `0a2e13ac5631c38a17a16e8e56bae2d447aa3ed13bd72014a0dd7765cef0072b`
-- **Artifact timestamp (UTC):** 2026-10-26T14:19:35.273165+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.084425+00:00
+- **SHA-256:** `7886f8a232e9b8bf6ad02fd21c04f49699bd73c4d135e16d578b03a0ff52e655`
+- **Artifact timestamp (UTC):** 2026-10-26T19:04:34.466530+00:00
+- **Sidecar generated (UTC):** 2026-10-26T19:09:26.020722+00:00
 - **Classification:** Derived dataset
 - **Acquisition / transformation:** Local transformation using `analysis/export_data.py`.
 - **Transformation:** `analysis/export_data.py`

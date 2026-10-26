@@ -30,7 +30,7 @@ The `data/` directory contains fresh chain responses, preserved compiled records
 | Phoenix main board | A1–A289; every ballot, proposal status, timestamps and transaction locators | `data/mb_voting_record.json`, `data/phoenix_board_votes_all.csv` |
 | Last-four-weeks board subset | 21 proposals, A269–A289 | `data/phoenix/recent_votes.json`, `data/phoenix_board_votes_last4weeks.csv` |
 | Key board proposals | A116, A159, A175, A209, A215, A249, A266, A271, A272, with fresh payloads and ballots | `data/phoenix/key_proposals.json` |
-| Terra 4853 | All 79 current ballots; 87 vote transactions; live proposal and tally | `data/native_4853/`, `data/native_4853_votes_all.csv`, `data/native_4853_vote_transactions.csv` |
+| Terra 4853 | 83 current ballots; 87 preserved vote transactions from the earlier capture; live proposal and tally | `data/native_4853/`, `data/native_4853_votes_all.csv`, `data/native_4853_vote_transactions.csv` |
 | ERIS fixed multisig | All nine proposals, all ballots, five voters and 70/90 threshold | `data/eris_multisig/`, `data/eris_multisig_votes_all.csv` |
 | ERIS hub | Configuration, current delegations, validator descriptions and relevant transactions | `data/eris_multisig/hub_*`, `data/eris_hub_delegations.csv` |
 | Forum | Initial topic segment, key posts 54–57 and 90–92, revision and current suspension fields | `data/forum/` |

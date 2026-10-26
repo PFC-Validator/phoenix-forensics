@@ -1,5 +1,5 @@
 ---
-name: "LUNA Holder Briefing"
+name: "Phoenix Governance Review"
 description: "A calm civic reading system for dated public records."
 colors:
   paper: "#fff"
@@ -26,7 +26,7 @@ colors:
 typography:
   display:
     fontFamily: "Public Sans, sans-serif"
-    fontSize: "clamp(2.5rem, 4.6vw, 4.7rem)"
+    fontSize: "clamp(2.7rem, 5.5vw, 5.3rem)"
     fontWeight: 600
     lineHeight: 1.08
     letterSpacing: "-.025em"
@@ -42,13 +42,13 @@ typography:
     fontWeight: 400
   headline:
     fontFamily: "Public Sans, sans-serif"
-    fontSize: "clamp(1.7rem, 2.7vw, 2.6rem)"
+    fontSize: "clamp(1.75rem, 3vw, 2.65rem)"
     fontWeight: 600
     lineHeight: 1.15
     letterSpacing: "-.025em"
   page-title:
     fontFamily: "Public Sans, sans-serif"
-    fontSize: "clamp(2.4rem, 4vw, 3.7rem)"
+    fontSize: "clamp(2.4rem, 4.6vw, 4.4rem)"
     fontWeight: 600
     lineHeight: 1.08
     letterSpacing: "-.025em"
@@ -59,9 +59,9 @@ typography:
     lineHeight: 1.55
   lead:
     fontFamily: "Source Sans 3, sans-serif"
-    fontSize: "21px"
+    fontSize: "clamp(1.25rem, 2.1vw, 1.65rem)"
     fontWeight: 400
-    lineHeight: 1.55
+    lineHeight: 1.4
   finding-title:
     fontFamily: "Public Sans, sans-serif"
     fontSize: "21px"
@@ -76,6 +76,7 @@ typography:
 rounded:
   control: "3px"
   button: "4px"
+  action: "4px"
   note: "6px"
   figure: "8px"
 spacing:
@@ -134,15 +135,15 @@ components:
     backgroundColor: "{colors.accent}"
     textColor: "{colors.paper}"
 ---
-# Design System: LUNA Holder Briefing
+# Design System: Phoenix Governance Review
 
 ## Overview
 
-**Creative North Star: "Holder briefing"**
+**Creative North Star: "Civic evidence review"**
 
 Holder briefing is a calm civic reading system: white ground, deep forest-green text, open document sections and fine rules. Public Sans supplies clear headings; Source Sans 3 carries readable explanations and evidence. Pale green fields distinguish figures and qualifications without turning the document into a grid of cards. The approved visual extension adds a substantial forest-green feature field, contrasting decision nodes and optional timeline emphasis while keeping the reading sections open and spacious.
 
-This system describes the rebuilt briefing and its shared site stylesheet. The preserved original presentation under `holder-briefing/dist/record/` is a separate archival surface and does not define these tokens. The user explicitly requested stronger visual appeal, beneficiary-approval diagrams and timeline motion after the first build. This document merges that implemented extension with the confirmed base system. No approved image comp exists.
+This system describes the stakeholder-wide governance review and its shared site stylesheet. The process-first homepage, voting analysis, stakeholder map, treasury review, governance reforms and evidence library all use the same calm reading system. The preserved original presentation under `holder-briefing/dist/record/` is a separate archival surface and does not define these tokens. The user explicitly requested stronger visual appeal, beneficiary-approval diagrams and timeline motion after the first build. This document merges that implemented extension with the confirmed base system. No approved image comp exists.
 
 **Key Characteristics:**
 - White reading ground and a single green family with a forest feature field.

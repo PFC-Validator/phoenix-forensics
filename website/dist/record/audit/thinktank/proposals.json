@@ -1,0 +1,200 @@
+{
+  "data": {
+    "proposals": [
+      {
+        "id": 1,
+        "proposal": {
+          "title": "Test transaction, refund 0.1 LUNA",
+          "description": "Refunding 0.1 LUNA",
+          "proposer": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "start_height": 12382666,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1728376584714465307"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.66"
+              }
+            }
+          },
+          "total_power": "6",
+          "msgs": [
+            {
+              "bank": {
+                "send": {
+                  "to_address": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+                  "amount": [
+                    {
+                      "denom": "uluna",
+                      "amount": "100000"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "status": "executed",
+          "votes": {
+            "yes": "4",
+            "no": "0",
+            "abstain": "1"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 2,
+        "proposal": {
+          "title": "Optional Veto to Votion grant",
+          "description": "Vote yes if you don't want PD to fund ERIS to develop Votion, a liquidity alliance vote aggregator.",
+          "proposer": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "start_height": 14194220,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1739087605884004392"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.66"
+              }
+            }
+          },
+          "total_power": "6",
+          "msgs": [
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                  "msg": "eyJ2ZXRvIjp7ImlkIjoyOH19",
+                  "funds": []
+                }
+              }
+            }
+          ],
+          "status": "rejected",
+          "votes": {
+            "yes": "0",
+            "no": "0",
+            "abstain": "2"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 3,
+        "proposal": {
+          "title": "Optional Veto to Creda grant",
+          "description": "Vote yes if you don't want PD to fund ERIS to develop Creda, a money market on Terra.",
+          "proposer": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "start_height": 17742106,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1760001869432677539"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.66"
+              }
+            }
+          },
+          "total_power": "6",
+          "msgs": [
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                  "msg": "eyJ2ZXRvIjp7ImlkIjo3Mn19",
+                  "funds": []
+                }
+              }
+            }
+          ],
+          "status": "rejected",
+          "votes": {
+            "yes": "0",
+            "no": "0",
+            "abstain": "2"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 4,
+        "proposal": {
+          "title": "Optional Veto to Estima DEX grant",
+          "description": "Vote yes if you don't want PF to fund ERIS Labs to develop Estima DEX, an Advanced Liquidity Layer & DEX for Terra.",
+          "proposer": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "start_height": 22965804,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1790323459865946440"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.66"
+              }
+            }
+          },
+          "total_power": "6",
+          "msgs": [
+            {
+              "wasm": {
+                "execute": {
+                  "contract_addr": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+                  "msg": "eyJ2ZXRvIjp7ImlkIjoxMTJ9fQ==",
+                  "funds": []
+                }
+              }
+            }
+          ],
+          "status": "rejected",
+          "votes": {
+            "yes": "0",
+            "no": "0",
+            "abstain": "1"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      },
+      {
+        "id": 5,
+        "proposal": {
+          "title": "Optional Veto to USDC.inj migration tool",
+          "description": "Vote yes if you don't want PF to fund Philipp to develop and manage:\n- Launch and manage USDC.n → USDC.inj Transmuter pool\n- Build wallet connection + migration UI\n- Support DAO / treasury migrations\n- Implement migration bot to move liquidity back to the USDC.inj side\n- Set up monitoring, error handling, and maintenance\n- Provide basic reporting\n- Allocate capital for bot transfers",
+          "proposer": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "start_height": 23141738,
+          "min_voting_period": null,
+          "expiration": {
+            "at_time": "1791337301948215189"
+          },
+          "threshold": {
+            "absolute_percentage": {
+              "percentage": {
+                "percent": "0.66"
+              }
+            }
+          },
+          "total_power": "6",
+          "msgs": [],
+          "status": "rejected",
+          "votes": {
+            "yes": "0",
+            "no": "0",
+            "abstain": "1"
+          },
+          "allow_revoting": false,
+          "veto": null
+        }
+      }
+    ]
+  }
+}

@@ -15,14 +15,14 @@ Three points are particularly important:
 
 ## 1. Current native position
 
-The live response contained **81 current ballots** and this tally:
+The live response contained **83 current ballots** and this tally:
 
 | Option | LUNA | Interpretation |
 |---|---:|---|
-| YES | 40,033,026.069 | 41.62% of non-abstain votes |
-| NO | 17,466,238.904 | — |
-| NO WITH VETO | 38,681,656.223 | 32.57% of all votes, below 33.4% |
-| ABSTAIN | 22,599,694.934 | — |
+| YES | 40,037,384.529 | 41.62% of non-abstain votes |
+| NO | 17,466,527.882 | — |
+| NO WITH VETO | 38,686,323.995 | 32.57% of all votes, below 33.4% |
+| ABSTAIN | 22,600,302.011 | — |
 
 At this capture, 4853 has quorum but is **not passing**, because YES is below 50% of non-abstain votes. VETO has not independently reached its threshold either.
 
@@ -55,15 +55,15 @@ The remaining hub-backed validators' current ballots and delegations do not chan
 
 | Metric | Current | If entire hub votes YES |
 |---|---:|---:|
-| YES | 40.033M | **59.370M** |
+| YES | 40.037M | **59.371M** |
 | NO | 17.466M | 17.466M |
-| NO WITH VETO | 38.682M | **29.692M** |
+| NO WITH VETO | 38.686M | **29.700M** |
 | ABSTAIN | 22.600M | **19.346M** |
 | YES share of non-abstain votes | 41.62% | **55.73%** |
 | VETO share of all votes | 32.57% | **23.59%** |
 | Outcome, other things equal | Failing | **Passing** |
 
-The increment to YES is approximately **19.337M LUNA**. Approximately **7.093M** additional LUNA enters the total counted vote because BackBone and cosmosrescue currently have no ballot.
+The increment to YES is approximately **19.334M LUNA**. Approximately **7.093M** additional LUNA enters the total counted vote because BackBone and cosmosrescue currently have no ballot.
 
 ### Important limitations
 

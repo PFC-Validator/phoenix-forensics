@@ -2,8 +2,8 @@
 
 - **Artifact:** `website/dist/record/history/sources/source-index.json`
 - **SHA-256:** `959883b0105b78c4615a98c1c8ef461ddfb6696f6c55580622074c735f0d6214`
-- **Artifact timestamp (UTC):** 2026-10-26T14:35:05.387532+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.499168+00:00
+- **Artifact timestamp (UTC):** 2026-10-26T19:09:23.974830+00:00
+- **Sidecar generated (UTC):** 2026-10-26T19:09:26.353187+00:00
 - **Classification:** Website history record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

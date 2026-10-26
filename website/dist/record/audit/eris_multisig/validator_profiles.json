@@ -1,0 +1,103 @@
+{
+  "terravaloper15lsftv92eyssjwkh2393s0nhjc07kryqen2fqf": {
+    "validator": {
+      "operator_address": "terravaloper15lsftv92eyssjwkh2393s0nhjc07kryqen2fqf",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "ENRM17/OT7aD9BULU7R2joy3QnDLmwYzuMBjIjM7Hso="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "14286466805622",
+      "delegator_shares": "14287896577436.384878086865953099",
+      "description": {
+        "moniker": "terra-phoenix-api.highstakes.ch",
+        "identity": "66633A083533E8C1CC6F0D186B8351FB100E1AD8",
+        "website": "https://galacticpunks.io",
+        "security_contact": "",
+        "details": "The Galactic Punks validator provides stakers with a reliable, low-commission and community-led option for contributing to securing the Terra network while supporting the development of the GalacticDAO and NFTs within the broader Terra ecosystem."
+      },
+      "unbonding_height": "11563504",
+      "unbonding_time": "2024-08-30T16:50:28.669240556Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.100000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2024-03-12T22:34:30.439422996Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": [
+        "70305"
+      ]
+    }
+  },
+  "terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0": {
+    "validator": {
+      "operator_address": "terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "DkLEiK85c2ftEjdzXKMKMXo5IZOXTjwEtO8IN7ERtw0="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "8255670912067",
+      "delegator_shares": "8255670912067.000000000000000000",
+      "description": {
+        "moniker": "terra-phoenix-api.highstakes.ch",
+        "identity": "BFBCAA4698255FD3",
+        "website": "https://liondao.money/",
+        "security_contact": "TheLionDAO@gmail.com",
+        "details": "DAOs are like Lions. They live together in a pride, they hunt together, they cry together wen their bags dump to zero. We aim to showcase protocols & tools Terra has to offer through partnerships & integrations & illustrate the utility of LUNA on-chain and beyond."
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.075000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2024-05-31T17:48:48.839503807Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    }
+  },
+  "terravaloper1vm5azhvaxeanc7auxh02y8jmxrk8tj93f43e7j": {
+    "validator": {
+      "operator_address": "terravaloper1vm5azhvaxeanc7auxh02y8jmxrk8tj93f43e7j",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "hNo10Wpa2t6mqbPPAgMrsb4dHiM0OGQsbQsm1jM6xoo="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "8602674934901",
+      "delegator_shares": "8602674934901.000000000000000000",
+      "description": {
+        "moniker": "terra-phoenix-api.highstakes.ch",
+        "identity": "A1AA5BDA37FEDD91",
+        "website": "https://www.erisprotocol.com/",
+        "security_contact": "info@erisprotocol.com",
+        "details": "Your one stop shop for liquid staking and yield on Terra."
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.100000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2024-01-08T21:56:21.960806986Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    }
+  }
+}

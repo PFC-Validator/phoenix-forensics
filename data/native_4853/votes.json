@@ -244,6 +244,17 @@
     },
     {
       "proposal_id": "4853",
+      "voter": "terra1twcwxdlfynvcz0cwasy5c5963mrtrd88rqv7x2",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
       "voter": "terra1vv63kw6a4raueauqkyvydsu73gft7g2acfg6el",
       "options": [
         {
@@ -431,6 +442,17 @@
     },
     {
       "proposal_id": "4853",
+      "voter": "terra13ym9xeznvcpwyr9ytte3cf433zdkygq88v6wfr",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
       "voter": "terra1jpqrauxusamlwk28dvy0pjjw9knp2w6d06wpe4",
       "options": [
         {
@@ -607,6 +629,17 @@
     },
     {
       "proposal_id": "4853",
+      "voter": "terra1kupcpy8wjkjj62j6thcphnl52y2ufxw6mmdwvd",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
       "voter": "terra1hr7svdp2rga9vf3ry95sx7g5wyspgwmg94qac8",
       "options": [
         {
@@ -644,6 +677,17 @@
       "options": [
         {
           "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1cqc26lnatzxvu0z5nd4yx8m4ecllkm7jlj6nna",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
           "weight": "1.000000000000000000"
         }
       ],

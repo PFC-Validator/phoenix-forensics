@@ -1,0 +1,322 @@
+{
+  "tx": {
+    "body": {
+      "messages": [
+        {
+          "@type": "/cosmos.bank.v1beta1.MsgSend",
+          "from_address": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+          "to_address": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "amount": [
+            {
+              "denom": "uluna",
+              "amount": "10448000000"
+            }
+          ]
+        }
+      ],
+      "memo": "",
+      "timeout_height": "0",
+      "extension_options": [],
+      "non_critical_extension_options": []
+    },
+    "auth_info": {
+      "signer_infos": [
+        {
+          "public_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A3F7ovcB43F+RQG6c7fvHgWra0FiiD4ujOQ5lWYPjwjB"
+          },
+          "mode_info": {
+            "single": {
+              "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+            }
+          },
+          "sequence": "195"
+        }
+      ],
+      "fee": {
+        "amount": [
+          {
+            "denom": "uluna",
+            "amount": "1927"
+          }
+        ],
+        "gas_limit": "96314",
+        "payer": "",
+        "granter": ""
+      },
+      "tip": null
+    },
+    "signatures": [
+      "5suWI9T5cmKx10r5JWMqqn7icpnnCxv3qxkIyM+TIJ9f/uqlRvMiqzbUBrULhGzgdOh4NeUT0iA5JZxVuP694A=="
+    ]
+  },
+  "tx_response": {
+    "height": "21506638",
+    "txhash": "C38430934A68E3190834217E44BD282C3E3368ACA4E5BA802C8723EEB9519DEF",
+    "codespace": "",
+    "code": 0,
+    "data": "12260A242F636F736D6F732E62616E6B2E763162657461312E4D736753656E64526573706F6E7365",
+    "raw_log": "",
+    "logs": [],
+    "info": "",
+    "gas_wanted": "96314",
+    "gas_used": "78198",
+    "tx": {
+      "@type": "/cosmos.tx.v1beta1.Tx",
+      "body": {
+        "messages": [
+          {
+            "@type": "/cosmos.bank.v1beta1.MsgSend",
+            "from_address": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+            "to_address": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+            "amount": [
+              {
+                "denom": "uluna",
+                "amount": "10448000000"
+              }
+            ]
+          }
+        ],
+        "memo": "",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+      },
+      "auth_info": {
+        "signer_infos": [
+          {
+            "public_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A3F7ovcB43F+RQG6c7fvHgWra0FiiD4ujOQ5lWYPjwjB"
+            },
+            "mode_info": {
+              "single": {
+                "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+              }
+            },
+            "sequence": "195"
+          }
+        ],
+        "fee": {
+          "amount": [
+            {
+              "denom": "uluna",
+              "amount": "1927"
+            }
+          ],
+          "gas_limit": "96314",
+          "payer": "",
+          "granter": ""
+        },
+        "tip": null
+      },
+      "signatures": [
+        "5suWI9T5cmKx10r5JWMqqn7icpnnCxv3qxkIyM+TIJ9f/uqlRvMiqzbUBrULhGzgdOh4NeUT0iA5JZxVuP694A=="
+      ]
+    },
+    "timestamp": "2026-06-17T15:38:40Z",
+    "events": [
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1927uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1927uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1927uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "sender",
+            "value": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "fee",
+            "value": "1927uluna",
+            "index": true
+          },
+          {
+            "key": "fee_payer",
+            "value": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "acc_seq",
+            "value": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu/195",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "signature",
+            "value": "5suWI9T5cmKx10r5JWMqqn7icpnnCxv3qxkIyM+TIJ9f/uqlRvMiqzbUBrULhGzgdOh4NeUT0iA5JZxVuP694A==",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "action",
+            "value": "/cosmos.bank.v1beta1.MsgSend",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+            "index": true
+          },
+          {
+            "key": "module",
+            "value": "bank",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "10448000000uluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "10448000000uluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "10448000000uluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "sender",
+            "value": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      }
+    ]
+  }
+}

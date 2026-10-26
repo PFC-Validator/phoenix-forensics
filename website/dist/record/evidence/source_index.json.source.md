@@ -2,8 +2,8 @@
 
 - **Artifact:** `website/dist/record/evidence/source_index.json`
 - **SHA-256:** `9edc9d3bacbdc6dbc287ed15fcd9b88f6da5b5992d966d4019632a226516b5c2`
-- **Artifact timestamp (UTC):** 2026-10-26T14:35:05.381713+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.187626+00:00
+- **Artifact timestamp (UTC):** 2026-10-26T19:09:23.968882+00:00
+- **Sidecar generated (UTC):** 2026-10-26T19:09:26.086876+00:00
 - **Classification:** Packet-linked artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 

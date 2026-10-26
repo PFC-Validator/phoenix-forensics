@@ -16,9 +16,9 @@ ev=load('data/eris_multisig/votes.json')
 assert all(v['vote']=='yes' for votes in ev.values() for v in votes)
 assert sum(v['weight'] for v in ev['9'])==70
 native=load('data/native_4853/votes.json')['votes']
-assert len(native)==79
+assert len(native)==83
 assert len(load('data/native_4853/vote_transactions.json')['tx_responses'])==87
 hub=load('data/eris_multisig/hub_delegations.json')['delegation_responses']
 assert len(hub)==11
 assert not any(x['delegation']['validator_address']=='terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0' and int(x['balance']['amount']) for x in hub)
-print('Verified: 289 board proposals; 79 current 4853 ballots; 87 vote transactions; 9 ERIS proposals; A272 and delegation assertions.')
+print('Verified: 289 board proposals; 83 current 4853 ballots; 87 vote transactions; 9 ERIS proposals; A272 and delegation assertions.')

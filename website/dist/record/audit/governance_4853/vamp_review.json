@@ -1,0 +1,40 @@
+{
+  "prop_gauge": {
+    "address": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+    "quorum_bps": 1000,
+    "use_weighted_vote": true,
+    "active_proposal": 4853,
+    "period": 208,
+    "total_vp": "767921061697",
+    "yes_vp": "0",
+    "no_vp": "0",
+    "abstain_vp": "0",
+    "nwv_vp": "0",
+    "current_vote": null,
+    "end_time_s": 1793418012
+  },
+  "quorum_required_vamp": "76792106169.70",
+  "balances": [
+    {
+      "label": "unattributed large account",
+      "address": "terra149h2na988cka05rwcpmnqfse64r6vspmfmkk0z",
+      "vamp": "215228038798",
+      "share_percent": 28.027364990143077
+    },
+    {
+      "label": "0xPhilipp ERIS account",
+      "address": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "vamp": "35912763441",
+      "share_percent": 4.676433180363599
+    },
+    {
+      "label": "ERIS protocol fee account",
+      "address": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+      "vamp": "47337669672",
+      "share_percent": 6.164520923588343
+    }
+  ],
+  "combined_vamp": "298479042111",
+  "combined_share_percent": 38.86837942058831,
+  "scenario_caution": "Quorum is participation, not unanimity. Weighted voting can split the hub ballot. No vAMP votes had been recorded for 4853 at capture."
+}

@@ -1,0 +1,1450 @@
+{
+  "directors": {
+    "Philipp": {
+      "address": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+      "counts": {
+        "yes": 270,
+        "no": 4,
+        "abstain": 2,
+        "not_recorded": 13
+      },
+      "recent_counts": {
+        "yes": 18,
+        "not_recorded": 1,
+        "abstain": 1,
+        "no": 1
+      },
+      "authored": [
+        {
+          "id": "A1",
+          "title": "Refund 1 LUNA"
+        },
+        {
+          "id": "A2",
+          "title": "[asset-staking]: Whitelist WW LPs"
+        },
+        {
+          "id": "A3",
+          "title": "[asset-staking]: Whitelist Astroport LPs"
+        },
+        {
+          "id": "A4",
+          "title": "[alliance-connector]: Stake VT for Stable Gauge"
+        },
+        {
+          "id": "A5",
+          "title": "[alliance-connector]: Stake VT for Project Gauge"
+        },
+        {
+          "id": "A6",
+          "title": "[alliance-connector]: Stake VT for Bluechip Gauge"
+        },
+        {
+          "id": "A7",
+          "title": "[asset-staking]: Move LUNA-SOLID to Project Gauge"
+        },
+        {
+          "id": "A8",
+          "title": "[asset-staking]: Change bribes recapture of LUNA-USDC to native ASTRO"
+        },
+        {
+          "id": "A9",
+          "title": "[asset-staking]: Change bribes recapture of remaining Astroport LPs to native ASTRO"
+        },
+        {
+          "id": "A10",
+          "title": "[asset-staking] Migrating Astroport USDC and WHALE pairs to PCL"
+        },
+        {
+          "id": "A11",
+          "title": "[asset-staking] Add ROAR to bribe recapture for LUNA-ROAR LP"
+        },
+        {
+          "id": "A12",
+          "title": "[axelar-recovery] Setup test OTC"
+        },
+        {
+          "id": "A13",
+          "title": "[axelar-recovery] Setup OTC 9990.00 LUNA -> 3404.24 axlUSDC @0.3408 (CoinGecko: 0.3587)"
+        },
+        {
+          "id": "A14",
+          "title": "[axelar-recovery] Setup OTC 300000.00 LUNA -> 103920.30 axlUSDC @0.3464 (CoinGecko: 0.3499)"
+        },
+        {
+          "id": "A15",
+          "title": "[axelar-recovery] Setup OTC 300000.00 LUNA -> 102791.70 axlUSDC @0.3426 (CoinGecko: 0.3461)"
+        },
+        {
+          "id": "A16",
+          "title": "[axelar-recovery] Setup OTC batch (CoinGecko: 0.35871, 60994.00000)"
+        },
+        {
+          "id": "A17",
+          "title": "[axelar-recovery] Setup OTC 150000.00000 LUNA -> 0.87023 axlWBTC (CoinGecko: 0.35749, 61004.00000)"
+        },
+        {
+          "id": "A18",
+          "title": "[axelar-recovery] Setup OTC batch (CoinGecko: 0.36448, 62885.00000)"
+        },
+        {
+          "id": "A19",
+          "title": "[axelar-recovery] Setup OTC batch (CoinGecko: 0.36421, 64009.00000)"
+        },
+        {
+          "id": "A20",
+          "title": "[PDT] Stake VT"
+        },
+        {
+          "id": "A21",
+          "title": "[alliance-connector]: Stake VT for Single Gauge"
+        },
+        {
+          "id": "A22",
+          "title": "[asset-staking] Whitelist assets for single asset gauge"
+        },
+        {
+          "id": "A23",
+          "title": "[asset-staking] Change Single Whitelist"
+        },
+        {
+          "id": "A24",
+          "title": "[axelar-recovery] Cancel BTC OTC and Setup new OTC batch (CoinGecko: 0.36809, 67961.00000)"
+        },
+        {
+          "id": "A25",
+          "title": "[asset-staking] Change Single Whitelist"
+        },
+        {
+          "id": "A26",
+          "title": "[axelar-recovery] Setup OTC for USDC (ASTRO) (CoinGecko: 0.36558, 66533.00000)"
+        },
+        {
+          "id": "A27",
+          "title": "[axelar-recovery] Setup OTC for USDC (ASTRO) (CoinGecko: 0.36080, 66366.00000)"
+        },
+        {
+          "id": "A28",
+          "title": "[pdt] Transfer 40k LUNA for Long Term Alignment Program"
+        },
+        {
+          "id": "A29",
+          "title": "[pdt] Transfer 40k LUNA for Long Term Alignment Program"
+        },
+        {
+          "id": "A30",
+          "title": "[alignment] Claim LUNA from PDT"
+        },
+        {
+          "id": "A31",
+          "title": "[alignment] Liquid stake 40k LUNA"
+        },
+        {
+          "id": "A32",
+          "title": "[daodao] add ampLUNA as treasury token"
+        },
+        {
+          "id": "A33",
+          "title": "[alignment] create and distribute permanent locks with 5400 ampLUNA each"
+        },
+        {
+          "id": "A34",
+          "title": "[pdt] Transfer 116k LUNA for Long Term Alignment Program"
+        },
+        {
+          "id": "A35",
+          "title": "[alignment] Claim LUNA from PDT"
+        },
+        {
+          "id": "A36",
+          "title": "[axelar-recovery] Cancel old OTC"
+        },
+        {
+          "id": "A37",
+          "title": "[axelar-recovery] Batch OTC (CoinGecko: 0.30730, 68642.00000)"
+        },
+        {
+          "id": "A38",
+          "title": "[axelar-recovery] Batch OTC (CoinGecko: 0.30685, 68536.00000)"
+        },
+        {
+          "id": "A39",
+          "title": "[alignment] Stake LUNA"
+        },
+        {
+          "id": "A40",
+          "title": "[axelar-recovery] OTC USDC (CoinGecko: 0.31177, 69032.00000)"
+        },
+        {
+          "id": "A41",
+          "title": "[PDT] OTC 150k LUNA -> USDC (CoinGecko: 0.31177, 69032.00000)"
+        },
+        {
+          "id": "A42",
+          "title": "[axelar-recovery] Cancel OTC (CoinGecko: 0.29795, 67840.00000)"
+        },
+        {
+          "id": "A43",
+          "title": "[alignment] create and distribute permanent locks with 20750 ampLUNA each"
+        },
+        {
+          "id": "A44",
+          "title": "[pdt] Recreate OTC (CoinGecko: 0.30081, 67909.00000)"
+        },
+        {
+          "id": "A45",
+          "title": "[axelar-recovery] Create OTC (CoinGecko: 0.30256, 67899.00000)"
+        },
+        {
+          "id": "A46",
+          "title": "[axelar-recovery] Create OTC (CoinGecko: 0.30256, 67899.00000)"
+        },
+        {
+          "id": "A47",
+          "title": "[axelar-recovery] Create OTC (CoinGecko: 0.35547, 76398.00000)"
+        },
+        {
+          "id": "A48",
+          "title": "[pdt] Create OTC (CoinGecko: 0.35547, 76398.00000)"
+        },
+        {
+          "id": "A49",
+          "title": "[pdt] payment stewardship"
+        },
+        {
+          "id": "A50",
+          "title": "[pdt] update OTC (CoinGecko: 0.38507, 79324.00000)"
+        },
+        {
+          "id": "A51",
+          "title": "[axelar-recovery] Update OTC (CoinGecko: 0.38701, 79419.00000)"
+        },
+        {
+          "id": "A52",
+          "title": "[axelar-recovery] Add wBTC.osmo OTC (CoinGecko: 0.39264, 79768.00000)"
+        },
+        {
+          "id": "A53",
+          "title": "[pdt] update OTC (CoinGecko: 0.39705, 88974.00000)"
+        },
+        {
+          "id": "A54",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.36027, 88130.00000)"
+        },
+        {
+          "id": "A55",
+          "title": "[asset-staking] Adding LUNA-CAPA to project and ampCAPA to single gauge whitelist"
+        },
+        {
+          "id": "A56",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.36464, 89111.00000)"
+        },
+        {
+          "id": "A57",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.40399, 91413.00000)"
+        },
+        {
+          "id": "A58",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.40399, 91413.00000)"
+        },
+        {
+          "id": "A59",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.50059, 90843.00000)"
+        },
+        {
+          "id": "A60",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.50059, 90843.00000)"
+        },
+        {
+          "id": "A61",
+          "title": "[LA+PDT] Redelegate VT"
+        },
+        {
+          "id": "A62",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.44749, 90517.00000)"
+        },
+        {
+          "id": "A63",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.44749, 90517.00000)"
+        },
+        {
+          "id": "A64",
+          "title": "[pdt] Setup Payment for Domain"
+        },
+        {
+          "id": "A65",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.42950, 91676.00000)"
+        },
+        {
+          "id": "A66",
+          "title": "[pdt] Setup SOLID Protocol Grant"
+        },
+        {
+          "id": "A67",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.50567, 98876.00000)"
+        },
+        {
+          "id": "A68",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.50567, 98876.00000)"
+        },
+        {
+          "id": "A69",
+          "title": "[pdt] Refund tributes"
+        },
+        {
+          "id": "A70",
+          "title": "[pdt] Setup mod payments"
+        },
+        {
+          "id": "A71",
+          "title": "[pdt] Setup infra payments"
+        },
+        {
+          "id": "A72",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.65491, 96905.00000)"
+        },
+        {
+          "id": "A73",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.65491, 96905.00000)"
+        },
+        {
+          "id": "A74",
+          "title": "[dao] Recognize Legal Contingency Fund as a SubDAO"
+        },
+        {
+          "id": "A75",
+          "title": "[pdt] Setup Legal Contingency Fund - 70k USDC"
+        },
+        {
+          "id": "A76",
+          "title": "[axelar-recovery] Refund Astroport"
+        },
+        {
+          "id": "A77",
+          "title": "[pdt] Enable SOLID Protocol Grant - Milestone 1"
+        },
+        {
+          "id": "A78",
+          "title": "[pdt] Enable SOLID Protocol Grant - Milestone 2"
+        },
+        {
+          "id": "A79",
+          "title": "[asset-staking] Change WW USDC-USDT pool to stableswap"
+        },
+        {
+          "id": "A80",
+          "title": "[pdt] Refund 1500 $ hydro bribe"
+        },
+        {
+          "id": "A81",
+          "title": "[LA+PDT] Redelegate VT"
+        },
+        {
+          "id": "A82",
+          "title": "[LA+PDT] Redelegate VT"
+        },
+        {
+          "id": "A83",
+          "title": "[pdt] Setup Ophir DAO Audit Grant"
+        },
+        {
+          "id": "A84",
+          "title": "[pdt] Setup stewardship payments"
+        },
+        {
+          "id": "A85",
+          "title": "[pdt] Setup Boost DAO Project Grant"
+        },
+        {
+          "id": "A86",
+          "title": "[asset-staking] Adding LUNA-EURe to stable gauge whitelist"
+        },
+        {
+          "id": "A87",
+          "title": "[asset-staking] Adding USDC-EURe to bluechip gauge whitelist"
+        },
+        {
+          "id": "A88",
+          "title": "[pdt] Setup comms payments"
+        },
+        {
+          "id": "A89",
+          "title": "[pdt] Setup core payments"
+        },
+        {
+          "id": "A90",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.44237, 96055.00000)"
+        },
+        {
+          "id": "A91",
+          "title": "[pdt] Setup Audit Payment of Core Repository"
+        },
+        {
+          "id": "A92",
+          "title": "[pdt] Setup Remaining OTC (CoinGecko: 0.40350, 97136.00000)"
+        },
+        {
+          "id": "A93",
+          "title": "Recognize Liquidity Alliance as a SubDAO"
+        },
+        {
+          "id": "A94",
+          "title": "[pdt] Setup LA participation"
+        },
+        {
+          "id": "A95",
+          "title": "[pdt] Funding for Ethereum ASTRO OTC"
+        },
+        {
+          "id": "A96",
+          "title": "[axelar-recovery] Withdraw too many assets from recovery"
+        },
+        {
+          "id": "A97",
+          "title": "[axelar-recovery] Refund 650796.000000 LUNA to recovery multi-sig"
+        },
+        {
+          "id": "A98",
+          "title": "[DAO] Instantiate Neutron Account"
+        },
+        {
+          "id": "A99",
+          "title": "[axelar-recovery] Claim all"
+        },
+        {
+          "id": "A100",
+          "title": "[pdt] Enable Milestone 1"
+        },
+        {
+          "id": "A101",
+          "title": "[astro-wars] test transfer 100 xASTRO to Neutron"
+        },
+        {
+          "id": "A102",
+          "title": "[astro-wars] transfer xASTRO to Neutron"
+        },
+        {
+          "id": "A103",
+          "title": "[astro-wars] Lockup all xASTRO"
+        },
+        {
+          "id": "A104",
+          "title": "[astro-wars] vote 80% for LUNA-USDC, 20% for USDC-USDT"
+        },
+        {
+          "id": "A105",
+          "title": "[pdt] Enable Milestone 2"
+        },
+        {
+          "id": "A106",
+          "title": "[decision] Put up Terra Text Governance Proposal to remove WHALE from single Alliance?"
+        },
+        {
+          "id": "A107",
+          "title": "[pdt] Setup Votion Project Grant"
+        },
+        {
+          "id": "A108",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.24509, 96797.00000)"
+        },
+        {
+          "id": "A109",
+          "title": "[pdt] Transfer to PD Multi-Sig"
+        },
+        {
+          "id": "A110",
+          "title": "[pdt] Transfer for CAPA buyback"
+        },
+        {
+          "id": "A111",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.25511, 97634.00000)"
+        },
+        {
+          "id": "A112",
+          "title": "[pdt] Setup LA Secondary Frontend Grant"
+        },
+        {
+          "id": "A113",
+          "title": "[pdt] Setup payments infra & mods (2025-02-15 - 2025-06-15)"
+        },
+        {
+          "id": "A114",
+          "title": "[LA+PDT] Redelegate VT"
+        },
+        {
+          "id": "A115",
+          "title": "[LA+PDT] Redelegate VT"
+        },
+        {
+          "id": "A116",
+          "title": "[pdt] Enable Milestone 1 for Votion & LA Frontend"
+        },
+        {
+          "id": "A117",
+          "title": "[asset-staking] Remove SWTH-rSWTH from single gauge whitelist"
+        },
+        {
+          "id": "A118",
+          "title": "[pdt] Setup Streamweave Launch Grant"
+        },
+        {
+          "id": "A119",
+          "title": "[pdt] Setup payments infra"
+        },
+        {
+          "id": "A120",
+          "title": "[pdt] Setup payments mods"
+        },
+        {
+          "id": "A121",
+          "title": "[asset-staking] Remove ampWHALE-WHALE and bWHALE-WHALE from single gauge whitelist"
+        },
+        {
+          "id": "A122",
+          "title": "[asset-staking] Remove WHALE-LUNA from project gauge whitelist"
+        },
+        {
+          "id": "A123",
+          "title": "[asset-staking] Add ampROAR-ROAR Astroport pair to Single"
+        },
+        {
+          "id": "A124",
+          "title": "[pdt] Setup stewardship payments"
+        },
+        {
+          "id": "A125",
+          "title": "[stewardship] Replace member wallet"
+        },
+        {
+          "id": "A126",
+          "title": "[asset-staking] move USDC-USDT pair to Single"
+        },
+        {
+          "id": "A127",
+          "title": "[pdt] Setup payments comms"
+        },
+        {
+          "id": "A128",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.14905, 77249.00000)"
+        },
+        {
+          "id": "A129",
+          "title": "[asset-staking] fix USDC-USDT WW pair"
+        },
+        {
+          "id": "A130",
+          "title": "[pdt] Setup landing page payments (2025-04-01 - 2025-07-01)"
+        },
+        {
+          "id": "A131",
+          "title": "[astro] Vote for all Astroport proposals"
+        },
+        {
+          "id": "A132",
+          "title": "[pdt] Setup core payments"
+        },
+        {
+          "id": "A133",
+          "title": "[ops] Deploy 200k LUNA liquidity to Demex Nitron (Carbon)"
+        },
+        {
+          "id": "A134",
+          "title": "Refund Hydro Incentives Round 5"
+        },
+        {
+          "id": "A135",
+          "title": "[pdt] Deploy liquidity incentives to TLA"
+        },
+        {
+          "id": "A136",
+          "title": "[LA+PDT] Redelegate VT"
+        },
+        {
+          "id": "A137",
+          "title": "[pdt] Claim funds for setting up vote incentives"
+        },
+        {
+          "id": "A138",
+          "title": "[ops] REDO - Deploy 200k LUNA liquidity to Demex Nitron (Carbon) "
+        },
+        {
+          "id": "A139",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.17775, 93798.00000)"
+        },
+        {
+          "id": "A140",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.17804, 93693.00000)"
+        },
+        {
+          "id": "A141",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A142",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.21579, 103220.00000)"
+        },
+        {
+          "id": "A143",
+          "title": "[pdt] Deploy wBTC.axl-USDC liquidity"
+        },
+        {
+          "id": "A144",
+          "title": "[astro-wars] transfer xASTRO to Neutron"
+        },
+        {
+          "id": "A145",
+          "title": "[astro-wars] Lockup all xASTRO"
+        },
+        {
+          "id": "A146",
+          "title": "[pdt] Deploy wBTC.axl-USDC liquidity"
+        },
+        {
+          "id": "A147",
+          "title": "[asset-staking] Remove BNB.wh, SOL.wh and wETH.wh assets"
+        },
+        {
+          "id": "A148",
+          "title": "[wh] Withdraw astroport pools + transfer whitewhale LP to operations wallet"
+        },
+        {
+          "id": "A149",
+          "title": "[asset-staking] Add LUNA-WBNB AXL and LUNA-WBTC EUREKA to bluechip"
+        },
+        {
+          "id": "A150",
+          "title": "[pdt] Cancel OTC"
+        },
+        {
+          "id": "A151",
+          "title": "[pdt] Enable Milestones for Streamweave and LA Frontend"
+        },
+        {
+          "id": "A152",
+          "title": "[pdt] Refund Hydro Incentives Round 6"
+        },
+        {
+          "id": "A153",
+          "title": "[wh] RETRY - Withdraw astroport pools + transfer whitewhale LP to operations wallet"
+        },
+        {
+          "id": "A154",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A155",
+          "title": "[pdt] Refund Hydro Incentives Round 8"
+        },
+        {
+          "id": "A156",
+          "title": "Unwrap WH assets"
+        },
+        {
+          "id": "A157",
+          "title": "[upgrade] Proposal deposit reimbursement"
+        },
+        {
+          "id": "A158",
+          "title": "[pdt] Setup payments infra"
+        },
+        {
+          "id": "A159",
+          "title": "[pdt] Setup stewardship payments"
+        },
+        {
+          "id": "A160",
+          "title": "[pdt] Setup core payments"
+        },
+        {
+          "id": "A161",
+          "title": "[pdt] Setup Innovator Grant 1"
+        },
+        {
+          "id": "A162",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.17276, 118160.00000)"
+        },
+        {
+          "id": "A163",
+          "title": "[pdt] Setup payments mods"
+        },
+        {
+          "id": "A164",
+          "title": "[pdt] Setup payments comms"
+        },
+        {
+          "id": "A165",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.18612, 118353.00000)"
+        },
+        {
+          "id": "A166",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume for 2 months"
+        },
+        {
+          "id": "A167",
+          "title": "[axelar-recovery] Cancel open OTCs, withdraw remaining 307 LUNA, transfer 0.583 WBTC"
+        },
+        {
+          "id": "A168",
+          "title": "[asset-staking] Migrate LUNA-WBTC EUREKA to new pool"
+        },
+        {
+          "id": "A169",
+          "title": "[axelar-recovery] claim remaining BTC for liquidity deployment"
+        },
+        {
+          "id": "A170",
+          "title": "[astro-wars] transfer xASTRO to Neutron"
+        },
+        {
+          "id": "A171",
+          "title": "[liquidity] transfer wbtc + usdc to Liquidity Multi-Sig"
+        },
+        {
+          "id": "A172",
+          "title": "[pdt] Deploy wBTC-USDC liquidity + cancel OTC"
+        },
+        {
+          "id": "A173",
+          "title": "[pdt] Setup delegation program payments"
+        },
+        {
+          "id": "A174",
+          "title": "[pdt] Cancel discontinued grant"
+        },
+        {
+          "id": "A175",
+          "title": "[pdt] Enable Milestone for Votion"
+        },
+        {
+          "id": "A176",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.15256)"
+        },
+        {
+          "id": "A177",
+          "title": "[pdt] Transfer LUNA to Delegation Program"
+        },
+        {
+          "id": "A178",
+          "title": "[asset-staking] Migrate LUNA-arbLUNA to new pool"
+        },
+        {
+          "id": "A179",
+          "title": "[pdt] Cancel + Setup OTC (CoinGecko: 0.14875)"
+        },
+        {
+          "id": "A180",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A181",
+          "title": "[pdt] Transfer for Content Bounties"
+        },
+        {
+          "id": "A182",
+          "title": "Accept SubDAO Request"
+        },
+        {
+          "id": "A183",
+          "title": "[tla] Adding vote incentives"
+        },
+        {
+          "id": "A184",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A185",
+          "title": "[pdt] Transfer LUNA to Stewardship Multi-Sig"
+        },
+        {
+          "id": "A186",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A187",
+          "title": "[tla] Withdraw bribes 151 + Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A188",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A189",
+          "title": "[pdt] Setup Creda Grant"
+        },
+        {
+          "id": "A190",
+          "title": "[pdt] Setup Creda Grant (missed a milestone)"
+        },
+        {
+          "id": "A191",
+          "title": "[pdt] Setup payments"
+        },
+        {
+          "id": "A192",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.13724, 113029.00000)"
+        },
+        {
+          "id": "A193",
+          "title": "[asset-staking] Whitelist LUNA-FUEL in project"
+        },
+        {
+          "id": "A194",
+          "title": "[LA+PDT] Redelegate VT (PDT)"
+        },
+        {
+          "id": "A195",
+          "title": "[LA+PDT] Redelegate VT (Single)"
+        },
+        {
+          "id": "A196",
+          "title": "[LA+PDT] Redelegate VT (Bluechip)"
+        },
+        {
+          "id": "A197",
+          "title": "[LA+PDT] Redelegate VT (Stable)"
+        },
+        {
+          "id": "A198",
+          "title": "[LA+PDT] Redelegate VT (Project)"
+        },
+        {
+          "id": "A199",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A200",
+          "title": "[asset-staking] Whitelist LUNA-PAXG in bluechip"
+        },
+        {
+          "id": "A201",
+          "title": "[asset-staking] Remove dATOM-ATOM LPs"
+        },
+        {
+          "id": "A202",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A203",
+          "title": "[Proposal] Deposit LUNA into Proposal - Revenue Generating PoL Deployment"
+        },
+        {
+          "id": "A204",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.11108, 89277.00000)"
+        },
+        {
+          "id": "A205",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.12157, 89859.00000)"
+        },
+        {
+          "id": "A206",
+          "title": "[astro-wars] transfer xASTRO to Neutron"
+        },
+        {
+          "id": "A207",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.13575, 89302.00000)"
+        },
+        {
+          "id": "A208",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.19922, 90347.00000)"
+        },
+        {
+          "id": "A209",
+          "title": "[pdt] Enable Milestone 1-3 for Creda"
+        },
+        {
+          "id": "A210",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A211",
+          "title": "[pdt] Setup Contribution Bonus"
+        },
+        {
+          "id": "A212",
+          "title": "[pdt] Transfer LUNA to Liquidity Alliance Multi-Sig"
+        },
+        {
+          "id": "A213",
+          "title": "[pdt] Enable Milestone 4 for Creda"
+        },
+        {
+          "id": "A214",
+          "title": "[asset-staking] Remove LUNA-SWTH LPs"
+        },
+        {
+          "id": "A215",
+          "title": "Redo of [pdt] Enable Milestone 4 for Creda"
+        },
+        {
+          "id": "A216",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A217",
+          "title": "[pdt] Setup comms Typefully Payment 2025, 2026"
+        },
+        {
+          "id": "A218",
+          "title": "[LA+PDT] Redelegate VT"
+        },
+        {
+          "id": "A219",
+          "title": "[pdt] Setup payments"
+        },
+        {
+          "id": "A220",
+          "title": "[pdt] Setup stewardship payments (2026-02-01 - 2026-03-01)"
+        },
+        {
+          "id": "A221",
+          "title": "[pdt] Setup Keplr Infra Service Agreement (2026-01-27 - 2027-01-27)"
+        },
+        {
+          "id": "A222",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A223",
+          "title": "[pdt] Transfer LUNA to Liquidity Alliance Multi-Sig"
+        },
+        {
+          "id": "A224",
+          "title": "[pdt] Transfer LUNA to Phoenix Stewardship Multi-Sig"
+        },
+        {
+          "id": "A225",
+          "title": "Claim LUNA"
+        },
+        {
+          "id": "A226",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.06765, 67326.00000)"
+        },
+        {
+          "id": "A227",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.06277, 66136.00000)"
+        },
+        {
+          "id": "A228",
+          "title": "Test burn 1 LUNA"
+        },
+        {
+          "id": "A229",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A230",
+          "title": "[asset-staking] Remove all wstETH pools"
+        },
+        {
+          "id": "A231",
+          "title": "[pdt] Setup stewardship payments"
+        },
+        {
+          "id": "A232",
+          "title": "[pdt] Setup Slack Refund"
+        },
+        {
+          "id": "A233",
+          "title": "Burn 58498.336816 LUNA"
+        },
+        {
+          "id": "A234",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A235",
+          "title": "[liquidity]: Withdraw wsteth liquidity to unwrap"
+        },
+        {
+          "id": "A236",
+          "title": "[asset-staking] Remove wBTC pools (wBTC.osmo + wBTC.atom) + add wBTC.atom-PAXG pool + vcaWBTC"
+        },
+        {
+          "id": "A237",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.06271, 74956.00000, 4777.48000)"
+        },
+        {
+          "id": "A238",
+          "title": "Transfer wstETH to Operations Wallet"
+        },
+        {
+          "id": "A239",
+          "title": "[tla] Adding launch incentives"
+        },
+        {
+          "id": "A240",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.06958, 76637.00000, 4603.98000)"
+        },
+        {
+          "id": "A241",
+          "title": "[pdt] Setup stewardship payments"
+        },
+        {
+          "id": "A242",
+          "title": "Withdraw wBTC.osmo and wBTC.axl and discontinued pairs"
+        },
+        {
+          "id": "A243",
+          "title": "[pdt] Transfer wBTC and PAXG to Liquidity Alliance Multi-Sig"
+        },
+        {
+          "id": "A244",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A245",
+          "title": "Transfer wBTC.osmo to Operations Wallet"
+        },
+        {
+          "id": "A246",
+          "title": "[pdt] Setup payments"
+        },
+        {
+          "id": "A247",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A248",
+          "title": "[pdt] Setup payments ambassadors"
+        },
+        {
+          "id": "A250",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A251",
+          "title": "[pdt] Transfer LUNA to Liquidity Alliance Multi-Sig"
+        },
+        {
+          "id": "A252",
+          "title": "[pdt] Fund Relayer"
+        },
+        {
+          "id": "A253",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A254",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.04770, 64303.00000)"
+        },
+        {
+          "id": "A255",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.05151, 64061.00000)"
+        },
+        {
+          "id": "A256",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.05217, 78649.00000, 4590.81000)"
+        },
+        {
+          "id": "A257",
+          "title": "[pdt] Convert 10 USDC.noble to 10 USDC.inj"
+        },
+        {
+          "id": "A258",
+          "title": "[pdt] Approve Estima Grant"
+        },
+        {
+          "id": "A259",
+          "title": "[asset-staking] Remove ampROAR-ROAR Astroport Pool from single"
+        },
+        {
+          "id": "A260",
+          "title": "[pdt] Transfer LUNA to Phoenix Stewardship Multi-Sig"
+        },
+        {
+          "id": "A261",
+          "title": "Claim LUNA"
+        },
+        {
+          "id": "A262",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A263",
+          "title": "[pdt] Setup USDC.inj Migration App - Part 1"
+        },
+        {
+          "id": "A264",
+          "title": "[pdt] Transfer USDC.noble for seeding liquidity in USDC.inj transmuter"
+        },
+        {
+          "id": "A265",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.05383, 80926.00000, 4368.39000)"
+        },
+        {
+          "id": "A266",
+          "title": "[pdt] Setup Estima Grant - Advanced Liquidity Layer & DEX for Terra"
+        },
+        {
+          "id": "A267",
+          "title": "[asset-staking] Whitelist 4, Remove 8"
+        },
+        {
+          "id": "A268",
+          "title": "[tla] Remove Bribes + Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A269",
+          "title": "2. Burn 107723.389777 LUNA"
+        },
+        {
+          "id": "A270",
+          "title": "[pdt] Setup Lion Packs: Matching Gacha Grant"
+        },
+        {
+          "id": "A271",
+          "title": "[pdt] Enable Milestone 1: Kickoff for Estima"
+        },
+        {
+          "id": "A272",
+          "title": "Stewardship Membership Update"
+        },
+        {
+          "id": "A273",
+          "title": "[pdt] Setup payments"
+        },
+        {
+          "id": "A274",
+          "title": "[pdt] Setup payments infra"
+        },
+        {
+          "id": "A275",
+          "title": "Withdraw USDC.noble Liquidity to redeploy as USDC.inj Liquidity"
+        },
+        {
+          "id": "A276",
+          "title": "Withdraw USDC.noble Liquidity to redeploy as USDC.inj Liquidity"
+        },
+        {
+          "id": "A277",
+          "title": "[pdt] Setup payments - zzw3"
+        },
+        {
+          "id": "A278",
+          "title": "[pdt] Setup payments - ml73"
+        },
+        {
+          "id": "A279",
+          "title": "[pdt] Setup payments - wy0a"
+        },
+        {
+          "id": "A280",
+          "title": "Swap USDC.noble to USDC.inj"
+        },
+        {
+          "id": "A281",
+          "title": "[asset-staking] Whitelist 0, Remove 1"
+        },
+        {
+          "id": "A282",
+          "title": "[asset-staking] Whitelist 0, Remove 2"
+        },
+        {
+          "id": "A283",
+          "title": "Provide Liquidity in USDC.inj again"
+        },
+        {
+          "id": "A284",
+          "title": "[asset-staking] Whitelist 0, Remove 1"
+        },
+        {
+          "id": "A285",
+          "title": "[pdt] Convert first batch of USDC.n to USDC.inj"
+        },
+        {
+          "id": "A286",
+          "title": "Transfer USDC.n-USDT liquidity to Operations Wallet to convert to USDC.inj"
+        },
+        {
+          "id": "A287",
+          "title": "[asset-staking] Whitelist 1, Remove 0"
+        },
+        {
+          "id": "A288",
+          "title": "[tla] Remove Bribes + Adding vote incentives based on trading efficiency + volume"
+        },
+        {
+          "id": "A289",
+          "title": "[tla] Adding vote incentives based on trading efficiency + volume"
+        }
+      ],
+      "no": [
+        {
+          "id": "A57",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.40399, 91413.00000)",
+          "status": "rejected"
+        },
+        {
+          "id": "A58",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.40399, 91413.00000)",
+          "status": "rejected"
+        },
+        {
+          "id": "A189",
+          "title": "[pdt] Setup Creda Grant",
+          "status": "rejected"
+        },
+        {
+          "id": "A288",
+          "title": "[tla] Remove Bribes + Adding vote incentives based on trading efficiency + volume",
+          "status": "rejected"
+        }
+      ],
+      "abstain": [
+        {
+          "id": "A85",
+          "title": "[pdt] Setup Boost DAO Project Grant",
+          "status": "executed"
+        },
+        {
+          "id": "A284",
+          "title": "[asset-staking] Whitelist 0, Remove 1",
+          "status": "executed"
+        }
+      ]
+    },
+    "MB_current": {
+      "address": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+      "counts": {
+        "not_recorded": 154,
+        "yes": 135
+      },
+      "recent_counts": {
+        "yes": 15,
+        "not_recorded": 6
+      },
+      "authored": [],
+      "no": [],
+      "abstain": [],
+      "observed_window": "A126\u2013A289: 135 ballots in 164 proposals (82.3%)",
+      "combined_with_prior": "253 ballots: 252 YES, 1 NO, zero abstain",
+      "treasury_usdc_total": 57096.0,
+      "native_4853": "no ballot"
+    },
+    "MB_prior": {
+      "address": "terra15vwmgac9tlcgkrkjn4rq3r0md003ufsqp64vaw",
+      "counts": {
+        "yes": 117,
+        "no": 1,
+        "not_recorded": 171
+      },
+      "recent_counts": {
+        "not_recorded": 21
+      },
+      "authored": [],
+      "no": [
+        {
+          "id": "A28",
+          "title": "[pdt] Transfer 40k LUNA for Long Term Alignment Program",
+          "status": "closed"
+        }
+      ],
+      "abstain": [],
+      "observed_window": "A1\u2013A125: 118 ballots in 125 proposals (94.4%)",
+      "native_4853": "no ballot"
+    },
+    "Vini": {
+      "address": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+      "counts": {
+        "yes": 112,
+        "not_recorded": 174,
+        "no": 2,
+        "abstain": 1
+      },
+      "recent_counts": {
+        "yes": 11,
+        "not_recorded": 10
+      },
+      "authored": [
+        {
+          "id": "A249",
+          "title": "[pdt]  Funding atrium-marketplace (Solid) security audit."
+        }
+      ],
+      "no": [
+        {
+          "id": "A55",
+          "title": "[asset-staking] Adding LUNA-CAPA to project and ampCAPA to single gauge whitelist",
+          "status": "executed"
+        },
+        {
+          "id": "A258",
+          "title": "[pdt] Approve Estima Grant",
+          "status": "rejected"
+        }
+      ],
+      "abstain": [
+        {
+          "id": "A189",
+          "title": "[pdt] Setup Creda Grant",
+          "status": "rejected"
+        }
+      ],
+      "observed_window": "115 ballots in 289 proposals (39.8%); no joining-window adjustment inferred",
+      "treasury_usdc_total": 66480.0,
+      "eris_fixed_multisig_weight": 10,
+      "eris_multisig_record": "8 YES ballots in 9 proposals; no ballot on proposal 8; all recorded ballots YES",
+      "native_4853": "no ballot"
+    },
+    "Rose": {
+      "address": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+      "counts": {
+        "yes": 231,
+        "not_recorded": 48,
+        "no": 9,
+        "abstain": 1
+      },
+      "recent_counts": {
+        "not_recorded": 5,
+        "yes": 14,
+        "no": 2
+      },
+      "authored": [],
+      "no": [
+        {
+          "id": "A28",
+          "title": "[pdt] Transfer 40k LUNA for Long Term Alignment Program",
+          "status": "closed"
+        },
+        {
+          "id": "A59",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.50059, 90843.00000)",
+          "status": "rejected"
+        },
+        {
+          "id": "A60",
+          "title": "[axelar-recovery] Setup OTC (CoinGecko: 0.50059, 90843.00000)",
+          "status": "rejected"
+        },
+        {
+          "id": "A106",
+          "title": "[decision] Put up Terra Text Governance Proposal to remove WHALE from single Alliance?",
+          "status": "passed"
+        },
+        {
+          "id": "A110",
+          "title": "[pdt] Transfer for CAPA buyback",
+          "status": "closed"
+        },
+        {
+          "id": "A205",
+          "title": "[pdt] Setup OTC (CoinGecko: 0.12157, 89859.00000)",
+          "status": "executed"
+        },
+        {
+          "id": "A258",
+          "title": "[pdt] Approve Estima Grant",
+          "status": "rejected"
+        },
+        {
+          "id": "A272",
+          "title": "Stewardship Membership Update",
+          "status": "rejected"
+        },
+        {
+          "id": "A288",
+          "title": "[tla] Remove Bribes + Adding vote incentives based on trading efficiency + volume",
+          "status": "rejected"
+        }
+      ],
+      "abstain": [
+        {
+          "id": "A31",
+          "title": "[alignment] Liquid stake 40k LUNA",
+          "status": "executed"
+        }
+      ],
+      "observed_window": "241 ballots in 289 proposals (83.4%)",
+      "treasury_usdc_total": 46745.7,
+      "otc_luna_receipt": 237323.047934,
+      "otc_wbtc_supplied": 0.19657723,
+      "native_4853": "no ballot",
+      "eris_otc": "237,323.047934 LUNA received from Treasury; 0.19657723 WBTC supplied, memo www.erisprotocol.com"
+    }
+  },
+  "pair_agreement": [
+    {
+      "a": "Philipp",
+      "b": "MB_current",
+      "shared": 123,
+      "same": 122,
+      "different": 1,
+      "same_pct": 99.2
+    },
+    {
+      "a": "Philipp",
+      "b": "MB_prior",
+      "shared": 117,
+      "same": 113,
+      "different": 4,
+      "same_pct": 96.6
+    },
+    {
+      "a": "Philipp",
+      "b": "Vini",
+      "shared": 102,
+      "same": 98,
+      "different": 4,
+      "same_pct": 96.1
+    },
+    {
+      "a": "Philipp",
+      "b": "Rose",
+      "shared": 228,
+      "same": 216,
+      "different": 12,
+      "same_pct": 94.7
+    },
+    {
+      "a": "MB_current",
+      "b": "MB_prior",
+      "shared": 0,
+      "same": 0,
+      "different": 0,
+      "same_pct": null
+    },
+    {
+      "a": "MB_current",
+      "b": "Vini",
+      "shared": 52,
+      "same": 51,
+      "different": 1,
+      "same_pct": 98.1
+    },
+    {
+      "a": "MB_current",
+      "b": "Rose",
+      "shared": 106,
+      "same": 103,
+      "different": 3,
+      "same_pct": 97.2
+    },
+    {
+      "a": "MB_prior",
+      "b": "Vini",
+      "shared": 31,
+      "same": 30,
+      "different": 1,
+      "same_pct": 96.8
+    },
+    {
+      "a": "MB_prior",
+      "b": "Rose",
+      "shared": 101,
+      "same": 96,
+      "different": 5,
+      "same_pct": 95.0
+    },
+    {
+      "a": "Vini",
+      "b": "Rose",
+      "shared": 72,
+      "same": 68,
+      "different": 4,
+      "same_pct": 94.4
+    }
+  ],
+  "notes": [
+    "Missing ballot is not NO or abstention. Agreement does not prove coordination. Payment totals are scoped to 2 Jan\u201324 Oct 2026 and are not lifetime income."
+  ]
+}

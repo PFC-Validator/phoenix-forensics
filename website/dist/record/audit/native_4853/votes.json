@@ -1,0 +1,921 @@
+{
+  "votes": [
+    {
+      "proposal_id": "4853",
+      "voter": "terra1q8w4u2wyhx574m70gwe8km5za2ptanny95la5z",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1p8459spw3xsun8nm3rcwj5ptsy7r8vdxw5cuz4",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1pgyelqv0hwjavgf6vhdm4e4pt766wfxxcdshlv",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1pkm8fa72cvkxjlvleecc3ynuf2gm9lx2tw8rra",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1pet430t7ykswxuyhh56d4gk6rt7qgu9as43fnu",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1pectvqt502w2246vg6tm29c7e3kf9uz0g9ktqq",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1rfn8u5ts84hgtwgqljzscvpgwc73vh6s985jx3",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1r09kspwckc5s4htljst7hh7padfpf7gf3ygtca",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1r0kg3zka8kulupy5t8q288fdq53qx7kxag3rl2",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra19myv3edl3kgn8ajz0j3unh6z80r0u7sgelx067",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1xx7urrkusgyf4vknxlvjvfefew0kxpf45uwaqj",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1xg8dnp9jtxn0g8dpn73nl7jatm0dtsmg933m4u",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1xgejf5yvc2ff4ddrd4nuvcmexx5sn94aadtgmt",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1xkyrckxgltjc6jp4udyp00s5k8hlzncwdkm7pf",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra188e99yz54744uhr8xjfxmmplhnuw75xeamclej",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra18g3w4fe50cu9upcc59vy7295kgu9w00j2zy0eh",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1gxfqum5qz2nxt5mdv8atvldehk3cypk2euyzyx",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1g2q6xx8z05wa2ukqg2j0jdcqql5pw6hx6qk2re",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1g5tn2xq4m0ch0c7nxdr4usf08aqfnu2udey6ar",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1fddtk8ulun2xwqavf9ukvnl02vfdk22h2yng58",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1fs66qfyhp6gqqemxekj3yk7wk2vukymu9czqmg",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra12g5a0p9yylfjcaw3ah83l0ct09gmn7dcwk54qh",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1twcwxdlfynvcz0cwasy5c5963mrtrd88rqv7x2",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1vv63kw6a4raueauqkyvydsu73gft7g2acfg6el",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1v5xjz279t4244lk9rpaupnxl7v7rnsp9m63ywn",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1vcd42qfvlvnjwaw7hvl6y32wrzqxvas657gpqk",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1vumgtqe0qcrm2qzmydaw4ecnwkwj7avavmxucf",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1dqcr3pgv3wvpg3788rcps38gwcdgrl8nx5k6y9",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1d2c3pgnsr2hhltc5wjxh749rh6szjmspjcz5tr",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1djm4z6lth3hrvtqz0apqgtam4zh3n8rn0nkk67",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1dkgjw7njm993hxv84fwlhhmjpykwycdvuzjfnu",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1wdymftapg5pcvf2aqw4pd0yuuh5w9m6yqzlpxl",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1wavtmpcsg8ns63ppddjvlvln8na30f5r3frhdq",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra10ge6t62gzesz378e09kkgqvx9ev7tf6xcl0as0",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra10c04ysz9uznx2mkenuk3j3esjczyqh0j7gawjc",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra10m49wffljapsatyayq6wrldhy8qkzcs09zne28",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1s6j9wxyprdsxmdf6mvsegsldvmtk0p92pjjqfh",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1sl5vs6gtyuyldn8z0w4luw3vgzq5dn8tsukje8",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra13rna0l3mwyye7kvkwf8vm5dt40fdnwggqratvr",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra13ym9xeznvcpwyr9ytte3cf433zdkygq88v6wfr",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1jpqrauxusamlwk28dvy0pjjw9knp2w6d06wpe4",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1j5dplm2harq2ktu5y7g9uqrje6s2gu389tha2k",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1j4cc2p4f4t4m3z37gumr6cr64vm605aa4ph956",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1jcdntlxtq8l68ulz6fmavzfwqhh9gz3ve82drt",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1j657wffpjdghjzwlahvzl47rlq22fjkh2eaw6h",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1nt44kk5hyux5dyvtawhuu4p95hyp6ruv2ckpkw",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1n0esycjgwc67aym9y7ep577ftmqtwf3vzqqgms",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra15r9f8y0vqauca6y2ts7fysg5h20c33l6pspz93",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra15y2jy3uatqlavdmjkfr779dydgjqk43ar3mwyl",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra15x46uzz7ztaf2mc3xwegry352224kqswgekkfh",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra15hn6t9g7r2cwaqrgu4g24vwujevu86auzkhcw9",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra15u0eghztgv3jkkhf6hterf397mjss9ncpr7j6l",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1kyvvrga0qct580xfey02z7anr097ta73evvdnn",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1kepapcnh78hsk8nx2u9nv05rn7vjwwf4fvccj0",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1kuq4cnstwrhe32uqjj7t6kwpc229xkerz0lhvd",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1kupcpy8wjkjj62j6thcphnl52y2ufxw6mmdwvd",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1hr7svdp2rga9vf3ry95sx7g5wyspgwmg94qac8",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1h238max7vl3kzqylee3t247d80v94l4tn2q7xw",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1hvqw5jpfwervu0xx0k3d4ywq77wpfsqy8w47f4",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1hsh5g0rtgryt6e270c7fp37p7yp97x0qd999sp",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1cqc26lnatzxvu0z5nd4yx8m4ecllkm7jlj6nna",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1c6s3cnzt09hh2sjqwhxw2m34yshkphkfxdgvc5",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1eq9vegrr4uygg9sawawttyrfnjh7t5c7a2c8qy",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1ed3nvkwug9csjtsqrvvxlqwfeuk8t6n46lddax",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1ew4fn8xp3jx72cjnac4ey0slfma2322txv4yc9",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1en0qzvutst4g5aze9hx9j3dclxx9qzgqslrl8t",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra16lqtdsdr3a2fapflulvyr20gx4vjd5akf2qhcg",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1mgpgp53tynj4djmckxdjhufa7q8lqqjuwu0zsg",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1mdye6w3787x48mwjwe4cykj4nmtqrfdf8m96kg",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1mldlel89d8r0lspxa3val3ufzkzmx47wrj9jxh",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1ad5d7k5nk2fpsvzylr586p8sz04thrf4dq874y",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1ahuu2ag403lkg24avx46su56s2htfaug9j9kp6",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1aa6f2qeu0hrqpsxe4rggz0k7e43jfce43j0lhe",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1alxk3fmhcl0ga80gl9yj9zp3ezjm4sdh8a9l9c",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra17xdw3zunn06ahl509tmyf2k302pput5hv4030n",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra17ux88604vmzcfduv8eul462snp74u4265l7k53",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1lqdmhv7psyh5uhdhmt9d7z9kweu00udlrtqzdn",
+      "options": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1l920a79akuc98hz4389axf9ctcymrf5aylcrh4",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1lnlasdy5r2hdjz3ta2r86ufkz309zdjvqlmygx",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcxuf76",
+      "options": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    },
+    {
+      "proposal_id": "4853",
+      "voter": "terra1l63t9c0nruewg5zdrmv8pvcxdg0az6fqg8rjh9",
+      "options": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "metadata": ""
+    }
+  ],
+  "pagination": {
+    "next_key": null,
+    "total": "0"
+  }
+}

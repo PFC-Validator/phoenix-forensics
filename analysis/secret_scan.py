@@ -22,6 +22,8 @@ for f in FILES:
  if b'\0' in data[:8192]:continue
  for kind,pattern in PATTERNS.items():
   for match in pattern.finditer(data):
+   # Command substitution retrieves a credential at runtime; it is not a stored secret.
+   if kind=='generic_secret_assignment' and b'="$(' in match.group(0):continue
    findings.append({'file':f,'type':kind,'line':data.count(b'\n',0,match.start())+1})
 sensitive_names={'.env','.env.local','.env.production','id_rsa','id_dsa','credentials','credentials.json','.git-credentials'}
 filename_issues=[f for f in FILES if any(part in sensitive_names or part.endswith(('.pem','.p12','.pfx','.key')) for part in pathlib.PurePosixPath(f).parts)]

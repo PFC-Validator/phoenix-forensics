@@ -1,0 +1,30 @@
+{
+  "data": {
+    "admin": "terra15l7567hhxttv2k5enmu4k8uez8e3cx3sxqfg6fsq4zzuwuzy2fqsjq00gr",
+    "config": {
+      "name": "Phoenix Directive Veto Multi-Sig",
+      "description": "This Multi-Sig has veto rights over the Phoenix Directive Treasury contract. ",
+      "image_url": null,
+      "automatically_add_cw20s": true,
+      "automatically_add_cw721s": true,
+      "dao_uri": null
+    },
+    "pause_info": {
+      "unpaused": {}
+    },
+    "version": {
+      "contract": "crates.io:dao-dao-core",
+      "version": "2.5.0"
+    },
+    "proposal_modules": [
+      {
+        "address": "terra1ykz3hhlpxu7820vkn5ucfzlf4tx2wuqehg026n4x2ha08k4f0fwqw0jl8e",
+        "prefix": "A",
+        "status": "enabled"
+      }
+    ],
+    "voting_module": "terra19rcv689easxyt4w2h5aznpmkxdnvlmkmwsss7gszpwzqh2ftcmsqgqdkrd",
+    "active_proposal_module_count": 1,
+    "total_proposal_module_count": 1
+  }
+}

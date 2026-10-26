@@ -1,0 +1,22 @@
+{
+  "data": {
+    "members": [
+      {
+        "addr": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+        "weight": 25
+      },
+      {
+        "addr": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+        "weight": 25
+      },
+      {
+        "addr": "terra1gaxzcygjyz7gq8gq9tjy02qq38kcf84um9wy0a",
+        "weight": 25
+      },
+      {
+        "addr": "terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73",
+        "weight": 25
+      }
+    ]
+  }
+}

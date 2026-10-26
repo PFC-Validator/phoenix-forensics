@@ -1,0 +1,98 @@
+{
+  "1": {
+    "data": {
+      "votes": [
+        {
+          "voter": "terra13qjxhnw98lm36rxc9yjakkmulhpv7zctdc5zlz",
+          "vote": "yes",
+          "power": "1",
+          "rationale": null
+        },
+        {
+          "voter": "terra18gqpvh0vktgqena9728zuharqhc4628w9muwjw",
+          "vote": "yes",
+          "power": "1",
+          "rationale": null
+        },
+        {
+          "voter": "terra1j00tmfa8el568llp3y96dquc9j2fcczmccnsn0",
+          "vote": "yes",
+          "power": "1",
+          "rationale": null
+        },
+        {
+          "voter": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "vote": "abstain",
+          "power": "1",
+          "rationale": null
+        },
+        {
+          "voter": "terra1y8350u474qeha06kexnkk6jzanjv25x7pnl03e",
+          "vote": "yes",
+          "power": "1",
+          "rationale": null
+        }
+      ]
+    }
+  },
+  "2": {
+    "data": {
+      "votes": [
+        {
+          "voter": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "vote": "abstain",
+          "power": "1",
+          "rationale": null
+        },
+        {
+          "voter": "terra1y8350u474qeha06kexnkk6jzanjv25x7pnl03e",
+          "vote": "abstain",
+          "power": "1",
+          "rationale": null
+        }
+      ]
+    }
+  },
+  "3": {
+    "data": {
+      "votes": [
+        {
+          "voter": "terra1j00tmfa8el568llp3y96dquc9j2fcczmccnsn0",
+          "vote": "abstain",
+          "power": "1",
+          "rationale": null
+        },
+        {
+          "voter": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "vote": "abstain",
+          "power": "1",
+          "rationale": null
+        }
+      ]
+    }
+  },
+  "4": {
+    "data": {
+      "votes": [
+        {
+          "voter": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "vote": "abstain",
+          "power": "1",
+          "rationale": null
+        }
+      ]
+    }
+  },
+  "5": {
+    "data": {
+      "votes": [
+        {
+          "voter": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "vote": "abstain",
+          "power": "1",
+          "rationale": null
+        }
+      ]
+    }
+  }
+}

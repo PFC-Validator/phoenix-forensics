@@ -1,0 +1,23 @@
+{
+  "thinktank_wallet": "terra1y8350u474qeha06kexnkk6jzanjv25x7pnl03e",
+  "ryanlion_wallet": "terra1nrt0tcqc3kazztzfhyd2pf9q59p49ywu9g36w8",
+  "transfer": {
+    "txhash": "1D67ECAB44A5CC61825A210D051E1282A095A60B74DF614D4AD26CD38CDA556F",
+    "timestamp": "2026-10-22T13:11:30Z",
+    "amount_roar": "513657.706575846",
+    "token_contract": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv"
+  },
+  "a33": {
+    "ryan_vote_tx": "F2AF959329FDFB3C50B96A4560B7DD1A79B2E32CF5132CF85B3195B457BAC57A",
+    "ryan_vote_time": "2026-10-24T15:28:25Z",
+    "ryan_power": "60002000000000000",
+    "total_power": "229413988945259502",
+    "yes_power": "60082587531442425",
+    "ryan_share_of_total_percent": 26.154464370660975,
+    "ryan_share_of_yes_percent": 99.86587206917437,
+    "expiration": "2026-10-26T13:16:42.590789Z",
+    "native_validator_yes_tx": "4B356AF4C770CDD9729FDC39451C086BA188EF5A82EB7F1D0FCBE2AF28C5A0D2",
+    "native_validator_yes_time": "2026-10-25T05:06:13Z"
+  },
+  "evidence_caution": "Direct transfer and DAO profile link support an operational wallet relationship, not proof of sole identity or motive. The transferred amount does not explain the much larger voting position."
+}
