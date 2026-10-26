@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/data/overlap-1-1.json`
 - **SHA-256:** `79b2804c08c4df718111c55216a966554f973c1a28f702452ebcd00ff92c916d`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.453366+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.577672+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.317505+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

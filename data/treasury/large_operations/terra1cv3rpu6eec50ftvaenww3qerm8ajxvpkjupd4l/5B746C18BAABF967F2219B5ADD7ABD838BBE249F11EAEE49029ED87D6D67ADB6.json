@@ -1,0 +1,429 @@
+{
+  "tx": {
+    "body": {
+      "messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+          "contract": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+          "msg": {
+            "execute_otc": {
+              "id": 111,
+              "offer_amount": "516462215"
+            }
+          },
+          "funds": [
+            {
+              "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+              "amount": "516462215"
+            }
+          ]
+        }
+      ],
+      "memo": "www.erisprotocol.com",
+      "timeout_height": "0",
+      "extension_options": [],
+      "non_critical_extension_options": []
+    },
+    "auth_info": {
+      "signer_infos": [
+        {
+          "public_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "Am6EaJmK6FTIxp5aIZGv80K2Qp4CHKBpXAUghmzHKh3S"
+          },
+          "mode_info": {
+            "single": {
+              "mode": "SIGN_MODE_DIRECT"
+            }
+          },
+          "sequence": "968"
+        }
+      ],
+      "fee": {
+        "amount": [
+          {
+            "denom": "uluna",
+            "amount": "3979"
+          }
+        ],
+        "gas_limit": "265227",
+        "payer": "",
+        "granter": ""
+      },
+      "tip": null
+    },
+    "signatures": [
+      "MobGuTAZYJbDszByREUDYR2KCj5ctkkw14xlgDwdQ/QtIMhu3vXlNv3HEp9gZnh/zPtgz8tcEtPkcJuVE5rOhA=="
+    ]
+  },
+  "tx_response": {
+    "height": "22938241",
+    "txhash": "5B746C18BAABF967F2219B5ADD7ABD838BBE249F11EAEE49029ED87D6D67ADB6",
+    "codespace": "",
+    "code": 0,
+    "data": "122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365",
+    "raw_log": "",
+    "logs": [],
+    "info": "",
+    "gas_wanted": "265227",
+    "gas_used": "203470",
+    "tx": {
+      "@type": "/cosmos.tx.v1beta1.Tx",
+      "body": {
+        "messages": [
+          {
+            "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+            "sender": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+            "contract": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "msg": {
+              "execute_otc": {
+                "id": 111,
+                "offer_amount": "516462215"
+              }
+            },
+            "funds": [
+              {
+                "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+                "amount": "516462215"
+              }
+            ]
+          }
+        ],
+        "memo": "www.erisprotocol.com",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+      },
+      "auth_info": {
+        "signer_infos": [
+          {
+            "public_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "Am6EaJmK6FTIxp5aIZGv80K2Qp4CHKBpXAUghmzHKh3S"
+            },
+            "mode_info": {
+              "single": {
+                "mode": "SIGN_MODE_DIRECT"
+              }
+            },
+            "sequence": "968"
+          }
+        ],
+        "fee": {
+          "amount": [
+            {
+              "denom": "uluna",
+              "amount": "3979"
+            }
+          ],
+          "gas_limit": "265227",
+          "payer": "",
+          "granter": ""
+        },
+        "tip": null
+      },
+      "signatures": [
+        "MobGuTAZYJbDszByREUDYR2KCj5ctkkw14xlgDwdQ/QtIMhu3vXlNv3HEp9gZnh/zPtgz8tcEtPkcJuVE5rOhA=="
+      ]
+    },
+    "timestamp": "2026-09-21T09:49:11Z",
+    "events": [
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "3979uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "3979uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "3979uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "sender",
+            "value": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "fee",
+            "value": "3979uluna",
+            "index": true
+          },
+          {
+            "key": "fee_payer",
+            "value": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "acc_seq",
+            "value": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l/968",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "signature",
+            "value": "MobGuTAZYJbDszByREUDYR2KCj5ctkkw14xlgDwdQ/QtIMhu3vXlNv3HEp9gZnh/zPtgz8tcEtPkcJuVE5rOhA==",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "action",
+            "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+            "index": true
+          },
+          {
+            "key": "module",
+            "value": "wasm",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "516462215ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "516462215ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "516462215ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "execute",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "wasm",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "index": true
+          },
+          {
+            "key": "action",
+            "value": "pdt/execute_otc",
+            "index": true
+          },
+          {
+            "key": "id",
+            "value": "111",
+            "index": true
+          },
+          {
+            "key": "returned",
+            "value": "9690691677",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "9690691677uluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "9690691677uluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "terra1cv3rpu6eec50ftvaenww3qerm8ajxvpkjupd4l",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "9690691677uluna",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      }
+    ]
+  }
+}

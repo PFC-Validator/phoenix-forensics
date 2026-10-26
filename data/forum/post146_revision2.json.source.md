@@ -3,7 +3,7 @@
 - **Artifact:** `data/forum/post146_revision2.json`
 - **SHA-256:** `c83a730dfb62fc2ca9932919699d035596ece3fd60cb73ce1c3a4f9497e7a7af`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.906837+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.429498+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.128040+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

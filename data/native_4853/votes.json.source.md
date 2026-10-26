@@ -3,7 +3,7 @@
 - **Artifact:** `data/native_4853/votes.json`
 - **SHA-256:** `9e52d7f23e3d7c95b210eed47b701c5d019ccad3c610caa7e40700d431afe313`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.899416+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.432692+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.131958+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/history/sources/forum-statements.json`
 - **SHA-256:** `7ae5e6cdd141af59ba519d50c6c44516ebe8fa344e9e8d999ccffc9ba156016e`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.433011+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.756151+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.495729+00:00
 - **Classification:** Website history record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

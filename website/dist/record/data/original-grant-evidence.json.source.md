@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/data/original-grant-evidence.json`
 - **SHA-256:** `161bac2f44c31d71f2823b4ecf5c273a0198a06e839be296be1fafc02c31907d`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.453531+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.578020+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.317800+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

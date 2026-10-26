@@ -3,7 +3,7 @@
 - **Artifact:** `website/source-records/original-pages/handover/index.html`
 - **SHA-256:** `a7b37a2cc0544d7349515830ae4505f02283db1bd1062e902a8442e5b1840045`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.490798+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.455789+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.180020+00:00
 - **Classification:** Preserved packet HTML
 - **Acquisition / transformation:** Read-only retrieval of supplied packet HTML.
 

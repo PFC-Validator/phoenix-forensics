@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/current/board_config.json`
 - **SHA-256:** `6b8bf277ff33eebf576a8e3d588fb72caf57f3bcdf82c454502f1ff5cb9c975b`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.414825+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.787690+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.534947+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `6b8bf277ff33eebf576a8e3d588fb72caf57f3bcdf82c454502f1ff5cb9c975b` (matches packet source hash)

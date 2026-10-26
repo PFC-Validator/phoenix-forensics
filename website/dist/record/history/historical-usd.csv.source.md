@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/history/historical-usd.csv`
 - **SHA-256:** `beac2e7d71ddc735e2216b46a7e00f4fcf17a278868dee3390a8452f422ee787`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.431628+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.464746+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.189952+00:00
 - **Classification:** Website history record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

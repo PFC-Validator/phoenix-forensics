@@ -3,7 +3,7 @@
 - **Artifact:** `data/phoenix/current_members.json`
 - **SHA-256:** `87ee214d9576c4212d34f8a56295bf34181df0398eff8f8a0f0514c4bb0261d9`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.904145+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.404376+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.090785+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

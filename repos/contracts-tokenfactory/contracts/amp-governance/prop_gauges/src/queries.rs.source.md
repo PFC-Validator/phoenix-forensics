@@ -3,7 +3,7 @@
 - **Artifact:** `repos/contracts-tokenfactory/contracts/amp-governance/prop_gauges/src/queries.rs`
 - **SHA-256:** `1dd9c8e63da9dcdd7e6ac685086bb95cc6d2c1adeecfef7a89921811c9b046bc`
 - **Artifact timestamp (UTC):** 2026-10-26T14:14:30.243532+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.453966+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.177666+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

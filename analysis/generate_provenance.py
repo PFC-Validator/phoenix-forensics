@@ -96,6 +96,48 @@ def for_path(rel):
         if name=='recent_votes.json':return derived(['data/mb_voting_record.json'],'analysis/export_data.py','Filtered to proposals created on/after 2026-09-26.')
     if p=='data/phoenix_board_votes_all.csv':return derived(['data/mb_voting_record.json'],'analysis/export_data.py','CSV projection of preserved A1–A289 records.')
     if p=='data/phoenix_board_votes_last4weeks.csv':return derived(['data/mb_voting_record.json'],'analysis/export_data.py','CSV filtered to proposals created on/after 2026-09-26.')
+    if p=='data/phoenix/director_profiles.json':
+        return derived(['data/mb_voting_record.json','data/treasury/outbound_transfers.json','data/eris_multisig/voters.json','data/eris_multisig/votes.json'],'analysis/director_profiles.py','Computed director vote counts, pair agreement, payment totals, and role comparisons; no new identity attribution.')
+    if p=='data/phoenix/director_vote_patterns.csv':
+        return derived(['data/mb_voting_record.json'],'analysis/director_profiles.py','Proposal-by-proposal comparison of all four directors.')
+    if p=='data/phoenix/rebel_profile.json':
+        return derived(['repos/phoenix-docs/treasury_launch.md','data/thinktank/','data/transfers/rebel_eris_invoice_2026-06-07.json','data/native_4853/votes.json','data/eris_multisig/hub_delegations.json'],'analysis/director_profiles.py','Separates Think Tank, published, multisig-2023, and Orbital validator addresses; no new attribution inferred.')
+    if p.endswith('_treasury_transactions.json') and p.startswith('data/phoenix/'):
+        name=pathlib.PurePosixPath(p).name.removesuffix('_treasury_transactions.json')
+        addr={'MB_current':'terra1vv9zaygt7csc4wnufwk4snq2jle2sdh73vml73','MB_prior':'terra15vwmgac9tlcgkrkjn4rq3r0md003ufsqp64vaw','Vini':'terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c','Rose':'terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3'}[name]
+        return direct([ARCHIVE+f"/cosmos/tx/v1beta1/txs?query=message.sender='{addr}'&limit=100&page=1&order_by=ORDER_BY_ASC"],'Account transaction query capped at 100; Treasury/OTC entries were subsequently filtered.')
+    if p.startswith('data/thinktank/'):
+        name=pathlib.PurePosixPath(p).name
+        core='terra15l7567hhxttv2k5enmu4k8uez8e3cx3sxqfg6fsq4zzuwuzy2fqsjq00gr'
+        module='terra1ykz3hhlpxu7820vkn5ucfzlf4tx2wuqehg026n4x2ha08k4f0fwqw0jl8e'
+        voting='terra19rcv689easxyt4w2h5aznpmkxdnvlmkmwsss7gszpwzqh2ftcmsqgqdkrd'
+        group='terra19jdu4qyqq4lz8jh0t6wqceyqhne6qsk6nhxmd0m4xf2s2l870zpsuz5t9t'
+        if name=='proposals.json':return direct([smart(module,{'list_proposals':{'limit':30}})],'All five Think Tank proposals at capture.')
+        if name=='votes.json':return direct([smart(module,{'list_votes':{'proposal_id':'<1 through 5>','limit':100}})])
+        if name=='votes.csv':return derived(['data/thinktank/votes.json'],'analysis/director_profiles.py')
+        if name=='config.json':return direct([smart(module,{'config':{}})])
+        if name=='dump_state.json':return direct([smart(core,{'dump_state':{}})])
+        if name=='members.json':return direct([smart(group,{'list_members':{'limit':100}})])
+        if name=='group_contract.json':return direct([smart(voting,{'group_contract':{}})])
+    if p.startswith('data/treasury/large_operations/'):
+        h=pathlib.PurePosixPath(p).stem
+        return direct([ARCHIVE+'/cosmos/tx/v1beta1/txs/'+h])
+    if p=='data/treasury/large_operations_summary.json':
+        return derived(['data/treasury/outbound_all_tx_responses.json','data/treasury/large_operations/'],'Browser extraction and base64 decoding of large operational messages.')
+    if p.startswith('data/transfers/relationship_'):
+        h=pathlib.PurePosixPath(p).name.removeprefix('relationship_').removesuffix('.json')
+        return direct([ARCHIVE+'/cosmos/tx/v1beta1/txs/'+h])
+    if p=='data/transfers/rebel_eris_invoice_2026-06-07.json':
+        return direct([ARCHIVE+'/cosmos/tx/v1beta1/txs/02B838A200BCF19F693FC461F3DF09ADD1A3D81AB789A0B260034DF8A6C3AC80'])
+    if p.startswith('data/transfers/rebel_'):
+        name=pathlib.PurePosixPath(p).name
+        parts=name.removesuffix('.json').split('_')
+        role,kind=parts[1],parts[2]
+        addr={'project':'terra1rnwr9zjgf6204lyk37w0l6hhtaptke5m2cfpmf','published':'terra17w74x9vrqq4a338ssh9y9r4m9s3f6zef7wy5ms','multisig2023':'terra1pnxgfvlaywamhykr4nfeep8n2ejd2mactz3un8','orbital':'terra1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcxuf76'}[role]
+        query=f"transfer.recipient='{addr}'" if kind=='recipient' else f"message.sender='{addr}'"
+        return direct([ARCHIVE+f'/cosmos/tx/v1beta1/txs?query={query}&limit=100&page=1&order_by=ORDER_BY_DESC'],'Bounded transfer/sender query for an explicitly published Rebel-associated address.')
+    if p=='repos/phoenix-docs/treasury_launch.md':
+        return direct(['https://raw.githubusercontent.com/phoenix-directive/docs/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-09-26_25020_phoenix-directive-launching-treasury.md'])
     if p.startswith('data/forum/'):
         name=pathlib.PurePosixPath(p).name
         base=FORUM+'/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47'

@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/authority/tests/local_burn_routing.json`
 - **SHA-256:** `9431b7f15339bcb5a81f281dc619b513ad609adb595cf1405a691f2c6455188f`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.417504+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.796824+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.546230+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `9431b7f15339bcb5a81f281dc619b513ad609adb595cf1405a691f2c6455188f` (matches packet source hash)

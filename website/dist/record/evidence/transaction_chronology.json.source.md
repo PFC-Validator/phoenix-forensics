@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/evidence/transaction_chronology.json`
 - **SHA-256:** `4731bb028ae49cc219fa73908ca2ecef0a1e357461745290c7a74920f34fdec5`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.407918+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.461360+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.186332+00:00
 - **Classification:** Packet-linked artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 

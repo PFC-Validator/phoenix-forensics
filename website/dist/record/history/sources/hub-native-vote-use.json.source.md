@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/history/sources/hub-native-vote-use.json`
 - **SHA-256:** `275575f46a319b63aa430ff92ca0fcfca3416a1c2ec2eecacd0c1c6c2b3f0279`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.432771+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.755276+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.494776+00:00
 - **Classification:** Website history record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

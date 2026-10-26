@@ -3,7 +3,7 @@
 - **Artifact:** `data/eris_multisig/hub_config.json`
 - **SHA-256:** `e11bbebeadd9c24b15fdee6d4003fbc84dd8299311b61fd22241c154b6ab1d5b`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.903071+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.427755+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.125920+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

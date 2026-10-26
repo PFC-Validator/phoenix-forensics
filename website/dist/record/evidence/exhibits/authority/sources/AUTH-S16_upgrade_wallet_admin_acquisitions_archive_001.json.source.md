@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/authority/sources/AUTH-S16_upgrade_wallet_admin_acquisitions_archive_001.json`
 - **SHA-256:** `1bcca8cfd40a890cb29d069002ac658a7f15ef1b2640fafcb134413ffa348e0a`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.420813+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.815597+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.580841+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `1bcca8cfd40a890cb29d069002ac658a7f15ef1b2640fafcb134413ffa348e0a` (matches packet source hash)

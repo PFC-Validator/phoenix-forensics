@@ -1,0 +1,477 @@
+{
+  "tx": {
+    "body": {
+      "messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+          "contract": "terra18sueppkw0qlgzw0uq4l7v864mymkd9z05qkjz9kudynz7qez29dsrk03tq",
+          "msg": {
+            "execute": {
+              "proposal_id": 44
+            }
+          },
+          "funds": []
+        }
+      ],
+      "memo": "phoenix.money",
+      "timeout_height": "0",
+      "extension_options": [],
+      "non_critical_extension_options": []
+    },
+    "auth_info": {
+      "signer_infos": [
+        {
+          "public_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A95atvAxP9OS6OJNmKLyVHTt/UOzbXNhwqZ4D/WOXa0Q"
+          },
+          "mode_info": {
+            "single": {
+              "mode": "SIGN_MODE_DIRECT"
+            }
+          },
+          "sequence": "556"
+        }
+      ],
+      "fee": {
+        "amount": [
+          {
+            "denom": "uluna",
+            "amount": "12681"
+          }
+        ],
+        "gas_limit": "845378",
+        "payer": "",
+        "granter": ""
+      },
+      "tip": null
+    },
+    "signatures": [
+      "suSkJ0nt4VU4fLzbnbnq5W7PU09zpsAM4soHut1Zym5f1IN0sFNCLjQSgRMURArP/V5gJYcCGzufYmLvGcRFjw=="
+    ]
+  },
+  "tx_response": {
+    "height": "22844780",
+    "txhash": "2B186173FA1D106337801DD7155BC92C1E6BA7F1E3BB0092A175924481A339E3",
+    "codespace": "",
+    "code": 0,
+    "data": "122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365",
+    "raw_log": "",
+    "logs": [],
+    "info": "",
+    "gas_wanted": "845378",
+    "gas_used": "594076",
+    "tx": {
+      "@type": "/cosmos.tx.v1beta1.Tx",
+      "body": {
+        "messages": [
+          {
+            "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+            "sender": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+            "contract": "terra18sueppkw0qlgzw0uq4l7v864mymkd9z05qkjz9kudynz7qez29dsrk03tq",
+            "msg": {
+              "execute": {
+                "proposal_id": 44
+              }
+            },
+            "funds": []
+          }
+        ],
+        "memo": "phoenix.money",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+      },
+      "auth_info": {
+        "signer_infos": [
+          {
+            "public_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A95atvAxP9OS6OJNmKLyVHTt/UOzbXNhwqZ4D/WOXa0Q"
+            },
+            "mode_info": {
+              "single": {
+                "mode": "SIGN_MODE_DIRECT"
+              }
+            },
+            "sequence": "556"
+          }
+        ],
+        "fee": {
+          "amount": [
+            {
+              "denom": "uluna",
+              "amount": "12681"
+            }
+          ],
+          "gas_limit": "845378",
+          "payer": "",
+          "granter": ""
+        },
+        "tip": null
+      },
+      "signatures": [
+        "suSkJ0nt4VU4fLzbnbnq5W7PU09zpsAM4soHut1Zym5f1IN0sFNCLjQSgRMURArP/V5gJYcCGzufYmLvGcRFjw=="
+      ]
+    },
+    "timestamp": "2026-09-15T03:48:37Z",
+    "events": [
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "12681uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "12681uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "terra17xpfvakm2amg962yls6f84z3kell8c5lkaeqfa",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "12681uluna",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "sender",
+            "value": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "fee",
+            "value": "12681uluna",
+            "index": true
+          },
+          {
+            "key": "fee_payer",
+            "value": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "acc_seq",
+            "value": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3/556",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "signature",
+            "value": "suSkJ0nt4VU4fLzbnbnq5W7PU09zpsAM4soHut1Zym5f1IN0sFNCLjQSgRMURArP/V5gJYcCGzufYmLvGcRFjw==",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "action",
+            "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+            "index": true
+          },
+          {
+            "key": "module",
+            "value": "wasm",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "execute",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "terra18sueppkw0qlgzw0uq4l7v864mymkd9z05qkjz9kudynz7qez29dsrk03tq",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "wasm",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "terra18sueppkw0qlgzw0uq4l7v864mymkd9z05qkjz9kudynz7qez29dsrk03tq",
+            "index": true
+          },
+          {
+            "key": "action",
+            "value": "execute",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra14p3mc04s7jcaxvvetlzehvhx9gdx6w4nm3zzw3",
+            "index": true
+          },
+          {
+            "key": "proposal_id",
+            "value": "44",
+            "index": true
+          },
+          {
+            "key": "dao",
+            "value": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "execute",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "wasm",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+            "index": true
+          },
+          {
+            "key": "action",
+            "value": "execute_proposal_hook",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "execute",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "wasm",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "index": true
+          },
+          {
+            "key": "action",
+            "value": "pdt/claim",
+            "index": true
+          },
+          {
+            "key": "id",
+            "value": "110",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "amount",
+            "value": "100000000000ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+            "index": true
+          },
+          {
+            "key": "spender",
+            "value": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "amount",
+            "value": "100000000000ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+            "index": true
+          },
+          {
+            "key": "receiver",
+            "value": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "amount",
+            "value": "100000000000ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+            "index": true
+          },
+          {
+            "key": "recipient",
+            "value": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "execute",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "terra1730k0gjtm7q0zrwfk7druzgft5ma9wwja7szteefe3nz87wtygyswvnmfp",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "wasm",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "terra1730k0gjtm7q0zrwfk7druzgft5ma9wwja7szteefe3nz87wtygyswvnmfp",
+            "index": true
+          },
+          {
+            "key": "deposit_info",
+            "value": "bnVsbA==",
+            "index": true
+          },
+          {
+            "key": "method",
+            "value": "execute_proposal_completed_hook",
+            "index": true
+          },
+          {
+            "key": "proposal",
+            "value": "44",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      }
+    ]
+  }
+}

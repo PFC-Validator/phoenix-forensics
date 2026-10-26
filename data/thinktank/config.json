@@ -1,0 +1,20 @@
+{
+  "data": {
+    "threshold": {
+      "absolute_percentage": {
+        "percentage": {
+          "percent": "0.66"
+        }
+      }
+    },
+    "max_voting_period": {
+      "time": 172800
+    },
+    "min_voting_period": null,
+    "only_members_execute": true,
+    "allow_revoting": false,
+    "dao": "terra15l7567hhxttv2k5enmu4k8uez8e3cx3sxqfg6fsq4zzuwuzy2fqsjq00gr",
+    "close_proposal_on_execution_failure": true,
+    "veto": null
+  }
+}

@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/authority/packaged_ledger.json`
 - **SHA-256:** `9d84682576a5793460d007bc30cd736a80f3b274f393ec2aa64145a9aaf91d66`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.418030+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.795685+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.544704+00:00
 - **Classification:** Preserved analytical authority ledger
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Transformation:** `Original transaction URLs are indexed per operation. Supporting retained-file names without public URLs are marked upstream-not-established.`

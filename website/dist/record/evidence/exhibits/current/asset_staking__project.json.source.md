@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/current/asset_staking__project.json`
 - **SHA-256:** `45d369539deec8ab159ed977c8010151fed84979e48194f6e0513d8ef3c400a1`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.415058+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.788164+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.535694+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `45d369539deec8ab159ed977c8010151fed84979e48194f6e0513d8ef3c400a1` (matches packet source hash)

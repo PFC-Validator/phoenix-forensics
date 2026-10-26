@@ -3,7 +3,7 @@
 - **Artifact:** `data/eris_multisig/validator_profiles.json`
 - **SHA-256:** `e5dfbde81e360d9b147ae0ad8f8fe7150a7f79cb11b1d9d710643e1898e7dbaf`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.903531+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.426081+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.123970+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

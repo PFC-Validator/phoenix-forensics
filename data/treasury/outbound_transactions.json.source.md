@@ -3,7 +3,7 @@
 - **Artifact:** `data/treasury/outbound_transactions.json`
 - **SHA-256:** `8e6e0c10f6c5a05eb8bfd6bcadfff279e1c972cb915b2e6c096e9b52d8efe711`
 - **Artifact timestamp (UTC):** 2026-10-26T14:33:46.396461+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.435674+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.135374+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

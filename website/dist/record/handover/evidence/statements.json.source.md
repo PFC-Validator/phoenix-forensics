@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/handover/evidence/statements.json`
 - **SHA-256:** `000139e1c0db032abc93edc61af581b8a9ec25501bc028c821ea44cd409b5cb0`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.429503+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.777286+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.521564+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

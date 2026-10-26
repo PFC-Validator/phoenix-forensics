@@ -3,7 +3,7 @@
 - **Artifact:** `data/treasury/actions/actions_after100.json`
 - **SHA-256:** `290ee1edb82319832acf779b524ce670d9ae3ff1c8a9e04302a90c2b0f505bfc`
 - **Artifact timestamp (UTC):** 2026-10-26T14:50:04.589208+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.438190+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.140528+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

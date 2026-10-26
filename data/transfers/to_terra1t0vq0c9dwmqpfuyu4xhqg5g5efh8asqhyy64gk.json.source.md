@@ -3,7 +3,7 @@
 - **Artifact:** `data/transfers/to_terra1t0vq0c9dwmqpfuyu4xhqg5g5efh8asqhyy64gk.json`
 - **SHA-256:** `fbf97e1626256ec9234211acca5322180c0db2bbb3be363381045a89b263e771`
 - **Artifact timestamp (UTC):** 2026-10-26T14:31:31.189587+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.422112+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.120094+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

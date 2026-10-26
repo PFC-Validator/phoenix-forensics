@@ -3,7 +3,7 @@
 - **Artifact:** `data/eris_multisig/transactions.json`
 - **SHA-256:** `b7a0c8400b8c0045be9f2c25f19022130f80d47456081bc2db3853f545ca162d`
 - **Artifact timestamp (UTC):** 2026-10-26T14:17:04.180386+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.427225+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.125303+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

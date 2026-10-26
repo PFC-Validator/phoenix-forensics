@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/current/board_members.json`
 - **SHA-256:** `2ee0bf44262655157448ae9974c048e1f61befb0df2f5e1e8392072f0e481e52`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.416750+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.795258+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.544157+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `2ee0bf44262655157448ae9974c048e1f61befb0df2f5e1e8392072f0e481e52` (matches packet source hash)

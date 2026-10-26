@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/data/tla-grant-evidence.json`
 - **SHA-256:** `f830040eb10343ce970202eb6956c5dc72b9e27888ef58da6b5f1dce6617b039`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.476544+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.722531+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.457002+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

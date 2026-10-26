@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/data/received-fees-57.json`
 - **SHA-256:** `3efb3a7b43dbdafe2bd7d58a8bf2166c7a81c796310ec9f21f590d4a78e9f25e`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.479975+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.742762+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.479532+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

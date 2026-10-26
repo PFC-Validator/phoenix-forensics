@@ -3,7 +3,7 @@
 - **Artifact:** `data/current/treasury_contract.json`
 - **SHA-256:** `f7e9395fb5a967b2f5675c7f51a710ec58cd2e428e83629507fa0635b0f607ea`
 - **Artifact timestamp (UTC):** 2026-10-26T14:15:22.885420+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.430889+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.129688+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

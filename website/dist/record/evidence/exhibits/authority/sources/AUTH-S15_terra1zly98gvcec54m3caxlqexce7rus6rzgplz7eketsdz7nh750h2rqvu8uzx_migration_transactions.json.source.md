@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/authority/sources/AUTH-S15_terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx_migration_transactions.json`
 - **SHA-256:** `e191d80b09344ede79320d1b1cc35e82a9cea46298a688b7d19726d2d92c1d9b`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.420012+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.812298+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.573320+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `e191d80b09344ede79320d1b1cc35e82a9cea46298a688b7d19726d2d92c1d9b` (matches packet source hash)

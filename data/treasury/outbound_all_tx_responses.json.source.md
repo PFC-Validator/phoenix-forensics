@@ -3,7 +3,7 @@
 - **Artifact:** `data/treasury/outbound_all_tx_responses.json`
 - **SHA-256:** `76cfd9a29b5aa7e624a85cefae653b9ad375e613b2c5adcf9f0f12fabedf9e29`
 - **Artifact timestamp (UTC):** 2026-10-26T14:38:40.745564+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.436873+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.136589+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

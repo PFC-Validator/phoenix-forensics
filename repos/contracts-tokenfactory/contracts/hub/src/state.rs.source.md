@@ -3,7 +3,7 @@
 - **Artifact:** `repos/contracts-tokenfactory/contracts/hub/src/state.rs`
 - **SHA-256:** `c923b6ccaf12cf6a5d4b0724e4693a5b99b3f7926d6b56a4f999a71958b2c992`
 - **Artifact timestamp (UTC):** 2026-10-26T14:14:29.735316+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.453420+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.177082+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

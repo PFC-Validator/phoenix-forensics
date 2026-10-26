@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/legacy/Zahlungen_105.json`
 - **SHA-256:** `55b845c64a8bd903e7484860cb3f6a6879a98f0812d1603b457f166f527e4a10`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.413580+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.784303+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.530345+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `55b845c64a8bd903e7484860cb3f6a6879a98f0812d1603b457f166f527e4a10` (matches packet source hash)

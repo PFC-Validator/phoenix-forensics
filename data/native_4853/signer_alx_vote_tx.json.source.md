@@ -3,7 +3,7 @@
 - **Artifact:** `data/native_4853/signer_alx_vote_tx.json`
 - **SHA-256:** `9dbd31c0f0bbb46cb6d499c1bb84067716eff62228e188341bb3a01b9abc95f2`
 - **Artifact timestamp (UTC):** 2026-10-26T14:18:00.065861+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.433079+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.132386+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

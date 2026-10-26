@@ -3,7 +3,7 @@
 - **Artifact:** `data/SHA256SUMS.txt`
 - **SHA-256:** `b301bc3529e0e7808617aa6dcaf57c5ac9427b81346afd3191213d06d6ca84f6`
 - **Artifact timestamp (UTC):** 2026-10-26T15:26:11.958507+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.402830+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.087285+00:00
 - **Classification:** Secondary checksum manifest
 - **Acquisition / transformation:** Read-only retrieval from supplied packet.
 

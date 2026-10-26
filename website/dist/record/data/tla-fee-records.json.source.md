@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/data/tla-fee-records.json`
 - **SHA-256:** `375974f4818286a470195b5635017588c0b810f1e8b209f24e1876b814b6d2a6`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.474094+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.705106+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.436622+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

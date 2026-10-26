@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/data/project-creda-1.json`
 - **SHA-256:** `745cf8bf25e25862a96874032874ec01e21c75af565d61394353c00afb11690a`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.464355+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.645904+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.374153+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

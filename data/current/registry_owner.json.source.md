@@ -3,7 +3,7 @@
 - **Artifact:** `data/current/registry_owner.json`
 - **SHA-256:** `dfe69cc2c883d4228ae572e8ced30f27403c9f820d6dd3a6defe9da32c761e2a`
 - **Artifact timestamp (UTC):** 2026-10-26T14:15:22.885256+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.431325+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.130210+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/data/payment-schedule.json`
 - **SHA-256:** `2ad50e70563f779413cb8d9932120dda90de7221dfee222c2122da8a89a69b16`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.445428+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.522189+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.258111+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

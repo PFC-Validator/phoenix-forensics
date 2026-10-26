@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/authority/tests/registry_role_changes.json`
 - **SHA-256:** `59102f1f54525c5261bbfc523607010662e959cf1144cec7509d78e260663ff8`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.417676+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.797187+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.546763+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `59102f1f54525c5261bbfc523607010662e959cf1144cec7509d78e260663ff8` (matches packet source hash)

@@ -3,7 +3,7 @@
 - **Artifact:** `website/dist/record/data/received-validator-1.json`
 - **SHA-256:** `9f5540133b05f388b7705586ddb5c96938214b654a5d669cc1f5cc2c5bc21657`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.437308+00:00
-- **Sidecar generated (UTC):** 2026-10-26T15:34:56.471379+00:00
+- **Sidecar generated (UTC):** 2026-10-26T16:04:44.203588+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 
