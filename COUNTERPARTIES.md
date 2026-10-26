@@ -12,8 +12,13 @@ This is an address-level relationship map for forensic accounting. It does not i
 | `terra1p3sea2vjewtr9ap4hv7nc75k5jc852ftf0w5u06wsk420y5urc9s9xtxdj` | **Transmuter/swap contract.** A 45,000-USDC transfer to ERIS was a `swap` message, not a payment to an individual. Related flows should be reconciled as asset exchanges and liquidity operations. |
 | `terra1d4pvkg4skggnzcd6twx8qt6vsfaf0auw4dr9v9` | **PF operations address.** Received 35,000 USDC for Ethereum ASTRO OTC and 200,000 LUNA for Demex liquidity in the action inventory. It was also configured as `BURN_RECIPIENT` on 22 September 2026; the label alone does not prove burning. |
 | `terra1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl` | **Cosmos SDK distribution module account**, confirmed by deriving `sha256("distribution")[:20]` and Bech32-encoding it with the `terra` prefix. It appears in reward/commission events for many validators and is not a shared operations wallet or evidence of common ownership. |
+| `terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh` | **`ve3-bribe-manager` contract**, confirmed by contract metadata. Nine `claim_bribes` transactions produced 8,809.069532 LUNA, 69,095.412349 FUEL and 19.075632 USDC to the ERIS account. These are protocol voting-incentive receipts, not an unnamed person or ordinary payment sender. Do not combine the assets into one total. |
 | `terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg` | **Phoenix board DAO**, not a person. Received 500,000 LUNA in two 2026 transfers. All four board members have equal 25 weight and proposals require 75% approval. |
 | `terra15l7567hhxttv2k5enmu4k8uez8e3cx3sxqfg6fsq4zzuwuzy2fqsjq00gr` | **Think Tank DAO.** Separate veto body with six equal voters and 66% threshold. Its role should be included when evaluating independent oversight of related grants. |
+
+### October 2026 bribe-manager receipts
+
+The same contract’s October receipts were 2,431.438843 LUNA, 48,995.522472 FUEL and 11.011553 USDC. The round-two review’s combined 77,923.56 / 51,437.97 figures are arithmetic across different assets and must not be described as LUNA or USD. Original transfer rows and contract metadata are in `data/counterparties/`.
 
 ## Large OTC counterparties
 

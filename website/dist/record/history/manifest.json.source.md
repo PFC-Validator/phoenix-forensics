@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/history/manifest.json`
 - **SHA-256:** `1f0b17666283c1ecd3b7b5889a614c76bd8d4300bf5713bc0fbc4874eebfd3bb`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:23.982500+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.111217+00:00
 - **Classification:** Website history record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/handover/index.html`
 - **SHA-256:** `c770248e7e1e3475b1d48f115117a5cd94ea63a12e2a34ccfd22a1265eae68a6`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:21.254076+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.087238+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 
@@ -13,7 +12,7 @@
 
 ## Upstream original source(s)
 
-- https://phoenix-foundation-irregularities.pfc.zone/record/handover/
+- data/source_index.json
 
 ## Scope, limits, and notes
 

@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/audit/native_4853_votes_all.csv`
 - **SHA-256:** `7886f8a232e9b8bf6ad02fd21c04f49699bd73c4d135e16d578b03a0ff52e655`
 - **Artifact timestamp (UTC):** 2026-10-26T19:04:34.466530+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.090254+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

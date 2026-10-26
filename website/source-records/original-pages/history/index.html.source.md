@@ -3,7 +3,6 @@
 - **Artifact:** `website/source-records/original-pages/history/index.html`
 - **SHA-256:** `b99ec36b52afe2d20293e4de3cdc6778854bb58cdc4782cf184c88d076c29e1d`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.491066+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.180503+00:00
 - **Classification:** Preserved packet HTML
 - **Acquisition / transformation:** Read-only retrieval of supplied packet HTML.
 

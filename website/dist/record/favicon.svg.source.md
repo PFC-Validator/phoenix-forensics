@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/favicon.svg`
 - **SHA-256:** `41cecbd3f7be30513b447797956b4078cc9bc7d3aa4de3ce778dd0c9a9f5bc04`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.484034+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.184359+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 
@@ -13,7 +12,7 @@
 
 ## Upstream original source(s)
 
-- http://www.w3.org/2000/svg
+- data/source_index.json
 
 ## Scope, limits, and notes
 

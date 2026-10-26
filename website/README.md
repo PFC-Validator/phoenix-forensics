@@ -9,6 +9,9 @@ Requires Python 3.10 or newer. No package installation, Node.js, account credent
 
 ```sh
 python3 build.py
+cd ..
+python3 analysis/generate_provenance.py
+cd website
 python3 verify.py
 python3 -m http.server 5173 --bind 127.0.0.1 --directory dist
 ```
@@ -39,4 +42,4 @@ This is a rewritten presentation of public records, not an independent audit of 
 
 Use the public custom domain in metadata and copy-link controls. Do not add information identifying the site owner. Hosting-account configuration, Git history, credentials and machine-specific paths are intentionally excluded from this copy.
 
-Fonts and Diagram Design license notices are retained with the assets. Before publishing a revision, rebuild, verify and inspect the affected pages at desktop and mobile widths.
+Fonts and Diagram Design license notices are retained with the assets. Before publishing a revision, rebuild, generate provenance, verify and inspect the affected pages at desktop and mobile widths.

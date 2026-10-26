@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/current/registry_owner.json`
 - **SHA-256:** `0d1b84b2615d4c2d3658d672bf1d40aadf4483e9b7d0531390577064cee9ecd9`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.416097+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.542596+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `0d1b84b2615d4c2d3658d672bf1d40aadf4483e9b7d0531390577064cee9ecd9` (matches packet source hash)

@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/history/sources/power_20261022_openfields_pd_power.json`
 - **SHA-256:** `f837215454aabb6b360fa00d3b1827f8e06f2353e8ff79b96e1cdcff727bc8c1`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.433251+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.496843+00:00
 - **Classification:** Website history record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

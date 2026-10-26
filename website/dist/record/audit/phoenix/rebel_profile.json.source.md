@@ -1,9 +1,8 @@
 # Source and provenance
 
 - **Artifact:** `website/dist/record/audit/phoenix/rebel_profile.json`
-- **SHA-256:** `772351a61cbef56d81d50502f75c428fd020c6901e50a68599875fdddb917f9e`
+- **SHA-256:** `c5dd3d494446dfaba594fd3a3ab301b3d664f9f27bc00602d165d68d079bd775`
 - **Artifact timestamp (UTC):** 2026-10-26T15:51:18.879844+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.357878+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

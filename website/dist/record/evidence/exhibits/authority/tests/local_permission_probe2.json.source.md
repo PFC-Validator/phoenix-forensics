@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/authority/tests/local_permission_probe2.json`
 - **SHA-256:** `9ca2a196bed102fa010a3e5000ec3b26962c514a037e6c6b91d01bbc9d634249`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.417143+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.545365+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `9ca2a196bed102fa010a3e5000ec3b26962c514a037e6c6b91d01bbc9d634249` (matches packet source hash)

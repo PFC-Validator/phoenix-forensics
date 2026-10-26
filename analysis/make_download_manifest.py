@@ -34,6 +34,6 @@ for path in [
 'evidence/exhibits/voting_record/mb_voting_record.csv','evidence/exhibits/voting_record/mb_voting_record.json','evidence/exhibits/voting_record/findings.txt','evidence/source_index.json','evidence/SHA256SUMS.txt','evidence/transaction_chronology.json','evidence/exhibits/current/board_config.json','evidence/exhibits/current/board_members.json','evidence/exhibits/current/proposal9.json','evidence/exhibits/current/proposal9_votes.json','evidence/exhibits/current/hub_info.json','evidence/exhibits/current/ics20_info.json','evidence/exhibits/current/hub_config.json','evidence/exhibits/current/bylaws_current.pdf','evidence/exhibits/legacy/Belege/E05c.json','evidence/exhibits/legacy/Belege/E09a.json','evidence/exhibits/legacy/Belege/E09b.json','evidence/exhibits/legacy/Belege/E09c.json','evidence/censorship-records/vegas-post-revision.json','evidence/censorship-records/forum-thread-2026-10-19.json']:
     add('packet/'+path,'https://philipp-payments.pages.dev/'+path)
 links='\n'.join(f'<p><a href="{html.escape(url,quote=True)}" download="{html.escape(name,quote=True)}">{html.escape(name)}</a></p>' for name,url in items)
-(ROOT/'downloads.html').write_text('<!doctype html><title>Audit downloads</title>'+links)
+(ROOT/'downloads'/'index.html').write_text('<!doctype html><title>Audit downloads</title>'+links)
 (ROOT/'data/download_manifest.json').write_text(json.dumps([{'file':n,'url':u} for n,u in items],indent=2))
-print(len(items),'links',ROOT/'downloads.html')
+print(len(items),'links',ROOT/'downloads'/'index.html')

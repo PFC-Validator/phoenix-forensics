@@ -3,7 +3,6 @@
 - **Artifact:** `data/thinktank/config.json`
 - **SHA-256:** `8e4b63e6d4543891ee1c7c483ae08d96c855209584172b3a4ba5fc0a9ccaf482`
 - **Artifact timestamp (UTC):** 2026-10-26T15:46:50.799940+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.137728+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

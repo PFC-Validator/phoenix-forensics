@@ -182,7 +182,7 @@ The hub currently delegates about **32.20 million LUNA** across 11 validators. I
 
 ### Vote changes
 
-The raw set contains 87 vote transactions but 79 current ballots. Examples include Galactic Punks voting YES early, Lion DAO changing ABSTAIN to YES, and other accounts changing YES to NO or ABSTAIN. Vote changes are permitted and are not themselves manipulation. Timestamps are preserved for further review of delegation changes, validator announcements, and forum activity.
+The earlier raw set contains 87 vote transactions and 79 then-current ballots. The refreshed documented merge contains 83 current ballots: four additions and no changed ballots. Examples include Galactic Punks voting YES early, Lion DAO changing ABSTAIN to YES, and other accounts changing YES to NO or ABSTAIN. Vote changes are permitted and are not themselves manipulation. Timestamps are preserved for further review of delegation changes, validator announcements, and forum activity.
 
 ## 7. Galactic Punks and Lion DAO hosting review
 

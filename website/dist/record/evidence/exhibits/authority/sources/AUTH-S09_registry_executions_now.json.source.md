@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/authority/sources/AUTH-S09_registry_executions_now.json`
 - **SHA-256:** `4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.421236+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.582659+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `4e6073e222e199e8149ce4ab9689add47c761fd08fbd9a3e6217514d507121df` (matches packet source hash)

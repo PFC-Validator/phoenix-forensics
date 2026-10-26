@@ -1,0 +1,22 @@
+{
+  "wallet": "terra15vwmgac9tlcgkrkjn4rq3r0md003ufsqp64vaw",
+  "captured_utc": "2026-10-26T19:24:00Z",
+  "queries": [
+    {
+      "event": "message.sender",
+      "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs?query=message.sender='terra15vwmgac9tlcgkrkjn4rq3r0md003ufsqp64vaw'&limit=100&page=1&order_by=ORDER_BY_ASC",
+      "reported_total": "0"
+    },
+    {
+      "event": "transfer.sender",
+      "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs?query=transfer.sender='terra15vwmgac9tlcgkrkjn4rq3r0md003ufsqp64vaw'&limit=1&page=1&order_by=ORDER_BY_ASC",
+      "reported_total": "0"
+    },
+    {
+      "event": "transfer.recipient",
+      "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs?query=transfer.recipient='terra15vwmgac9tlcgkrkjn4rq3r0md003ufsqp64vaw'&limit=1&page=1&order_by=ORDER_BY_ASC",
+      "reported_total": "0"
+    }
+  ],
+  "caution": "Zero results from these indexed queries are bounded evidence, not proof that the address never acted or that no other relevant history exists."
+}

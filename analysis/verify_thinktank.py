@@ -168,8 +168,9 @@ print(json.dumps({
     'substantive_veto_no_votes': 0,
     'non_technical_veto_ballots': non_technical_veto_ballots,
     'unique_preserved_transactions_checked': len(txs),
-    'direct_thinktank_to_thinktank_transfers': 0,
-    'direct_thinktank_to_eris_signer_transfers': 0,
-    'direct_thinktank_to_other_board_transfers': 0,
+    'transfer_graph_scope': 'Bounded preserved union; monitored wallet histories include truncated sender-only windows and are not a census.',
+    'direct_thinktank_to_thinktank_transfers_in_preserved_union': 0,
+    'direct_thinktank_to_eris_signer_transfers_in_preserved_union': 0,
+    'direct_thinktank_to_other_board_transfers_in_preserved_union': 0,
     'distribution_module_derivation': 'verified',
 }, indent=2))

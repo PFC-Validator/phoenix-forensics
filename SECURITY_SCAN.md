@@ -4,9 +4,9 @@
 
 ## Scope
 
-- 1,453 files staged for the governance evidence and website commit were scanned.
-- Git metadata, shell environment, external downloads and temporary scan reports were not included.
-- No symlinks, sensitive filenames, uncorroborated spreadsheet, or private publishing configuration were staged.
+- 1,485 tracked or untracked repository files were scanned after the analysis-pipeline remediation.
+- Git metadata, ignored files, shell environment, external downloads and temporary scan reports were not included.
+- No symlinks, sensitive filenames, uncorroborated spreadsheet, or private publishing configuration were found.
 - No candidate secret values are reproduced in this report or `security/secret-scan.json`.
 
 ## Checks performed

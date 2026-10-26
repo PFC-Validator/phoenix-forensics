@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/homepage-0d03d72e46b5.css`
 - **SHA-256:** `0d03d72e46b5258c61ca68f93ceb40e82a0037ac1c02b5e0aeab6e3d356f5ce3`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.434718+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.182079+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

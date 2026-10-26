@@ -3,7 +3,6 @@
 - **Artifact:** `repos/contracts-tokenfactory/contracts/hub/src/gov.rs`
 - **SHA-256:** `bbb93a776175a4e2716335a4c6d38a7d78a4215cc9f97b3815352f32da0face5`
 - **Artifact timestamp (UTC):** 2026-10-26T14:14:29.402840+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.176704+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

@@ -1,7 +1,9 @@
 import hashlib,json,pathlib
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 BASES=['data','downloads','repos','website/source-records/original-pages','website/dist/record']
-missing=[];bad_hash=[];missing_upstreams=[];count=0;not_established=[]
+missing=[];bad_hash=[];missing_upstreams=[];packet_hash_mismatch=[];count=0;not_established=[]
+source_index=json.loads((ROOT/'data/source_index.json').read_text())
+registered_mismatch={'website/dist/record/evidence/'+x['file']:x for x in source_index['sources'] if x.get('source_sha256') and x.get('sha256')!=x.get('source_sha256')}
 for base in BASES:
  for path in (ROOT/base).rglob('*'):
   if not path.is_file() or path.name.endswith('.source.md'):continue
@@ -14,9 +16,18 @@ for base in BASES:
   if f'**SHA-256:** `{digest}`' not in text:bad_hash.append(str(path))
   if '## Immediate source(s)' not in text or '## Upstream original source(s)' not in text:missing_upstreams.append(str(path))
   if 'Upstream not established' in text:not_established.append(str(path))
+  if 'does not match packet source hash' in text:packet_hash_mismatch.append(str(path))
 assert not missing,missing
 assert not bad_hash,bad_hash
 assert not missing_upstreams,missing_upstreams
+unregistered=[]
+for name in packet_hash_mismatch:
+ rel=str(pathlib.Path(name).relative_to(ROOT))
+ entry=registered_mismatch.get(rel)
+ if not entry:unregistered.append(rel);continue
+ digest=hashlib.sha256((ROOT/rel).read_bytes()).hexdigest()
+ if digest!=entry['sha256']:unregistered.append(rel+' (does not match retained packet sha256)')
+assert not unregistered,unregistered
 board=json.loads((ROOT/'data/mb_voting_record.upstream.json').read_text())
 assert len(board['records'])==289
 ledger=json.loads((ROOT/'downloads/packaged_ledger.upstream.json').read_text())
@@ -25,4 +36,4 @@ expected=sum(len(original.get(k,[])) for k in ['original_operations','related_tl
 assert len(ledger['operations'])==expected,(len(ledger['operations']),expected)
 register=json.loads((ROOT/'PROVENANCE.json').read_text())
 assert register['file_count']==count,(register['file_count'],count)
-print(json.dumps({'artifacts_with_sidecars':count,'upstream_not_established':len(not_established),'board_upstream_records':len(board['records']),'authority_upstream_operations':len(ledger['operations']),'hash_and_section_checks':'passed'},indent=2))
+print(json.dumps({'artifacts_with_sidecars':count,'upstream_not_established':len(not_established),'board_upstream_records':len(board['records']),'authority_upstream_operations':len(ledger['operations']),'registered_packet_source_mismatches':len(packet_hash_mismatch),'unregistered_packet_hash_mismatches':len(unregistered),'hash_and_section_checks':'passed'},indent=2))

@@ -1,0 +1,15 @@
+{
+  "address": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+  "contract_info": {
+    "code_id": "3494",
+    "creator": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+    "admin": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+    "label": "ve3-bribe-manager",
+    "created": {
+      "block_height": "11559045",
+      "tx_index": "524902"
+    },
+    "ibc_port_id": "",
+    "extension": null
+  }
+}

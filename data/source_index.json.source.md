@@ -3,7 +3,6 @@
 - **Artifact:** `data/source_index.json`
 - **SHA-256:** `5650a4d23eeac8b7570eb842824abed5fe7e971944f3aa40b1e2083d8eb65fdd`
 - **Artifact timestamp (UTC):** 2026-10-26T15:26:11.833551+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.087514+00:00
 - **Classification:** Secondary source manifest
 - **Acquisition / transformation:** Read-only retrieval from supplied packet.
 

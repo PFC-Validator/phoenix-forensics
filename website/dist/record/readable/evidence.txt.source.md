@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/readable/evidence.txt`
 - **SHA-256:** `13af632dc9153a7bc1d4acbc718184a0068be1096f1ae3a95471939a8cd097ef`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:23.964341+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.113069+00:00
 - **Classification:** Derived dataset
 - **Acquisition / transformation:** Local transformation using `website publication pipeline`.
 - **Transformation:** `website publication pipeline`

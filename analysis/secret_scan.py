@@ -1,7 +1,7 @@
 """Scan tracked files without printing any candidate secret values."""
 import json,pathlib,re,subprocess,sys
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-FILES=[f for f in subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode().split('\0') if f]
+FILES=[f for f in subprocess.check_output(['git','ls-files','-co','--exclude-standard','-z'],cwd=ROOT).decode().split('\0') if f]
 PATTERNS={
  'private_key_block':re.compile(rb'-----BEGIN (?:OPENSSH |RSA |EC |DSA |PGP )?PRIVATE KEY-----'),
  'github_token':re.compile(rb'\b(?:ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|gho_[A-Za-z0-9]{20,}|ghu_[A-Za-z0-9]{20,}|ghs_[A-Za-z0-9]{20,}|ghr_[A-Za-z0-9]{20,})'),

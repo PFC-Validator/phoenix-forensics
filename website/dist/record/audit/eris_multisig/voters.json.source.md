@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/audit/eris_multisig/voters.json`
 - **SHA-256:** `34d93f328ebcdf97f4ee654e3f4c7a89449b10868023cbe382abb3ac23f87c14`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.902587+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.359011+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

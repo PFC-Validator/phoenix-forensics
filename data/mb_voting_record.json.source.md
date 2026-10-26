@@ -3,7 +3,6 @@
 - **Artifact:** `data/mb_voting_record.json`
 - **SHA-256:** `e4a1604a59cbd4514d8db5e6dbb767721144e9bfc8c8391045bd35a953f66cd9`
 - **Artifact timestamp (UTC):** 2026-10-26T14:12:45.518475+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.086728+00:00
 - **Classification:** Preserved compiled evidence with embedded primary locators
 - **Acquisition / transformation:** Read-only retrieval from the supplied evidence packet.
 

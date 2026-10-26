@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/current/bylaws_current.pdf`
 - **SHA-256:** `ab4bb6a54c369c5a8d7140e08eba4e103279c8068a2113d8b1aedc915e6a1b8e`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.415848+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.541571+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `ab4bb6a54c369c5a8d7140e08eba4e103279c8068a2113d8b1aedc915e6a1b8e` (matches packet source hash)

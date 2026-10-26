@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/audit/thinktank/proposals.json`
 - **SHA-256:** `e247adc7df69115754685e72a52affdfbd8a5aac69bad23d658eafb1b34a7197`
 - **Artifact timestamp (UTC):** 2026-10-26T15:46:50.799557+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.363379+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

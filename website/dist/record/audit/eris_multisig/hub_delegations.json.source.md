@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/audit/eris_multisig/hub_delegations.json`
 - **SHA-256:** `7cb84af5a8781776d0602865376bee1fe09199da9c2674e57bb289ce8f56a06d`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.903292+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.359845+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

@@ -3,7 +3,6 @@
 - **Artifact:** `repos/phoenix-docs/tla_launch.md`
 - **SHA-256:** `b4023cebacad7d606be70c6637ce7a23a087983b2e6f32d66374ca48e63f5c92`
 - **Artifact timestamp (UTC):** 2026-10-26T14:14:30.524302+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.175516+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

@@ -1356,10 +1356,10 @@
       ],
       "observed_window": "241 ballots in 289 proposals (83.4%)",
       "treasury_usdc_total": 46745.7,
-      "otc_luna_receipt": 237323.047934,
       "otc_wbtc_supplied": 0.19657723,
-      "native_4853": "no ballot",
-      "eris_otc": "237,323.047934 LUNA received from Treasury; 0.19657723 WBTC supplied, memo www.erisprotocol.com"
+      "otc_luna_receipt": 237323.047934,
+      "eris_otc": "237,323.047934 LUNA received from Treasury; 0.19657723 WBTC supplied, memo www.erisprotocol.com",
+      "native_4853": "no ballot"
     }
   },
   "pair_agreement": [
@@ -1445,6 +1445,7 @@
     }
   ],
   "notes": [
-    "Missing ballot is not NO or abstention. Agreement does not prove coordination. Payment totals are scoped to 2 Jan\u201324 Oct 2026 and are not lifetime income."
-  ]
+    "Missing ballot is not NO or abstention. Agreement does not prove coordination. Payment totals are scoped to 2026-01-02\u20132026-10-24 and are not lifetime income."
+  ],
+  "recent_cutoff": "2026-09-26"
 }

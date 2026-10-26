@@ -24,4 +24,16 @@ for i in [118,119]:assert load(f'data/treasury/actions/{i}.json')['data']['done'
 after=load('data/treasury/actions/actions_after100.json')['data']
 assert after[19]['id']==120 and after[19]['done']
 assert not any('stewardship payments (2026-10-01' in x['name'] and x['setup'].get('payment',{}).get('payments',[{}])[0].get('recipient')=='terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c' for x in after if x['id'] in [118,119,120])
-print('Verified: 20 monthly validator payments, zero direct signer matches, 170 Treasury transfers, OTC classification, and October action roster.')
+
+ve3=load('data/counterparties/ve3_bribe_manager_flows.json')
+assert ve3['contract_label']=='ve3-bribe-manager' and ve3['source_transaction_count']==9
+assert ve3['by_asset']['LUNA']['total']==8809.069532
+assert ve3['by_asset']['LUNA']['october_2026']==2431.438843
+assert ve3['by_asset']['FUEL']['total']==69095.412349
+assert ve3['by_asset']['FUEL']['october_2026']==48995.522472
+assert ve3['by_asset']['USDC']['total']==19.075632
+assert ve3['by_asset']['USDC']['october_2026']==11.011553
+summary=load('data/payment_summary.json')
+assert summary['ve3_bribe_manager']==ve3
+assert summary['action_120']['id']==120 and summary['action_120']['done']
+print('Checked preserved captures (bounded): 20 monthly validator payments; no direct signer matches in the selected validator-transfer sets; 170 Treasury transfer events; OTC classification; October action roster.')

@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/handover/style.css`
 - **SHA-256:** `0fb6ba191540ea97a11a19f21bc4c0c4305fbeaf767c91ca01043f1e7c3ae86d`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.430954+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.188359+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

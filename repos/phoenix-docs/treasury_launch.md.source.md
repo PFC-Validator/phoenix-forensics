@@ -3,7 +3,6 @@
 - **Artifact:** `repos/phoenix-docs/treasury_launch.md`
 - **SHA-256:** `caedb67592333f6cf3f6b85994c9afcf234a0181ce9e597aa3529e56d0e6ac53`
 - **Artifact timestamp (UTC):** 2026-10-26T15:44:11.675948+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.175816+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

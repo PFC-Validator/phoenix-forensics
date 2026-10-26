@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/current/proposal9_votes.json`
 - **SHA-256:** `50bda90727e1e11c417d4096b38a0e64be13681a5ac7db6cf3a98f7afae4e7dd`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.414486+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.533628+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `50bda90727e1e11c417d4096b38a0e64be13681a5ac7db6cf3a98f7afae4e7dd` (matches packet source hash)

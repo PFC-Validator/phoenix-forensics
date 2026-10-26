@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/history/sources/stake-dependence.json`
 - **SHA-256:** `804ff418e0f33d8cf61aa2aca5aad758339a708744b69b0789f541ea1f280e74`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.432520+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.493779+00:00
 - **Classification:** Website history record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

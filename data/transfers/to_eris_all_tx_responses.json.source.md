@@ -3,7 +3,6 @@
 - **Artifact:** `data/transfers/to_eris_all_tx_responses.json`
 - **SHA-256:** `7669fafe17587f965a057b79dc515d6d1ad94ae2457eac96d602c3964a74d833`
 - **Artifact timestamp (UTC):** 2026-10-26T14:38:43.103851+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.122273+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

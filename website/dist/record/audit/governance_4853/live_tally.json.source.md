@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/audit/governance_4853/live_tally.json`
 - **SHA-256:** `6589647732640f91a1e9c82cb8c39b5a784e74aa70aa8721bcb71396ae4434d1`
 - **Artifact timestamp (UTC):** 2026-10-26T19:03:09.681381+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.355418+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

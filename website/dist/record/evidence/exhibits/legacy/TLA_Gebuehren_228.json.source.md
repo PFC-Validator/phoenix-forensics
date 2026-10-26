@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/legacy/TLA_Gebuehren_228.json`
 - **SHA-256:** `81389fb68a7c44eaf9c122c26a5f2ef8b52a3fa17b8641c255577777362328f8`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.408351+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.526875+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `81389fb68a7c44eaf9c122c26a5f2ef8b52a3fa17b8641c255577777362328f8` (matches packet source hash)

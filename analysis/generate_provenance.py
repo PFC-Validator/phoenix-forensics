@@ -1,4 +1,5 @@
 import base64,datetime,hashlib,json,pathlib,re
+from pipeline_utils import WALLET_CAPTURES, capture_status
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 PACKET='https://philipp-payments.pages.dev/evidence/'
 LCD='https://terra-phoenix-api.highstakes.ch'
@@ -52,13 +53,16 @@ def board_upstream():
     for x in d['records']:
         rows.append({k:x.get(k) for k in ['proposal_id','title','ballot_query_url','proposal_source','mb_vote_lcd_tx_url','philipp_vote_lcd_tx_url','creation_time_source','ballot_sha256','ballot_capture_utc']})
     (ROOT/'data/mb_voting_record.upstream.json').write_text(json.dumps({'source_index_note':'The packet source index states that 597 raw response bodies and prior verification files were included. These per-record fields identify original ballot/proposal queries and vote transactions.','records':rows},indent=2))
-packet_ledger_upstream();board_upstream()
+# Upstream indexes are refreshed only by analysis/generate_upstream_indexes.py.
+# Importing or running this sidecar generator never rewrites those verification inputs.
 
 def for_path(rel):
     p=rel.as_posix()
     if p=='data/mb_voting_record.json':
         immediate=PACKET+'exhibits/voting_record/mb_voting_record.json'
         return info('Preserved compiled evidence with embedded primary locators',[immediate],['data/mb_voting_record.upstream.json','data/source_index.json'],'Read-only retrieval from the supplied evidence packet.',notes='Upstream is established per record by ballot_query_url, proposal_source.source_url, vote LCD URLs, transaction hashes, and source hashes. Packet source index VOTE says 597 raw response bodies and prior verification files were included. This is not a claim that the compiled JSON is itself a raw chain response.')
+    if p=='downloads/index.html':
+        return derived(['analysis/make_download_manifest.py','data/download_manifest.json'],'analysis/make_download_manifest.py','Generated download index; each linked endpoint is listed in data/download_manifest.json.')
     if p=='downloads/packaged_ledger.json':
         immediate=PACKET+'exhibits/authority/packaged_ledger.json'
         return info('Preserved analytical ledger with original transaction locators',[immediate],['downloads/packaged_ledger.upstream.json','data/source_index.json'],'Read-only retrieval from the supplied evidence packet.',notes='Each operation has an original explorer_url and block height. Supporting primary_source_file values are local retained-file names, not independent public URLs; those are marked upstream-not-established rather than inferred.')
@@ -73,7 +77,7 @@ def for_path(rel):
     if p=='data/download_manifest.json':
         return derived(['analysis/make_download_manifest.py'],'analysis/make_download_manifest.py','Generated URL manifest; source endpoints are listed inside the file.')
     if p=='data/payment_summary.json':
-        return derived(['data/transfers/to_eris_all_transfers.json','data/treasury/outbound_transfers.json','data/treasury/actions/'],'analysis/generate_provenance.py and earlier payment-summary script','Summarizes monthly validator transfers, signer OTC flows, and action rosters; no new external data.')
+        return derived(['data/transfers/to_eris_all_transfers.json','data/treasury/outbound_transfers.json','data/treasury/actions/','data/counterparties/ve3_bribe_manager_flows.json'],'analysis/payment_summary.py','Summarizes monthly validator transfers, signer OTC flows, and action rosters; no new external data.')
     if p.startswith('data/native_4853/'):
         name=pathlib.PurePosixPath(p).name
         if name=='proposal.json':return direct([LCD+'/cosmos/gov/v1/proposals/4853'])
@@ -244,16 +248,30 @@ def for_path(rel):
     if p.startswith('website/dist/record/readable/'):
         return derived(['website/dist/record/evidence/','data/source_index.json'],'website publication pipeline','Readable text generated from preserved evidence; original upstream URLs are in source_index and the underlying artifacts.')
     if p.startswith('website/dist/record/history/'):
-        upstream=urls_in_file(ROOT/p) or ['website/dist/record/history/manifest.json','website/dist/record/history/sources/source-index.json']
+        upstream=['website/dist/record/history/manifest.json','website/dist/record/history/sources/source-index.json']
         return info('Website history record or generated presentation', ['website build inputs'],upstream,'Existing website build/preservation pipeline; no independent re-download by this provenance script.',notes='Consult the local manifest/source-index for the original chain or forum response. Generated HTML is presentation, not primary evidence.')
     if p.startswith('website/dist/record/'):
-        upstream=urls_in_file(ROOT/p) or ['data/source_index.json']
+        upstream=['data/source_index.json']
         return info('Website record or generated presentation',['website build inputs'],upstream,'Existing website build/preservation pipeline; no independent re-download by this provenance script.',notes='Generated presentation is not primary evidence; use the linked original response where available.')
     if p=='data/native_4853/votes.json':
         url=LCD+'/cosmos/gov/v1/proposals/4853/votes?pagination.limit=1000'
-        return info('Primary source response with documented merge', [url], [url,'data/native_4853/votes.json at the preceding local capture'],'Current browser response compared against the preceding 79-ballot response; exactly four additions and no changed ballots were merged in current response order.',notes='All 83 current ballot values are preserved. This is a semantic JSON merge, not a byte-for-byte HTTP-body capture.')
+        return info('Derived merged ballot dataset', [url], [url,'data/native_4853/votes.json at the preceding local capture'],'Current browser response compared against the preceding 79-ballot response; exactly four additions and no changed ballots were merged in current response order.',notes='All 83 ballot values are preserved. Verification pins this documented semantic merge, not a byte-for-byte chain response.')
     if p=='data/governance_4853/scenario.json':
         return derived(['data/governance_4853/live_tally.json','data/native_4853/votes.json','data/eris_multisig/hub_delegations.json'],'Full-hub-YES scenario recalculation','Validator operator addresses converted to account addresses using the same Bech32 payload; each non-YES hub delegation moved mechanically to YES. Synthetic Alliance weight excluded.')
+    if p=='data/counterparties/ve3_bribe_manager_contract.json':
+        return direct([LCD+'/cosmwasm/wasm/v1/contract/terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh'],'Contract metadata confirms code ID and label ve3-bribe-manager.')
+    if p=='data/counterparties/ve3_bribe_manager_flows.json':
+        return derived(['data/transfers/to_eris_all_transfers.json','data/transfers/to_eris_all_tx_responses.json','data/counterparties/ve3_bribe_manager_contract.json'],'analysis/counterparty_flows.py','Separates LUNA, FUEL and USDC voting-incentive receipts and verifies claim_bribes messages; no combined cross-asset total.')
+    if p=='data/capture_pages.json':
+        return derived(WALLET_CAPTURES,'analysis/refresh_captures.py','Ordered source URLs for every successfully completed page refresh; written only after duplicate/completeness checks pass.')
+    if p=='data/capture_completeness.json':
+        return derived(['analysis/pipeline_utils.py']+WALLET_CAPTURES,'analysis/verify_captures.py','Reports saved responses against provider-reported totals; incomplete windows cannot support unbounded absence claims.')
+    if p=='data/phoenix/MB_prior_counter_queries.json':
+        urls=urls_in_file(ROOT/p)
+        return info('Primary query-result summary',urls,urls,'Three read-only browser queries captured and summarized without identity attribution.',notes='Zero indexed results are bounded evidence, not proof that the address never acted.')
+    if p=='data/cross_checks/anchor_endpoints.json':
+        urls=urls_in_file(ROOT/p)
+        return info('Primary endpoint comparison',urls,urls,'Read-only browser queries against two public LCD providers; compared immediately without overwriting the earlier snapshot.',notes='Contract configuration matched exactly. Sequential live tally reads differed slightly and are preserved separately.')
     if p=='data/governance_4853/live_tally.json':
         urls=[LCD+'/cosmos/gov/v1/proposals/4853/tally',LCD+'/cosmos/gov/v1/proposals/4853/votes?pagination.limit=1000']
         return info('Derived analysis artifact',urls,urls,'Values extracted from the cited public chain responses.',notes='Live capture during 26 October review; companion ballot response contained 83 current ballots. Values can change before voting ends.')
@@ -271,10 +289,26 @@ def for_path(rel):
 def write_sidecar(path):
     rel=path.relative_to(ROOT)
     meta=for_path(rel)
+    pages_path=ROOT/'data/capture_pages.json'
+    if pages_path.exists():
+        pages=json.loads(pages_path.read_text()).get(rel.as_posix())
+        if pages:
+            meta['immediate_sources']=pages
+            meta['upstream_sources']=pages
     digest=hashlib.sha256(path.read_bytes()).hexdigest()
-    acquired=datetime.datetime.fromtimestamp(path.stat().st_mtime,datetime.timezone.utc).isoformat()
-    generated=datetime.datetime.now(datetime.timezone.utc).isoformat()
-    lines=['# Source and provenance','',f'- **Artifact:** `{rel.as_posix()}`',f'- **SHA-256:** `{digest}`',f'- **Artifact timestamp (UTC):** {acquired}',f'- **Sidecar generated (UTC):** {generated}',f'- **Classification:** {meta["classification"]}',f'- **Acquisition / transformation:** {meta["method"]}']
+    out=path.with_name(path.name+'.source.md')
+    previous=out.read_text() if out.exists() else ''
+    timestamp_match=re.search(r'^- \*\*Artifact timestamp \(UTC\):\*\*.*$',previous,re.M)
+    if timestamp_match:
+        timestamp_line=timestamp_match.group(0)
+    else:
+        timestamp_line='- **Timestamp basis:** No original acquisition timestamp established; file mtime is not used as acquisition evidence.'
+    if rel.as_posix() in WALLET_CAPTURES:
+        status=capture_status(rel.as_posix())
+        capture_note=f'{status["classification"]}: {status["saved"]} saved of {status["reported_total"]} reported responses; {status["missing"]} missing.'
+        if status['caution']:capture_note+=' '+status['caution']
+        meta['notes']=(meta['notes']+' '+capture_note).strip()
+    lines=['# Source and provenance','',f'- **Artifact:** `{rel.as_posix()}`',f'- **SHA-256:** `{digest}`',timestamp_line,f'- **Classification:** {meta["classification"]}',f'- **Acquisition / transformation:** {meta["method"]}']
     if meta['transformation']!='None':lines.append(f'- **Transformation:** `{meta["transformation"]}`')
     if meta['expected_sha256']:
         status='matches packet source hash' if digest==meta['expected_sha256'] else 'does not match packet source hash (possibly publication transformation or different capture)'
@@ -288,7 +322,6 @@ def write_sidecar(path):
         lines += [f'- {x}' for x in meta['upstream_sources']]
     if meta['notes']:lines += ['','## Scope, limits, and notes','',meta['notes']]
     lines += ['','This sidecar records provenance only. It does not independently validate every assertion in the artifact.']
-    out=path.with_name(path.name+'.source.md')
     out.write_text('\n'.join(lines)+'\n')
 
 roots=[ROOT/'data',ROOT/'downloads',ROOT/'repos',ROOT/'website/source-records/original-pages',ROOT/'website/dist/record']
@@ -300,5 +333,5 @@ for base in roots:
 for path in files:write_sidecar(path)
 index={'generated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'file_count':len(files),'convention':'Each artifact has a sibling <filename>.source.md with immediate and upstream sources, acquisition/transformation, notes, and SHA-256. UPSTREAM_NOT_ESTABLISHED means no original public source is asserted.','files':[str(p.relative_to(ROOT))+'.source.md' for p in files]}
 (ROOT/'PROVENANCE.json').write_text(json.dumps(index,indent=2))
-(ROOT/'PROVENANCE.md').write_text('# Provenance register\n\nEvery artifact under `data/`, `downloads/`, `repos/`, `website/source-records/original-pages/`, and `website/dist/record/` has a sibling `*.source.md` file.\n\nEach sidecar identifies the immediate source and, where established, the upstream original chain/forum/GitHub record. It also records acquisition or transformation, timestamps, SHA-256, and limitations. `UPSTREAM_NOT_ESTABLISHED` means no source is inferred.\n\nFor the supplied packet, `data/source_index.json` is used to map preserved files to original URLs. The voting record and authority ledger additionally have operation-level upstream indexes.\n\nTotal artifacts with sidecars: **'+str(len(files))+'**.\n')
+(ROOT/'PROVENANCE.md').write_text('# Provenance register\n\nEvery artifact under `data/`, `downloads/`, `repos/`, `website/source-records/original-pages/`, and `website/dist/record/` has a sibling `*.source.md` file.\n\nEach sidecar identifies the immediate source and, where established, the upstream original chain/forum/GitHub record. It also records acquisition or transformation, timestamp basis, SHA-256, and limitations. Sidecar generation is deterministic; generation time appears only in this top-level register. `UPSTREAM_NOT_ESTABLISHED` means no source is inferred.\n\nFor the supplied packet, `data/source_index.json` is used to map preserved files to original URLs. The voting record and authority ledger additionally have operation-level upstream indexes.\n\nTotal artifacts with sidecars: **'+str(len(files))+'**.\n')
 print('sidecars',len(files))

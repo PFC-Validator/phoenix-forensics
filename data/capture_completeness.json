@@ -1,0 +1,78 @@
+{
+  "wallet_history_census_complete": false,
+  "captures": [
+    {
+      "file": "data/phoenix/MB_prior_treasury_transactions.json",
+      "saved": 0,
+      "reported_total": 0,
+      "missing": 0,
+      "complete": true,
+      "classification": "zero indexed results with counter-queries",
+      "caution": "Zero indexed results are not proof that the address never acted."
+    },
+    {
+      "file": "data/phoenix/MB_current_treasury_transactions.json",
+      "saved": 100,
+      "reported_total": 161,
+      "missing": 61,
+      "complete": false,
+      "classification": "truncated window",
+      "caution": "Do not use this file alone for lifetime totals, cross-wallet comparisons, or absence claims."
+    },
+    {
+      "file": "data/phoenix/Vini_treasury_transactions.json",
+      "saved": 100,
+      "reported_total": 110,
+      "missing": 10,
+      "complete": false,
+      "classification": "truncated window",
+      "caution": "Do not use this file alone for lifetime totals, cross-wallet comparisons, or absence claims."
+    },
+    {
+      "file": "data/phoenix/Rose_treasury_transactions.json",
+      "saved": 100,
+      "reported_total": 171,
+      "missing": 71,
+      "complete": false,
+      "classification": "truncated window",
+      "caution": "Do not use this file alone for lifetime totals, cross-wallet comparisons, or absence claims."
+    },
+    {
+      "file": "data/transfers/rebel_project_sender.json",
+      "saved": 100,
+      "reported_total": 216,
+      "missing": 116,
+      "complete": false,
+      "classification": "truncated window",
+      "caution": "Do not use this file alone for lifetime totals, cross-wallet comparisons, or absence claims."
+    },
+    {
+      "file": "data/transfers/rebel_project_recipient.json",
+      "saved": 100,
+      "reported_total": 141,
+      "missing": 41,
+      "complete": false,
+      "classification": "truncated window",
+      "caution": "Do not use this file alone for lifetime totals, cross-wallet comparisons, or absence claims."
+    },
+    {
+      "file": "data/transfers/rebel_orbital_sender.json",
+      "saved": 24,
+      "reported_total": 24,
+      "missing": 0,
+      "complete": true,
+      "classification": "complete capture",
+      "caution": null
+    },
+    {
+      "file": "data/transfers/rebel_orbital_recipient.json",
+      "saved": 9,
+      "reported_total": 9,
+      "missing": 0,
+      "complete": true,
+      "classification": "complete capture",
+      "caution": null
+    }
+  ],
+  "absence_claim_policy": "Negative transfer findings cover only the preserved union. Complete both sender and recipient histories before making an unbounded absence claim."
+}

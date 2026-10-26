@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/audit/eris_multisig/validator_profiles.json`
 - **SHA-256:** `e5dfbde81e360d9b147ae0ad8f8fe7150a7f79cb11b1d9d710643e1898e7dbaf`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.903531+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.359561+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 
@@ -13,9 +12,7 @@
 
 ## Upstream original source(s)
 
-- https://galacticpunks.io
-- https://liondao.money/
-- https://www.erisprotocol.com/
+- data/source_index.json
 
 ## Scope, limits, and notes
 

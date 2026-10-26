@@ -1,0 +1,48 @@
+{
+  "captured_utc": "2026-10-26T19:26:00Z",
+  "providers": [
+    "https://terra-phoenix-api.highstakes.ch",
+    "https://terra2.tdrsys.com"
+  ],
+  "checks": [
+    {
+      "artifact": "ampLUNA hub config",
+      "path": "/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJjb25maWciOnt9fQ==",
+      "exact_match": true,
+      "confirmed": {
+        "owner": "terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+        "new_owner": null,
+        "protocol_fee_contract": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+        "validator_count": 30
+      }
+    },
+    {
+      "artifact": "CW20-ICS20 config",
+      "path": "/cosmwasm/wasm/v1/contract/terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au/smart/eyJjb25maWciOnt9fQ==",
+      "exact_match": true,
+      "confirmed": {
+        "default_timeout": 900,
+        "default_gas_limit": 510000,
+        "gov_contract": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew"
+      }
+    },
+    {
+      "artifact": "native 4853 live tally",
+      "path": "/cosmos/gov/v1/proposals/4853/tally",
+      "exact_match": false,
+      "highstakes": {
+        "yes_count": "40037384528549",
+        "abstain_count": "22600302010582",
+        "no_count": "17466527882279",
+        "no_with_veto_count": "38686323994614"
+      },
+      "tdrsys": {
+        "yes_count": "40037404373135",
+        "abstain_count": "22600309568676",
+        "no_count": "17466537153601",
+        "no_with_veto_count": "38686335586523"
+      },
+      "interpretation": "Small differences are consistent with a live tally changing between sequential reads. This is not treated as a provider discrepancy or copied back into the earlier snapshot."
+    }
+  ]
+}

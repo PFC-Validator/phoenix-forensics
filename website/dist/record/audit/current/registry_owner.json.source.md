@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/audit/current/registry_owner.json`
 - **SHA-256:** `dfe69cc2c883d4228ae572e8ced30f27403c9f820d6dd3a6defe9da32c761e2a`
 - **Artifact timestamp (UTC):** 2026-10-26T14:15:22.885256+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.361942+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

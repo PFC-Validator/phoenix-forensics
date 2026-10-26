@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/current/asset_staking__bluechip.json`
 - **SHA-256:** `afb47bb238269a4747fc8f2930aae59b739efe2caf120d7f7817af4802370be1`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.416222+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.542918+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `afb47bb238269a4747fc8f2930aae59b739efe2caf120d7f7817af4802370be1` (matches packet source hash)

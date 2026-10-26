@@ -3,7 +3,6 @@
 - **Artifact:** `website/source-records/original-pages/privacy/index.html`
 - **SHA-256:** `bcf947d1c66ec807cd5fc7a90821a62bf98e8a807ea54808bb68e87d47eb2f1c`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.490216+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.178955+00:00
 - **Classification:** Preserved packet HTML
 - **Acquisition / transformation:** Read-only retrieval of supplied packet HTML.
 

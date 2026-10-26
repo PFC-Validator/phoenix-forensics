@@ -85,7 +85,8 @@ if audit_out.exists():
     shutil.rmtree(audit_out)
 audit_paths = [
     'data/native_4853/proposal.json', 'data/native_4853/votes.json', 'data/native_4853_votes_all.csv',
-    'data/governance_4853', 'data/admin_handover', 'data/lion_dao',
+    'data/governance_4853', 'data/admin_handover', 'data/lion_dao', 'data/cross_checks', 'data/counterparties',
+    'data/capture_completeness.json', 'data/phoenix/MB_prior_counter_queries.json',
     'data/eris_multisig', 'data/eris_multisig_votes_all.csv',
     'data/thinktank', 'data/current', 'data/payment_summary.json',
     'data/phoenix_board_votes_all.csv', 'data/phoenix_board_votes_last4weeks.csv',

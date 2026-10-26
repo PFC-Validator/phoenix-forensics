@@ -3,7 +3,6 @@
 - **Artifact:** `data/thinktank/proposals.json`
 - **SHA-256:** `e247adc7df69115754685e72a52affdfbd8a5aac69bad23d658eafb1b34a7197`
 - **Artifact timestamp (UTC):** 2026-10-26T15:46:50.799557+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.138458+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

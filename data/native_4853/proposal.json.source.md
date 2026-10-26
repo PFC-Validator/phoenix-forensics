@@ -3,7 +3,6 @@
 - **Artifact:** `data/native_4853/proposal.json`
 - **SHA-256:** `111e61c275079bf9e1c145dd01dd62ebee5b380a90902b31440545223e727578`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.898948+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.132658+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

@@ -3,7 +3,6 @@
 - **Artifact:** `data/current/registry_contract.json`
 - **SHA-256:** `a20360ff9712f88728e252205c001dc85f7f96863ee6d0c155a111f1a82f490a`
 - **Artifact timestamp (UTC):** 2026-10-26T14:15:22.885033+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.129270+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

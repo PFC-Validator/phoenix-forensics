@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/evidence/exhibits/current/hub_config.json`
 - **SHA-256:** `befa7e50218747a217616dd178bd06807c0d3cf83b31be7839f4b7cd71801519`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.416486+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.543517+00:00
 - **Classification:** Preserved packet artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 - **Packet source SHA-256:** `befa7e50218747a217616dd178bd06807c0d3cf83b31be7839f4b7cd71801519` (matches packet source hash)

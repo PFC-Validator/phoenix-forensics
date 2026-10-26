@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/readable/handover.txt`
 - **SHA-256:** `b6e441ac7ff1d7492e067c441c77b87d4b6b3dd13ab964e3e13d7b7f739f048b`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:23.966853+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.112593+00:00
 - **Classification:** Derived dataset
 - **Acquisition / transformation:** Local transformation using `website publication pipeline`.
 - **Transformation:** `website publication pipeline`

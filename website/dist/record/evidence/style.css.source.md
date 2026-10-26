@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/evidence/style.css`
 - **SHA-256:** `e93f31ec71293024039134f7d18cbdee441048444359d2dfadc6e00d2f3a0752`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.422044+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.186680+00:00
 - **Classification:** Packet-linked artifact
 - **Acquisition / transformation:** Read-only retrieval or retained publication copy from the supplied evidence packet.
 

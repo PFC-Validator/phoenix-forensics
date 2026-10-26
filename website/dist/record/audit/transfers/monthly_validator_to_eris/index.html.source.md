@@ -2,8 +2,7 @@
 
 - **Artifact:** `website/dist/record/audit/transfers/monthly_validator_to_eris/index.html`
 - **SHA-256:** `1595bf7aca05a12dcc78b718f756eda1ef1dcadc29f330e92029c84866bea6b0`
-- **Artifact timestamp (UTC):** 2026-10-26T19:09:21.226512+00:00
-- **Sidecar generated (UTC):** 2026-10-26T19:09:26.365456+00:00
+- **Timestamp basis:** No original acquisition timestamp established; file mtime is not used as acquisition evidence.
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

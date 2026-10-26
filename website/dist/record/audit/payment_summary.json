@@ -598,5 +598,172 @@
         "open": []
       }
     }
+  },
+  "ve3_bribe_manager": {
+    "address": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+    "contract_label": "ve3-bribe-manager",
+    "classification": "Protocol voting-incentive receipts through claim_bribes; not an unidentified personal wallet or ordinary payment sender.",
+    "source_transaction_count": 9,
+    "first_receipt": "2025-12-31T21:36:41Z",
+    "last_receipt": "2026-10-14T07:33:50Z",
+    "by_asset": {
+      "LUNA": {
+        "denom": "uluna",
+        "transfer_events": 9,
+        "total": 8809.069532,
+        "october_2026": 2431.438843
+      },
+      "FUEL": {
+        "denom": "ibc/4B44179AC2F0BEE50C16A673B3B886398988692885B2848A1C8AEF27148B3961",
+        "transfer_events": 4,
+        "total": 69095.412349,
+        "october_2026": 48995.522472
+      },
+      "USDC": {
+        "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "transfer_events": 4,
+        "total": 19.075632,
+        "october_2026": 11.011553
+      }
+    },
+    "caution": "Do not add LUNA, FUEL and USDC as if they were one asset. Contract receipts do not establish common ownership or personal income.",
+    "transactions": [
+      {
+        "txhash": "D13145D5DAC32A63139847B17A6C0C5D14DC66EF96A01C6B5EDD0F34CB9899CE",
+        "time": "2026-10-14T07:33:50Z",
+        "height": "23279417",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 11011553,
+        "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+      },
+      {
+        "txhash": "D13145D5DAC32A63139847B17A6C0C5D14DC66EF96A01C6B5EDD0F34CB9899CE",
+        "time": "2026-10-14T07:33:50Z",
+        "height": "23279417",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 48995522472,
+        "denom": "ibc/4B44179AC2F0BEE50C16A673B3B886398988692885B2848A1C8AEF27148B3961"
+      },
+      {
+        "txhash": "D13145D5DAC32A63139847B17A6C0C5D14DC66EF96A01C6B5EDD0F34CB9899CE",
+        "time": "2026-10-14T07:33:50Z",
+        "height": "23279417",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 2431438843,
+        "denom": "uluna"
+      },
+      {
+        "txhash": "A0BAFAFA851401C4FDD696F1E2D9EF50E944A0FC7FB6576B6A7D15337B003AD7",
+        "time": "2026-07-21T05:41:01Z",
+        "height": "22006315",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 1883093,
+        "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+      },
+      {
+        "txhash": "A0BAFAFA851401C4FDD696F1E2D9EF50E944A0FC7FB6576B6A7D15337B003AD7",
+        "time": "2026-07-21T05:41:01Z",
+        "height": "22006315",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 8117576356,
+        "denom": "ibc/4B44179AC2F0BEE50C16A673B3B886398988692885B2848A1C8AEF27148B3961"
+      },
+      {
+        "txhash": "A0BAFAFA851401C4FDD696F1E2D9EF50E944A0FC7FB6576B6A7D15337B003AD7",
+        "time": "2026-07-21T05:41:01Z",
+        "height": "22006315",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 393103905,
+        "denom": "uluna"
+      },
+      {
+        "txhash": "5CD06B123EA3720987A95F96EBBE3BA9A5657229F7CB982996E3B345B884CFBE",
+        "time": "2026-06-30T09:32:51Z",
+        "height": "21696699",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 4764512,
+        "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+      },
+      {
+        "txhash": "5CD06B123EA3720987A95F96EBBE3BA9A5657229F7CB982996E3B345B884CFBE",
+        "time": "2026-06-30T09:32:51Z",
+        "height": "21696699",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 10146109234,
+        "denom": "ibc/4B44179AC2F0BEE50C16A673B3B886398988692885B2848A1C8AEF27148B3961"
+      },
+      {
+        "txhash": "5CD06B123EA3720987A95F96EBBE3BA9A5657229F7CB982996E3B345B884CFBE",
+        "time": "2026-06-30T09:32:51Z",
+        "height": "21696699",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 570635397,
+        "denom": "uluna"
+      },
+      {
+        "txhash": "9728408B1BBE545D8D82552DC0D1BAA6F1A5D3D3694AD14C2C59E55837E3D066",
+        "time": "2026-06-07T07:51:29Z",
+        "height": "21352926",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 436398585,
+        "denom": "uluna"
+      },
+      {
+        "txhash": "9728408B1BBE545D8D82552DC0D1BAA6F1A5D3D3694AD14C2C59E55837E3D066",
+        "time": "2026-06-07T07:51:29Z",
+        "height": "21352926",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 1416474,
+        "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB"
+      },
+      {
+        "txhash": "FCA1773D8D612BF6A5801F6D8DA5A8874E5E6DE498AF54203B4A9067634D63AB",
+        "time": "2026-05-18T00:27:09Z",
+        "height": "21049928",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 226438771,
+        "denom": "uluna"
+      },
+      {
+        "txhash": "03B5492DAE92870EC487DF51CA9ADAA11C3612AC9C87419EB63274BA9C65381D",
+        "time": "2026-05-14T15:14:12Z",
+        "height": "20999505",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 1385829844,
+        "denom": "uluna"
+      },
+      {
+        "txhash": "94CDCFCAB1158D8407A2A6802F4ED2ED1F26A03590E416923E51580AE7B92CA4",
+        "time": "2026-04-19T01:53:21Z",
+        "height": "20617848",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 607097510,
+        "denom": "uluna"
+      },
+      {
+        "txhash": "B79388BBB645C31ADB8499FA2716B46BF727AF42396CF2CD59B117DED4CD4CE5",
+        "time": "2026-03-16T18:18:14Z",
+        "height": "20119624",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 2170412164,
+        "denom": "uluna"
+      },
+      {
+        "txhash": "B79388BBB645C31ADB8499FA2716B46BF727AF42396CF2CD59B117DED4CD4CE5",
+        "time": "2026-03-16T18:18:14Z",
+        "height": "20119624",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 1836204287,
+        "denom": "ibc/4B44179AC2F0BEE50C16A673B3B886398988692885B2848A1C8AEF27148B3961"
+      },
+      {
+        "txhash": "9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4",
+        "time": "2025-12-31T21:36:41Z",
+        "height": "19006850",
+        "sender": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "amount": 587714513,
+        "denom": "uluna"
+      }
+    ]
   }
 }

@@ -3,7 +3,6 @@
 - **Artifact:** `data/thinktank/group_contract.json`
 - **SHA-256:** `f21f6d0a51bf792683c69c3c61ee93d98bd586db8daf610f8d550c39a470e4ef`
 - **Artifact timestamp (UTC):** 2026-10-26T15:47:51.150554+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.139702+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

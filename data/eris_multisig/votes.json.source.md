@@ -3,7 +3,6 @@
 - **Artifact:** `data/eris_multisig/votes.json`
 - **SHA-256:** `8c91b173111d8e258c07adcaac96bde15d576419cfa03116d84809f0939a56b1`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.902306+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.125602+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

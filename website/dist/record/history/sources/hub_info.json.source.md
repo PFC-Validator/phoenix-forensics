@@ -3,7 +3,6 @@
 - **Artifact:** `website/dist/record/history/sources/hub_info.json`
 - **SHA-256:** `f7cae66c8bf4b567df905936269bd18847dbfef61c9abb9cacc850e6ed2e7a4a`
 - **Artifact timestamp (UTC):** 2026-10-26T14:35:02.432394+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.493234+00:00
 - **Classification:** Website history record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
 

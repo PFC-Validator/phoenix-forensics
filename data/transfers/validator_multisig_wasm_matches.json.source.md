@@ -3,7 +3,6 @@
 - **Artifact:** `data/transfers/validator_multisig_wasm_matches.json`
 - **SHA-256:** `4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945`
 - **Artifact timestamp (UTC):** 2026-10-26T14:52:07.309129+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.105189+00:00
 - **Classification:** Derived dataset
 - **Acquisition / transformation:** Local transformation using `Contract-token event matching`.
 - **Transformation:** `Contract-token event matching`

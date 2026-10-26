@@ -3,7 +3,6 @@
 - **Artifact:** `data/eris_multisig/signer_alx_transactions.json`
 - **SHA-256:** `033b727a5698a387df935e3d6333b2993c39ee4ca750d39fa929d061c7bbff95`
 - **Artifact timestamp (UTC):** 2026-10-26T14:17:39.951761+00:00
-- **Sidecar generated (UTC):** 2026-10-26T16:04:44.122741+00:00
 - **Classification:** Primary source response
 - **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 

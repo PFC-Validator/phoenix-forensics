@@ -9,7 +9,7 @@
     "time": "2026-06-07T07:48:09Z",
     "from": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
     "to": "terra1rnwr9zjgf6204lyk37w0l6hhtaptke5m2cfpmf",
-    "amount_usdc": 7500,
+    "amount_usdc": 7500.0,
     "memo": "invoice"
   },
   "other_published_addresses": [
@@ -28,7 +28,12 @@
     {
       "address": "terra1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcxuf76",
       "attribution": "Orbital Command validator account; Rebel association is documented separately",
-      "native_4853": "YES",
+      "native_4853": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
       "eris_hub_delegated_luna": 1124005.906919
     }
   ],
