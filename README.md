@@ -1,6 +1,6 @@
 # Phoenix governance audit pack
 
-Start with `REPORT.md`, then `PAYMENTS.md` for the ownership, validator-transfer, Treasury, OTC, and compensation review.
+Start with `REPORT.md`, then `PAYMENTS.md` for the ownership, validator-transfer, Treasury, OTC, and compensation review. See `THINKTANK.md` for the veto DAO, its voting record, member payment relationships and bounded wallet-link analysis.
 
 ## Contents
 
