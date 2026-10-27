@@ -1,7 +1,7 @@
 # Source and provenance
 
 - **Artifact:** `data/governance_4853/vamp_review.json`
-- **SHA-256:** `f05d599ec00fe571d84e0b9cfaf9271d6f4213ea20d35f69c1cb1fcb569485b8`
+- **SHA-256:** `caccb3e04cc9a60109b4542967001426c6f3e16baac1d1c2dc6b1ce8eda48451`
 - **Artifact timestamp (UTC):** 2026-10-26T18:11:08.865477+00:00
 - **Classification:** Derived analysis artifact
 - **Acquisition / transformation:** Values extracted from the cited public contract responses.

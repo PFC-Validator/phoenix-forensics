@@ -1,0 +1,14 @@
+{
+  "status": "current_query",
+  "file": "data/leads/queries/superbolt_35_proposal.json",
+  "source_url": "https://rest-archive.neutron.solva.solutions/cosmwasm/wasm/v1/contract/neutron19v3vnv8u67ynumwpltwnhd6umatjys9atmctwh288ummmlds5gms9efm6h/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6MzV9fQ==",
+  "acquired_utc": "2026-10-27T13:02:48.592619+00:00",
+  "sha256": "ab73bb757080f1f3ce6e011108d0591040d40b4806467f2564fcef8cc0782020",
+  "response_headers": {
+    "date": "Tue, 27 Oct 2026 13:02:48 GMT",
+    "content-type": "application/json",
+    "x-cosmos-block-height": "62030764"
+  },
+  "attempts": [],
+  "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+}

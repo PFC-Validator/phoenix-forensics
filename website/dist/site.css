@@ -57,6 +57,7 @@ button{font:inherit}
 .section{padding:76px 0;border-bottom:1px solid var(--rule)}
 .section-heading{max-width:790px;margin-bottom:32px}
 .section-heading p{font-size:19px;color:var(--muted)}
+.section-grid>*{min-width:0}
 .section-grid{display:grid;grid-template-columns:minmax(220px,.65fr) minmax(0,1.35fr);gap:80px;align-items:start}
 .section-intro{position:sticky;top:24px}
 .section-intro p{color:var(--muted)}
@@ -94,6 +95,9 @@ button{font:inherit}
 .reform-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 .reform-grid p,.two-col p,.two-col li{color:var(--muted)}
 .table-scroll{overflow-x:auto;margin:24px 0 30px;border-top:1px solid var(--rule)}
+.table-scroll:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.table-scroll-hint{display:none;font-size:15px;color:var(--muted)}
+@media(max-width:720px){.table-scroll-hint{display:block;margin:20px 0 8px}.table-scroll-hint+.table-scroll{margin-top:8px}}
 table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.45}
 caption{text-align:left;padding:14px 0;color:var(--muted)}
 th{text-align:left;font:600 13px/1.4 var(--heading);color:var(--muted);padding:14px 16px 14px 0;border-bottom:1px solid var(--rule);vertical-align:bottom}

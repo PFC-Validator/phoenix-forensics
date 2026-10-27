@@ -6,4 +6,4 @@ Each sidecar identifies the immediate source and, where established, the upstrea
 
 For the supplied packet, `data/source_index.json` is used to map preserved files to original URLs. The voting record and authority ledger additionally have operation-level upstream indexes.
 
-Total artifacts with sidecars: **703**.
+Total artifacts with sidecars: **1268**.

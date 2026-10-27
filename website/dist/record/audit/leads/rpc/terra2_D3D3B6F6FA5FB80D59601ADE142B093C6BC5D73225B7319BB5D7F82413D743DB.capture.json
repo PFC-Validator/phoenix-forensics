@@ -1,0 +1,16 @@
+{
+  "hash": "D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+  "file": "data/leads/rpc/terra2_D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB.json",
+  "source_url": "http://15.204.43.42:26657/tx?hash=0xD3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB&prove=false",
+  "acquired_utc": "2026-10-27T13:04:05.444581+00:00",
+  "sha256": "c8e785ed1e46698589eda31aef669189d76b509d3ecc566a731516be1c1a50d2",
+  "status": "tx_bytes_hash_and_execution_match",
+  "lcd_file": "data/leads/transactions/terra2_D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB.json",
+  "height": "22952025",
+  "execution_code": 0,
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+  },
+  "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+}

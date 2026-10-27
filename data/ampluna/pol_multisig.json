@@ -1,0 +1,21 @@
+{
+  "captured_utc": "2026-10-26T21:40:00Z",
+  "address": "terra1kzkrm2a8qquer9dgztg4a3fvhh8d7fudsd7ualae843wsv9plhksv8ea3g",
+  "label": "DAO DAO DAO (1763105385365)",
+  "config": {
+    "name": "Terra Liquidity Deployment Multi-Sig",
+    "description": "Multi-Sig wallet for the deployment of LUNA from the Community Pool"
+  },
+  "admin": "terra1kzkrm2a8qquer9dgztg4a3fvhh8d7fudsd7ualae843wsv9plhksv8ea3g",
+  "voting_module": "terra1mnhfqn0szajy2ehyuqfmvxvtxmvxwy47dcv0x00hhks5e2xj5lnsrw6puv",
+  "group_contract": "terra1wx4pgnld53268474yafkz77uxy40kp2a3nh4plnl7w0gv6hj23ls3hdd8k",
+  "proposal_threshold": "0.60",
+  "members": [
+    {"addr":"terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c","weight":20,"known_role":"Vini; Phoenix board and 10-weight ERIS signer"},
+    {"addr":"terra1j00tmfa8el568llp3y96dquc9j2fcczmccnsn0","weight":20,"known_role":"David; Think Tank member"},
+    {"addr":"terra1np5em0379k8hc90chdzfsfgjgtm7xk8d0td77t","weight":20,"known_role":"No identity or control attribution added"},
+    {"addr":"terra1qu0ych3xv4455m8p3h8877yeehn2s70newxd7p","weight":20,"known_role":"No identity or control attribution added"},
+    {"addr":"terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp","weight":20,"known_role":"0xphilipp-associated ERIS account; Think Tank member"}
+  ],
+  "governance_reading": "Five equal voters; 60% means three of five. Three members also have documented Phoenix/Think Tank/ERIS roles. The DAO is community/protocol custody, not an individual stakeholder wallet."
+}

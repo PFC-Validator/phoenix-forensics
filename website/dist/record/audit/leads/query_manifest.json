@@ -1,0 +1,1082 @@
+{
+  "acquired_utc": "2026-10-27T13:23:47.832761+00:00",
+  "queries": [
+    {
+      "name": "phoenix_A33_proposal",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6MzN9fQ==",
+      "lead_ids": [
+        24
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/phoenix_A33_proposal.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6MzN9fQ==",
+      "acquired_utc": "2026-10-27T13:02:44.855101+00:00",
+      "sha256": "75d8ec0d6f8b5d5bb6b8184b775a3f0a29457464e8648d246b3872bff9a6c8ea",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:02:44 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "phoenix_A33_votes",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjozMywibGltaXQiOjEwMH19",
+      "lead_ids": [
+        24
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/phoenix_A33_votes.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjozMywibGltaXQiOjEwMH19",
+      "acquired_utc": "2026-10-27T13:02:44.861074+00:00",
+      "sha256": "6ffa023d2aabd5a4dc375e4d40a0655c750e31f736d8bc2747533f028c5167ef",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:02:44 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "phoenix_A43_proposal",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6NDN9fQ==",
+      "lead_ids": [
+        23
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/phoenix_A43_proposal.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6NDN9fQ==",
+      "acquired_utc": "2026-10-27T13:02:44.862222+00:00",
+      "sha256": "7778eaf88e2271be26d2a8c0b662e7ecc779f58a1487f40633e26dad0e33199e",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:02:44 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "phoenix_A43_votes",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjo0MywibGltaXQiOjEwMH19",
+      "lead_ids": [
+        23
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/phoenix_A43_votes.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjo0MywibGltaXQiOjEwMH19",
+      "acquired_utc": "2026-10-27T13:02:44.858713+00:00",
+      "sha256": "6ffa023d2aabd5a4dc375e4d40a0655c750e31f736d8bc2747533f028c5167ef",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:02:44 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "ampluna_token_info",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct/smart/eyJ0b2tlbl9pbmZvIjp7fX0=",
+      "lead_ids": [
+        5,
+        23,
+        24,
+        27,
+        46
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/ampluna_token_info.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct/smart/eyJ0b2tlbl9pbmZvIjp7fX0=",
+      "acquired_utc": "2026-10-27T13:02:44.860631+00:00",
+      "sha256": "4632035b2acde5a3a434593252a3fe6740c4468fc09e8d4a07a2821f158e4f08",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:02:44 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "arbluna_token_info",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490/smart/eyJ0b2tlbl9pbmZvIjp7fX0=",
+      "lead_ids": [
+        5,
+        23,
+        24,
+        27,
+        46
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/arbluna_token_info.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490/smart/eyJ0b2tlbl9pbmZvIjp7fX0=",
+      "acquired_utc": "2026-10-27T13:02:44.858123+00:00",
+      "sha256": "87867674d3d775c13326ea12e0cd4b9bd7631d3ffa6ffb42c78279eb07aef792",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:02:44 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "lock_429",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MjkifX0=",
+      "lead_ids": [
+        25
+      ],
+      "requested_height": 23464975,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MjkifX0=",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MjkifX0=",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MjkifX0=",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:43.861008+00:00"
+    },
+    {
+      "name": "lock_432",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MzIifX0=",
+      "lead_ids": [
+        25
+      ],
+      "requested_height": 23464975,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MzIifX0=",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MzIifX0=",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MzIifX0=",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:44.836499+00:00"
+    },
+    {
+      "name": "treasury_contract",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+      "lead_ids": [
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:44.344117+00:00"
+    },
+    {
+      "name": "escrow_contract",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "lead_ids": [
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:43.345463+00:00"
+    },
+    {
+      "name": "hub_contract",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "lead_ids": [
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:43.307991+00:00"
+    },
+    {
+      "name": "creda_portfolio_contract",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz",
+      "lead_ids": [
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:43.350408+00:00"
+    },
+    {
+      "name": "registry_ownership",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:45.353820+00:00"
+    },
+    {
+      "name": "registry_roles",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:45.844799+00:00"
+    },
+    {
+      "name": "hub_config",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJjb25maWciOnt9fQ==",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJjb25maWciOnt9fQ==",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJjb25maWciOnt9fQ==",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJjb25maWciOnt9fQ==",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:44.386692+00:00"
+    },
+    {
+      "name": "creda_ownership",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:46.343389+00:00"
+    },
+    {
+      "name": "creda_roles",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:46.839885+00:00"
+    },
+    {
+      "name": "creda_state",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJzdGF0ZSI6e319",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJzdGF0ZSI6e319",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJzdGF0ZSI6e319",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJzdGF0ZSI6e319",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:45.423314+00:00"
+    },
+    {
+      "name": "gauge_config",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJjb25maWciOnt9fQ==",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJjb25maWciOnt9fQ==",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJjb25maWciOnt9fQ==",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJjb25maWciOnt9fQ==",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:47.358354+00:00"
+    },
+    {
+      "name": "hub_vote_operator",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/raw/dm90ZV9vcGVyYXRvcg==",
+      "lead_ids": [
+        20
+      ],
+      "requested_height": 23476938,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/raw/dm90ZV9vcGVyYXRvcg==",
+          "error": "Historical response height not confirmed: None"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/raw/dm90ZV9vcGVyYXRvcg==",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "http://15.204.43.42:1317/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/raw/dm90ZV9vcGVyYXRvcg==",
+          "error": "Historical response height not confirmed: None"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:47.832554+00:00"
+    },
+    {
+      "name": "superbolt_35_proposal",
+      "chain": "neutron",
+      "path": "/cosmwasm/wasm/v1/contract/neutron19v3vnv8u67ynumwpltwnhd6umatjys9atmctwh288ummmlds5gms9efm6h/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6MzV9fQ==",
+      "lead_ids": [
+        13
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/superbolt_35_proposal.json",
+      "source_url": "https://rest-archive.neutron.solva.solutions/cosmwasm/wasm/v1/contract/neutron19v3vnv8u67ynumwpltwnhd6umatjys9atmctwh288ummmlds5gms9efm6h/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6MzV9fQ==",
+      "acquired_utc": "2026-10-27T13:02:48.592619+00:00",
+      "sha256": "ab73bb757080f1f3ce6e011108d0591040d40b4806467f2564fcef8cc0782020",
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:02:48 GMT",
+        "content-type": "application/json",
+        "x-cosmos-block-height": "62030764"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "superbolt_35_votes",
+      "chain": "neutron",
+      "path": "/cosmwasm/wasm/v1/contract/neutron19v3vnv8u67ynumwpltwnhd6umatjys9atmctwh288ummmlds5gms9efm6h/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjozNSwibGltaXQiOjEwMH19",
+      "lead_ids": [
+        13
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/superbolt_35_votes.json",
+      "source_url": "https://rest-archive.neutron.solva.solutions/cosmwasm/wasm/v1/contract/neutron19v3vnv8u67ynumwpltwnhd6umatjys9atmctwh288ummmlds5gms9efm6h/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjozNSwibGltaXQiOjEwMH19",
+      "acquired_utc": "2026-10-27T13:02:49.030405+00:00",
+      "sha256": "7dd0296a5f5d710928980a085db9cae1b07547c7e8b28a5a03266fa8c1d9eeba",
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:02:49 GMT",
+        "content-type": "application/json",
+        "x-cosmos-block-height": "62030764"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "superbolt_usdc_trace",
+      "chain": "neutron",
+      "path": "/ibc/apps/transfer/v1/denom_traces/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+      "lead_ids": [
+        13
+      ],
+      "requested_height": null,
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://rest-archive.neutron.solva.solutions/ibc/apps/transfer/v1/denom_traces/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+          "error": "HTTP Error 501: Not Implemented"
+        },
+        {
+          "url": "https://rest-kralum.neutron-1.neutron.org/ibc/apps/transfer/v1/denom_traces/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+          "error": "<urlopen error [SSL: TLS_ALERT_HANDSHAKE_FAILURE] tls alert handshake failure (_ssl.c:1144)>"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:23:46.156977+00:00"
+    },
+    {
+      "name": "superbolt_usdc_trace_v2",
+      "chain": "neutron",
+      "path": "/ibc/apps/transfer/v1/denoms/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+      "lead_ids": [
+        13
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/superbolt_usdc_trace_v2.json",
+      "source_url": "https://rest-archive.neutron.solva.solutions/ibc/apps/transfer/v1/denoms/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+      "acquired_utc": "2026-10-27T13:03:41.965124+00:00",
+      "sha256": "61edb2d3fca349ae524496bf23451514613a01d1c46e13f0498939dafb4b9853",
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:03:41 GMT",
+        "content-type": "application/json",
+        "x-cosmos-block-height": "62030772"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "review_creda_metrics",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJtZXRyaWNzIjp7fX0=",
+      "lead_ids": [
+        4,
+        35
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/review_creda_metrics.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJtZXRyaWNzIjp7fX0=",
+      "acquired_utc": "2026-10-27T13:23:46.416753+00:00",
+      "sha256": "0f9fb7783ebf8129c52ea047e6712b6b9e45871d8772db3fac4b3c81f771c0ad",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:23:46 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "review_treasury_action_28",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJhY3Rpb24iOnsiaWQiOjI4fX0=",
+      "lead_ids": [
+        36,
+        37
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/review_treasury_action_28.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJhY3Rpb24iOnsiaWQiOjI4fX0=",
+      "acquired_utc": "2026-10-27T13:23:46.569761+00:00",
+      "sha256": "b4a32e5447ffc741fdea70176234b141edf0b6d7f2c57bc408f017592e28792c",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:23:46 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "review_treasury_action_72",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJhY3Rpb24iOnsiaWQiOjcyfX0=",
+      "lead_ids": [
+        36,
+        37
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/review_treasury_action_72.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJhY3Rpb24iOnsiaWQiOjcyfX0=",
+      "acquired_utc": "2026-10-27T13:23:46.753510+00:00",
+      "sha256": "832d2d02d8ccaffdde10e804ac2b65e06c89cd1ff568255263d51d61efb905d2",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:23:46 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "review_treasury_action_109",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJhY3Rpb24iOnsiaWQiOjEwOX19",
+      "lead_ids": [
+        36,
+        37
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/review_treasury_action_109.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJhY3Rpb24iOnsiaWQiOjEwOX19",
+      "acquired_utc": "2026-10-27T13:23:46.838238+00:00",
+      "sha256": "ad64ae1ea86a92c1946bc823fd51637a47bccd6cca09caf7d8fdcba4156a084d",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:23:46 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "review_treasury_action_110",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJhY3Rpb24iOnsiaWQiOjExMH19",
+      "lead_ids": [
+        36,
+        37
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/review_treasury_action_110.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJhY3Rpb24iOnsiaWQiOjExMH19",
+      "acquired_utc": "2026-10-27T13:23:46.994449+00:00",
+      "sha256": "c62f3916d5205cf5c625e118af12459ab1d3357313c70c970f053e0b8378a729",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:23:46 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "review_operations_config",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl/smart/eyJjb25maWciOnt9fQ==",
+      "lead_ids": [
+        35
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/review_operations_config.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl/smart/eyJjb25maWciOnt9fQ==",
+      "acquired_utc": "2026-10-27T13:23:47.177083+00:00",
+      "sha256": "7a7d48d2ac6ae0dc1aa28a1963acf6743da11c81ae86db2d0eeb67b4df4a8058",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:23:47 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "review_creda_portfolio_operations",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJwb3J0Zm9saW8iOnsiYWRkcmVzcyI6InRlcnJhMWwwbnkzOGd1aHdyemN6ZXNndmsyendqN3hjZW42M2p6bXB1c2p2OWhlbXZ1YTl2cHRjeXF3cXk3cGwifX0=",
+      "lead_ids": [
+        35
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/review_creda_portfolio_operations.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJwb3J0Zm9saW8iOnsiYWRkcmVzcyI6InRlcnJhMWwwbnkzOGd1aHdyemN6ZXNndmsyendqN3hjZW42M2p6bXB1c2p2OWhlbXZ1YTl2cHRjeXF3cXk3cGwifX0=",
+      "acquired_utc": "2026-10-27T13:23:47.254899+00:00",
+      "sha256": "c396134774249d94b1a434aa23cf5ee64368bb5da44856d3d06818909c725641",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:23:47 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "review_creda_portfolio_board",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJwb3J0Zm9saW8iOnsiYWRkcmVzcyI6InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamcifX0=",
+      "lead_ids": [
+        35
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/review_creda_portfolio_board.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJwb3J0Zm9saW8iOnsiYWRkcmVzcyI6InRlcnJhMWs4dWc2ZGt6bnRjemZ6bjc2d3NoMjR0ZGpteDk0NHlqNm1rMDYzd3VtN24yMGN3ZDdseHE0bHBwamcifX0=",
+      "acquired_utc": "2026-10-27T13:23:47.269755+00:00",
+      "sha256": "a55efe45a16239ec775f5febfa04aac05efd060f9734530042bebfa12ee1311f",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:23:47 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "review_creda_portfolio_tla_single",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJwb3J0Zm9saW8iOnsiYWRkcmVzcyI6InRlcnJhMXFkejVxZ2FmeDg4a3A1bWY2bTJ0YWg4NzQyZzR1NWcyY2VrMG0zanJnc3NleGV4azdnNHF3NmUyM2sifX0=",
+      "lead_ids": [
+        35
+      ],
+      "requested_height": null,
+      "status": "current_query",
+      "file": "data/leads/queries/review_creda_portfolio_tla_single.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJwb3J0Zm9saW8iOnsiYWRkcmVzcyI6InRlcnJhMXFkejVxZ2FmeDg4a3A1bWY2bTJ0YWg4NzQyZzR1NWcyY2VrMG0zanJnc3NleGV4azdnNHF3NmUyM2sifX0=",
+      "acquired_utc": "2026-10-27T13:23:47.425332+00:00",
+      "sha256": "d576d47c0557c09d8b9a39c2acf2730c5af8247654db2d39c7909b7895db6aef",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:23:47 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "lock_429_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MjkifX0=",
+      "lead_ids": [
+        25
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/lock_429_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MjkifX0=",
+      "acquired_utc": "2026-10-27T13:03:42.010609+00:00",
+      "sha256": "66958f829658149ec688cdf1bdd00d5f7524562815d49e2138fc76d64deed8db",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:41 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "lock_432_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MzIifX0=",
+      "lead_ids": [
+        25
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/lock_432_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg/smart/eyJsb2NrX2luZm8iOnsidG9rZW5faWQiOiI0MzIifX0=",
+      "acquired_utc": "2026-10-27T13:03:42.370293+00:00",
+      "sha256": "03fb3961f20ff706943dc79052afd04ac6fb727d1660ddad950910c4969f2b48",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:42 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "treasury_contract_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+      "lead_ids": [
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/treasury_contract_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+      "acquired_utc": "2026-10-27T13:03:42.378101+00:00",
+      "sha256": "31a9709ccfc4c370038fe3f81ad809c11122705f8f8a77222a38ddab5b8be0c8",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:42 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "escrow_contract_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "lead_ids": [
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/escrow_contract_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "acquired_utc": "2026-10-27T13:03:42.418814+00:00",
+      "sha256": "ca873c036e093be52413c79323dd6d1314406468147752501b8c2364f3291a45",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:42 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "hub_contract_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "lead_ids": [
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/hub_contract_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "acquired_utc": "2026-10-27T13:03:42.794520+00:00",
+      "sha256": "03da37593e4b40a38ae016c3020f1995a81b21f12e9dcd78494527611e9dd475",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:42 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "creda_portfolio_contract_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz",
+      "lead_ids": [
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/creda_portfolio_contract_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz",
+      "acquired_utc": "2026-10-27T13:03:42.787236+00:00",
+      "sha256": "b1f37567ede53727954a3e365f25f8194bece1635e283a93666e827b8e0ed7a3",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:42 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "registry_ownership_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/registry_ownership_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+      "acquired_utc": "2026-10-27T13:03:42.833633+00:00",
+      "sha256": "0d1b84b2615d4c2d3658d672bf1d40aadf4483e9b7d0531390577064cee9ecd9",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:42 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "registry_roles_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/registry_roles_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+      "acquired_utc": "2026-10-27T13:03:42.866327+00:00",
+      "sha256": "2981e3605f6e7ea2da9eb18c27382d0075ad42798eb58478a71e93aba09fce89",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:42 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "hub_config_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJjb25maWciOnt9fQ==",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/hub_config_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJjb25maWciOnt9fQ==",
+      "acquired_utc": "2026-10-27T13:03:43.192120+00:00",
+      "sha256": "befa7e50218747a217616dd178bd06807c0d3cf83b31be7839f4b7cd71801519",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:43 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "creda_ownership_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/creda_ownership_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+      "acquired_utc": "2026-10-27T13:03:43.208551+00:00",
+      "sha256": "0d1b84b2615d4c2d3658d672bf1d40aadf4483e9b7d0531390577064cee9ecd9",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:43 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "creda_roles_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/creda_roles_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+      "acquired_utc": "2026-10-27T13:03:43.251569+00:00",
+      "sha256": "76548a3261ec4806821678e4c2d88b02818f4b6ad08f22bf9aa4ebac1043eec7",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:43 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "creda_state_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJzdGF0ZSI6e319",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/creda_state_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz/smart/eyJzdGF0ZSI6e319",
+      "acquired_utc": "2026-10-27T13:03:43.277940+00:00",
+      "sha256": "166c90e92bd502adee4aa867182a4292717b52e043c9da85fa334624bebcc4c7",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:43 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "gauge_config_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJjb25maWciOnt9fQ==",
+      "lead_ids": [
+        20,
+        55,
+        56
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/gauge_config_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJjb25maWciOnt9fQ==",
+      "acquired_utc": "2026-10-27T13:03:43.393275+00:00",
+      "sha256": "5f7724f9fa9da2356160e225352dae7a344e0506409bb1cfb7fe6034c7f2486e",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:43 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    },
+    {
+      "name": "hub_vote_operator_current",
+      "chain": "terra2",
+      "path": "/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/raw/dm90ZV9vcGVyYXRvcg==",
+      "lead_ids": [
+        20
+      ],
+      "requested_height": null,
+      "historical_snapshot_not_established": true,
+      "status": "current_query",
+      "file": "data/leads/queries/hub_vote_operator_current.json",
+      "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/raw/dm90ZV9vcGVyYXRvcg==",
+      "acquired_utc": "2026-10-27T13:03:43.599181+00:00",
+      "sha256": "209c38e04416834707014d1e1e7046ae3967be9808ad018f87bc2c0381e3e7ca",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:03:43 GMT"
+      },
+      "attempts": [],
+      "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+    }
+  ]
+}

@@ -249,6 +249,8 @@ Context notes use a pale field with generous padding and restrained corners; the
 
 ### Evidence and payment disclosures
 
+Tables retain their open document styling. On phones, a 15px muted instruction explains sideways scrolling; the table container is keyboard-focusable, labelled as a region and receives the shared accent outline on focus. Keep long evidence columns inside that local scroll region rather than allowing page overflow. Grid children use a zero minimum width so nested tables remain contained at phone widths.
+
 Use native `details` / `summary` controls. Evidence blocks sit between fine rules with 17px semibold summary text and a padded body. Payment rows align a project name, amount and disclosure affordance; amounts use tabular numerals and overlap amounts use regular weight. Receipt lists preserve dates, transaction links, wallet detail and pagination inside the open record.
 
 Hash navigation opens the target disclosure and containing disclosures, then scrolls to the target. Evidence links open their linked detail. This is in-document navigation rather than a modal or persistent overlay. A targeted evidence block fades from source emphasis to transparent over 1.2 seconds with ease-out. Smooth scrolling is enabled normally; reduced-motion preference disables smooth scrolling, animations and transitions. The approved case and timeline extension adds the bounded vocabulary described below. Sharing uses clipboard copy with a live status message and a URL-copy fallback.

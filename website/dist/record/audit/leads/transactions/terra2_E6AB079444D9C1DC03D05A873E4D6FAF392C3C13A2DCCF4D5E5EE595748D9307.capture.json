@@ -1,0 +1,16 @@
+{
+  "status": "successful_primary_record",
+  "file": "data/leads/transactions/terra2_E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307.json",
+  "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307",
+  "acquired_utc": "2026-10-27T13:00:53.405181+00:00",
+  "sha256": "c6709cfe9e9c5d5b27e517ff69e05bd787c14d02d3e213b43e58fae4b707434e",
+  "height": "23164403",
+  "execution_code": 0,
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 27 Oct 2026 13:00:53 GMT"
+  },
+  "attempts": [],
+  "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+  "timestamp": "2026-10-06T13:59:44Z"
+}

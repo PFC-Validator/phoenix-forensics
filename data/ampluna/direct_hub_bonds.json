@@ -1,0 +1,14 @@
+{
+  "confirmed_deployment_dao_bonds": [
+    {"proposal_id": 2, "title": "Deposit 7.5M LUNA into Amplifier", "amount_uluna": "7500000000000", "status": "executed", "yes_weight": 60, "source": "Deployment DAO list_proposals"},
+    {"proposal_id": 12, "title": "Deposit 4M LUNA into Amplifier", "amount_uluna": "4000000000000", "status": "executed", "yes_weight": 60, "source": "Deployment DAO list_proposals"},
+    {"proposal_id": 20, "title": "Deposit 3.5M LUNA into Amplifier", "amount_uluna": "3500000000000", "status": "executed", "yes_weight": 60, "source": "Deployment DAO list_proposals"}
+  ],
+  "confirmed_deployment_dao_total_uluna": "15000000000000",
+  "other_large_bonders_from_gross_history": [
+    {"address": "terra149h2na988cka05rwcpmnqfse64r6vspmfmkk0z", "gross_bonded_uluna": "30000000000000", "event_count": 1, "classification": "Unattributed externally owned account; gross history does not establish current ownership of the backing"},
+    {"address": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8", "gross_bonded_uluna": "1379265268481", "event_count": 397, "label": "ve3-connector-alliance", "classification": "Protocol connector; retained migration admin and TLA registry relationship"},
+    {"address": "terra1xqe9tvndtx3eujm94epewpdhfg0nxy77cfsm77qcp0ut3ntfw8rqntvjnl", "gross_bonded_uluna": "1045000000000", "event_count": 203, "label": "v1", "admin": "terra1hpe5hgu45ad0nvrcl6qakuu75lgyjhqepe25vy", "creator": "terra1hpe5hgu45ad0nvrcl6qakuu75lgyjhqepe25vy", "classification": "Contract with generic v1 label; no Phoenix/ERIS multisig overlap established"}
+  ],
+  "caution": "Gross historical bond amounts are not current beneficial ownership and must not be summed to current backing. The hub has unbonding, redemptions, sales and rebalancing. The large account's current ampLUNA balance is far smaller than its gross 30M bond."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "current_query",
+  "file": "data/leads/queries/hub_vote_operator_current.json",
+  "source_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/raw/dm90ZV9vcGVyYXRvcg==",
+  "acquired_utc": "2026-10-27T13:03:43.599181+00:00",
+  "sha256": "209c38e04416834707014d1e1e7046ae3967be9808ad018f87bc2c0381e3e7ca",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 27 Oct 2026 13:03:43 GMT"
+  },
+  "attempts": [],
+  "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+}

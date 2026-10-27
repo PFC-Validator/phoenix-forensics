@@ -58,6 +58,33 @@ def board_upstream():
 
 def for_path(rel):
     p=rel.as_posix()
+    if p=='data/governance_4853/effects_review_20261027.json':
+        review=json.loads((ROOT/p).read_text())
+        return info('Derived governance-effects review', ['data/native_4853/proposal.json','data/phoenix/key_proposals.json','data/phoenix/director_profiles.json',review['bylaws_source_url']]+[r['url'] for r in review['attributed_discussion']], [review['bylaws_source_url']]+[r['url'] for r in review['attributed_discussion']], 'Read-only comparison of proposal text, current bylaws and attributed public discussion; conditional equal-seat threshold arithmetic.', notes='Fresh bylaws matched the retained PDF byte-for-byte. Forum statements are attributed, not independently verified claims about private relationships. Removal and concentration are conditional risks; no predetermined outcome or legal resolution of conflicting bylaw clauses is asserted.')
+    if p.startswith('data/governance_4853/refresh_20261027/'):
+        manifest=json.loads((ROOT/'data/governance_4853/refresh_20261027/capture_manifest.json').read_text())
+        name=pathlib.Path(p).name
+        record=next((r for r in manifest if r['file']==name),None)
+        if record:
+            return direct([record['url']], 'Acquired '+record['captured_at']+'. Exact response bytes; hash and available response height recorded in capture_manifest.json. Sequential current-state reads, not a confirmed common-height snapshot.')
+        return derived(['data/governance_4853/refresh_20261027/'+r['file'] for r in manifest], 'analysis/refresh_4853.py', 'New dated snapshot; earlier 26 October evidence retained. Decimal arithmetic; Bech32 operator payload re-encoded for account ballots; bonded delegations only; hypothetical full-hub YES, excluding synthetic Alliance weight.')
+    if p.startswith('data/leads/'):
+        path=ROOT/p
+        if p.endswith('.capture.json'):
+            capture=json.loads(path.read_text())
+            return derived([capture['source_url']], 'analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py', 'Acquisition metadata, not a raw chain response. Exact request and acquisition time are retained; no identity attribution.')
+        capture_path=path.with_suffix('.capture.json')
+        if capture_path.exists():
+            capture=json.loads(capture_path.read_text())
+            return direct([capture['source_url']], 'Acquired '+capture['acquired_utc']+'. Exact response bytes retained. Request parameters, response headers and limitations: '+capture_path.relative_to(ROOT).as_posix()+'. Successful execution does not verify every lead narrative. No independent consensus verification asserted.')
+        if p.endswith('requests.json'):
+            return info('Research locator inventory', ['Operator-supplied lead locators or explicitly constructed public governance queries'], ['UPSTREAM_NOT_ESTABLISHED'], 'Allowlisted transaction URLs from leads 1–59, or narrowly scoped query inventory; no identity-research section or full lead text copied.', notes='Locators are not evidence of the claims. Captured primary responses and their acquisition logs establish which records were actually retrieved.')
+        parents=['data/leads/capture_manifest.json','data/leads/query_manifest.json','data/leads/rpc_manifest.json','data/leads/evm_metadata_manifest.json']
+        if p=='data/leads/year_review_analysis.json':
+            return derived(['data/leads/queries/review_creda_metrics.json','data/leads/queries/review_creda_portfolio_operations.json','data/leads/queries/review_creda_portfolio_board.json','data/leads/queries/review_creda_portfolio_tla_single.json','data/leads/queries/review_treasury_action_28.json','data/leads/queries/review_treasury_action_72.json','data/leads/queries/review_treasury_action_109.json','data/leads/queries/review_treasury_action_110.json','https://forum.cosmos.network/t/aadao-wind-down-oversight-updates-and-reports/15913/22'], 'analysis/integrate_lead_evidence.py', 'Current query arithmetic; no common confirmed historical height. External Votion payment/completion are explicitly funder-reported from the public AADAO report, not independently replayed settlement transactions. Funding does not establish causal attribution, total costs or personal profit.')
+        if 'manifest' in path.name:
+            return derived(['data/leads/requests.json','data/leads/query_requests.json','data/leads/transactions/','data/leads/queries/','data/leads/rpc/'], 'analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py', 'Capture inventory includes unsuccessful attempts; unavailable records do not establish absence of a transaction. Individual capture logs identify exact sources and hashes.')
+        return derived(parents, 'analysis/integrate_lead_evidence.py', 'Supplemental records only; earlier aggregate datasets are not incremented. Transfers, fee-share annotations, unknown units and unquantified events remain distinct. Findings are bounded by their explicit limits. No identity attribution added.')
     if p=='data/mb_voting_record.json':
         immediate=PACKET+'exhibits/voting_record/mb_voting_record.json'
         return info('Preserved compiled evidence with embedded primary locators',[immediate],['data/mb_voting_record.upstream.json','data/source_index.json'],'Read-only retrieval from the supplied evidence packet.',notes='Upstream is established per record by ballot_query_url, proposal_source.source_url, vote LCD URLs, transaction hashes, and source hashes. Packet source index VOTE says 597 raw response bodies and prior verification files were included. This is not a claim that the compiled JSON is itself a raw chain response.')
@@ -258,6 +285,18 @@ def for_path(rel):
         return info('Derived merged ballot dataset', [url], [url,'data/native_4853/votes.json at the preceding local capture'],'Current browser response compared against the preceding 79-ballot response; exactly four additions and no changed ballots were merged in current response order.',notes='All 83 ballot values are preserved. Verification pins this documented semantic merge, not a byte-for-byte chain response.')
     if p=='data/governance_4853/scenario.json':
         return derived(['data/governance_4853/live_tally.json','data/native_4853/votes.json','data/eris_multisig/hub_delegations.json'],'Full-hub-YES scenario recalculation','Validator operator addresses converted to account addresses using the same Bech32 payload; each non-YES hub delegation moved mechanically to YES. Synthetic Alliance weight excluded.')
+    if p=='data/ampluna/hub_state.json':
+        return direct(['http://localhost:1317/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJzdGF0ZSI6e319','https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJzdGF0ZSI6e319'],'Hub state captured through the local LCD and cross-checked against archive. Block height 23,468,092 at 2026-10-26T21:45:01Z.')
+    if p=='data/ampluna/holder_top40.json':
+        return derived(['https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct/smart/eyJhbGxfYWNjb3VudHMiOnsibGltaXQiOjMwfX0='],'Browser pagination of all_accounts followed by a balance query for every account','Complete enumeration of 3,068 CW20 accounts; top 40 by current balance. Every query returned validated JSON.')
+    if p=='data/ampluna/top20_accounts.json':
+        return derived(['http://localhost:1317/cosmwasm/wasm/v1/contract/','http://localhost:1317/cosmos/auth/v1beta1/accounts/'],'Local LCD contract metadata and account-type queries for the top 20 holder addresses','Classifies contract labels/admins and account types. No identity attribution added.')
+    if p=='data/ampluna/pol_multisig.json':
+        return derived(['http://localhost:1317/cosmwasm/wasm/v1/contract/terra1kzkrm2a8qquer9dgztg4a3fvhh8d7fudsd7ualae843wsv9plhksv8ea3g','http://localhost:1317/cosmwasm/wasm/v1/contract/terra1mnhfqn0szajy2ehyuqfmvxvtxmvxwy47dcv0x00hhks5e2xj5lnsrw6puv','http://localhost:1317/cosmwasm/wasm/v1/contract/terra1wx4pgnld53268474yafkz77uxy40kp2a3nh4plnl7w0gv6hj23ls3hdd8k','https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4844'],'Local DAO config, dump_state, proposal-module config, voting-module group_contract and list_members queries; proposal 4844 cross-check','Confirms Terra Liquidity Deployment Multi-Sig and its five-member voter set.')
+    if p=='data/ampluna/direct_hub_bonds.json':
+        return derived(['https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra13mwfuq3eqttsutx8jsfvplptzzy9ccg5x6udmkzes2q3kp6dqwwqz8sugc/smart/eyJsaXN0X3Byb3Bvc2FscyI6eyJsaW1pdCI6NTB9fQ==','https://terra-rpc.publicnode.com/tx_search?query=%22wasm.action%3D%27erishub/bond%27%22'],'Executed deployment-DAO proposals 2, 12 and 20; RPC wasm-erishub/bonded receiver totals for other large bonders','Direct DAO bond total is 15M LUNA. Other figures are gross historical bonds, not current beneficial ownership.')
+    if p=='data/ampluna/governance_backing_analysis.json':
+        return derived(['data/ampluna/hub_state.json','data/ampluna/holder_top40.json','data/ampluna/top20_accounts.json','data/ampluna/pol_multisig.json','data/ampluna/direct_hub_bonds.json','data/governance_4853/vamp_review.json'],'analysis/ampluna_backing.py','Separates confirmed backing and holder facts from the explicit 30M scenario and actual voting action.')
     if p=='data/counterparties/ve3_bribe_manager_contract.json':
         return direct([LCD+'/cosmwasm/wasm/v1/contract/terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh'],'Contract metadata confirms code ID and label ve3-bribe-manager.')
     if p=='data/counterparties/ve3_bribe_manager_flows.json':

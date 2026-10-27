@@ -1,0 +1,14 @@
+{
+  "status": "current_query",
+  "file": "data/leads/queries/superbolt_usdc_trace_v2.json",
+  "source_url": "https://rest-archive.neutron.solva.solutions/ibc/apps/transfer/v1/denoms/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+  "acquired_utc": "2026-10-27T13:03:41.965124+00:00",
+  "sha256": "61edb2d3fca349ae524496bf23451514613a01d1c46e13f0498939dafb4b9853",
+  "response_headers": {
+    "date": "Tue, 27 Oct 2026 13:03:41 GMT",
+    "content-type": "application/json",
+    "x-cosmos-block-height": "62030772"
+  },
+  "attempts": [],
+  "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+}

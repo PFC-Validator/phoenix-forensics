@@ -1,0 +1,25 @@
+{
+  "status": "successful_primary_record",
+  "file": "data/leads/transactions/terra2_F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3.json",
+  "source_url": "http://15.204.43.42:1317/cosmos/tx/v1beta1/txs/F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3",
+  "acquired_utc": "2026-10-27T13:02:00.162230+00:00",
+  "sha256": "e67697127ef28300ab643816f246dff8f2de00f43a4ffcb1c662a736b204f77d",
+  "height": "14855925",
+  "execution_code": 0,
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 27 Oct 2026 13:02:00 GMT"
+  },
+  "attempts": [
+    {
+      "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmos/tx/v1beta1/txs/F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+  "timestamp": "2025-03-24T14:37:40Z"
+}

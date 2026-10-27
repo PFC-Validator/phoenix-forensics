@@ -1,7 +1,7 @@
 # Source and provenance
 
 - **Artifact:** `website/dist/record/audit/lion_dao/ryan_relationship.json`
-- **SHA-256:** `817a6a8599f08b38ccf0a58f2740363b59d5506408168e09b512790446478642`
+- **SHA-256:** `85fc2a2bcdc3538f64239661a97959bf95e5bca285d5b87454cb2222ec26404d`
 - **Artifact timestamp (UTC):** 2026-10-26T18:11:08.865105+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.

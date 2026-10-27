@@ -1,0 +1,890 @@
+[
+  {
+    "chain": "terra2",
+    "hash": "D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+    "height": "22952025",
+    "timestamp": "2026-09-22T09:55:22Z",
+    "file": "data/leads/transactions/terra2_D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB.json",
+    "lead_ids": [
+      5
+    ],
+    "event_index": 14,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1162"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2",
+    "height": "23041080",
+    "timestamp": "2026-09-28T08:42:54Z",
+    "file": "data/leads/transactions/terra2_DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2.json",
+    "lead_ids": [
+      5,
+      53
+    ],
+    "event_index": 67,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "2665"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2",
+    "height": "23041080",
+    "timestamp": "2026-09-28T08:42:54Z",
+    "file": "data/leads/transactions/terra2_DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2.json",
+    "lead_ids": [
+      5,
+      53
+    ],
+    "event_index": 72,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "2665"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2",
+    "height": "23041080",
+    "timestamp": "2026-09-28T08:42:54Z",
+    "file": "data/leads/transactions/terra2_DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2.json",
+    "lead_ids": [
+      5,
+      53
+    ],
+    "event_index": 77,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "2665"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2",
+    "height": "23041080",
+    "timestamp": "2026-09-28T08:42:54Z",
+    "file": "data/leads/transactions/terra2_DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2.json",
+    "lead_ids": [
+      5,
+      53
+    ],
+    "event_index": 82,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "2665"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+    "height": "23112085",
+    "timestamp": "2026-10-03T02:21:42Z",
+    "file": "data/leads/transactions/terra2_5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE.json",
+    "lead_ids": [
+      6
+    ],
+    "event_index": 14,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1166"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+    "height": "23344068",
+    "timestamp": "2026-10-18T15:14:14Z",
+    "file": "data/leads/transactions/terra2_EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230.json",
+    "lead_ids": [
+      6
+    ],
+    "event_index": 14,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1310"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+    "height": "17655127",
+    "timestamp": "2025-10-01T11:27:33Z",
+    "file": "data/leads/transactions/terra2_DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64.json",
+    "lead_ids": [
+      7
+    ],
+    "event_index": 14,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1162"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+    "height": "12412391",
+    "timestamp": "2024-10-08T12:21:10Z",
+    "file": "data/leads/transactions/terra2_B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F.json",
+    "lead_ids": [
+      9
+    ],
+    "event_index": 14,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1126"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+    "height": "13448175",
+    "timestamp": "2024-12-18T09:23:25Z",
+    "file": "data/leads/transactions/terra2_3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE.json",
+    "lead_ids": [
+      10
+    ],
+    "event_index": 14,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1458"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6",
+    "height": "12812605",
+    "timestamp": "2024-11-05T01:45:54Z",
+    "file": "data/leads/transactions/terra2_D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6.json",
+    "lead_ids": [
+      23,
+      25
+    ],
+    "event_index": 46,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "20459"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6",
+    "height": "12812605",
+    "timestamp": "2024-11-05T01:45:54Z",
+    "file": "data/leads/transactions/terra2_D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6.json",
+    "lead_ids": [
+      23,
+      25
+    ],
+    "event_index": 51,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "20459"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092",
+    "height": "12710136",
+    "timestamp": "2024-10-29T01:26:05Z",
+    "file": "data/leads/transactions/terra2_83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092.json",
+    "lead_ids": [
+      24
+    ],
+    "event_index": 46,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "20862"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092",
+    "height": "12710136",
+    "timestamp": "2024-10-29T01:26:05Z",
+    "file": "data/leads/transactions/terra2_83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092.json",
+    "lead_ids": [
+      24
+    ],
+    "event_index": 51,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "20862"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4",
+    "height": "19006850",
+    "timestamp": "2025-12-31T21:36:41Z",
+    "file": "data/leads/transactions/terra2_9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4.json",
+    "lead_ids": [
+      26
+    ],
+    "event_index": 17,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "11174"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "B32A85AB3ACA1F9B56C7728A64F4B9D09C21933E79BD7577B535BF675D261B73",
+    "height": "19120025",
+    "timestamp": "2026-01-08T11:37:27Z",
+    "file": "data/leads/transactions/terra2_B32A85AB3ACA1F9B56C7728A64F4B9D09C21933E79BD7577B535BF675D261B73.json",
+    "lead_ids": [
+      26
+    ],
+    "event_index": 17,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "14420"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307",
+    "height": "23164403",
+    "timestamp": "2026-10-06T13:59:44Z",
+    "file": "data/leads/transactions/terra2_E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307.json",
+    "lead_ids": [
+      26
+    ],
+    "event_index": 22,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "156413"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9",
+    "height": "18880259",
+    "timestamp": "2025-12-23T10:00:24Z",
+    "file": "data/leads/transactions/terra2_F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9.json",
+    "lead_ids": [
+      27
+    ],
+    "event_index": 64,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1812"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9",
+    "height": "18880259",
+    "timestamp": "2025-12-23T10:00:24Z",
+    "file": "data/leads/transactions/terra2_F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9.json",
+    "lead_ids": [
+      27
+    ],
+    "event_index": 69,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1812"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9",
+    "height": "18880259",
+    "timestamp": "2025-12-23T10:00:24Z",
+    "file": "data/leads/transactions/terra2_F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9.json",
+    "lead_ids": [
+      27
+    ],
+    "event_index": 74,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1812"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9",
+    "height": "18880259",
+    "timestamp": "2025-12-23T10:00:24Z",
+    "file": "data/leads/transactions/terra2_F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9.json",
+    "lead_ids": [
+      27
+    ],
+    "event_index": 79,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1812"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9",
+    "height": "18880259",
+    "timestamp": "2025-12-23T10:00:24Z",
+    "file": "data/leads/transactions/terra2_F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9.json",
+    "lead_ids": [
+      27
+    ],
+    "event_index": 84,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1812"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9",
+    "height": "18880259",
+    "timestamp": "2025-12-23T10:00:24Z",
+    "file": "data/leads/transactions/terra2_F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9.json",
+    "lead_ids": [
+      27
+    ],
+    "event_index": 89,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1812"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F",
+    "height": "18880261",
+    "timestamp": "2025-12-23T10:00:36Z",
+    "file": "data/leads/transactions/terra2_1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F.json",
+    "lead_ids": [
+      27
+    ],
+    "event_index": 33,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1117"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F",
+    "height": "18880261",
+    "timestamp": "2025-12-23T10:00:36Z",
+    "file": "data/leads/transactions/terra2_1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F.json",
+    "lead_ids": [
+      27
+    ],
+    "event_index": 38,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1117"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F",
+    "height": "18880261",
+    "timestamp": "2025-12-23T10:00:36Z",
+    "file": "data/leads/transactions/terra2_1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F.json",
+    "lead_ids": [
+      27
+    ],
+    "event_index": 43,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1117"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 1037,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "50378"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 1042,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "50378"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 1047,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "50378"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 1052,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "50378"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 1057,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "50378"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 1062,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "50378"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 1067,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "50378"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 1072,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "50378"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88",
+    "height": "21579301",
+    "timestamp": "2026-06-22T12:30:55Z",
+    "file": "data/leads/transactions/terra2_799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88.json",
+    "lead_ids": [
+      30
+    ],
+    "event_index": 33,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1ygcvxp9s054q8u2q4hvl52ke393zvgj0sllahlycm4mj8dm96zjsa45rzk",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "10887"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88",
+    "height": "21579301",
+    "timestamp": "2026-06-22T12:30:55Z",
+    "file": "data/leads/transactions/terra2_799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88.json",
+    "lead_ids": [
+      30
+    ],
+    "event_index": 38,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "10887"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "CF6DD29EAC65D80394C16579359EBB5F826BBAEA1FEBFBCC775908C61CD4D774",
+    "height": "21662813",
+    "timestamp": "2026-06-28T02:59:06Z",
+    "file": "data/leads/transactions/terra2_CF6DD29EAC65D80394C16579359EBB5F826BBAEA1FEBFBCC775908C61CD4D774.json",
+    "lead_ids": [
+      30
+    ],
+    "event_index": 20,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "18954"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "128BE25C84D7D44DB73351038852E577C2570853A40E59B13084C7EDF60F80E2",
+    "height": "21591731",
+    "timestamp": "2026-06-23T08:30:02Z",
+    "file": "data/leads/transactions/terra2_128BE25C84D7D44DB73351038852E577C2570853A40E59B13084C7EDF60F80E2.json",
+    "lead_ids": [
+      31
+    ],
+    "event_index": 36,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "15"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9",
+    "height": "19381539",
+    "timestamp": "2026-01-26T00:33:35Z",
+    "file": "data/leads/transactions/terra2_069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9.json",
+    "lead_ids": [
+      34
+    ],
+    "event_index": 42,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "5124"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9",
+    "height": "19381539",
+    "timestamp": "2026-01-26T00:33:35Z",
+    "file": "data/leads/transactions/terra2_069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9.json",
+    "lead_ids": [
+      34
+    ],
+    "event_index": 47,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "5124"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA",
+    "height": "23035979",
+    "timestamp": "2026-09-28T00:32:36Z",
+    "file": "data/leads/transactions/terra2_6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA.json",
+    "lead_ids": [
+      34,
+      56
+    ],
+    "event_index": 42,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "5304"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA",
+    "height": "23035979",
+    "timestamp": "2026-09-28T00:32:36Z",
+    "file": "data/leads/transactions/terra2_6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA.json",
+    "lead_ids": [
+      34,
+      56
+    ],
+    "event_index": 47,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "5304"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "F0F79E951C9D84E484F1EF587B993C26575B9420D2839F21D259A9718C8B1658",
+    "height": "23119882",
+    "timestamp": "2026-10-03T14:48:10Z",
+    "file": "data/leads/transactions/terra2_F0F79E951C9D84E484F1EF587B993C26575B9420D2839F21D259A9718C8B1658.json",
+    "lead_ids": [
+      42
+    ],
+    "event_index": 20,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "1846"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  },
+  {
+    "chain": "terra2",
+    "hash": "42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+    "height": "23201785",
+    "timestamp": "2026-10-09T03:10:35Z",
+    "file": "data/leads/transactions/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+    "lead_ids": [
+      57
+    ],
+    "event_index": 69,
+    "event_type": "juno.feeshare.v1.FeePayoutEvent",
+    "recipient": "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+    "coins": [
+      {
+        "denom": "uluna",
+        "amount": "43998"
+      }
+    ],
+    "accounting": "Annotation only; corresponding bank transfer is already in transfers.json."
+  }
+]

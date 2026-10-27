@@ -3,6 +3,8 @@
 **Evidence cutoff:** 26 October 2026, during live review.  
 **Privacy scope:** entities, public handles and addresses only. No identity attribution is made for the large vAMP account.
 
+**Source-independence disclosure:** the primary HighStakes LCD is operated by a validator inside this review: HighStakes voted ABSTAIN and has approximately 3.254M LUNA of hub delegation. It is not neutral infrastructure. Hub and ICS20 configuration were cross-checked exactly against tdrsys; sequential live-tally reads are preserved separately rather than forced into agreement.
+
 ## Executive assessment
 
 The evidence supports credible findings of **outcome-changing influence concentration, conflicts requiring disclosure, and weaknesses in internal governance processes**. It does not currently support a definitive allegation of common ownership, coordinated voting, vote buying or a single ERIS-controlled bloc.
@@ -10,12 +12,12 @@ The evidence supports credible findings of **outcome-changing influence concentr
 Three points are particularly important:
 
 1. **A full ERIS-hub YES would be outcome-changing.** At the captured tally it would move 4853 from failing to passing, subject to no other changes.
-2. **One currently unattributed account can exceed the vAMP quorum by itself.** The account has 215.228M vAMP at proposal period 208, against an approximately 76.792M participation-quorum requirement.
+2. **One currently unattributed account can exceed the vAMP quorum by itself.** The account has 215,228 vAMP at proposal period 208, against an approximately 76,792 participation-quorum requirement.
 3. **The actual situation has not yet reached that outcome.** The 4853 prop-gauge has zero recorded vAMP votes, and the ampLUNA hub has no current native ballot. The scenario is therefore an influence-capability finding, not proof of what will happen.
 
 ## 1. Current native position
 
-The live response contained **83 current ballots** and this tally:
+The refreshed response at approximately **26 October 2026, 19:03 UTC** contained **83 current ballots** and this tally. The earlier `data/native_4853/tally.json` capture at approximately 14:14 UTC had 34.184M VETO; the difference is live tally drift, not conflicting analysis.
 
 | Option | LUNA | Interpretation |
 |---|---:|---|
@@ -36,7 +38,7 @@ Primary sources:
 
 The ampLUNA hub currently delegates approximately **32.2055M LUNA**. Under Cosmos governance, a delegator's vote overrides the validator's vote for that delegation. It does not delete the validator's ballot; it changes which option receives that voting power.
 
-Current hub delegation distribution:
+Current hub delegation distribution. **Ballot options and hub-delegation amounts below come from primary LCD records, not from validator total-weight estimates.** Smart Stake analytics supplies secondary total ballot weights such as 8.6M for ERIS and 21.4M for Smart Stake; those are different measurements. The primary native votes response contains options but no per-ballot LUNA weights.
 
 | Validator | Current ballot | Hub delegation | Effect if the whole hub votes YES |
 |---|---|---:|---|
@@ -82,8 +84,8 @@ The 4853 prop-gauge is initialized and active. Its current state is:
 - `abstain_vp = 0`
 - `nwv_vp = 0`
 - `current_vote = null`
-- total period voting power: **767,921,061,697 vAMP**
-- quorum: **10%**, or approximately **76,792,106 vAMP**
+- total period voting power: **767,921,061,697 base-unit vAMP = 767,921.061697 vAMP**
+- quorum: **10%**, or **76,792,106,169.7 base-unit vAMP = 76,792.1061697 vAMP**
 - `use_weighted_vote = true`
 
 The gauge was initialized by the retained ERIS configuration owner at **24 October 2026, 13:24:02 UTC**, transaction `6A5828AA5C758C77C201877E5EB1F6F6273C19A3425FBF658E8570680FCDE14C`.
@@ -92,10 +94,10 @@ The gauge was initialized by the retained ERIS configuration owner at **24 Octob
 
 | Account | vAMP at period 208 | Share of total | Assessment |
 |---|---:|---:|---|
-| `terra149h2na…mkk0z` | **215.228M** | **28.03%** | Can exceed the participation quorum alone |
-| 0xPhilipp ERIS account `terra1vm5a…aywp` | **35.913M** | 4.68% | Below quorum alone |
-| ERIS protocol fee account `terra1rggg…rjxa` | **47.338M** | 6.16% | Below quorum alone |
-| **Combined** | **298.479M** | **38.87%** | Substantial potential influence if aligned |
+| `terra149h2na…mkk0z` | **215,228** | **28.03%** | Can exceed the participation quorum alone |
+| 0xPhilipp ERIS account `terra1vm5a…aywp` | **35,913** | 4.68% | Below quorum alone |
+| ERIS protocol fee account `terra1rggg…rjxa` | **47,338** | 6.16% | Below quorum alone |
+| **Combined** | **298,479** | **38.87%** | Substantial potential influence if aligned |
 
 If the large account votes YES and no opposing votes are cast, its support is enough to trigger a 100%-YES weighted hub vote. If other vAMP participants vote differently, the hub's native vote can be split. Reaching quorum is therefore not evidence of unanimity or of an inevitable full-YES outcome.
 
@@ -125,7 +127,7 @@ These relationships justify disclosure, recusal analysis and scrutiny of payment
 
 ## 5. Lion DAO and Ryan: a specific process concern
 
-The Ryan relationship is supported by primary records:
+The transfer, ballot and timing facts are supported by primary records. `RyanLion` is a DAO-interface display handle: confidence is **high for the hash-anchored transaction and voting-power facts, and moderate for the display-name attribution** pending a first-party account/profile declaration. No real-world identity is inferred.
 
 1. The original delegation committee lists **RyanLion — LionDAO + validator (The Lion Dao)** and **Philipp — Eris + validator operations (The Lion Dao)**.
 2. On 22 October, Ryan's Think Tank wallet transferred **513,657.706575846 ROAR** to the account displayed as `RyanLion` on DAO DAO, transaction `1D67ECAB44A5CC61825A210D051E1282A095A60B74DF614D4AD26CD38CDA556F`.
@@ -142,6 +144,10 @@ Sources:
 - [Lion DAO A33](https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/proposals/A33)
 - [Ryan's A33 ballot](https://www.mintscan.io/terra/tx/F2AF959329FDFB3C50B96A4560B7DD1A79B2E32CF5132CF85B3195B457BAC57A)
 - [Lion validator's change to YES](https://www.mintscan.io/terra/tx/4B356AF4C770CDD9729FDC39451C086BA188EF5A82EB7F1D0FCBE2AF28C5A0D2)
+
+### One actor, several documented roles
+
+The public handle/address links already in the corpus place 0xphilipp in several distinct roles: a Phoenix board seat; the Think Tank technical member that proposed all five preserved proposals and abstained on each; the 50-of-90 ERIS fixed-multisig seat; the 4853 proposer and a YES voter; an ERIS validator receiving hub delegation; and a recipient/beneficiary in Treasury actions that also had Think Tank veto proposals. The 50-weight signer also appears as an OTC counterparty. These are different addresses and powers, not proof of one key, one command structure or coordinated action. The governance issue is that disclosure, recusal and independent checks must work across all of these roles.
 
 ## 6. Think Tank oversight concern
 

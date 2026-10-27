@@ -1,0 +1,90 @@
+{
+  "reviewed_utc": "2026-10-27T17:44:27.353100+00:00",
+  "classification": "Derived governance-effects review; interpretations separated from proposal text, bylaws and attributed forum statements",
+  "proposal_source": "data/native_4853/proposal.json",
+  "proposal_has_executable_messages": false,
+  "bylaws_source_url": "https://raw.githubusercontent.com/phoenix-directive/docs/main/Phoenix%20Foundation%20-%20Bylaws.pdf",
+  "bylaws_retained_file": "website/dist/record/evidence/exhibits/current/bylaws_current.pdf",
+  "bylaws_sha256": "ab4bb6a54c369c5a8d7140e08eba4e103279c8068a2113d8b1aedc915e6a1b8e",
+  "fresh_bylaws_identical_to_retained_copy": true,
+  "proposal_effects": [
+    "Recognize dysfunction surrounding A272 as an Adverse Event",
+    "Appoint the named supervisor, subject to written acceptance and independence declaration",
+    "Investigate the dispute, hear all four directors and review relevant records",
+    "Expressly seek removal-facilitation powers under article 2.4.5.4",
+    "Four-week term from acceptance; extension needs Terra governance approval",
+    "Compensation up to USD 10000"
+  ],
+  "bylaw_sections": {
+    "1.10": "Binding effect of veto body may be disregarded during emergency appointment; does not itself reconfigure a contract",
+    "2.4.5.4": "Instructions to facilitate member removal, including emergency upgrade route",
+    "2.6.1": "Written acceptance and temporary appointment; appointment deemed rejected if not accepted within 30 days",
+    "2.6.2": "Investigatory/remedial remit and general restriction on removing, replacing or directing board decisionmaking; tension with removal-facilitation provision not resolved by this review",
+    "2.6.4": "Terra governance can remove the emergency supervisor",
+    "3.1.3.2(c)": "Actions requiring the Stewardship multisig remain subject to its signing threshold"
+  },
+  "A272": {
+    "created_utc": "2026-10-03T15:02:16.159098273Z",
+    "source": "data/phoenix/key_proposals.json",
+    "proposed_effect": "Remove Vini and set percentage threshold to 0.6, yielding two of three equal seats",
+    "result": "rejected",
+    "yes": [
+      "0xphilipp",
+      "MB"
+    ],
+    "no": [
+      "Rose"
+    ],
+    "no_recorded_ballot": [
+      "Vini"
+    ]
+  },
+  "attributed_discussion": [
+    {
+      "post": 1,
+      "url": "https://forum.phoenix.money/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/1",
+      "statement": "Proposer frames emergency review around the unresolved A272 dispute and says both change and no change must remain possible"
+    },
+    {
+      "post": 55,
+      "url": "https://forum.phoenix.money/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/55",
+      "statement": "0xphilipp denies a voting agreement and says a five-member board with a three-of-five threshold could be recommended; welcomes review of retained authority"
+    },
+    {
+      "post": 57,
+      "url": "https://forum.phoenix.money/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/57",
+      "statement": "0xphilipp argues removal and replacement should be separate and offers an off-chain NO/ABSTAIN commitment during a temporary two-of-three period, except for onboarding new directors",
+      "limit": "Offer recorded; a signed commitment, enforceability and on-chain restriction were not verified"
+    },
+    {
+      "post": 91,
+      "url": "https://forum.phoenix.money/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/91",
+      "statement": "0xphilipp says other directors internally verify milestones before release and that review includes relevant conduct of any director",
+      "limit": "Attributed response; independent acceptance records not verified by this statement"
+    },
+    {
+      "post": 97,
+      "url": "https://forum.phoenix.money/t/phoenix-foundation-appointment-of-an-emergency-supervisor/47/97",
+      "statement": "Vini withdraws support for the named candidate, citing an allegedly undisclosed ERIS relationship",
+      "limit": "The withdrawal is a first-party statement; the alleged relationship is not independently verified"
+    }
+  ],
+  "conditional_membership_math": [
+    {
+      "configuration": "Four equal seats at 75%",
+      "yes_votes_required": 3
+    },
+    {
+      "configuration": "Vini removed; three equal seats at unchanged 75%",
+      "yes_votes_required": 3
+    },
+    {
+      "configuration": "Three equal seats at 60%, as proposed by rejected A272",
+      "yes_votes_required": 2
+    }
+  ],
+  "assessment": "4853 can reopen a route to the removal pursued by failed A272; its text does not automatically remove Vini or enact a two-of-three threshold. Same dispute, proposer and express removal-facilitation provision, plus the public temporary-two-of-three discussion, substantiate a concentration risk rather than a predetermined outcome or proof of dishonest intent.",
+  "dissent_limit": "Vini and Rose both opposed Estima A258; Rose was the recorded NO on A272. Vini is not the only documented dissenting director.",
+  "interest_limit": "ERIS/Creda project funding and MB Superbolt representative relationship are documented; Vini also has a separate audit-payment interest. Gross project grants are not personal profit.",
+  "privacy": "Public handles, roles, proposals and policy statements only; no private-identity or personal-contact research"
+}

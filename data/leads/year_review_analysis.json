@@ -1,0 +1,140 @@
+{
+  "article_url": "https://medium.com/@eris_protocol/eris-protocol-a-year-in-review-2025-2026-2973e303bed0",
+  "treasury_actions": {
+    "28": {
+      "name": "Votion Project Grant",
+      "active_from": 1739173668,
+      "scheduled_USDC": "50000",
+      "milestone_state_claimed_USDC": "50000",
+      "done": true,
+      "runtime": {
+        "milestone": {
+          "milestones": [
+            {
+              "amount": "25000000000",
+              "enabled": true,
+              "claimed": true
+            },
+            {
+              "amount": "25000000000",
+              "enabled": true,
+              "claimed": true
+            }
+          ]
+        }
+      },
+      "source_file": "data/leads/queries/review_treasury_action_28.json"
+    },
+    "72": {
+      "name": "Creda Grant",
+      "active_from": 1760594959,
+      "scheduled_USDC": "210000",
+      "milestone_state_claimed_USDC": "210000",
+      "done": true,
+      "runtime": {
+        "milestone": {
+          "milestones": [
+            {
+              "amount": "40000000000",
+              "enabled": true,
+              "claimed": true
+            },
+            {
+              "amount": "100000000000",
+              "enabled": true,
+              "claimed": true
+            },
+            {
+              "amount": "60000000000",
+              "enabled": true,
+              "claimed": true
+            },
+            {
+              "amount": "10000000000",
+              "enabled": true,
+              "claimed": true
+            }
+          ]
+        }
+      },
+      "source_file": "data/leads/queries/review_treasury_action_72.json"
+    },
+    "109": {
+      "name": "Fund USDC.inj Migration App - Part 1",
+      "active_from": 1789004444,
+      "scheduled_USDC": "5000",
+      "milestone_state_claimed_USDC": null,
+      "done": true,
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      },
+      "source_file": "data/leads/queries/review_treasury_action_109.json"
+    },
+    "110": {
+      "name": "Transfer USDC.noble liquidity for USDC.inj transmuter",
+      "active_from": 1789292139,
+      "scheduled_USDC": "100000",
+      "milestone_state_claimed_USDC": null,
+      "done": true,
+      "runtime": {
+        "payment": {
+          "open": []
+        }
+      },
+      "source_file": "data/leads/queries/review_treasury_action_110.json"
+    }
+  },
+  "identified_named_project_grants_USDC": "265000",
+  "review_period_grants_excluding_earlier_votion_USDC": "215000",
+  "liquidity_capital_USDC_separate_from_expense": "100000",
+  "external_votion_Hydro_grant": {
+    "funder_reported_paid_USD": "50000",
+    "source_url": "https://forum.cosmos.network/t/aadao-wind-down-oversight-updates-and-reports/15913/22",
+    "status": "Funder reports full payment and jointly verified completion; settlement transactions not replayed in this review."
+  },
+  "current_creda_metrics": {
+    "total_supplied_usd": "552693.615062688119781425",
+    "total_borrowed_usd": "130636.731025932133150938",
+    "total_collateral_usd": "425716.847245600058805544",
+    "total_reserves_usd": "360.678982240235521652"
+  },
+  "current_public_contract_positions": {
+    "operations": {
+      "address": "terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+      "supplied_usd": "126514.74044689610776"
+    },
+    "board": {
+      "address": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "supplied_usd": "4931.657168354292964012"
+    },
+    "tla_single": {
+      "address": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+      "supplied_usd": "100405.559064308681114126"
+    }
+  },
+  "approximate_share_supplied_percent": {
+    "phoenix_operations_and_board": "23.78286885046453221855540688",
+    "tla_single_pool": "18.16658566843049021474675563",
+    "combined_public_contract_positions": "41.94945451889502243330216252"
+  },
+  "luna_market": {
+    "total_supplied": "3427752767195",
+    "total_borrowed": "2531493908626",
+    "total_supplied_usd": "143037.1751076675623",
+    "total_borrowed_usd": "105637.06372220156164",
+    "utilization": "0.738528733126097975",
+    "borrow_apy": "0.184632183281535118"
+  },
+  "limits": [
+    "Grant support is not causal attribution or total project cost.",
+    "The Votion Treasury award predates the article period; Hydro funding purchases a separate scope.",
+    "Liquidity capital, grants, payroll and deposited user capital are different categories.",
+    "The external grant is funder-reported, not a new transaction verification.",
+    "Position and metric queries are sequential current responses with no common confirmed height; percentages are approximate.",
+    "TLA single-pool positions are pooled deposits, not necessarily Treasury-funded.",
+    "The remaining supply is not proven to be independent external demand.",
+    "Current supply does not establish an earlier peak or historical bad-debt absence."
+  ]
+}

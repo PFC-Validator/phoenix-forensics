@@ -1,0 +1,1388 @@
+{
+  "schema_version": 1,
+  "acquired_utc": "2026-10-27T13:02:16.962927+00:00",
+  "scope": "Public governance and financial transaction locators from leads 1–59 only; identity-research section excluded.",
+  "transactions": [
+    {
+      "chain": "terra2",
+      "hash": "D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+      "lead_ids": [
+        5
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+      "acquired_utc": "2026-10-27T13:00:51.980594+00:00",
+      "sha256": "0793de3c2627f58f9daaacd701673630e65a0e1ad75687111827c9dc285e3cfb",
+      "height": "22952025",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:51 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-09-22T09:55:22Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2",
+      "lead_ids": [
+        5,
+        53
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2",
+        "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2",
+      "acquired_utc": "2026-10-27T13:00:52.120839+00:00",
+      "sha256": "5dc5549ccbc3fa542c82e2d28ea9a545bda4bcf958e3bd58c5ade9ded4cbd135",
+      "height": "23041080",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:51 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-09-28T08:42:54Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C",
+      "lead_ids": [
+        6
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C",
+      "acquired_utc": "2026-10-27T13:00:51.973509+00:00",
+      "sha256": "0307bd91e4a8a30f2561032c88902d905557d47956c34b891279fcbe650f4917",
+      "height": "23112015",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:51 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-03T02:14:58Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560",
+      "lead_ids": [
+        6
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560",
+      "acquired_utc": "2026-10-27T13:00:51.976799+00:00",
+      "sha256": "011bd81c7105706f7c99a64fe59d901127f2b9cca62492026e9c6bf2af677393",
+      "height": "23112060",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:51 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-03T02:19:17Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+      "lead_ids": [
+        6
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+      "acquired_utc": "2026-10-27T13:00:51.975291+00:00",
+      "sha256": "2958f6b445651db75c8e7931ef5ac778a1efd5bcf8a34637606a0c032b2295e6",
+      "height": "23112085",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:51 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-03T02:21:42Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+      "lead_ids": [
+        6
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+      "acquired_utc": "2026-10-27T13:00:51.978669+00:00",
+      "sha256": "c686398a3c25ca2a606833ea9c82a00ea35250e97f1ca7dc5a4bcdfc3e42d090",
+      "height": "23344068",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:51 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-18T15:14:14Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+      "lead_ids": [
+        7
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64.json",
+      "source_url": "http://15.204.43.42:1317/cosmos/tx/v1beta1/txs/DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+      "acquired_utc": "2026-10-27T13:01:59.675944+00:00",
+      "sha256": "6ae9ce5436e7c154e8678fb66b04b5da14404d8d20d32de3dee9ba035b6fc9e7",
+      "height": "17655127",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:01:59 GMT"
+      },
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/tx/v1beta1/txs/DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2025-10-01T11:27:33Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+      "lead_ids": [
+        9
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F.json",
+      "source_url": "http://15.204.43.42:1317/cosmos/tx/v1beta1/txs/B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+      "acquired_utc": "2026-10-27T13:02:01.160250+00:00",
+      "sha256": "f0bdf53a8733478b7fdd4e97b6094324de85535ab1cfb01fb122608fa1cba062",
+      "height": "12412391",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:02:01 GMT"
+      },
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/tx/v1beta1/txs/B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2024-10-08T12:21:10Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+      "lead_ids": [
+        10
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE.json",
+      "source_url": "http://15.204.43.42:1317/cosmos/tx/v1beta1/txs/3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+      "acquired_utc": "2026-10-27T13:02:00.650561+00:00",
+      "sha256": "48449272cc20c9bb3b75ea4dde25e68b7d69a46f984c00b8974532aecffc4527",
+      "height": "13448175",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:02:00 GMT"
+      },
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/tx/v1beta1/txs/3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2024-12-18T09:23:25Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "C170430FC6441D8A13A3C9B84C740A243627AC99B609EDD5E5AC1A92BFC8806A",
+      "lead_ids": [
+        11
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/C170430FC6441D8A13A3C9B84C740A243627AC99B609EDD5E5AC1A92BFC8806A"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_C170430FC6441D8A13A3C9B84C740A243627AC99B609EDD5E5AC1A92BFC8806A.json",
+      "source_url": "http://15.204.43.42:1317/cosmos/tx/v1beta1/txs/C170430FC6441D8A13A3C9B84C740A243627AC99B609EDD5E5AC1A92BFC8806A",
+      "acquired_utc": "2026-10-27T13:01:59.671322+00:00",
+      "sha256": "a1502cd34e579bcc6671b28d04db93ee94528ba487ec208092c214212da7bf8d",
+      "height": "12334965",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:01:59 GMT"
+      },
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/C170430FC6441D8A13A3C9B84C740A243627AC99B609EDD5E5AC1A92BFC8806A",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/tx/v1beta1/txs/C170430FC6441D8A13A3C9B84C740A243627AC99B609EDD5E5AC1A92BFC8806A",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2024-10-02T20:37:26Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "3FFA5B0FF5DCC4146E610461FAFF52C9ECE6EFC4F7BA0F47C76CC98519E43E11",
+      "lead_ids": [
+        11
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/3FFA5B0FF5DCC4146E610461FAFF52C9ECE6EFC4F7BA0F47C76CC98519E43E11"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_3FFA5B0FF5DCC4146E610461FAFF52C9ECE6EFC4F7BA0F47C76CC98519E43E11.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/3FFA5B0FF5DCC4146E610461FAFF52C9ECE6EFC4F7BA0F47C76CC98519E43E11",
+      "acquired_utc": "2026-10-27T13:00:52.408471+00:00",
+      "sha256": "90dbf4e96249ea9dd83883d4397ce542a00f3354298eeb583aef003775472144",
+      "height": "23351032",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:52 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-19T02:24:24Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3",
+      "lead_ids": [
+        12
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3.json",
+      "source_url": "http://15.204.43.42:1317/cosmos/tx/v1beta1/txs/F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3",
+      "acquired_utc": "2026-10-27T13:02:00.162230+00:00",
+      "sha256": "e67697127ef28300ab643816f246dff8f2de00f43a4ffcb1c662a736b204f77d",
+      "height": "14855925",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:02:00 GMT"
+      },
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/tx/v1beta1/txs/F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2025-03-24T14:37:40Z"
+    },
+    {
+      "chain": "neutron",
+      "hash": "F1ADBC8070AE11C0FB2DC3B5DDD63A5D09ECCDF2BD2B7B2A42898E23E0BEB099",
+      "lead_ids": [
+        13
+      ],
+      "lead_urls": [
+        "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/F1ADBC8070AE11C0FB2DC3B5DDD63A5D09ECCDF2BD2B7B2A42898E23E0BEB099"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/neutron_F1ADBC8070AE11C0FB2DC3B5DDD63A5D09ECCDF2BD2B7B2A42898E23E0BEB099.json",
+      "source_url": "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/F1ADBC8070AE11C0FB2DC3B5DDD63A5D09ECCDF2BD2B7B2A42898E23E0BEB099",
+      "acquired_utc": "2026-10-27T13:00:52.538845+00:00",
+      "sha256": "ecaa70f6a797611643df7b6406e8cefc20cc1cf559bbb6b13a8ee111300abeeb",
+      "height": "31559398",
+      "execution_code": 0,
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:00:52 GMT",
+        "content-type": "application/json",
+        "x-cosmos-block-height": "62030748"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2025-08-04T21:28:27Z"
+    },
+    {
+      "chain": "neutron",
+      "hash": "456F47C2DEAE4924827CBDE6821489F7C6811CBE1F198EAF34E8BE1F90C5E2F5",
+      "lead_ids": [
+        13
+      ],
+      "lead_urls": [
+        "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/456F47C2DEAE4924827CBDE6821489F7C6811CBE1F198EAF34E8BE1F90C5E2F5"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/neutron_456F47C2DEAE4924827CBDE6821489F7C6811CBE1F198EAF34E8BE1F90C5E2F5.json",
+      "source_url": "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/456F47C2DEAE4924827CBDE6821489F7C6811CBE1F198EAF34E8BE1F90C5E2F5",
+      "acquired_utc": "2026-10-27T13:00:52.707107+00:00",
+      "sha256": "770c8804ccbb90c49e9a47a8abde5ef11a80582fb011875192252a66d190d698",
+      "height": "31559415",
+      "execution_code": 0,
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:00:52 GMT",
+        "content-type": "application/json",
+        "x-cosmos-block-height": "62030748"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2025-08-04T21:28:45Z"
+    },
+    {
+      "chain": "neutron",
+      "hash": "4D7BC678097B12BCB788FCA6CF6321A2466D991DE52A0E99BC8AB647E6F9069E",
+      "lead_ids": [
+        13
+      ],
+      "lead_urls": [
+        "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/4D7BC678097B12BCB788FCA6CF6321A2466D991DE52A0E99BC8AB647E6F9069E"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/neutron_4D7BC678097B12BCB788FCA6CF6321A2466D991DE52A0E99BC8AB647E6F9069E.json",
+      "source_url": "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/4D7BC678097B12BCB788FCA6CF6321A2466D991DE52A0E99BC8AB647E6F9069E",
+      "acquired_utc": "2026-10-27T13:00:52.659041+00:00",
+      "sha256": "2b64f1768077fbff9a574405465a7eee8f3935a7a1d08d6eb693979fba4c6f81",
+      "height": "31568165",
+      "execution_code": 0,
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:00:52 GMT",
+        "content-type": "application/json",
+        "x-cosmos-block-height": "62030748"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2025-08-05T00:05:48Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "C940EBF82897A30739149AE35316C0E4A8019D18BD7BEC0998DE1E2C9B9E22E2",
+      "lead_ids": [
+        17
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/C940EBF82897A30739149AE35316C0E4A8019D18BD7BEC0998DE1E2C9B9E22E2"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_C940EBF82897A30739149AE35316C0E4A8019D18BD7BEC0998DE1E2C9B9E22E2.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/C940EBF82897A30739149AE35316C0E4A8019D18BD7BEC0998DE1E2C9B9E22E2",
+      "acquired_utc": "2026-10-27T13:00:52.902056+00:00",
+      "sha256": "d8804f36b4779b7ecfd43b2344719cc46bcc5431b87491cbfbca4d23dda9e8a0",
+      "height": "23351030",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:52 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-19T02:24:14Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C",
+      "lead_ids": [
+        17
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C",
+      "acquired_utc": "2026-10-27T13:00:52.897602+00:00",
+      "sha256": "fcacca9c10b32e19f99679fc138be7924da0845100c719d046a4a808a276387d",
+      "height": "23351003",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:52 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-19T02:21:37Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "176C4187D9B5EA6A3034B524C121FF18AE9BC1D9329CD51BE5EB67750FCF9B36",
+      "lead_ids": [
+        18,
+        52
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/176C4187D9B5EA6A3034B524C121FF18AE9BC1D9329CD51BE5EB67750FCF9B36"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_176C4187D9B5EA6A3034B524C121FF18AE9BC1D9329CD51BE5EB67750FCF9B36.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/176C4187D9B5EA6A3034B524C121FF18AE9BC1D9329CD51BE5EB67750FCF9B36",
+      "acquired_utc": "2026-10-27T13:00:52.956308+00:00",
+      "sha256": "a2f1ef9454ccaeebe399d600b3136ca52d9ce1c1675c5eb7c455e67f116e191b",
+      "height": "20029160",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:52 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-03-10T14:20:46Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "6C92D0647AAA0CD945A954D52D8A88502C41376510BE1EFDA65B9530E43DD8F8",
+      "lead_ids": [
+        18,
+        52
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/6C92D0647AAA0CD945A954D52D8A88502C41376510BE1EFDA65B9530E43DD8F8"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_6C92D0647AAA0CD945A954D52D8A88502C41376510BE1EFDA65B9530E43DD8F8.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/6C92D0647AAA0CD945A954D52D8A88502C41376510BE1EFDA65B9530E43DD8F8",
+      "acquired_utc": "2026-10-27T13:00:53.065885+00:00",
+      "sha256": "6131345ca40fa3725ef0167176da97ae7c3c9ee38049ef7044540607eff3a6e4",
+      "height": "22065338",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:52 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-07-25T06:14:15Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6",
+      "lead_ids": [
+        23,
+        25
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6.json",
+      "source_url": "http://15.204.43.42:1317/cosmos/tx/v1beta1/txs/D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6",
+      "acquired_utc": "2026-10-27T13:01:59.719758+00:00",
+      "sha256": "7de63bb648df9c9a9647b80e1c8492a7c4cba8fca0df6ca7727f71971745a3b0",
+      "height": "12812605",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:01:59 GMT"
+      },
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/tx/v1beta1/txs/D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2024-11-05T01:45:54Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092",
+      "lead_ids": [
+        24
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092.json",
+      "source_url": "http://15.204.43.42:1317/cosmos/tx/v1beta1/txs/83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092",
+      "acquired_utc": "2026-10-27T13:01:59.733403+00:00",
+      "sha256": "24085d98a875758e346954c2412bc34b173c4c1199e962c34b06f37b2503dfce",
+      "height": "12710136",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:01:59 GMT"
+      },
+      "attempts": [
+        {
+          "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://terra-phoenix-api.highstakes.ch/cosmos/tx/v1beta1/txs/83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2024-10-29T01:26:05Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4",
+      "lead_ids": [
+        26
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4",
+      "acquired_utc": "2026-10-27T13:00:53.321503+00:00",
+      "sha256": "9840b74ff3e4646390f0015edca59da35a5665eaa722efca7e7bf9302cc1ac1e",
+      "height": "19006850",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:53 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2025-12-31T21:36:41Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "B32A85AB3ACA1F9B56C7728A64F4B9D09C21933E79BD7577B535BF675D261B73",
+      "lead_ids": [
+        26
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/B32A85AB3ACA1F9B56C7728A64F4B9D09C21933E79BD7577B535BF675D261B73"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_B32A85AB3ACA1F9B56C7728A64F4B9D09C21933E79BD7577B535BF675D261B73.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/B32A85AB3ACA1F9B56C7728A64F4B9D09C21933E79BD7577B535BF675D261B73",
+      "acquired_utc": "2026-10-27T13:00:53.367500+00:00",
+      "sha256": "2bb891b67c3acb155fdf4d32e7eca619905864a4c203f7d1871271f7baafdf93",
+      "height": "19120025",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:53 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-01-08T11:37:27Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307",
+      "lead_ids": [
+        26
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307",
+      "acquired_utc": "2026-10-27T13:00:53.405181+00:00",
+      "sha256": "c6709cfe9e9c5d5b27e517ff69e05bd787c14d02d3e213b43e58fae4b707434e",
+      "height": "23164403",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:53 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-06T13:59:44Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9",
+      "lead_ids": [
+        27
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9",
+      "acquired_utc": "2026-10-27T13:00:53.611171+00:00",
+      "sha256": "8d4b66a7b71502984ec292e34459b36cd04c58d14be9c341394da2417ce183e7",
+      "height": "18880259",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:53 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2025-12-23T10:00:24Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F",
+      "lead_ids": [
+        27
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F",
+      "acquired_utc": "2026-10-27T13:00:53.727714+00:00",
+      "sha256": "f93f710765c84dec24da4d062499c222ebe371debb716961eb26169664ab1ac5",
+      "height": "18880261",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:53 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2025-12-23T10:00:36Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+      "lead_ids": [
+        29
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+      "acquired_utc": "2026-10-27T13:00:54.325442+00:00",
+      "sha256": "4f7deaf92e6934f0160557e18af4f2a7e1db1dc1abe3cb5b689741ebe9093314",
+      "height": "22815237",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:53 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-09-13T04:29:07Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "015C672A8A3F835BF4BAD3704FC0606BB89BC005FDF567119013517A8144786A",
+      "lead_ids": [
+        29
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/015C672A8A3F835BF4BAD3704FC0606BB89BC005FDF567119013517A8144786A"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_015C672A8A3F835BF4BAD3704FC0606BB89BC005FDF567119013517A8144786A.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/015C672A8A3F835BF4BAD3704FC0606BB89BC005FDF567119013517A8144786A",
+      "acquired_utc": "2026-10-27T13:00:53.822079+00:00",
+      "sha256": "79770f608dbc3744fe29fa54402ba5b2b9e18bd3cad7b090c418e5afeb02189d",
+      "height": "23156724",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:53 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-06T01:41:05Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88",
+      "lead_ids": [
+        30
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88",
+      "acquired_utc": "2026-10-27T13:00:54.036654+00:00",
+      "sha256": "4ee9deb56cd22864ef20a15a0136b9f9a12ce7568e7b29e953449b15ae298a7d",
+      "height": "21579301",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:53 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-06-22T12:30:55Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "CF6DD29EAC65D80394C16579359EBB5F826BBAEA1FEBFBCC775908C61CD4D774",
+      "lead_ids": [
+        30
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/CF6DD29EAC65D80394C16579359EBB5F826BBAEA1FEBFBCC775908C61CD4D774"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_CF6DD29EAC65D80394C16579359EBB5F826BBAEA1FEBFBCC775908C61CD4D774.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/CF6DD29EAC65D80394C16579359EBB5F826BBAEA1FEBFBCC775908C61CD4D774",
+      "acquired_utc": "2026-10-27T13:00:54.027166+00:00",
+      "sha256": "571413753fc8533243d7a76b576cac3154c23b995f41335035872415e28d0f89",
+      "height": "21662813",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:53 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-06-28T02:59:06Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "128BE25C84D7D44DB73351038852E577C2570853A40E59B13084C7EDF60F80E2",
+      "lead_ids": [
+        31
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/128BE25C84D7D44DB73351038852E577C2570853A40E59B13084C7EDF60F80E2"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_128BE25C84D7D44DB73351038852E577C2570853A40E59B13084C7EDF60F80E2.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/128BE25C84D7D44DB73351038852E577C2570853A40E59B13084C7EDF60F80E2",
+      "acquired_utc": "2026-10-27T13:00:54.170013+00:00",
+      "sha256": "ca8fd8645a28eee67ee980c773dff3b49d784d647c3383d2ea024a75275b38fd",
+      "height": "21591731",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-06-23T08:30:02Z"
+    },
+    {
+      "chain": "archway",
+      "hash": "8789522B5651B8293B8D824CCA7C0A90036F81223FFCBB15E21EC2950EBB4D2E",
+      "lead_ids": [
+        32
+      ],
+      "lead_urls": [
+        "https://api.mainnet.archway.io/cosmos/tx/v1beta1/txs/8789522B5651B8293B8D824CCA7C0A90036F81223FFCBB15E21EC2950EBB4D2E"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/archway_8789522B5651B8293B8D824CCA7C0A90036F81223FFCBB15E21EC2950EBB4D2E.json",
+      "source_url": "https://api.mainnet.archway.io/cosmos/tx/v1beta1/txs/8789522B5651B8293B8D824CCA7C0A90036F81223FFCBB15E21EC2950EBB4D2E",
+      "acquired_utc": "2026-10-27T13:00:54.479403+00:00",
+      "sha256": "f0d2895e60b92cfa8f693ca20f973703ee45b3e6c1ebf6fe1678e4aca4e6ffaa",
+      "height": "9379027",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2025-04-03T08:29:57Z"
+    },
+    {
+      "chain": "injective",
+      "hash": "457D990D5496A3EF4CC68CC55EE431BBD2F8A8ACD529D2901996EE19D8FBC8A6",
+      "lead_ids": [
+        32
+      ],
+      "lead_urls": [
+        "https://injective-api.highstakes.ch/cosmos/tx/v1beta1/txs/457D990D5496A3EF4CC68CC55EE431BBD2F8A8ACD529D2901996EE19D8FBC8A6"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/injective_457D990D5496A3EF4CC68CC55EE431BBD2F8A8ACD529D2901996EE19D8FBC8A6.json",
+      "source_url": "https://injective-api.highstakes.ch/cosmos/tx/v1beta1/txs/457D990D5496A3EF4CC68CC55EE431BBD2F8A8ACD529D2901996EE19D8FBC8A6",
+      "acquired_utc": "2026-10-27T13:00:54.787696+00:00",
+      "sha256": "3396b496b5272cef62fe32acf2f20b31e45001b615844b03fffc99fc71737309",
+      "height": "186513008",
+      "execution_code": 0,
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT",
+        "content-type": "application/json"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-09T08:15:00Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9",
+      "lead_ids": [
+        34
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9",
+      "acquired_utc": "2026-10-27T13:00:54.573089+00:00",
+      "sha256": "d926cb2b90b5df7646dce9439a25ddf4f26880410eccf2017d51bf74a2091d29",
+      "height": "19381539",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-01-26T00:33:35Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA",
+      "lead_ids": [
+        34,
+        56
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA",
+      "acquired_utc": "2026-10-27T13:00:54.588858+00:00",
+      "sha256": "0529b38d97490131169387cdcfc064436797f45acb805120f201446a2249cc41",
+      "height": "23035979",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-09-28T00:32:36Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A",
+      "lead_ids": [
+        36
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A",
+      "acquired_utc": "2026-10-27T13:00:54.582784+00:00",
+      "sha256": "08ab3aefc524fdbfcba0801143491f1abb5ded2d38ba4899dc5e0d242f3dd240",
+      "height": "19403449",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-01-27T11:58:03Z"
+    },
+    {
+      "chain": "neutron",
+      "hash": "1DE81BB81938CD27B89D3ED16A04E5D3404956F3EDE1963FB2F2587F446B6243",
+      "lead_ids": [
+        38
+      ],
+      "lead_urls": [
+        "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/1DE81BB81938CD27B89D3ED16A04E5D3404956F3EDE1963FB2F2587F446B6243"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/neutron_1DE81BB81938CD27B89D3ED16A04E5D3404956F3EDE1963FB2F2587F446B6243.json",
+      "source_url": "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/1DE81BB81938CD27B89D3ED16A04E5D3404956F3EDE1963FB2F2587F446B6243",
+      "acquired_utc": "2026-10-27T13:00:54.932280+00:00",
+      "sha256": "8d8ac1861bbc20df44b2f20ca58f9e1376f0b08a39904fea878f5602702b5d38",
+      "height": "43758857",
+      "execution_code": 0,
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT",
+        "content-type": "application/json",
+        "x-cosmos-block-height": "62030748"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2025-12-24T02:07:06Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D",
+      "lead_ids": [
+        42
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D",
+      "acquired_utc": "2026-10-27T13:00:54.912828+00:00",
+      "sha256": "a95cb408556d0e425d0557067c1bd0b577a6e6643e856a476fab9e996cedc17c",
+      "height": "23119877",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-03T14:47:41Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "F0F79E951C9D84E484F1EF587B993C26575B9420D2839F21D259A9718C8B1658",
+      "lead_ids": [
+        42
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/F0F79E951C9D84E484F1EF587B993C26575B9420D2839F21D259A9718C8B1658"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_F0F79E951C9D84E484F1EF587B993C26575B9420D2839F21D259A9718C8B1658.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/F0F79E951C9D84E484F1EF587B993C26575B9420D2839F21D259A9718C8B1658",
+      "acquired_utc": "2026-10-27T13:00:54.913811+00:00",
+      "sha256": "04d610f05a9e869c0a2a36a72da42b828904837028ae72a663428605708ab7a1",
+      "height": "23119882",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-03T14:48:10Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "8698785F3779F24C7676BE4DA9796FF0BB8ED55AF404F65CF4B0E4E50AFD05AC",
+      "lead_ids": [
+        42
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/8698785F3779F24C7676BE4DA9796FF0BB8ED55AF404F65CF4B0E4E50AFD05AC"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_8698785F3779F24C7676BE4DA9796FF0BB8ED55AF404F65CF4B0E4E50AFD05AC.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/8698785F3779F24C7676BE4DA9796FF0BB8ED55AF404F65CF4B0E4E50AFD05AC",
+      "acquired_utc": "2026-10-27T13:00:54.970040+00:00",
+      "sha256": "0a27552a0e5473a3ff74c073bc7d30d5709ae9555522f9112c2eaa795ed1c36d",
+      "height": "23119935",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-03T14:53:16Z"
+    },
+    {
+      "chain": "injective_evm",
+      "hash": "0x291699bf38eb8a6b397caf04320368eee7c21f7c42188c0b977a007b5581331e",
+      "lead_ids": [
+        42
+      ],
+      "lead_urls": [
+        "https://blockscout.injective.network/tx/0x291699bf38eb8a6b397caf04320368eee7c21f7c42188c0b977a007b5581331e?tab=logs"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/injective_evm_0x291699bf38eb8a6b397caf04320368eee7c21f7c42188c0b977a007b5581331e.json",
+      "source_url": "https://sentry.evm-rpc.injective.network",
+      "acquired_utc": "2026-10-27T13:00:55.046531+00:00",
+      "sha256": "92315e1147a823b9b5e046d769d29e2e525981c1c8def5d45da3df6dbaef7d5a",
+      "height": "185686435",
+      "execution_code": 1,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x291699bf38eb8a6b397caf04320368eee7c21f7c42188c0b977a007b5581331e"
+        ]
+      }
+    },
+    {
+      "chain": "base",
+      "hash": "0x4da3679fcd8370fae55a0df8bf767c86fc9130b1e3c073b7684bba9fd6742936",
+      "lead_ids": [
+        42
+      ],
+      "lead_urls": [
+        "https://basescan.org/tx/0x4da3679fcd8370fae55a0df8bf767c86fc9130b1e3c073b7684bba9fd6742936"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/base_0x4da3679fcd8370fae55a0df8bf767c86fc9130b1e3c073b7684bba9fd6742936.json",
+      "source_url": "https://base-rpc.publicnode.com",
+      "acquired_utc": "2026-10-27T13:00:54.752581+00:00",
+      "sha256": "f0e4de63689d005373d6a603c328768f6b60d44638b416fe2883bfb5c94a5907",
+      "height": "52124936",
+      "execution_code": 1,
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT",
+        "content-type": "application/json"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x4da3679fcd8370fae55a0df8bf767c86fc9130b1e3c073b7684bba9fd6742936"
+        ]
+      }
+    },
+    {
+      "chain": "base",
+      "hash": "0xd94656c1e6ff5e627780dae8b9e9681d06b5bfda6800d8f0df9797aa882ada9c",
+      "lead_ids": [
+        43
+      ],
+      "lead_urls": [
+        "https://basescan.org/tx/0xd94656c1e6ff5e627780dae8b9e9681d06b5bfda6800d8f0df9797aa882ada9c"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/base_0xd94656c1e6ff5e627780dae8b9e9681d06b5bfda6800d8f0df9797aa882ada9c.json",
+      "source_url": "https://base-rpc.publicnode.com",
+      "acquired_utc": "2026-10-27T13:00:54.955824+00:00",
+      "sha256": "8cc388551637d8493cd4d476a63aea1b06830d67ca2c2cd9c38165f989efc9a1",
+      "height": "52359413",
+      "execution_code": 1,
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT",
+        "content-type": "application/json"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0xd94656c1e6ff5e627780dae8b9e9681d06b5bfda6800d8f0df9797aa882ada9c"
+        ]
+      }
+    },
+    {
+      "chain": "base",
+      "hash": "0x9154c37f79d5abe86755f2f615226ba477f36b585166014face5419bce0d5487",
+      "lead_ids": [
+        43
+      ],
+      "lead_urls": [
+        "https://basescan.org/tx/0x9154c37f79d5abe86755f2f615226ba477f36b585166014face5419bce0d5487"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/base_0x9154c37f79d5abe86755f2f615226ba477f36b585166014face5419bce0d5487.json",
+      "source_url": "https://base-rpc.publicnode.com",
+      "acquired_utc": "2026-10-27T13:00:54.936090+00:00",
+      "sha256": "bb3ac30e4e87626c85964ab505fc93e94c410eaad6b5251f37fe0320d75c5db5",
+      "height": "52359471",
+      "execution_code": 1,
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:00:54 GMT",
+        "content-type": "application/json"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x9154c37f79d5abe86755f2f615226ba477f36b585166014face5419bce0d5487"
+        ]
+      }
+    },
+    {
+      "chain": "axelar",
+      "hash": "8516D71B9252B1452B7F2F33EE69EA3E8D7B0217B457A1CC66BCC4D5EEE28797",
+      "lead_ids": [
+        44
+      ],
+      "lead_urls": [
+        "https://axelarscan.io/tx/8516D71B9252B1452B7F2F33EE69EA3E8D7B0217B457A1CC66BCC4D5EEE28797"
+      ],
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://axelar-rest.publicnode.com/cosmos/tx/v1beta1/txs/8516D71B9252B1452B7F2F33EE69EA3E8D7B0217B457A1CC66BCC4D5EEE28797",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://lcd-axelar.imperator.co/cosmos/tx/v1beta1/txs/8516D71B9252B1452B7F2F33EE69EA3E8D7B0217B457A1CC66BCC4D5EEE28797",
+          "error": "The read operation timed out"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:02:16.962289+00:00"
+    },
+    {
+      "chain": "ethereum",
+      "hash": "0x03aca4915d4944318f7ebeee94e7e4783528efa22f7e293961a2dda3dfb58ecd",
+      "lead_ids": [
+        44
+      ],
+      "lead_urls": [
+        "https://etherscan.io/tx/0x03aca4915d4944318f7ebeee94e7e4783528efa22f7e293961a2dda3dfb58ecd"
+      ],
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://ethereum-rpc.publicnode.com",
+          "error": "Missing or mismatched EVM receipt"
+        },
+        {
+          "url": "https://eth.llamarpc.com",
+          "error": "HTTP Error 525: <none>"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:02:00.214144+00:00"
+    },
+    {
+      "chain": "ethereum",
+      "hash": "0x52ad7e703678f8b083b4a5af009ab44c4f0dd8ed6d2792ffc0b6141214d74dfc",
+      "lead_ids": [
+        44
+      ],
+      "lead_urls": [
+        "https://etherscan.io/tx/0x52ad7e703678f8b083b4a5af009ab44c4f0dd8ed6d2792ffc0b6141214d74dfc"
+      ],
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://ethereum-rpc.publicnode.com",
+          "error": "Missing or mismatched EVM receipt"
+        },
+        {
+          "url": "https://eth.llamarpc.com",
+          "error": "HTTP Error 525: <none>"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:02:00.202403+00:00"
+    },
+    {
+      "chain": "cosmoshub",
+      "hash": "FBF31C0352340F9A9A4A14F3EF5F41B875ADE769F0BC85DEB15B006A2879A61C",
+      "lead_ids": [
+        44
+      ],
+      "lead_urls": [
+        "https://www.mintscan.io/cosmos/tx/FBF31C0352340F9A9A4A14F3EF5F41B875ADE769F0BC85DEB15B006A2879A61C"
+      ],
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://cosmos-rest.publicnode.com/cosmos/tx/v1beta1/txs/FBF31C0352340F9A9A4A14F3EF5F41B875ADE769F0BC85DEB15B006A2879A61C",
+          "error": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:01:59.906734+00:00"
+    },
+    {
+      "chain": "ethereum",
+      "hash": "0xf2355b908d1445f26cc5f443d84b90383ecb344db84d654cfa9f37f8df1aaf75",
+      "lead_ids": [
+        45
+      ],
+      "lead_urls": [
+        "https://etherscan.io/tx/0xf2355b908d1445f26cc5f443d84b90383ecb344db84d654cfa9f37f8df1aaf75"
+      ],
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://ethereum-rpc.publicnode.com",
+          "error": "Missing or mismatched EVM receipt"
+        },
+        {
+          "url": "https://eth.llamarpc.com",
+          "error": "HTTP Error 525: <none>"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:02:00.242462+00:00"
+    },
+    {
+      "chain": "ethereum",
+      "hash": "0x3e1d1978e2700775d42df25c460e987cf06419244e75b413443cf1d145df8df8",
+      "lead_ids": [
+        45
+      ],
+      "lead_urls": [
+        "https://etherscan.io/tx/0x3e1d1978e2700775d42df25c460e987cf06419244e75b413443cf1d145df8df8"
+      ],
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://ethereum-rpc.publicnode.com",
+          "error": "Missing or mismatched EVM receipt"
+        },
+        {
+          "url": "https://eth.llamarpc.com",
+          "error": "HTTP Error 525: <none>"
+        }
+      ],
+      "checked_utc": "2026-10-27T13:02:00.496238+00:00"
+    },
+    {
+      "chain": "terra2",
+      "hash": "BA2B9529DF8AB64DFF95E9AFA59A98ED5C2B50507AC1E8FD4289F6FB0B20E668",
+      "lead_ids": [
+        46
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/BA2B9529DF8AB64DFF95E9AFA59A98ED5C2B50507AC1E8FD4289F6FB0B20E668"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_BA2B9529DF8AB64DFF95E9AFA59A98ED5C2B50507AC1E8FD4289F6FB0B20E668.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/BA2B9529DF8AB64DFF95E9AFA59A98ED5C2B50507AC1E8FD4289F6FB0B20E668",
+      "acquired_utc": "2026-10-27T13:00:55.397528+00:00",
+      "sha256": "d3da0315b47ae81334ca5a23b289e11d3badc8728ae07bb9b1c23a3d89d02177",
+      "height": "23132740",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:55 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-04T11:19:37Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "86E599263604B396BFB0F35F2F4E505E2EA758B024315B1C055C14994E6242D9",
+      "lead_ids": [
+        55
+      ],
+      "lead_urls": [
+        "https://chainsco.pe/terra2/tx/86E599263604B396BFB0F35F2F4E505E2EA758B024315B1C055C14994E6242D9"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_86E599263604B396BFB0F35F2F4E505E2EA758B024315B1C055C14994E6242D9.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/86E599263604B396BFB0F35F2F4E505E2EA758B024315B1C055C14994E6242D9",
+      "acquired_utc": "2026-10-27T13:00:55.476468+00:00",
+      "sha256": "44a1476809e0b40f41f41a6bb9e6079c3d713022c511c93276eeeee6130ec2ed",
+      "height": "23442759",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:55 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-25T05:11:51Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "536298700377664639E3CF27AD0FED8495946C3F835FCEC64B02C97F6E15BA88",
+      "lead_ids": [
+        57
+      ],
+      "lead_urls": [
+        "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/536298700377664639E3CF27AD0FED8495946C3F835FCEC64B02C97F6E15BA88"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_536298700377664639E3CF27AD0FED8495946C3F835FCEC64B02C97F6E15BA88.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/536298700377664639E3CF27AD0FED8495946C3F835FCEC64B02C97F6E15BA88",
+      "acquired_utc": "2026-10-27T13:00:55.598484+00:00",
+      "sha256": "16652d6e2b94832f12a2d8bab436cba708b6d0128e5e48ed847bc441352221be",
+      "height": "23201778",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:55 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-09T03:09:55Z"
+    },
+    {
+      "chain": "terra2",
+      "hash": "42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+      "lead_ids": [
+        57
+      ],
+      "lead_urls": [
+        "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776"
+      ],
+      "status": "successful_primary_record",
+      "file": "data/leads/transactions/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+      "source_url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+      "acquired_utc": "2026-10-27T13:00:55.950611+00:00",
+      "sha256": "d9de95025ff8fce1d559aa2eaa8966a205707c9eae4c0b809e6ad7cd2f372346",
+      "height": "23201785",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:00:55 GMT"
+      },
+      "attempts": [],
+      "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+      "timestamp": "2026-10-09T03:10:35Z"
+    }
+  ]
+}

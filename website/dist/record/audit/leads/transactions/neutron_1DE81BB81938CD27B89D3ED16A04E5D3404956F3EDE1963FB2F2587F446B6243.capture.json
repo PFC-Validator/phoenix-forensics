@@ -1,0 +1,17 @@
+{
+  "status": "successful_primary_record",
+  "file": "data/leads/transactions/neutron_1DE81BB81938CD27B89D3ED16A04E5D3404956F3EDE1963FB2F2587F446B6243.json",
+  "source_url": "https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/1DE81BB81938CD27B89D3ED16A04E5D3404956F3EDE1963FB2F2587F446B6243",
+  "acquired_utc": "2026-10-27T13:00:54.932280+00:00",
+  "sha256": "8d8ac1861bbc20df44b2f20ca58f9e1376f0b08a39904fea878f5602702b5d38",
+  "height": "43758857",
+  "execution_code": 0,
+  "response_headers": {
+    "date": "Tue, 27 Oct 2026 13:00:54 GMT",
+    "content-type": "application/json",
+    "x-cosmos-block-height": "62030748"
+  },
+  "attempts": [],
+  "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+  "timestamp": "2025-12-24T02:07:06Z"
+}

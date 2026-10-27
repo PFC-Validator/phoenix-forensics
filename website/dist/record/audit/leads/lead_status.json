@@ -1,0 +1,539 @@
+[
+  {
+    "lead_id": 1,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 2,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 3,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 4,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 5,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "receipt_redemption"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 6,
+    "status": "bounded_findings_added",
+    "successful_records": 4,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "restriction_assignment"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 7,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "fee_collector_assignment"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 8,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 9,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "treasury_config_assignment"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 10,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "arbluna_collateral_added"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 11,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "large_account_examples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 12,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "large_account_examples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 13,
+    "status": "bounded_findings_added",
+    "successful_records": 3,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "superbolt_distribution"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 14,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 15,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 16,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 17,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "validator_payment_samples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 18,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "validator_unjail_samples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 19,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 20,
+    "status": "bounded_findings_added",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "current_permission_layers"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 21,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 22,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 23,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "phoenix_A43_locks"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 24,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "phoenix_A33_locks"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 25,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "lock_current_state"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 26,
+    "status": "bounded_findings_added",
+    "successful_records": 3,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "reward_samples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 27,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "compounder_fee_samples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 28,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 29,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "protocol_fee_samples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 30,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "protocol_fee_samples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 31,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "protocol_fee_samples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 32,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "protocol_fee_samples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 33,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 34,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "creda_reserve_collections"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 35,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 36,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "milestone_receipts"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 37,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 38,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "superbolt_other_distribution"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 39,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 40,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 41,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 42,
+    "status": "bounded_findings_added",
+    "successful_records": 5,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "milestone_receipts",
+      "cross_chain_individual_legs"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 43,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "cross_chain_individual_legs"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 44,
+    "status": "transaction_records_only",
+    "successful_records": 0,
+    "unavailable_records": 4,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 45,
+    "status": "transaction_records_only",
+    "successful_records": 0,
+    "unavailable_records": 2,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 46,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "liquidity_withdrawal_custody"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 47,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 48,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 49,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 50,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 51,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 52,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "validator_unjail_samples"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 53,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "receipt_redemption"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 54,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 55,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "partial_handover_execution",
+      "current_permission_layers"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 56,
+    "status": "bounded_findings_added",
+    "successful_records": 1,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "creda_reserve_collections",
+      "current_permission_layers"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 57,
+    "status": "bounded_findings_added",
+    "successful_records": 2,
+    "unavailable_records": 0,
+    "finding_ids": [
+      "ceres_removal_rebalance"
+    ],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 58,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  },
+  {
+    "lead_id": 59,
+    "status": "not_transaction_verified",
+    "successful_records": 0,
+    "unavailable_records": 0,
+    "finding_ids": [],
+    "limitation": "Status does not verify every statement or proposed historical total in the lead."
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 88,
+    "event_type": "transfer",
+    "attributes": {
+      "amount": [
+        ""
+      ],
+      "recipient": [
+        "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8"
+      ],
+      "sender": [
+        "terra14hayt9cet2rfqu6tj0n8d7rnn5d0ng97m38sn7"
+      ],
+      "msg_index": [
+        "1"
+      ]
+    },
+    "reason": "Provider emitted an empty coin amount. Preserved separately, not converted to zero or included in amount totals."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 316,
+    "event_type": "transfer",
+    "attributes": {
+      "amount": [
+        ""
+      ],
+      "recipient": [
+        "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8"
+      ],
+      "sender": [
+        "terra14hayt9cet2rfqu6tj0n8d7rnn5d0ng97m38sn7"
+      ],
+      "msg_index": [
+        "1"
+      ]
+    },
+    "reason": "Provider emitted an empty coin amount. Preserved separately, not converted to zero or included in amount totals."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 430,
+    "event_type": "transfer",
+    "attributes": {
+      "amount": [
+        ""
+      ],
+      "recipient": [
+        "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh"
+      ],
+      "sender": [
+        "terra14hayt9cet2rfqu6tj0n8d7rnn5d0ng97m38sn7"
+      ],
+      "msg_index": [
+        "2"
+      ]
+    },
+    "reason": "Provider emitted an empty coin amount. Preserved separately, not converted to zero or included in amount totals."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 556,
+    "event_type": "transfer",
+    "attributes": {
+      "amount": [
+        ""
+      ],
+      "recipient": [
+        "terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh"
+      ],
+      "sender": [
+        "terra14hayt9cet2rfqu6tj0n8d7rnn5d0ng97m38sn7"
+      ],
+      "msg_index": [
+        "2"
+      ]
+    },
+    "reason": "Provider emitted an empty coin amount. Preserved separately, not converted to zero or included in amount totals."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 640,
+    "event_type": "transfer",
+    "attributes": {
+      "amount": [
+        ""
+      ],
+      "recipient": [
+        "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53"
+      ],
+      "sender": [
+        "terra14hayt9cet2rfqu6tj0n8d7rnn5d0ng97m38sn7"
+      ],
+      "msg_index": [
+        "3"
+      ]
+    },
+    "reason": "Provider emitted an empty coin amount. Preserved separately, not converted to zero or included in amount totals."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 766,
+    "event_type": "transfer",
+    "attributes": {
+      "amount": [
+        ""
+      ],
+      "recipient": [
+        "terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53"
+      ],
+      "sender": [
+        "terra14hayt9cet2rfqu6tj0n8d7rnn5d0ng97m38sn7"
+      ],
+      "msg_index": [
+        "3"
+      ]
+    },
+    "reason": "Provider emitted an empty coin amount. Preserved separately, not converted to zero or included in amount totals."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 850,
+    "event_type": "transfer",
+    "attributes": {
+      "amount": [
+        ""
+      ],
+      "recipient": [
+        "terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u"
+      ],
+      "sender": [
+        "terra14hayt9cet2rfqu6tj0n8d7rnn5d0ng97m38sn7"
+      ],
+      "msg_index": [
+        "4"
+      ]
+    },
+    "reason": "Provider emitted an empty coin amount. Preserved separately, not converted to zero or included in amount totals."
+  },
+  {
+    "chain": "terra2",
+    "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+    "height": "22815237",
+    "timestamp": "2026-09-13T04:29:07Z",
+    "file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+    "lead_ids": [
+      29
+    ],
+    "event_index": 976,
+    "event_type": "transfer",
+    "attributes": {
+      "amount": [
+        ""
+      ],
+      "recipient": [
+        "terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u"
+      ],
+      "sender": [
+        "terra14hayt9cet2rfqu6tj0n8d7rnn5d0ng97m38sn7"
+      ],
+      "msg_index": [
+        "4"
+      ]
+    },
+    "reason": "Provider emitted an empty coin amount. Preserved separately, not converted to zero or included in amount totals."
+  }
+]

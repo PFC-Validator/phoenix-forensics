@@ -1,0 +1,96 @@
+{
+  "queries": [
+    {
+      "name": "base_chain_id",
+      "chain": "base",
+      "status": "current_query",
+      "source_url": "https://base-rpc.publicnode.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      "acquired_utc": "2026-10-27T13:05:36.365939+00:00",
+      "sha256": "60a8e1c6a5247eee8b12ffe2450558e6199f6146acc9caed1be20cd1d373d45e",
+      "file": "data/leads/queries/base_chain_id.json",
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:05:36 GMT",
+        "content-type": "application/json"
+      },
+      "limitation": "JSON-RPC provider response; token decimals do not establish economic value or ownership."
+    },
+    {
+      "name": "base_0x833589fcd6edb6e08f4c7c32d4f71b54bda02913_decimals",
+      "chain": "base",
+      "status": "historical_rpc_call",
+      "source_url": "https://base-rpc.publicnode.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "data": "0x313ce567"
+          },
+          "0x31ef12f"
+        ]
+      },
+      "acquired_utc": "2026-10-27T13:05:36.509376+00:00",
+      "sha256": "f470abc1e2ed21fbb5f74ae7897a7b902ed5e7b134d7f0cd5a5731ebff2690da",
+      "file": "data/leads/queries/base_0x833589fcd6edb6e08f4c7c32d4f71b54bda02913_decimals.json",
+      "response_headers": {
+        "date": "Tue, 27 Oct 2026 13:05:36 GMT",
+        "content-type": "application/json"
+      },
+      "limitation": "JSON-RPC provider response; token decimals do not establish economic value or ownership."
+    },
+    {
+      "name": "injective_evm_chain_id",
+      "chain": "injective_evm",
+      "status": "current_query",
+      "source_url": "https://sentry.evm-rpc.injective.network",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      "acquired_utc": "2026-10-27T13:05:36.893102+00:00",
+      "sha256": "f4cdef77fc1468874c9a2a031bd2761e326fcb67e6e7a414e57320fbfd380045",
+      "file": "data/leads/queries/injective_evm_chain_id.json",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:05:36 GMT"
+      },
+      "limitation": "JSON-RPC provider response; token decimals do not establish economic value or ownership."
+    },
+    {
+      "name": "injective_evm_0xa00c59ff5a080d2b954d0c75e46e22a0c371235a_decimals",
+      "chain": "injective_evm",
+      "status": "historical_rpc_call",
+      "source_url": "https://sentry.evm-rpc.injective.network",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xa00c59ff5a080d2b954d0c75e46e22a0c371235a",
+            "data": "0x313ce567"
+          },
+          "0xb1159a3"
+        ]
+      },
+      "acquired_utc": "2026-10-27T13:05:37.533546+00:00",
+      "sha256": "0665affd45e46e65eca43e938fe63e22a8ceece0894abfa49d43d468655f681e",
+      "file": "data/leads/queries/injective_evm_0xa00c59ff5a080d2b954d0c75e46e22a0c371235a_decimals.json",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:05:37 GMT"
+      },
+      "limitation": "JSON-RPC provider response; token decimals do not establish economic value or ownership."
+    }
+  ]
+}

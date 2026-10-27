@@ -13,37 +13,37 @@
       "title": "Overview",
       "page": "https://philipp-payments.pages.dev/",
       "text": "https://philipp-payments.pages.dev/readable/overview.txt",
-      "text_sha256": "d9f93feea64cf6ca04706adf5ee599fa6082bb117c429338a249ccd7598c9aa0"
+      "text_sha256": "1bc5f41474f6bd65a3fb008da09d839a99375804dd5f91e84dc74df332ecc659"
     },
     {
       "title": "Payments",
       "page": "https://philipp-payments.pages.dev/payments/",
       "text": "https://philipp-payments.pages.dev/readable/payments.txt",
-      "text_sha256": "3ff46af5a3e3758143c79a08ff505363c34715c259e3e49c60494fadd59942d3"
+      "text_sha256": "36ee6292c1929c960aab552af01778148ea5502d0b2957e60a363c5788a78c25"
     },
     {
       "title": "Power consolidation",
       "page": "https://philipp-payments.pages.dev/history/",
       "text": "https://philipp-payments.pages.dev/readable/history.txt",
-      "text_sha256": "c0c42cde0e12fc342161c3706916599d3ffeb2ebf5f8604134892a02d973472e"
+      "text_sha256": "309dfba793cabaf1d98248230c4bb07954743d662a82de4d3009187d1fab944d"
     },
     {
       "title": "Accountability",
       "page": "https://philipp-payments.pages.dev/handover/",
       "text": "https://philipp-payments.pages.dev/readable/handover.txt",
-      "text_sha256": "b6e441ac7ff1d7492e067c441c77b87d4b6b3dd13ab964e3e13d7b7f739f048b"
+      "text_sha256": "a9c659e402e5183c954384a33ad9982065fef4bd5c4fc869da9eef57921d69a9"
     },
     {
       "title": "Supporting records",
       "page": "https://philipp-payments.pages.dev/evidence/",
       "text": "https://philipp-payments.pages.dev/readable/evidence.txt",
-      "text_sha256": "13af632dc9153a7bc1d4acbc718184a0068be1096f1ae3a95471939a8cd097ef"
+      "text_sha256": "48d66f5531050a5beb8e7e07558fd77142c32a59afb941a97fb9e0a81316bd77"
     },
     {
       "title": "Sources",
       "page": "https://philipp-payments.pages.dev/sources/",
       "text": "https://philipp-payments.pages.dev/readable/sources.txt",
-      "text_sha256": "40aeb3e1c6233c05ac5e983a435f3e8bed07be68f90307ec8623283bee83d39d"
+      "text_sha256": "98be78b49988170513eb077e82012996f32aeb355a3365ec18cdfb935a802f4c"
     }
   ],
   "datasets": [

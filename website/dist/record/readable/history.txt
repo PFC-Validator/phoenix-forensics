@@ -1,4 +1,4 @@
-Skip to content [https://phoenix-foundation-irregularities.pfc.zone/record/history/#main]Phoenix governance reviewPublic records · independent scrutiny [https://phoenix-foundation-irregularities.pfc.zone/]Review [https://phoenix-foundation-irregularities.pfc.zone/]4853 & voting [https://phoenix-foundation-irregularities.pfc.zone/voting/]Stakeholders [https://phoenix-foundation-irregularities.pfc.zone/stakeholders/]Treasury [https://phoenix-foundation-irregularities.pfc.zone/treasury/]Governance [https://phoenix-foundation-irregularities.pfc.zone/governance/]Evidence [https://phoenix-foundation-irregularities.pfc.zone/evidence/]
+Skip to content [https://phoenix-foundation-irregularities.pfc.zone/record/history/#main]Phoenix governance reviewVotes, payments and contract control [https://phoenix-foundation-irregularities.pfc.zone/]Overview [https://phoenix-foundation-irregularities.pfc.zone/]4853 vote [https://phoenix-foundation-irregularities.pfc.zone/voting/]Stakeholders [https://phoenix-foundation-irregularities.pfc.zone/stakeholders/]Treasury [https://phoenix-foundation-irregularities.pfc.zone/treasury/]Governance [https://phoenix-foundation-irregularities.pfc.zone/governance/]Evidence [https://phoenix-foundation-irregularities.pfc.zone/evidence/]
 
 Governance review [https://phoenix-foundation-irregularities.pfc.zone/]
 
@@ -54,6 +54,4 @@ source-index.json [https://phoenix-foundation-irregularities.pfc.zone/record/his
 
 SHA256SUMS.txt [https://phoenix-foundation-irregularities.pfc.zone/record/history/SHA256SUMS.txt]
 
-Process before personalities. Evidence before conclusions.
-
-Evidence captured through 26 October 2026. Live votes and contract state can change.Method & sources [https://phoenix-foundation-irregularities.pfc.zone/evidence/]Preserved record [https://phoenix-foundation-irregularities.pfc.zone/record/]Privacy [https://phoenix-foundation-irregularities.pfc.zone/privacy/]
+Native tally and scenario: 27 October 2026, 15:07 UTC. Historical vAMP balances: 26 October. Supplemental transaction and funding checks: 27 October. Live state can change.Method & sources [https://phoenix-foundation-irregularities.pfc.zone/evidence/]Preserved record [https://phoenix-foundation-irregularities.pfc.zone/record/]Privacy [https://phoenix-foundation-irregularities.pfc.zone/privacy/]

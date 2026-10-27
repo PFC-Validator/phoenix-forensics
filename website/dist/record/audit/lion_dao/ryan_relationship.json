@@ -19,5 +19,10 @@
     "native_validator_yes_tx": "4B356AF4C770CDD9729FDC39451C086BA188EF5A82EB7F1D0FCBE2AF28C5A0D2",
     "native_validator_yes_time": "2026-10-25T05:06:13Z"
   },
-  "evidence_caution": "Direct transfer and DAO profile link support an operational wallet relationship, not proof of sole identity or motive. The transferred amount does not explain the much larger voting position."
+  "evidence_caution": "Direct transfer and DAO profile link support an operational wallet relationship, not proof of sole identity or motive. The transferred amount does not explain the much larger voting position.",
+  "attribution_confidence": {
+    "transaction_ballot_and_power_facts": "high",
+    "dao_display_name_RyanLion": "moderate; pending a first-party account/profile declaration",
+    "real_world_identity": "not inferred"
+  }
 }

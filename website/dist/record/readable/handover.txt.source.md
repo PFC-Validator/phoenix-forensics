@@ -1,7 +1,7 @@
 # Source and provenance
 
 - **Artifact:** `website/dist/record/readable/handover.txt`
-- **SHA-256:** `b6e441ac7ff1d7492e067c441c77b87d4b6b3dd13ab964e3e13d7b7f739f048b`
+- **SHA-256:** `a9c659e402e5183c954384a33ad9982065fef4bd5c4fc869da9eef57921d69a9`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:23.966853+00:00
 - **Classification:** Derived dataset
 - **Acquisition / transformation:** Local transformation using `website publication pipeline`.

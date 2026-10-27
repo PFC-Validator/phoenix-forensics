@@ -1,0 +1,16 @@
+{
+  "status": "successful_primary_record",
+  "file": "data/leads/transactions/archway_8789522B5651B8293B8D824CCA7C0A90036F81223FFCBB15E21EC2950EBB4D2E.json",
+  "source_url": "https://api.mainnet.archway.io/cosmos/tx/v1beta1/txs/8789522B5651B8293B8D824CCA7C0A90036F81223FFCBB15E21EC2950EBB4D2E",
+  "acquired_utc": "2026-10-27T13:00:54.479403+00:00",
+  "sha256": "f0d2895e60b92cfa8f693ca20f973703ee45b3e6c1ebf6fe1678e4aca4e6ffaa",
+  "height": "9379027",
+  "execution_code": 0,
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+  },
+  "attempts": [],
+  "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+  "timestamp": "2025-04-03T08:29:57Z"
+}

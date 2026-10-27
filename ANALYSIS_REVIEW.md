@@ -52,3 +52,15 @@ The `--require-complete` failure is intentional and reports the incomplete walle
 - **REPORT drift closed.** The vote-change paragraph now distinguishes 79 ballots in the earlier raw capture from 83 in the refreshed documented merge.
 - **`terra1tuuwm8…` classified.** Fresh metadata confirms `ve3-bribe-manager`. Its receipts are `claim_bribes` voting incentives, not an unidentified personal counterparty. The round-two combined totals mix assets: preserved flows are 8,809.069532 LUNA + 69,095.412349 FUEL + 19.075632 USDC, with October values 2,431.438843 LUNA + 48,995.522472 FUEL + 11.011553 USDC. They are intentionally reported separately.
 - **F1 remains open.** The five truncated histories still require network pagination and a refreshed absence graph.
+
+
+## Round 3 source-framing follow-up
+
+Round 3 agreed with the substantive findings. Its sharpening items did not change the conclusions:
+
+- The 38.686M-VETO table is now explicitly timestamped at approximately 19:03 UTC and distinguished from the earlier 34.184M capture.
+- Primary hub-delegation amounts are distinguished from secondary Smart Stake validator-total weights; native ballot responses contain options, not per-ballot LUNA weights.
+- RyanLion is labelled as a DAO-interface display handle. Confidence is high for hash-anchored facts and moderate for display-name attribution.
+- HighStakes is disclosed as both an LCD provider and a reviewed validator with an ABSTAIN ballot and hub delegation. Static admin/config anchors have exact tdrsys cross-checks.
+- A consolidated 0xphilipp role-overlap paragraph describes documented interests without asserting a common key, command structure or motive.
+- The addendum's “carried open” references to F21, the payment-summary generator and `terra1tuuwm8…` are stale after the round-two remediation. F1 pagination and the raw 4853 refetch remain open.

@@ -1,7 +1,7 @@
 # Source and provenance
 
 - **Artifact:** `website/dist/record/readable/history.txt`
-- **SHA-256:** `c0c42cde0e12fc342161c3706916599d3ffeb2ebf5f8604134892a02d973472e`
+- **SHA-256:** `309dfba793cabaf1d98248230c4bb07954743d662a82de4d3009187d1fab944d`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:23.965524+00:00
 - **Classification:** Derived dataset
 - **Acquisition / transformation:** Local transformation using `website publication pipeline`.

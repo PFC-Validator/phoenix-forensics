@@ -168,7 +168,10 @@ def apply_privacy(dist):
     for sums in dist.rglob('SHA256SUMS.txt'):
         entries = []
         for path in sorted(sums.parent.rglob('*')):
-            if path.is_file() and path != sums:
+            # Sidecars are generated after checksums. Including a checksum's
+            # own sidecar creates a circular hash and makes rebuilds drift.
+            # Payloads remain covered; provenance binds sidecars separately.
+            if path.is_file() and path != sums and not path.name.endswith('.source.md'):
                 entries.append(hashlib.sha256(path.read_bytes()).hexdigest()+'  '+str(path.relative_to(sums.parent)))
         sums.write_text('\n'.join(entries)+'\n')
 

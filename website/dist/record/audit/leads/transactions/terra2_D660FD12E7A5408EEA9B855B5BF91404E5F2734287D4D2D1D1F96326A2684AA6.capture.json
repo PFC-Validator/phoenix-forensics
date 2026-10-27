@@ -1,0 +1,25 @@
+{
+  "status": "successful_primary_record",
+  "file": "data/leads/transactions/terra2_D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6.json",
+  "source_url": "http://15.204.43.42:1317/cosmos/tx/v1beta1/txs/D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6",
+  "acquired_utc": "2026-10-27T13:01:59.719758+00:00",
+  "sha256": "7de63bb648df9c9a9647b80e1c8492a7c4cba8fca0df6ca7727f71971745a3b0",
+  "height": "12812605",
+  "execution_code": 0,
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 27 Oct 2026 13:01:59 GMT"
+  },
+  "attempts": [
+    {
+      "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmos/tx/v1beta1/txs/D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+  "timestamp": "2024-11-05T01:45:54Z"
+}

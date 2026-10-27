@@ -1,0 +1,612 @@
+{
+  "checks": [
+    {
+      "hash": "D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB",
+      "file": "data/leads/rpc/terra2_D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xD3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.444581+00:00",
+      "sha256": "c8e785ed1e46698589eda31aef669189d76b509d3ecc566a731516be1c1a50d2",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_D3D3B6F6FA5FB80D59601ADE142B093C6BC5D73225B7319BB5D7F82413D743DB.json",
+      "height": "22952025",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2",
+      "file": "data/leads/rpc/terra2_DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xDB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.513175+00:00",
+      "sha256": "260701c01ab2e19184cc96de2d388b45d7674d68053edd348dc7829e65063be2",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_DB4333BDA8208FB45942C6C3E4F211A1AAD95BAE484D98A7C388DB71793843A2.json",
+      "height": "23041080",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C",
+      "file": "data/leads/rpc/terra2_D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xD5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.445504+00:00",
+      "sha256": "fa85a19bacacf7980cb961631c57c50e2c133e17e43362787ae4c508506196e8",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_D5111F8A8519102A8CB324352513ABC377C0D82D9DEEDAF7FB5355566D7E7A4C.json",
+      "height": "23112015",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560",
+      "file": "data/leads/rpc/terra2_BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xBB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.437289+00:00",
+      "sha256": "51ada82691ab737c7751add8f6e6cff8e1d845c35b16f24cf2583e842c8110f4",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_BB874B99728FDB9401DFD9FEF22B0D06C72E1C7D8E82A35029FACA40FDB88560.json",
+      "height": "23112060",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE",
+      "file": "data/leads/rpc/terra2_5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.436812+00:00",
+      "sha256": "7338985b03a676807c4226b9e22cf5092b861ec07fd413aaa42fb8d29f7e41c1",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_5E62BA4B9B02940D22154FDB1B521D6D02DE93A56BB17671A4E53DC2FD733DAE.json",
+      "height": "23112085",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230",
+      "file": "data/leads/rpc/terra2_EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xEDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.444544+00:00",
+      "sha256": "b8580e332abfd4344c4361963c2d062e116654f9317b300ecd8c871a5252ac72",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_EDC654FA72CA8BA3921596AD93648C55DA676BCDD427FE1475DA3B853CA56230.json",
+      "height": "23344068",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64",
+      "file": "data/leads/rpc/terra2_DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xDC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.566995+00:00",
+      "sha256": "671b207e0392b8b2a3369d70a16f5971a6b151eee87d894c9816d22a7f96ca16",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_DC3118AA7A0A8BEC96AA7006074DF66A83321DEC0CEEDB2015B56AE83D80EB64.json",
+      "height": "17655127",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F",
+      "file": "data/leads/rpc/terra2_B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xB71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.577392+00:00",
+      "sha256": "b408d45ff46bb79771e4528ca923a52476bdc24e0a86eec01fbaa9fcb57c145a",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_B71CF351EB8A85620E18821288C35A4C73DD6B43B9751C08E937C8AC9FCEAF2F.json",
+      "height": "12412391",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE",
+      "file": "data/leads/rpc/terra2_3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.591995+00:00",
+      "sha256": "fe79bb7393d1ac1506a92e0ed016c450ca27726f22f074d43965ddf90ec6bb9f",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_3C9C6A6D94C6819E7CF5A069F9AF3C0F7A0189A3239A2BAF17959A14C4262CFE.json",
+      "height": "13448175",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "C170430FC6441D8A13A3C9B84C740A243627AC99B609EDD5E5AC1A92BFC8806A",
+      "file": "data/leads/rpc/terra2_C170430FC6441D8A13A3C9B84C740A243627AC99B609EDD5E5AC1A92BFC8806A.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xC170430FC6441D8A13A3C9B84C740A243627AC99B609EDD5E5AC1A92BFC8806A&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.596151+00:00",
+      "sha256": "2ee9986f3ce19353813c64c4d252b971c674a28630464877e5c0b783b43db08f",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_C170430FC6441D8A13A3C9B84C740A243627AC99B609EDD5E5AC1A92BFC8806A.json",
+      "height": "12334965",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "3FFA5B0FF5DCC4146E610461FAFF52C9ECE6EFC4F7BA0F47C76CC98519E43E11",
+      "file": "data/leads/rpc/terra2_3FFA5B0FF5DCC4146E610461FAFF52C9ECE6EFC4F7BA0F47C76CC98519E43E11.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x3FFA5B0FF5DCC4146E610461FAFF52C9ECE6EFC4F7BA0F47C76CC98519E43E11&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.583049+00:00",
+      "sha256": "04aabd6f3aca406c155c91f62bd2283254b27e52c5c2423c817ce2a9fd1542f5",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_3FFA5B0FF5DCC4146E610461FAFF52C9ECE6EFC4F7BA0F47C76CC98519E43E11.json",
+      "height": "23351032",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3",
+      "file": "data/leads/rpc/terra2_F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xF402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.644036+00:00",
+      "sha256": "335d4e16058c9c8f4bc69413ce2f179826be00b8abe51951b0b0568e3135145e",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_F402C10113509AF2EEEAADF2AD0E3C6B00B557BF2A74C98E7D87C48B8728C7F3.json",
+      "height": "14855925",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "C940EBF82897A30739149AE35316C0E4A8019D18BD7BEC0998DE1E2C9B9E22E2",
+      "file": "data/leads/rpc/terra2_C940EBF82897A30739149AE35316C0E4A8019D18BD7BEC0998DE1E2C9B9E22E2.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xC940EBF82897A30739149AE35316C0E4A8019D18BD7BEC0998DE1E2C9B9E22E2&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.697344+00:00",
+      "sha256": "90359b6eaab20db1428d0747198e83b9d59d48ebcc181d56afee80e2061cc656",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_C940EBF82897A30739149AE35316C0E4A8019D18BD7BEC0998DE1E2C9B9E22E2.json",
+      "height": "23351030",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C",
+      "file": "data/leads/rpc/terra2_B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xB77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.714163+00:00",
+      "sha256": "f35cecf06c7213ae1e687e93f462b7983a4fbac6b0e6078cfe55f2ac2dbdbe18",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C.json",
+      "height": "23351003",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "176C4187D9B5EA6A3034B524C121FF18AE9BC1D9329CD51BE5EB67750FCF9B36",
+      "file": "data/leads/rpc/terra2_176C4187D9B5EA6A3034B524C121FF18AE9BC1D9329CD51BE5EB67750FCF9B36.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x176C4187D9B5EA6A3034B524C121FF18AE9BC1D9329CD51BE5EB67750FCF9B36&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.711527+00:00",
+      "sha256": "54bc41ccd9627b4228f72735e344e4e99971d7674ffc40bed20fbd0368482164",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_176C4187D9B5EA6A3034B524C121FF18AE9BC1D9329CD51BE5EB67750FCF9B36.json",
+      "height": "20029160",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "6C92D0647AAA0CD945A954D52D8A88502C41376510BE1EFDA65B9530E43DD8F8",
+      "file": "data/leads/rpc/terra2_6C92D0647AAA0CD945A954D52D8A88502C41376510BE1EFDA65B9530E43DD8F8.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x6C92D0647AAA0CD945A954D52D8A88502C41376510BE1EFDA65B9530E43DD8F8&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.722987+00:00",
+      "sha256": "b0e7f8b999c53a9e61fe035c34df2177d6f2d920e40afc70ac2f7ce04b498c11",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_6C92D0647AAA0CD945A954D52D8A88502C41376510BE1EFDA65B9530E43DD8F8.json",
+      "height": "22065338",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6",
+      "file": "data/leads/rpc/terra2_D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xD660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.784097+00:00",
+      "sha256": "28c36d12ff015eb964ae0daec915b7b4f7bd4aa3a8227156c5a8624844c12236",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_D660FD12E7A5408EEA9B855B5BF91404E5F2734287D4D2D1D1F96326A2684AA6.json",
+      "height": "12812605",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092",
+      "file": "data/leads/rpc/terra2_83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.852892+00:00",
+      "sha256": "17043469873e6a0fb9cbb99eb97226eba6a294dde437910edfaa924406fdb72f",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_83EF0856D2E3542A5A4783A512C9F7A271BE05394A96D4BBF944B1A8D312E092.json",
+      "height": "12710136",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4",
+      "file": "data/leads/rpc/terra2_9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.827144+00:00",
+      "sha256": "def58866222a9427b1b8116967bb448139096645fd12e956a4c9ea67130a40c3",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_9503DA5657CAFECC2FE8EBA3F0AA5609650DE785F2F5A300337EC713731F7BE4.json",
+      "height": "19006850",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "B32A85AB3ACA1F9B56C7728A64F4B9D09C21933E79BD7577B535BF675D261B73",
+      "file": "data/leads/rpc/terra2_B32A85AB3ACA1F9B56C7728A64F4B9D09C21933E79BD7577B535BF675D261B73.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xB32A85AB3ACA1F9B56C7728A64F4B9D09C21933E79BD7577B535BF675D261B73&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.853616+00:00",
+      "sha256": "dfe606dbb1cbbbc9bb9b4a7185f59a1d44639cf685c36149ecffa702c2e917ff",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_B32A85AB3ACA1F9B56C7728A64F4B9D09C21933E79BD7577B535BF675D261B73.json",
+      "height": "19120025",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307",
+      "file": "data/leads/rpc/terra2_E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xE6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.844912+00:00",
+      "sha256": "10acced0673b37bdcc955c3a21a528e723bc5727070d124fa75a78e42e020550",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_E6AB079444D9C1DC03D05A873E4D6FAF392C3C13A2DCCF4D5E5EE595748D9307.json",
+      "height": "23164403",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9",
+      "file": "data/leads/rpc/terra2_F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xF4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.930583+00:00",
+      "sha256": "914b2104cb87a14dc955974bdda2c182d8b529c41ddd6445f4c802c24d422233",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_F4C13ED4B981392B5F353C038A09B1321173AA4C8186D9AF6C89BC828787FCB9.json",
+      "height": "18880259",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F",
+      "file": "data/leads/rpc/terra2_1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.918711+00:00",
+      "sha256": "2539426b0e2263624853e00d5ff22085cff89a8e4bde700f3168d76192de2f87",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_1F2C0F62622779C6325A3D84D46BCC16CF6904E5B328C169B11B731779D9205F.json",
+      "height": "18880261",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462",
+      "file": "data/leads/rpc/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.266485+00:00",
+      "sha256": "238eb0122ad3de78a89a17281052eb08b7cf67250379c0acc98f2cda95bb931d",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_000C5AFDBD26B140376ADB8993901A707E255136FDBABA9B33CC2D46C7E6F462.json",
+      "height": "22815237",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "015C672A8A3F835BF4BAD3704FC0606BB89BC005FDF567119013517A8144786A",
+      "file": "data/leads/rpc/terra2_015C672A8A3F835BF4BAD3704FC0606BB89BC005FDF567119013517A8144786A.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x015C672A8A3F835BF4BAD3704FC0606BB89BC005FDF567119013517A8144786A&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.965617+00:00",
+      "sha256": "da54e3d9726a1dce478b0ebe6b687e663b7f91a1ffb65074f44713248b1bf3d9",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_015C672A8A3F835BF4BAD3704FC0606BB89BC005FDF567119013517A8144786A.json",
+      "height": "23156724",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88",
+      "file": "data/leads/rpc/terra2_799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.002472+00:00",
+      "sha256": "f05b3f9cf52692bd1d2a10e60b71f52b4652d4fb566a6dc0366d11d402ac5d27",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_799A3A819C1A3EAEEC83F6E3CE0E7F14D74151FAFCDB20757977941120C06D88.json",
+      "height": "21579301",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "CF6DD29EAC65D80394C16579359EBB5F826BBAEA1FEBFBCC775908C61CD4D774",
+      "file": "data/leads/rpc/terra2_CF6DD29EAC65D80394C16579359EBB5F826BBAEA1FEBFBCC775908C61CD4D774.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xCF6DD29EAC65D80394C16579359EBB5F826BBAEA1FEBFBCC775908C61CD4D774&prove=false",
+      "acquired_utc": "2026-10-27T13:04:05.989773+00:00",
+      "sha256": "6bbadf3a46b5bf2323a358123738986f4840e3743bbe5a4bfbb87a7e75455114",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_CF6DD29EAC65D80394C16579359EBB5F826BBAEA1FEBFBCC775908C61CD4D774.json",
+      "height": "21662813",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:05 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "128BE25C84D7D44DB73351038852E577C2570853A40E59B13084C7EDF60F80E2",
+      "file": "data/leads/rpc/terra2_128BE25C84D7D44DB73351038852E577C2570853A40E59B13084C7EDF60F80E2.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x128BE25C84D7D44DB73351038852E577C2570853A40E59B13084C7EDF60F80E2&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.052552+00:00",
+      "sha256": "ef4b1f434d1110f3deaaa6347086c5f576ba98c309dc0b83e89157d5b6877696",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_128BE25C84D7D44DB73351038852E577C2570853A40E59B13084C7EDF60F80E2.json",
+      "height": "21591731",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9",
+      "file": "data/leads/rpc/terra2_069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.058206+00:00",
+      "sha256": "354d06f40df4109696bf6379dbf319f460bf3b08496c698dda74bb393fadc50c",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_069AE6DED4055CD463F774BCCFC5AA26F13C11AE8708D7356607282EA4437CA9.json",
+      "height": "19381539",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA",
+      "file": "data/leads/rpc/terra2_6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.095771+00:00",
+      "sha256": "1eaaa7c8c3c8ef4b40103fc1361aba417e4b45f926d876e9c55e9ccb6ef5f315",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_6A80B913DA6A51C78B9DCFE0DD70BD126A1ACBB3869675D4AE07357DF6E4F9DA.json",
+      "height": "23035979",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A",
+      "file": "data/leads/rpc/terra2_1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.119893+00:00",
+      "sha256": "f7c6a65d971e4ab54d63c9fb2d9e04c4c675393c3ce5be4037d129b3f60a751a",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_1D09DCD2A15F59A4545B483CE48F35A678F953B72CDF20107D34FF2AB01FCE0A.json",
+      "height": "19403449",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D",
+      "file": "data/leads/rpc/terra2_491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.131668+00:00",
+      "sha256": "b74896263998a501c9b537fbb01ba4805f778804f4515b984029b20f18f900dd",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_491B94F02D48184BC08C7582ABCFA80A96D0F9123D298965958E714629ADC96D.json",
+      "height": "23119877",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "F0F79E951C9D84E484F1EF587B993C26575B9420D2839F21D259A9718C8B1658",
+      "file": "data/leads/rpc/terra2_F0F79E951C9D84E484F1EF587B993C26575B9420D2839F21D259A9718C8B1658.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xF0F79E951C9D84E484F1EF587B993C26575B9420D2839F21D259A9718C8B1658&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.176859+00:00",
+      "sha256": "63004551f004c209be49b9625eb7c672d675b5b6d3b73b437fc3ca255b84079e",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_F0F79E951C9D84E484F1EF587B993C26575B9420D2839F21D259A9718C8B1658.json",
+      "height": "23119882",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "8698785F3779F24C7676BE4DA9796FF0BB8ED55AF404F65CF4B0E4E50AFD05AC",
+      "file": "data/leads/rpc/terra2_8698785F3779F24C7676BE4DA9796FF0BB8ED55AF404F65CF4B0E4E50AFD05AC.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x8698785F3779F24C7676BE4DA9796FF0BB8ED55AF404F65CF4B0E4E50AFD05AC&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.196537+00:00",
+      "sha256": "081dc0f0376df67cb70aa48de2c256f33a538a0b2f20f864d8ea33dc4234e9fd",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_8698785F3779F24C7676BE4DA9796FF0BB8ED55AF404F65CF4B0E4E50AFD05AC.json",
+      "height": "23119935",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "BA2B9529DF8AB64DFF95E9AFA59A98ED5C2B50507AC1E8FD4289F6FB0B20E668",
+      "file": "data/leads/rpc/terra2_BA2B9529DF8AB64DFF95E9AFA59A98ED5C2B50507AC1E8FD4289F6FB0B20E668.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0xBA2B9529DF8AB64DFF95E9AFA59A98ED5C2B50507AC1E8FD4289F6FB0B20E668&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.220591+00:00",
+      "sha256": "99d5cc3164e6edd3396d5e6712fcce7dfc57db3d8fd3c8c05579634f6e1d2e07",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_BA2B9529DF8AB64DFF95E9AFA59A98ED5C2B50507AC1E8FD4289F6FB0B20E668.json",
+      "height": "23132740",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "86E599263604B396BFB0F35F2F4E505E2EA758B024315B1C055C14994E6242D9",
+      "file": "data/leads/rpc/terra2_86E599263604B396BFB0F35F2F4E505E2EA758B024315B1C055C14994E6242D9.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x86E599263604B396BFB0F35F2F4E505E2EA758B024315B1C055C14994E6242D9&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.253453+00:00",
+      "sha256": "edd024b919f79aafb82c5908ab215c95216d1669044a419bb3346abd4f6f30e4",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_86E599263604B396BFB0F35F2F4E505E2EA758B024315B1C055C14994E6242D9.json",
+      "height": "23442759",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "536298700377664639E3CF27AD0FED8495946C3F835FCEC64B02C97F6E15BA88",
+      "file": "data/leads/rpc/terra2_536298700377664639E3CF27AD0FED8495946C3F835FCEC64B02C97F6E15BA88.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x536298700377664639E3CF27AD0FED8495946C3F835FCEC64B02C97F6E15BA88&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.262919+00:00",
+      "sha256": "c6abdbe911007986da9629d259b2fe2b179b75e6de524f6773d39af6bcde7f66",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_536298700377664639E3CF27AD0FED8495946C3F835FCEC64B02C97F6E15BA88.json",
+      "height": "23201778",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    },
+    {
+      "hash": "42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+      "file": "data/leads/rpc/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+      "source_url": "http://15.204.43.42:26657/tx?hash=0x42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776&prove=false",
+      "acquired_utc": "2026-10-27T13:04:06.372227+00:00",
+      "sha256": "c442bd6d3c8bbccd32d3db5874611c21644b8c90c4919cd0f2e5414dbd7b497a",
+      "status": "tx_bytes_hash_and_execution_match",
+      "lcd_file": "data/leads/transactions/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+      "height": "23201785",
+      "execution_code": 0,
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Tue, 27 Oct 2026 13:04:06 GMT"
+      },
+      "limitation": "Archive RPC/LCD may share infrastructure. No consensus inclusion proof or independent provider asserted."
+    }
+  ]
+}

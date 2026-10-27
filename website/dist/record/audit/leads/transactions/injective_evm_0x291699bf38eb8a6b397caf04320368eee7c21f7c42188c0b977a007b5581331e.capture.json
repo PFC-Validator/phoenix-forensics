@@ -1,0 +1,23 @@
+{
+  "status": "successful_primary_record",
+  "file": "data/leads/transactions/injective_evm_0x291699bf38eb8a6b397caf04320368eee7c21f7c42188c0b977a007b5581331e.json",
+  "source_url": "https://sentry.evm-rpc.injective.network",
+  "acquired_utc": "2026-10-27T13:00:55.046531+00:00",
+  "sha256": "92315e1147a823b9b5e046d769d29e2e525981c1c8def5d45da3df6dbaef7d5a",
+  "height": "185686435",
+  "execution_code": 1,
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 27 Oct 2026 13:00:54 GMT"
+  },
+  "attempts": [],
+  "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionReceipt",
+    "params": [
+      "0x291699bf38eb8a6b397caf04320368eee7c21f7c42188c0b977a007b5581331e"
+    ]
+  }
+}

@@ -36,5 +36,15 @@
   ],
   "combined_vamp": "298479042111",
   "combined_share_percent": 38.86837942058831,
-  "scenario_caution": "Quorum is participation, not unanimity. Weighted voting can split the hub ballot. No vAMP votes had been recorded for 4853 at capture."
+  "scenario_caution": "Quorum is participation, not unanimity. Weighted voting can split the hub ballot. No vAMP votes had been recorded for 4853 at capture.",
+  "unit_convention": {
+    "decimals": 6,
+    "note": "Raw vAMP values use six decimal base units. Earlier M-suffixed narrative figures were a unit error; percentages and quorum mechanics are unchanged.",
+    "total_vamp_display": 767921.061697,
+    "quorum_vamp_display_approx": 76792.1061697,
+    "large_account_vamp_display": 215228.038798,
+    "philipp_eris_account_vamp_display": 35912.763441,
+    "eris_fee_account_vamp_display": 47337.669672,
+    "combined_vamp_display": 298479.042111
+  }
 }

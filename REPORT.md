@@ -161,7 +161,7 @@ At approximately **26 October 2026, 14:14 UTC**:
 
 YES / (YES + NO + VETO) = **43.66%**, below the required majority. Quorum was reached. VETO remained below 33.4%.
 
-Primary APIs: [proposal](https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853), [all votes](https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853/votes?pagination.limit=1000), [tally](https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853/tally). Cross-checks: [Smart Stake](https://analytics.smartstake.io/terra/proposal/4853), [Ping](https://ping.pub/terra/gov/4853). Ping reported its Terra LCD disconnected, so its zero tally fields were not used.
+Primary APIs: [proposal](https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853), [all votes](https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853/votes?pagination.limit=1000), [tally](https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853/tally). Cross-checks: [Smart Stake](https://analytics.smartstake.io/terra/proposal/4853), [Ping](https://ping.pub/terra/gov/4853). Ping reported its Terra LCD disconnected, so its zero tally fields were not used. Source-independence note: HighStakes is also a reviewed validator with an ABSTAIN ballot and hub delegation, so its LCD is not treated as neutral infrastructure. Hub and ICS20 configuration were cross-checked exactly against tdrsys. Smart Stake validator-total weights are secondary analytics, not fields in the primary ballot response.
 
 ### ERIS-hub delegation links
 

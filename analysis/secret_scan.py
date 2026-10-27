@@ -10,7 +10,7 @@ PATTERNS={
  'google_api_key':re.compile(rb'\bAIza[A-Za-z0-9_-]{30,}'),
  'stripe_key':re.compile(rb'\b[sr]k_(?:live|test)_[A-Za-z0-9]{16,}'),
  'openai_key':re.compile(rb'\bsk-[A-Za-z0-9_-]{20,}'),
- 'credential_url':re.compile(rb'https?://[^\s/:@]+:[^\s/@]+@'),
+ 'credential_url':re.compile(rb'''https?://[^\s/:@"'<>]+:[^\s/@"'<>]+@'''),
  'auth_header':re.compile(rb'(?i)(?:authorization|proxy-authorization)\s*[:=]\s*(?:bearer|basic)\s+[A-Za-z0-9_./+=-]{8,}'),
  'generic_secret_assignment':re.compile(rb'(?i)\b(?:gh[_-]?token|github[_-]?token|token|secret|password|credential|private[_-]?key|api[_-]?token|api[_-]?secret|access[_-]?token|refresh[_-]?token|client[_-]?secret|session[_-]?key)\b\s*[:=]\s*[\"\'][^\"\'\r\n]{3,}[\"\']'),
 }

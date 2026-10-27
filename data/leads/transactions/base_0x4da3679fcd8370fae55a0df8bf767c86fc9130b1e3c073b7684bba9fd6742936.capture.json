@@ -1,0 +1,23 @@
+{
+  "status": "successful_primary_record",
+  "file": "data/leads/transactions/base_0x4da3679fcd8370fae55a0df8bf767c86fc9130b1e3c073b7684bba9fd6742936.json",
+  "source_url": "https://base-rpc.publicnode.com",
+  "acquired_utc": "2026-10-27T13:00:54.752581+00:00",
+  "sha256": "f0e4de63689d005373d6a603c328768f6b60d44638b416fe2883bfb5c94a5907",
+  "height": "52124936",
+  "execution_code": 1,
+  "response_headers": {
+    "date": "Tue, 27 Oct 2026 13:00:54 GMT",
+    "content-type": "application/json"
+  },
+  "attempts": [],
+  "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionReceipt",
+    "params": [
+      "0x4da3679fcd8370fae55a0df8bf767c86fc9130b1e3c073b7684bba9fd6742936"
+    ]
+  }
+}

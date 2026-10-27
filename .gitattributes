@@ -1,0 +1,8 @@
+# Preserve captured evidence bytes and the hashes recorded in provenance.
+data/** -text
+downloads/** -text
+repos/** -text
+website/dist/record/** -text
+website/dist/fonts/** -text whitespace=cr-at-eol
+website/source-records/original-pages/** -text
+*.csv whitespace=cr-at-eol

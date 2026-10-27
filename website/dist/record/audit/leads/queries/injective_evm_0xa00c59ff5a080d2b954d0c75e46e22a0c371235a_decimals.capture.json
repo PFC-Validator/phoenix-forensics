@@ -1,0 +1,26 @@
+{
+  "name": "injective_evm_0xa00c59ff5a080d2b954d0c75e46e22a0c371235a_decimals",
+  "chain": "injective_evm",
+  "status": "historical_rpc_call",
+  "source_url": "https://sentry.evm-rpc.injective.network",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_call",
+    "params": [
+      {
+        "to": "0xa00c59ff5a080d2b954d0c75e46e22a0c371235a",
+        "data": "0x313ce567"
+      },
+      "0xb1159a3"
+    ]
+  },
+  "acquired_utc": "2026-10-27T13:05:37.533546+00:00",
+  "sha256": "0665affd45e46e65eca43e938fe63e22a8ceece0894abfa49d43d468655f681e",
+  "file": "data/leads/queries/injective_evm_0xa00c59ff5a080d2b954d0c75e46e22a0c371235a_decimals.json",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 27 Oct 2026 13:05:37 GMT"
+  },
+  "limitation": "JSON-RPC provider response; token decimals do not establish economic value or ownership."
+}

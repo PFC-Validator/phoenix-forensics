@@ -1,0 +1,14 @@
+{
+  "status": "current_query",
+  "file": "data/leads/queries/superbolt_35_votes.json",
+  "source_url": "https://rest-archive.neutron.solva.solutions/cosmwasm/wasm/v1/contract/neutron19v3vnv8u67ynumwpltwnhd6umatjys9atmctwh288ummmlds5gms9efm6h/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjozNSwibGltaXQiOjEwMH19",
+  "acquired_utc": "2026-10-27T13:02:49.030405+00:00",
+  "sha256": "7dd0296a5f5d710928980a085db9cae1b07547c7e8b28a5a03266fa8c1d9eeba",
+  "response_headers": {
+    "date": "Tue, 27 Oct 2026 13:02:49 GMT",
+    "content-type": "application/json",
+    "x-cosmos-block-height": "62030764"
+  },
+  "attempts": [],
+  "limitation": "A provider response, not a consensus proof; current queries are not historical snapshots."
+}

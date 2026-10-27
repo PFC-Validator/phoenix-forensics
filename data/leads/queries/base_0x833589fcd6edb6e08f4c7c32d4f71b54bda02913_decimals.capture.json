@@ -1,0 +1,26 @@
+{
+  "name": "base_0x833589fcd6edb6e08f4c7c32d4f71b54bda02913_decimals",
+  "chain": "base",
+  "status": "historical_rpc_call",
+  "source_url": "https://base-rpc.publicnode.com",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_call",
+    "params": [
+      {
+        "to": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "data": "0x313ce567"
+      },
+      "0x31ef12f"
+    ]
+  },
+  "acquired_utc": "2026-10-27T13:05:36.509376+00:00",
+  "sha256": "f470abc1e2ed21fbb5f74ae7897a7b902ed5e7b134d7f0cd5a5731ebff2690da",
+  "file": "data/leads/queries/base_0x833589fcd6edb6e08f4c7c32d4f71b54bda02913_decimals.json",
+  "response_headers": {
+    "date": "Tue, 27 Oct 2026 13:05:36 GMT",
+    "content-type": "application/json"
+  },
+  "limitation": "JSON-RPC provider response; token decimals do not establish economic value or ownership."
+}

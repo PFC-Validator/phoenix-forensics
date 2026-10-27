@@ -2,6 +2,10 @@
 
 Start with `REPORT.md`, then `PAYMENTS.md` for the ownership, validator-transfer, Treasury, OTC, and compensation review. See `THINKTANK.md` for the veto DAO, its voting record, member payment relationships and bounded wallet-link analysis. `GOVERNANCE_4853.md` assesses the live native vote, ERIS/vAMP influence, Lion DAO and potential governance issues.
 
+`LEAD_VERIFICATION.md` documents the separate 27 October transaction supplement under `data/leads/`: primary captures, transaction-byte hash checks, bounded findings and unresolved leads. It preserves earlier snapshots; selected findings and supporting records are included in the website build. Verify it with `python3 analysis/verify_lead_evidence.py`.
+
+`ERIS_YEAR_REVIEW.md` checks the ERIS 2025–2026 retrospective against Treasury funding, external funder reporting, current Creda metrics and security-response sources. Supporting calculations are in `data/leads/year_review_analysis.json`.
+
 ## Contents
 
 - `data/`: raw chain/forum records and CSV voting histories.

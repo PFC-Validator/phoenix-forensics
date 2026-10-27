@@ -1,0 +1,13 @@
+{
+  "captured_utc": "2026-10-26T21:45:01Z",
+  "block_height": 23468092,
+  "data": {
+    "available": "62389178129",
+    "exchange_rate": "2.418271778902845678",
+    "total_uluna": "32212300924451",
+    "total_ustake": "13320380779974",
+    "tvl_uluna": "33692663622525",
+    "unbonding": "1417973519945",
+    "unlocked_coins": [{"amount": "247349179", "denom": "uluna"}]
+  }
+}

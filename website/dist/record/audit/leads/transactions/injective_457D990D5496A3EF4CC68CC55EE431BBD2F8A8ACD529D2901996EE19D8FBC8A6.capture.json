@@ -1,0 +1,16 @@
+{
+  "status": "successful_primary_record",
+  "file": "data/leads/transactions/injective_457D990D5496A3EF4CC68CC55EE431BBD2F8A8ACD529D2901996EE19D8FBC8A6.json",
+  "source_url": "https://injective-api.highstakes.ch/cosmos/tx/v1beta1/txs/457D990D5496A3EF4CC68CC55EE431BBD2F8A8ACD529D2901996EE19D8FBC8A6",
+  "acquired_utc": "2026-10-27T13:00:54.787696+00:00",
+  "sha256": "3396b496b5272cef62fe32acf2f20b31e45001b615844b03fffc99fc71737309",
+  "height": "186513008",
+  "execution_code": 0,
+  "response_headers": {
+    "date": "Tue, 27 Oct 2026 13:00:54 GMT",
+    "content-type": "application/json"
+  },
+  "attempts": [],
+  "limitation": "Primary provider execution record; lead-specific claims require separate checks. No consensus proof or independent-provider agreement implied.",
+  "timestamp": "2026-10-09T08:15:00Z"
+}

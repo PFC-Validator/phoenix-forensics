@@ -1,0 +1,114 @@
+[
+  {
+    "chain": "terra2",
+    "hash": "42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+    "height": "23201785",
+    "timestamp": "2026-10-09T03:10:35Z",
+    "file": "data/leads/transactions/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+    "lead_ids": [
+      57
+    ],
+    "event_index": 25,
+    "event_type": "redelegate",
+    "source_validator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+    "destination_validator": "terravaloper1pgyelqv0hwjavgf6vhdm4e4pt766wfxxczu20l",
+    "amount_base": "406713652739",
+    "amount_LUNA": "406713.652739"
+  },
+  {
+    "chain": "terra2",
+    "hash": "42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+    "height": "23201785",
+    "timestamp": "2026-10-09T03:10:35Z",
+    "file": "data/leads/transactions/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+    "lead_ids": [
+      57
+    ],
+    "event_index": 31,
+    "event_type": "redelegate",
+    "source_validator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+    "destination_validator": "terravaloper188e99yz54744uhr8xjfxmmplhnuw75xea55zfp",
+    "amount_base": "256115240414",
+    "amount_LUNA": "256115.240414"
+  },
+  {
+    "chain": "terra2",
+    "hash": "42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+    "height": "23201785",
+    "timestamp": "2026-10-09T03:10:35Z",
+    "file": "data/leads/transactions/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+    "lead_ids": [
+      57
+    ],
+    "event_index": 37,
+    "event_type": "redelegate",
+    "source_validator": "terravaloper1vm5azhvaxeanc7auxh02y8jmxrk8tj93f43e7j",
+    "destination_validator": "terravaloper188e99yz54744uhr8xjfxmmplhnuw75xea55zfp",
+    "amount_base": "80361672711",
+    "amount_LUNA": "80361.672711"
+  },
+  {
+    "chain": "terra2",
+    "hash": "42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+    "height": "23201785",
+    "timestamp": "2026-10-09T03:10:35Z",
+    "file": "data/leads/transactions/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+    "lead_ids": [
+      57
+    ],
+    "event_index": 43,
+    "event_type": "redelegate",
+    "source_validator": "terravaloper1vm5azhvaxeanc7auxh02y8jmxrk8tj93f43e7j",
+    "destination_validator": "terravaloper15lsftv92eyssjwkh2393s0nhjc07kryqen2fqf",
+    "amount_base": "102036710832",
+    "amount_LUNA": "102036.710832"
+  },
+  {
+    "chain": "terra2",
+    "hash": "42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+    "height": "23201785",
+    "timestamp": "2026-10-09T03:10:35Z",
+    "file": "data/leads/transactions/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+    "lead_ids": [
+      57
+    ],
+    "event_index": 49,
+    "event_type": "redelegate",
+    "source_validator": "terravaloper1wr0p7dzss74wfmzfqm8r65mk26efg5zhzpm77s",
+    "destination_validator": "terravaloper15lsftv92eyssjwkh2393s0nhjc07kryqen2fqf",
+    "amount_base": "332168845191",
+    "amount_LUNA": "332168.845191"
+  },
+  {
+    "chain": "terra2",
+    "hash": "42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+    "height": "23201785",
+    "timestamp": "2026-10-09T03:10:35Z",
+    "file": "data/leads/transactions/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+    "lead_ids": [
+      57
+    ],
+    "event_index": 55,
+    "event_type": "redelegate",
+    "source_validator": "terravaloper1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcfs5wf",
+    "destination_validator": "terravaloper15lsftv92eyssjwkh2393s0nhjc07kryqen2fqf",
+    "amount_base": "384399503537",
+    "amount_LUNA": "384399.503537"
+  },
+  {
+    "chain": "terra2",
+    "hash": "42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776",
+    "height": "23201785",
+    "timestamp": "2026-10-09T03:10:35Z",
+    "file": "data/leads/transactions/terra2_42CF090DCD271A49A26E6679C9BA4597D47342C9603929D79F973D2AC12CE776.json",
+    "lead_ids": [
+      57
+    ],
+    "event_index": 61,
+    "event_type": "redelegate",
+    "source_validator": "terravaloper1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcfs5wf",
+    "destination_validator": "terravaloper1htey4gcdcass29vn4dwjcuq58mrvv8ra5pjz4k",
+    "amount_base": "118331870708",
+    "amount_LUNA": "118331.870708"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "injective_evm_chain_id",
+  "chain": "injective_evm",
+  "status": "current_query",
+  "source_url": "https://sentry.evm-rpc.injective.network",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_chainId",
+    "params": []
+  },
+  "acquired_utc": "2026-10-27T13:05:36.893102+00:00",
+  "sha256": "f4cdef77fc1468874c9a2a031bd2761e326fcb67e6e7a414e57320fbfd380045",
+  "file": "data/leads/queries/injective_evm_chain_id.json",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 27 Oct 2026 13:05:36 GMT"
+  },
+  "limitation": "JSON-RPC provider response; token decimals do not establish economic value or ownership."
+}

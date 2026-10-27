@@ -24,6 +24,8 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for the existing Site identifier, a ready-to-
 
 ## Where to edit
 
+Published checksum manifests cover evidence payloads and exclude provenance sidecars to avoid circular hashes. Sidecars retain their artifact hashes in the provenance register. The verifier checks published manifests after provenance generation.
+
 - `build.py`: page content, navigation and metadata.
 - `visuals.py`: responsive role diagrams and controlled timeline.
 - `dist/site.css`, `dist/visuals.css`, `dist/site.js`: maintained styles and browser interactions; these are build inputs as well as published assets.

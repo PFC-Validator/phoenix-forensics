@@ -1,0 +1,72 @@
+[
+  {
+    "file": "block_before.json",
+    "url": "https://terra2.tdrsys.com/cosmos/base/tendermint/v1beta1/blocks/latest",
+    "captured_at": "2026-10-27T15:07:44.444256+00:00",
+    "sha256": "bf1086893141db98169159f4f6eedf162417cba72f93ded1f95bcea74137ada8",
+    "response_height": null
+  },
+  {
+    "file": "proposal.json",
+    "url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4853",
+    "captured_at": "2026-10-27T15:07:44.856017+00:00",
+    "sha256": "1ed7e3e4849662c7ee0a97ff68236cc683aef5ff058f924e6bc2da4bb2768616",
+    "response_height": null
+  },
+  {
+    "file": "tally.json",
+    "url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4853/tally",
+    "captured_at": "2026-10-27T15:07:45.274229+00:00",
+    "sha256": "94fe32db92805807e2bab2f7ca64ff2e5834e703fa2f2a6d2a8cac3dc53608d4",
+    "response_height": null
+  },
+  {
+    "file": "votes.json",
+    "url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4853/votes?pagination.limit=1000",
+    "captured_at": "2026-10-27T15:07:45.824355+00:00",
+    "sha256": "e558c5c186e887ee2721cc19439048f311eb911e8c93c6e360c4e0ceed08b6c8",
+    "response_height": null
+  },
+  {
+    "file": "hub_delegations.json",
+    "url": "https://terra2.tdrsys.com/cosmos/staking/v1beta1/delegations/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk?pagination.limit=1000",
+    "captured_at": "2026-10-27T15:07:46.243852+00:00",
+    "sha256": "60712ff324e51469e04bc01284da44ab6807d0d84ba00ea497c1c9f1cb5245fc",
+    "response_height": null
+  },
+  {
+    "file": "validators.json",
+    "url": "https://terra2.tdrsys.com/cosmos/staking/v1beta1/validators?pagination.limit=1000",
+    "captured_at": "2026-10-27T15:07:47.074721+00:00",
+    "sha256": "9c3d9e3c54dbe1d0b010556df536cb00c3e160f5b6dfea97aa0c461a241a74bc",
+    "response_height": null
+  },
+  {
+    "file": "parameters.json",
+    "url": "https://terra2.tdrsys.com/cosmos/gov/v1/params/tallying",
+    "captured_at": "2026-10-27T15:07:47.488508+00:00",
+    "sha256": "09a27cdc495d56ab136d3286cb2a5577df656990ddc95c338390c563fcc6fb3d",
+    "response_height": null
+  },
+  {
+    "file": "pool.json",
+    "url": "https://terra2.tdrsys.com/cosmos/staking/v1beta1/pool",
+    "captured_at": "2026-10-27T15:07:47.916551+00:00",
+    "sha256": "a13b3e144d6fe5b93f0e755a2b9e05fff45bfd245f86756ea0e441a2b360ab51",
+    "response_height": null
+  },
+  {
+    "file": "active_gauge.json",
+    "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJhY3RpdmVfcHJvcHMiOnt9fQ==",
+    "captured_at": "2026-10-27T15:07:48.343312+00:00",
+    "sha256": "85f0120b370bd095639ce143b24d2871ef92aedbdad4d8f12420bc8a352b2ee2",
+    "response_height": null
+  },
+  {
+    "file": "block_after.json",
+    "url": "https://terra2.tdrsys.com/cosmos/base/tendermint/v1beta1/blocks/latest",
+    "captured_at": "2026-10-27T15:07:49.305662+00:00",
+    "sha256": "bf1086893141db98169159f4f6eedf162417cba72f93ded1f95bcea74137ada8",
+    "response_height": null
+  }
+]

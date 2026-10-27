@@ -1,0 +1,235 @@
+{
+  "captured_at": "2026-10-27T15:07:49.305662+00:00",
+  "ballot_count": 96,
+  "proposal_status": "PROPOSAL_STATUS_VOTING_PERIOD",
+  "voting_end_time": "2026-10-31T03:40:11.691077293Z",
+  "base": {
+    "yes_count": "40063598731578",
+    "abstain_count": "37385280449051",
+    "no_count": "21340832871440",
+    "no_with_veto_count": "38749079357697"
+  },
+  "full_hub_yes_scenario": {
+    "yes_count": "59220840657955.00000000000000",
+    "abstain_count": "34131216388019.00000000000000",
+    "no_count": "21340832871440",
+    "no_with_veto_count": "29939307038254.00000000000000"
+  },
+  "base_metrics": {
+    "yes_share_non_abstain_percent": "40.00219098389157892629626013",
+    "veto_share_all_percent": "28.17320041896602360800138464",
+    "total_uluna": "137538791409766"
+  },
+  "scenario_metrics": {
+    "yes_share_non_abstain_percent": "53.59304537727594257204495811",
+    "veto_share_all_percent": "20.70030578836526943035933503",
+    "total_uluna": "144632196955668.0000000000000"
+  },
+  "hub_total_uluna": "32052693428485",
+  "validators": [
+    {
+      "validator": "Ceres Ventures",
+      "operator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+      "account": "terra1q8w4u2wyhx574m70gwe8km5za2ptanny95la5z",
+      "bonded": true,
+      "delegation_uluna": "947310914153",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "947310914153",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "-947310914153.0000000000000000"
+      }
+    },
+    {
+      "validator": "HighStakes.ch | Stake for Airdrop",
+      "operator": "terravaloper1pgyelqv0hwjavgf6vhdm4e4pt766wfxxczu20l",
+      "account": "terra1pgyelqv0hwjavgf6vhdm4e4pt766wfxxcdshlv",
+      "bonded": true,
+      "delegation_uluna": "3254064061032",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "3254064061032",
+        "abstain_count": "-3254064061032.000000000000000",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "Smart Stake",
+      "operator": "terravaloper188e99yz54744uhr8xjfxmmplhnuw75xea55zfp",
+      "account": "terra188e99yz54744uhr8xjfxmmplhnuw75xeamclej",
+      "bonded": true,
+      "delegation_uluna": "7862461405290",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "7862461405290",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "-7862461405290.000000000000000"
+      }
+    },
+    {
+      "validator": "ERIS \u26a1\ufe0f Delegate for claimdrop",
+      "operator": "terravaloper1vm5azhvaxeanc7auxh02y8jmxrk8tj93f43e7j",
+      "account": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "bonded": true,
+      "delegation_uluna": "3878960095695",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "0E-15",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "BackBone Labs | Delegate for $SOUL Claim Drop",
+      "operator": "terravaloper1wr0p7dzss74wfmzfqm8r65mk26efg5zhzpm77s",
+      "account": "terra1wr0p7dzss74wfmzfqm8r65mk26efg5zhzwhrwr",
+      "bonded": true,
+      "delegation_uluna": "3343826393505",
+      "ballot": [],
+      "effect_uluna": {
+        "yes_count": "3343826393505",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "Shut down",
+      "operator": "terravaloper13fkxypqa0e3lvzu2fay7mslc2xsghv26a3a7jl",
+      "account": "terra13fkxypqa0e3lvzu2fay7mslc2xsghv26a73rzv",
+      "bonded": false,
+      "delegation_uluna": "0",
+      "ballot": [],
+      "effect_uluna": {
+        "yes_count": "0",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "Terrascope",
+      "operator": "terravaloper1jt8pcx4sesgztjkjsvjjqtvyfgcehqx09u4exq",
+      "account": "terra1jt8pcx4sesgztjkjsvjjqtvyfgcehqx09neykn",
+      "bonded": true,
+      "delegation_uluna": "0",
+      "ballot": [],
+      "effect_uluna": {
+        "yes_count": "0",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "Galactic Punks Validator",
+      "operator": "terravaloper15lsftv92eyssjwkh2393s0nhjc07kryqen2fqf",
+      "account": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "bonded": true,
+      "delegation_uluna": "7862461405363",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "0E-15",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "cosmosrescue",
+      "operator": "terravaloper1htey4gcdcass29vn4dwjcuq58mrvv8ra5pjz4k",
+      "account": "terra1htey4gcdcass29vn4dwjcuq58mrvv8ra5w7l99",
+      "bonded": true,
+      "delegation_uluna": "3749579152397",
+      "ballot": [],
+      "effect_uluna": {
+        "yes_count": "3749579152397",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "BIG Labs",
+      "operator": "terravaloper1mnfavz2tcq6shdfph5azt7gwt6va2s6weqdnkq",
+      "account": "terra1mnfavz2tcq6shdfph5azt7gwt6va2s6we0pwxn",
+      "bonded": true,
+      "delegation_uluna": "0",
+      "ballot": [],
+      "effect_uluna": {
+        "yes_count": "0",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "Orbital Command",
+      "operator": "terravaloper1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcfs5wf",
+      "account": "terra1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcxuf76",
+      "bonded": true,
+      "delegation_uluna": "1154030001050",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "0E-15",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    }
+  ],
+  "gauge": {
+    "data": {
+      "props": [
+        [
+          4853,
+          {
+            "period": 208,
+            "end_time_s": 1793418012,
+            "yes_vp": "0",
+            "no_vp": "0",
+            "abstain_vp": "0",
+            "nwv_vp": "0",
+            "total_vp": "767921061697",
+            "current_vote": null
+          }
+        ]
+      ]
+    }
+  },
+  "limits": "Sequential current-state queries, not a confirmed common-height snapshot. Counterfactual applies bonded hub delegation amounts to validator ballot weights, adds non-voting validator delegations as YES, and excludes synthetic Alliance weight. Not an observed hub vote or an inclusion proof."
+}

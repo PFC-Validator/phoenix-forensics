@@ -1,0 +1,331 @@
+{
+  "confirmed": {
+    "ampluna_total_supply": "13320380.779974",
+    "total_uluna_backing": "32212300.924451",
+    "total_uluna_tvl_including_unbonding_and_available": "33692663.622525",
+    "exchange_rate_uluna_per_ampluna": "2.418271778902845678",
+    "holder_account_count": 3068,
+    "top20_balance_ampluna": "13093675.349615",
+    "top20_share_of_supply_percent": 98.29805593320702,
+    "top20_accounts": [
+      {
+        "rank": 1,
+        "address": "terra1dqlk6vtuuqdyq2ua8v7yg86dha9kvwsdan73f5y6hnsnmwhmn4hs2wf6nt",
+        "balance_ampluna": "6012931.490109",
+        "share_of_supply_percent": 45.14083785914667,
+        "label": "Astroport pair",
+        "admin": "terra1k9j8rcyk87v5jvfla2m9wp200azegjz0eshl7n2pwv852a7ssceqsnn7pq",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Public liquidity-pair contract; no direct Phoenix/ERIS multisig control established"
+      },
+      {
+        "rank": 2,
+        "address": "terra1cupwgntu082ypw2ztgtxfzcenexcu6ggp5zzunn3yzfwgrvdcclqgjrjqg",
+        "balance_ampluna": "2871409.161733",
+        "share_of_supply_percent": 21.556509601061155,
+        "label": "Astroport pair",
+        "admin": "terra1k9j8rcyk87v5jvfla2m9wp200azegjz0eshl7n2pwv852a7ssceqsnn7pq",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Public liquidity-pair contract; no direct Phoenix/ERIS multisig control established"
+      },
+      {
+        "rank": 3,
+        "address": "terra1phr9fngjv7a8an4dhmhd0u0f98wazxfnzccqtyheq4zqrrp4fpuqw3apw9",
+        "balance_ampluna": "896869.344461",
+        "share_of_supply_percent": 6.733060858210321,
+        "label": "Alliance NFT Collection",
+        "admin": "terra1m3ye6dl6s25el4xd8adg9lnquz88az9lur2ujztj9pfmzdyfz3xsm699r3",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Alliance NFT lock collection; owned by AllianceDAO, not shown to be the Phoenix multisig"
+      },
+      {
+        "rank": 4,
+        "address": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+        "balance_ampluna": "590594.539992",
+        "share_of_supply_percent": 4.433766194431214,
+        "label": "ve3-voting-escrow",
+        "admin": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Protocol voting escrow; retained migration admin, not a personal wallet"
+      },
+      {
+        "rank": 5,
+        "address": "terra18uxq2k6wpsqythpakz5n6ljnuzyehrt775zkdclrtdtv6da63gmskqn7dq",
+        "balance_ampluna": "569492.374408",
+        "share_of_supply_percent": 4.275346056654633,
+        "label": "CAPA_CUSTODY_AMPLUNA",
+        "admin": "terra1t380w524ljhhn3rkw7wmuchkdhrcwl25dd7s3t",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "CAPA custody contract; no direct Phoenix/ERIS multisig control established"
+      },
+      {
+        "rank": 6,
+        "address": "terra1kzkrm2a8qquer9dgztg4a3fvhh8d7fudsd7ualae843wsv9plhksv8ea3g",
+        "balance_ampluna": "429690.884003",
+        "share_of_supply_percent": 3.2258153209028513,
+        "label": "Terra Liquidity Deployment Multi-Sig",
+        "admin": "terra1kzkrm2a8qquer9dgztg4a3fvhh8d7fudsd7ualae843wsv9plhksv8ea3g",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Confirmed community-pool deployment DAO; three of five members have Phoenix/Think Tank/ERIS roles"
+      },
+      {
+        "rank": 7,
+        "address": "terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz",
+        "balance_ampluna": "399999.287935",
+        "share_of_supply_percent": 3.0029118126740273,
+        "label": "creda_portfolio",
+        "admin": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Creda protocol portfolio; retained migration admin and grant relationship, not the fixed ERIS multisig itself"
+      },
+      {
+        "rank": 8,
+        "address": "terra1tsx0dmasjvd45k6tdywzv77d5t9k3lpzyuleavuah77pg3lwm9cq4469pm",
+        "balance_ampluna": "398611.398341",
+        "share_of_supply_percent": 2.9924925189847165,
+        "label": "ampLUNA-uluna pair",
+        "admin": "terra1f4cr4sr5eulp3f2us8unu6qv8a5rhjltqsg7ujjx6f2mrlqh923sljwhn3",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Public liquidity-pair contract; no direct Phoenix/ERIS multisig control established"
+      },
+      {
+        "rank": 9,
+        "address": "terra19h78tjeywars6afflsup5er8qm7kl5d8ukednnfxcc2vwhzyf2vsspynjy",
+        "balance_ampluna": "189618.780063",
+        "share_of_supply_percent": 1.4235237204935978,
+        "label": "Astroport pair",
+        "admin": "terra1k9j8rcyk87v5jvfla2m9wp200azegjz0eshl7n2pwv852a7ssceqsnn7pq",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Public liquidity-pair contract; no direct Phoenix/ERIS multisig control established"
+      },
+      {
+        "rank": 10,
+        "address": "terra1ep7exp42jjtwgjly36y4vgylz82fplnjwpkz95wljzwfald8zwwqggsdzz",
+        "balance_ampluna": "160239.98111",
+        "share_of_supply_percent": 1.2029684718240672,
+        "label": "Vote-escrowed ampLUNA",
+        "admin": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "vAMP escrow; retained migration admin, not a personal wallet"
+      },
+      {
+        "rank": 11,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "balance_ampluna": "100415.72287",
+        "share_of_supply_percent": 0.7538502429372443,
+        "label": "AllianceDAO",
+        "admin": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "AllianceDAO treasury; no Phoenix/ERIS multisig overlap established"
+      },
+      {
+        "rank": 12,
+        "address": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+        "balance_ampluna": "94033.151828",
+        "share_of_supply_percent": 0.7059344126961478,
+        "label": "Eris Liquid Staking Hub",
+        "admin": "terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Protocol hub; Phoenix board is migration admin, separate config.owner remains terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl"
+      },
+      {
+        "rank": 13,
+        "address": "terra10h0h2da6gjvl5wxskmgtmcecnwmv73ysr2r2ws",
+        "balance_ampluna": "79916.282271",
+        "share_of_supply_percent": 0.5999549381587272,
+        "label": null,
+        "admin": null,
+        "account_type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+        "classification": "Externally owned vesting account; direct bond history, no direct multisig membership established"
+      },
+      {
+        "rank": 14,
+        "address": "terra137eh6mcdl4pjv2c5r5ma2dndhr2dttjjychwa0",
+        "balance_ampluna": "61330",
+        "share_of_supply_percent": 0.46042227330471036,
+        "label": null,
+        "admin": null,
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Externally owned account; no current holder-control attribution established"
+      },
+      {
+        "rank": 15,
+        "address": "terra1e0d0daqr34t7kgdumgrlrwf7xye9alqf5wfsz8",
+        "balance_ampluna": "53667.986841",
+        "share_of_supply_percent": 0.40290129634796185,
+        "label": null,
+        "admin": null,
+        "account_type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+        "classification": "Externally owned vesting account with protocol flows; no direct multisig membership established"
+      },
+      {
+        "rank": 16,
+        "address": "terra1qp84y3t392nadsxeux44244sazhn7gwjf0tfr8",
+        "balance_ampluna": "47596.120099",
+        "share_of_supply_percent": 0.3573180142909766,
+        "label": null,
+        "admin": null,
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Externally owned account with active DeFi flows; no direct multisig membership established"
+      },
+      {
+        "rank": 17,
+        "address": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+        "balance_ampluna": "40899.883566",
+        "share_of_supply_percent": 0.30704740533761105,
+        "label": "ve3-connector-alliance",
+        "admin": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Protocol Alliance connector; retained migration admin and TLA registry relationship"
+      },
+      {
+        "rank": 18,
+        "address": "terra1z5yzfd5vfmen5007aydrtne3m3ry8a6t4pzq36",
+        "balance_ampluna": "33756.554083",
+        "share_of_supply_percent": 0.25342033865690955,
+        "label": null,
+        "admin": null,
+        "account_type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+        "classification": "Externally owned vesting account with direct mint history; no direct multisig membership established"
+      },
+      {
+        "rank": 19,
+        "address": "terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u",
+        "balance_ampluna": "32977.119368",
+        "share_of_supply_percent": 0.24756889395818285,
+        "label": "ve3-connector-alliance",
+        "admin": "terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+        "account_type": "/cosmos.auth.v1beta1.BaseAccount",
+        "classification": "Protocol Alliance connector; retained migration admin and TLA registry relationship"
+      },
+      {
+        "rank": 20,
+        "address": "terra1zcnfz0wp2730nrq3xfpqjsplywn8w4gq9k8ca6",
+        "balance_ampluna": "29625.286534",
+        "share_of_supply_percent": 0.222405703135296,
+        "label": null,
+        "admin": null,
+        "account_type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+        "classification": "Externally owned vesting account with protocol flows; no direct multisig membership established"
+      }
+    ],
+    "pol_multisig": {
+      "captured_utc": "2026-10-26T21:40:00Z",
+      "address": "terra1kzkrm2a8qquer9dgztg4a3fvhh8d7fudsd7ualae843wsv9plhksv8ea3g",
+      "label": "DAO DAO DAO (1763105385365)",
+      "config": {
+        "name": "Terra Liquidity Deployment Multi-Sig",
+        "description": "Multi-Sig wallet for the deployment of LUNA from the Community Pool"
+      },
+      "admin": "terra1kzkrm2a8qquer9dgztg4a3fvhh8d7fudsd7ualae843wsv9plhksv8ea3g",
+      "voting_module": "terra1mnhfqn0szajy2ehyuqfmvxvtxmvxwy47dcv0x00hhks5e2xj5lnsrw6puv",
+      "group_contract": "terra1wx4pgnld53268474yafkz77uxy40kp2a3nh4plnl7w0gv6hj23ls3hdd8k",
+      "proposal_threshold": "0.60",
+      "members": [
+        {
+          "addr": "terra18ruqkccl5tp493uhvra0u6jylrzq8t8dv5qs4c",
+          "weight": 20,
+          "known_role": "Vini; Phoenix board and 10-weight ERIS signer"
+        },
+        {
+          "addr": "terra1j00tmfa8el568llp3y96dquc9j2fcczmccnsn0",
+          "weight": 20,
+          "known_role": "David; Think Tank member"
+        },
+        {
+          "addr": "terra1np5em0379k8hc90chdzfsfgjgtm7xk8d0td77t",
+          "weight": 20,
+          "known_role": "No identity or control attribution added"
+        },
+        {
+          "addr": "terra1qu0ych3xv4455m8p3h8877yeehn2s70newxd7p",
+          "weight": 20,
+          "known_role": "No identity or control attribution added"
+        },
+        {
+          "addr": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "weight": 20,
+          "known_role": "0xphilipp-associated ERIS account; Think Tank member"
+        }
+      ],
+      "governance_reading": "Five equal voters; 60% means three of five. Three members also have documented Phoenix/Think Tank/ERIS roles. The DAO is community/protocol custody, not an individual stakeholder wallet."
+    },
+    "deployment_dao_direct_bonds": {
+      "confirmed_deployment_dao_bonds": [
+        {
+          "proposal_id": 2,
+          "title": "Deposit 7.5M LUNA into Amplifier",
+          "amount_uluna": "7500000000000",
+          "status": "executed",
+          "yes_weight": 60,
+          "source": "Deployment DAO list_proposals"
+        },
+        {
+          "proposal_id": 12,
+          "title": "Deposit 4M LUNA into Amplifier",
+          "amount_uluna": "4000000000000",
+          "status": "executed",
+          "yes_weight": 60,
+          "source": "Deployment DAO list_proposals"
+        },
+        {
+          "proposal_id": 20,
+          "title": "Deposit 3.5M LUNA into Amplifier",
+          "amount_uluna": "3500000000000",
+          "status": "executed",
+          "yes_weight": 60,
+          "source": "Deployment DAO list_proposals"
+        }
+      ],
+      "confirmed_deployment_dao_total_uluna": "15000000000000",
+      "other_large_bonders_from_gross_history": [
+        {
+          "address": "terra149h2na988cka05rwcpmnqfse64r6vspmfmkk0z",
+          "gross_bonded_uluna": "30000000000000",
+          "event_count": 1,
+          "classification": "Unattributed externally owned account; gross history does not establish current ownership of the backing"
+        },
+        {
+          "address": "terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+          "gross_bonded_uluna": "1379265268481",
+          "event_count": 397,
+          "label": "ve3-connector-alliance",
+          "classification": "Protocol connector; retained migration admin and TLA registry relationship"
+        },
+        {
+          "address": "terra1xqe9tvndtx3eujm94epewpdhfg0nxy77cfsm77qcp0ut3ntfw8rqntvjnl",
+          "gross_bonded_uluna": "1045000000000",
+          "event_count": 203,
+          "label": "v1",
+          "admin": "terra1hpe5hgu45ad0nvrcl6qakuu75lgyjhqepe25vy",
+          "creator": "terra1hpe5hgu45ad0nvrcl6qakuu75lgyjhqepe25vy",
+          "classification": "Contract with generic v1 label; no Phoenix/ERIS multisig overlap established"
+        }
+      ],
+      "caution": "Gross historical bond amounts are not current beneficial ownership and must not be summed to current backing. The hub has unbonding, redemptions, sales and rebalancing. The large account's current ampLUNA balance is far smaller than its gross 30M bond."
+    },
+    "governance_4853_at_capture": {
+      "hub_current_vote": null,
+      "gauge_yes_vp": "0",
+      "gauge_no_vp": "0",
+      "gauge_nwv_vp": "0",
+      "gauge_abstain_vp": "0"
+    }
+  },
+  "community_backing": {
+    "confirmed_direct_bonds_uluna": "15000000000000",
+    "confirmed_direct_bonds_percent_of_current_backing": 46.56606193758153,
+    "remaining_backing_not_attributed_by_this_analysis": "17212300.924451",
+    "caution": "The full 30M proposal allocation was not all directly bonded. Gross historical bonds exceed current backing because of redemptions, sales and rebalancing; they cannot be assigned as current ownership."
+  },
+  "governance_assessment": {
+    "issue": "Community-backed assets may affect native governance through the ampLUNA hub. This is a material conflict-of-interest and disclosure concern, not proof of capture or a completed improper vote. The confirmed direct deployment-DAO bond is 15M LUNA; other large gross bonders are separately identified in direct_hub_bonds.json.",
+    "current_evidence_boundary": "At the preserved 4853 capture the hub had no native ballot and all prop-gauge categories were zero. Potential influence and actual exercise are separate.",
+    "required_controls": [
+      "Publish community-backed ampLUNA balances and hub voting intentions before contract votes.",
+      "Record deployment-DAO votes, recusals and the basis for any hub ballot.",
+      "Separate upgrade admin, config owner, vote operator and deployment-DAO authority.",
+      "Preserve independent validator ballots and disclose hub overrides."
+    ]
+  }
+}
