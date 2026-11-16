@@ -275,3 +275,16 @@ for manifest_name in ['chain/manifest.json','chain/supplement-manifest.json','ap
         target=manifest.parent/row.get('file','')
         if target.is_file() and row.get('sha256'):assert hashlib.sha256(target.read_bytes()).hexdigest()==row['sha256'],target
 print('PASS: contract control, P9/A292 execution, award amounts and capture hashes')
+
+# Keep the governance remedy claim tied to the reported release and actual binary exports.
+remedy=cr('governance/verification.json')
+assert len(remedy['versions'])==2
+for reported in remedy['versions']:
+    assert reported['version']=='v2.22.0'
+    assert reported['git_commit']=='e68dd029990a4cf347157f2426cabba4d9eb5c30'
+    assert reported['wasmd_dependency']['version']=='v0.54.10'
+assert {b['code_id'] for b in remedy['binaries']}=={3347,2726}
+for binary in remedy['binaries']:
+    assert binary['wasm_sha256'].upper()==binary['code_info']['data_hash'].upper()
+    assert not binary['has_sudo_export'] and all(x['name']!='sudo' for x in binary['exports'])
+print('PASS: governance release evidence and Treasury/hub sudo-entrypoint limits')
