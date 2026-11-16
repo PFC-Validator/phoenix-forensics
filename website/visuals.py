@@ -126,7 +126,7 @@ def handover_timeline(terms, record):
         ('12 August 2024', 'Temporary ERIS control described', 'TLA terms promise administration after one month and configuration ownership after three. These are TLA-specific commitments.', terms),
         ('19 October 2026', 'ERIS explains retained control', '0xPhilipp cites continued maintenance and concerns about the Board, and welcomes supervisor review. No approved extension was identified.', 'https://forum.phoenix.money/t/47/55'),
         ('25 October 2026', 'Hub and bridge upgrade control transferred', 'P9 gives both administrator roles to the Board. Treasury administration and the TLA registry are outside this transfer.', '#handover-history'),
-        ('2 November 2026', 'A call for source and maintenance access', 'Vini supports handover and clear licensing in an individual response, not a collective Board decision.', 'https://forum.phoenix.money/t/64/5'),
+        ('2 November 2026', 'A call for source and maintenance access', 'Vini supports handover and source access in an individual response, not a collective Board decision.', 'https://forum.phoenix.money/t/64/5'),
         ('16 November 2026', 'Progress and remaining powers checked', 'A292 confirms the Board exercised hub upgrade authority. Reviewed TLA and Treasury administration and registry ownership remain with ERIS.', record+'handover/A292.json'),
     ]
     rows = ''.join(f'<li><span class="handover-date">{date}</span><div><h3>{title}</h3><p>{body}</p><a href="{url}">Read the record<span class="visually-hidden">: {date}</span></a></div></li>' for date,title,body,url in events)
