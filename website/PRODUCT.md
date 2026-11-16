@@ -81,3 +81,9 @@ Link both exact amendments at the published 16 November revision and provide the
 ## Contract control review — 16 November 2026
 
 Add a bounded asset/authority review separating legal ownership, community and depositor assets, upgrade administration, internal registry ownership and operating roles. Compare current Treasury/TLA/Creda and ERIS dependencies with approved development grants, original TLA handover deadlines and completed hub/bridge transfers. Credit P9 and executed A292, include ERIS’s maintenance rationale and Vini’s individual response, retain rejected proposals as counterevidence, and explain conditional asset risks without allegations of theft or intent. Do not extend TLA deadlines to Treasury without evidence.
+
+## Funding categories — 16 November 2026 clarification
+
+Focus the retained-control review on TLA and Treasury: infrastructure funded to manage chain liquidity and community funds. Compare approved terms with delivered tooling, configured safeguards and incomplete handovers. Keep Creda, Votion and Estima in a separate application-development category; their grants alone do not establish transfer of builder IP or a TLA-style administration handover obligation. Preserve application payment, conflict and milestone-acceptance evidence as distinct questions. Keep the 2023 ERIS protocol grant separate from the TLA/Treasury infrastructure agreements.
+
+Use the approved proposals, executed decisions and incorporated terms as the agreement record for this comparison, without assuming additional agreements or amendments. This is the review's stated basis, not a factual assertion about undisclosed documents. Preserve raw records and the broader contract inventory as context. Give credit for Board operating powers and recorded Treasury veto configuration; distinguish configured safeguards from exhaustive execution testing and resistance to administrator-led code replacement.
