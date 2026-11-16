@@ -1,0 +1,34 @@
+{
+  "recorded_at_utc": "2026-11-16T18:48:57.529563+00:00",
+  "method": "Unauthenticated public GitHub API requests; read-only, no access bypass. Requests completed shortly before this record was written.",
+  "checks": [
+    {
+      "name": "repository",
+      "url": "https://api.github.com/repos/erisprotocol/contracts-ve3",
+      "http_status": 404,
+      "sha256": "a298fd3d1a255b0eb21a952212460852e05ba9721d3445fb42d7ad054d88f94a"
+    },
+    {
+      "name": "repository-search",
+      "url": "https://api.github.com/search/repositories?q=contracts-ve3+in:name+fork:true&per_page=100",
+      "http_status": 200,
+      "sha256": "53fedb3dd4a0efff66a82fa853c5fd186830b02bc6ca631bfb1e2504a5521842"
+    },
+    {
+      "name": "public-organisation-repositories",
+      "url": "https://api.github.com/orgs/erisprotocol/repos?per_page=100&type=public",
+      "http_status": 200,
+      "sha256": "ea66800f329e5f832d2dd8a2848566432b12dd483c91cd08122cec59c2f4e858"
+    }
+  ],
+  "public_organisation_repository_count": 39,
+  "advertised_repository_in_public_list": false,
+  "search_total_count": 3,
+  "conclusion": "The advertised repository returned 404. No confirmed replacement for the current Treasury/TLA source was identified in this bounded public-list and repository-name search.",
+  "limits": [
+    "A 404 does not distinguish private, deleted or relocated source.",
+    "This is not an exhaustive search of mirrors, archives or private Foundation access.",
+    "No licence or reproducible source build matching the current deployments was established.",
+    "Other ERIS public repositories are not evidence that this Treasury/TLA deployment is open source."
+  ]
+}
