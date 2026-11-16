@@ -1,6 +1,7 @@
 from pathlib import Path
 from html import escape as e
 from html.parser import HTMLParser
+from visuals import control_figure, handover_timeline
 from urllib.parse import urljoin
 import base64, csv, json, re, shutil, hashlib
 from collections import Counter
@@ -37,9 +38,44 @@ def local(url, text):
     return f'<a href="{url}">{text}</a>'
 
 
+def reading_navigation(body, path):
+    """A persistent desktop index and native mobile disclosure; no script required."""
+    if path not in {'/control/', '/governance/', '/treasury/', '/stakeholders/', '/voting/'}:
+        return body
+    used_ids = set(re.findall(r' id="([^"]+)"', body))
+    def section_id(match):
+        attrs, content, heading = match.groups()
+        if re.search(r'\bid=', attrs):
+            return match.group(0)
+        slug = re.sub(r'[^a-z0-9]+', '-', re.sub('<[^>]+>', '', heading).lower()).strip('-') or 'section'
+        candidate, suffix = slug, 2
+        while candidate in used_ids:
+            candidate = f'{slug}-{suffix}'
+            suffix += 1
+        used_ids.add(candidate)
+        return f'<section{attrs} id="{candidate}">{content}'
+    body = re.sub(r'<section\b([^>]*)>((?:(?!</?section\b).)*?<h2[^>]*>(.*?)</h2>)', section_id, body, flags=re.S)
+    labels = {'findings': 'The control question', 'proposal-connection': 'Why the proposals address this',
+              'treasury-contract': 'Who can do what', 'approvals': 'Promises and delivery',
+              'handover': 'Transfers and responses', 'risk': 'Source and maintenance access',
+              'governance-remedies': 'What governance can change', 'ownership': 'Legal ownership',
+              'inventory': 'Contract register', 'application-grants': 'Application grants',
+              'next': 'Verify a complete handover'} if path == '/control/' else {}
+    sections = re.findall(r'<section[^>]* id="([^"]+)"[^>]*>.*?<h2[^>]*>(.*?)</h2>', body, re.S)
+    links = ''.join(f'<li><a href="#{ident}">{e(labels.get(ident, re.sub("<[^>]+>", "", title)))}</a></li>' for ident, title in sections)
+    if not links:
+        return body
+    desktop = f'<nav class="reading-index" aria-label="On this page"><p>On this page</p><ol>{links}</ol></nav>'
+    mobile = f'<details class="reading-index-mobile"><summary>On this page</summary><nav aria-label="Page sections"><ol>{links}</ol></nav></details>'
+    opening = re.search(r'<div class="wrap page-content[^"]*">', body)
+    assert opening and body.endswith('</div>'), path
+    return body[:opening.start()] + '<div class="wrap page-content reading-shell">' + desktop + '<div class="article-body">' + mobile + body[opening.end():-6] + '</div></div>'
+
+
 def page(title, body, path='/', description='Phoenix voting records, Treasury payments and contract permissions.'):
+    body = reading_navigation(body, path)
     nav = ''.join(f'<a href="{u}"' + (' aria-current="page"' if u == path else '') + f'>{t}</a>' for u, t in NAV)
-    out = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} · Phoenix Governance Review</title><meta name="description" content="{e(description)}"><meta name="referrer" content="no-referrer"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}"><meta property="og:type" content="website"><meta property="og:url" content="{SITE + path}"><meta name="theme-color" content="#173d32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/site.css?v=20261105-ampluna"><script defer src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header"><div class="wrap header-inner"><a class="brand" href="/">{MARK}<span>Phoenix governance review<small>Votes, payments and contract control</small></span></a><nav class="nav" aria-label="Main navigation">{nav}</nav></div></header><main id="main">{body}</main><footer class="footer"><div class="wrap footer-inner"><div><p>Contract-control review and proposal summaries updated 16 November 2026; discussion texts, not enacted rules. 4855 final result and A296 rejection checked 14 November 2026 UTC. Historical ampLUNA snapshot: {AMP_CAPTURE_LABEL}. Historical 4853 tally and scenario: {CAPTURE_LABEL}. Historical vAMP balances: 26 October. Supplemental transaction and funding checks: 27 October. Live state can change.</p></div><nav aria-label="Footer"><a href="/evidence/">Method &amp; sources</a><a href="/record/">Preserved record</a><a href="/privacy/">Privacy</a></nav></div></footer></body></html>'''
+    out = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} · Phoenix Governance Review</title><meta name="description" content="{e(description)}"><meta name="referrer" content="no-referrer"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}"><meta property="og:type" content="website"><meta property="og:url" content="{SITE + path}"><meta name="theme-color" content="#173d32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/site.css?v=20261116-control"><script defer src="/site.js"></script></head><body><a class="skip" href="#main">Skip to content</a><header class="header"><div class="wrap header-inner"><a class="brand" href="/">{MARK}<span>Phoenix governance review<small>Votes, payments and contract control</small></span></a><nav class="nav" aria-label="Main navigation">{nav}</nav></div></header><main id="main">{body}</main><footer class="footer"><div class="wrap footer-inner"><div><p>Contract-control review and proposal summaries updated 16 November 2026; discussion texts, not enacted rules. 4855 final result and A296 rejection checked 14 November 2026 UTC. Historical ampLUNA snapshot: {AMP_CAPTURE_LABEL}. Historical 4853 tally and scenario: {CAPTURE_LABEL}. Historical vAMP balances: 26 October. Supplemental transaction and funding checks: 27 October. Live state can change.</p></div><nav aria-label="Footer"><a href="/evidence/">Method &amp; sources</a><a href="/record/">Preserved record</a><a href="/privacy/">Privacy</a></nav></div></footer></body></html>'''
     file = DIST / ('index.html' if path == '/' else path.strip('/') + '/index.html')
     file.parent.mkdir(parents=True, exist_ok=True)
     file.write_text(out)
@@ -123,7 +159,7 @@ for rel in audit_paths:
 for rel in ['admin_handover', 'transfers/monthly_validator_to_eris', 'leads']:
     folder = audit_out / rel
     links = ''.join(f'<li><a href="{f.name}">{f.name}</a></li>' for f in sorted(folder.glob('*.json')))
-    (folder / 'index.html').write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Evidence files</title><link rel="stylesheet" href="/site.css?v=20261105-ampluna"></head><body><main class="wrap page-content reading"><h1>Evidence files</h1><p><a href="/evidence/">Return to evidence and method</a></p><ul>{links}</ul></main></body></html>')
+    (folder / 'index.html').write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Evidence files</title><link rel="stylesheet" href="/site.css?v=20261116-control"></head><body><main class="wrap page-content reading"><h1>Evidence files</h1><p><a href="/evidence/">Return to evidence and method</a></p><ul>{links}</ul></main></body></html>')
 
 proposal = load('data/native_4853/proposal.json')['proposal']
 SNAPSHOT = 'data/governance_4853/refresh_20261030/'
@@ -445,10 +481,19 @@ control = head('TLA and Treasury: who controls the funds?', 'What ERIS was funde
 <p>Terra Liquidity Alliance (TLA) uses incentives and voting to support liquidity on Terra. Its development proposal describes acquired liquidity-pool positions as Community Pool assets. Phoenix Treasury receives a share of chain staking rewards through Terra’s Alliance funding mechanism and provides tools for Board-approved payments, grants and other Treasury operations. ERIS built the infrastructure for these systems.</p>
 <p>The Board can approve payments while another authority can change the rules those payments follow. Understanding that separation is necessary to judge whether the community has received the control described in the approved terms.</p>
 <p>Creda, Votion and Estima are <a href="#application-grants">application-development grants</a>. Their funding alone does not transfer the builder’s software rights or impose TLA’s handover terms. This page focuses on the tools managing chain liquidity and Treasury funds.</p>
-<nav aria-label="On this page"><p><a href="#treasury-contract">How Treasury control works</a> · <a href="#approvals">Terms and delivery</a> · <a href="#handover">Completed transfers and responses</a> · <a href="#governance-remedies">Governance remedies</a> · <a href="#inventory">Contract register</a></p></nav>
+<p class="control-proposal-link"><a href="#proposal-connection">Why this matters to the two current proposals {ARROW}</a></p>
 {source_list([(TLA_TERMS+'#L144-L169','TLA launch: separate roles and transfer promises'),(CONTROL+'chain/tla-registry-ownership.json','Current registry ownership'),(CONTROL+'handover/eris-proposals.json','P9 executed messages'),(CONTROL+'handover/A292.json','A292 executed Board upgrade')])}
 </section>
+<section id="proposal-connection"><div class="section-heading"><h2>Why the two proposals address contract control</h2><p>The question is whether the people accountable for community assets can actually inspect, operate and recover the systems holding them.</p></div>
+<p>These findings help explain the proposals’ handover and independent-review requirements. A change of director can change who votes on ordinary spending. It does not, by itself, change the Treasury’s upgrade administrator or the registry’s owner. A complete remedy needs to address both Board accountability and the separate technical powers.</p>
+<div class="proposal-pair"><article><h3>Proposal 1: removal and controlled transition</h3><p>Seeks 0xPhilipp’s removal and a controlled transition while preserving a minimum of three affirmative approvals. Its handover requirements matter because replacing a director alone would leave ERIS’s separate contract permissions in place.</p><a href="{PROPOSAL_1}">Read Proposal 1 and its transition amendment {ARROW}</a></article><article><h3>Proposal 2: governance and independent accountability</h3><p>Can operate with the existing Board if Proposal 1 fails. Its independent financial and authority review tests grant commitments, privileged operations and milestone acceptance across all directors, with a right of response.</p><a href="{PROPOSAL_2}">Read Proposal 2 and its governance amendments {ARROW}</a></article></div>
+<h3>How the evidence connects to the proposed safeguards</h3>
+<dl class="proposal-reasons"><div><dt>Operating roles leave other powers above them</dt><dd>The proposals call for records of direct and indirect privileged control, including the shared TLA registry and Foundation-used Treasury/v3 contracts. A list of Board roles alone cannot demonstrate a complete handover.</dd></div><div><dt>Some transfers are complete; others remain unresolved</dt><dd>Both preserve TLA’s original one-month administration and three-month ownership commitments. They require credit for completed transfers and a dated remedy for missing items, rather than treating the hub and bridge transfers as settlement of every control question.</dd></div><div><dt>A key transfer does not establish operating independence</dt><dd>Source, build, licence and maintenance access, independent operating checks and a costed contingency plan are included so the Foundation can assess changes and continue operating if a maintainer becomes unavailable.</dd></div></dl>
+<p>Each proposal calls for acknowledgement and named implementers within seven calendar days of passage, an implementation dossier within 21 days of passage, and weekly progress. Proposal 2’s independent review has a separate timetable: preliminary findings within 30 days and a final report within 60 days of legal adoption. A status report does not substitute for that review.</p>
+<p class="note">These are the 16 November discussion texts, not enacted rules. The control record supports scrutiny and a verifiable remedy; it does not itself establish misconduct, liability or the case for any particular director’s removal. Passage, legal adoption and contract execution are separate steps. Neither proposal automatically transfers keys, recovers assets, shuts down a system or transfers unrelated ERIS property.</p>
+{source_list([(PROPOSAL_1,'Proposal 1: exact 16 November revision'),(PROPOSAL_2,'Proposal 2: exact 16 November revision'),('/governance/#proposed-amendments','Implementation deadlines and approval safeguards'),('/#proposal-reasoning','Broader reasoning, responses and evidence limits')])}</section>
 <section id="treasury-contract"><div class="section-heading"><h2>The Board approves spending; ERIS can replace the code</h2></div>
+{control_figure()}
 <p>A smart contract is a program on the blockchain that can hold assets and enforce rules. Phoenix Treasury is the contract at <code>{TREASURY_ADDRESS}</code>, deployed as code 3347. It handles payments and grant milestones, scheduled or negotiated trades, and reward and delegation activity. At capture, it held <strong>{number(control_luna,6)} LUNA</strong> in its bank balance, alongside other denominations. That is a gross balance: reserved grants and other claims must be reconciled before treating any amount as available to spend. It is not a total Foundation valuation.</p>
 <p>Under the normal payment route, the Phoenix Board is the Treasury’s controller. Its four equally weighted members have a 75% approval threshold, so three YES votes are needed. Recorded veto settings also give the Think Tank and Terra governance opportunities to stop qualifying spending.</p>
 <p>A separate permission, called <em>upgrade administration</em> (also called migration administration), allows a contract’s code to be replaced. The Treasury’s upgrade administrator is the address identified as ERIS in the launch terms. A compatible replacement could change who may approve spending, weaken the veto checks, or transfer spendable assets held at the Treasury address. Replacement Treasury code could stop requiring Board authorization, even while the Board’s own voting threshold stays unchanged.</p>
@@ -468,6 +513,8 @@ control = head('TLA and Treasury: who controls the funds?', 'What ERIS was funde
 <p>The approved TLA launch linked terms published on 12 August 2024 that distinguished the two powers: configuration ownership would transfer to Phoenix Stewardship after three months, and contract administration after one month. Stewardship is the Phoenix body acting through the Board. The reviewed TLA contracts still name the ERIS upgrade address; the shared registry still names the ERIS configuration owner, with no pending transfer.</p>
 <p>Those handovers remain incomplete in the 16 November records. ERIS delivered deployed infrastructure, and the Board received meaningful operating roles. Neither delivery nor those role assignments completes the promised transfers of code-upgrade and configuration authority.</p>
 {details('Approved infrastructure funding and launch decisions',table(['Decision','Approved scope','Control / ownership boundary'],infrastructure_grants),'grant-record')}
+<h3>Promised, transferred, unresolved</h3>
+<dl class="commitment-ledger"><div><dt>TLA upgrade administration<span>Promised after one month</span></dt><dd><strong>Incomplete</strong><p>Reviewed TLA contracts still name the ERIS upgrade address. Board operating roles do not complete this transfer.</p></dd></div><div><dt>TLA configuration ownership<span>Promised after three months</span></dt><dd><strong>Incomplete</strong><p>The shared registry still names the ERIS configuration owner, with no pending transfer recorded.</p></dd></div><div><dt>ampLUNA hub and bridge<span>P9 executed 25 October 2026</span></dt><dd><strong>Upgrade control transferred</strong><p>The Board received both administrator roles and used its hub authority in A292. Internal permissions remain separate.</p></dd></div><div><dt>Treasury safeguards and source<span>Different terms from TLA</span></dt><dd><strong>Configured; validation and access gaps</strong><p>Spending vetoes are recorded. Current deployed safeguards and reproducible source access still need validation; no separate TLA-style deadline appears in Treasury’s terms.</p></dd></div></dl>
 <h3>What the delivery record supports</h3>{details('Commitment-by-commitment delivery assessment', table(['Commitment','Observed delivery at 16 November 2026','Assessment'],[
 ['TLA: deploy liquidity, voting and incentive infrastructure', 'Staking, connectors, voting escrow, gauges and bribe contracts are deployed. The launch links a published SCV audit.', 'Infrastructure delivered. This review does not certify every feature or subsequent upgrade.'],
 ['TLA: migration administration to Stewardship after one month', 'The reviewed TLA infrastructure contracts still name the ERIS upgrade address.', 'Handover remains incomplete.'],
@@ -485,6 +532,7 @@ control = head('TLA and Treasury: who controls the funds?', 'What ERIS was funde
 <section id="handover"><div class="section-heading"><h2>The hub and bridge transfers are complete at the upgrade layer</h2></div>
 <p>On 25 October 2026, ERIS proposal 9 transferred upgrade administration of the ampLUNA hub and CW20-ICS20 bridge to the Phoenix Board. The hub manages staked LUNA; the bridge supports token transfers between chains. The Board later used its new authority to approve and execute the hub upgrade in A292.</p>
 <p>These transfers give the Board a powerful way to change those two contracts. Their internal permissions remained separate: the hub’s owner still points to the ERIS configuration address, and the bridge’s internal governance field still points to the ERIS upgrade address. P9 did not transfer TLA or Treasury administration.</p>
+{handover_timeline(TLA_TERMS, CONTROL)}
 <h3>ERIS says continued operation justified retaining control</h3>
 <p>In his <a href="https://forum.phoenix.money/t/47/55">19 October response</a>, 0xPhilipp said ERIS continued developing, maintaining and operating TLA, and considered transfer inappropriate given its concerns about the Board. He welcomed supervisor review. Keeping a system maintained is a relevant operational concern; the response does not itself document approval to extend the original handover timetable. No approved extension was identified in the reviewed records.</p>
 <p>On <a href="https://forum.phoenix.money/t/64/5">2 November</a>, Vini supported Stewardship administration and access to source code and maintenance documentation with clear licensing. He expressly gave an individual view, not a collective Board decision.</p>

@@ -1,7 +1,7 @@
 # Source and provenance
 
 - **Artifact:** `website/dist/record/history/SHA256SUMS.txt`
-- **SHA-256:** `64fbccd8fd90a9e13c0379b2fd1dc26a1b9a7abaf40f3825f036a5faf8fb862b`
+- **SHA-256:** `531addd769ca838d0694f23127a5be9ffdc7958b85bbd1d2b838fe3025cb4a76`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:24.012091+00:00
 - **Classification:** Website history record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.

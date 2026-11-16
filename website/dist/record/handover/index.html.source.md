@@ -1,7 +1,7 @@
 # Source and provenance
 
 - **Artifact:** `website/dist/record/handover/index.html`
-- **SHA-256:** `9493befa7e1ffffe1a676245988054578a350f2a875c3c92180b9882090edbf9`
+- **SHA-256:** `933f1466adf31837e59cc01905a1d510ca5e122163d7686c2a5f386ddf7f7792`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:21.254076+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.

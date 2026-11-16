@@ -1,7 +1,7 @@
 # Source and provenance
 
 - **Artifact:** `website/dist/record/payments/index.html`
-- **SHA-256:** `1c87b7a435ec7fd31989d527752d3982fe5deaa44e615083a4bf538ce9b466da`
+- **SHA-256:** `1b429be47af13063842ef6494b5cd042b40db61cb0af9994cad1649d477be272`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:21.233136+00:00
 - **Classification:** Website record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.

@@ -107,3 +107,27 @@ def write_standalones(dist):
     section=timeline_section('estima-sequence').replace('<a class="quiet-link" href="/timeline/">Read the full timeline</a>','')
     section=re.sub(r'<div class="sequence-sources">.*?</div>','',section)
     (dist/'diagrams'/'estima-sequence.html').write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Estima payment and A272: the sequence</title>{font}<style>{base}</style></head><body><main><h1>Estima payment and A272</h1>{section}</main>{motion_script()}</body></html>')
+
+
+def control_figure():
+    """Three privilege routes, with reflowing HTML labels for narrow reading columns."""
+    arrow = '<svg class="control-arrow" viewBox="0 0 64 24" aria-hidden="true"><path d="M2 12h56m-8-7 8 7-8 7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>'
+    rows = [
+        ('Phoenix Board', '3 of 4 equal seats', 'approves ordinary spending', 'Treasury payments', 'Current controller route; configured veto checks apply.'),
+        ('ERIS upgrade address', 'Treasury administrator', 'can replace the code', 'Treasury rules', 'Replacement code could remove the requirement for Board approval.'),
+        ('ERIS configuration address', 'Shared registry owner', 'assigns registry roles', 'Operating permissions', 'Role changes are recorded; exact current setter limits need source review.'),
+    ]
+    routes = ''.join(f'<div class="control-route"><div class="control-actor"><strong>{actor}</strong><span>{role}</span></div><div class="control-relation"><span>{action}</span>{arrow}</div><div class="control-target"><strong>{target}</strong><span>{meaning}</span></div></div>' for actor, role, action, target, meaning in rows)
+    return f'<figure class="control-map" aria-labelledby="control-map-title"><figcaption id="control-map-title">Three powers over the same system</figcaption>{routes}<p class="control-map-note">Upgrade authority sits outside the ordinary payment route. It does not change the Board’s own voting threshold. Native Terra governance provides a separate route to change administrators.</p><a href="#treasury-authorities">Inspect the exact roles and addresses</a></figure>'
+
+
+def handover_timeline(terms, record):
+    events = [
+        ('12 August 2024', 'Temporary ERIS control described', 'TLA terms promise administration after one month and configuration ownership after three. These are TLA-specific commitments.', terms),
+        ('19 October 2026', 'ERIS explains retained control', '0xPhilipp cites continued maintenance and concerns about the Board, and welcomes supervisor review. No approved extension was identified.', 'https://forum.phoenix.money/t/47/55'),
+        ('25 October 2026', 'Hub and bridge upgrade control transferred', 'P9 gives both administrator roles to the Board. Treasury administration and the TLA registry are outside this transfer.', '#handover-history'),
+        ('2 November 2026', 'A call for source and maintenance access', 'Vini supports handover and clear licensing in an individual response, not a collective Board decision.', 'https://forum.phoenix.money/t/64/5'),
+        ('16 November 2026', 'Progress and remaining powers checked', 'A292 confirms the Board exercised hub upgrade authority. Reviewed TLA and Treasury administration and registry ownership remain with ERIS.', record+'handover/A292.json'),
+    ]
+    rows = ''.join(f'<li><span class="handover-date">{date}</span><div><h3>{title}</h3><p>{body}</p><a href="{url}">Read the record<span class="visually-hidden">: {date}</span></a></div></li>' for date,title,body,url in events)
+    return '<figure class="handover-timeline"><figcaption>From the original commitment to the current record</figcaption><ol>'+rows+'</ol><p class="note">Selected events in chronological order; spacing does not represent elapsed time.</p></figure>'

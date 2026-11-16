@@ -294,3 +294,31 @@ No-JavaScript, `?motion=static`, print and reduced-motion modes preserve the com
 ## ampLUNA voting explanation
 
 The homepage retains the forest hero and dated tally panel. An ordered three-step explanation uses open columns with green rules, stacking into one column below 780px. Voter and proposal comparisons use the existing accessible horizontal-scroll tables. All information is available without JavaScript or motion.
+
+## Contract-control reading update — 16 November 2026
+
+The shipped layout uses an 1180px outer container with 80px total desktop inset,
+56px below 1080px, and 36px below 720px. These values supersede earlier container
+measurements above. The longer control, governance, Treasury, stakeholder and
+4853 pages share a 200px contents rail, a 56px gap and a flexible article column.
+At 1100px and below, a native disclosure replaces the rail; navigation and all
+summaries work without JavaScript. Technical tables retain their local scroll.
+
+The control article uses a forest figure with three separate privilege routes,
+a visible two-column commitment ledger, and a vertical handover chronology.
+The figure is semantic HTML with decorative SVG arrows, so its labels wrap at
+actual article width. Below a 560px figure-content width, each route stacks.
+This is an intentional adaptation of the architecture grammar to a reading
+column, rather than scaling fixed SVG text down on phones. Target boxes use
+mint to identify the affected function; no color implies wrongdoing or a risk
+score. The timeline is chronological, not proportional to elapsed time.
+
+The proposal connection pairs the two independent discussion texts and maps
+evidence gaps to their implementation requirements. Dates of passage, legal
+adoption and execution remain distinct. Full evidence remains in native details.
+
+The existing type scale includes 14–17px navigation, notes and figure support,
+19–20px figure labels, 23–26px figure and comparison headings, and the existing
+fluid page/section headings. Source Sans 3 carries reading text; Public Sans
+carries headings. Heading tracking remains -0.025em. No new motion is introduced;
+the canonical motion controller is unchanged. Printed pages omit both indexes.

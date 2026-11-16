@@ -1,7 +1,7 @@
 # Source and provenance
 
 - **Artifact:** `website/dist/record/history/index.html`
-- **SHA-256:** `62fee18d9049d2ddf1f27e798c669dacb8fc6fba8078cc4b0706fef3268c6b99`
+- **SHA-256:** `5b39af51c06cc46b97c9e2bce02887ee69bca71e579c1eaae1d7bf085b5b79ef`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:21.249688+00:00
 - **Classification:** Website history record or generated presentation
 - **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
