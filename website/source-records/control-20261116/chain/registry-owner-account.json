@@ -1,0 +1,1 @@
+{"account":{"@type":"/cosmos.auth.v1beta1.BaseAccount","address":"terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl","pub_key":{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A8Skydzpj2Nt2o0XvQ8SRDq51UmYXbTjfpHT70stReVu"},"account_number":"507678","sequence":"908"}}

@@ -1,21 +1,22 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/leads/rpc/terra2_B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C.capture.json`
+- **Artifact:** `data/leads/rpc/terra2_B77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C.capture.json`
 - **SHA-256:** `9ad7ef8e43917661c1cfa2d3be2dd593499ea23179d1461a5e9b6b1d224af17d`
 - **Timestamp basis:** No original acquisition timestamp established; file mtime is not used as acquisition evidence.
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Derived dataset
+- **Acquisition / transformation:** Local transformation using `analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py`.
+- **Transformation:** `analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py`
 
 ## Immediate source(s)
 
-- website build inputs
+- http://15.204.43.42:26657/tx?hash=0xB77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C&prove=false
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- http://15.204.43.42:26657/tx?hash=0xB77EAB89F4F3CB9F99E0CB6FFEE29446EE8E2195BB7BEB212C24D5BC1559EC5C&prove=false
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Acquisition metadata, not a raw chain response. Exact request and acquisition time are retained; no identity attribution.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

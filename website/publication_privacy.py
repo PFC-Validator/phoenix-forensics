@@ -20,7 +20,7 @@ def first_name_only(text):
 def display_handle(text):
     """Change presentation labels, preserving source URLs and raw transaction data."""
     def label(value):
-        return re.sub(r'(?<![\w/])@?(?:0x)?Philipp\b', '0xphilipp', value, flags=re.I)
+        return re.sub(r'(?<![\w/])@?(?:0x)?Philipp\b', '0xPhilipp', value, flags=re.I)
     parts = re.split(r'(<[^>]*>)', text)
     for i, part in enumerate(parts):
         if part.startswith('<'):

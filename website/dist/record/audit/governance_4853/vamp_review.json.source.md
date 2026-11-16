@@ -1,21 +1,27 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/governance_4853/vamp_review.json`
+- **Artifact:** `data/governance_4853/vamp_review.json`
 - **SHA-256:** `caccb3e04cc9a60109b4542967001426c6f3e16baac1d1c2dc6b1ce8eda48451`
 - **Artifact timestamp (UTC):** 2026-10-26T18:11:08.865477+00:00
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Derived analysis artifact
+- **Acquisition / transformation:** Values extracted from the cited public contract responses.
 
 ## Immediate source(s)
 
-- website build inputs
+- https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJjb25maWciOnt9fQ==
+- https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJhY3RpdmVfcHJvcHMiOnt9fQ==
+- https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJmaW5pc2hlZF9wcm9wcyI6e319
+- https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1ep7exp42jjtwgjly36y4vgylz82fplnjwpkz95wljzwfald8zwwqggsdzz/smart/eyJ1c2VyX3ZhbXBfYXRfcGVyaW9kIjp7InVzZXIiOiJ0ZXJyYTE0OWgybmE5ODhja2EwNXJ3Y3BtbnFmc2U2NHI2dnNwbWZta2sweiIsInBlcmlvZCI6MjA4fX0=
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJjb25maWciOnt9fQ==
+- https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJhY3RpdmVfcHJvcHMiOnt9fQ==
+- https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJmaW5pc2hlZF9wcm9wcyI6e319
+- https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1ep7exp42jjtwgjly36y4vgylz82fplnjwpkz95wljzwfald8zwwqggsdzz/smart/eyJ1c2VyX3ZhbXBfYXRfcGVyaW9kIjp7InVzZXIiOiJ0ZXJyYTE0OWgybmE5ODhja2EwNXJ3Y3BtbnFmc2U2NHI2dnNwbWZta2sweiIsInBlcmlvZCI6MjA4fX0=
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Period-208 balances are quoted exactly. Combined share is a scenario total, not evidence of coordination or common ownership.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

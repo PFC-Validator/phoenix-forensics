@@ -1,0 +1,132 @@
+{
+  "captured_at": "2026-11-05T14:56:28.651616+00:00",
+  "method": "Read-only sequential and concurrent LCD queries bracketed by latest-block queries; not a single-height snapshot.",
+  "records": [
+    {
+      "file": "block-before.json",
+      "url": "https://terra2.tdrsys.com/cosmos/base/tendermint/v1beta1/blocks/latest",
+      "sha256": "5d4f118001ae583ff45a62394d9e7f83325be11193e3eaa9d2a2cb6a21b91eac",
+      "captured_at": "2026-11-05T14:56:26.229508+00:00"
+    },
+    {
+      "file": "proposal-4855.json",
+      "url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4855",
+      "sha256": "cfabd5bd9a00e820d3736b00760a9cd2f0ace6c36684955b8fa96100a58c5c2c",
+      "captured_at": "2026-11-05T14:56:26.938080+00:00"
+    },
+    {
+      "file": "proposal-4853.json",
+      "url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4853",
+      "sha256": "8cdc4933f78faa4664bad269a3e0a594574003008c3656ed2ff4e578d55e0458",
+      "captured_at": "2026-11-05T14:56:26.765942+00:00"
+    },
+    {
+      "file": "tally-4855.json",
+      "url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4855/tally",
+      "sha256": "9205d239b0962b2d15652190a4c4465c6dc93af805be26fb81683172d4534af0",
+      "captured_at": "2026-11-05T14:56:26.791658+00:00"
+    },
+    {
+      "file": "params.json",
+      "url": "https://terra2.tdrsys.com/cosmos/gov/v1/params/tallying",
+      "sha256": "09a27cdc495d56ab136d3286cb2a5577df656990ddc95c338390c563fcc6fb3d",
+      "captured_at": "2026-11-05T14:56:26.782917+00:00"
+    },
+    {
+      "file": "pool.json",
+      "url": "https://terra2.tdrsys.com/cosmos/staking/v1beta1/pool",
+      "sha256": "a452d82b4ae1ca9cca5e3c3c1c3097987eb3a63ca6fb3fd3b7d3929260218507",
+      "captured_at": "2026-11-05T14:56:26.790788+00:00"
+    },
+    {
+      "file": "hub-vote-4855.json",
+      "url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4855/votes/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "sha256": "0352a2433f4a9b48eee250d5620493a7deba40e43dddfc0ecaf350df5448d847",
+      "captured_at": "2026-11-05T14:56:26.797501+00:00"
+    },
+    {
+      "file": "hub-info.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "sha256": "d397a601241bccc29b5a42e9dad54ad684e14c807b3badb3c7f4659c046d7d39",
+      "captured_at": "2026-11-05T14:56:27.270985+00:00"
+    },
+    {
+      "file": "hub-config.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJjb25maWciOnt9fQ==",
+      "sha256": "faaff7904f92eb1dece231414dad9e9ddef942b4b7dd90792bd15179f0dc7a59",
+      "captured_at": "2026-11-05T14:56:27.301123+00:00"
+    },
+    {
+      "file": "hub-state.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJzdGF0ZSI6e319",
+      "sha256": "1c305bb1db19a421ae6602721b2e62244e466cabd31b4d83bd05856b7f8a3816",
+      "captured_at": "2026-11-05T14:56:27.308554+00:00"
+    },
+    {
+      "file": "gauge-info.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+      "sha256": "734e3cf3905e8227e1c0debec97943cd73e5f66a27ab33a6ee58a5df1d274455",
+      "captured_at": "2026-11-05T14:56:27.300560+00:00"
+    },
+    {
+      "file": "gauge-config.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJjb25maWciOnt9fQ==",
+      "sha256": "5f7724f9fa9da2356160e225352dae7a344e0506409bb1cfb7fe6034c7f2486e",
+      "captured_at": "2026-11-05T14:56:27.306232+00:00"
+    },
+    {
+      "file": "gauge-4855.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX2RldGFpbCI6eyJwcm9wb3NhbF9pZCI6NDg1NX19",
+      "sha256": "78dbb631b302b9ac3db34e44c9e4b2c56d83971ac3d79753045c66a707d009a2",
+      "captured_at": "2026-11-05T14:56:27.441295+00:00"
+    },
+    {
+      "file": "gauge-voters-4855.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX3ZvdGVycyI6eyJwcm9wb3NhbF9pZCI6NDg1NSwibGltaXQiOjEwMH19",
+      "sha256": "a326f814f51b35dc158e04d01aef4cde1c42e607f578225b0c11771cea63ccb0",
+      "captured_at": "2026-11-05T14:56:27.776795+00:00"
+    },
+    {
+      "file": "hub-operator.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/raw/dm90ZV9vcGVyYXRvcg==",
+      "sha256": "209c38e04416834707014d1e1e7046ae3967be9808ad018f87bc2c0381e3e7ca",
+      "captured_at": "2026-11-05T14:56:27.805745+00:00"
+    },
+    {
+      "file": "block-after.json",
+      "url": "https://terra2.tdrsys.com/cosmos/base/tendermint/v1beta1/blocks/latest",
+      "sha256": "5d4f118001ae583ff45a62394d9e7f83325be11193e3eaa9d2a2cb6a21b91eac",
+      "captured_at": "2026-11-05T14:56:28.651560+00:00"
+    },
+    {
+      "file": "fee-vote-tx.json",
+      "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/F102C29C73332AF7F0F15BC4E71ADCABC58AEFBF07F4DD669A6FC41B0F2EDF48",
+      "sha256": "7b9bd706e5b8abdca3c4bb87eaa9f7bc8384c8e6ff9dd74c1b4431a13342c984",
+      "captured_at": "2026-11-05T15:02:06.460290+00:00"
+    },
+    {
+      "file": "validator-gauge-vote-tx.json",
+      "url": "https://terra2.tdrsys.com/cosmos/tx/v1beta1/txs/CE492AE1155FC568503C95D661C2D12EFFFDFD032350B34932C282529E24C533",
+      "sha256": "ed8928141de27fe0ad67757d51715820f0ada8742b7b7fa7436a4ab24773867c",
+      "captured_at": "2026-11-05T15:02:06.979927+00:00"
+    },
+    {
+      "file": "fee-recipient-account.json",
+      "url": "https://terra2.tdrsys.com/cosmos/auth/v1beta1/accounts/terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+      "sha256": "a5476462bc20ce2d27156c0ec88993fc90704eda084ea63717bb2ef592de2316",
+      "captured_at": "2026-11-05T15:02:07.486377+00:00"
+    },
+    {
+      "file": "hub-owner-account.json",
+      "url": "https://terra2.tdrsys.com/cosmos/auth/v1beta1/accounts/terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "sha256": "1cf7d54cc0eb3de81ea21d98baa73755c33625e9894107aca08e58deba87be26",
+      "captured_at": "2026-11-05T15:02:07.995303+00:00"
+    },
+    {
+      "file": "escrow-info.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1ep7exp42jjtwgjly36y4vgylz82fplnjwpkz95wljzwfald8zwwqggsdzz",
+      "sha256": "f8763e346777759d7fff47df6009e33d8c9179ce3b15ddc0ae021167617e35c3",
+      "captured_at": "2026-11-05T15:02:08.499037+00:00"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "captured_at": "2026-10-30T16:31:18.411002+00:00",
+  "ballot_count": 138,
+  "proposal_status": "PROPOSAL_STATUS_VOTING_PERIOD",
+  "voting_end_time": "2026-10-31T03:40:11.691077293Z",
+  "base": {
+    "yes_count": "29449635973978",
+    "abstain_count": "94450060546387",
+    "no_count": "59191606982516",
+    "no_with_veto_count": "30053675345252"
+  },
+  "full_hub_yes_scenario": {
+    "yes_count": "62011939217912",
+    "abstain_count": "61887757302453.00000000000000",
+    "no_count": "59191606982516",
+    "no_with_veto_count": "30053675345252"
+  },
+  "base_metrics": {
+    "yes_share_non_abstain_percent": "24.81120202560920960053675963",
+    "veto_share_all_percent": "14.10010946899453505178647936",
+    "total_uluna": "213144978848133"
+  },
+  "scenario_metrics": {
+    "yes_share_non_abstain_percent": "40.99767177012719590079598078",
+    "veto_share_all_percent": "14.10010946899453505178647936",
+    "total_uluna": "213144978848133.0000000000000"
+  },
+  "hub_total_uluna": "32562303243934",
+  "hub_ballot": [
+    {
+      "option": "VOTE_OPTION_ABSTAIN",
+      "weight": "1.000000000000000000"
+    }
+  ],
+  "validators": [
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+      "account": "terra1q8w4u2wyhx574m70gwe8km5za2ptanny95la5z",
+      "bonded": true,
+      "delegation_uluna": "1229858028349",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "1229858028349",
+        "abstain_count": "-1229858028349.000000000000000",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper1pgyelqv0hwjavgf6vhdm4e4pt766wfxxczu20l",
+      "account": "terra1pgyelqv0hwjavgf6vhdm4e4pt766wfxxcdshlv",
+      "bonded": true,
+      "delegation_uluna": "3254064061032",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "3254064061032",
+        "abstain_count": "-3254064061032.000000000000000",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper188e99yz54744uhr8xjfxmmplhnuw75xea55zfp",
+      "account": "terra188e99yz54744uhr8xjfxmmplhnuw75xeamclej",
+      "bonded": true,
+      "delegation_uluna": "7862461405290",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_NO_WITH_VETO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "7862461405290",
+        "abstain_count": "-7862461405290.000000000000000",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper1vm5azhvaxeanc7auxh02y8jmxrk8tj93f43e7j",
+      "account": "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+      "bonded": true,
+      "delegation_uluna": "3878960095695",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "3878960095695",
+        "abstain_count": "-3878960095695.000000000000000",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper1wr0p7dzss74wfmzfqm8r65mk26efg5zhzpm77s",
+      "account": "terra1wr0p7dzss74wfmzfqm8r65mk26efg5zhzwhrwr",
+      "bonded": true,
+      "delegation_uluna": "3343826393513",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_NO",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "3343826393513",
+        "abstain_count": "-3343826393513.000000000000000",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper13fkxypqa0e3lvzu2fay7mslc2xsghv26a3a7jl",
+      "account": "terra13fkxypqa0e3lvzu2fay7mslc2xsghv26a73rzv",
+      "bonded": false,
+      "delegation_uluna": "0",
+      "ballot": [],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "0",
+        "abstain_count": "0",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper1jt8pcx4sesgztjkjsvjjqtvyfgcehqx09u4exq",
+      "account": "terra1jt8pcx4sesgztjkjsvjjqtvyfgcehqx09neykn",
+      "bonded": true,
+      "delegation_uluna": "0",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "0",
+        "abstain_count": "0E-18",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper15lsftv92eyssjwkh2393s0nhjc07kryqen2fqf",
+      "account": "terra15lsftv92eyssjwkh2393s0nhjc07kryqeux5s6",
+      "bonded": true,
+      "delegation_uluna": "7862461405372",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "7862461405372",
+        "abstain_count": "-7862461405372.000000000000000",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper1htey4gcdcass29vn4dwjcuq58mrvv8ra5pjz4k",
+      "account": "terra1htey4gcdcass29vn4dwjcuq58mrvv8ra5w7l99",
+      "bonded": true,
+      "delegation_uluna": "3749579152397",
+      "ballot": [],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "3749579152397",
+        "abstain_count": "-3749579152397.000000000000000",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper1mnfavz2tcq6shdfph5azt7gwt6va2s6weqdnkq",
+      "account": "terra1mnfavz2tcq6shdfph5azt7gwt6va2s6we0pwxn",
+      "bonded": true,
+      "delegation_uluna": "0",
+      "ballot": [],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "0",
+        "abstain_count": "0E-18",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    },
+    {
+      "validator": "terra-phoenix-api.highstakes.ch",
+      "operator": "terravaloper1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcfs5wf",
+      "account": "terra1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcxuf76",
+      "bonded": true,
+      "delegation_uluna": "1381092702286",
+      "ballot": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effective_ballot": [
+        {
+          "option": "VOTE_OPTION_ABSTAIN",
+          "weight": "1.000000000000000000"
+        }
+      ],
+      "effect_uluna": {
+        "yes_count": "1381092702286",
+        "abstain_count": "-1381092702286.000000000000000",
+        "no_count": "0",
+        "no_with_veto_count": "0"
+      }
+    }
+  ],
+  "gauge": {
+    "data": {
+      "props": [
+        [
+          4853,
+          {
+            "period": 208,
+            "end_time_s": 1793418012,
+            "yes_vp": "0",
+            "no_vp": "0",
+            "abstain_vp": "83250433113",
+            "nwv_vp": "0",
+            "total_vp": "767921061697",
+            "current_vote": null
+          }
+        ]
+      ]
+    }
+  },
+  "limits": "Sequential current-state queries, not a confirmed common-height snapshot. Counterfactual replaces the existing hub ballot for bonded native delegations; absent a hub ballot, replaces inherited validator options or adds unvoted delegations as YES. Excludes synthetic Alliance weight. The full-YES result is hypothetical, not an observed vote or an inclusion proof."
+}

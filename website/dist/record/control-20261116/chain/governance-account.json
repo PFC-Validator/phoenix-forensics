@@ -1,0 +1,1 @@
+{"account":{"@type":"/cosmos.auth.v1beta1.ModuleAccount","base_account":{"address":"terra10d07y265gmmuvt4z0w9aw880jnsr700juxf95n","pub_key":null,"account_number":"487849","sequence":"0"},"name":"gov","permissions":["burner"]}}

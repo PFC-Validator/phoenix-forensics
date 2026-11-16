@@ -1,0 +1,132 @@
+[
+  {
+    "file": "launch.md",
+    "url": "https://raw.githubusercontent.com/phoenix-directive/docs/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md",
+    "retrieved_at": "2026-11-16T17:41:03.202297+00:00",
+    "http_status": 200,
+    "sha256": "b4023cebacad7d606be70c6637ce7a23a087983b2e6f32d66374ca48e63f5c92",
+    "bytes": 16772
+  },
+  {
+    "file": "topic-64.json",
+    "url": "https://forum.phoenix.money/t/64.json",
+    "retrieved_at": "2026-11-16T17:41:04.240473+00:00",
+    "http_status": 200,
+    "sha256": "cfc54f971cfffadbfc11f71dea0ff006254216818070e3f9ca524f87804f0895",
+    "bytes": 47643
+  },
+  {
+    "file": "forum-latest.json",
+    "url": "https://forum.phoenix.money/latest.json",
+    "retrieved_at": "2026-11-16T17:41:04.277108+00:00",
+    "http_status": 200,
+    "sha256": "c216dac5233b297819b7cbe62e796b8de880ef7c88671ff26cfd74a790e334ca",
+    "bytes": 47815
+  },
+  {
+    "file": "topic-47.json",
+    "url": "https://forum.phoenix.money/t/47.json",
+    "retrieved_at": "2026-11-16T17:41:04.375321+00:00",
+    "http_status": 200,
+    "sha256": "eb5b9966d890b88f1e8f08f6639fc0980b0f0be0ba9d763575a281b06d4d858f",
+    "bytes": 93451
+  },
+  {
+    "file": "topic-47-extra-0.json",
+    "url": "https://forum.phoenix.money/t/47/posts.json?post_ids%5B%5D=159&post_ids%5B%5D=160&post_ids%5B%5D=162&post_ids%5B%5D=163&post_ids%5B%5D=164&post_ids%5B%5D=165&post_ids%5B%5D=166&post_ids%5B%5D=167&post_ids%5B%5D=168&post_ids%5B%5D=169&post_ids%5B%5D=170&post_ids%5B%5D=171&post_ids%5B%5D=172&post_ids%5B%5D=173&post_ids%5B%5D=174&post_ids%5B%5D=175&post_ids%5B%5D=176&post_ids%5B%5D=177&post_ids%5B%5D=178&post_ids%5B%5D=179",
+    "retrieved_at": "2026-11-16T17:41:05.754032+00:00",
+    "http_status": 200,
+    "sha256": "8ab51031b285017e642a7447d53ee1454d9b7aa4d1aebffed17a87d41c87dff8",
+    "bytes": 104430
+  },
+  {
+    "file": "topic-47-extra-20.json",
+    "url": "https://forum.phoenix.money/t/47/posts.json?post_ids%5B%5D=180&post_ids%5B%5D=181&post_ids%5B%5D=182&post_ids%5B%5D=183&post_ids%5B%5D=184&post_ids%5B%5D=185&post_ids%5B%5D=186&post_ids%5B%5D=187&post_ids%5B%5D=188&post_ids%5B%5D=189&post_ids%5B%5D=190&post_ids%5B%5D=192&post_ids%5B%5D=193&post_ids%5B%5D=194&post_ids%5B%5D=195&post_ids%5B%5D=196&post_ids%5B%5D=197&post_ids%5B%5D=200&post_ids%5B%5D=201&post_ids%5B%5D=202",
+    "retrieved_at": "2026-11-16T17:41:06.968615+00:00",
+    "http_status": 200,
+    "sha256": "18f402de8ae625253d680462bb141b7e85f73766f925e10326f96829134a8f44",
+    "bytes": 75825
+  },
+  {
+    "file": "topic-47-extra-40.json",
+    "url": "https://forum.phoenix.money/t/47/posts.json?post_ids%5B%5D=204&post_ids%5B%5D=205&post_ids%5B%5D=206&post_ids%5B%5D=208&post_ids%5B%5D=209&post_ids%5B%5D=210&post_ids%5B%5D=221&post_ids%5B%5D=224&post_ids%5B%5D=225&post_ids%5B%5D=226&post_ids%5B%5D=227&post_ids%5B%5D=228&post_ids%5B%5D=230&post_ids%5B%5D=231&post_ids%5B%5D=232&post_ids%5B%5D=233&post_ids%5B%5D=234&post_ids%5B%5D=235&post_ids%5B%5D=236&post_ids%5B%5D=237",
+    "retrieved_at": "2026-11-16T17:41:08.219179+00:00",
+    "http_status": 200,
+    "sha256": "26dac68c33cd24b0f96c688ada965377249dd893f8cbed670162bcb581558757",
+    "bytes": 66843
+  },
+  {
+    "file": "topic-47-extra-60.json",
+    "url": "https://forum.phoenix.money/t/47/posts.json?post_ids%5B%5D=238&post_ids%5B%5D=239&post_ids%5B%5D=240&post_ids%5B%5D=241&post_ids%5B%5D=242&post_ids%5B%5D=243&post_ids%5B%5D=244&post_ids%5B%5D=250&post_ids%5B%5D=251&post_ids%5B%5D=252&post_ids%5B%5D=253&post_ids%5B%5D=255",
+    "retrieved_at": "2026-11-16T17:41:09.453902+00:00",
+    "http_status": 200,
+    "sha256": "7b5ff5a7fdfb6df473b27bc54a710dddb2426951cbffb551aa58927d17d66d2d",
+    "bytes": 63315
+  },
+  {
+    "file": "source-status.json",
+    "url": "https://api.github.com/repos/erisprotocol/contracts-ve3",
+    "error": "HTTP Error 404: Not Found",
+    "retrieved_at": "2026-11-16T17:41:40.208248+00:00"
+  },
+  {
+    "file": "P9-execution.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/tx/v1beta1/txs/86E599263604B396BFB0F35F2F4E505E2EA758B024315B1C055C14994E6242D9",
+    "error": "HTTP Error 500: Internal Server Error",
+    "retrieved_at": "2026-11-16T17:41:40.528380+00:00"
+  },
+  {
+    "file": "A292.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6MjkyfX0=",
+    "retrieved_at": "2026-11-16T17:41:40.536165+00:00",
+    "http_status": 200,
+    "sha256": "e5f7388c121dfe65f5786c15faa94f810c2315331c9ddcbce78f77a9629735ff",
+    "bytes": 581
+  },
+  {
+    "file": "topic-72.json",
+    "url": "https://forum.phoenix.money/t/72.json",
+    "retrieved_at": "2026-11-16T17:41:41.359434+00:00",
+    "http_status": 200,
+    "sha256": "1d78bfbaaea4e9000d1be5965dfe767123333e87135563dd0004801e478b817a",
+    "bytes": 74056
+  },
+  {
+    "file": "topic-72-extra.json",
+    "url": "https://forum.phoenix.money/t/72/posts.json?post_ids%5B%5D=330&post_ids%5B%5D=332",
+    "retrieved_at": "2026-11-16T17:41:42.149679+00:00",
+    "http_status": 200,
+    "sha256": "c921df32a1f113d9b309d6940c004f069c52e01492e663924fd7d4572478c77e",
+    "bytes": 9257
+  },
+  {
+    "file": "treasury-launch.md",
+    "url": "https://raw.githubusercontent.com/phoenix-directive/docs/7cebbd26048f0e1568a2aed55177090b90788d8b/common_backup/2024-09-26_25020_phoenix-directive-launching-treasury.md",
+    "retrieved_at": "2026-11-16T17:42:39.221468+00:00",
+    "http_status": 200,
+    "sha256": "caedb67592333f6cf3f6b85994c9afcf234a0181ce9e597aa3529e56d0e6ac53",
+    "bytes": 16675
+  },
+  {
+    "file": "hub-history.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/history",
+    "retrieved_at": "2026-11-16T17:42:39.557098+00:00",
+    "http_status": 200,
+    "sha256": "498a75697c8c67ce21396492250a82cdf7ef984b23f8c9a19474a5ae4b5ce4d1",
+    "bytes": 1694
+  },
+  {
+    "file": "eris-proposals.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1e9zwkd9epy8863d3ezmp5m4fsf95ceknhtmadwjt9rukvf8wtflstlecx8/smart/eyJsaXN0X3Byb3Bvc2FscyI6eyJsaW1pdCI6MTAwfX0=",
+    "retrieved_at": "2026-11-16T17:42:39.587739+00:00",
+    "http_status": 200,
+    "sha256": "4e0e2ebc5732c797cce5e55363f42c7183cd353322d9f3c3d0d89f3ae880e915",
+    "bytes": 3674
+  },
+  {
+    "file": "P9-execution-rpc.json",
+    "url": "https://terra-rpc.highstakes.ch/tx?hash=0x86E599263604B396BFB0F35F2F4E505E2EA758B024315B1C055C14994E6242D9&prove=false",
+    "error": "HTTP Error 404: Not Found",
+    "retrieved_at": "2026-11-16T17:42:40.288313+00:00"
+  }
+]

@@ -1,21 +1,26 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/governance_4853/scenario.json`
+- **Artifact:** `data/governance_4853/scenario.json`
 - **SHA-256:** `53e8e38a46d6e3629183001249951ea58a8e0e55182be423f7a6636285b14116`
 - **Artifact timestamp (UTC):** 2026-10-26T19:03:09.682997+00:00
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Derived dataset
+- **Acquisition / transformation:** Local transformation using `Full-hub-YES scenario recalculation`.
+- **Transformation:** `Full-hub-YES scenario recalculation`
 
 ## Immediate source(s)
 
-- website build inputs
+- data/governance_4853/live_tally.json
+- data/native_4853/votes.json
+- data/eris_multisig/hub_delegations.json
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- data/governance_4853/live_tally.json
+- data/native_4853/votes.json
+- data/eris_multisig/hub_delegations.json
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Validator operator addresses converted to account addresses using the same Bech32 payload; each non-YES hub delegation moved mechanically to YES. Synthetic Alliance weight excluded.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

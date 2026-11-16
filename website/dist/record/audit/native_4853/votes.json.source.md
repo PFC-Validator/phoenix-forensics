@@ -1,21 +1,21 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/native_4853/votes.json`
+- **Artifact:** `data/native_4853/votes.json`
 - **SHA-256:** `9b505d66785a805598c4075f3466ec6c218482a97433c7ca244cb6f9855642f7`
 - **Artifact timestamp (UTC):** 2026-10-26T19:03:09.681024+00:00
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Primary source response
+- **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 
 ## Immediate source(s)
 
-- website build inputs
+- https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853/votes?pagination.limit=1000
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853/votes?pagination.limit=1000
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Complete current ballot set at capture; later votes may change it.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

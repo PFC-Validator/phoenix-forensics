@@ -1,0 +1,306 @@
+{
+  "scope": "Sequential latest-state LCD reads; not a single-height snapshot or exhaustive chain inventory. No live transactions submitted.",
+  "records": [
+    {
+      "file": "block-before.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmos/base/tendermint/v1beta1/blocks/latest",
+      "captured_at": "2026-11-16T17:44:18.939975+00:00",
+      "http_status": "200",
+      "sha256": "638fbb9b41afa6ff9e1f9556775b95cc9fc0e2b9a3399c26506739b2219c1bc1"
+    },
+    {
+      "file": "tla-registry-ownership.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+      "captured_at": "2026-11-16T17:44:19.926577+00:00",
+      "http_status": "200",
+      "sha256": "0d1b84b2615d4c2d3658d672bf1d40aadf4483e9b7d0531390577064cee9ecd9"
+    },
+    {
+      "file": "tla-registry-roles.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+      "captured_at": "2026-11-16T17:44:20.947969+00:00",
+      "http_status": "200",
+      "sha256": "2981e3605f6e7ea2da9eb18c27382d0075ad42798eb58478a71e93aba09fce89"
+    },
+    {
+      "file": "creda-registry-ownership.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJvd25lcnNoaXAiOnt9fQ==",
+      "captured_at": "2026-11-16T17:44:21.934489+00:00",
+      "http_status": "200",
+      "sha256": "0d1b84b2615d4c2d3658d672bf1d40aadf4483e9b7d0531390577064cee9ecd9"
+    },
+    {
+      "file": "creda-registry-roles.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c/smart/eyJhbGxfYWRkcmVzc2VzIjp7fX0=",
+      "captured_at": "2026-11-16T17:44:22.932454+00:00",
+      "http_status": "200",
+      "sha256": "76548a3261ec4806821678e4c2d88b02818f4b6ad08f22bf9aa4ebac1043eec7"
+    },
+    {
+      "file": "treasury-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5",
+      "captured_at": "2026-11-16T17:44:23.933363+00:00",
+      "http_status": "200",
+      "sha256": "31a9709ccfc4c370038fe3f81ad809c11122705f8f8a77222a38ddab5b8be0c8"
+    },
+    {
+      "file": "tla-registry-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa",
+      "captured_at": "2026-11-16T17:44:24.930247+00:00",
+      "http_status": "200",
+      "sha256": "6b0dd067a093578ece089d15289867372003bff440ec1de49c217baf4db44274"
+    },
+    {
+      "file": "creda-registry-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1skhnhcj653zfkqzd4txcashg0qu4v0vnpckeztgmsm46cqn33lhsxyej6c",
+      "captured_at": "2026-11-16T17:44:26.047192+00:00",
+      "http_status": "200",
+      "sha256": "99ce001b4f30900411144764373fccfc809670022012fc0ee46195de9f3bec54"
+    },
+    {
+      "file": "hub-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "captured_at": "2026-11-16T17:44:27.043935+00:00",
+      "http_status": "200",
+      "sha256": "d397a601241bccc29b5a42e9dad54ad684e14c807b3badb3c7f4659c046d7d39"
+    },
+    {
+      "file": "ics20-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+      "captured_at": "2026-11-16T17:44:28.043539+00:00",
+      "http_status": "200",
+      "sha256": "ce9d27c170518345a9d23f1e2f0e7a4036659cf137a6b5013a3891575c9aff98"
+    },
+    {
+      "file": "ampluna-token-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+      "captured_at": "2026-11-16T17:44:29.160081+00:00",
+      "http_status": "200",
+      "sha256": "c06d2d620a500342185c8c2c3dad42cdf150fcc230c45815bd237d06ce0803a3"
+    },
+    {
+      "file": "arbluna-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
+      "captured_at": "2026-11-16T17:44:30.166727+00:00",
+      "http_status": "200",
+      "sha256": "c49edce79f7e67ca436e2d9a32dcbeefd54e6a5fc0c366dfb5e18e0f71941e8c"
+    },
+    {
+      "file": "proposal-gauge-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+      "captured_at": "2026-11-16T17:44:31.175647+00:00",
+      "http_status": "200",
+      "sha256": "734e3cf3905e8227e1c0debec97943cd73e5f66a27ab33a6ee58a5df1d274455"
+    },
+    {
+      "file": "operations-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1l0ny38guhwrzczesgvk2zwj7xcen63jzmpusjv9hemvua9vptcyqwqy7pl",
+      "captured_at": "2026-11-16T17:44:32.206308+00:00",
+      "http_status": "200",
+      "sha256": "27a68a3adb47a71eb09e1270d9acbbb33124919d4e94a6201c9c8a82099e15a4"
+    },
+    {
+      "file": "tla-registry-asset_gauge-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+      "captured_at": "2026-11-16T17:44:33.175158+00:00",
+      "http_status": "200",
+      "sha256": "daa0247117e87db3cd8074dea0df74c698f36202d6a710c00ed279b48157db78"
+    },
+    {
+      "file": "tla-registry-asset_staking__bluechip-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+      "captured_at": "2026-11-16T17:44:34.188442+00:00",
+      "http_status": "200",
+      "sha256": "afb47bb238269a4747fc8f2930aae59b739efe2caf120d7f7817af4802370be1"
+    },
+    {
+      "file": "tla-registry-asset_staking__project-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+      "captured_at": "2026-11-16T17:44:35.169361+00:00",
+      "http_status": "200",
+      "sha256": "45d369539deec8ab159ed977c8010151fed84979e48194f6e0513d8ef3c400a1"
+    },
+    {
+      "file": "tla-registry-asset_staking__single-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k",
+      "captured_at": "2026-11-16T17:44:36.154706+00:00",
+      "http_status": "200",
+      "sha256": "9597c9230f13121b26edd6478c090c2d65314673551a476b5034e28f61f9c4f1"
+    },
+    {
+      "file": "tla-registry-asset_staking__stable-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+      "captured_at": "2026-11-16T17:44:37.156254+00:00",
+      "http_status": "200",
+      "sha256": "26d354a036a0d8f9dab13e09c5cf51e56d199d1023dd88b165e6a343f51d4941"
+    },
+    {
+      "file": "tla-registry-asset_whitelist_controller-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg",
+      "captured_at": "2026-11-16T17:44:38.178577+00:00",
+      "http_status": "200",
+      "sha256": "223ca190a2513f2d2543657733a25de93684c2f5e9bebc02ef13fcf57a4a4c11"
+    },
+    {
+      "file": "tla-registry-bribe_manager-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+      "captured_at": "2026-11-16T17:44:39.372173+00:00",
+      "http_status": "200",
+      "sha256": "93ec6b5b4a8b0972c5a8f717f6a281ad2101dfe3b685782b01cf8a4a3d7414f7"
+    },
+    {
+      "file": "tla-registry-connector__bluechip-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra16l43xt2uq09yvz4axg73n8rtm0qte9lremdwm6ph0e35r2jnm43qnl8h53",
+      "captured_at": "2026-11-16T17:44:40.444911+00:00",
+      "http_status": "200",
+      "sha256": "9db149b46678b605710c5ea7e029f22f43e31aee6cb87cd5cd8dac354663d96e"
+    },
+    {
+      "file": "tla-registry-connector__project-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1x8v9fujf3c78q2we23x0vgzmxgtt0hgvuvfsxy4w3ar9kcua4c6qqcnhyh",
+      "captured_at": "2026-11-16T17:44:41.437746+00:00",
+      "http_status": "200",
+      "sha256": "f29674e2a65946f8ca498505cc7677f2db5200e8c19fb775bb3967433bbd8985"
+    },
+    {
+      "file": "tla-registry-connector__single-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1u72y7gppxrsncctvgfyqduv3md6pgq77pqhz9rxgwl3dqgye00cq7vmf8u",
+      "captured_at": "2026-11-16T17:44:42.513293+00:00",
+      "http_status": "200",
+      "sha256": "71554379b6c3e9bab8a4026e7301b38023e5f01407c88bb4bb9339dafc3c2ca8"
+    },
+    {
+      "file": "tla-registry-connector__stable-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1ym2495f63mdx63tu96085x2vf3xpy9z9k5urxwhvmf9jldm99q5qr4q6n8",
+      "captured_at": "2026-11-16T17:44:43.553204+00:00",
+      "http_status": "200",
+      "sha256": "257ba173fa6d8eaee14746a1667ade787e3a8953081f17e7fb65ce48dd7a28d3"
+    },
+    {
+      "file": "tla-registry-voting_escrow-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+      "captured_at": "2026-11-16T17:44:44.557062+00:00",
+      "http_status": "200",
+      "sha256": "ca873c036e093be52413c79323dd6d1314406468147752501b8c2364f3291a45"
+    },
+    {
+      "file": "tla-registry-zapper-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1qdjsxsv96aagrdxz83gwtjk8qvf2mrg4y8y3dqjxg556lm79pg5qdgmaxl",
+      "captured_at": "2026-11-16T17:44:45.579267+00:00",
+      "http_status": "200",
+      "sha256": "abb2ab31783479d0e3f19d2fa8b2074c0966794fe40eb065229c9a19814fbe49"
+    },
+    {
+      "file": "creda-registry-at_oracle-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1wj56ld9e9tuuw6qqr8m5ac8h953te65jcxz7c0dgekrud8lxwjgqryuwg3",
+      "captured_at": "2026-11-16T17:44:46.759952+00:00",
+      "http_status": "200",
+      "sha256": "5bfef9da73d3367d3b939e79a084838dc0f67b7b071c18c12db9775bbff3a33f"
+    },
+    {
+      "file": "creda-registry-at_portfolio-contract.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz",
+      "captured_at": "2026-11-16T17:44:47.921200+00:00",
+      "http_status": "200",
+      "sha256": "b1f37567ede53727954a3e365f25f8194bece1635e283a93666e827b8e0ed7a3"
+    },
+    {
+      "file": "treasury-config.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJjb25maWciOnt9fQ==",
+      "captured_at": "2026-11-16T17:44:49.013265+00:00",
+      "http_status": "200",
+      "sha256": "926ce4eb26c19600916e205ab07287331b2c6003e76bbb83cc44e28d4591192d"
+    },
+    {
+      "file": "hub-config.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk/smart/eyJjb25maWciOnt9fQ==",
+      "captured_at": "2026-11-16T17:44:50.026339+00:00",
+      "http_status": "200",
+      "sha256": "6d12f7650fd8420c65d40c3f60bed1d82b812d3566c3daf92db70cd8de2ab23a"
+    },
+    {
+      "file": "ics20-config.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au/smart/eyJjb25maWciOnt9fQ==",
+      "captured_at": "2026-11-16T17:44:51.038626+00:00",
+      "http_status": "200",
+      "sha256": "84e7ef2564523eb02f3b4dfe94aab69bbd29df5151768a7a88f1063e8c2ac829"
+    },
+    {
+      "file": "arbluna-config.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490/smart/eyJjb25maWciOnt9fQ==",
+      "captured_at": "2026-11-16T17:45:23.794875+00:00",
+      "http_status": "500",
+      "sha256": "8cc8bdbad7f50c7f898bb2e4c21f2203da1a4e3d1240a424373a476ee70f31b9"
+    },
+    {
+      "file": "proposal-gauge-config.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJjb25maWciOnt9fQ==",
+      "captured_at": "2026-11-16T17:45:24.797466+00:00",
+      "http_status": "200",
+      "sha256": "5f7724f9fa9da2356160e225352dae7a344e0506409bb1cfb7fe6034c7f2486e"
+    },
+    {
+      "file": "treasury-state.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5/smart/eyJzdGF0ZSI6e319",
+      "captured_at": "2026-11-16T17:45:25.859074+00:00",
+      "http_status": "200",
+      "sha256": "f893b9e05e04985775d699712911ce1ae13655c34886bea24b0d112338349e21"
+    },
+    {
+      "file": "tla-dca-executors.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1hwxg6s732eparz3ys7sa4t5f64ngpd2w8syrca6z7ckv3fs9uqnsvrpcqa/smart/eyJhZGRyZXNzX2xpc3QiOiJQRFRfRENBX0VYRUNVVE9SIn0=",
+      "captured_at": "2026-11-16T17:45:26.866401+00:00",
+      "http_status": "200",
+      "sha256": "f74a104da8b93100921ac9d0a8d569549fcd95a053939e5dfc7d47a9a9d4a154"
+    },
+    {
+      "file": "upgrade-admin-account.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmos/auth/v1beta1/accounts/terra1q0vny4wx2pfteh9zq323wh48c654xacpfq5tew",
+      "captured_at": "2026-11-16T17:45:27.846704+00:00",
+      "http_status": "200",
+      "sha256": "cca46ae79519d75cb5ad5e5d4eea36c48badbb867bd5593e002a9a944b2c959a"
+    },
+    {
+      "file": "registry-owner-account.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmos/auth/v1beta1/accounts/terra1kefa2zgjn45ctj32d3tje5jdwus7px6n2klgzl",
+      "captured_at": "2026-11-16T17:45:28.842263+00:00",
+      "http_status": "200",
+      "sha256": "ad47c4b56b141be165e7e1b298a33272b1172b8930bc34eee537afe8816f9c05"
+    },
+    {
+      "file": "governance-account.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmos/auth/v1beta1/accounts/terra10d07y265gmmuvt4z0w9aw880jnsr700juxf95n",
+      "captured_at": "2026-11-16T17:45:29.825843+00:00",
+      "http_status": "200",
+      "sha256": "571a261654e76583499ed6d4a2c27513966f9c371e1c0657634ec8f9e9054824"
+    },
+    {
+      "file": "board-threshold.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJjb25maWciOnt9fQ==",
+      "captured_at": "2026-11-16T17:45:30.831197+00:00",
+      "http_status": "200",
+      "sha256": "6b8bf277ff33eebf576a8e3d588fb72caf57f3bcdf82c454502f1ff5cb9c975b"
+    },
+    {
+      "file": "board-members.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1pq9f4a8cn4cdvvm9j7v0mu8n5elf44tgtre8mzrfz3j4x6yyl2yq4hnkuk/smart/eyJsaXN0X21lbWJlcnMiOnsibGltaXQiOjEwMH19",
+      "captured_at": "2026-11-16T17:45:31.818470+00:00",
+      "http_status": "200",
+      "sha256": "2ee0bf44262655157448ae9974c048e1f61befb0df2f5e1e8392072f0e481e52"
+    },
+    {
+      "file": "treasury-bank-balances.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmos/bank/v1beta1/balances/terra16st8yfprkdl06kccktshd3p2vccq93xcn9mkhjl8s4jumyjtd4kqye0me5?pagination.limit=1000",
+      "captured_at": "2026-11-16T17:45:32.983426+00:00",
+      "http_status": "200",
+      "sha256": "bed31f566c272c0d7d4935a0693ce8ff9b7594eafb4a72cf22f504a3da589c86"
+    },
+    {
+      "file": "block-after.json",
+      "url": "https://terra-phoenix-api.highstakes.ch/cosmos/base/tendermint/v1beta1/blocks/latest",
+      "captured_at": "2026-11-16T17:45:34.211871+00:00",
+      "http_status": "200",
+      "sha256": "1e73b739429ece2e80faff96e9c39d71dd43f3304211926873e08c2c0336058b"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "captured_at": "2026-11-05T15:48:37.504154+00:00",
+  "gauge": "terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j",
+  "method": "Current retained records for the five latest completed entries in the proposal gauge; all voter pages queried to exhaustion. These are not archival state queries at proposal close. Wallet counts identify addresses, not people. Power uses six decimal places; vAMP is not LUNA.",
+  "last_five_completed_chain_ids": [
+    4853,
+    4852,
+    4851,
+    4849,
+    4848
+  ],
+  "records": [
+    {
+      "id": 4853,
+      "title": "Phoenix Foundation: Appoint Martin as Emergency Supervisor",
+      "voting_end_time": "2026-10-31T03:40:11.691077293Z",
+      "detail_response": {
+        "data": {
+          "prop": {
+            "period": 208,
+            "end_time_s": 1793418012,
+            "yes_vp": "0",
+            "no_vp": "0",
+            "abstain_vp": "83250433113",
+            "nwv_vp": "0",
+            "total_vp": "767921061697",
+            "current_vote": null
+          },
+          "user": null
+        }
+      },
+      "voters": [
+        [
+          "47337669672",
+          "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "abstain"
+        ],
+        [
+          "35912763441",
+          "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "abstain"
+        ]
+      ],
+      "detail_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX2RldGFpbCI6eyJwcm9wb3NhbF9pZCI6NDg1M319",
+      "voters_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX3ZvdGVycyI6eyJwcm9wb3NhbF9pZCI6NDg1MywibGltaXQiOjEwMH19",
+      "proposal_url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4853"
+    },
+    {
+      "id": 4823,
+      "title": "Phoenix Directive - Alliance Reform and Ecosystem Growth Initiative",
+      "voting_end_time": "2024-10-15T06:41:40.177143250Z",
+      "detail_response": {
+        "data": {
+          "prop": {
+            "period": 102,
+            "end_time_s": 1728974500,
+            "yes_vp": "80937420363",
+            "no_vp": "0",
+            "abstain_vp": "0",
+            "nwv_vp": "0",
+            "total_vp": "763756873872",
+            "current_vote": null
+          },
+          "user": null
+        }
+      },
+      "voters": [
+        [
+          "45838353962",
+          "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "yes"
+        ],
+        [
+          "35099066401",
+          "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "yes"
+        ]
+      ],
+      "detail_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX2RldGFpbCI6eyJwcm9wb3NhbF9pZCI6NDgyM319",
+      "voters_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX3ZvdGVycyI6eyJwcm9wb3NhbF9pZCI6NDgyMywibGltaXQiOjEwMH19",
+      "proposal_url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4823"
+    },
+    {
+      "id": 4822,
+      "title": "Launching the Phoenix Directive Treasury",
+      "voting_end_time": "2024-10-14T12:11:43.809049614Z",
+      "detail_response": {
+        "data": {
+          "prop": {
+            "period": 102,
+            "end_time_s": 1728907904,
+            "yes_vp": "0",
+            "no_vp": "0",
+            "abstain_vp": "0",
+            "nwv_vp": "0",
+            "total_vp": "763756873872",
+            "current_vote": null
+          },
+          "user": null
+        }
+      },
+      "voters": [],
+      "detail_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX2RldGFpbCI6eyJwcm9wb3NhbF9pZCI6NDgyMn19",
+      "voters_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX3ZvdGVycyI6eyJwcm9wb3NhbF9pZCI6NDgyMiwibGltaXQiOjEwMH19",
+      "proposal_url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4822"
+    },
+    {
+      "id": 4803,
+      "title": "A 5% Global Minimum Commission for Validators",
+      "voting_end_time": "2024-02-29T16:52:00.562031619Z",
+      "detail_response": {
+        "data": {
+          "prop": {
+            "period": 69,
+            "end_time_s": 1709225521,
+            "yes_vp": "0",
+            "no_vp": "0",
+            "abstain_vp": "0",
+            "nwv_vp": "0",
+            "total_vp": "582556191835",
+            "current_vote": null
+          },
+          "user": null
+        }
+      },
+      "voters": [],
+      "detail_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX2RldGFpbCI6eyJwcm9wb3NhbF9pZCI6NDgwM319",
+      "voters_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX3ZvdGVycyI6eyJwcm9wb3NhbF9pZCI6NDgwMywibGltaXQiOjEwMH19",
+      "proposal_url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4803"
+    },
+    {
+      "id": 4802,
+      "title": "ampROAR Alliance Asset Proposal",
+      "voting_end_time": "2024-02-28T01:33:26.988740132Z",
+      "detail_response": {
+        "data": {
+          "prop": {
+            "period": 69,
+            "end_time_s": 1709084007,
+            "yes_vp": "36330149200",
+            "no_vp": "258603962",
+            "abstain_vp": "0",
+            "nwv_vp": "0",
+            "total_vp": "582556191835",
+            "current_vote": null
+          },
+          "user": null
+        }
+      },
+      "voters": [
+        [
+          "14930193505",
+          "terra1ksk66lcvzwaanc47nvn3athj4yzcpay8z8ru04",
+          "yes"
+        ],
+        [
+          "13133369627",
+          "terra1vm5azhvaxeanc7auxh02y8jmxrk8tj93f6aywp",
+          "yes"
+        ],
+        [
+          "8168989946",
+          "terra1rgggsspquaxjp4lmegx7a3q4l9lg44hnu7rjxa",
+          "yes"
+        ],
+        [
+          "258603962",
+          "terra1vsuvarp6kuu8un9xx38d06sj379gxa0vxhn5xp",
+          "no"
+        ],
+        [
+          "97596122",
+          "terra1tyvr2gfjhavcwx7gncrq9q74pn272lzftuc74z",
+          "yes"
+        ]
+      ],
+      "detail_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX2RldGFpbCI6eyJwcm9wb3NhbF9pZCI6NDgwMn19",
+      "voters_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX3ZvdGVycyI6eyJwcm9wb3NhbF9pZCI6NDgwMiwibGltaXQiOjEwMH19",
+      "proposal_url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4802"
+    }
+  ],
+  "missing_gauge_records": [
+    {
+      "id": 4852,
+      "detail_response": {
+        "error": 500,
+        "body": "{\"code\":2, \"message\":\"eris::prop_gauges::PropInfo not found: query wasm contract failed\", \"details\":[]}"
+      },
+      "detail_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX2RldGFpbCI6eyJwcm9wb3NhbF9pZCI6NDg1Mn19"
+    },
+    {
+      "id": 4851,
+      "detail_response": {
+        "error": 500,
+        "body": "{\"code\":2, \"message\":\"eris::prop_gauges::PropInfo not found: query wasm contract failed\", \"details\":[]}"
+      },
+      "detail_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX2RldGFpbCI6eyJwcm9wb3NhbF9pZCI6NDg1MX19"
+    },
+    {
+      "id": 4849,
+      "detail_response": {
+        "error": 500,
+        "body": "{\"code\":2, \"message\":\"eris::prop_gauges::PropInfo not found: query wasm contract failed\", \"details\":[]}"
+      },
+      "detail_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX2RldGFpbCI6eyJwcm9wb3NhbF9pZCI6NDg0OX19"
+    },
+    {
+      "id": 4848,
+      "detail_response": {
+        "error": 500,
+        "body": "{\"code\":2, \"message\":\"eris::prop_gauges::PropInfo not found: query wasm contract failed\", \"details\":[]}"
+      },
+      "detail_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJwcm9wX2RldGFpbCI6eyJwcm9wb3NhbF9pZCI6NDg0OH19"
+    }
+  ]
+}

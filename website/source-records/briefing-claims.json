@@ -1,17 +1,17 @@
 {
   "native_4853": {
-    "source": "/record/audit/governance_4853/refresh_20261027/proposal.json",
-    "ballots": 96,
-    "capture": "2026-10-27T15:07:49.305662+00:00"
+    "source": "/record/audit/governance_4853/refresh_20261030/proposal.json",
+    "ballots": 138,
+    "capture": "2026-10-30T16:31:18.411002+00:00"
   },
   "tally": {
-    "source": "/record/audit/governance_4853/refresh_20261027/tally.json",
-    "yes_non_abstain_percent": "40.00219098389157892629626013",
-    "veto_all_percent": "28.17320041896602360800138464"
+    "source": "/record/audit/governance_4853/refresh_20261030/tally.json",
+    "yes_non_abstain_percent": "24.81120202560920960053675963",
+    "veto_all_percent": "14.10010946899453505178647936"
   },
   "hub_yes_scenario": {
-    "source": "/record/audit/governance_4853/refresh_20261027/scenario.json",
-    "yes_non_abstain_percent": "53.59304537727594257204495811",
+    "source": "/record/audit/governance_4853/refresh_20261030/scenario.json",
+    "yes_non_abstain_percent": "40.99767177012719590079598078",
     "status": "hypothetical"
   },
   "vamp": {

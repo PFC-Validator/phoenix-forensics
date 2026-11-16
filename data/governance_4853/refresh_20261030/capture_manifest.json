@@ -1,0 +1,72 @@
+[
+  {
+    "file": "block_before.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/base/tendermint/v1beta1/blocks/latest",
+    "captured_at": "2026-10-30T16:31:12.874806+00:00",
+    "sha256": "ed70c78513df0e31b4a7045ce2b50f722a3e2dc7fac2ee3e3ac58d1a4ff1f80a",
+    "response_height": null
+  },
+  {
+    "file": "proposal.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853",
+    "captured_at": "2026-10-30T16:31:13.382649+00:00",
+    "sha256": "1ed7e3e4849662c7ee0a97ff68236cc683aef5ff058f924e6bc2da4bb2768616",
+    "response_height": null
+  },
+  {
+    "file": "tally.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853/tally",
+    "captured_at": "2026-10-30T16:31:13.906295+00:00",
+    "sha256": "3d2dbbf1569040522f6edaf1b018feda1505f2db6dafdf492f6416535e4c1d00",
+    "response_height": null
+  },
+  {
+    "file": "votes.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4853/votes?pagination.limit=1000",
+    "captured_at": "2026-10-30T16:31:14.589305+00:00",
+    "sha256": "82f54c84935d67cdc4e1624defef57e895fa9af450e2732676f162d28259248b",
+    "response_height": null
+  },
+  {
+    "file": "hub_delegations.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/staking/v1beta1/delegations/terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk?pagination.limit=1000",
+    "captured_at": "2026-10-30T16:31:15.090189+00:00",
+    "sha256": "9fc46fbba28d74343aa79714045e1d988880c661ad3cae1809ca33088fbe62f0",
+    "response_height": null
+  },
+  {
+    "file": "validators.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/staking/v1beta1/validators?pagination.limit=1000",
+    "captured_at": "2026-10-30T16:31:16.139768+00:00",
+    "sha256": "f9a883dcca86e7a546f096b6a6a9f43a429f51c9a3c06f45f040671249fd7d70",
+    "response_height": null
+  },
+  {
+    "file": "parameters.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/params/tallying",
+    "captured_at": "2026-10-30T16:31:16.634399+00:00",
+    "sha256": "09a27cdc495d56ab136d3286cb2a5577df656990ddc95c338390c563fcc6fb3d",
+    "response_height": null
+  },
+  {
+    "file": "pool.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/staking/v1beta1/pool",
+    "captured_at": "2026-10-30T16:31:17.128360+00:00",
+    "sha256": "a9110e3ca9aa6bea9d48ab6fedaa1950ceea134634e757f0756ac018bb95e0af",
+    "response_height": null
+  },
+  {
+    "file": "active_gauge.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1z0cxlq62a9dsjhz7g7hhgpuplcl32c0qeckhm9jyggln0rxq6z8syesq8j/smart/eyJhY3RpdmVfcHJvcHMiOnt9fQ==",
+    "captured_at": "2026-10-30T16:31:17.662340+00:00",
+    "sha256": "02599783be7987d5bc941a2c31bfe53a3c677595c286ab1fba2ce2f2c2e9cceb",
+    "response_height": null
+  },
+  {
+    "file": "block_after.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/base/tendermint/v1beta1/blocks/latest",
+    "captured_at": "2026-10-30T16:31:18.411002+00:00",
+    "sha256": "ad74d28314cbcd812f686edad5808c995b205b866e5bbdc2b6494b4c3d4dac58",
+    "response_height": null
+  }
+]

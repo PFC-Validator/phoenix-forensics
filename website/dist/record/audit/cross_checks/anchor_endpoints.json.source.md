@@ -1,21 +1,23 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/cross_checks/anchor_endpoints.json`
+- **Artifact:** `data/cross_checks/anchor_endpoints.json`
 - **SHA-256:** `6af7033c1a95da9399e93be14413cb7826d8313c546f4be2463f2887ee6c8841`
 - **Timestamp basis:** No original acquisition timestamp established; file mtime is not used as acquisition evidence.
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Primary endpoint comparison
+- **Acquisition / transformation:** Read-only browser queries against two public LCD providers; compared immediately without overwriting the earlier snapshot.
 
 ## Immediate source(s)
 
-- website build inputs
+- https://terra-phoenix-api.highstakes.ch
+- https://terra2.tdrsys.com
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- https://terra-phoenix-api.highstakes.ch
+- https://terra2.tdrsys.com
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Contract configuration matched exactly. Sequential live tally reads differed slightly and are preserved separately.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

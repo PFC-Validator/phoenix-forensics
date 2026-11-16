@@ -1,21 +1,22 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/leads/transactions/neutron_F1ADBC8070AE11C0FB2DC3B5DDD63A5D09ECCDF2BD2B7B2A42898E23E0BEB099.capture.json`
+- **Artifact:** `data/leads/transactions/neutron_F1ADBC8070AE11C0FB2DC3B5DDD63A5D09ECCDF2BD2B7B2A42898E23E0BEB099.capture.json`
 - **SHA-256:** `82d84120c457015bc3d91516d129f5dfd813d21d21182f570b4097eacded1978`
 - **Timestamp basis:** No original acquisition timestamp established; file mtime is not used as acquisition evidence.
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Derived dataset
+- **Acquisition / transformation:** Local transformation using `analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py`.
+- **Transformation:** `analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py`
 
 ## Immediate source(s)
 
-- website build inputs
+- https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/F1ADBC8070AE11C0FB2DC3B5DDD63A5D09ECCDF2BD2B7B2A42898E23E0BEB099
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- https://rest-archive.neutron.solva.solutions/cosmos/tx/v1beta1/txs/F1ADBC8070AE11C0FB2DC3B5DDD63A5D09ECCDF2BD2B7B2A42898E23E0BEB099
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Acquisition metadata, not a raw chain response. Exact request and acquisition time are retained; no identity attribution.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

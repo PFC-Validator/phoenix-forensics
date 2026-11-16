@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "code_id": "2726",
+      "chain_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/code/2726",
+      "release_url": "https://github.com/erisprotocol/contracts-terra/releases/download/v1.8.0-terra-amplifier/eris_staking_hub.wasm",
+      "sha256": "97ce00513d6913bc78470f85032854c034e6785967c530f168ed1895cba711a1",
+      "exact_release_binary_match": true,
+      "source_commit": "dbcaa4db951f2bec6e239ccf94f25c85f3bed80a"
+    },
+    {
+      "code_id": "1164",
+      "chain_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/code/1164",
+      "release_url": "https://github.com/erisprotocol/contracts-terra/releases/download/v1.4.0-ampgov/eris_gov_prop_gauges.wasm",
+      "sha256": "352ecfff841daf9435a57fb78a7da43a4e7e3f9c5fcb7b76db8a25b9bfa4d45a",
+      "exact_release_binary_match": true,
+      "source_commit": "94286f152ef010cff0b7368f3f3a25fe3823af79"
+    },
+    {
+      "code_id": "1162",
+      "chain_url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/code/1162",
+      "release_url": "https://github.com/erisprotocol/contracts-terra/releases/download/v1.4.0-ampgov/eris_gov_voting_escrow.wasm",
+      "sha256": "9b45bf8b5234a3f6a034a5d3ac211b5160fbcf162f1209608832663acb77d8ed",
+      "exact_release_binary_match": true,
+      "source_commit": "94286f152ef010cff0b7368f3f3a25fe3823af79"
+    }
+  ],
+  "independent_reproducible_build": false,
+  "scope": "Published release binary identity and associated source inspection; not a full security audit."
+}

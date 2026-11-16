@@ -1,0 +1,1 @@
+{"code":2, "message":"Error parsing into type cw20_base::msg::QueryMsg: unknown variant `config`, expected one of `balance`, `token_info`, `minter`, `allowance`, `all_allowances`, `all_accounts`, `marketing_info`, `download_logo`: query wasm contract failed", "details":[]}

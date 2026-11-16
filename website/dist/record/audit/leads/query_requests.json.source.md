@@ -1,21 +1,21 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/leads/query_requests.json`
+- **Artifact:** `data/leads/query_requests.json`
 - **SHA-256:** `11bd2dbac3e5766be881c012fc552c4693adb4f6cb948b5ce5640a2371b9892e`
 - **Timestamp basis:** No original acquisition timestamp established; file mtime is not used as acquisition evidence.
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Research locator inventory
+- **Acquisition / transformation:** Allowlisted transaction URLs from leads 1–59, or narrowly scoped query inventory; no identity-research section or full lead text copied.
 
 ## Immediate source(s)
 
-- website build inputs
+- Operator-supplied lead locators or explicitly constructed public governance queries
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- **Upstream not established from the available records.** No original public URL is asserted.
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Locators are not evidence of the claims. Captured primary responses and their acquisition logs establish which records were actually retrieved.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

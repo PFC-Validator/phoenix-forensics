@@ -1,21 +1,28 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/leads/transactions.json`
+- **Artifact:** `data/leads/transactions.json`
 - **SHA-256:** `d65eeba9efda7cc3b1014763e3eb4235e1f88e57c8ce6d35b3bf0fd2ed43c8fc`
 - **Timestamp basis:** No original acquisition timestamp established; file mtime is not used as acquisition evidence.
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Derived dataset
+- **Acquisition / transformation:** Local transformation using `analysis/integrate_lead_evidence.py`.
+- **Transformation:** `analysis/integrate_lead_evidence.py`
 
 ## Immediate source(s)
 
-- website build inputs
+- data/leads/capture_manifest.json
+- data/leads/query_manifest.json
+- data/leads/rpc_manifest.json
+- data/leads/evm_metadata_manifest.json
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- data/leads/capture_manifest.json
+- data/leads/query_manifest.json
+- data/leads/rpc_manifest.json
+- data/leads/evm_metadata_manifest.json
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Supplemental records only; earlier aggregate datasets are not incremented. Transfers, fee-share annotations, unknown units and unquantified events remain distinct. Findings are bounded by their explicit limits. No identity attribution added.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

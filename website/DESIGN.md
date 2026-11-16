@@ -290,3 +290,7 @@ No-JavaScript, `?motion=static`, print and reduced-motion modes preserve the com
 - **Don't** add ornamental shadows or persistent motion to this quiet document world.
 - **Don't** infer an error palette or downloaded monospace family from the figure-specific system stack.
 - **Don't** hide timeline facts between steps or loop the chronology automatically.
+
+## ampLUNA voting explanation
+
+The homepage retains the forest hero and dated tally panel. An ordered three-step explanation uses open columns with green rules, stacking into one column below 780px. Voter and proposal comparisons use the existing accessible horizontal-scroll tables. All information is available without JavaScript or motion.

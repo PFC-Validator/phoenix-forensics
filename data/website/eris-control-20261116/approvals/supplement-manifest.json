@@ -1,0 +1,58 @@
+[
+  {
+    "file": "2023-01-02_8789_revised-eris-grant-proposal.md",
+    "url": "https://raw.githubusercontent.com/phoenix-directive/docs/ee361d66c5f9e3603ba2efa55376914caed2eb95/common_backup/2023-01-02_8789_revised-eris-grant-proposal.md",
+    "captured_at_utc": "2026-11-16T17:40:55.572094+00:00",
+    "status": 200,
+    "sha256": "1ae667d52fff36fd6af1091b0faebe1c8147043d61965f400e2285cee884e495"
+  },
+  {
+    "file": "2024-05-28_20123_terra-liquidity-alliance.md",
+    "url": "https://raw.githubusercontent.com/phoenix-directive/docs/ee361d66c5f9e3603ba2efa55376914caed2eb95/common_backup/2024-05-28_20123_terra-liquidity-alliance.md",
+    "captured_at_utc": "2026-11-16T17:40:57.845732+00:00",
+    "status": 200,
+    "sha256": "b0f553b395d3b982dc3c912326214aba8bcc96a9b93e2afdebc8fa740679ffba"
+  },
+  {
+    "file": "2024-06-29_23826_the-phoenix-directive-updated.md",
+    "url": "https://raw.githubusercontent.com/phoenix-directive/docs/ee361d66c5f9e3603ba2efa55376914caed2eb95/common_backup/2024-06-29_23826_the-phoenix-directive-updated.md",
+    "captured_at_utc": "2026-11-16T17:41:00.037899+00:00",
+    "status": 200,
+    "sha256": "a8e09e86af82f91b0e925d43b5c6cf30c7dc52dc27aaf77c33226fbc41d9d4e3"
+  },
+  {
+    "file": "2024-08-12_24385_launching-terra-liquidity-alliance.md",
+    "url": "https://raw.githubusercontent.com/phoenix-directive/docs/ee361d66c5f9e3603ba2efa55376914caed2eb95/common_backup/2024-08-12_24385_launching-terra-liquidity-alliance.md",
+    "captured_at_utc": "2026-11-16T17:41:02.237593+00:00",
+    "status": 200,
+    "sha256": "b4023cebacad7d606be70c6637ce7a23a087983b2e6f32d66374ca48e63f5c92"
+  },
+  {
+    "file": "2024-09-26_25020_phoenix-directive-launching-treasury.md",
+    "url": "https://raw.githubusercontent.com/phoenix-directive/docs/ee361d66c5f9e3603ba2efa55376914caed2eb95/common_backup/2024-09-26_25020_phoenix-directive-launching-treasury.md",
+    "captured_at_utc": "2026-11-16T17:41:04.414514+00:00",
+    "status": 200,
+    "sha256": "caedb67592333f6cf3f6b85994c9afcf234a0181ce9e597aa3529e56d0e6ac53"
+  },
+  {
+    "file": "native-4813.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4813",
+    "captured_at_utc": "2026-11-16T17:41:06.633846+00:00",
+    "status": 200,
+    "sha256": "b40e6bc004c6ae03b2c7a648f0927f3944e3b92d215837a3e0e5865b1f2e86c9"
+  },
+  {
+    "file": "native-4823.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4823",
+    "captured_at_utc": "2026-11-16T17:41:09.142655+00:00",
+    "status": 200,
+    "sha256": "49b843f6c5a4e9c969a1e90ca3488d7189d3c8978f05b868bdbe200c6ee7db36"
+  },
+  {
+    "file": "native-4836.json",
+    "url": "https://terra-phoenix-api.highstakes.ch/cosmos/gov/v1/proposals/4836",
+    "captured_at_utc": "2026-11-16T17:41:11.657981+00:00",
+    "status": 200,
+    "sha256": "125d76042873847b51c5ab7ed79e3291a8f1d033fc361c9ab38168d0839be24b"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "file": "wasmd-v0.54.10-keeper.go",
+  "url": "https://raw.githubusercontent.com/CosmWasm/wasmd/v0.54.10/x/wasm/keeper/keeper.go",
+  "captured_at": "2026-11-16T17:47:07.810392+00:00",
+  "sha256": "ee7c2049dc890c81d2addc3abad9f3a606fede19ef3ade96fd141cea0cb8eb89",
+  "scope": "Upstream implementation explains administrator migration authorization and replacement code execution. Not a byte-matched audit of the running Terra node or an executed drain test."
+}

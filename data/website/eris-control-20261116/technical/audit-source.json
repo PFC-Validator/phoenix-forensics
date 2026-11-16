@@ -1,0 +1,6 @@
+{
+  "url": "https://raw.githubusercontent.com/SCV-Security/PublicReports/main/Eris%20Protocol/Eris%20Protocol%20-%20Pheonix%20Treasury%20Contract%20-%20Audit%20Report%20v1.0.pdf",
+  "sha256": "79f29f4e5f7c2158b8c1273188763492a09a879ea360c15513695f686364508b",
+  "access_date": "2026-11-16",
+  "extraction": "Docling stalled during import and was cancelled; pdftotext -layout used as explicit fallback. Scope functionality on PDF page 3; clawback observation on PDF page 7."
+}

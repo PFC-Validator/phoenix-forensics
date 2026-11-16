@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "file": "proposal-4855.json",
+      "url": "https://terra2.tdrsys.com/cosmos/gov/v1/proposals/4855",
+      "retrieved_at": "2026-11-14T02:11:45.999533+00:00",
+      "sha256": "7720fed34b1f36129dec9018d195356f0a5bbdf54ee2d9ff01559c81c57bb93e"
+    },
+    {
+      "file": "a296-proposal.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6Mjk2fX0=",
+      "retrieved_at": "2026-11-14T02:11:41.440744+00:00",
+      "sha256": "f5a5879b9064275cbe6d3c0e7cc271fefdcf0f1c3d1bfda534cc0d0a811b823e"
+    },
+    {
+      "file": "a296-votes.json",
+      "url": "https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoyOTYsImxpbWl0IjoxMDB9fQ==",
+      "retrieved_at": "2026-11-14T02:11:41.436982+00:00",
+      "sha256": "1357db5c8b42ecf27ef8b3b910aa4a4d315a328f2fd19eae59343cd3a98b6629"
+    }
+  ]
+}

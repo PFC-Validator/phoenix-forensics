@@ -1,0 +1,22 @@
+[
+  {
+    "author_public_handle": "0xPhilipp",
+    "url": "https://forum.phoenix.money/t/47/55",
+    "post_id": 195,
+    "created_at": "2026-10-19T20:54:48.315Z",
+    "summary": "ERIS retained TLA administration because it continued to develop, maintain and operate the contracts. The author said unresolved concerns about the Board made transfer inappropriate in the ERIS team’s view, and welcomed Emergency Supervisor review.",
+    "treatment": "Paraphrase of relevant contract-control discussion; unrelated allegations and identifying user metadata omitted. Original response SHA-256 is retained in the capture manifest.",
+    "original_capture": "topic-47-extra-20.json",
+    "original_response_sha256": "18f402de8ae625253d680462bb141b7e85f73766f925e10326f96829134a8f44"
+  },
+  {
+    "author_public_handle": "Vini",
+    "url": "https://forum.phoenix.money/t/64/5",
+    "post_id": 287,
+    "created_at": "2026-11-02T09:58:22.246Z",
+    "summary": "The author supported PF Stewardship administering PF/TLA contracts, PF source-code and maintenance-documentation access with clear licensing, and completion of the published handover. He expressly described this as his individual view, not an agreed Board position.",
+    "treatment": "Paraphrase of relevant contract-control discussion; unrelated allegations and identifying user metadata omitted. Original response SHA-256 is retained in the capture manifest.",
+    "original_capture": "topic-64.json",
+    "original_response_sha256": "cfc54f971cfffadbfc11f71dea0ff006254216818070e3f9ca524f87804f0895"
+  }
+]

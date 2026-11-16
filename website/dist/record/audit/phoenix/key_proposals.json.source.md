@@ -1,21 +1,23 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/phoenix/key_proposals.json`
+- **Artifact:** `data/phoenix/key_proposals.json`
 - **SHA-256:** `2298f3de1b708b4d52d2b6bb19a51f8f4f1b585d52ad9e7e02d59f032e35624a`
 - **Artifact timestamp (UTC):** 2026-10-26T14:13:49.903797+00:00
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Primary source response
+- **Acquisition / transformation:** Read-only HTTP GET; response body preserved without intentional modification.
 
 ## Immediate source(s)
 
-- website build inputs
+- https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6IjxlYWNoIG9mIEExMTYsQTE1OSxBMTc1LEEyMDksQTIxNSxBMjQ5LEEyNjYsQTI3MSxBMjcyPiJ9fQ==
+- https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoiPHNhbWUgSURzPiIsImxpbWl0IjoxMDB9fQ==
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJwcm9wb3NhbCI6eyJwcm9wb3NhbF9pZCI6IjxlYWNoIG9mIEExMTYsQTE1OSxBMTc1LEEyMDksQTIxNSxBMjQ5LEEyNjYsQTI3MSxBMjcyPiJ9fQ==
+- https://terra-phoenix-api.highstakes.ch/cosmwasm/wasm/v1/contract/terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup/smart/eyJsaXN0X3ZvdGVzIjp7InByb3Bvc2FsX2lkIjoiPHNhbWUgSURzPiIsImxpbWl0IjoxMDB9fQ==
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Fresh payload and ballot queries for the listed proposals.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

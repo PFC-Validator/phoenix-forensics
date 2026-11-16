@@ -1,21 +1,22 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/leads/queries/injective_evm_0xa00c59ff5a080d2b954d0c75e46e22a0c371235a_decimals.capture.json`
+- **Artifact:** `data/leads/queries/injective_evm_0xa00c59ff5a080d2b954d0c75e46e22a0c371235a_decimals.capture.json`
 - **SHA-256:** `52cd6e58dc37e879e657c4039538e1f64a4ee68fb0761701bc9247724fea5820`
 - **Timestamp basis:** No original acquisition timestamp established; file mtime is not used as acquisition evidence.
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Derived dataset
+- **Acquisition / transformation:** Local transformation using `analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py`.
+- **Transformation:** `analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py`
 
 ## Immediate source(s)
 
-- website build inputs
+- https://sentry.evm-rpc.injective.network
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- https://sentry.evm-rpc.injective.network
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Acquisition metadata, not a raw chain response. Exact request and acquisition time are retained; no identity attribution.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

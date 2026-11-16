@@ -1,21 +1,22 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/leads/queries/base_0x833589fcd6edb6e08f4c7c32d4f71b54bda02913_decimals.capture.json`
+- **Artifact:** `data/leads/queries/base_0x833589fcd6edb6e08f4c7c32d4f71b54bda02913_decimals.capture.json`
 - **SHA-256:** `8f117aac393799a4210eb5e44e4db37b7558db8fb50fe02d88d5f3f3832d92ee`
 - **Timestamp basis:** No original acquisition timestamp established; file mtime is not used as acquisition evidence.
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Derived dataset
+- **Acquisition / transformation:** Local transformation using `analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py`.
+- **Transformation:** `analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py`
 
 ## Immediate source(s)
 
-- website build inputs
+- https://base-rpc.publicnode.com
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- https://base-rpc.publicnode.com
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Acquisition metadata, not a raw chain response. Exact request and acquisition time are retained; no identity attribution.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

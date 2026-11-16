@@ -1,21 +1,22 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/leads/queries/arbluna_token_info.capture.json`
+- **Artifact:** `data/leads/queries/arbluna_token_info.capture.json`
 - **SHA-256:** `fc9c2c7f85a16b92cce7bc0cef344160d8f939b1aaefc1989dd46b8f809946fd`
 - **Timestamp basis:** No original acquisition timestamp established; file mtime is not used as acquisition evidence.
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Derived dataset
+- **Acquisition / transformation:** Local transformation using `analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py`.
+- **Transformation:** `analysis/collect_lead_transactions.py; analysis/collect_lead_queries.py; analysis/crosscheck_lead_transactions.py`
 
 ## Immediate source(s)
 
-- website build inputs
+- https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490/smart/eyJ0b2tlbl9pbmZvIjp7fX0=
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- https://terra2.tdrsys.com/cosmwasm/wasm/v1/contract/terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490/smart/eyJ0b2tlbl9pbmZvIjp7fX0=
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Acquisition metadata, not a raw chain response. Exact request and acquisition time are retained; no identity attribution.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.

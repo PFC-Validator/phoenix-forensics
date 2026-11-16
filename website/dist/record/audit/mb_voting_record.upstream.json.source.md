@@ -1,21 +1,22 @@
 # Source and provenance
 
-- **Artifact:** `website/dist/record/audit/mb_voting_record.upstream.json`
+- **Artifact:** `data/mb_voting_record.upstream.json`
 - **SHA-256:** `b9a09e5b81b61217dbe46fab59da4a7b3f4168896493c72ba39ddf97ed9d0d0e`
 - **Artifact timestamp (UTC):** 2026-10-26T19:09:26.003436+00:00
-- **Classification:** Website record or generated presentation
-- **Acquisition / transformation:** Existing website build/preservation pipeline; no independent re-download by this provenance script.
+- **Classification:** Derived dataset
+- **Acquisition / transformation:** Local transformation using `analysis/generate_provenance.py`.
+- **Transformation:** `analysis/generate_provenance.py`
 
 ## Immediate source(s)
 
-- website build inputs
+- data/mb_voting_record.json
 
 ## Upstream original source(s)
 
-- data/source_index.json
+- data/mb_voting_record.json
 
 ## Scope, limits, and notes
 
-Generated presentation is not primary evidence; use the linked original response where available.
+Operation-level upstream index generated from embedded source locators; no new chain data.
 
 This sidecar records provenance only. It does not independently validate every assertion in the artifact.
